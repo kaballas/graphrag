@@ -1,0 +1,130 @@
+--- Record 3431 ---
+Component: Availability Service
+Environment: Cloud Foundry
+Title: Deprecation of Permissions APIs
+Description: All /v1/permissions APIs are deprecated and will be retired with the 2408a release.  Please migrate to use /v1/groups/{groupId}/users APIs.
+Action: Required
+Lifecycle: Deprecated
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-03-07
+Valid as Of: 2024-03-07
+Version: Cloud
+
+--- Record 3432 ---
+Component: Availability Service
+Environment: Cloud Foundry
+Title: Rescoped Visibility of Testers
+Description: The option to switch visibility of testers of any type to public is disabled.  Newly created push testers must be private.  Testers of type ExpServPush can only be created by SysAdmins, public Site24x7 testers must be quota enabled.
+Action: Info only
+Lifecycle: Deprecated
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-03-07
+Valid as Of: 2024-03-07
+Version: Cloud
+
+--- Record 3433 ---
+Component: Automation Pilot
+Environment: Cloud Foundry
+Title: New Example Scenarios
+Description: New example commands were added to the Automation Pilot Samples Repository. They demonstrate the automation of various scenarios such as check HANA Cloud availability, stop/start all Cloud Foundry applications, and so on. See Example Scenarios.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-03-07
+Valid as Of: 2024-03-07
+Version: Cloud
+
+--- Record 3434 ---
+Component: Availability Service
+Environment: Cloud Foundry
+Title: Option to Disable Certificate Chain Validation
+Description: Site24x7 certificate monitors support an additional option to enable/disable certificate chain validation. This enables test scenarios with self-signed certificates or custom PKI setups.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-03-07
+Valid as Of: 2024-03-07
+Version: Cloud
+
+--- Record 3435 ---
+Component: Custom Domain Service
+Environment: Neo
+Title: New Optional Parameter for list-custom-domain-mappings
+Description: You can now use the optional parameter --ssl-host when running the list-custom-domain-mappings command. This parameter lets you filter custom domain mappings per given SSL host.  See list-custom-domain-mappings.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-03-07
+Valid as Of: 2024-03-07
+Version: Cloud
+
+--- Record 3436 ---
+Component: Forms Service by Adobe
+Environment: Cloud Foundry
+Title: Service Plan Free
+Description: The SAP Forms service now provides the following new feature:You can use service plan free to test and explore the features provided by the SAP Forms service.For more information, see SAP Forms Service by Adobe (SAP Discovery Center).
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2024-03-07
+Version: Cloud
+
+--- Record 3437 ---
+Component: HTML5 Applications
+Environment: Cloud Foundry,Kyma
+Title: Security Recommendations
+Description: Security recommendations for the the application router have been published.   See SAP BTP Security Recommendations.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-03-07
+Valid as Of: 2024-03-07
+Version: Cloud
+
+--- Record 3438 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: SAP BTP Operator becomes a default module
+Description: SAP BTP Operator has been upgraded to a default Kyma module and is now automatically added to all new clusters. This enhancement ensures that Service Management is readily available. For more information, read the Kyma Modules document.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-03-07
+Valid as Of: 2024-03-07
+Version: Cloud
+
+--- Record 3439 ---
+Component: Object Store
+Environment: Cloud Foundry,Kyma
+Title: Azure: A new approach for auto-expiration rules deletion
+Description: A new approach to delete an auto-expiration rule has been introduced. Please refer Auto Expiration of Blobs and Blob Versions for more details.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-03-07
+Valid as Of: 2024-03-07
+Version: Cloud
+
+--- Record 3440 ---
+Component: SAP BTP, Cloud Foundry Runtime
+Environment: Cloud Foundry
+Title: Version 37.5.0
+Description: Cloud Foundry has been updated from 37.0.0 to 37.5.0.      https://github.com/cloudfoundry/cf-deployment/releases/tag/v37.5.0  https://github.com/cloudfoundry/cf-deployment/releases/tag/v37.4.0  https://github.com/cloudfoundry/cf-deployment/releases/tag/v37.3.0  https://github.com/cloudfoundry/cf-deployment/releases/tag/v37.2.0  https://github.com/cloudfoundry/cf-deployment/releases/tag/v37.1.0    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-03-07
+Valid as Of: 2024-03-07
+Version: Cloud
+

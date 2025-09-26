@@ -1,0 +1,130 @@
+--- Record 2951 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Preferences - User Account Details Added
+Description: You can now find the User Account option in the Preferences section, where you can access key user details such as Name, Email, Identity Provider, Role Collections, and User Groups. This facilitates easier access to all your details under one single option.  See Use Preferences.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-05-24
+Valid as Of: 2024-05-24
+Version: Cloud
+
+--- Record 2952 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Google's third-party cookies deprecation
+Description: Google plans to phase out support for third-party cookies. For more information, see The Privacy Sandbox Timeline for the Web and Preparing and Testing Your Solution for Third-Party Cookie Deprecation.  A third-party deprecation trial allows users to re-enable cookies until December 27, 2024. To enable the depreciation trial, all applications' responses must include a deprecation trial token obtained for each affected domain. For SAP BTP, Kyma runtime workloads, you must manually add the token using the HTTP header.   Action: Consider participating in the third-party deprecation trial. To learn how to apply the tokens for Kyma workloads, read Deprecation Trial for Google's Third-Party Cookies and follow the tutorial Apply Third-Party Cookie Deprecation Trial Tokens for Kyma Runtime Workloads.
+Action: Recommended
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-05-28
+Valid as Of: 2024-05-23
+Version: Cloud
+
+--- Record 2953 ---
+Component: Data Quality Services
+Environment: Cloud Foundry,Neo
+Title: Enhancements
+Description:   The service is now available in the US East region (cf-us10) on Amazon Web Service (AWS).   Improvements were made to geocoding in Japan.   The new DQMMICRO_VIEWER role allows users to view information in the UI but not change it.   
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2024-05-23
+Version: Cloud
+
+--- Record 2954 ---
+Component: SAP Build Work Zone, advanced edition
+Environment: Cloud Foundry
+Title: Unified Access Control Settings
+Description: The access control settings have been aligned across all workspace screens and offer the same access options:  Specific users or user lists.  Specific roles (for site admins).  All internal users.  All external users (when enabled).  All users.  
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-05-16
+Valid as Of: 2024-05-23
+Version: Cloud
+
+--- Record 2955 ---
+Component: SAP Build Work Zone, advanced edition
+Environment: Cloud Foundry
+Title: Workspace Clickable Menu
+Description: For a clickable workspace menu item, the company admin can decide whether to render the workspace with a header or not:  When a workspace header is rendered, workpages in the workspace navigation bar will be expanded as a vertical sub menu (no change).  When a workspace header is not rendered, when clicking the workspace menu item, all workspace navigation bar items will be displayed with an horizontal layout, (similar as 'My Workspace').  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-05-16
+Valid as Of: 2024-05-23
+Version: Cloud
+
+--- Record 2956 ---
+Component: SAP Cloud Application Event Hub
+Environment: Other
+Title: Event Connectivity service plan
+Description: Consume SAP business events published to SAP Event Broker using an SAP Integration Suite tenant with an integration flow that exposes a webhook URL endpoint. See SAP Integration Suite as a Consumer.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-05-23
+Valid as Of: 2024-05-23
+Version: Cloud
+
+--- Record 2957 ---
+Component: SAP S/⁠4HANA Cloud for Credit Integration
+Environment: Cloud Foundry
+Title: Integration with new credit agency: Creditsafe
+Description: The credit agency Creditsafe is now connected to SAP S/⁠4HANA Cloud for credit integration.   More information:  Available Credit Agency Products and Features    Your Tasks for Integrating a New Credit Agency  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Finance
+Latest Revision: 2024-05-23
+Valid as Of: 2024-05-23
+Version: Cloud
+
+--- Record 2958 ---
+Component: SAP S/⁠4HANA Cloud for Credit Integration
+Environment: Cloud Foundry
+Title: New entity available for the Credit Integration Service API
+Description: In our Credit Integration Service API, the new entity Latest Credit Report is available. Use it to receive the latest credit report of a credit agency in XML or JSON format.   More information: Latest Credit Report  (Log on with your SAP ID to access this document.)
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Finance
+Latest Revision: 2024-05-23
+Valid as Of: 2024-05-23
+Version: Cloud
+
+--- Record 2959 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Handling Third-Party Cookies
+Description: Storage Access API is now available for all SAP Cloud Identity Services tenants.  Action: We recommend you to test your application. For more information on Third-Party Cookies Deprecation. See Handling Third Party Cookies Deprecation in Identity Authentication and Testing Your Solution For Breakage.
+Action: Recommended
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-05-22
+Valid as Of: 2024-05-22
+Version: 26120
+
+--- Record 2960 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Handling rate limits for Microsoft Entra ID read operations
+Description: Microsoft Entra ID source and proxy provisioning systems are now enhanced to support retry for a failed operation due to occurred exception 'Too many requests (429)'.   Previously, this option was possible only for the Microsoft Entra ID target system.  See Handle Failed Operations.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-05-22
+Valid as Of: 2024-05-22
+Version: 26120
+

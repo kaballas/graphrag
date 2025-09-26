@@ -1,0 +1,130 @@
+--- Record 3301 ---
+Component: Cloud Portal Service
+Environment: Cloud Foundry
+Title: Third Party Cookies Deprecation
+Description: Starting from April 1st 2024 third-party cookies will be restricted on Google Chrome and Microsoft Edge. This restriction can block the access to content that runs in the site iframe and doesn’t use SAP-managed domains such as ondemand.com or cloud.sap. Namely, it will affect non-SAP content, sites that are using a full custom domain, and sites that are using a standalone appRouter such as in the case of a launchpad module.  To avoid this situation, customers can apply to participate in the first-party deprecation trial, and request Google to issue them a token that will temporarily re-enable third-party cookies until December 27th, 2024”. For more information, see Request more time to prepare with the third-party cookie deprecation trial for top-level sites.  Action:  If affected, customers should get familiar with the deprecation trial program and request a token from Google. Once the token is issued, they should open a support ticket on component EP-WZ-DMN and provide SAP the token details.  Official SAP Note: 3409306 . 
+Action: Recommended
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-03-26
+Valid as Of: 2024-04-01
+Version: Cloud
+
+--- Record 3302 ---
+Component: SAP Build Work Zone, advanced edition
+Environment: Cloud Foundry
+Title: Third Party Cookies Deprecation
+Description: Starting from April 1st 2024 third-party cookies will be restricted on Google Chrome and Microsoft Edge. This restriction can block the access to content that runs in the site iframe and doesn’t use SAP-managed domains such as ondemand.com or cloud.sap. Namely, it will affect non-SAP content, sites that are using a full custom domain, and sites that are using a standalone appRouter such as in the case of a launchpad module.  To avoid this situation, customers can apply to participate in the first-party deprecation trial, and request Google to issue them a token that will temporarily re-enable third-party cookies until December 27th, 2024. For more information, see Request more time to prepare with the third-party cookie deprecation trial for top-level sites.  Action:  If affected, customers should get familiar with the deprecation trial program and request a token from Google. Once the token is issued, they should open a support ticket on component EP-WZ-DMN and provide SAP the token details.  Official SAP Note: 3409306 . 
+Action: Recommended
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-04-01
+Valid as Of: 2024-04-01
+Version: Cloud
+
+--- Record 3303 ---
+Component: SAP Build Work Zone, standard edition
+Environment: Cloud Foundry
+Title: Third Party Cookies Deprecation
+Description: Starting from April 1st 2024 third-party cookies will be restricted on Google Chrome and Microsoft Edge. This restriction can block the access to content that runs in the site iframe and doesn’t use SAP-managed domains such as ondemand.com or cloud.sap. Namely, it will affect non-SAP content, sites that are using a full custom domain, and sites that are using a standalone appRouter such as in the case of a launchpad module.  To avoid this situation, customers can apply to participate in the first-party deprecation trial, and request Google to issue them a token that will temporarily re-enable third-party cookies until December 27th, 2024. For more information, see Request more time to prepare with the third-party cookie deprecation trial for top-level sites.  Action:  If affected, customers should get familiar with the deprecation trial program and request a token from Google. Once the token is issued, they should open a support ticket on component EP-WZ-DMN and provide SAP the token details.  Official SAP Note: 3409306 . 
+Action: Recommended
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-04-01
+Valid as Of: 2024-04-01
+Version: Cloud
+
+--- Record 3304 ---
+Component: Business Data Orchestration
+Environment: Cloud Foundry
+Title: Create a Destination with Client Certificate Authentication
+Description: You can use client certificate authentication to establish an HTTP connection between your Business Data Orchestration application running on an SAP BTP, ABAP environmentt and an SAP Destination service configured for "ClientCertificateAuthentication". See Create a Destination with Client Certificate Authentication.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-04-01
+Valid as Of: 2024-04-01
+Version: Cloud
+
+--- Record 3305 ---
+Component: Business Data Orchestration
+Environment: Cloud Foundry
+Title: Display Clients
+Description: You can now display read-only information of all clients connected to an SAP Master Data Integration tenant. For more information, see Display Clients.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-04-01
+Valid as Of: 2024-04-01
+Version: Cloud
+
+--- Record 3306 ---
+Component: Business Data Orchestration
+Environment: Cloud Foundry
+Title: Rebranding Changes
+Description: We have renamed the SAP Master Data Orchestration. The service will now be referred to as Business Data Orchestration.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-04-01
+Valid as Of: 2024-04-01
+Version: Cloud
+
+--- Record 3307 ---
+Component: Document Management Service
+Environment: Cloud Foundry
+Title: Availability of Export Repository API
+Description: You can now export your repository, check the export status, and download the repository's metadata using the REST-based APIs.  Refer to a new API published on SAP Business Accelerator Hub.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-04-01
+Valid as Of: 2024-04-01
+Version: Cloud
+
+--- Record 3308 ---
+Component: Document Management Service
+Environment: Cloud Foundry
+Title: Updates to Offboarding Process
+Description: With this release, we've updated the offboarding process for Document Management Service, Integration Option. To get started, run the APIs to download the repository's metadata, and for content, use desktop clients.  See Offboard Document Management Service, Integration Option.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-04-01
+Valid as Of: 2024-04-01
+Version: Cloud
+
+--- Record 3309 ---
+Component: Edge Integration Cell
+Environment: Cloud Foundry
+Title: Software Version Update
+Description:     Edge Integration Cell: 8.14.*      Increment: 2401    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-03-29
+Valid as Of: 2024-03-29
+Version: 2401
+
+--- Record 3310 ---
+Component: Mobile Services
+Environment: Cloud Foundry
+Title: Supported versions for Cloud Build Service
+Description: We've updated the supported versions for the Cloud Build service:    March 2024 - Mobile Development Kit SDK version, iOS version, and notes      February 2024    Mobile Development Kit SDK version, Android and iOS versions, and notes      SAP Asset Manager SDK version, Android and iOS versions, and notes          January 2024    Mobile Development Kit SDK version, Android and iOS versions, and notes      SAP Asset Manager Android and iOS versions, and notes          See Supported Build Types, Client Types, Packaging Details, and Build Options. 
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2024-03-29
+Version: Cloud
+

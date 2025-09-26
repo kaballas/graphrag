@@ -1,0 +1,130 @@
+--- Record 3241 ---
+Component: SAP Datasphere
+Environment: Cloud Foundry
+Title: Features for Version 2024.8
+Description: New and changed features are available for administration, data integration, data marketplace, data modeling, and others.  For more information, see What's New in SAP Datasphere 2024.8. 
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-04-11
+Valid as Of: 2024-04-11
+Version: Cloud
+
+--- Record 3242 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Identity Authentication Documentation and Release Notes Changes
+Description: Starting from April 10, 2024, all updates or changes relating to Identity Authentication, Identity Provisioning, Identity Directory, and Authorization Management will be found under the umbrella of the Cloud Identity Services component only.  The documentation for these four services is now available under this single component. See SAP Cloud Identity Services documentation.  If you still use Identity Provisioning tenants in the Neo environment, updates and documentation are still found under the Identity Provisioning component for Neo, until the deprecation of Neo as previously announced. See:  Identity Provisioning in the Neo Environment  What's New for Identity Provisioning in the Neo Environment  
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-04-10
+Valid as Of: 2024-04-10
+Version: 25926
+
+--- Record 3243 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: IdP Proxy Scenarios
+Description: Concurrent access option is now available for IdP proxy mode scenarios. See Configure Identity Federation.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-04-10
+Valid as Of: 2024-04-10
+Version: 25926
+
+--- Record 3244 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Regular Upgrade
+Description: Cloud Identity Services have been upgraded.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-04-10
+Valid as Of: 2024-04-10
+Version: 25926
+
+--- Record 3245 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: SAP Intelligent Agriculture connector
+Description: Identity Provisioning supports SAP Intelligent Agriculture connector.  You can configure it as source, target and proxy system for your provisioning scenarios. See:      SAP Intelligent Agriculture      SAP Intelligent Agriculture (Target)      SAP Intelligent Agriculture (Proxy)    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-04-10
+Valid as Of: 2024-04-10
+Version: 25926
+
+--- Record 3246 ---
+Component: Identity Provisioning
+Environment: Neo
+Title: Identity Provisioning release notes and documentation changes
+Description: Starting from April 10, 2024, all updates or changes relating to Identity Authentication, Identity Provisioning, Identity Directory, and Authorization Management will be found under the umbrella of the Cloud Identity Services component only.  The documentation for these four services is now available under this single component. For more information, see:    SAP Cloud Identity Services documentation      What's New for Cloud Identity Services      If you still use Identity Provisioning tenants in the Neo environment, updates and documentation are still found under the Identity Provisioning component for Neo, until the deprecation of Neo as previously announced. For more information, see:    Identity Provisioning on Neo Environment documentation      What's New for Identity Provisioning on Neo Environment    
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-04-10
+Valid as Of: 2024-04-10
+Version: Cloud
+
+--- Record 3247 ---
+Component: Identity Provisioning
+Environment: Neo
+Title: SAP Intelligent Agriculture connector
+Description: Identity Provisioning supports SAP Intelligent Agriculture connector. It is enabled for standalone tenants running on SAP Cloud Identity infrastructure and SAP BTP, Neo environment, and bundle tenants running on SAP Cloud Identity infrastructure.  You can configure it as source, target and proxy system for your provisioning scenarios. For more information, see:    SAP Intelligent Agriculture (Source)      SAP Intelligent Agriculture (Target)      SAP Intelligent Agriculture (Proxy)      
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-04-10
+Valid as Of: 2024-04-10
+Version: Cloud
+
+--- Record 3248 ---
+Component: SAP BTP Developer's Guide
+Environment: Cloud Foundry,Kyma
+Title: New Option for Integrating with SAP Build Work Zone, Standard Edition
+Description: You can now integrate your application with SAP Build Work Zone, standard edition through Common Data Model. For more information about the Common Data Model, see About the Common Data Model and Developing HTML5 Business Solutions as Content Providers. Depending on the runtime you're using, check the following tutorials:    For SAP BTP, Cloud Foundy runtime, see Integrate Your Application with SAP Build Work Zone, Standard Edition.      For SAP BTP, Kyma runtime, see Integrate Your Application Deployed in SAP BTP, Kyma Runtime with SAP Build Work Zone, Standard Edition.    
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-04-10
+Valid as Of: 2024-04-10
+Version: Cloud
+
+--- Record 3249 ---
+Component: Application Logging Service
+Environment: Cloud Foundry,Neo
+Title: Use of Comments for Documentation Feedback
+Description: You can now add comments to provide feedback directly on SAP Help Portal for SAP Application Logging Service and SAP Application Logging Service for the Neo Environment. See Giving Feedback on SAP Documentation and Creating Better Documentation Together: SAP Help Portal’s new approach to Collaboration and Feedback.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-04-09
+Valid as Of: 2024-04-09
+Version: Cloud
+
+--- Record 3250 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Telemetry module: Update to version 1.12.0
+Description: The new version brings the following improvements:  Traces and Metrics:      Update to OTel Collector 0.96.0 (#882)    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-03-25
+Valid as Of: 2024-04-09
+Version: Cloud
+

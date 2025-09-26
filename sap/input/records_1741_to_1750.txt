@@ -1,0 +1,130 @@
+--- Record 1741 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Region: US West (Oregon)
+Description: US West (Oregon) (us-west-2) is now available as a new region for use with enterprise accounts running on Amazon Web Services.  See Regions for the Kyma Environment and Provisioning and Updating Parameters in the Kyma Environment.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-12-23
+Valid as Of: 2024-12-23
+Version: Cloud
+
+--- Record 1742 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Advanced Functions for Decisions
+Description: You can now use two new functions, MINVALUE and MAXVALUE in your decisions. For more information, see Functions.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-12-23
+Valid as Of: 2024-12-23
+Version: Cloud
+
+--- Record 1743 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: Premium Edition Supported Languages
+Description: SAP Document AI now supports additional languages.  See Supported Languages (Embedded Edition and Premium Edition).
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Intelligent Technologies
+Latest Revision: 2024-12-23
+Valid as Of: 2024-12-23
+Version: Cloud
+
+--- Record 1744 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: Support for Payment Advice Documents in XLS and XLSX Format
+Description: SAP Document AI now supports paymentAdvice documents in XLS and XLSX file types.  See Supported File Types (Base Edition) and Supported File Types (Embedded Edition and Premium Edition).
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Intelligent Technologies
+Latest Revision: 2024-12-23
+Valid as Of: 2024-12-23
+Version: Cloud
+
+--- Record 1745 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: Supported Languages for Extraction Using Template
+Description: SAP Document AI now supports additional languages for extraction using template.  See Supported Languages.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Intelligent Technologies
+Latest Revision: 2024-12-23
+Valid as Of: 2024-12-23
+Version: Cloud
+
+--- Record 1746 ---
+Component: SAP Dynamic Forms
+Environment: Cloud Foundry
+Title: Release 2411
+Description:   GPS Custom Control: While working with a form on the mobile or web application, users can enter their location or get a pre-populated location needed for their work. For more information, see GPS Custom Control.  Measurement Point Custom Control: Users can take measurement readings via a form on the mobile or web application. For more information, see Measurement Point Custom Control.    Built-in Support: Context-aware embedded support to provide direct access to knowledge base and support channels.      Support for S/4HANA Service: Users can view and complete form instances associated with Service Orders and Service Items online and offline. For more information, see:    SAP Dynamic Forms Configuration for SAP Service and Asset Manager    Working with Dynamic Forms      SAP Dynamic Forms Scenarios      Form Detail Selection          Support of SAP Dynamic Forms for SAP Service and Asset Manager for Windows 3.0. For more information, see SAP Dynamic Forms Configuration for SAP Service and Asset Manager for Windows.      Support of importing Form Definitions. For more information, see Importing Form Definitions.    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-01-09
+Valid as Of: 2024-12-23
+Version: Cloud
+
+--- Record 1747 ---
+Component: Joule
+Environment: Cloud Foundry
+Title: New and Upgraded Use Cases Now Supported in SAP SuccessFactors
+Description: Based on the new conversational experience, we’ve introduced new use cases and upgraded more existing transactional cases. For details, refer to New and Upgraded Use Cases in Joule.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Human Resources
+Latest Revision: 2024-12-13
+Valid as Of: 2024-12-20
+Version: Cloud
+
+--- Record 1748 ---
+Component: Joule
+Environment: Cloud Foundry
+Title: New Use Cases Now Supported in SAP S/4HANA Cloud Public Edition
+Description: The following Joule use cases are now available in SAP S/4HANA Cloud Public Edition:    Navigation to the most widely used apps in SAP S/4HANA Cloud Public Edition.      Viewing business data of the following objects:      Batch      Billing Document      Billing Document Request      Bill of Material      Business Partner      Change Master      Cost Center      Cost Center Activity Type      Customer      Customer Project      Customer Return      Customer Returns Delivery      Inbound Delivery      Inspection Lot      Internal Project      Maintenance Order      Material Document      Planned Order      Preliminary Billing Document      Product      Production Routing      Production Order      Production Order Confirmation      Quality Notification      Reservation Document      Sales Quotation      Service Confirmation      Service Quotation      Service Order      Situation      Supplier      Supplier Invoice      Worker          For a list of the supported business objects, their details, and sample requests, see Viewing Business Data.  Note  To access Joule within SAP S/4HANA Cloud Public Edition, an additional entitlement and authorization may be required. Please consult your account executive for more information.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-12-20
+Valid as Of: 2024-12-20
+Version: Cloud
+
+--- Record 1749 ---
+Component: Joule
+Environment: Cloud Foundry
+Title: Use Cases Now Supported in Dispute Management for Contract Accounting in SAP S/4HANA Cloud Private Edition
+Description: The following transactional capabilities are now supported in Dispute Management for Contract Accounting in SAP S/4HANA Cloud Private Edition:    Dispute Resolution      Payment Resolution    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Finance
+Latest Revision: 2024-12-20
+Valid as Of: 2024-12-20
+Version: Cloud
+
+--- Record 1750 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Off-Cycle Upgrade
+Description: Cloud Identity Services have been upgraded.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-12-19
+Valid as Of: 2024-12-19
+Version: 27170
+

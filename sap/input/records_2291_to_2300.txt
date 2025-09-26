@@ -1,0 +1,130 @@
+--- Record 2291 ---
+Component: SAP Datasphere
+Environment: Cloud Foundry
+Title: Features for Version 2024.20
+Description: New and changed features are available for administration, data cataloging, data integration, and data modeling.  For more information, see What's New in SAP Datasphere 2024.20. 
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-09-24
+Valid as Of: 2024-09-24
+Version: Cloud
+
+--- Record 2292 ---
+Component: UI Theme Designer
+Environment: Cloud Foundry
+Title: Parameter Explorer
+Description: Browse the theming base content parameters with the parameter explorer of the GitHub theming-base-content repository.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2024-09-24
+Version: Cloud
+
+--- Record 2293 ---
+Component: UI Theme Designer
+Environment: Cloud Foundry
+Title: Theme Joule in UI theme designer
+Description: With the new preview page for Joule you see your changes to parameters of the sapAssistant namespace (e.g. sapAssistant_Color1). You find the preview page in UI theme designer under SAPUI5 Controls  Joule.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2024-09-24
+Version: Cloud
+
+--- Record 2294 ---
+Component: SAP HANA Cloud
+Environment: Cloud Foundry,Kyma,Other
+Title: New component version available
+Description: A new component version is available for the following SAP HANA Cloud components:   2024.28 (QRC3/2024) for SAP HANA Cloud, SAP HANA database  2024.3.4756 (QRC 3/2024) for SAP HANA Cloud, data lake      See What's New in SAP HANA Cloud.  Action: To use the new component version, you must upgrade your instance. See Managing SAP HANA Cloud Instances.
+Action: Recommended
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-09-25
+Valid as Of: 2024-09-23
+Version: Cloud
+
+--- Record 2295 ---
+Component: Continuous Integration & Delivery
+Environment: Cloud Foundry
+Title: Acceptance Stage Deactivation Issue Fixed
+Description: An issue was resolved that prevented the deactivation of the Acceptance stage in the job configuration and displayed a misleading error message.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-09-23
+Valid as Of: 2024-09-23
+Version: Cloud
+
+--- Record 2296 ---
+Component: Continuous Integration & Delivery
+Environment: Cloud Foundry
+Title: Accessibility Improvements
+Description: To improve accessibility, the icons in the detailed view of a job, repository, or credential were replaced with the corresponding text.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-09-23
+Valid as Of: 2024-09-23
+Version: Cloud
+
+--- Record 2297 ---
+Component: Continuous Integration & Delivery
+Environment: Cloud Foundry
+Title: Changes in Job Detail View
+Description: The job detail view has been revised. General information, originally repeated in the header, is now only displayed in the General Information section. As a result, the General Information section has moved to the top of the page, with details about the builds below.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-09-23
+Valid as Of: 2024-09-23
+Version: Cloud
+
+--- Record 2298 ---
+Component: SAP Advanced Financial Closing
+Environment: Cloud Foundry
+Title: Additional Prerequisite for Task List Template Deletion
+Description: The deletion of a task list template is now allowed only if no production task list exists that was created from the template less than ten years ago, independently of the task list's status. This validation supports you in adhering to audit-relevant retention times.  More information:  How to Delete Task List Templates and Task Lists  App affected:  Manage Closing Task Lists
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Finance
+Latest Revision: 2024-09-09
+Valid as Of: 2024-09-22
+Version: Cloud
+
+--- Record 2299 ---
+Component: SAP Advanced Financial Closing
+Environment: Cloud Foundry
+Title: Upcoming Clean-Up and Future Deletion of Change Logs
+Description: In one of the upcoming releases, a new system behavior will be implemented for the case of task list template or task list deletion. For compliance reasons, change logs relating to a task list template or task list that is being deleted, will then be deleted as well.  Additionally, for change logs relating to task list templates and task lists that have already been removed, a clean up will take place to ensure that these change logs are deleted.  App affected:  Change Log
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Finance
+Latest Revision: 2024-09-09
+Valid as Of: 2024-09-22
+Version: Cloud
+
+--- Record 2300 ---
+Component: Edge Integration Cell
+Environment: Cloud Foundry
+Title: Edge Integration Cell Runtime Update
+Description: Edge Integration Cell now runs on Java 17.  See: Deploy the Edge Integration Cell Solution
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-09-21
+Valid as Of: 2024-09-21
+Version: 2408
+

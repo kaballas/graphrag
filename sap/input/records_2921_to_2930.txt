@@ -1,0 +1,130 @@
+--- Record 2921 ---
+Component: SAP BTP Developer's Guide
+Environment: Cloud Foundry,Kyma
+Title: Explore the Develop a Side-by-Side CAP-Based Extension Application Following the SAP BTP Developer’s Guide Mission
+Description: There is a new mission published that is part of the hands-on materials for the SAP Cloud Application Programming Model (CAP).  The mission explains how you can implement side-by-side SAP Cloud Application Programming Model (CAP)-based extension applications and deploy them in SAP BTP and is based on the Incident Management sample application.  See:      Tutorials for SAP Cloud Application Programming Model      Mission: Develop a Side-by-Side CAP-Based Extension Application Following the SAP BTP Developer’s Guide    
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-06-03
+Valid as Of: 2024-06-03
+Version: Cloud
+
+--- Record 2922 ---
+Component: SAP BTP, Cloud Foundry Runtime
+Environment: Cloud Foundry
+Title: Version 40.9.0
+Description: Cloud Foundry has been updated from 40.3.0 to 40.9.0.    https://github.com/cloudfoundry/cf-deployment/releases/tag/v40.9.0  https://github.com/cloudfoundry/cf-deployment/releases/tag/v40.8.0  https://github.com/cloudfoundry/cf-deployment/releases/tag/v40.7.0  https://github.com/cloudfoundry/cf-deployment/releases/tag/v40.6.0  https://github.com/cloudfoundry/cf-deployment/releases/tag/v40.5.0  https://github.com/cloudfoundry/cf-deployment/releases/tag/v40.4.0  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-06-13
+Valid as Of: 2024-06-03
+Version: Cloud
+
+--- Record 2923 ---
+Component: Data Quality Services
+Environment: Cloud Foundry,Neo
+Title: Enhancements
+Description: The microservice now supports validation of rural addresses in Poland that consist of a house number on an unnamed road.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2024-05-31
+Version: Cloud
+
+--- Record 2924 ---
+Component: Extensions
+Environment: Cloud Foundry,Kyma
+Title: Add a System of Type Event Broker when Creating a Formation of Type Eventing Between SAP Cloud Systems
+Description: When creating a formation of type Eventing Between SAP Cloud Systems you no longer specify a subaccount. You now add a system of type Event Broker instead.   All existing formation have been automatically migrated to the new approach.  See Enabling Events Exchange Between SAP Cloud Systems.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-05-31
+Valid as Of: 2024-05-31
+Version: Cloud
+
+--- Record 2925 ---
+Component: Extensions
+Environment: Cloud Foundry,Kyma
+Title: Introduce Templates for Integration Dependencies
+Description: When creating integration dependencies, you can use templates that are based on different use cases:      Blank template  You write integration dependencies from scratch inluding the aspects that contain a set of APIs and/or events of a system that define the dependencies other systems need to comply with to be able to be part of an integration scenario together.      Simplified Business Eventing template  Integration dependencies are exposed as available event subscriptions in SAP Event Broker. This template helps you write simplified integration dependencies that identify the types of events a subscribing application wants to consume. Here's an example. Let's say SAP SuccessFactors publishes a set of events. You want to receive a subset of those events. You can use the Simplified Business Eventing Template to identify the event types that SAP Event Broker makes available to your subscribing system.      See Declaring System APIs and Events as Dependencies for Business Scenarios.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-05-31
+Valid as Of: 2024-05-31
+Version: Cloud
+
+--- Record 2926 ---
+Component: SAP BTP Developer's Guide
+Environment: Cloud Foundry,Kyma
+Title: Explore the Implement Observability in a Full-Stack CAP Application Following SAP BTP Developer’s Guide Mission
+Description: There is a new mission published that is part of the hands-on materials for the SAP Cloud Application Programming Model (CAP).  The mission explains how you can add observability to your SAP Cloud Application Programming Model (CAP)-based applications and is based on the Incident Management sample application.  See:      Tutorials for SAP Cloud Application Programming Model      Mission: Implement Observability in a Full-Stack CAP Application Following SAP BTP Developer’s Guide     
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-05-31
+Valid as Of: 2024-05-31
+Version: Cloud
+
+--- Record 2927 ---
+Component: SAP Document and Reporting Compliance, Cloud Edition
+Environment: Kyma
+Title: Integration of the E-Invoices (Malaysia) Process with SAP ERP and SAP S/4HANA or SAP S/4HANA Cloud Private Edition
+Description: You use this process to submit electronic invoices to the Inland Revenue Board of Malaysia (IRBM), the tax authority in Malaysia.   Supported electronic invoices:    Electronic customer invoices      Buyer-created electronic invoices      See Supported Compliance Tasks.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: nan
+Valid as Of: 2024-05-31
+Version: Cloud
+
+--- Record 2928 ---
+Component: Cloud Management Tools,SAP BTP Cockpit
+Environment: ABAP,Cloud Foundry,Kyma,Neo,Other
+Title: Changes to Spreadsheet Exported from Costs and Usage Page in SAP BTP Cockpit
+Description: As announced before, on May 30, 2024 we'll be making the following changes to the spreadsheet that you generate when using the export function in the Costs and Usage page in SAP BTP cockpit.    The deprecated Unit (Metric Name) column (M) in the Actual Usage tab will be removed. The data for this column has already has been split into two distinct columns, called Unit (column N) and Metric (column O).  The deprecated Usage column (H) in the Global Account Costs tab will be removed. The data from this column is already represented in a new Charged Usage column (N). Pay attention to the two columns Usage (column L) and Prepaid Quota (column M) that were already added to this tab in an earlier release. Note also that the data shown in the new Usage column (L) is different from the old Usage column that will be removed.    Action:  Any scripts or formulas you use to analyze this data from the spreadsheet must be adjusted accordingly.  See Monitoring Usage and Consumption Costs in Your Global Account.
+Action: Required
+Lifecycle: Deprecated
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-05-30
+Valid as Of: 2024-05-30
+Version: Cloud
+
+--- Record 2929 ---
+Component: Authorization and Trust Management Service
+Environment: ABAP,Cloud Foundry,Kyma,Other
+Title: Deprecation of Third-Party Cookies
+Description: Browser manufacturers are ending support for third-party cookies. To see if you're affected, see SAP BTP and Third-Party Cookies Deprecation. For the SAP Authorization and Trust Management service, we have introduced the following changes:      The service supports partitioned cookies.      During the trial period, you can enable and disable the support of partitioned cookies with the partitionedCookies property of the Security Settings API.      As of this release all new subaccounts enable partitionedCookies by default. Existing subaccounts disable partitionedCookies by default.      Action  Ensure that you subaccounts are configured for the deprecation of third-party cookies. For more information, see Third-Party Cookies and SAP Authorization and Trust Management Service. 
+Action: Required
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-05-30
+Valid as Of: 2024-05-30
+Version: 2405b
+
+--- Record 2930 ---
+Component: Cloud Management Tools,SAP BTP Cockpit
+Environment: ABAP,Cloud Foundry,Kyma,Neo,Other
+Title: New Cumulative Costs Graph in Costs and Usage Page in Cockpit
+Description: In the Costs and Usage page in SAP BTP cockpit, we've added a new option in the Billing view, that allows you to view the cumulative costs of any subaccount or service over the last 12 months.   Select the row of a listed subaccount or service in the main table, then scroll down to the graph at the bottom of the page and select the cumulative graph option in the View By dropdown menu.  See Monitoring Usage and Consumption Costs in Your Global Account.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-05-30
+Valid as Of: 2024-05-30
+Version: Cloud
+

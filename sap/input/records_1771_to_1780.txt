@@ -1,0 +1,130 @@
+--- Record 1771 ---
+Component: Identity Provisioning
+Environment: Neo
+Title: SAP BTP Platform Members (Cloud Foundry) and SAP BTP XS Advanced UAA (Cloud Foundry) - support for active and verified attributes
+Description: The default write transformations of SAP BTP Platform Members (Cloud Foundry) and SAP BTP XS Advanced UAA (Cloud Foundry) are changed to support the active and verified attributes as optional with default value true during update operation for existing users. At user creation, these attributes have hardcoded value true.  For more information, see SAP BTP Platform Members (Cloud Foundry) (Target) and SAP BTP XS Advanced UAA (Cloud Foundry) (Target).
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-12-17
+Valid as Of: 2024-12-17
+Version: Cloud
+
+--- Record 1772 ---
+Component: Identity Provisioning
+Environment: Neo
+Title: valueMappings transformation expression is enhanced
+Description: The valueMappings transformation expression now includes enhanced validations in the JSON editor. The validations help you identify missing or mismatched values and incorrect array formats, while also indicating where these issues occur.  For more information, see Transformation Expressions.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-12-17
+Valid as Of: 2024-12-17
+Version: Cloud
+
+--- Record 1773 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Additional Google Cloud Platform Regions
+Description: You can choose from an additional Google Cloud Platform region for the SAP BTP ABAP environment: Australia (Sydney).  For more information, see Regions and API Endpoints for the ABAP Environment.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-12-09
+Valid as Of: 2024-12-16
+Version: ABAP Environment 2411
+
+--- Record 1774 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Additional Microsoft Azure Regions
+Description: You can choose from an additional Microsoft Azure region for the SAP BTP ABAP environment: Brazil (São Paulo).  For more information, see Regions and API Endpoints for the ABAP Environment.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-12-09
+Valid as Of: 2024-12-16
+Version: ABAP Environment 2411
+
+--- Record 1775 ---
+Component: Continuous Integration & Delivery
+Environment: Cloud Foundry
+Title: New Region
+Description: SAP Continuous Integration and Delivery can now also be consumed in the Microsoft Azure region Brazil (São Paulo). See Regional Availability.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-12-16
+Valid as Of: 2024-12-16
+Version: Cloud
+
+--- Record 1776 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: API Gateway module: Update to version 2.10.1
+Description: The new version introduces the following changes:        We've changed PodDisruptionBudget from minAvailable: 1 to maxUnavailable: 1.    We've added the issuer reference issuerRef: garden to the specification of the certificate kyma-tls-cert .    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-12-11
+Valid as Of: 2024-12-16
+Version: Cloud
+
+--- Record 1777 ---
+Component: SAP AI Launchpad
+Environment: Cloud Foundry
+Title: Generative AI hub
+Description: Model library  Explore models available in generative AI hub and their metadata, using the catalog mode.   Inform your decision making using benchmarking data, using the leaderboard mode.   View detailed information for a single model such as data input types, cost information and metrics where available on its model card.  For more information, see Model Library.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-12-16
+Valid as Of: 2024-12-16
+Version: Cloud
+
+--- Record 1778 ---
+Component: SAP AI Launchpad
+Environment: Cloud Foundry
+Title: Generative AI hub
+Description: Additional selected models and model versions from AWS Bedrock are supported.For more information, see SAP Note 3437766 .
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-12-16
+Valid as Of: 2024-12-16
+Version: Cloud
+
+--- Record 1779 ---
+Component: SAP BTP Developer's Guide
+Environment: Kyma
+Title: Tutorials for Consuming Remote Services and Deploying in SAP BTP, Kyma Runtime Moved to Tutorial Navigator
+Description: The tutorials that show how to integrate the SAP S/4HANA Cloud Business Partner API to the Incident Management application are now moved to the Tutorial Navigator. There are two main groups depending on whether you have an SAP S/4HANA Cloud tenant, or you use a mock server:       Consume Remote Services from S/4HANA Cloud in Your Full-Stack CAP Application Following the SAP BTP Developer's Guide and Deploy in SAP BTP, Kyma Runtime      Consume Remote Services from a Mock Server in Your Full-Stack CAP Application Following the SAP BTP Developer's Guide and Deploy in SAP BTP, Kyma Runtime    
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-12-16
+Valid as Of: 2024-12-16
+Version: Cloud
+
+--- Record 1780 ---
+Component: SAP Build Work Zone, standard edition
+Environment: Cloud Foundry
+Title: Enhancements to Page Editor
+Description: When using the Spaces and Pages - New Experience view mode, the following enhancements to the page editor are available:  New buttons on the right side of a section to easily move the sections up and down.   Show/Hide section header.  Context menu for tiles allowing the user to change the size of a tile.  Note  These enhancements are only applicable when creating local pages using the new experience (CDM 3.2 content). 
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-12-16
+Valid as Of: 2024-12-16
+Version: 2412A
+

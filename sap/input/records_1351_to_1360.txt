@@ -1,0 +1,130 @@
+--- Record 1351 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Certificate Renewal
+Description: Identity Authentication can update automatically the expired encryption certificate, and the SAML 2.0 certificate during the first sign in attempt that fails due to the expired certificate. The metadata URL must be provided. See Configure SAML 2.0 Service Provider.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-02-25
+Valid as Of: 2025-02-25
+Version: 27494
+
+--- Record 1352 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Group mapping changes
+Description: The default transformations of SAP S/4 HANA Cloud are changed to support the provisioning of application-specific groups.  For more information, see:  SAP S/4 HANA Cloud (Source)  SAP S/4 HANA Cloud (Target)  SAP S/4 HANA Cloud (Proxy)  
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-02-25
+Valid as Of: 2025-02-25
+Version: 27494
+
+--- Record 1353 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Group Provisioning
+Description: You can enable or disable provisioning of every update in an application specific group to a target system. See Enable or Disable Central Store-Based Provisioning.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-02-25
+Valid as Of: 2025-02-25
+Version: 27494
+
+--- Record 1354 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Increased Number of API Permission Groups Allowed
+Description: API permission groups enable you to expose APIs to other Cloud Identity Services applications. With this release, we have increased the number of API permission groups you can create from 20 to 50.  For more information, see Provide APIs for Consumption by Other Applications.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-02-25
+Valid as Of: 2025-02-25
+Version: 27494
+
+--- Record 1355 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Intelligent Opportunity Analyzer connector
+Description: Identity Provisioning supports the Intelligent Opportunity Analyzer connector. You can configure it as source, target, and proxy system for your provisioning scenarios. See:  Intelligent Opportunity Analyzer (Source)  Intelligent Opportunity Analyzer (Target)  Intelligent Opportunity Analyzer (Proxy)  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-02-25
+Valid as Of: 2025-02-25
+Version: 27494
+
+--- Record 1356 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Provisioning sub-attributes of emails attribute
+Description: Changes in proxy write transformations of SAP Ariba Category Management and SAP Ariba Central Invoice Management ensure that users with multiple email addresses are provisioned with the correct primary email.  For more information, see SAP Ariba Category Management and SAP Ariba Central Invoice Management.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-02-25
+Valid as Of: 2025-02-25
+Version: 27494
+
+--- Record 1357 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Regular Upgrade
+Description: Cloud Identity Services have been upgraded.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-02-25
+Valid as Of: 2025-02-25
+Version: 27494
+
+--- Record 1358 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: SAP Cloud Identity Services - Identity Authentication integration with SAP Cloud ALM
+Description: SAP Cloud Identity Services - Identity Authentication is now integrated with SAP Cloud ALM and you can use the Configuration & Security Analysis app. See Monitoring with SAP Cloud ALM.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-02-25
+Valid as Of: 2025-02-25
+Version: 27494
+
+--- Record 1359 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Troubleshooting entity deletion
+Description: Documentation for troubleshooting the most frequent reasons for deletion of entities from a target system by the Identity Provisioning is now available. For more information, see Entity Deletion Issues.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-02-25
+Valid as Of: 2025-02-25
+Version: 27494
+
+--- Record 1360 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: User Management
+Description: Cloud Identity Services now supports a new user type - Alumni for users that were once employed by the company but now they are no more part of it. See Users.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-02-25
+Valid as Of: 2025-02-25
+Version: 27494
+

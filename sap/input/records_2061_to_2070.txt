@@ -1,0 +1,130 @@
+--- Record 2061 ---
+Component: Connectivity
+Environment: Cloud Foundry
+Title: Destination Service - REST API
+Description: The "Get All Destinations" endpoint of the service's REST API now supports suffix-based (endsWith) filtering on the Name property.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-10-28
+Valid as Of: 2024-10-31
+Version: Cloud
+
+--- Record 2062 ---
+Component: Identity Provisioning
+Environment: Neo
+Title: SAP BTP Platform Members (Cloud Foundry) connector
+Description: Identity Provisioning supports the SAP BTP Platform Members (Cloud Foundry) connector. You can configure it as source, target, and proxy system for your provisioning scenarios. See:    SAP BTP Platform Members (Cloud Foundry) (Source)      SAP BTP Platform Members (Cloud Foundry) (Target)      SAP BTP Platform Members (Cloud Foundry) (Proxy)    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-10-31
+Valid as Of: 2024-10-31
+Version: Cloud
+
+--- Record 2063 ---
+Component: Identity Provisioning
+Environment: Neo
+Title: Support for OAuth certificate authentication
+Description: SAP Build Work Zone, advanced edition supports OAuth certificate authentication.  For more information, see SAP Build Work Zone, advanced edition.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-10-31
+Valid as Of: 2024-10-31
+Version: Cloud
+
+--- Record 2064 ---
+Component: Joule
+Environment: Cloud Foundry
+Title: Joule Conversational Search Now Supported in SAP Integrated Business Planning for Supply Chain
+Description: Joule is now available in SAP Integrated Business Planning for Supply Chain (SAP IBP) for informational use cases. This means, you have conversational access to the product documentation for SAP IBP. Just enter your query or question in plain natural language, and Joule searches the product documentation to find the answer. Joule summarizes the search results in the background. This summarization is then displayed to you as the answer to your question, along with the top search results. If you select the title link of a result, you're taken directly to the relevant topic on SAP Help Portal.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-10-18
+Valid as Of: 2024-10-31
+Version: Cloud
+
+--- Record 2065 ---
+Component: SAP Alert Notification Service
+Environment: Other
+Title: Integrating with OpenSearch Enhanced with OpenSearch Dashboards
+Description: You can now find information about the integration of SAP Alert Notification service with OpenSearch.  [Cloud Foundry] For further details, see Integrating with OpenSearch Enhanced with OpenSearch Dashboards  [Neo] For further details, see Integrating with OpenSearch Enhanced with OpenSearch Dashboards
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-10-31
+Valid as Of: 2024-10-31
+Version: Cloud
+
+--- Record 2066 ---
+Component: SAP Alert Notification Service
+Environment: Other
+Title: Integrating with SAP Cloud Logging service
+Description: You can now find information about the integration of SAP Alert Notification service with SAP Cloud Logging service.   [Cloud Foundry] For further details, see Integrating with SAP Cloud Logging Service  [Neo] For further details, see Integrating with SAP Cloud Logging Service
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-10-31
+Valid as Of: 2024-10-31
+Version: Cloud
+
+--- Record 2067 ---
+Component: SAP BTP, Cloud Foundry Runtime
+Environment: Cloud Foundry
+Title: Version 44.0.0
+Description: Cloud Foundry has been updated from 43.6.0 to 44.0.0.    https://github.com/cloudfoundry/cf-deployment/releases/tag/v44.0.0  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-10-21
+Valid as Of: 2024-10-31
+Version: Cloud
+
+--- Record 2068 ---
+Component: SAP Build Work Zone, advanced edition
+Environment: Cloud Foundry
+Title: App Finder Enhancements
+Description: The App Finder has been enhanced with a new a new design and some additional features, such as displaying the apps in a list view, the possibility to search for catalogs, and the option to hide the catalogs side panel.   For more information, see How to Use the App Finder.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-10-31
+Valid as Of: 2024-10-31
+Version: 2410B
+
+--- Record 2069 ---
+Component: SAP Build Work Zone, advanced edition
+Environment: Cloud Foundry
+Title: Content Export Enhancements
+Description: The export content flow has been enhanced for the following scenarios: workspace export, content files download, and workspace template export.  Following the change, when a user triggers an export, a ZIP file is created in a new My Exports screen under the user profile. From there the user can download the file.  For more information, see Transporting Workspace Content Items.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-10-31
+Valid as Of: 2024-10-31
+Version: 2410B
+
+--- Record 2070 ---
+Component: SAP Build Work Zone, advanced edition
+Environment: Cloud Foundry
+Title: Create a Wizard Based on a SAP Build Process Automation Guided Process
+Description: It’s possible to add to a workpage, a wizard that is based on a guided process template that was created and deployed from SAP Build Process Automation service.  For more information, see How to Create a Wizard.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-10-31
+Valid as Of: 2024-10-31
+Version: 2410B
+

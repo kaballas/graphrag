@@ -1,0 +1,130 @@
+--- Record 1461 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Referenced SAPUI5 Version
+Description: As part of hotfix collection 3 (which is used for the pre-upgrade only), SAPUI5 version 1.130.5 is used for the administrator’s SAP Fiori launchpad, SAP-delivered Fiori apps, and the custom-built SAP Fiori apps, which are deployed to the ABAP system.  See SAP BTP ABAP Environment – Maintenance Windows and Major Upgrade Windows in 2025 and SAP UI5
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-01-20
+Valid as Of: 2025-02-14
+Version: ABAP Environment 2502
+
+--- Record 1462 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: SAP Fiori Launchpad: Theme Selection According to OS Settings
+Description: This feature enables you to automatically detect the OS settings for the Dark Mode, so your Fiori launchpad automatically adapts to the OS setting also across sessions. This also applies to your custom themes.  For more information, see Managing Your Settings.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-01-15
+Valid as Of: 2025-02-14
+Version: ABAP Environment 2502
+
+--- Record 1463 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Units of Measurement (UoM)
+Description: You can now maintain and delete translations for dimensions and units of measurement using released ABAP Cloud APIs (CL_UOM*).  See Units of Measurement.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-01-16
+Valid as Of: 2025-02-14
+Version: ABAP Environment 2502
+
+--- Record 1464 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: What's New Dialog in Key User Adaptation
+Description: The What's New dialog keeps you informed about the latest updates, features, and improvements in key user adaptation. After an upgrade, the dialog automatically shows the new features introduced with the new version. If you're interested in features from previous versions, you can find an overview in the   (More Actions) menu in the toolbar.  For more information, see Adapting the UI.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-10-10
+Valid as Of: 2025-02-14
+Version: ABAP Environment 2502
+
+--- Record 1465 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Off-Cycle Upgrade
+Description: Cloud Identity Services have been upgraded.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-02-13
+Valid as Of: 2025-02-13
+Version: 27436
+
+--- Record 1466 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Istio module: Update to version 1.13.2
+Description: With this release, we have increased global metrics rotation interval to 6 hours.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-02-12
+Valid as Of: 2025-02-13
+Version: Cloud
+
+--- Record 1467 ---
+Component: SAP AI Launchpad
+Environment: Cloud Foundry
+Title: Generative AI hub
+Description: Going forward, users will need an orchestration deployment to use the Chat app.  Users that currently access Chat through model deployments should create an orchestration deployment. For more information, see Create a Deployment for Orchestration.  Alternatively, administrators can use the Enable Orchestration button available through the chat interface. 
+Action: Required
+Lifecycle: Deprecated
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-02-12
+Valid as Of: 2025-02-12
+Version: Cloud
+
+--- Record 1468 ---
+Component: SAP Build Apps
+Environment: Cloud Foundry
+Title: Mobile
+Description:   Depending on your development environment, you might have an additional option to build your iOS project using your Team ID and then perform code-signing on your macOS device. For more information, see iOS Builds  The iOS builds now support only devices with software versions iOS 17 and higher. To learn more, see iOS Builds.  
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-02-12
+Valid as Of: 2025-02-12
+Version: Cloud
+
+--- Record 1469 ---
+Component: Variant Configuration
+Environment: Cloud Foundry
+Title: Configurations API –Exclude Globally Assigned Characteristics Properly from Configuration Results
+Description: For a few scenarios in which the characteristics are assigned at different levels in the class hierarchy, and overwritten at more special levels, the response filtered those characteristics although they were assigned to classes. This issue has been corrected.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-02-10
+Valid as Of: 2025-02-12
+Version: Cloud
+
+--- Record 1470 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Authorizations Based оn Policies
+Description: As of February 11, 2025, the MANAGE_USERS policy will no longer contain the read applications permission.  Action: If your scenario requires this permission, you must add the READ_APPLICATIONS policy to the user or users that need it. See how to do this at Configure Application Authorizations | SAP Help Portal.
+Action: Required
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2025-01-14
+Valid as Of: 2025-02-11
+Version: 27268
+

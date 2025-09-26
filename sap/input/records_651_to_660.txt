@@ -1,0 +1,130 @@
+--- Record 651 ---
+Component: Identity Provisioning
+Environment: Neo
+Title: Support for SAP extension schema for groups
+Description: The default transformations of the following connectors support attributes from the SAP extension schema for groups, including application ID, type, and supported operations.  For more information, see:    SAP Integrated Business Planning  SAP Intelligent Agriculture  SAP Jam Collaboration  
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-06-18
+Valid as Of: 2025-06-18
+Version: Cloud
+
+--- Record 652 ---
+Component: Identity Provisioning
+Environment: Neo
+Title: System reset confirmation message extended
+Description: The UI message prompting confirmation for system reset has been expanded to include typical cases when a reset is necessary.  For more information, see Reset Identity Provisioning System.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-06-18
+Valid as Of: 2025-06-18
+Version: Cloud
+
+--- Record 653 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: API Gateway module: Update to version 3.1.1
+Description: Release 3.1.0 of the API Gateway module changes the stored version of APIRule to v2alpha1. This change is part of the migration process towards the v2 version, which will eventually result in removing the v1beta1 version.   This releases also contains the following improvements:    We've fixed behavior of in-cluster connectivity when using JWT handler in APIRule. Now, in-cluster connectivity is blocked.   We've fixed the extAuth handler not being scoped to a particular host.  We've fixed reconciliation of convertible APIRules.  When converting APIRule to version v2, the original-version annotation is not set if it's already present in the APIRule.  The order of rules in the APIRule Custom Resource is important. Rules defined earlier in the list have a higher priority than those defined later. For more information, see Significance of Rule Path Order.  
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-06-16
+Valid as Of: 2025-06-18
+Version: Cloud
+
+--- Record 654 ---
+Component: SAP Task Center
+Environment: Cloud Foundry
+Title: SAP Field Service Management Supported as Task Provider
+Description: You can now connect SAP Field Service Management as task provider to SAP Task Center. For more information, see Connect SAP Field Service Management and SAP Task Center.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-06-18
+Valid as Of: 2025-06-18
+Version: Cloud
+
+--- Record 655 ---
+Component: UI Theme Designer
+Environment: Cloud Foundry
+Title: Theme Transport using SAP Content Agent Service.
+Description: You can now manage theme transport in the SAP BTP, Cloud Foundry environment using the SAP Content Agent service, which is integrated with the SAP Cloud Transport Management system. This integration enables you to define transport routes and automate the transfer of themes between different landscapes and subaccounts. For more information, see Transport Using SAP Content Agent Service.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2025-06-17
+Version: Cloud
+
+--- Record 656 ---
+Component: UI Theme Designer
+Environment: Cloud Foundry,Neo
+Title: Theming Base Content for CF and Neo.
+Description: The base theming content is updated to version 11.31.0. Review the changes at https://github.com/SAP/theming-base-content/releases.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2025-06-17
+Version: Cloud
+
+--- Record 657 ---
+Component: Content Agent Service
+Environment: Cloud Foundry
+Title: Automatic destination creation
+Description: You can now enable content types and SAP Cloud Transport Management, allowing you to transport content. To do this, create destinations directly in the Content Agent UI. Currently, you can create destinations targeted to SAP Cloud Integration, SAP API Management, XSUAA, and Cloud Transport Management. See Content Types and Integration with Transport Management
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-06-24
+Valid as Of: 2025-06-16
+Version: Cloud
+
+--- Record 658 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Add a Notification Step
+Description: You can create a notification as a step to your process using templates defined in the notification template editor. See Add a Notification Step.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-06-16
+Valid as Of: 2025-06-16
+Version: Cloud
+
+--- Record 659 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: Overall Improvements
+Description: There have been several code and stability improvements.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Intelligent Technologies
+Latest Revision: 2025-06-27
+Valid as Of: 2025-06-16
+Version: Cloud
+
+--- Record 660 ---
+Component: SAP Dynamic Forms
+Environment: Cloud Foundry
+Title: Release 2505
+Description:     SAP Dynamic Forms setup on Preview environment: If you want to try out upcoming changes to the application before they go live in the standard environment, we have added SAP Dynamic Forms, Preview to the SAP Business Technology Platform Service Marketplace as an additional option. For more information on how to set up a subscription to this new service, see OPTIONAL: Set up SAP Dynamic Forms, Preview on SAP Business Technology Platform.    Note  SAP suggests that customers use Preview for their development and QA landscapes in order to validate each SAP Dynamic Forms release prior to the production roll-out.        Separation of Form Builder, Form Runner, and Form Administrator Roles: Previously, you could only set up Roles and Role Collections by granting users access to the Form Builder, Form Administrator, and Form Runner features simultaneously. Going forward, by creating separate Roles, you can assign access to Form Builder, Form Runner, and Form Administrator individually. For more information, see:    Setting Up Roles and Role Collections for SAP Dynamic Forms Users      End-User Roles and Role Collections          Sending Emails with SAP Dynamic Forms Information: You can send emails to individuals and general inboxes to alert your employees about Dynamic Forms. This is an event that is part of the SAP Dynamic Forms event processing. You can include data from SAP Dynamic Forms (Forms, Business Objects, etc) in the email message. For more information, see Sending Emails with Dynamic Form Information.      Form Builder list view improvements: Similar to Form Runner, now you can also see the following information about Form Instances, on the Form Builder list page:    Created By      Last Changed By      Latest Published Version      Last Published date          Bulk delete of Form Instances: On the Forms Admin page, you can now delete all Form Instances for an Application, Form, or Version. The deletion action is no longer limited to the list of selected Form Instances displayed on a single page.      Support Form Definition permissions: In Form Builder you can now set up permissions for Form Definitions as well:    Read: Required for users to view a Form Definition.      Update: Required for users to update and save a Form Definition.      Publishing Form Definitions requires Admin role.          Bug fixes:    Measurement Point Custom Control upper and lower limits do not account for European numerical syntax.      Creating a Form Template with duplicate name incorrectly returns 500 error.      Form Instances created in SAP Service and Asset Manager must run the initial value formulas.      Support email address lengths longer than 50 characters.      SAP Service and Asset Manager client is not prompted to save changes if the cursor focus remains on the only changed control.      Remove Clear button from the Form Runner and the mobile form engine.      Limit log message length.      PDF generation on device may fail for some Forms with the Measurement Point Custom Control feature.        
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-06-03
+Valid as Of: 2025-06-16
+Version: Cloud
+

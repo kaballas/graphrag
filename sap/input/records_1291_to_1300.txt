@@ -1,0 +1,130 @@
+--- Record 1291 ---
+Component: API Management
+Environment: Cloud Foundry
+Title: Supported AsyncAPI Versions
+Description: You can now import events more efficiently with enhanced support for AsyncAPI versions 2.5.0 and 2.6.0. For more information, see Import Events as AsyncAPI on Developer Hub.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-03-09
+Valid as Of: 2025-03-09
+Version: 2501
+
+--- Record 1292 ---
+Component: Data Space Integration
+Environment: Cloud Foundry
+Title: Consuming Azure Assets
+Description: You can now consume assets of type Azure. Before you can consume Azure assets, you must create credentials using your Azure account.   For more details and Azure-specific payload examples, see Consuming S3 and Azure Assets and the Transfer Process API on SAP Business Accelerator Hub.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-03-09
+Valid as Of: 2025-03-09
+Version: 2501
+
+--- Record 1293 ---
+Component: Data Space Integration
+Environment: Cloud Foundry
+Title: Software Version Update
+Description: The following are the latest versions in Data Space Integration:      Data Space Integration: 1.6.*      Increment: 2501      Tractus-X Eclipse Dataspace Connector: 0.7.6      FOSS Eclipse Dataspace Components: 0.7.2      See also the Release Notes of Catena-X. 
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-03-09
+Valid as Of: 2025-03-09
+Version: 2501
+
+--- Record 1294 ---
+Component: Edge Integration Cell
+Environment: Cloud Foundry
+Title: Additional Request Reply Step for API Artifact
+Description: You can now add multiple request-reply steps to an API artifact, allowing for seamless integration with multiple target endpoints or service callouts.  See: Creating Additional Request Reply Step for API Artifact
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-03-09
+Valid as Of: 2025-03-09
+Version: 2501
+
+--- Record 1295 ---
+Component: Edge Integration Cell
+Environment: Cloud Foundry
+Title: Customizable proxy settings enabled for the AS2 sender adapter
+Description: You can now set the proxy type settings if you have Edge Integration Cell runtime activated.  For more information, see   Configure the AS2 Sender Adapter  Configure the AS2 Receiver Adapter      SAP Cloud Integration customers, see   Configure the AS2 Sender Adapter  Configure the AS2 Receiver Adapter  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-03-09
+Valid as Of: 2025-03-09
+Version: 2501
+
+--- Record 1296 ---
+Component: Edge Integration Cell
+Environment: Cloud Foundry
+Title: Enhancements in the Diagnostics Tasks table
+Description: New enhancements in the Diagnostic Tasks table include:  The new Table Settings allows you to show or hide additional columns and change their order in the table.  An additional column Component is available.  The overflow button contains the option Details, which opens a dialog showing details about the task.    See: Diagnostics
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-03-09
+Valid as Of: 2025-03-09
+Version: 2501
+
+--- Record 1297 ---
+Component: Edge Integration Cell
+Environment: Cloud Foundry
+Title: Kubernetes (K8s) 1.31. is now supported
+Description: Edge Integration Cell now supports Kubernetes (K8s) 1.31.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-03-09
+Valid as Of: 2025-03-09
+Version: 2501
+
+--- Record 1298 ---
+Component: Edge Integration Cell
+Environment: Cloud Foundry
+Title: Software Version Update
+Description:     Edge Integration Cell: 8.27.*    Increment: 2501  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-03-09
+Valid as Of: 2025-03-09
+Version: 2501
+
+--- Record 1299 ---
+Component: Edge Integration Cell
+Environment: Cloud Foundry
+Title: Updates on Heap Dump Diagnostic Tasks
+Description: New updates on the Heap Dump Diagnostic Task include:    You can now analyze heap dumps and download the analysis results instead of the raw heap dumps.   New statuses and actions are available.    See: Heap Dumps
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-03-09
+Valid as Of: 2025-03-09
+Version: 2501
+
+--- Record 1300 ---
+Component: Event Mesh
+Environment: Cloud Foundry
+Title: Specify parameters in JSON file when configuring a message client.
+Description: You can specify parameters like namespace and connection rules for a messaging client. See Configure a Message Client.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-03-09
+Valid as Of: 2025-03-09
+Version: 2501
+

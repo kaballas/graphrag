@@ -1,0 +1,130 @@
+--- Record 2231 ---
+Component: SAP Java Buildpack
+Environment: Cloud Foundry
+Title: Version 2.18.0
+Description: SAP Java Buildpack 2 has been updated from version 2.17.0 to 2.18.0. Updated components:      Apache Tomcat 10 is updated from version 10.1.26 to 10.1.29      SnakeYAML is updated from version 2.2 to 2.3      org.apache.logging.log4j is updated from version 2.23.1 to 2.24.0      com.sap.xs.onpremise.runtime is updated from version 1.2.5 to 1.2.6    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-09-17
+Valid as Of: 2024-10-03
+Version: Cloud
+
+--- Record 2232 ---
+Component: SAPUI5
+Environment: ABAP,Cloud Foundry,Kyma,Neo,Other
+Title: SAPUI5 Distribution 1.129
+Description: SAPUI5 version 1.129 has been released for UI development and can now be consumed by SAP BTP services. It’s up to the services to determine when they start using the new version.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-10-02
+Valid as Of: 2024-10-03
+Version: Cloud
+
+--- Record 2233 ---
+Component: Continuous Integration & Delivery
+Environment: Cloud Foundry
+Title: Deprecation of the Container-Based Applications Pipeline
+Description: The Container-Based Applications pipeline has been deprecated and is no longer available for new jobs. Existing jobs will continue to work until December 31st, 2024.  We recommend to use the Kyma Runtime pipeline, instead.
+Action: Info only
+Lifecycle: Deprecated
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-10-02
+Valid as Of: 2024-10-02
+Version: Cloud
+
+--- Record 2234 ---
+Component: Continuous Integration & Delivery
+Environment: Cloud Foundry
+Title: Deprecation of the SAP Fiori for the Neo Environment Pipeline
+Description:  Due to the legacy Neo environment sunset on December 31, 2028, the SAP Fiori in the Neo Environment pipeline has been deprecated and is no longer available for new jobs. See Farewell, Neo! SAP BTP, multi-cloud environment – the deployment environment of choice.  Existing jobs will continue to work until December 31st, 2024.
+Action: Info only
+Lifecycle: Deprecated
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-10-02
+Valid as Of: 2024-10-02
+Version: Cloud
+
+--- Record 2235 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Additional Property Required for Using SAP Task Center
+Description: If you are using SAP Task Center together with SAP Build Process Automation, you must set an additional property in your Identity_Authentication_Connectivity_IDS destination as follows:    If SAP Build Process Automation and SAP Task Center are in the same subaccount, set the wfs.tc.local property to true.      If SAP Build Process Automation and SAP Task Center are in different subaccounts, set the wfs.tc.local property to false.      For more information, see SAP Note 3522594 .  If you don’t set this property, the end users might be able to access their SAP Build Process Automation tasks, but some actions might not be available in the Web app of SAP Task Center.
+Action: Required
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-10-02
+Valid as Of: 2024-10-02
+Version: Cloud
+
+--- Record 2236 ---
+Component: SAP Task Center
+Environment: Cloud Foundry
+Title: Additional Property Required for SAP Build Process Automation
+Description: If you are using SAP Build Process Automation as task provider, you must set up an additional property in your SAP Build Process Automation  Identity_Authentication_Connectivity_IDS destination, as follows:       If SAP Build Process Automation and SAP Task Center are in the same subaccount, set the wfs.tc.local property to true.      If SAP Build Process Automation and SAP Task Center are in different subaccounts, set the wfs.tc.local property to false.      For more information, see SAP Note 3522594 .  If you don’t set this property, the end users might be able to access their SAP Build Process Automation tasks, but some actions might not be available in the Web app.
+Action: Required
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-10-02
+Valid as Of: 2024-10-02
+Version: Cloud
+
+--- Record 2237 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Off-Cycle Upgrade
+Description: Cloud Identity Services have been upgraded.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-09-25
+Valid as Of: 2024-10-02
+Version: 26738
+
+--- Record 2238 ---
+Component: Continuous Integration & Delivery
+Environment: Cloud Foundry
+Title: Bugfix regarding ABAP Application Names
+Description: An issue was resolved that caused failures of SAP Fiori for the ABAP Platform jobs due to application names with blank values. Now, only application names that adhere to the specification can be added.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-10-02
+Valid as Of: 2024-10-02
+Version: Cloud
+
+--- Record 2239 ---
+Component: Inbound Nota Fiscal
+Environment: Cloud Foundry
+Title: Support to Simplified CT-e
+Description: CT-e Basic Process and CT-e Flex Process have been changed to support Simplified CT-e, according to SEFAZ Technical Note 2024.002 1.01 Version.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-10-03
+Valid as Of: 2024-10-02
+Version: Cloud
+
+--- Record 2240 ---
+Component: Pricing Service
+Environment: Cloud Foundry
+Title: Return Condition Rate in Document Currency for Group Conditions
+Description: To return the condition rate converted into the document currency the structure conditionRateConverted was added to conditions response of stateless pricing and rateConverted was added to the conditions response of document pricing. A null value used to be returned for group conditions with group key routines. This issue has been corrected.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-10-01
+Valid as Of: 2024-10-02
+Version: Cloud
+

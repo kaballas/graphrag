@@ -1,0 +1,130 @@
+--- Record 441 ---
+Component: SAP Java Buildpack
+Environment: Cloud Foundry
+Title: Version 1.114.1
+Description: SAP Java Buildpack 1 has been updated from version 1.114.0 to 1.114.1. Updated components:      You can now profile SapMachine-based applications by using the async-profiler tool and cf CLI Java plugin. To learn how, see: Profile an Application Running on SapMachine with async-profiler      SapMachine 11 is updated from version 11.0.27 to 11.0.28      SapMachine 17 is updated from version 17.0.15 to 17.0.16      SAP JVM is updated from version 81.105.105 to 81.106.106      jdkext is updated from version 81.105.105 to 81.106.106    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-07-18
+Valid as Of: 2025-07-22
+Version: Cloud
+
+--- Record 442 ---
+Component: SAP Java Buildpack
+Environment: Cloud Foundry
+Title: Version 2.35.1
+Description: SAP Java Buildpack 2 has been updated from version 2.35.0 to 2.35.1. Updated components:       You can now profile SapMachine-based applications by using the async-profiler tool and cf CLI Java plugin. To learn how, see: Profile an Application Running on SapMachine with async-profiler      SapMachine 17 is updated from version 17.0.15 to 17.0.16      SapMachine 21 is updated from version 21.0.7 to 21.0.8    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-07-18
+Valid as Of: 2025-07-22
+Version: Cloud
+
+--- Record 443 ---
+Component: SAP AI Core
+Environment: Cloud Foundry
+Title: Generative AI hub
+Description: This initial orchestration endpoint is deprecated and is scheduled for decommissioning on October 31, 2026. Following that date, the endpoint will no longer be available. We recommend that you create new orchestration workflows using version 2, and that you migrate existing workflows from version 1 to version 2. To use version 2, you'll need to update your endpoint from /completion to /v2/completion and modify your existing payloads. For more information, see SAP Note Orchestration Workflow V2 and  3634540 .
+Action: Info only
+Lifecycle: Deprecated
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2025-07-21
+Valid as Of: 2025-07-21
+Version: Cloud
+
+--- Record 444 ---
+Component: SAP AI Core
+Environment: Cloud Foundry
+Title: Generative AI hub
+Description: New models are supported, including Nova Premier from AWS Bedrock.For more information, see SAP Note 3437766 .
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2025-07-21
+Valid as Of: 2025-07-21
+Version: Cloud
+
+--- Record 445 ---
+Component: SAP Advanced Financial Closing
+Environment: Cloud Foundry
+Title: Consistency Check Adjustment
+Description: As previously announced, the consistency check now issues an error message instead of a warning if it detects an empty user group in a task list template.Remember  An error causes the consistency check to fail, which in turn prevents you from generating task lists from the affected template.  More information:  How to Perform Checks on Templates  App affected:  Manage Closing Task Lists  Action: If you haven't done so yet, ensure that you don't have empty user groups. Pay special attention to the warning messages that were issued for empty user groups since the last release, and address the changes required.  For information about how to run a consistency check, see How to Perform Checks on Templates.
+Action: Required
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Finance
+Latest Revision: 2025-07-07
+Valid as Of: 2025-07-20
+Version: Cloud
+
+--- Record 446 ---
+Component: SAP Advanced Financial Closing
+Environment: Cloud Foundry
+Title: Additional File Types Allowed for Attachments
+Description: You can now also submit attachments of the file types XLSM and CSV.  More information:  Allowed File Types for Attachments  Apps affected:  Manage Closing Task Lists  Process Closing Tasks  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Finance
+Latest Revision: 2025-07-07
+Valid as Of: 2025-07-20
+Version: Cloud
+
+--- Record 447 ---
+Component: SAP Advanced Financial Closing
+Environment: Cloud Foundry
+Title: Information on Details Pages
+Description: Some information that was previously displayed in the body of the detail pages for task lists, folders, and tasks has now been relocated to the header of the respective pages for better orientation.  App affected:  Manage Closing Task Lists
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Finance
+Latest Revision: 2025-07-07
+Valid as Of: 2025-07-20
+Version: Cloud
+
+--- Record 448 ---
+Component: Decentralized Identity Verification
+Environment: Cloud Foundry
+Title: Addition of DCP-Holder Protocol Support
+Description: The new DCP-Holder protocol now supports the credential offer flow.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2025-07-17
+Version: 3.11
+
+--- Record 449 ---
+Component: Decentralized Identity Verification
+Environment: Cloud Foundry
+Title: Automated Creation of Credential Requests
+Description: A holder can now configure an automatic creation of credential offers for selected issuers of a credential type.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2025-07-17
+Version: 3.11
+
+--- Record 450 ---
+Component: Decentralized Identity Verification
+Environment: Cloud Foundry
+Title: Automated Credential Request Creation Following Credential Offers
+Description: You can now use a service that automatically creates credential requests when you receive a credential offer, provided you have configured automation for the credential offer flow.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2025-07-17
+Version: 3.11
+

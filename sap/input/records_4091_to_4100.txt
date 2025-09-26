@@ -1,0 +1,130 @@
+--- Record 4091 ---
+Component: Automation Pilot
+Environment: Cloud Foundry
+Title: New Expression Functions
+Description: Automation Pilot now supports the jq functions sub and gsub. See Dynamic Expression.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-11-02
+Valid as Of: 2023-11-02
+Version: Cloud
+
+--- Record 4092 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Application Development in Authorization Management
+Description: Developers can use the developer tools of administration management. They build their own applications with authorization policies. Administrators assign authorization policies to users, change the rules and attribute values of existing policies, and create new authorization policies. See Configuring Authorization Policies.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-11-02
+Valid as Of: 2023-11-02
+Version: Cloud
+
+--- Record 4093 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Customer Documents
+Description: Tenant administrator can upload terms of use and privacy policy documents, and e-mail templates in Thai, Malay and Vietnamese. See Configuring Terms of Use, Configuring Privacy Policies, and Configuring Email Templates.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-11-02
+Valid as Of: 2023-11-02
+Version: Cloud
+
+--- Record 4094 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: End User Screens
+Description: Added Thai, Malay and Vietnamese to the supported languages for end user screens. See Supported Languages.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-11-02
+Valid as Of: 2023-11-02
+Version: Cloud
+
+--- Record 4095 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Integration of Default Attributes and Assertion Attributes in Applications
+Description: In the configuration of applications, we have combined the Default Attributes and Assertion Attributes into a single screen named Attributes. This change gives administrators a complete overview of the user attributes configured for an application. See User Attributes.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2023-11-02
+Valid as Of: 2023-11-02
+Version: Cloud
+
+--- Record 4096 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Off-Cycle Upgrade
+Description: Identity Authentication has been upgraded.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-11-02
+Valid as Of: 2023-11-02
+Version: Cloud
+
+--- Record 4097 ---
+Component: Documentation
+Environment: ABAP,Cloud Foundry,Kyma
+Title: Dynamic Filtering
+Description: We're now piloting the dynamic filtering functionality. You can filter by runtime in the SAP BTP documentation. For example, you can select the Kyma runtime filter to view Kyma-relevant content. By default, all the content is displayed.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-11-02
+Valid as Of: 2023-11-02
+Version: Cloud
+
+--- Record 4098 ---
+Component: Extensions
+Environment: Cloud Foundry,Kyma
+Title: Configuring Communication Scenario Groups when Registering an SAP S/4HANA Cloud System
+Description: When registering an SAP S/4HANA Cloud system in a global account in SAP BTP, you can now configure communication scenario groups. The available communication scenario groups are:      All Communication Scenarios: creates any of the communication scenarios in SAP S/4HANA Cloud.      Integration with SAP Ariba Buying: allows the automatic enablement of the SAP_COM_0545 and SAP_COM_0A00 communication scenarios in SAP S/4HANA Cloud.      Integration with SAP Start: allows the automatic enablement of the SAP_COM_0647 communication scenario in SAP S/4HANA Cloud.      Register an SAP S/4HANA Cloud System in a Global Account in SAP BTP
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2023-11-02
+Valid as Of: 2023-11-02
+Version: Cloud
+
+--- Record 4099 ---
+Component: Extensions
+Environment: Cloud Foundry,Kyma
+Title: Enabling SAP Ariba Buying with SAP S/4HANA Cloud on SAP BTP
+Description: To set up SAP Ariba Buying with SAP S/4HANA Cloud on SAP BTP, you need to have all the necessary systems included in a formation of type Integration with SAP Ariba Buying in the System Landscape page of the SAP BTP cockpit.  If you want to have the end-to-end setup automatically, including creating the formation, use the Set Up SAP Ariba Buying booster in the SAP BTP cockpit.  See Automating Integrations with SAP Ariba Buying.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2023-11-02
+Valid as Of: 2023-11-02
+Version: Cloud
+
+--- Record 4100 ---
+Component: Extensions
+Environment: Cloud Foundry,Kyma
+Title: Enabling SAP Start with SAP S/4HANA Cloud on SAP BTP
+Description: To set up SAP Start with SAP S/4HANA Cloud on SAP BTP, you need to have all the necessary systems included in a formation of type Integration with SAP Start in the System Landscape page of the SAP BTP cockpit.  If you want to have the end-to-end setup automatically, including creating the formation, use the Set Up SAP Start booster in the SAP BTP cockpit.  See Automating Integrations with SAP Start.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2023-11-02
+Valid as Of: 2023-11-02
+Version: Cloud
+

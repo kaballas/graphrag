@@ -1,0 +1,130 @@
+--- Record 2021 ---
+Component: Authorization and Trust Management Service
+Environment: Cloud Foundry,Other
+Title: Creation and Update of xsuaa Service Instances Becomes Asynchronous by Default
+Description: The target audience of the change are developers.  Currently, if the xsenableasyncservice attribute is not configured in your application security descriptor, the SAP Authorization and Trust Management service creates and updates service instances synchronously. This default changes to asynchronous. The change affects existing as well as new service instances of the SAP Authorization and Trust Management service.  This change conforms with the new defaults of the Cloud Foundry command line interface (see https://docs.cloudfoundry.org/cf-cli/v8.html), which come with cf CLI v8.  Action  Check whether you are affected by the change. The change only affects you if the following prerequisite is true:        The xsenableasyncservice attribute is not configured in the application security descriptor.        If you are affected, ensure that your application works with asynchronous service instance creations and updates. This can easily be done by specifying the following attribute in the security descriptor before the change:  "xsenableasyncservice":"true"  It has the same effect as the planned change. Since asynchronous service instance creations and updates don't wait until the processing is finished, you may want to adapt the CF CLI commands in your deployment scripts so that they wait until completion:        cf create-service xsuaa application <service_instance> -c <security_descriptor_file> --wait      cf update-service <service_instance> -c <security_descriptor_file> --wait          Note  The --wait option is supported by Cloud Foundry CLI version 8 or higher.    For more information, see Application Security Descriptor Configuration Syntax.
+Action: Required
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-10-18
+Valid as Of: 2024-11-12
+Version: 2411b
+
+--- Record 2022 ---
+Component: Authorization and Trust Management Service
+Environment: Cloud Foundry,Other
+Title: No Default Values for Redirect URIs in New Cloud Foundry Landscapes
+Description: We are going to make the following change for security reasons. The target audience of the change are developers.  Currently, if you've deployed custom applications and if you didn't define redirect URIs in the application security descriptor (xs-security.json), the SAP Authorization and Trust Management service applies a default (https://*.cfapps.<landscape domain>). This default is going to be removed so that developers must configure the required redirect URIs in the application security descriptor.  Action  Check whether you are affected by the change. The change only affects new Cloud Foundry landscapes if all of the following prerequisites are true:        You haven't configured any redirect URIs in the application security descriptor of your application.      Your application authenticates users in a web browser.      You deploy your application to a Cloud Foundry landscape that has been made available to customers after the release note.        If you are affected, configure the required redirect URIs in the application security descriptor.  For more information, see Application Security Descriptor Configuration Syntax.
+Action: Required
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-10-18
+Valid as Of: 2024-11-12
+Version: 2411b
+
+--- Record 2023 ---
+Component: Authorization and Trust Management Service
+Environment: ABAP,Cloud Foundry,Kyma,Other
+Title: Changed Behavior When Multitenant Applications Remove Predefined Role Collections
+Description: The target audience of the change are subaccount administrators.  Currently, when the provider of a subscribed application removes a pre-delivered role collection, that role collection is deleted from the provider subaccount and renamed in the subscriber subaccount. This will be changed so that the role collection will also be deleted from the subscriber subaccount.  Action  Be aware of this change.  For more information, see Application Security Descriptor Configuration Syntax.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-10-18
+Valid as Of: 2024-11-12
+Version: 2411b
+
+--- Record 2024 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: API Gateway module: Update to version 2.8.0
+Description: The new version includes the following changes:      The certificate key size of kyma-gateway is increased to 4096.      The Kyma dashboard UI now supports APIRule in version v2alpha1.      We’ve fixed FQDN validation for the hosts field entries in APIRule v2alpha1, allowing for one-character long labels and two-character top-level domains.    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-10-29
+Valid as Of: 2024-11-12
+Version: Cloud
+
+--- Record 2025 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Track Instances Using the Visibility Scenario Instances Application
+Description: You can now track and monitor instances using the Visibility Scenario Instances application with the Standard User entitlement.See Track Instances Using Visibility Scenario Instances Application.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-11-12
+Valid as Of: 2024-11-12
+Version: Cloud
+
+--- Record 2026 ---
+Component: SAP Print service
+Environment: Cloud Foundry,Other
+Title: Monitoring Connection Status
+Description: Monitor the connection status of SAP Print service to third-party output management systems.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-11-12
+Valid as Of: 2024-11-12
+Version: Cloud
+
+--- Record 2027 ---
+Component: Continuous Integration & Delivery
+Environment: Cloud Foundry
+Title: New Region
+Description: SAP Continuous Integration and Delivery can now also be consumed in the Switzerland (Zurich) and US East (VA) regions. See Regional Availability.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-11-11
+Valid as Of: 2024-11-11
+Version: Cloud
+
+--- Record 2028 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Identity Directory API
+Description: We have introduced a new implementation of the PATCH method of the Identity Directory API for all tenants in all Cloud Identity Services data centers except the ones in North America and Europe. The behavior of the new implementation is the same as the old one.  The implementation in the remaining data centers is planned for November 25, 2024.
+Action: Info only
+Lifecycle: Restricted Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-11-11
+Valid as Of: 2024-11-11
+Version: 26936
+
+--- Record 2029 ---
+Component: Document Management Service
+Environment: Cloud Foundry
+Title: Change of Default Credential Type for Service Key
+Description: The default credential type for Document Management Service, Integration Option service key has been updated. It's now 'binding-secret' instead of 'instance-secret'.  We made this change because xsuaa has deprecated the credential type 'instance-secret'.  This change only affects service instances that are updated with new service key.  Action: Check whether you are affected by the change. If you are impacted, ensure that your application is adjusted to work with 'binding-secret 'credential type before this change is activated.  See Creating and Updating a Service Instance and Service Key.
+Action: Required
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-11-08
+Valid as Of: 2024-11-08
+Version: Cloud
+
+--- Record 2030 ---
+Component: Document Management Service
+Environment: Cloud Foundry
+Title: Superdomain URL for SAP Document Management Service
+Description: SAP is migrating its products to a common cloud.sap superdomain to address browser isolation and privacy issues caused by current domain-specific URLs.  This change aims to improve integration scenarios using iFrames or cross-origin requests, which are affected by modern browser security features.  These changes apply only to new subscriptions and do not impact existing customers.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-11-08
+Valid as Of: 2024-11-08
+Version: Cloud
+

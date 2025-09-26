@@ -1,0 +1,130 @@
+--- Record 101 ---
+Component: Document Management Service
+Environment: Cloud Foundry
+Title: Offboard data
+Description: You can now use the Migration API to offboard data from the SAP Document Management service without causing data loss.  See Offboarding Data from SAP Document Management Service in the Multi-Cloud Foundation  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2025-09-16
+Version: Cloud
+
+--- Record 102 ---
+Component: SAP Datasphere
+Environment: Cloud Foundry
+Title: Features for Version 2025.19
+Description: New and changed features are available for .  For more information, see What's New in SAP Datasphere 2025.19. 
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-09-16
+Valid as Of: 2025-09-16
+Version: Cloud
+
+--- Record 103 ---
+Component: SAP AI Launchpad
+Environment: Cloud Foundry
+Title: Generative AI hub
+Description: SAP Document Management Service is supported as a repository type for the orchestration grounding module.  For more information, see Create a Generic Secret for AI Data Management.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2025-09-15
+Valid as Of: 2025-09-15
+Version: Cloud
+
+--- Record 104 ---
+Component: Edge Integration Cell
+Environment: Cloud Foundry
+Title: Access to Runtime Parameters
+Description: Runtime Parameters has been removed from Quick Links. You can now access Runtime Parameters only through Component Monitor.See: Runtime Parameters
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-09-14
+Valid as Of: 2025-09-14
+Version: 2507
+
+--- Record 105 ---
+Component: Edge Integration Cell
+Environment: Cloud Foundry
+Title: Configure Istio Proxy Resources
+Description: Manually increase resource limits for Istio Proxies for the worker component.See: Set Ixtio Proxy Resources
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-09-14
+Valid as Of: 2025-09-14
+Version: 2507
+
+--- Record 106 ---
+Component: Edge Integration Cell
+Environment: Cloud Foundry
+Title: Edge Local Authentication and Authorization Support for External Certificate Pinning.
+Description: When pinning is disabled for external client certificates, the system doesn't accept a previously used certificate with an older issue date for authentication once you use a renewed certificate.  See: Edge Local Authentication and Authorization
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-09-14
+Valid as Of: 2025-09-14
+Version: 2506
+
+--- Record 107 ---
+Component: Edge Integration Cell
+Environment: Cloud Foundry,Neo
+Title: Enabling ADK persistency with apadter API Available
+Description: You can now utilize an adapter API to store and retrieve critical information ensuring data persistence even after node restarts or crashes.  See Enabling ADK Persistency
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-09-14
+Valid as Of: 2025-09-14
+Version: 2507
+
+--- Record 108 ---
+Component: Edge Integration Cell
+Environment: Cloud Foundry
+Title: New Action in Job Management
+Description: A new action, Consolidate MPL Aggregation Data, is available in Job Management.See: Job Management
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-09-14
+Valid as Of: 2025-09-14
+Version: 2507
+
+--- Record 109 ---
+Component: Edge Integration Cell
+Environment: Cloud Foundry
+Title: Reusable API Artifact
+Description: You can now create reusable API artifacts that encapsulate standardized API policies and mediation logic such as authentication, transformation, and validation into modular units. These artifacts can be defined centrally and used across multiple API artifacts, helping you maintain consistency and streamline API development.   See, Reusable API Artifact  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-09-14
+Valid as Of: 2025-09-14
+Version: 2507
+
+--- Record 110 ---
+Component: Edge Integration Cell
+Environment: Cloud Foundry
+Title: RFC Adapter Receiver Supported in Diagnostics
+Description: The Adapter diagnostics task now also supports the RFC adapter with receiver direction.See: Diagnostics
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-09-14
+Valid as Of: 2025-09-14
+Version: 2507
+

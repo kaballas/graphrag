@@ -1,0 +1,130 @@
+--- Record 1061 ---
+Component: Java ALM
+Environment: Neo
+Title: Listing Subaccount Applications
+Description: The response from the GET request to list subaccount applications now includes information about the currently used bytes from the subaccount size quota and the total subaccount quota. See List Subaccount Applications.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-04-14
+Valid as Of: 2025-04-17
+Version: Cloud
+
+--- Record 1062 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Istio module: Update to version 1.16.1
+Description: With this release, we've fixed the XFF header content in CCEE clusters.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-04-17
+Valid as Of: 2025-04-17
+Version: Cloud
+
+--- Record 1063 ---
+Component: SAP BTP Cockpit
+Environment: Cloud Foundry
+Title: Analytics Now Available in SAP BTP Cockpit
+Description: We have introduced usage analytics to the SAP BTP cockpit. Global account administrators can enable sending anonymized usage data to help us identify and fix issues more quickly. We use analytics data to understand how users interact with the platform and to improve the user experience.  If you chose to opt-in, a global account adminstrator will first need to enable analytics for each global account. Before anyonymized usage data can be sent to SAP, individual global account users will also need to provide their consent. Users can change their consent choices at any time.  To learn about how to enable analytics, see Enable Analytics in the Cockpit.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-04-07
+Valid as Of: 2025-04-17
+Version: Cloud
+
+--- Record 1064 ---
+Component: SAP BTP, Cloud Foundry Runtime
+Environment: Cloud Foundry
+Title: Version 48.5.0
+Description: Cloud Foundry has been updated from 48.4.0 to 48.5.0.      https://github.com/cloudfoundry/cf-deployment/releases/tag/v48.5.0    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-04-17
+Valid as Of: 2025-04-17
+Version: Cloud
+
+--- Record 1065 ---
+Component: SAP Build Work Zone, advanced edition
+Environment: Cloud Foundry
+Title: Letterboxing Display Mode
+Description: For existing subscriptions only, a new display mode is now available in the Overview screen of the Admin Console, to select whether the site will be displayed with a medium or large letterboxing width. The letterboxing width affects the content area width of the page.   When switching from medium to large, administrators are able to preview the site before they confirm their choice.   For new subscriptions, the letterboxing width will be set to ‘large’ by default.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-04-17
+Valid as Of: 2025-04-17
+Version: 2503B
+
+--- Record 1066 ---
+Component: SAP Build Work Zone, advanced edition
+Environment: Cloud Foundry
+Title: Non Members Security Settings
+Description: A new setting was added to the Features screen of the Admin Console, to allow company admins to determine whether workspace admins are able to provide non-members access to ‘All external users’ and ‘All users’.  When this setting is disabled, only company admins see the 'All external users' and 'All users' options in the non-member access setting of workspaces.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-04-17
+Valid as Of: 2025-04-17
+Version: 2503B
+
+--- Record 1067 ---
+Component: SAP Build Work Zone, standard edition
+Environment: Cloud Foundry
+Title: Local Entry Point Business Solutions
+Description: SaaS providers can now create standalone business solutions that are using a local entry point and their own domain, and share it with consumers via subscription. In this simplified flow, the business solution consumers don’t need to subscribe to SAP Build Work Zone, standard edition, or perform any configuration steps.  For more information, see Creating Local-Entry-Point Business Solutions.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-04-17
+Valid as Of: 2025-04-17
+Version: 2503B
+
+--- Record 1068 ---
+Component: SAP Document and Reporting Compliance, Cloud Edition
+Environment: Kyma
+Title: Integration of the Electronic Documents Through Veri*Factu (Spain) Process with SAP S/4HANA Cloud Public Edition
+Description: You use this process to submit electronic customer invoices to the Spanish Tax Administration Agency (AEAT) through the verifiable invoice issuance system (Veri*Factu).  See Supported Compliance Tasks.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: nan
+Valid as Of: 2025-04-17
+Version: Cloud
+
+--- Record 1069 ---
+Component: SAP Java Buildpack
+Environment: Cloud Foundry
+Title: Version 2.28.0
+Description: SAP Java Buildpack 2 has been updated from version 2.27.0 to 2.28.0. Updated components:      TomEE 10 is updated from version 10.0.0 to 10.0.1      SAP HANA Driver (hana.driver.2.X.X) is updated from version 2.23.9 to 2.24.6      logback is updated from version 1.5.16 to 1.5.17      org.apache.httpcomponents.core5.httpcore5 is updated from version 5.3.3 to 5.3.4    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-04-03
+Valid as Of: 2025-04-17
+Version: Cloud
+
+--- Record 1070 ---
+Component: SAPUI5
+Environment: ABAP,Cloud Foundry,Kyma,Neo,Other
+Title: SAPUI5 Distribution 1.135
+Description: SAPUI5 version 1.135 has been released for UI development and can now be consumed by SAP BTP services. It’s up to the services to determine when they start using the new version.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2025-04-14
+Valid as Of: 2025-04-17
+Version: Cloud
+

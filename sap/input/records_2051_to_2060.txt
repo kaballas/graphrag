@@ -1,0 +1,130 @@
+--- Record 2051 ---
+Component: Continuous Integration & Delivery
+Environment: Cloud Foundry
+Title: Changed IP Addresses for SAP Connectivity Service
+Description: On November 1st, 2024, new IP endpoints will be implemented for the SAP Connectivity service. This change may affect jobs that utilize Cloud Connector and have IP restrictions in place. For the updated list of IP addresses, see Prerequisites.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-11-01
+Valid as Of: 2024-11-01
+Version: Cloud
+
+--- Record 2052 ---
+Component: Multitarget Applications for Cloud Foundry
+Environment: Cloud Foundry
+Title: Removal of MTA module types business-logging and com.sap.business-logging.content
+Description: The MTA module types business-logging and com.sap.business-logging.content are deprecated and will be removed at the end of 2024 due to the deprecation of an internal mechanism.  If you continue using these module types in your MTA, the deployments will fail with a similar error message: Error merging descriptors: Unsupported module type "business-logging" for platform type "CLOUD-FOUNDRY".   Action: Migrate to other module types depending on your needs. If you require support, report an incident to component BC-CP-CF-DS.
+Action: Required
+Lifecycle: Deprecated
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-10-31
+Valid as Of: 2024-10-31
+Version: Cloud
+
+--- Record 2053 ---
+Component: Authorization and Trust Management Service
+Environment: ABAP,Cloud Foundry,Kyma,Other
+Title: Provisioning of Members in the Cloud Foundry Environment (Organizations and and Spaces) Using SAP Cloud Identity Services - Identity Provisioning
+Description: You can now provision users and roles to Cloud Foundry orgs and spaces using SAP Cloud Identity Services - Identity Provisioning. This improvement enables you to centrally manage your platform users from your identity and access management solution. The improvement also helps you to delete the personal data of these users, when they aren't needed anymore.  For more information, see:      SAP BTP Integration Scenario in System Integration Guide for SAP Cloud Identity Services      About User Management in the Cloud Foundry Environment    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-10-28
+Valid as Of: 2024-10-31
+Version: 2410b
+
+--- Record 2054 ---
+Component: Availability Service
+Environment: Cloud Foundry
+Title: Configure Certificate Expiration and Certificate Chain Validation for AvT Certificate Monitors
+Description: AvS introduced Certificate type monitors for AvT that can be configured to check certificate expiration and certificate chain validation. For more information, see  ?sap-ot O2O class="- topic/xref " href="643030f616404d21babdd9a12e1911b5.xml" text="" desc="" xtrc="xref:6" xtrf="file:/home/builder/src/dita-all/yoe1460360436347/loio922bf2dbe0b646aaaa8cb5e077cfd799_en-US/src/content/localization/en-us/6da9927f396a47609f58c262831b0d9e.xml" output-class="xref" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.sap.prd.dita.html5/xsl/sap-html5/sap-html5-table-json.xsl" ? . Existing evaluations are not affected by the change.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-10-31
+Valid as Of: 2024-10-31
+Version: Cloud
+
+--- Record 2055 ---
+Component: Availability Service
+Environment: Cloud Foundry
+Title: New Unified View
+Description: Try out the new unified view that is replacing the explore and manage views on your AvS instance. To access the unified view, append /evaluations to the link of your AvS instance.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-10-31
+Valid as Of: 2024-10-31
+Version: Cloud
+
+--- Record 2056 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: SAP BTP Platform Members (Cloud Foundry) connector
+Description: Identity Provisioning supports the SAP BTP Platform Members (Cloud Foundry) connector. You can configure it as source, target, and proxy system for your provisioning scenarios. See:    SAP BTP Platform Members (Cloud Foundry) (Source)      SAP BTP Platform Members (Cloud Foundry) (Target)      SAP BTP Platform Members (Cloud Foundry) (Proxy)    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-10-31
+Valid as Of: 2024-10-31
+Version: 26835
+
+--- Record 2057 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Support for OAuth certificate authentication
+Description: SAP Build Work Zone, advanced edition supports OAuth certificate authentication.  For more information, see SAP Build Work Zone, advanced edition.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-10-31
+Valid as Of: 2024-10-31
+Version: 26835
+
+--- Record 2058 ---
+Component: Cloud Management Tools,SAP BTP Command Line Interface
+Environment: ABAP,Cloud Foundry,Kyma,Neo,Other
+Title: New Parameter in btp CLI for Listing Only Authorized Subaccounts
+Description: We've added a new --authorized parameter to the btp list accounts/subaccounts command in btp CLI, which allows you to filter only the subaccounts that you have access to. If you omit this parameter, the command prints all the subaccounts in the global account.  See https://help.sap.com/docs/btp/btp-cli-command-reference/btp-list-accounts-subaccount.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-10-31
+Valid as Of: 2024-10-31
+Version: Cloud
+
+--- Record 2059 ---
+Component: Connectivity
+Environment: Cloud Foundry,Neo
+Title: Cloud Connector 2.17.2 - Bug Fixes
+Description: Release of Cloud Connector version 2.17.2 provides the following bug fixes:    The connection check for access control entries could fail even if the connection would work fine in productive usages. This was caused by a changed default value introduced in Tomcat 9.0.90. With the upgrade to Tomcat 9.0.95, the problem has been solved. This was a regression in 2.17.1.  When upgrading a shadow instance, the master high availability (HA) port got lost during the upgrade. This was a regression in 2.17.1.  Pressing CapsLock when entering a password into Cloud Connector's login screen deleted the password characters that were entered so far. This was caused by a regression in UI5 Core 1.108.30 that was used in 2.17.1.  In the connection monitor details view the active requests were not showing the user that is invoking the service, even if the user is actually known. This was a regression introduced in 2.16.0.  Due to a faulty consistency check, the custom regions list contained all the known regions that were in use on the Cloud Connector. This illegal state has been corrected.  When using a dedicated HA port and resetting the HA settings on a shadow, the shadow's UI port within the HA information was wrongly set to the HA port. As a consequence, after connecting again to a master, it was not possible to open the shadow UI using the button in the master UI in the High Availability screen.  
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-10-31
+Valid as Of: 2024-10-31
+Version: Cloud
+
+--- Record 2060 ---
+Component: Connectivity
+Environment: Cloud Foundry,Neo
+Title: Cloud Connector 2.17.2 - Enhancements
+Description: Release of Cloud Connector version 2.17.2 provides the following enhancements:    Introduced a CapsLock warning on all password input fields. Previously, such a warning was only shown on the login screen.  Cloud Connector does no longer allow to upload UI certificates from a P12 file that include the KeyUsage certsigning. Such certificates are not accepted by all browsers for identifying a server.  The connection check for access control entries is now allowed for all authenticated users.  When opening TCP connections successfully, an audit log entry is written that access to the system has been allowed.  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-10-31
+Valid as Of: 2024-10-31
+Version: Cloud
+

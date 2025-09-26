@@ -1,0 +1,130 @@
+--- Record 2001 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: New Improved ML Models for Invoice, Purchase Order, and Payment Advice
+Description: We’ve improved the machine learning models for the document types invoice, purchase order, and payment advice.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Intelligent Technologies
+Latest Revision: 2024-11-14
+Valid as Of: 2024-11-14
+Version: Cloud
+
+--- Record 2002 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: Sort and Filter Extraction Fields for Templates
+Description: You can now sort and filter the names of header and line item fields on the Extraction Fields tab for templates. As a result, you can list field names in ascending or descending order and use the filter to display only specific fields.  See Add Template.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Intelligent Technologies
+Latest Revision: 2024-11-14
+Valid as Of: 2024-11-14
+Version: Cloud
+
+--- Record 2003 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: Use Setup Types auto and manual with Copies of SAP Schemas and Old Custom Schemas
+Description: If you copy SAP schemas or old custom schemas that include fields with the setup type default, the copied fields and any new fields that you add now also support the setup types auto and manual.   If you use the service plan premium edition, you can therefore include data fields that use generative AI as extraction method in copies of these kinds of schema.  See Setup Types.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Intelligent Technologies
+Latest Revision: 2024-11-14
+Valid as Of: 2024-11-14
+Version: Cloud
+
+--- Record 2004 ---
+Component: SAP HANA Service
+Environment: Neo
+Title: Revision 2.00.059.15
+Description: You can now update to SAP HANA revision 2.00.059.15. See 3501358 - SAP HANA 2 SPS05 Revision 059.15.    Note  If you are still on SAP HANA 1.0, upgrade to the latest version of SAP HANA 2.0 as SAP HANA 1.0 has reached the end of mainstream maintenance in June 2021. See 2946614 - End-of-Maintenance of SAP HANA 1.0 in the SAP BTP, Neo Environment.  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-11-14
+Valid as Of: 2024-11-14
+Version: Cloud
+
+--- Record 2005 ---
+Component: SAP HANA Service
+Environment: Neo
+Title: Revision 2.00.079.01
+Description: You can now update to SAP HANA revision 2.00.079.01. See 3495932 - SAP HANA 2 SPS07 Revision 079.01 .    Note  If you are still on SAP HANA 1.0, upgrade to the latest version of SAP HANA 2.0 as SAP HANA 1.0 has reached the end of mainstream maintenance in June 2021. See 2946614 - End-of-Maintenance of SAP HANA 1.0 in the SAP BTP, Neo Environment.  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-11-14
+Valid as Of: 2024-11-14
+Version: Cloud
+
+--- Record 2006 ---
+Component: SAP Java Buildpack
+Environment: Cloud Foundry
+Title: Version 1.107.0
+Description: SAP Java Buildpack 1 has been updated from version 1.106.0 to 1.107.0. Updated components:      SapMachine 11 is updated from version 11.0.24 to 11.0.25      SapMachine 17 is updated from version 17.0.12 to 17.0.13      SAP JVM is updated from version 81.101.101 to 81.102.102      otel-agent is updated from version 2.6.0 to 2.8.0      otel-agent-ext-java is updated from version 1.5.18 to 1.5.19      org.apache.httpcomponents.core5.httpcore5 is updated from version 5.3 to 5.3.1      org.apache.httpcomponents.core5.httpcore5-h2 is updated from version 5.3 to 5.3.1      logback is updated from version 1.5.8 to 1.5.11    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-11-01
+Valid as Of: 2024-11-14
+Version: Cloud
+
+--- Record 2007 ---
+Component: SAP Java Buildpack
+Environment: Cloud Foundry
+Title: Version 2.21.0
+Description: SAP Java Buildpack 2 has been updated from version 2.20.0 to 2.21.0. Updated components:      SapMachine 17 is updated from version 17.0.12 to 17.0.13      SapMachine 21 is updated from version 21.0.4 to 21.0.5      otel-agent is updated from version 2.6.0 to 2.8.0      otel-agent-ext-java is updated from version 1.5.18 to 1.5.19      org.apache.httpcomponents.core5.httpcore5 is updated from version 5.3 to 5.3.1      org.apache.httpcomponents.core5.httpcore5-h2 is updated from version 5.3 to 5.3.1      logback is updated from version 1.5.8 to 1.5.11    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-11-01
+Valid as Of: 2024-11-14
+Version: Cloud
+
+--- Record 2008 ---
+Component: SAP Private Link
+Environment: Cloud Foundry
+Title: Additional Amazon Web Services available on SAP BTP Cloud Foundry regions
+Description: The SAP Private Link service now also supports Amazon MSK on SAP BTP Cloud Foundry regions running on Amazon Web Services. For more information, see Supported Services for Amazon Web Services in SAP BTP.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-11-14
+Valid as Of: 2024-11-14
+Version: Cloud
+
+--- Record 2009 ---
+Component: SAP Private Link
+Environment: Cloud Foundry
+Title: Deletion of the SAP Private Link service managed Private DNS zones attached to the SAP BTP Cloud Foundry regions.
+Description: To enable both public and private endpoints for Azure resources via SAP BTP cockpit using SAP Private Link, the SAP Private Link managed by Private DNS zones in BTP Cloud Foundry regions will be deleted.   The following changes are to be expected:  SAP Private link service keys will no longer contain the hostname of the connected resource, but instead the private IP address. Due date January 2025  SAP managed Private DNS Zones to Azure native services will be deleted from the BTP Cloud Foundry regions. Due date March 31, 2025  Actions to take:     Bind the SAP Private link service instances to the consuming applications.      For more information, see Announcement in Using SAP Private Link Service.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-11-05
+Valid as Of: 2024-11-14
+Version: Cloud
+
+--- Record 2010 ---
+Component: Workflow Capability
+Environment: Cloud Foundry
+Title: Update Task Attributes in Batch
+Description: You can now update the task attributes for multiple task instances in a single request.  For more information, see API Documentation.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-11-14
+Valid as Of: 2024-11-14
+Version: Cloud
+

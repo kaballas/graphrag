@@ -1,0 +1,130 @@
+--- Record 3871 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Create and Manage Projects
+Description: User principles are now case insensitive. For example, "user@mail.com" is treated as the same entity as "USER@mAil.cOM".
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2023-12-12
+Valid as Of: 2023-12-12
+Version: Cloud
+
+--- Record 3872 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Different Types of Set Activity Options in the Enhanced Recorder
+Description: You can now use the following options in the enhanced recorder to modify the input value for the Set activity.    Convert Input into a Variable - This option allows you to convert an input value into a variable.  Replace Variable with Original Input - This option allows you to replace a variable with the original input value.  Replace Input with Existing Variable - This option allows you to replace an input value with the pre-existing variable.    For more information, see Different Types of Set Activity Options in the Enhanced Recorder.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-12-12
+Valid as Of: 2023-12-12
+Version: Cloud
+
+--- Record 3873 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Error Management in the Enhanced Recorder
+Description: You can now effectively manage errors that may arise while recording in the enhanced recorder. For more information, see Error Management in the Enhanced Recorder.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-12-12
+Valid as Of: 2023-12-12
+Version: Cloud
+
+--- Record 3874 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Event Triggers
+Description: You can now edit event triggers in a Released project version on the Triggers tab of the Overview screen. For more information, see Manage Event Triggers from the Project Overview.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-12-12
+Valid as Of: 2023-12-12
+Version: Cloud
+
+--- Record 3875 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Export Health Metrics for Desktop Agent 3
+Description: You can now export health metrics for agents in support mode. For more information, see Export Health Metrics.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-12-12
+Valid as Of: 2023-12-12
+Version: Cloud
+
+--- Record 3876 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Manage Traces - More Information
+Description: You can now view the ongoing trace by choosing History and then Reports. For more key on how to manage traces, see More Information.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-12-12
+Valid as Of: 2023-12-12
+Version: Cloud
+
+--- Record 3877 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Microsoft 365 Cloud SDK
+Description: Various activities are added to enhance the Microsoft 365 SDK.  You can now use the Send Email (On behalf of) activity to a recipient on behalf of another person, the Search Sites activity to search for the requested site, the Select Site activity to select the site, the Enumerate Lists activity to retrieve all the lists available on the selected site, the Create Lists activity to create a list on the selected site, the Select List activity to select the list on the current site, the List Columns activity to list all the columns of the current site, the Add Items activity to add multiple items to a single cell within the existing list of the current site, the Search Items to search for the items on the current list, the Delete Column activity to delete a column from the current list, the Update Item activity to updates an item on the current list, the Delete Item activity to delete an item on the current list.  For more information on the Microsoft 365 Cloud SDK, see More Information.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-12-12
+Valid as Of: 2023-12-12
+Version: Cloud
+
+--- Record 3878 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Record Web and Windows Applications with the Enhanced Recorder
+Description: The recorder with enhanced user experience is now available in Agent 3. The features of this recorder remain the same as those of the Agent 2 recorder. For more information, see Record Web and Windows Applications with the Enhanced Recorder.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-12-12
+Valid as Of: 2023-12-12
+Version: Cloud
+
+--- Record 3879 ---
+Component: SAP HANA Spatial Services
+Environment: Cloud Foundry,Kyma
+Title: nan
+Description:     Enhancements: Mapping API, Routing API, Geocoding API  Security updates have been implemented.      Bug Fix: Routing API  In both Single Routing and Matrix Routing, only highways were considered for calculating routes for provider Trimble.      New Feature: Routing API  Introduction of new optional parameter avoid allowing to specify a list of categories to be avoided in the route. Currently, the category “tollRoads” is supported.  Routing API    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2023-12-12
+Version: Cloud
+
+--- Record 3880 ---
+Component: SAP Intelligent Robotic Process Automation
+Environment: Cloud Foundry
+Title: Core SDK
+Description: You can now use the Get Screen Application Instance Count activity to return the number of instances of the application screen and the Get Screen Application Instance (Index) activity to retrieve the instance of the application screen from its index.  See: Core SDK.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-12-12
+Valid as Of: 2023-12-12
+Version: Cloud
+

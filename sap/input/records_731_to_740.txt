@@ -1,0 +1,130 @@
+--- Record 731 ---
+Component: SAP AI Launchpad
+Environment: Cloud Foundry
+Title: Generative AI hub
+Description: GPT-4 versions 0613 and turbo-2024-04-09 and gpt-4-32k version 0613 have been deprecated.  It's recommended that users of these models migrate to GPT-4.1 as a replacement. For more information, see SAP Note 3437766 .
+Action: Info only
+Lifecycle: Deprecated
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2025-06-02
+Valid as Of: 2025-06-02
+Version: Cloud
+
+--- Record 732 ---
+Component: SAP AI Launchpad
+Environment: Cloud Foundry
+Title: Generative AI hub
+Description: Gemini-1.5-pro and gemini-1.5-flash have been deprecated.    It's recommended that users of these models migrate to gemini-2.0-flash, or gemini-2.0-flash-lite as replacements.   For more information, see SAP Note3437766 .
+Action: Info only
+Lifecycle: Deprecated
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2025-06-02
+Valid as Of: 2025-06-02
+Version: Cloud
+
+--- Record 733 ---
+Component: SAP AI Launchpad
+Environment: Cloud Foundry
+Title: Generative AI hub
+Description: Mistralai--mixtral08x7b-v01 has been deprecated.    It's recommended that users of this model migrate to mistralai--mistral-small-instruct as a replacement.   For more information, see SAP Note3437766 .
+Action: Info only
+Lifecycle: Deprecated
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2025-06-02
+Valid as Of: 2025-06-02
+Version: Cloud
+
+--- Record 734 ---
+Component: SAP AI Launchpad
+Environment: Cloud Foundry
+Title: Generative AI hub
+Description: An additional module has been added to orchestration.  The translation module translates text, and can be configured for input and output text.  The input translation module helps improve answer quality when the configured model performs better when input is provided in a specific language, for example English.   For more information, see Input Translation and Output Translation.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2025-06-02
+Valid as Of: 2025-06-02
+Version: Cloud
+
+--- Record 735 ---
+Component: SAP BTP Developer's Guide
+Environment: Cloud Foundry,Kyma
+Title: Introduction to CI/CD
+Description: There is a new chapter that introduces you to Continuous Integration and Delivery (CI/CD), as well as SAP's solution for it.  See Introducing Continuous Integration and Delivery (CI/CD).
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-06-02
+Valid as Of: 2025-06-02
+Version: Cloud
+
+--- Record 736 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Referenced SAPUI5 Version
+Description: As part of hotfix collection 4, SAPUI5 version 1.133.4 is used for the administrator’s SAP Fiori launchpad, SAP-delivered Fiori apps, and the custom-built SAP Fiori apps, which are deployed to the ABAP system.  See SAP BTP ABAP Environment – Maintenance Windows and Major Upgrade Windows in 2025 and SAP UI5
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-06-04
+Valid as Of: 2025-06-01
+Version: ABAP Environment 2505
+
+--- Record 737 ---
+Component: API Management
+Environment: Cloud Foundry
+Title: Change in Navigation for Enabling Analytics AI features
+Description: A navigation change has been implemented in the SAP Integration Suite for enabling the Analytics AI features. Previously, you had to select Settings  APIs and go to the Analyze tab.  Now, to enable the AI features, such as Anomaly Detection and Predictions:  Navigate to Settings  Artificial Intelligence.  Locate the AI features and switch the toggle button to the ON position.    For more information, see Enabling Anomaly Detection and Predictions.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-06-01
+Valid as Of: 2025-06-01
+Version: 2504
+
+--- Record 738 ---
+Component: API Management
+Environment: Cloud Foundry
+Title: New Role Collections in API Management
+Description: To provide more flexibility and control in managing API Management entities, we have introduced three new granular role collections:   APIPortal.Configurator  APIPortal.Developer  APIPortal.Tester      Additionally, to restrict a user to managing only API proxies and products—without granting access to policy templates—you can now assign the APIProxy.Developer role.  For more information, see Role Collections in API Management and Comprehensive Breakdown of Role Collections in API Management  SAP API Management customers choose: Role Collections in API Management and Comprehensive Breakdown of Role Collections in API Management
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-06-01
+Valid as Of: 2025-06-01
+Version: 2504
+
+--- Record 739 ---
+Component: API Management
+Environment: Cloud Foundry
+Title: Support for API Artifacts Added to Access Policies
+Description: Support for API artifacts has now been added to access policies. With access policies, unauthorized users can view protected resources—such as integration flows—but cannot perform actions like editing, copying, downloading, deleting, simulating the flow, or monitoring its message content. For more information, see Access Policies for API Artifact and Defining Access Policies.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-06-01
+Valid as Of: 2025-06-01
+Version: 2504
+
+--- Record 740 ---
+Component: Data Space Integration
+Environment: Cloud Foundry
+Title: Custom Connector URL
+Description: During the onboarding, you can now use a custom connector URL, which replaces the default connector URL to the outside. See Configuring Connector Setup Using the UI.  To enter a custom connector URL, go to Settings  Data Spaces. In the tab Connect to a Data Space, enter a Custom Connector URL that overwrites the Default Connector URL.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-06-01
+Valid as Of: 2025-06-01
+Version: 2504
+

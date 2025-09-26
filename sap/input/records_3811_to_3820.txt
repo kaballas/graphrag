@@ -1,0 +1,130 @@
+--- Record 3811 ---
+Component: SAP Conversational AI
+Environment: Cloud Foundry
+Title: Tenant Header Configuration Endpoint
+Description: As of June 2023, /auth/v1/update_tenant_security_header_toggle has been deprectaed. For more information, see API documentation.
+Action: Info only
+Lifecycle: Deprecated
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2023-07-05
+Valid as Of: 2023-12-31
+Version: Cloud
+
+--- Record 3812 ---
+Component: SAP Conversational AI
+Environment: Cloud Foundry
+Title: Tenant Security Headers
+Description: As of June 2023, you must configure tenant security headers for your enterprise tenant. You cannot set security header toggle for your enterprise tenant to false using the Tenant Header Configuration endpoint. See Configure Tenant Security Headers.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2023-07-05
+Valid as Of: 2023-12-31
+Version: Cloud
+
+--- Record 3813 ---
+Component: SAP Build Work Zone, advanced edition
+Environment: Cloud Foundry
+Title: Aligned Tile Behavior
+Description: Until now, certain application tiles such as Dynamic tiles and tiles with custom images, behaved differently when accessed from a workpage rather than through the Applications page. This behavior has been aligned and now all application tiles behave the same no matter where they are accessed from.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2023-12-21
+Valid as Of: 2023-12-28
+Version: Cloud
+
+--- Record 3814 ---
+Component: SAP Build Work Zone, advanced edition
+Environment: Cloud Foundry
+Title: Integration with Central Notification
+Description: Site administrators can choose whether to use the default notification mechanism available in their site, or to enable the integration with central notification, and show notifications from multiple notification providers. As part of this change, part of the notifications will be migrated to the Task Center.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-12-21
+Valid as Of: 2023-12-28
+Version: Cloud
+
+--- Record 3815 ---
+Component: SAP Build Work Zone, advanced edition
+Environment: Cloud Foundry
+Title: Menu Workpage Widgets Can Reference Contents From Workspaces
+Description: Widgets in workpages ,which are part of the site menu, can reference content from any public or private workspace. Supported widgets are Multimedia, Image, Poll, Slide Show, and Rotating Banner widgets.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-12-21
+Valid as Of: 2023-12-28
+Version: Cloud
+
+--- Record 3816 ---
+Component: SAP Build Work Zone, advanced edition
+Environment: Cloud Foundry
+Title: Updated Collaboration Level for Non-Members on Public Workspaces
+Description: While the collaboration levels of workspace members remain Full, Limited, and Read-Only, the collaboration level for non-members on public workspaces now includes two options: Same as members, and None.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-12-21
+Valid as Of: 2023-12-28
+Version: Cloud
+
+--- Record 3817 ---
+Component: SAP Document and Reporting Compliance, Cloud Edition
+Environment: Kyma
+Title: Updated Document Standard and Corresponding File for Germany
+Description: For Germany only: For the Peppol Exchange process, the following enhancements are available:      Updated XRechnung standard to version 3.0.1.      Updated file for XRechnung to version 2.0.1. This version is compatible with XRechnung 3.0.1.    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: nan
+Valid as Of: 2023-12-28
+Version: Cloud
+
+--- Record 3818 ---
+Component: SAP Start
+Environment: Cloud Foundry
+Title: SAP Task Center integration is optional
+Description: In an existing subscription setup, integration with SAP Task Center is optional. However, once the setup is complete, it is no longer possible to add SAP Task Center, and the To-Dos section will not be displayed.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2023-12-28
+Valid as Of: 2023-12-28
+Version: Cloud
+
+--- Record 3819 ---
+Component: SAP S/⁠4HANA Cloud for Credit Integration
+Environment: Cloud Foundry
+Title: New App: Display Status Log for Credit Reports (F7891)
+Description: Use this app to see the status log of imported credit reports and monitoring notifications for your business partners. If errors occurred during the import, the app provides more details.  More information:   Display Status Log for Credit Reports  Displaying Logs for External Credit Information
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Finance
+Latest Revision: 2023-12-27
+Valid as Of: 2023-12-27
+Version: Cloud
+
+--- Record 3820 ---
+Component: Peppol Exchange
+Environment: Neo
+Title: Enhancements to the service for Germany
+Description: The following enhancements are only relevant for Germany and have already been updated in the test environment:      Updated XRechnung standard to version 3.0.1.      Updated schematron file for XRechnung to version 2.0.1. This version is compatible with XRechnung 3.0.1.      This change will be active in the production environment on the next deployment planned to take place on December 30, 2023.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2023-12-23
+Version: Cloud
+

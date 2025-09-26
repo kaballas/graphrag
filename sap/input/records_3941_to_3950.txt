@@ -1,0 +1,130 @@
+--- Record 3941 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Regional Availability
+Description: Identity Authentication is now available with a new data center for the SAP infrastructure in North America East. The data center is located in Colorado (United States).  Action: We recommend you to add the following IPs to your allowed IP list:  LB IP - 130.214.207.198  NAT IP - 130.214.242.32/27
+Action: Recommended
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-11-28
+Valid as Of: 2023-11-27
+Version: Cloud
+
+--- Record 3942 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Regular Upgrade
+Description: Identity Authentication has been upgraded.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-11-28
+Valid as Of: 2023-11-27
+Version: Cloud
+
+--- Record 3943 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Tenant Texts
+Description: Tenant administrators change the configuration of tenant texts in the administration console for SAP Cloud Identity Services via Edit mode. SeeChange Tenant Texts Via Administration Console .
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2023-11-28
+Valid as Of: 2023-11-27
+Version: Cloud
+
+--- Record 3944 ---
+Component: Identity Provisioning
+Environment: Neo
+Title: Manage transformations history
+Description: Manage transformations history  You can now manage the history of transformations, review and restore them to a previous version, as well as download a specific one. This way you will no longer need to copy, save and manage modified transformations in your own archive. Previously, you were able to only restore a transformation to its initial state.  Managing transformations history is supported for Identity Provisioning tenants running on SAP Cloud Identity infrastructure. Customers with tenants running on SAP BTP, Neo environment can only reset modified transformations to their initial state.  For more information, see:    Manage Transformations History      Reset Transformations    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-12-06
+Valid as Of: 2023-11-27
+Version: Cloud
+
+--- Record 3945 ---
+Component: Identity Provisioning
+Environment: Neo
+Title: Re-entering credentials required when changing URL or host
+Description: As of November 27, 2023, whenever you update the URL or the host name of а provisioning system, you must re-enter the values of the credential properties, such as Password, ariba.applications.api.key and others. The only exception to this are the credential properties of systems that are created with a connectivity destination.  For more information, see: Manage Properties
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2023-12-06
+Valid as Of: 2023-11-27
+Version: Cloud
+
+--- Record 3946 ---
+Component: Peppol Exchange
+Environment: Neo
+Title: Enhancement to the service
+Description: The following enhancements have already been updated in the test environment:      The schematron files have been updated for the following standards:      Peppol BIS 3.0 is updated to version 3.0.11.      XRechnung is updated to version 2.0.1. This version is compatible with XRechnung 3.0.X.      PINT is updated to version 1.01.      PINT Japan is updated to version 1.01.          For Japan only: The template for displaying PINT documents in HTML format has been updated.      This change will be active in the production environment on the next deployment planned to take place on December 4, 2023.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2023-11-27
+Version: Cloud
+
+--- Record 3947 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: Better Model for the Extraction of invoice Documents
+Description: The machine learning model for the extraction of invoice documents has been improved. The improvements include better extraction results for currency, country and date fields. Additionally, now the service supports the following countries/regions for invoice documents (and their corresponding languages):    Hungary (Hungarian)      Romania (Romanian)      Türkiye (Turkish)      See Supported Languages.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2023-11-27
+Valid as Of: 2023-11-27
+Version: Cloud
+
+--- Record 3948 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: Better Model for the Extraction of paymentAdvice Documents
+Description: The machine learning model for the extraction of paymentAdvice documents has been improved. The improvements include better extraction results for currency and country fields.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2023-11-27
+Valid as Of: 2023-11-27
+Version: Cloud
+
+--- Record 3949 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: Better Model for the Extraction of purchaseOrder Documents
+Description: The machine learning model for the extraction of purchaseOrder documents has been improved. The improvements include better extraction results for currency, country and date fields. Additionally, the service now supports the extraction of quantities with multipliers, for example, "2x5".
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2023-11-27
+Valid as Of: 2023-11-27
+Version: Cloud
+
+--- Record 3950 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: Configuration API and Notifications
+Description: In addition to the already available instance and tenant scopes, you can now also use the activateDocumentNotifications configuration key on client scope level to enable the Notifications functionality and get notifications about the status of your processed documents.  See Configuration Keys.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-01-08
+Valid as Of: 2023-11-27
+Version: Cloud
+

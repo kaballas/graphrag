@@ -1,0 +1,130 @@
+--- Record 2411 ---
+Component: SAP Datasphere
+Environment: Cloud Foundry
+Title: Features for Version 2024.18
+Description: New and changed features are available for administration, data cataloging, data integration, data modeling, SAP BW Bridge, and space management.  For more information, see What's New in SAP Datasphere 2024.18. 
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-08-27
+Valid as Of: 2024-08-27
+Version: Cloud
+
+--- Record 2412 ---
+Component: SAP Document and Reporting Compliance, Cloud Edition
+Environment: Kyma
+Title: Enhancement for Supplier Invoices Sent Using the Peppol Exchange Process
+Description: You can now receive electronic invoices and credit notes including multiple cbc:Note elements. This enables your business partners to provide more comprehensive note information on their invoices and credit notes, such as reasons for corrections, assignment notes, special instructions, and any other textual notes applicable to the full document.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: nan
+Valid as Of: 2024-08-27
+Version: Cloud
+
+--- Record 2413 ---
+Component: SAP Document and Reporting Compliance, Cloud Edition
+Environment: Kyma
+Title: Removal of Deprecated Party ID Types for the Peppol Exchange Process for Finland
+Description: For Finland only: The options to create participants with FI:OVT and FI:VAT Party ID have been removed from the Configure Participants app.   Sending and receiving electronic invoices between participants that are registered in the Peppol network using the deprecated party ID types will discontinue to work in future.  If you have existing Peppol participants using the deprecated FI:OVT or FI:VAT as party ID type, you must delete those participants and create them again with the new FI:OVT2 party ID type. See:    Deleting the Registration of Your Company from the Peppol Network  Creating a Participant for Your Company  Registering Your Company to Receive Electronic Documents in the Peppol Network  
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: nan
+Valid as Of: 2024-08-27
+Version: Cloud
+
+--- Record 2414 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Landscape Portal Booster
+Description: The new Landscape Portal for SAP BTP ABAP Environment booster automatically sets up access to the Landscape Portal including all configurations required to build and deploy products. Upon execution, three subaccounts will be created: One subaccount will contain Landscape Portal and CI/CD subscriptions, while the other two can be used during the assembly and test installation stages of the product build process. See Booster for Landscape Portal.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-08-26
+Valid as Of: 2024-08-26
+Version: ABAP Environment 2408
+
+--- Record 2415 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Landscape Portal Booster (Free-Tier)
+Description: The new Landscape Portal for SAP BTP ABAP Environment (Free-Tier) booster automatically sets up access to the Landscape Portal for use with free-tier systems. When the booster is executed, a new subaccount with a Landscape Portal subscription is created, and the Landscape Portal Admin role collection is assigned to all specified users. See Accessing the Landscape Portal.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-08-26
+Valid as Of: 2024-08-26
+Version: ABAP Environment 2408
+
+--- Record 2416 ---
+Component: SAP Build Apps
+Environment: Cloud Foundry
+Title: SAP Build Apps
+Description: You can use the updated Build service, which comes with a better look and feel, and an improved user experience. See SAP Build Work Zone Builds.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-08-26
+Valid as Of: 2024-08-26
+Version: Cloud
+
+--- Record 2417 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Microsoft 365 Cloud SDK - OneNote
+Description: Various Microsoft OneNote activities are added to enhance the Microsoft 365 SDK. You can now use the Get Notebook List activity to retrieve the list of a notebook of the current authenticated user, the Create Notebook activity to create a notebook, the Delete Notebook activity to delete a notebook, the Get Section List activity to retrieve a list of sections of a notebook, the Create Section activity to create the section of a notebook, the Get Page List activity to retrieve the list of pages of a section, the Get Page Content activity to retrieve the content of a page, the Create Page activity to create a page inside the section of a notebook, the Update Page activity to update a page inside the section of a notebook, the Delete Page activity delete a page inside the section of a notebook. See Microsoft 365 Cloud SDK - OneNote.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-08-26
+Valid as Of: 2024-08-26
+Version: Cloud
+
+--- Record 2418 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: New API Scopes for Shared Environment
+Description: New API scopes have been added for your shared environment. Navigate to Control Tower  Others  API Keys to view. You can use shared environment scopes to generate API keys only in the shared environment.  See API Keys.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-08-26
+Valid as Of: 2024-08-26
+Version: Cloud
+
+--- Record 2419 ---
+Component: SAP HANA Spatial Services
+Environment: Cloud Foundry,Kyma
+Title: nan
+Description:     Enhancements: Mapping API, Routing API, Geocoding API  Security updates have been implemented.    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2024-08-26
+Version: Cloud
+
+--- Record 2420 ---
+Component: SAP Intelligent Robotic Process Automation
+Environment: Cloud Foundry
+Title: Microsoft 365 Cloud SDK - OneNote
+Description: Various Microsoft OneNote activities are added to enhance the Microsoft 365 SDK. You can now use the Get Notebook List activity to retrieve the list of a notebook of the current authenticated user, the Create Notebook activity to create a notebook, the Delete Notebook activity to delete a notebook, the Get Section List activity to retrieve a list of sections of a notebook, the Create Section activity to create the section of a notebook, the Get Page List activity to retrieve the list of pages of a section, the Get Page Content activity to retrieve the content of a page, the Create Page activity to create a page inside the section of a notebook, the Update Page activity to update a page inside the section of a notebook, the Delete Page activity delete a page inside the section of a notebook. See Microsoft 365 Cloud SDK - OneNote.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-08-26
+Valid as Of: 2024-08-26
+Version: Cloud
+

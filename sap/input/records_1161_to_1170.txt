@@ -1,0 +1,130 @@
+--- Record 1161 ---
+Component: Continuous Integration & Delivery
+Environment: Cloud Foundry
+Title: Deprecation of the SAP Fiori for the Neo Environment Pipeline
+Description: Due to the legacy Neo environment sunset on December 31, 2028, the SAP Fiori in the Neo Environment pipeline has been deprecated and is no longer available for new jobs. Existing jobs will continue to work until March 31st, 2025.
+Action: Info only
+Lifecycle: Deleted
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-12-13
+Valid as Of: 2025-03-31
+Version: Cloud
+
+--- Record 1162 ---
+Component: Business Entity Recognition
+Environment: Cloud Foundry
+Title: Service Removal
+Description: Business Entity Recognition is scheduled to be removed from the list of Eligible Cloud Services as of March 31, 2025. The service will be available until the end of the current subscription term. It will not be available for renewal terms that begin after the removal date.  Users are going to be able to consume the capabilities of the Business Entity Recognition service via the SAP Document AI service. For more information, see the blog post: [sunset] Business Entity Recognition is getting deprecated 02/25.
+Action: Info only
+Lifecycle: Deprecated
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-04-04
+Valid as Of: 2025-03-31
+Version: Cloud
+
+--- Record 1163 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Additional Google Cloud Platform Regions
+Description: You can choose from additional Google Cloud Platform regions for the SAP BTP ABAP environment: Brazil (São Paulo) and Japan (Osaka).  For more information, see Regions and API Endpoints for the ABAP Environment.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-04-14
+Valid as Of: 2025-03-31
+Version: ABAP Environment 2505
+
+--- Record 1164 ---
+Component: Cloud Logging
+Environment: Cloud Foundry
+Title: Cloud Logging service is available on sa31
+Description: New: Cloud Logging service is available on sa31.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2025-03-31
+Valid as Of: 2025-03-31
+Version: Cloud
+
+--- Record 1165 ---
+Component: Region
+Environment: Cloud Foundry
+Title: New Regions Available
+Description: The following regions running on Google Cloud are now available for use with enterprise accounts:  Brazil (São Paulo) (cf-br30)  Japan (Osaka) (cf-jp30)  Japan (Tokyo) (cf-jp31)  KSA (Dammam) (cf-sa31)  See Regions and API Endpoints Available for the Cloud Foundry Environment.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-03-31
+Valid as Of: 2025-03-31
+Version: Cloud
+
+--- Record 1166 ---
+Component: Region
+Environment: Cloud Foundry
+Title: New Regions Available
+Description: The following regions running on Azure are now available for use with enterprise accounts:  Canada Central (Toronto) (cf-ca20)  China North 3 (Hebei) (cf-cn20)  See Regions and API Endpoints Available for the Cloud Foundry Environment.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-03-31
+Valid as Of: 2025-03-31
+Version: Cloud
+
+--- Record 1167 ---
+Component: SAP BTP Administrator's Guide
+Environment: ABAP,Cloud Foundry,Kyma,Other
+Title: Updated Account Model Guidance
+Description:     We've rejuvenated the chapter Setting Up Your Account Model!  Now, it covers working with multiple runtimes and shared services, how to draft your ideal account model, and which templates and automation tools make your life easier.      We've updated Onboard to SAP Cloud Identity Services      We've adjusted the diagram for User and Member Management.    
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2025-03-31
+Valid as Of: 2025-03-31
+Version: Cloud
+
+--- Record 1168 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: Overall Improvements
+Description: There have been several code and stability improvements.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Intelligent Technologies
+Latest Revision: 2025-03-31
+Valid as Of: 2025-03-31
+Version: Cloud
+
+--- Record 1169 ---
+Component: SAP Dynamic Forms
+Environment: Cloud Foundry
+Title: Release 2503
+Description:     Access Form Data from SAP Service and Asset Manager: In the metadata of SAP Service and Asset Manager, you can access and modify form data sent to the application. By doing so you can access form instances and assign them to SAP Business Objects used in SAP Service and Asset Manager.      Filter Dropdown Controls with a Formula:     When creating a dropdown control in Form Builder, you can add a formula in the Edit Choices dialog to filter the dropdown's itemset.      The formula can reference other controls. For example, you can create a dropdown that automatically displays a filtered itemset based on the user's selection in another control.            Filter Class and Characteristics Data during Preprocessing: During preprocessing, you can filter the characteristics data of Equipments by class and characteristic name so that only a subset of characteristics will be populated into the form.    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-03-28
+Valid as Of: 2025-03-28
+Version: Cloud
+
+--- Record 1170 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Regional Availability
+Description: Cloud Identity Services is available with a new data center (DC), United States (Virginia), for the AWS infrastructure in US (North America East) region.  The United States (Colorado) DC is no longer used.  Action:  You must add the following IPs to your allowed IP list:    LB IP - 3.92.131.87, 52.200.183.196, 35.168.205.166  NAT IP - 52.44.60.92/32, 54.211.101.173/32, 54.225.47.27/32    The following IPs are no longer in use:    LB IP - 130.214.207.198  NAT IP - 130.214.242.32/27    See Regional Availability.
+Action: Required
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2025-03-27
+Valid as Of: 2025-03-27
+Version: 27643
+

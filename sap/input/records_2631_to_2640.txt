@@ -1,0 +1,130 @@
+--- Record 2631 ---
+Component: Workflow Capability
+Environment: Neo
+Title: Codebase Refactoring for Improved Performance and Optimization of My Inbox
+Description: Action Required SAP BTP NEO  Following this week's update of My Inbox, it is expected that end users encounter an error while opening My Inbox, indicating that the SAPUI5 component of the application cannot be loaded. This is due to the fact that the deployed My Inbox version is not compatible with the cached manifest.json file across customer's consumer accounts. To restore My Inbox app, please follow the steps for all your accounts:      Publish the site that exposes the My Inbox app. For more details, see Publish site in Building a Site .      Clear the app cache. For more details, see Clearing the App Cache.    
+Action: Required
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-07-24
+Valid as Of: 2024-07-24
+Version: Cloud
+
+--- Record 2632 ---
+Component: Pricing Service
+Environment: Cloud Foundry
+Title: Condition Exclusion on Condition Record Level
+Description: The exclusion indicator (KONP-KZNEP) that was maintained for a condition record is now considered during condition determination of the next condition types in a pricing procedure. To be able to use it, the following standard requirement formulas were changed:    Requirement formula 5 is now supported. It ensures that a condition type is only considered if the exclusion indicator was not set by a previously found condition record.      Requirement formula 6 is now supported. It ensures that a condition type is only considered if the exclusion indicator was not set to X by a previously found condition record.      Requirement formula 2 was enhanced to not only check if the pricing indicator (KOMP-PRSFD) equals X or B, but to also check that the exclusion indicator was not set by a previously found condition record.      See Condition Exclusion and Supported Standard Pricing Exits.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-06-28
+Valid as Of: 2024-07-24
+Version: Cloud
+
+--- Record 2633 ---
+Component: Pricing Service
+Environment: Cloud Foundry
+Title: Consider Cost Conditions as External Conditions
+Description: Condition types with data source other than Condition Technique are considered as external conditions where the condition rate must be passed by the caller if it is to be considered.   Now we also consider cost condition types without an access sequence with condition category Q (Cost) and G (Internal price) as external conditions as the data for condition types without an access sequence like EK01, EK02, and VPRS cannot be found in condition records, but must be passed by the service consumer.   See API Definition.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-06-28
+Valid as Of: 2024-07-24
+Version: Cloud
+
+--- Record 2634 ---
+Component: Pricing Service
+Environment: Cloud Foundry
+Title: Customizing API – Return the Scales Order
+Description: The returned condition type information was enhanced with the new field scaleOrder, which tells the caller whether the scale rates must be passed in ascending or descending order.  See API Definition and Development Guide for SAP Variant Configuration and Pricing.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-06-28
+Valid as Of: 2024-07-24
+Version: Cloud
+
+--- Record 2635 ---
+Component: Pricing Service
+Environment: Cloud Foundry
+Title: Document Pricing – Return the Scales Order
+Description: The scale details for returned item conditions was enhanced with the new field scaleOrder, which tells the caller whether the scale rates were maintained in ascending or descending order.  See API Definition and Development Guide for SAP Variant Configuration and Pricing.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-06-28
+Valid as Of: 2024-07-24
+Version: Cloud
+
+--- Record 2636 ---
+Component: Pricing Service
+Environment: Cloud Foundry
+Title: Extensions Concept – New APIs to Test Local Extensions
+Description: The local extension implementations could only be tested by calling the Pricing service and checking the expected pricing results. Now the following new endpoints that allow testing the active custom routines directly:    GET /functions: Returns the list of active uploaded JavaScript functions.       POST /functions/{functionId}: Allows to process an active uploaded custom pricing routine. Only in non-productive tenants.      See API Definition and Development Guide for SAP Variant Configuration and Pricing.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-06-28
+Valid as Of: 2024-07-24
+Version: Cloud
+
+--- Record 2637 ---
+Component: Pricing Service
+Environment: Cloud Foundry
+Title: Overwriting the Used Exchange Rate
+Description: By passing the pricing attribute KOMP-KURSK, it is now possible to overwrite the item’s used exchange rate when converting the local currency to the document currency.  See API Definition and Development Guide for SAP Variant Configuration and Pricing.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-06-28
+Valid as Of: 2024-07-24
+Version: Cloud
+
+--- Record 2638 ---
+Component: Pricing Service
+Environment: Cloud Foundry
+Title: Standard Requirement Formula 61
+Description: Support standard requirement formula 61 that checks if the pricing indicator (KOMP-PRSFD) equals X or B and that the item is not statistical.  See Supported Standard Pricing Exits.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-06-28
+Valid as Of: 2024-07-24
+Version: Cloud
+
+--- Record 2639 ---
+Component: Pricing Service
+Environment: Cloud Foundry
+Title: Stateless Pricing – Return Condition Scales
+Description: When creating condition records in the back end, scales can be maintained. The Pricing service determines the right scale value, uses it in price calculation and returns the corresponding price, discount, or surcharge. For example, lower prices are used for higher item quantities.  With the new $select request parameter value items-conditions-scale, it will also be possible for endpoint POST /statelesspricing to get all scale values returned. With that, the calling application could, for example, tell the user: if by buy a certain higher quantity, you will get a certain better price.   See API Definition and Development Guide for SAP Variant Configuration and Pricing.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-06-28
+Valid as Of: 2024-07-24
+Version: Cloud
+
+--- Record 2640 ---
+Component: SAP Document and Reporting Compliance, Cloud Edition
+Environment: Kyma
+Title: Integration of the E-Invoices (Malaysia) Process with SAP S/4HANA Cloud Public Edition
+Description: You use this process to submit electronic invoices to the Inland Revenue Board of Malaysia (IRBM), the tax authority in Malaysia.   Supported electronic invoices:    Electronic customer invoices      Buyer-created electronic invoices      See Supported Compliance Tasks.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: nan
+Valid as Of: 2024-07-24
+Version: Cloud
+

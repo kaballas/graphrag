@@ -1,0 +1,130 @@
+--- Record 3831 ---
+Component: UI Theme Designer
+Environment: Cloud Foundry
+Title: Support for preview pages hosted on a different domain
+Description: UI theme designer now supports preview pages hosted on a different domain if the preview page comes up with support for UI theme designer. For more information, see Adding Applications for Preview Purposes.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2023-12-20
+Version: Cloud
+
+--- Record 3832 ---
+Component: Continuous Integration & Delivery
+Environment: Cloud Foundry
+Title: Deprecation of Chromium Versions Lower than version 115
+Description: WebdriverIO tests that use a Chromium version lower than 115 will no longer be supported by SAP Continuous Integration and Delivery after March 31th, 2024. Instead, we recommended to use latest for chromdedriver version in the associated package.json file.
+Action: Recommended
+Lifecycle: Deprecated
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2023-12-19
+Valid as Of: 2023-12-19
+Version: Cloud
+
+--- Record 3833 ---
+Component: Continuous Integration & Delivery
+Environment: Cloud Foundry
+Title: Automatic Detection of Chromium Version
+Description: SAP Continuous Integration and Delivery now automatically detects which chromedriver version to use. Therefore, the version set in the package.json file associated with your job is not necessarily taken into account, but rather the Chromium version that is available in the environment. We recommend to use latest for chromdedriver version in the package.json file.  To use this feature in your local development, add the property detect_chromedriver_version=true in a .npmrc file.
+Action: Recommended
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2023-12-19
+Valid as Of: 2023-12-19
+Version: Cloud
+
+--- Record 3834 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Custom Mail Server
+Description: Tenant administrator can configure rate limits per minute for the emails. See Configure Custom Mail Server.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-12-19
+Valid as Of: 2023-12-19
+Version: Cloud
+
+--- Record 3835 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Regular Upgrade
+Description: Identity Authentication has been upgraded.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-12-19
+Valid as Of: 2023-12-19
+Version: Cloud
+
+--- Record 3836 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Regular Upgrade
+Description: Identity Authentication has been upgraded.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-12-19
+Valid as Of: 2023-12-19
+Version: Cloud
+
+--- Record 3837 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: User Attributes for Subscribed Applications
+Description: Tenant administrator can enable or disable the attribute mappings inherited from the subscribed multitenant applications. See Configuring User Attributes from a Corporate Identity Provider.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-12-19
+Valid as Of: 2023-12-19
+Version: Cloud
+
+--- Record 3838 ---
+Component: Continuous Integration & Delivery
+Environment: Cloud Foundry
+Title: Added Node 20 Build Tool Version
+Description: The Node 20 build tool version now is available for pure Node.js projects as well as for Cloud MTA Build Tool (MBT) projects together with Java 11 or Java 17.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-12-19
+Valid as Of: 2023-12-19
+Version: Cloud
+
+--- Record 3839 ---
+Component: Continuous Integration & Delivery
+Environment: Cloud Foundry
+Title: Credential List Configuration
+Description: For jobs that are configured in the Source Repository configuration mode, as an administrator, you can now configure credential lists to specify the credentials that are passed to the build. See (Optional) Configure a Credential List.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-12-19
+Valid as Of: 2023-12-19
+Version: Cloud
+
+--- Record 3840 ---
+Component: Continuous Integration & Delivery
+Environment: Cloud Foundry
+Title: Export of Transport Requests to SAP Cloud ALM
+Description: Transport requests can now be directly exported to SAP Cloud ALM by providing an SAP Cloud ALM service key.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-12-19
+Valid as Of: 2023-12-19
+Version: Cloud
+

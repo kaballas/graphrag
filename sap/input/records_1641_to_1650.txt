@@ -1,0 +1,130 @@
+--- Record 1641 ---
+Component: Pricing Service
+Environment: Cloud Foundry
+Title: Pre-Production – Extension Concept - Custom Implementation of Unsupported Standard Routines
+Description: Not all standard pricing routines that are available in the back end are also available in the Pricing service. If needed, customers can request the implementation of a missing routine, but SAP might reject this, because the routine is not considered as relevant for the use cases that the Pricing service addresses. In such a case, SAP can allow and enable the customer to use the Pricing service’s extension concept to implement the standard pricing routine on a project-basis. The feature will only be activated on request through a customer ticket on component LOD-CPS-PRC.  See: Supported Standard Pricing Exits and Extension Guide for SAP Variant Configuration and Pricing.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-12-10
+Valid as Of: 2025-01-22
+Version: Cloud
+
+--- Record 1642 ---
+Component: Pricing Service
+Environment: Cloud Foundry
+Title: Pre-Production – Return Condition Record Validity
+Description: New response structure validity for item conditions returned by stateless pricing and document pricing, which exposes the start and end dates of the used condition record.  See: API Definition.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-12-10
+Valid as Of: 2025-01-22
+Version: Cloud
+
+--- Record 1643 ---
+Component: Pricing Service
+Environment: Cloud Foundry
+Title: Pre-Production – Stateless Pricing – Return Calculation Status
+Description: The endpoint POST /statelesspricing has been enhanced with the new response fields calculationStatus and messages as known from document pricing. The new fields tell the caller if the price calculation could be executed as expected, with warnings, or with errors.  See API Definition and Development Guide for SAP Variant Configuration and Pricing.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-12-10
+Valid as Of: 2025-01-22
+Version: Cloud
+
+--- Record 1644 ---
+Component: Pricing Service
+Environment: Cloud Foundry
+Title: Pre-Production – Support Initial Variant Condition Keys
+Description: When the VARCOND key field in an access was flagged as Initial Value Allowed and a condition record with an empty variant condition key was maintained, the Pricing service used to return different results from the pricing in the back end. This issue has been corrected.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-12-10
+Valid as Of: 2025-01-22
+Version: Cloud
+
+--- Record 1645 ---
+Component: SAP Omnichannel Promotion Pricing
+Environment: Cloud Foundry
+Title: Loyalty Points Multiplier
+Description: You can now maintain a  Loyalty Points Multiplier as reward in the Maintain Promotions app to define by which value previously calculated and applied loyalty points should be multiplied. For this, a new type of price derivation rule BenefitMultiplierPriceDerivationRule is available as of Client API version 16.0.  For more information, see Granting Loyalty Points and Price Calculation with Loyalty Points Multiplier (XML).
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2022-01-01
+Valid as Of: 2025-01-22
+Version: Cloud
+
+--- Record 1646 ---
+Component: Variant Configuration
+Environment: Cloud Foundry
+Title: Pre-Production - Configurations API – Raise Conflict for Non-Unique Inferences from Multiple Rows of a Variant Table
+Description: When a characteristic value could not be set because a selection on a variant table resulted in more than one row, an exception used to be raised and the configuration service endpoint prompted an error. This behavior has been changed by not raising an exception anymore but signaling a conflict in the configuration results in the same way as LO-VC does it.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-12-12
+Valid as Of: 2025-01-22
+Version: Cloud
+
+--- Record 1647 ---
+Component: Variant Configuration
+Environment: Cloud Foundry
+Title: Pre-Production – Configurations API -– AVC Forwarding – Ensure Sort Order Remains Stable Between Requests
+Description: The order of existing possible values could have changed after a PATCH request, that is, setting a value during the configuration while using AVC forwarding. This issue has been corrected.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-12-12
+Valid as Of: 2025-01-22
+Version: Cloud
+
+--- Record 1648 ---
+Component: Variant Configuration
+Environment: Cloud Foundry
+Title: Pre-Production – Configurations API – AVC Forwarding – Possible Values: Include pre-defined characteristic values
+Description: Valid pre-defined characteristic values used to be omitted from the returned list of possible values of date and numeric characteristics if a restricted dynamic domain was returned by AVC. This issue has been corrected.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-12-12
+Valid as Of: 2025-01-22
+Version: Cloud
+
+--- Record 1649 ---
+Component: Variant Configuration
+Environment: Cloud Foundry
+Title: Pre-Production – Configurations API –Exclude Globally Assigned Characteristics from Configuration Results
+Description: In certain scenarios, characteristics are assigned to classes and products only for internal purposes, for example, if they are used in object dependencies but not assigned to a class of the product. These so-called globally assigned characteristics are now filtered out in the service responses and are not persisted anymore with the configuration results. They can still show up in the configuration engine trace.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-12-12
+Valid as Of: 2025-01-22
+Version: Cloud
+
+--- Record 1650 ---
+Component: Variant Configuration
+Environment: Cloud Foundry
+Title: Pre-Production – Knowledgebases API – New Filter to Read Variant Table ContentPre-Production – Knowledgebases API – New Filter to Read Variant Table Content
+Description: There is an enhancement of endpoint GET /api/v2/knowledgebases/{kbId}/variantTables/{variantTableId} that allows to read the content of a variant table: new IN operator for the parameter $filter allows more advanced table selects in the form of $filter=<characteristic name> IN (<list of characteristic values>).   See: API Definition and Development Guide for SAP Variant Configuration and Pricing.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-12-12
+Valid as Of: 2025-01-22
+Version: Cloud
+

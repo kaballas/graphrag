@@ -1,0 +1,130 @@
+--- Record 2421 ---
+Component: Edge Integration Cell
+Environment: Cloud Foundry
+Title: New Diagnostics Feature
+Description: You can run diagnostic tasks and collect the necessary information for troubleshooting your Edge Integration Cell.  See: Diagnostics
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-08-24
+Valid as Of: 2024-08-24
+Version: 2407
+
+--- Record 2422 ---
+Component: Edge Integration Cell
+Environment: Cloud Foundry
+Title: Software Version Update
+Description:     Edge Integration Cell: 8.20.*    Increment: 2407  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-08-24
+Valid as Of: 2024-08-24
+Version: 2407
+
+--- Record 2423 ---
+Component: Integration Advisor
+Environment: Cloud Foundry,Neo
+Title: Envelopes in MIGs
+Description: You can now include envelopes when creating a Message Implementation Guideline(MIG). This applies to ASC X12, UN/EDIFACT and Odette. Note  Envelopes will only be visible in the MIG creation wizard after relevant content has been added to your system. The content will be released gradually over the next few days/weeks, starting with UN/EDIFACT and ASC X12, followed by Edifact subsets and Odette.  See: Creating a Message Implementation Guideline
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-08-24
+Valid as Of: 2024-08-24
+Version: 2407
+
+--- Record 2424 ---
+Component: Integration Advisor
+Environment: Cloud Foundry,Neo
+Title: Integration Advisor Migration Guide
+Description: We have now published a Migration Guide for Integration Advisor that details the steps needed for customer who are planning to migrate their data from Neo environment to Integration Suite.  See: Integration Advisor Migration Guide
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-08-24
+Valid as Of: 2024-08-24
+Version: 2407
+
+--- Record 2425 ---
+Component: Integration Advisor
+Environment: Cloud Foundry,Neo
+Title: Software Version Update
+Description:   SAP Integration Advisor: 1.90.*    Increment: 2407    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-08-24
+Valid as Of: 2024-08-24
+Version: 2407
+
+--- Record 2426 ---
+Component: Integration Assessment
+Environment: Cloud Foundry
+Title: PDF File of Completed Interface Requests
+Description: You can now export completed interface requests in a PDF file. The file contains all important information about the interface request, including the technologies and standard content that should be used for the interface.   To download the PDF file, open an interface request with status Completed, and choose Download.  See Create a Business Solution Request and Interface Request.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-08-24
+Valid as Of: 2024-08-24
+Version: 2407
+
+--- Record 2427 ---
+Component: Integration Assessment
+Environment: Cloud Foundry
+Title: Software Version Update
+Description:     Integration Assessment: 1.31.*      Increment: 2407    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-08-24
+Valid as Of: 2024-08-24
+Version: 2407
+
+--- Record 2428 ---
+Component: Migration Assessment
+Environment: Cloud Foundry
+Title: Software Version Update
+Description:     Migration Assessment: 1.31.*      Increment: 2407    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-08-24
+Valid as Of: 2024-08-24
+Version: 2407
+
+--- Record 2429 ---
+Component: Trading Partner Management
+Environment: Cloud Foundry
+Title: B2B Monitoring
+Description: The B2B Monitor tab has been enhanced now with the following updates:     You can now sort and reorder the column headers of the interchanges/unassigned interchanges table.    You can now filter interchanges based on the Acknowledgement Overdue status.  The date and time filter of the interchanges/unassigned interchanges has been updated to display timezones tailored to each user's region.    See:     Monitor Interchanges    Monitor Unassigned Interchanges  
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-08-24
+Valid as Of: 2024-08-24
+Version: 2407
+
+--- Record 2430 ---
+Component: Trading Partner Management
+Environment: Cloud Foundry
+Title: Maximum Waiting Time for Acknowledgments
+Description: You can now set the maximum waiting time for functional and technical acknowledgments.  See: Configuration Manager  
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-08-24
+Valid as Of: 2024-08-24
+Version: 2407
+

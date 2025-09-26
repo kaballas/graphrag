@@ -1,0 +1,130 @@
+--- Record 591 ---
+Component: SAP Document and Reporting Compliance, Cloud Edition
+Environment: Kyma
+Title: New App for Data Submission
+Description: You use the Activate Data Submission to Tax Authority app to activate an existing participant in the Service Metadata Published (SMP) to enable the submission of invoice data to the tax authorities.  See Specific Settings for Data Submission to Tax Authority.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: nan
+Valid as Of: 2025-06-26
+Version: Cloud
+
+--- Record 592 ---
+Component: SAP Java Buildpack
+Environment: Cloud Foundry
+Title: Version 1.113.0
+Description: SAP Java Buildpack 1 has been updated from version 1.112.0 to 1.113.0. Updated components:      Apache TomEE 7 is updated from version 7.0.9.sap-52 to 7.0.9.sap-54      Apache Tomcat 9 is updated from version 9.0.102 to 9.0.105      SAP HANA Driver (hana.driver.2.X.X) is updated from version 2.24.7 to 2.24.8      SAP JVM is updated from version 81.104.104 to 81.105.105      PostgreSQL JDBC Driver (postgresql.version) is updated from 42.7.5 to 42.7.6      jdkext is updated from version 81.104.104 to 81.105.105      otel-agent is updated from version 2.14.0 to 2.16.0      otel-agent-ext-java is updated from version 1.5.25 to 1.5.28      com.sap.xs.onpremise.runtime is updated from version 1.3.5 to 1.3.7      com.sap.hcp.cf.logging is updated from 3.8.4 to 3.8.5      com.fasterxml.jackson is updated from version 2.18.3 to 2.19.0      com.sap.conn.jco-cloud is updated from version 3.1.11.0 to 3.1.12.0      org.apache.httpcomponents.core5.httpcore5 is updated from version 5.3.3 to 5.3.4      org.apache.httpcomponents.core5.httpcore5-h2 is updated from version 5.3.3 to 5.3.4      org.apache.httpcomponents.client5.httpclient5 is updated from version 5.4.2 to 5.4.5    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-06-16
+Valid as Of: 2025-06-26
+Version: Cloud
+
+--- Record 593 ---
+Component: SAP Java Buildpack
+Environment: Cloud Foundry
+Title: Version 2.33.0
+Description: SAP Java Buildpack 2 has been updated from version 2.31.0 to 2.33.0. Updated components:       SAP HANA Driver (hana.driver.2.X.X) is updated from version 2.24.7 to 2.24.8      PostgreSQL JDBC Driver (postgresql.version) is updated from 42.7.5 to 42.7.6      otel-agent is updated from version 2.14.0 to 2.16.0      otel-agent-ext-java is updated from version 1.5.25 to 1.5.28      commons-logging is updated from version 1.2 to 1.3.5    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-06-16
+Valid as Of: 2025-06-26
+Version: Cloud
+
+--- Record 594 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Telemetry module: Update to version 1.42.0
+Description: With version 1.35.0, the format of the internal metrics of the OTel Collectors changed and we introduced an annotation to support the old format temporarily. As announced in March, the annotation was only a temporary measure and has been removed now.  Required Action: If you are accessing the internal OTel metrics with the annotation telemetry.kyma-project.io/internal-metrics-compatibility-mode, adapt your approach to the conventions introduced with version 1.35 .
+Action: Required
+Lifecycle: Deleted
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-06-11
+Valid as Of: 2025-06-25
+Version: Cloud
+
+--- Record 595 ---
+Component: Joule
+Environment: Cloud Foundry
+Title: Analytical Insights Capability - Support for Integration with SAP Build Work Zone
+Description: The analytical insights capability in Joule now requires SAP Analytics Cloud integration with SAP Build Work Zone to allow users access to the feature. Users, roles, and permissions from SAP Analytics Cloud can be synced with SAP Build Work Zone by administrators using the provided instructions. This allows for role-based access and gives you greater flexibility in determining who in your organization can use analytical insights.  For more information, see Integration with SAP Analytics Cloud.
+Action: Required
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-06-24
+Valid as Of: 2025-06-25
+Version: Cloud
+
+--- Record 596 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Off-Cycle Upgrade
+Description: Cloud Identity Services have been upgraded.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-06-25
+Valid as Of: 2025-06-25
+Version: 28001
+
+--- Record 597 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Override Conditional Authentication with URL Parameter
+Description: We have added an option to the idp parameter for application which allows logon with OpenID Connect (OIDC). Use the value local to override the conditional authentication configuration and log on with Identity Authentication instead.  For more information, see Configure IdP-Initiated SSO or Configure the Client to Call Identity Authentication Authorize Endpoint for Authorization Code Flow.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-06-25
+Valid as Of: 2025-06-25
+Version: 28001
+
+--- Record 598 ---
+Component: Joule
+Environment: Cloud Foundry
+Title: New Use Cases for SAP SuccessFactors Available in Joule - June 2025
+Description: The following Joule use cases are now available in SAP SuccessFactors:      Fix login issues      View company      For more information, refer to New Use Cases Available in Joule - June 2025.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-06-24
+Valid as Of: 2025-06-25
+Version: Cloud
+
+--- Record 599 ---
+Component: Joule
+Environment: Cloud Foundry
+Title: New Use Cases Now Supported in SAP S/4HANA Cloud Public Edition
+Description: Joule now enables you to view business data of the following objects in SAP S/4HANA Cloud Public Edition:  Process Order    For a list of the supported business objects, their details, and sample requests, see Viewing Business Data.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-06-24
+Valid as Of: 2025-06-25
+Version: Cloud
+
+--- Record 600 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Telemetry module: Update to version 1.42.0
+Description: The new version brings the following improvements:      Traces and Metrics: Update to OTel Collector 0.127.0 (#2192).      Logs: Update to Fluent Bit 4.0.3 (#2188).    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-06-11
+Valid as Of: 2025-06-25
+Version: Cloud
+

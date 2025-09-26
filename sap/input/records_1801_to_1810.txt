@@ -1,0 +1,130 @@
+--- Record 1801 ---
+Component: Joule
+Environment: Cloud Foundry
+Title: Use Cases Now Supported in Asset Management for SAP S/4HANA Cloud Private Edition
+Description: The following transactional use cases are now supported in Asset Management for SAP S/4HANA Cloud Private Edition:    Display Maintenance Orders  Display Maintenance Notifications  Display Maintenance Jobs and Perform Activities on Jobs  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Asset Management
+Latest Revision: 2024-12-11
+Valid as Of: 2024-12-13
+Version: Cloud
+
+--- Record 1802 ---
+Component: Joule
+Environment: Cloud Foundry
+Title: Use Cases Now Supported in Revenue Accounting and Reporting in SAP S/4HANA Cloud Private Edition
+Description: The following navigational capabilities are now supported in Revenue Accounting and Reporting in SAP S/4HANA Cloud Private Edition    Manage revenue accounting items      Manage revenue contracts      Revenue contract schedule      Combine revenue contracts      Reconcile revenue contracts    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-12-13
+Valid as Of: 2024-12-13
+Version: Cloud
+
+--- Record 1803 ---
+Component: SAP Digital Payments Add-On
+Environment: Cloud Foundry
+Title: Multi-captures enabled
+Description: A single authorization can be captured in several parts. This makes it possible to provide partial deliveries without having to get separate authorizations for each part.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Finance
+Latest Revision: 2024-01-01
+Valid as Of: 2024-12-13
+Version: Cloud
+
+--- Record 1804 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: Availability in Google Cloud Regions
+Description: SAP Document AI is now available in the following Google Cloud regions:    eu30 - Europe (Frankfurt)      us30 - US Central (IA)    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Intelligent Technologies
+Latest Revision: 2024-12-13
+Valid as Of: 2024-12-13
+Version: Cloud
+
+--- Record 1805 ---
+Component: SAP Document and Reporting Compliance, Cloud Edition
+Environment: Kyma
+Title: Integration of the Peppol Exchange Process with SAP Ariba Central Invoice Management Enabled for Belgium, Finland, Luxembourg, Australia, and New Zealand
+Description: You can integrate the Peppol Exchange  process with SAP Ariba Central Invoice Management to receive electronic documents from the participants of the Peppol network. See Supported Compliance Tasks.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: nan
+Valid as Of: 2024-12-13
+Version: Cloud
+
+--- Record 1806 ---
+Component: SAP Omnichannel Promotion Pricing
+Environment: Cloud Foundry
+Title: Deletion of Promotions
+Description: You can now delete all promotions by using the parameter cleanUpAll together with currentTimestamp.  For more information, see Administration and Deleting Regular Prices and Promotions.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2022-01-01
+Valid as Of: 2024-12-13
+Version: Cloud
+
+--- Record 1807 ---
+Component: SAP Omnichannel Promotion Pricing
+Environment: Cloud Foundry
+Title: Size of a Request to the Data Upload Service
+Description: The maximum size for a request to the Data Upload service has been increased to 12 million bytes in exceptional cases. Previously, the limit was set at 6 million bytes. For a request size between 6 million (soft limit) and 12 million bytes (hard limit), rate limiting is applied to control the amount of large requests. In these cases, the number of allowed requests can be as few as 1 request per tenant per minute.  For more information, see Security and Data Upload.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2022-01-01
+Valid as Of: 2024-12-13
+Version: Cloud
+
+--- Record 1808 ---
+Component: Java Server
+Environment: Neo
+Title: Tomcat version for Java Web Tomcat 10
+Description: Java Web Tomcat 10 (runtime version 5.12) has been updated to Tomcat version 10.1.33.  See the Changelog and Security Fixes.  Recommended action: Update your applications to the latest runtime version. See Keeping Your Application Runtimes Up-to-date.
+Action: Recommended
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-12-12
+Valid as Of: 2024-12-12
+Version: Cloud
+
+--- Record 1809 ---
+Component: Java Server
+Environment: Neo
+Title: Tomcat version for Java Web Tomcat 9 and Java EE 7 Web Profile TomEE 7
+Description: Java Web Tomcat 9 (runtime version 4.92) and Java EE 7 Web Profile TomEE 7 (runtime version 1.190) have been updated to Tomcat version 9.0.97.  See the Changelog and Security Fixes.  Recommended action: Update your applications to the latest runtime version. See Keeping Your Application Runtimes Up-to-date.
+Action: Recommended
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-12-12
+Valid as Of: 2024-12-12
+Version: Cloud
+
+--- Record 1810 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Off-Cycle Upgrade
+Description: Cloud Identity Services have been upgraded.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-12-12
+Valid as Of: 2024-12-12
+Version: 27127
+

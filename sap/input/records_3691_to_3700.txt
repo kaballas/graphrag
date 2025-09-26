@@ -1,0 +1,130 @@
+--- Record 3691 ---
+Component: Pricing Service
+Environment: Cloud Foundry
+Title: Extension Concept – Distinct Selects to Database Tables for Local Extensions
+Description: There is a new syntax select distinct to access replicated database tables from uploaded JavaScript functions.  See Extension Guide for SAP Variant Configuration and Pricing.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-12-19
+Valid as Of: 2024-01-31
+Version: Cloud
+
+--- Record 3692 ---
+Component: Pricing Service
+Environment: Cloud Foundry
+Title: Extension Concept – Skip Pricing Extension Implementations
+Description: There are two new switches in the administration UI for non-productive tenants: One to ignore all custom implementations. The other one to ignore those custom routines that have not been implemented yet. If such switches are activated, custom requirements are evaluated as true, custom routines of other types are skipped, and the corresponding condition types do not get status inactive because of missing routine implementations.  See Administration Guide for SAP Variant Configuration and Pricing.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-12-19
+Valid as Of: 2024-01-31
+Version: Cloud
+
+--- Record 3693 ---
+Component: Pricing Service
+Environment: Cloud Foundry
+Title: Return Used Currency Exchange Rates
+Description: Condition rates are either converted directly from condition record currency to document currency; or they are converted through triangular conversion first from condition record currency to local currency and then to document currency. The condition value is always returned in document currency. With a new request parameter for stateless pricing and document pricing, it will be possible to get the used currency conversion rates returned. This will allow the calling application to do own calculations in the same way.  See API Definition and Development Guide for SAP Variant Configuration and Pricing.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-12-19
+Valid as Of: 2024-01-31
+Version: Cloud
+
+--- Record 3694 ---
+Component: Pricing Service
+Environment: Cloud Foundry
+Title: SAP Cloud ALM Integration for Performance Monitoring
+Description: Pricing service reports aspects related to performance monitoring to the central monitoring and alerting tool in SAP Cloud ALM for cloud-based application lifecycle management (ALM). Focus of the performance monitoring is to monitor the runtime of calls to individual endpoints of the Pricing service.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-12-19
+Valid as Of: 2024-01-31
+Version: Cloud
+
+--- Record 3695 ---
+Component: Pricing Service
+Environment: Cloud Foundry
+Title: SAP Cloud ALM Integration for System Monitoring
+Description: All Pricing service messages displayed in SAP Cloud ALM used to have status text Please see message details. This issue has been corrected, now the status text contains HTTP codes and HTTP code short descriptions to give more insights on the messages list on CALM page Integration and Exception Monitoring.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2023-12-19
+Valid as Of: 2024-01-31
+Version: Cloud
+
+--- Record 3696 ---
+Component: SAP Document and Reporting Compliance, Cloud Edition
+Environment: Kyma
+Title: Integration of the E-Invoices (Serbia) Process with SAP S/4HANA or SAP S/4HANA Cloud Private Edition
+Description: You use this process to submit electronic documents through the Serbian tax authority portal System e-Faktura (SEF).  See Supported Compliance Tasks.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: nan
+Valid as Of: 2024-01-31
+Version: Cloud
+
+--- Record 3697 ---
+Component: SAP Omnichannel Promotion Pricing
+Environment: Cloud Foundry
+Title: Adding Multiple Business Units
+Description: You can now add multiple business units of the same type to a promotion in one go. For more information, see Adding Multiple Business Units.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2022-01-01
+Valid as Of: 2024-01-31
+Version: Cloud
+
+--- Record 3698 ---
+Component: SAP Omnichannel Promotion Pricing
+Environment: Cloud Foundry
+Title: Application Help for Promotion Maintenance
+Description: You can now learn more about the Maintain Promotions app using the guide Application Help for Promotion Maintenance.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2022-01-01
+Valid as Of: 2024-01-31
+Version: Cloud
+
+--- Record 3699 ---
+Component: SAP Omnichannel Promotion Pricing
+Environment: Cloud Foundry
+Title: Troubleshooting Errors Encountered When Verifying a Merchandise Set
+Description: For information on troubleshooting any errors that are encountered when verifying a merchandise set, see Troubleshooting.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2022-01-01
+Valid as Of: 2024-01-31
+Version: Cloud
+
+--- Record 3700 ---
+Component: SAP S/⁠4HANA Cloud for Credit Integration
+Environment: Cloud Foundry
+Title: Integration with new credit agency: Creditreform CH (Switzerland)
+Description: The credit agency Creditreform CH is now connected to SAP S/⁠4HANA Cloud for credit integration.  More information:  Available Credit Agency Products and Features  Your Tasks for Integrating a New Credit Agency
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Finance
+Latest Revision: 2024-01-31
+Valid as Of: 2024-01-31
+Version: Cloud
+

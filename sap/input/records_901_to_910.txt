@@ -1,0 +1,130 @@
+--- Record 901 ---
+Component: Feature Flags Service
+Environment: Cloud Foundry,Kyma
+Title: Service Instance Sharing
+Description: You can now share SAP Feature Flags service instances between different Cloud Foundry organizations in the same subaccount. This scenario is applicable when you want to use feature flags and configurations of a single service instance in two SAP BTP landscapes - a main and an extension one.  For more information, see: Share a Service Instance
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-05-07
+Valid as Of: 2025-05-15
+Version: Cloud
+
+--- Record 902 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: API Gateway module: Update to version 3.0.3
+Description: The new version brings the following improvements:  We've fixed the extAuth handler not being scoped to a particular host.  We've fixed reconciliation of convertible APIRules.   When converting APIRule to version v2, the original-version annotation is not set if it's already present in the APIRule.  
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-05-15
+Valid as Of: 2025-05-15
+Version: Cloud
+
+--- Record 903 ---
+Component: Pricing Service
+Environment: Cloud Foundry
+Title: Pre-Production - Pricing service – Fix for variant condition field with access type A
+Description: When the multivalued attribute KOMP-VARCOND field in an access is marked as hierarchical, the access field (access type = A) and the condition record with an empty variant condition key is maintained. When variant condition keys without maintained condition records were passed as input, the Pricing service used to return different results compared to the back-end pricing. This issue has been corrected.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-05-15
+Valid as Of: 2025-05-15
+Version: Cloud
+
+--- Record 904 ---
+Component: SAP BTP Cockpit
+Environment: Cloud Foundry
+Title: Sorting Org Members
+Description: On the Org Members page in the cockpit, you can now sort org members by update date or e-mail, and also in ascending or descending order.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-05-15
+Valid as Of: 2025-05-15
+Version: Cloud
+
+--- Record 905 ---
+Component: SAP BTP, Cloud Foundry Runtime
+Environment: Cloud Foundry
+Title: New HTTP Header for Client IP Address
+Description: Beginning with this release, a new HTTP header called X-Cf-True-Client-Ip is automatically added to each HTTP request. This header contains the IP address of the client connecting to SAP BTP through the platform’s load balancer. The value of the header is a single IP address which can be utilized for IP address-based request filtering on the application side, such as per-client rate limiting and allow- or blocklisting clients by their IP addresses.  The HTTP header can also be used in conjunction with a route service, as the original client IP address is preserved in this scenario.  The header value is logged with the same key name X-Cf-True-Client-Ip by Gorouter for all incoming requests, allowing filtering and charting RTR logs by the client IP address.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-05-15
+Valid as Of: 2025-05-15
+Version: Cloud
+
+--- Record 906 ---
+Component: SAP BTP, Cloud Foundry Runtime
+Environment: Cloud Foundry
+Title: Version 48.9.0
+Description: Cloud Foundry has been updated from 48.5.0 to 48.9.0.      https://github.com/cloudfoundry/cf-deployment/releases/tag/v48.9.0  https://github.com/cloudfoundry/cf-deployment/releases/tag/v48.8.0  https://github.com/cloudfoundry/cf-deployment/releases/tag/v48.7.0  https://github.com/cloudfoundry/cf-deployment/releases/tag/v48.6.0    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-05-15
+Valid as Of: 2025-05-15
+Version: Cloud
+
+--- Record 907 ---
+Component: SAP Build Work Zone, advanced edition
+Environment: Cloud Foundry
+Title: Default Navigation When No Permissions
+Description: Previously, when a user didn’t have permission to access a menu item, the user was redirected to the home page.   Now, the user will be redirected to the first main menu item that is accessible to the user (from left to right).   If a user doesn't have permission to access any menu items, the user will be redirected to a feed page under the company home.  Customers that prefer to keep the previous behavior (redirect to the home page), can add a menu workpage with the same content as the home page and grant users permission to access it.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-05-15
+Valid as Of: 2025-05-15
+Version: 2504B
+
+--- Record 908 ---
+Component: SAP Build Work Zone, advanced edition
+Environment: Cloud Foundry
+Title: UX Improvements to the Transport Manager
+Description: The following changes have been made to what was previously called the Transport Manager:  The Transport Manager is now called the Import Monitor.  The icon to open the Import Monitor has changed.  A strip message has been added explaining what the Import Monitor does.   
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-05-15
+Valid as Of: 2025-05-15
+Version: 2504B
+
+--- Record 909 ---
+Component: SAP Build Work Zone, standard edition
+Environment: Cloud Foundry
+Title: UX Improvements to the Transport Manager
+Description: The following changes have been made to what was previously called the Transport Manager:  The Transport Manager is now called the Import Monitor.   The icon to open the Import Monitor has changed.   A strip message has been added explaining what the Import Monitor does.   
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-05-11
+Valid as Of: 2025-05-15
+Version: 2504B
+
+--- Record 910 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: Overall Improvements
+Description: There have been several code and stability improvements.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Intelligent Technologies
+Latest Revision: 2025-05-15
+Valid as Of: 2025-05-15
+Version: Cloud
+

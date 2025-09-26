@@ -1,0 +1,130 @@
+--- Record 1571 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Keda module: Update to version 1.6.0
+Description: In this release, we have updated KEDA to version 2.16.1.  In addition, we have added the status widget with conditions to the details view in Kyma dashboard for Keda CR and ScaledObject CR.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-01-16
+Valid as Of: 2025-01-29
+Version: Cloud
+
+--- Record 1572 ---
+Component: SAP Task Center
+Environment: Cloud Foundry
+Title: SAP Task Center Improvements
+Description:   Improved the back navigation when returning from the Substitution Management screen in the SAP Task Center Web app.  Internal optimizations and refactoring to ensure performance, security, and future improvements.  
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2025-01-29
+Valid as Of: 2025-01-29
+Version: Cloud
+
+--- Record 1573 ---
+Component: Continuous Integration & Delivery
+Environment: Cloud Foundry
+Title: Deprecation of MTA Build Tool Version Java 8 Node 18
+Description: The MTA build tool version Java 8 Node 18 is deprecated and has been removed.
+Action: Info only
+Lifecycle: Deleted
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-01-28
+Valid as Of: 2025-01-28
+Version: Cloud
+
+--- Record 1574 ---
+Component: Continuous Integration & Delivery
+Environment: Cloud Foundry
+Title: Deprecation of the Container-Based Applications Pipeline
+Description:  The Container-Based Applications pipeline has been deprecated and is no longer available for use. While your existing jobs can still be viewed, you will not be able to run or edit them anymore.  We recommend using the Kyma Runtime pipeline instead.
+Action: Info only
+Lifecycle: Deleted
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-01-28
+Valid as Of: 2025-01-28
+Version: Cloud
+
+--- Record 1575 ---
+Component: Continuous Integration & Delivery
+Environment: Cloud Foundry
+Title: Increased Quotas
+Description: For the default and build-code service plans, the limit of job configurations and the maximum number of connected repositories have been increased from 500 to 1000.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-01-28
+Valid as Of: 2025-01-28
+Version: Cloud
+
+--- Record 1576 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: Support for New File Types (Premium Edition)
+Description: SAP Document AI now supports businessCard, invoice, paymentAdvice, purchaseOrder, and custom documents in the following file types:  DOC  DOCM  DOCX  DOT  DOTM  DOTX  EML  EMLX  MSG  ODT  OFT  OLM  PAGES  RTF  TXT    See Supported File Types (Embedded Edition and Premium Edition).
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Intelligent Technologies
+Latest Revision: 2025-01-28
+Valid as Of: 2025-01-28
+Version: Cloud
+
+--- Record 1577 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: Support for the Identity Authentication Service
+Description: You can now subscribe to the SAP Document AI basic UI using the Identity Authentication service to handle authentication and authorization tasks in SAP BTP.  See Subscribing to the SAP Document AI Basic UI With the Identity Authentication Service.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Intelligent Technologies
+Latest Revision: 2025-01-28
+Valid as Of: 2025-01-28
+Version: Cloud
+
+--- Record 1578 ---
+Component: UI Theme Designer
+Environment: Cloud Foundry,Neo
+Title: Theming Base Content for CF and Neo.
+Description: The base theming content is updated to version 11.25.0. Review the changes at https://github.com/SAP/theming-base-content/releases.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2025-01-28
+Version: Cloud
+
+--- Record 1579 ---
+Component: Joule
+Environment: Cloud Foundry
+Title: All SAP SuccessFactors Use Cases Upgraded to New Conversational Experience in Joule
+Description: Based on the new conversational experience, SAP SuccessFactors has introduced a new transactional use case and upgraded all remaining cases. For more information, refer to All Use Cases Upgraded to New Conversational Experience in Joule.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Human Resources
+Latest Revision: 2025-01-17
+Valid as Of: 2025-01-27
+Version: Cloud
+
+--- Record 1580 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Advanced Functions for Decisions
+Description: You can now use two new functions, SUBSTRING and STRINGREPLACE in your decisions. See Functions.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-01-27
+Valid as Of: 2025-01-27
+Version: Cloud
+

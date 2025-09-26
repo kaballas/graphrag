@@ -1,0 +1,130 @@
+--- Record 2281 ---
+Component: Identity Provisioning
+Environment: Neo
+Title: Condition and skip update - changed behavior
+Description: The behavior of target transformations that contain a combination of condition and skip operations for updates has been changed.  Previously, the skip operation was evaluated before the condition. If users or groups have been updated in the source system, they are marked as skipped in the logs, and Identity Provisioning does not proceed to evaluate the condition. As a result, users or groups that do not meet the condition are not deleted as they should be. After the change, the condition is evaluated first.  See: Transformation Expressions
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-09-25
+Valid as Of: 2024-09-25
+Version: Cloud
+
+--- Record 2282 ---
+Component: Identity Provisioning
+Environment: Neo
+Title: Reset of SAP Master Data Integration - changed behavior
+Description: Resetting the SAP Master Data Integration source system also resets the delta load marker.  Previously, the reset cleared the operational data without resetting the delta marker. This approach prevented the provisioning of old events in subsequent job runs. Now, the reset procedure for this system is consistent with that of the other supported source systems.  See: SAP Master Data Integration  
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-09-25
+Valid as Of: 2024-09-25
+Version: Cloud
+
+--- Record 2283 ---
+Component: Identity Provisioning
+Environment: Neo
+Title: SAP Ariba Central Invoice Management connector
+Description: Identity Provisioning supports the SAP Ariba Central Invoice Management connector. You can configure it as source, target, and proxy system for your provisioning scenarios. See:      SAP Ariba Central Invoice Management (Source)      SAP Ariba Central Invoice Management (Target)      SAP Ariba Central Invoice Management (Proxy)    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-09-25
+Valid as Of: 2024-09-25
+Version: Cloud
+
+--- Record 2284 ---
+Component: Identity Provisioning
+Environment: Neo
+Title: SAP Data Custodian - filter users by group display name
+Description: The default write transformation is changed to support provisioning of users that are members of groups matching the set dc.group.prefix. This is possible by including a condition for filtering the users by group display name of their assigned groups. If the dc.group.prefix is set, only users assigned to groups that contain in their display name the set specific prefix will be provisioned. In case the property is not set, all users are provisioned to SAP Data Custodian, regardless of the group display name of their assigned groups.  For more information, see SAP Data Custodian (Target). 
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-09-25
+Valid as Of: 2024-09-25
+Version: Cloud
+
+--- Record 2285 ---
+Component: Identity Provisioning
+Environment: Neo
+Title: SAP Datasphere connector
+Description: Identity Provisioning supports the SAP Datasphere connector. You can configure it as source, target and proxy system for your provisioning scenarios. See:      SAP Datasphere (Source)      SAP Datasphere (Target)      SAP Datasphere (Proxy)    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-09-25
+Valid as Of: 2024-09-25
+Version: Cloud
+
+--- Record 2286 ---
+Component: Identity Provisioning
+Environment: Neo
+Title: SAP HANA Cloud, SAP HANA Database connector
+Description: Identity Provisioning supports the SAP HANA Cloud, SAP HANA Database connector. You can configure it as source, target, and proxy system for your provisioning scenarios. See:      SAP HANA Cloud, SAP HANA Database (Source)      SAP HANA Cloud, SAP HANA Database (Target)      SAP HANA Cloud, SAP HANA Database (Proxy)    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-09-25
+Valid as Of: 2024-09-25
+Version: Cloud
+
+--- Record 2287 ---
+Component: Identity Provisioning
+Environment: Neo
+Title: Skip create and delete operations of groups - removed
+Description: Skipping the create and delete operations for groups has been removed from the write transformations of the SAP BTP XS Advanced UAA (Cloud Foundry) target system.  Previously, it was not possible to create or delete groups; it was expected that groups already exist in the target system, allowing Identity Provisioning to only update their members. Now, creating, updating, and deleting groups follow the standard processes.  See: SAP BTP XS Advanced UAA (Cloud Foundry)
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-09-25
+Valid as Of: 2024-09-25
+Version: Cloud
+
+--- Record 2288 ---
+Component: Identity Provisioning
+Environment: Neo
+Title: Support for OAuth certificate authentication
+Description: SAP CPQ supports OAuth certificate authentication.  See: SAP CPQ
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-09-25
+Valid as Of: 2024-09-25
+Version: Cloud
+
+--- Record 2289 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Telemetry module: Update to version 1.23.0
+Description: The new version brings the following improvements:      Logs, Metrics, and Traces: Additional validation of URLs in outputs (#1106).      Logs: Prevent that the deletion of a Logpipeline could lead to an agent crashloop (#1425).      Logs: Improved the rules indicating the LogPipeline status “NoLogsDelivered” status (#1358).      Traces and Metrics: Update to OTel Collector 0.108.0 (#1426).    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-09-11
+Valid as Of: 2024-09-25
+Version: Cloud
+
+--- Record 2290 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Regions: Brazil (São Paulo) and Australia (Sydney)
+Description: Brazil (São Paulo) (cf-br20) running on Microsoft Azure is now available as a new region for use with enterprise accounts and Partner Test, Demo, and Development accounts (azure_lite).  Brazil (São Paulo) (cf-br30) and Australia (Sydney) (cf-ap30) running on Google Cloud are now available as new regions for use with enterprise accounts.  See Regions for the Kyma Environment and Provisioning and Updating Parameters in the Kyma Environment.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-09-24
+Valid as Of: 2024-09-24
+Version: Cloud
+

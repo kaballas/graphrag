@@ -1,0 +1,130 @@
+--- Record 661 ---
+Component: API Management
+Environment: Cloud Foundry
+Title: Client SDK version 2.0.0
+Description: The outdated libraries in the Client SDK have been upgraded to the latest version. For more information, see API Services.   SAP API Management customers choose: API Services
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-06-15
+Valid as Of: 2025-06-15
+Version: 2504
+
+--- Record 662 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Upcoming upgrade to Kubernetes 1.32
+Description: The Kyma environment is planned to be upgraded to the Kubernetes 1.32 release in the June 13-15th general maintenance windows.  This is the schedule per cloud provider region:    Asia Pacific & Japan (APJ) regions: 2025-06-14 14:00 - 17:00 UTC  Europe regions: 2025-06-14 21:00 - 24:00 UTC  Americas regions: 2025-06-15 06:00 - 09:00 UTC  Middle East regions: 2025-06-13 17:00 - 21:00 UTC    For more information on the upcoming release, see the feature highlights, deprecations, and removals in the blog post and the Kubernetes release notes.  Note: There are no urgent upgrade notes for the 1.32 release.  Action: There is one API removal in Kubernetes v1.32. The flowcontrol.apiserver.k8s.io/v1beta3 API version of FlowSchema and PriorityLevelConfiguration has been removed. To prepare for this, you must edit your existing manifests and rewrite client software to use the flowcontrol.apiserver.k8s.io/v1 API version, available since v1.29. All existing persisted objects are accessible via the new API. Notable changes in flowcontrol.apiserver.k8s.io/v1beta3 include that the PriorityLevelConfiguration spec.limited.nominalConcurrencyShares field only defaults to 30 when unspecified, and an explicit value of 0 is not changed to 30.
+Action: Required
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2025-05-08
+Valid as Of: 2025-06-13
+Version: Cloud
+
+--- Record 663 ---
+Component: SAP Cloud Application Event Hub
+Environment: Other
+Title: SAP Cloud ALM Health Monitoring for SAP S/4HANA Cloud
+Description: Use SAP Cloud ALM Health Monitoring when working with an SAP S/4HANA Cloud system in a Formation. See Event Monitoring.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-06-13
+Valid as Of: 2025-06-13
+Version: Cloud
+
+--- Record 664 ---
+Component: SAP Document and Reporting Compliance, Cloud Edition
+Environment: Kyma
+Title: Integration of the E-Invoice B2G (Spain) Process with SAP S/4HANA and SAP S/4HANA Cloud Private Edition
+Description: You use this process to:  Submit electronic customer invoices to Public Entities in Spain through the General Point of Entry of Electronic Invoices of the General State Administration (FACe).  Sign with a digital certificate the customer invoices that you want to download from your business system.      See Supported Compliance Tasks.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: nan
+Valid as Of: 2025-06-13
+Version: Cloud
+
+--- Record 665 ---
+Component: SAP Document and Reporting Compliance, Cloud Edition
+Environment: Kyma
+Title: Integration of the Electronic Documents Through SII for Canary Islands (Spain) Process with SAP S/4HANA and SAP S/4HANA Cloud Private Edition
+Description: You use this process to submit the IGIC information of the customer or supplier invoices, incoming cash payments, or reversal documents to the tax authority in Canary Islands through the Immediate Supply Information System (SII).  See Supported Compliance Tasks.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: nan
+Valid as Of: 2025-06-13
+Version: Cloud
+
+--- Record 666 ---
+Component: SAP Document and Reporting Compliance, Cloud Edition
+Environment: Kyma
+Title: Integration of theElectronic Documents Through SII (Spain) Process with SAP S/4HANA and SAP S/4HANA Cloud Private Edition
+Description: You use this process to submit the VAT information of the customer or supplier invoices, incoming cash payments, or reversal documents to the tax authority in Spain through the Immediate Supply Information System (SII).  See Supported Compliance Tasks.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: nan
+Valid as Of: 2025-06-13
+Version: Cloud
+
+--- Record 667 ---
+Component: SAP Alert Notification Service
+Environment: Cloud Foundry
+Title: New SAP Cloud Management Service event
+Description: You can now use the newly supported SAP Cloud Management Service event - Budget Threshold Exceedance (Beta).
+Action: Info only
+Lifecycle: Beta
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-06-12
+Valid as Of: 2025-06-12
+Version: Cloud
+
+--- Record 668 ---
+Component: Multitarget Applications for Cloud Foundry
+Environment: Cloud Foundry
+Title: REMINDER: Removal of SAP Java Buildpack 1
+Description: SAP Java Buildpack 1 has been deprecated and will be removed from SAP BTP, Cloud Foundry environment on June 30, 2025. As a consequence, deployments of MTAs containing modules of type java, java.tomcat, and java.tomee might start to fail, as the buildpack used by default is SAP Java Buildpack 1.   To ensure compliance with this change, starting from the beginning of July, the MTA deployment will switch the default value for the buildpack parameter from sap_java_buildpack (SAP Java Buildpack 1) to sap_java_buildpack_jakarta (SAP Java Buildpack 2).  Action:  Plan and migrate your applications to SAP Java Buildpack 2 ahead of the scheduled change. In your deployment descriptors, you need to explicitly set one of the parameters buildpack or buildpacks of the java, java.tomcat, and java.tomee modules to sap_java_buildpack_jakarta. Note that this transition involves more than just configuration updates and may require code modifications.  See:  Migrate your Applications to SAP Java Buildpack 2  SAP Java Buildpack 2: Jakarta-Based, Fresh and New!  TomEE 10 has landed in SAP Java Buildpack 2!  
+Action: Required
+Lifecycle: Deprecated
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-06-12
+Valid as Of: 2025-06-12
+Version: Cloud
+
+--- Record 669 ---
+Component: Cloud Logging
+Environment: Cloud Foundry
+Title: Upcoming OpenSearch Stack Update
+Description: Heads-Up: Cloud Logging will upgrade its underlying OpenSearch stack from OpenSearch 1.3 to OpenSearch 2.19. The upgrade will be done in a phased approach allowing for an extensive preview/exploration phase before the eventual forced upgrade.  Action Required: For most instances, there should be no changes. However, you might be affected if you are using anything of the following:      mapping types in your custom indices  Destination API to manage destinations  Wildcard queries against text fields with the option case_insensitive:false      For detailed guidance on how to address these cases and the timelines for the phased rollout, see SAP Note 3617458 .  In case you build dashboards on your own: we noticed a few minor UI glitches (such as text wrapping, sizing, alignment difference). We will publish guidance on how to adapt the dashboards in early Q3, 2025.
+Action: Required
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2025-06-12
+Valid as Of: 2025-06-12
+Version: Cloud
+
+--- Record 670 ---
+Component: Authorization and Trust Management Service
+Environment: ABAP,Cloud Foundry,Kyma,Neo,Other
+Title: New Custom Trusts for Platform Users Changed to Token-Based Authentication
+Description: With this release, new OpenID Connect (OIDC) trust configurations between your SAP BTP accounts and custom identity providers for platform users are configured to use token-based authentication instead of password-based. We've taken this step to improve security and compliance with the OIDC standard. There are no changes to existing trust configurations. We don't expect any impact for our customers. For more information, see Establish Trust and Federation of Custom Identity Providers for Platform Users.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-06-12
+Valid as Of: 2025-06-12
+Version: 2505b
+

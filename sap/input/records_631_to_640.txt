@@ -1,0 +1,130 @@
+--- Record 631 ---
+Component: Cloud Integration
+Environment: Cloud Foundry
+Title: Shopify Receiver Adapter Available
+Description: Shopify receiver adapter is available now. It facilitates connectivity with Shopify GrpahQL and REST Admin APIs.  See:   Shopify Receiver Adapter  Shopify GraphQL Receiver Adapter  Shopify REST Receiver Adapter.    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-06-19
+Valid as Of: 2025-06-19
+Version: 2504
+
+--- Record 632 ---
+Component: Decentralized Identity Verification
+Environment: Cloud Foundry
+Title: Automated Credential Request Processing
+Description: Credential requests can now be automatically processed if the verifiable credential is already issued..
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2025-06-19
+Version: 3.10
+
+--- Record 633 ---
+Component: Decentralized Identity Verification
+Environment: Cloud Foundry
+Title: Extend DCP Presentation to Standard Changes
+Description: The DCP presentation flow specification has changed, and we have included support for type
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2025-06-19
+Version: 3.10
+
+--- Record 634 ---
+Component: Decentralized Identity Verification
+Environment: Cloud Foundry
+Title: Filter Credential Requests Received Based on the Status
+Description: You can now filter the list of received credential requests by their status.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2025-06-19
+Version: 3.10
+
+--- Record 635 ---
+Component: Decentralized Identity Verification
+Environment: Cloud Foundry
+Title: Support of the Additional Key Type Capability Invocation
+Description: You can now use a new key type, Capability Invocation, which allows identities to generate tokens for securely sharing Verifiable Presentations.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2025-06-19
+Version: 3.10
+
+--- Record 636 ---
+Component: Continuous Integration & Delivery
+Environment: Cloud Foundry
+Title: Discontinuation of Node 18 Jobs
+Description: Jobs that use Node 18 build tool versions no longer work.  Action: Please upgrade your jobs to newer build tool versions. See Supported Tools.
+Action: Required
+Lifecycle: Deleted
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-06-18
+Valid as Of: 2025-06-18
+Version: Cloud
+
+--- Record 637 ---
+Component: Continuous Integration & Delivery
+Environment: Cloud Foundry
+Title: Discontinuation of OAuth Credential Type
+Description: The OAuth credential type is now obsolete and can no longer be created. All existing OAuth credentials have been migrated to the Secret Text credential type. For more information, see Creating Credentials.
+Action: Info only
+Lifecycle: Deleted
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-06-18
+Valid as Of: 2025-06-18
+Version: Cloud
+
+--- Record 638 ---
+Component: Continuous Integration & Delivery
+Environment: Cloud Foundry
+Title: Discontinuation of the SAP Fiori for the Neo Environment Pipeline
+Description: The SAP Fiori for the Neo Environment pipeline has been deleted. Existing jobs will no longer function, but you can still download their configuration. See Export Job Configuration Data.
+Action: Info only
+Lifecycle: Deleted
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-06-18
+Valid as Of: 2025-06-18
+Version: Cloud
+
+--- Record 639 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Identity Federation
+Description: We have extended the identity federation for an application and on tenant level. Now, you can restrict the logon to users with certain email domains. See Configure Identity Federation for Applications and Configure Identity Federation.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2025-06-18
+Valid as Of: 2025-06-18
+Version: 27972
+
+--- Record 640 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Job Execution Outcome introduced
+Description: The Job Execution Outcome is now displayed on the Job Execution Details screen and included in the job notifications. It appears when delta-read jobs and jobs that fail to read entities from the source system affect the deletion of entities in the target system.  For more information, see Monitor Provisioning Job Logs
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-06-18
+Valid as Of: 2025-06-18
+Version: 27972
+

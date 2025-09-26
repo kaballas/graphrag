@@ -1,0 +1,130 @@
+--- Record 11 ---
+Component: Pricing Service
+Environment: Cloud Foundry
+Title: Production – Stateless Pricing – Validity-Based Selection of Condition Records in Price Agreements
+Description: Price agreements in stateless pricing now support processing of multiple condition records with the same condition type but different validity periods. The relevant condition record is automatically selected and applied based on the pricing date, ensuring accurate handling of time-dependent conditions.  See: API Definition, and Development Guide for SAP Variant Configuration and Pricing.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-09-19
+Valid as Of: 2025-11-12
+Version: Cloud
+
+--- Record 12 ---
+Component: Pricing Service
+Environment: Cloud Foundry
+Title: Production– US Tax Calculation via External Engine
+Description: Tax calculation via an external tax engine is now supported for US taxes.  See: API Definition, Development Guide for SAP Variant Configuration and Pricing, and Administration Guide for SAP Variant Configuration and Pricing.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-09-19
+Valid as Of: 2025-11-12
+Version: Cloud
+
+--- Record 13 ---
+Component: Variant Configuration
+Environment: Cloud Foundry
+Title: Production - Configurations API – Dependency Profiling Trace
+Description: With the dependency profiling trace, it is possible to measure the runtimes of dependencies to analyze the model performance. For on-request tracing, the header parameter x-cps-trace: DEPENDENCY_PROFILING needs to be used. Dependency execution runtimes and counts are recorded and displayed in the administration UI for the configuration service in the section Configuration  Trace   Dependency Profiling Trace.   Dependency profiling is unavailable for products processed through AVC Forwarding. Only dependencies executed within the native engine of the Variant Configuration service will be profiled.  See: Development Guide for SAP Variant Configuration and Pricing and Administration Guide for SAP Variant Configuration and Pricing.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-09-19
+Valid as Of: 2025-11-12
+Version: Cloud
+
+--- Record 14 ---
+Component: Variant Configuration
+Environment: Cloud Foundry
+Title: Production - Configurations API – On-Request Tracing
+Description: Additionally to the existing trace settings ON and OFF, a new setting ON_REQUEST was introduced to collect traces only for a subset of requests. To determine for what requests the traces will be collected, the header parameter x-cps-trace needs to be set. The relevant trace type must be set as a parameter value: CONFIGURATION_ENGINE, EXTENSION, or DEPENDENCY_PROFILING.  See: API Definition, Development Guide for SAP Variant Configuration and Pricing, and Administration Guide for SAP Variant Configuration and Pricing.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-09-19
+Valid as Of: 2025-11-12
+Version: Cloud
+
+--- Record 15 ---
+Component: Variant Configuration
+Environment: Cloud Foundry
+Title: Production - Configurations API – Read Dependency Information
+Description: New endpoint GET /knowledgebases/{kbId}/dependencies/{dependencyId} to receive dependency data, such as name, description, explanation, dependency type, and source code.  The existing endpoint GET /knowledgebases/{kbId} was extended to return a list of dependencies on request including the dependency name, description and type.  See: API Definition, and Development Guide for SAP Variant Configuration and Pricing .
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-09-19
+Valid as Of: 2025-11-12
+Version: Cloud
+
+--- Record 16 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Telemetry module: Deletion of LogParser API
+Description: With the release of Telemetry module version 1.1.0, the LogParser API had been deprecated. It is scheduled to be deleted by end of October 2025.  Required Action: In case you are still using the LogParser API, switch to JSON-based logging instead.
+Action: Required
+Lifecycle: Deleted
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-07-17
+Valid as Of: 2025-10-30
+Version: Cloud
+
+--- Record 17 ---
+Component: Cloud Logging
+Environment: Cloud Foundry,Kyma,Other
+Title: Update to: Improvement of the overall stability of Cloud Logging's OpenSearch clusters by proper OpenTelemetry index sizing.
+Description: The overall stability of Cloud Logging's OpenSearch clusters will be improved by proper index sizing, especially in high-ingest and huge storage volume scenarios. To achieve this we already switched from daily indexes to the index rollover approach (see previous announcement from 17. April 2025 for non OpenTelemetry workload indexes.This announcement deals with OpenTelemetry logs and metrics indexes (logs-otel-v1-, metrics-otel-v1-) targeting the release date - 29./30. October 2025.   With this change OpenTelemetry logs and metrics index names will have a new format. They won't contain the date suffix anymore (e.g., metrics-otel-v1-2025.07.14), but a six-digit number suffix (e.g., metrics-otel-v1-000032). Such an index can contain logs from multiple days. Also, there might be several indexes containing data from the same day.  You are affected only if you are using the OpenTelemetry logs/metrics feature and rely on the old index suffix on your custom OpenSearch content / queries. In such cases you need to adapt:  Change queries to make them independent of the old index date-suffix.    If you want to query data from certain days, you can and should do that via a range query against the index pattern (e.g. metrics-otel-v1-*) instead of targeting individual indexes.      Information about which indexes are mapped to a certain day, or which days are mapped to a certain index can still be obtained from the index creation date / timestamps of contained documents.  This will further sharpen the retention policy, meaning that the deletion targets indexes created before the last n X 24 hours (where n is the retention configuration) instead of deleting the indexes based on day boundaries (UTC). This also fixes untimely deletion of indexes for customer located further away from UTC.    
+Action: Required
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2025-10-29
+Valid as Of: 2025-10-29
+Version: Cloud
+
+--- Record 18 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Native sidecars enabled by default with Istio module 1.22
+Description: With version 1.27, Istio changed the default behavior of attaching Istio sidecar proxy containers, which now run as native sidecars. This approach resolves network connection issues that arise when regular Istio sidecar proxy containers are not ready at the same time as application containers or init containers. Additionally, regular sidecar containers prevent Pods from finishing, for example, in the case of Jobs. If you use the Kubernetes API, an istio-proxy container running as a native sidecar appears in the initContainers list instead of the containers list in a Pod's spec. To learn more, see Istio Proxy as Native Sidecar Container.  To allow more time for Kyma runtime users to adjust to this change, the Istio module in version 1.21 disables the default use of native sidecars. Although Istio module 1.21 installs Istio updated to version 1.27, by default, Istio sidecar proxies are still deployed as regular sidecar containers. With version 1.22 of the Istio module, Istio proxy sidecars will be deployed by default as native sidecars.   The Istio module 1.22 is scheduled to be rolled out to the fast channel on October 8, 2025, and to the regular channel on October 22, 2025.   To use native sidecars before the Istio module 1.22 is released, you must annotate specific Pods or Pod templates with the annotation sidecar.istio.io/nativeSidecar: "true".  To continue using regular sidecars instead of native sidecars after the Istio module 1.22 is released, choose one of these solutions:  Disable the use of native sidecars for a particular workload by setting the sidecar.istio.io/nativeSidecar annotation to "false" on a Pod or in the Pod template.  Disable the feature globally for all workloads by setting the compatibilityMode field in the Istio CR to true. See Compatibility Mode.  Required action: Test how your application and the tooling (such as automations or monitoring) behave when the Istio sidecar proxy runs as a native sidecar by setting the sidecar.istio.io/nativeSidecar annotation to "true" for all your workloads. This is especially important if you have implemented any workarounds for problems caused by the Istio sidecar proxies' lifecycle or if you use automation or monitoring tools to observe the istio-proxy containers. If everything works fine, you can:  Leave the annotation sidecar.istio.io/nativeSidecar: "true", so that you immediately benefit from native sidecar functionality regardless of the Istio module's upgrades.  Remove the annotation and rely on the default settings.  In case of issues, you can explicitly set the sidecar.istio.io/nativeSidecar annotation to "false" to use regular sidecar containers until you fix the problem. This guarantees that nothing will change when native sidecars are enabled by default by the Istio module 1.22.
+Action: Required
+Lifecycle: Deprecated
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-09-05
+Valid as Of: 2025-10-22
+Version: Cloud
+
+--- Record 19 ---
+Component: Application for Data Replication and Administration
+Environment: Cloud Foundry
+Title: Configure External Tax Providers
+Description: There is a new screen to configure the connection to external tax providers. Currently, this is only supported for US taxes.   See: Administration Guide for SAP Variant Configuration and Pricing.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-09-19
+Valid as Of: 2025-10-22
+Version: Cloud
+
+--- Record 20 ---
+Component: Application for Data Replication and Administration
+Environment: Cloud Foundry
+Title: On-request Configuration for Traces.
+Description: The traces for configuration and pricing services can now be configured to be enabled on-request instead tenant-wide.  See: Administration Guide for SAP Variant Configuration and Pricing.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-09-19
+Valid as Of: 2025-10-22
+Version: Cloud
+

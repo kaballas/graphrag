@@ -1,0 +1,130 @@
+--- Record 3411 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: OpenID Connect
+Description: You can configure URI for JSON web key retrieval for client authentication. See Configure JWT for OAuth Client Authentication.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-03-12
+Valid as Of: 2024-03-12
+Version: 25778
+
+--- Record 3412 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: OpenID Connect
+Description: You can add authentication context class references for OpenID Connect corporate IdPs. See Configure Authentication Context (SAML 2.0).
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-03-12
+Valid as Of: 2024-03-12
+Version: 25778
+
+--- Record 3413 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Regular Upgrade
+Description: Identity Authentication has been upgraded.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-03-12
+Valid as Of: 2024-03-12
+Version: 25778
+
+--- Record 3414 ---
+Component: Connectivity
+Environment: Cloud Foundry,Kyma
+Title: Connectivity Proxy for Kubernetes - Kyma Integration
+Description: As previously announced (February 26, 2024), on-premise connectivity in the Kyma environment will be handled by a Kyma module called connectivity-proxy.   This module is now available and can be activated by customers. The result is backward-compatible to the previous built-in solution, but the activation involves a short migration downtime (see previous announcement). Note  Keep in mind that all remaining users using the previous solution will be migrated centrally on March 16 within the announced maintenance window.  For more information, see On-Premise Connectivity in the Kyma Environment.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2024-03-12
+Version: Cloud
+
+--- Record 3415 ---
+Component: Connectivity
+Environment: Cloud Foundry
+Title: Destination Service - New Feature
+Description: A new entity called destination fragment has been introduced. Each fragment is a key:value pair and is used to extend and override the properties of a destination at runtime.   This lets you avoid configuration duplication by keeping common properties within a destination and extracting various specific properties into dedicated fragments. At runtime the application can decide which fragment to apply to the base destination, based on the particular scenario.   You can use destination fragments through the Destination service REST API.  For more information, see Destination Fragments.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2024-03-12
+Version: Cloud
+
+--- Record 3416 ---
+Component: Continuous Integration & Delivery
+Environment: Cloud Foundry
+Title: Custom IdP Users for Deployment to Cloud Foundry
+Description: In the Acceptance and Release stages of your job, you can now use technical users from your custom identity provider for the deployment to a Cloud Foundry space.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-03-12
+Valid as Of: 2024-03-12
+Version: Cloud
+
+--- Record 3417 ---
+Component: Identity Provisioning
+Environment: Neo
+Title: Extended autocompletion with function parameters
+Description: The autocomplete functionality of the JSON transformation editor is extended to support more function parameters. For example, beginIndex and endIndex of the substring function and others.   For more information, see: Transformation Functions.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-02-20
+Valid as Of: 2024-03-12
+Version: Cloud
+
+--- Record 3418 ---
+Component: Identity Provisioning
+Environment: Neo
+Title: Missing AS ABAP destination error
+Description: When exporting an AS ABAP provisioning system and importing it into an SAP Cloud Identity Services tenant, you'll get an error if no destination is available for selection. Also, you are not allowed to save the imported system without the mandatory RFC destination.  For more information, see: SAP Application Server ABAP.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-02-20
+Valid as Of: 2024-03-12
+Version: Cloud
+
+--- Record 3419 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Telemetry module: Update to version 1.10.0
+Description: The new version brings the following improvements:  Telemetry Manager:      Renamed the deployment “telemetry-operator” to “telemetry-manager” in the kyma-system namespace (#651).      Traces and Metrics:      Update to OTel Collector 0.95 (#815).      Traces and Logs:      Enriched the resource status conditions for TracePipeline and LogPipeline with the attributes “status” and “reason” to be aligned with Kubernetes conventions (#772).      Logs:      Update to FluentBit 2.2.2 (#794).    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-02-26
+Valid as Of: 2024-03-12
+Version: Cloud
+
+--- Record 3420 ---
+Component: SAP Datasphere
+Environment: Cloud Foundry
+Title: Features for Version 2024.6
+Description: New and changed features are available for data integration, data modeling, and SAP BW bridge.  For more information, see What's New in SAP Datasphere 2024.6. 
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-03-12
+Valid as Of: 2024-03-12
+Version: Cloud
+

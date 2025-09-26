@@ -1,0 +1,130 @@
+--- Record 781 ---
+Component: SAP BTP Cockpit
+Environment: Cloud Foundry
+Title: Sorting Space Members, Space Quotas, Security Groups
+Description: On the Space Members page in the cockpit, you can now sort space members by update date or e-mail, and also in ascending or descending order.  On the Space Quotas page, you can sort space quotas by update date or space quota name, and also in ascending or descending order.  On the Security Groups page, you can sort security groups by update date or security group name, and also in ascending or descending order.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-05-29
+Valid as Of: 2025-05-29
+Version: Cloud
+
+--- Record 782 ---
+Component: SAP BTP, Cloud Foundry Runtime
+Environment: Cloud Foundry
+Title: Version 49.0.0
+Description: Cloud Foundry has been updated from 48.9.0 to 49.0.0.  https://github.com/cloudfoundry/cf-deployment/releases/tag/v49.0.0  https://github.com/cloudfoundry/cf-deployment/releases/tag/v48.11.0  https://github.com/cloudfoundry/cf-deployment/releases/tag/v48.10.0  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-05-16
+Valid as Of: 2025-05-29
+Version: Cloud
+
+--- Record 783 ---
+Component: SAP Build Work Zone, advanced edition
+Environment: Cloud Foundry
+Title: Multiple Subscriptions to SAP Build Work Zone Editions
+Description: It’s now possible to subscribe to multiple SAP Build Work Zone editions in a given SAP BTP subaccount. (This reverts the previous announcement about multiple subscriptions not being supported , published on 23.1.2025).  Remaining restriction - you can’t subscribe to SAP Build Work Zone, advanced edition and SAP SuccessFactors Work Zone in the same subaccount. 
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2025-05-29
+Valid as Of: 2025-05-29
+Version: 2505A
+
+--- Record 784 ---
+Component: SAP Build Work Zone, advanced edition
+Environment: Cloud Foundry
+Title: Preview SAPUI5 Latest Version
+Description: Administrators can enable the new site setting, Preview SAPUI5 Latest Version  on selected non-productive sites and test the latest SAPUI5 version for a period of two weeks.  After two weeks, the version becomes the default SAPUI5 version and is consumed automatically by all sites.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-05-29
+Valid as Of: 2025-05-29
+Version: 2505A
+
+--- Record 785 ---
+Component: SAP Build Work Zone, standard edition
+Environment: Cloud Foundry
+Title: Multiple Subscription to SAP Build Work Zone Editions
+Description: It’s now possible to subscribe to multiple SAP Build Work Zone editions in a given SAP BTP subaccount. (This reverts the previous announcement about multiple subscription not being supported , published on 23.1.2025).  Remaining restriction - you can’t subscribe to SAP Build Work Zone, advanced edition and SAP SuccessFactors Work Zone in the same subaccount. 
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2025-05-29
+Valid as Of: 2025-05-29
+Version: 2505A
+
+--- Record 786 ---
+Component: SAP Build Work Zone, standard edition
+Environment: Cloud Foundry
+Title: Preview SAPUI5 Latest Version
+Description:  Administrators can enable the new site setting Preview SAPUI5 Latest Version on selected non-productive sites and test the latest SAPUI5 version for a period of two weeks.   After two weeks, the latest version becomes the default SAPUI5 version and is consumed automatically by all sites.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-05-29
+Valid as Of: 2025-05-29
+Version: 2505A
+
+--- Record 787 ---
+Component: SAP Datasphere
+Environment: Cloud Foundry
+Title: Features for Version 2025.11
+Description: New and changed features are available for administration, data cataloging, data integration, data modeling, and space management.  For more information, see What's New in SAP Datasphere 2025.11. 
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-05-29
+Valid as Of: 2025-05-29
+Version: Cloud
+
+--- Record 788 ---
+Component: SAP Java Buildpack
+Environment: Cloud Foundry
+Title: Version 2.30.0
+Description: SAP Java Buildpack 2 has been updated from version 2.29.0 to 2.30.0. Updated components:       com.fasterxml.jackson is updated from version 2.18.3 to 2.19.0      com.sap.core.connectivity.jco is updated from version 3.4.9 to 5.0.1      commons-codec is updated from version 1.16.0 to 1.16.1      commons-io is updated from version 2.16.1 to 2.18.0    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-05-20
+Valid as Of: 2025-05-29
+Version: Cloud
+
+--- Record 789 ---
+Component: Authorization and Trust Management Service
+Environment: ABAP,Cloud Foundry,Kyma,Neo,Other
+Title: Increased Priority of Security Recommendation BTP -UAA-0008 for Custom Identity Providers
+Description: In security recommendation BTP-UAA-0008, we recommend using a custom identity provider in productive landscapes. We've raised the priority of this recommendation from Advanced to Critical and updated the description to highlight that you, as an administrator, have no control over credential and authentication policies or the user lifecycle of users in the default identity provider.  Action  In productive landscapes, configure the service to use SAP Cloud Identity Services as the custom identity provider.  Note  For SAP BTP, partner-managed edition, custom identity providers for platform users aren't supported.  For more information, see BTP-UAA-0008.
+Action: Required
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-05-28
+Valid as Of: 2025-05-28
+Version: 2505a
+
+--- Record 790 ---
+Component: Java Server
+Environment: Neo
+Title: Tomcat version for Java Web Tomcat 10
+Description: Java Web Tomcat 10 (runtime version 5.23) has been updated to Tomcat version 10.1.40.  See the Changelog and Security Fixes.  Recommended action: Update your applications to the latest runtime version. See Keeping Your Application Runtimes Up-to-date.
+Action: Recommended
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-05-28
+Valid as Of: 2025-05-28
+Version: Cloud
+

@@ -1,0 +1,130 @@
+--- Record 3651 ---
+Component: Extensions
+Environment: Cloud Foundry,Kyma
+Title: Define SAP Event Mesh Resource Units in the SAP S/4HANA Cloud Extensibility Service Descriptor File
+Description: When provisioning new SAP S/4HANA Cloud Extensibility service instances with service plan messaging, in the SAP S/4HANA Cloud Extensibility service descriptor file, you can now specify the resource units for the SAP Event Mesh service. A resource unit is a collection of messaging resources such as queues, connections, and so on, required for a message client.  See Define SAP S/4HANA Cloud Extensibility Service Descriptor JSON/YAML File.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-02-07
+Valid as Of: 2024-02-07
+Version: Cloud
+
+--- Record 3652 ---
+Component: Joule
+Environment: Cloud Foundry
+Title: New Use Cases Now Supported in SAP SuccessFactors
+Description: The following transactional use cases are now supported for SAP SuccessFactors users:    Approve spot award       Create spot award      Clock in clock out      View pay statement      View pay statement (PDF)    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-02-07
+Valid as Of: 2024-02-07
+Version: Cloud
+
+--- Record 3653 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Off-Cycle Upgrade
+Description: Identity Authentication has been upgraded.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-02-06
+Valid as Of: 2024-02-06
+Version: 25596
+
+--- Record 3654 ---
+Component: Continuous Integration & Delivery
+Environment: Cloud Foundry
+Title: Sorting, Grouping and Live-Searching for Jobs
+Description: You can now use filters and sorting in the Jobs overview table. Additionally, when you type something into the search field, all columns are taken into account and filtered immediately.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-02-06
+Valid as Of: 2024-02-06
+Version: Cloud
+
+--- Record 3655 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Eventing module: Update to version 1.1.0
+Description: The new version brings the following improvements:      By default, Eventing Manager has an empty backend configuration (#266).      When switching the backend to SAP Event Mesh, resources are cleaned up (#345).      The Eventing Publisher Proxy image has been updated (#406).    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-02-06
+Valid as Of: 2024-02-06
+Version: Cloud
+
+--- Record 3656 ---
+Component: Mobile Services
+Environment: Cloud Foundry
+Title: Supported versions for Cloud Build Service
+Description: We've updated the supported versions for the Cloud Build service:    February 2024    Mobile Development Kit SDK version, Android and iOS versions, and notes      SAP Asset Manager SDK version, iOS version, and notes          January 2024    Mobile Development Kit SDK version, Android and iOS versions, and notes      SAP Asset Manager Android and iOS versions, and notes          December 2023    Mobile Development Kit SDK version, Android and iOS versions, and notes      SAP Asset Manager SDK version, Android and iOS versions, and notes          See Supported Build Types, Client Types, Packaging Details, and Build Options. 
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2024-02-06
+Version: Cloud
+
+--- Record 3657 ---
+Component: Mobile Services
+Environment: Neo
+Title: Supported versions for Cloud Build Service
+Description: We've updated the supported versions for the Cloud Build service:    February 2024 (2305 PL12) SAP Asset Manager SDK version, iOS version, and notes      January 2024 (2305 PL11) Mobile Development Kit SDK version, iOS version, and notes      December 2023 (2305 PL09)    Fiori Packaged SDK version, UI5 version, Android and iOS versions, and notes      Custom Fiori Client SDK version, Android and iOS versions, and notes      Mobile Development Kit SDK version, Android and iOS versions, and notes      SAP Asset Manager SDK version, Android and iOS versions, and notes          See Supported Build Types, Client Types, Packaging Details, and Build Options. 
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2024-02-06
+Version: Cloud
+
+--- Record 3658 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Core SDK
+Description: You can now use the Delete Element activity to delete a web object and the Delete Inserted Elements activity to remove all dynamically inserted elements.  See Core SDK.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-02-06
+Valid as Of: 2024-02-06
+Version: Cloud
+
+--- Record 3659 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Microsoft 365 Cloud SDK
+Description: You can now use the Get Remote Folder Information activity to return useful information about a remote folder from its open URL.  See Microsoft 365 Cloud SDK.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-02-06
+Valid as Of: 2024-02-06
+Version: Cloud
+
+--- Record 3660 ---
+Component: SAP Intelligent Robotic Process Automation
+Environment: Cloud Foundry
+Title: Core SDK
+Description: You can now use the Delete Element activity to delete a web object and the Delete Inserted Elements activity to remove all dynamically inserted elements. See: Core SDK.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-02-06
+Valid as Of: 2024-02-06
+Version: Cloud
+

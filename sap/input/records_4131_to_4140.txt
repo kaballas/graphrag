@@ -1,0 +1,130 @@
+--- Record 4131 ---
+Component: Identity Provisioning
+Environment: Neo
+Title: Changing users and groups update mechanism
+Description: As of October 25, 2023, Identity Provisioning is changing the way users and groups are updated in the target systems.  The service will first apply the mapping of the entity unique attribute (most often userName for users and displayName for groups) and then will resolve conflicts if the entity exists in the target system. Currently, Identity Provisioning resolves the entity prior to applying the mapping of its unique attribute.  When the new mechanism is introduced, if the given mapping contains a function (for example, for removing a substring or concatenating a prefix), the service will handle it correctly. The entity won’t be skipped and will be properly updated.  Be aware that this change will affect you if you have the following three configurations in place:      The unique attribute is missing in the target transformation. Even if you've defined it as a property in <system_prefix>.user.unique.attribute or <system_prefix>.group.unique.attribute, it is still missing in the target transformation.      The skipOperation create is defined under the user or group resource in the target transformation.      The support for patch operations is enabled in the target system.      If you experience any issues when this change is introduced, make sure the unique attribute mapping is not missing in your target transformation. If this doesn't fix the issue, create a customer case to component BC-IAM-IPS. For more information, see Getting Support
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2023-12-06
+Valid as Of: 2023-10-25
+Version: Cloud
+
+--- Record 4132 ---
+Component: SAP Build Apps
+Environment: Cloud Foundry
+Title: Web & Mobile
+Description:   Building native iOS applications for App Store release or local testing is now available in SAP Build Apps.   SAP Build Apps is now available to try out for free with an SAP BTP Trial Account.  
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2023-10-25
+Version: Cloud
+
+--- Record 4133 ---
+Component: SAP Cloud Application Event Hub
+Environment: Other
+Title: Event Subscription Filters
+Description: Set event filters to control the events that are distributed to subscribers. See Filtering SAP Event Subscriptions.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-10-25
+Valid as Of: 2023-10-25
+Version: Cloud
+
+--- Record 4134 ---
+Component: SAP Cloud Application Event Hub
+Environment: Other
+Title: Multi-tenant Subscribers
+Description: HTTP multi-tenant SAP cloud applications are supported as subscribers in SAP-defined event integrations. See SAP Event-Driven Integrations.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-10-25
+Valid as Of: 2023-10-25
+Version: Cloud
+
+--- Record 4135 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Release of the SAP BTP Operator module 1.0.0 in the regular channel
+Description: Succeeding the previous version, 0.5.0, we are pleased to announce the major release of the SAP BTP Operator module 1.0.0. With this release, we have upgraded the SAP BTP service operator resources to version 0.5.3. From now on, you can create Service Bindings for Service Instances located in a different namespace. For more details, see the open-source release notes.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-10-24
+Valid as Of: 2023-10-24
+Version: Cloud
+
+--- Record 4136 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Release of the Telemetry module 1.1.0 in the regular channel
+Description: The new version brings the following improvements:  Telemetry Manager:    The Telemetry status API now shows whether a module deletion is blocked. (#381)      Logs:    The HTTP output of LogPipeline now supports mTLS (#366).      Update to Fluent Bit 2.1.9 (#422).      Traces:    The OTel Collector logs in JSON format (#442).      Update to OTel Collector 0.86.0 (#434).      Improved resource settings for the trace gateway (#409).    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-10-23
+Valid as Of: 2023-10-24
+Version: Cloud
+
+--- Record 4137 ---
+Component: Responsibility Management Service
+Environment: Cloud Foundry
+Title: Monitor Agent Determination Logs App Enhanced
+Description: In addition to the logs generated during agent determination using responsibility rules, you can now monitor logs for agent determination using teams. See User Guide.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-10-03
+Valid as Of: 2023-10-24
+Version: Cloud
+
+--- Record 4138 ---
+Component: Responsibility Management Service
+Environment: Cloud Foundry
+Title: Service Domains updated
+Description: We have updated Responsibility Management Service domains. Once you log in with the old URL, you are automatically redirected to the new domain.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-10-03
+Valid as Of: 2023-10-24
+Version: Cloud
+
+--- Record 4139 ---
+Component: SAP HANA Spatial Services
+Environment: Cloud Foundry,Kyma
+Title: nan
+Description:     Enhancements: Mapping API, Routing API, Geocoding API  Security updates have been implemented.      Bug Fix: Routing API  In Single Routing, the various property would not be correctly applied to single-routing requests for provider Trimble.  In Single Routing, the returned route geometries consisted of improper linestrings for provider Trimble.      Decommissioning: Routing API, Geocoding API  Parameters app_id and app_code for provider Here have been decommissioned. Now, only the parameter api_key is supported.  Routing API  Geocoding API    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2023-10-24
+Version: Cloud
+
+--- Record 4140 ---
+Component: Continuous Integration & Delivery
+Environment: Cloud Foundry
+Title: Automatic Login with WebdriverIO Tests
+Description: You can now use the automatic login feature from SAPUI5 when running WebdriverIO tests. See Authentication.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-10-23
+Valid as Of: 2023-10-23
+Version: Cloud
+

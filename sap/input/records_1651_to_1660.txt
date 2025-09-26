@@ -1,0 +1,130 @@
+--- Record 1651 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Best Practices - Capturing Specific Elements
+Description: To capture specific elements such as the Save File dialog or popups in the SAP WebGUI application, we recommend capturing them as a web page.See: Guidelines for the SAP GUI Technology Automation
+Action: Recommended
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-01-21
+Valid as Of: 2025-01-21
+Version: Cloud
+
+--- Record 1652 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Off-Cycle Upgrade
+Description: Cloud Identity Services have been upgraded.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-01-21
+Valid as Of: 2025-01-21
+Version: 27307
+
+--- Record 1653 ---
+Component: Graph
+Environment: Cloud Foundry
+Title: Improved visualization of actions and functions
+Description: The visualization of actions and functions in the Graph Navigator have been enhanced. For more information, see Actions and Functions.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Intelligent Technologies
+Latest Revision: 2025-01-21
+Valid as Of: 2025-01-21
+Version: Cloud
+
+--- Record 1654 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Istio module: Update to version 1.13.0
+Description: We have updated the internal structure that holds Istio Operator. This ensures that the module remains up-to-date with the latest upstream Istio dependencies.  This version of the Istio module includes Istio 1.24.1 and Envoy 1.32.2.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-01-21
+Valid as Of: 2025-01-21
+Version: Cloud
+
+--- Record 1655 ---
+Component: Process Visibility Capability
+Environment: Cloud Foundry
+Title: Enhanced Step Processor for Calculated Attributes
+Description: The Step Information expression with Step Processor entity type for calculated attributes now includes an option to view a comprehensive list of all processors involved in the execution of the step.  See Add Calculated Attributes.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-01-21
+Valid as Of: 2025-01-21
+Version: Cloud
+
+--- Record 1656 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Enhanced Step Processor for Calculated Attributes
+Description: The Step Information expression with Step Processor entity type for calculated attributes now includes an option to view a comprehensive list of all processors involved in the execution of the step.See Add Calculated Attributes.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-01-21
+Valid as Of: 2025-01-21
+Version: Cloud
+
+--- Record 1657 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Monitoring Automations
+Description: On the new Quota Management tile you can check the quota of attended and unattended automations that are permitted for your SAP Build Process Automation tenant and see when this quota assignment was last changed.Choose Monitoring  Automation Concurrent Quota Usage Today to open the Simultaneous Quota Usage for Automation view.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-01-21
+Valid as Of: 2025-01-21
+Version: Cloud
+
+--- Record 1658 ---
+Component: SAP Datasphere
+Environment: Cloud Foundry
+Title: Features for Version 2025.2
+Description: New and changed features are available for administration, data cataloging, and data integration.  For more information, see What's New in SAP Datasphere 2025.2. 
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-01-21
+Valid as Of: 2025-01-21
+Version: Cloud
+
+--- Record 1659 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Bigger machine type available in the Amazon Web Services and Google Cloud plans
+Description: We have added the following machine types:  m6i.16xlarge and m5.16xlarge in the Amazon Web Services (aws) plan.  n2-standard-64 in the Google Cloud (gcp) plan.  Now, machine types offering 64 virtual CPUs and 256 GB of RAM are available in all the standard plans. For more information, see Provisioning and Updating Parameters in the Kyma Environment.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-01-17
+Valid as Of: 2025-01-20
+Version: Cloud
+
+--- Record 1660 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: SAP BTP Operator module: Update to version 1.1.20
+Description: With this release, we have updated the SAP BTP service operator resources to version 0.7.1.  We have introduced a new field in the ServiceInstance resource: watchParametersFromChanges. You can use it to trigger an automatic update of the ServiceInstance resource with the changes to the Secret values listed in the parametersFrom field.  For more information, see Passing Parameters.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-01-17
+Valid as Of: 2025-01-20
+Version: Cloud
+

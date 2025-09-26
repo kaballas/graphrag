@@ -1,0 +1,130 @@
+--- Record 831 ---
+Component: Variant Configuration
+Environment: Cloud Foundry
+Title: Extensions Concept – Disable Buffering of Local Extension Calls
+Description: In remote extension implementations, you can return response header Cache-Control: no-store to disable the call buffering of a custom pricing routine. Now it is also possible to disable the call buffering for local extensions by listing the JavaScript function name with the parameter caching: false in a manifest file.  See: Extension Guide for SAP Variant Configuration and Pricing.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-05-21
+Valid as Of: 2025-05-21
+Version: Cloud
+
+--- Record 832 ---
+Component: Variant Configuration
+Environment: Cloud Foundry
+Title: Production - Configurations API - Correct Response Status For Locking Configurations
+Description: The endpoint PATCH /configurations/lock used to respond with success status code 200 instead of 204. This issue has been corrected.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-05-13
+Valid as Of: 2025-05-21
+Version: Cloud
+
+--- Record 833 ---
+Component: Variant Configuration
+Environment: Cloud Foundry
+Title: Production – Configurations API – Return Context and Source
+Description: When creating a new configuration, the context for the reference characteristics and the source of the configuration can be specified. Both, context and source can also be overwritten using the corresponding endpoint.   Context and source used to be missing in the configuration results. Both can now be requested as part of the configuration results by listing them in the $select query parameter like this: $select=context,source.  See API Definition and Development Guide for SAP Variant Configuration and Pricing - Production.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-04-15
+Valid as Of: 2025-05-21
+Version: Cloud
+
+--- Record 834 ---
+Component: Variant Configuration
+Environment: Cloud Foundry
+Title: Production – Configurations API – Return Dependencies That Caused the Conflict
+Description: Conflicts returned by GET /configurations/{configurationId}dependencyId with a list of dependencies, such as. constraints, that caused the conflict.  See API Definition and Development Guide for SAP Variant Configuration and Pricing - Production.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-04-15
+Valid as Of: 2025-05-21
+Version: Cloud
+
+--- Record 835 ---
+Component: Variant Configuration
+Environment: Cloud Foundry
+Title: Production – Extensions Concept – WHERE LIKE Database Access
+Description: There is a new API called sap.db() to read table content from local extensions that will support wildcards with LIKE operator in WHERE clauses of SELECT statements.   See Extension Guide for SAP Variant Configuration and Pricing - Production
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-04-15
+Valid as Of: 2025-05-21
+Version: Cloud
+
+--- Record 836 ---
+Component: Variant Configuration
+Environment: Cloud Foundry
+Title: Production – Knowledgebases API – Search By BOM Application
+Description: There is a new filter value bomApplication for endpoint GET /kbdetermination, which enables the search for knowledge bases by the BOM application, for example SD01 or PP01.   See API Definition and Development Guide for SAP Variant Configuration and Pricing - Production.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-04-15
+Valid as Of: 2025-05-21
+Version: Cloud
+
+--- Record 837 ---
+Component: Variant Configuration
+Environment: Cloud Foundry
+Title: Production- Configurations API – Lock Configurations Against Changes
+Description: There is a new endpoint called PATCH /configurations/{configurationId}/lock to flag a configuration as locked or not locked. The default setting is not locked. If a configuration is locked, it cannot be deleted nor changed, for example, adding or removing a characteristic value or resetting the configuration is not possible.  Existing endpoints such as GET /configurations/{configurationId} will be enhanced to return the locked flag for a configuration.   The existing endpoint GET /externalConfigurations will be enhanced to allow searching for locked configurations.  See API Definition and Development Guide for SAP Variant Configuration and Pricing - Production.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-04-15
+Valid as Of: 2025-05-21
+Version: Cloud
+
+--- Record 838 ---
+Component: Graph
+Environment: Cloud Foundry
+Title: Change in getting Graph service credentials in API consumption for client applications
+Description: The service plan for enabling client applications has changed. You no longer use the api service plan under SAP Graph.   The new service plan is integration-flow under the Process Integration Runtime service. In order to use this plan, you need to set up the authentication by creating a Process Integration Runtime instance. Note  Your subaccount in SAP BTP must be in the Cloud Foundry environment and Cloud Foundry-enabled.    Note   The Graph  api service plan will no longer be available after June 30th, 2025.    For more information, see:   Configure Entitlement for Graph  Authentication  
+Action: Required
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Intelligent Technologies
+Latest Revision: 2025-05-20
+Valid as Of: 2025-05-20
+Version: Cloud
+
+--- Record 839 ---
+Component: Graph
+Environment: Cloud Foundry
+Title: Enabling client applications to access Graph business data graph
+Description: Client applications must know certain secrets, known as Graph service credentials in order to be able to consume Business Data Graph APIs. There is a new way of getting these secrets. See Enabling Client Applications. Note  By June 30th, 2025, no new instance of Graph with the api service plan can be created. If you are still using the api service plan from Graph, we recommend you now use integration-flow plan in the Process Integration Runtime service. For more information, see Configure Entitlement for Graph.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Intelligent Technologies
+Latest Revision: 2025-05-20
+Valid as Of: 2025-05-20
+Version: Cloud
+
+--- Record 840 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Istio module: Update to version 1.17.2
+Description: With this release, we've updated Istio to version 1.25.3. Read the Istio 1.25.3 release announcement and Istio 1.25.2 release announcement.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-05-19
+Valid as Of: 2025-05-20
+Version: Cloud
+

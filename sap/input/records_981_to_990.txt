@@ -1,0 +1,130 @@
+--- Record 981 ---
+Component: Variant Configuration
+Environment: Cloud Foundry
+Title: Pre-Production- Configurations API – Lock Configurations Against Changes
+Description: There is a new endpoint called PATCH /configurations/{configurationId}/lock to flag a configuration as locked or not locked. The default setting is not locked. If a configuration is locked, it cannot be deleted, nor changed. For example, adding or removing a characteristic value or resetting the configuration is not possible.  Existing endpoints such as GET /configurations/{configurationId} will be enhanced to return the locked flag for a configuration.   The existing endpoint GET /externalConfigurations will be enhanced to allow searching for locked configurations.  See  API Definition and Development Guide for SAP Variant Configuration and Pricing - Pre-Production.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-04-15
+Valid as Of: 2025-05-07
+Version: Cloud
+
+--- Record 982 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Istio module: Update to version 1.17.0
+Description: We've updated the Istio version to 1.25.1 (#1365). Read the Istio 1.25.1 release announcement and Istio 1.25 Upgrade Notes.  This version of Istio includes changes to compatibility version parameters. See the parameters of the previous compatibility version switched from false to true:  ENABLE_INBOUND_RETRY_POLICY: If true, enables retry policy for inbound routes, which automatically retries any requests that were reset before reaching the intended service.  EXCLUDE_UNSAFE_503_FROM_DEFAULT_RETRY: If true, excludes unsafe retry on 503 from the default retry policy.  PREFER_DESTINATIONRULE_TLS_FOR_EXTERNAL_SERVICES: If true, external services prefer the TLS settings from DestinationRules over the metadata TLS settings.  ENABLE_ENHANCED_DESTINATIONRULE_MERGE: If enabled, Istio merges DestinationRules based on their exportTo fields. The DestinationRules are then kept as independent rules if the exportTo fields are not equal.  PILOT_UNIFIED_SIDECAR_SCOPE: If true, unified SidecarScope creation is used. This is only intended as a temporary feature flag for backward compatibility.  ENABLE_DEFERRED_STATS_CREATION: If enabled, Istio lazily initializes a subset of the stats.  BYPASS_OVERLOAD_MANAGER_FOR_STATIC_LISTENERS: If enabled, the overload manager is not applied to static listeners.    This compatibility version applies the following new parameter set to false:   PILOT_ENABLE_IP_AUTOALLOCATE: If enabled, the pilot starts a controller that assigns IP addresses to ServiceEntry that do not have a user-supplied IP. When combined with DNS capture, this allows TCP routing of traffic sent to the ServiceEntry.    Note the significant changes announce with release 1.25.1 of Istio:   ISTIO_META_DNS_AUTO_ALLOCATE in proxyMetadata has been deprecated in favor of a newer version of DNS auto-allocation.  traffic.sidecar.istio.io/kubevirtInterfaces has been deprecated in favor of istio.io/reroute-virtual-interfaces.  
+Action: Required
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-04-18
+Valid as Of: 2025-05-06
+Version: Cloud
+
+--- Record 983 ---
+Component: SAP Omnichannel Promotion Pricing
+Environment: Cloud Foundry
+Title: Root Certificate Replacement in the SAP BTP, Cloud Foundry Environment
+Description: Update: After an internal validation, the timelines have been shifted to Q1/2026. SAP will provide detailed dates in October 2025.  SAP is switching to the "DigiCert TLS RSA4096 Root G5" and “DigiCert Global Root G3” PKI.  If you have systems in which you manage the trusted certificates yourself, check if the "DigiCert Global Root G2" certificate exists in them. If it exists and the usage is related to SAP BTP products, please add the new G5 and G3 certificates. Do not remove the G2 certificate yet, as it is needed during the transition period.  For more information, see 3566727  and SAP BTP Cloud Foundry: switching to higher security level Root Certificate Authority.
+Action: Required
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2025-06-26
+Valid as Of: 2025-05-06
+Version: Cloud
+
+--- Record 984 ---
+Component: Cloud Integration
+Environment: Cloud Foundry
+Title: IBM MQ Adapter Supports New Version
+Description: A new version 1.1.0 (JMS Variant) of the IBM MQ adapter is available now.  See: IBM MQ Adapter
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-05-06
+Valid as Of: 2025-05-06
+Version: 2503
+
+--- Record 985 ---
+Component: Cloud Transport Management
+Environment: Cloud Foundry
+Title: Enhancements to the Create Node dialog.
+Description: When you create or edit a transport node, the destination selection box now displays both the name and description of each destination. The description makes it easier to choose the appropriate destination.  See:   Create Transport Nodes  
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Application Development and Integration
+Latest Revision: 2025-05-06
+Valid as Of: 2025-05-06
+Version: 2504a
+
+--- Record 986 ---
+Component: Cloud Transport Management
+Environment: Cloud Foundry
+Title: New function in the import queue: Immediately start imports of transport requests as soon as they enter an import queue.
+Description: This function enhances automation, and simplifies the import process.  See:   Enable Automatic Import  
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Application Development and Integration
+Latest Revision: 2025-05-06
+Valid as Of: 2025-05-06
+Version: 2504a
+
+--- Record 987 ---
+Component: Cloud Transport Management
+Environment: Cloud Foundry
+Title: Revamp of the Landscape Action Logs
+Description: The landscape action logs are now displayed in a more flexible table layout with extensive filter options, detail display, and links to the affected objects.   See:   Landscape Action Logs  
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Application Development and Integration
+Latest Revision: 2025-05-06
+Valid as Of: 2025-05-06
+Version: 2504a
+
+--- Record 988 ---
+Component: SAP Document and Reporting Compliance, Cloud Edition
+Environment: Kyma
+Title: Unification of Cloud Edition Processes for GST Report Submission in India
+Description: To make it easier to submit your GST reports in India using the cloud edition, we grouped different cloud edition processes into one. For you, it means the following:    As of now, you only activate and configure the GST Return (India) process to submit GSTR1 and GSTR3B reports. In the future, you will use this same process to submit additional reports, such as GSTR6.  If you had activated and configured the communication settings for the GSTR1 (India) process, the cloud edition uses the same settings for the GST Return (India) process and there are no additional steps for you.   If you had activated and configured the communication settings for the GSTR3B Save (India), GSTR3B Payment of Tax (India), GSTR3B File (India), Reconciliation Summary Retrieval (India), or Document Retrieval for Consistency (India) processes, you have to perform the steps again for the GST Return (India) process.    See Supported Compliance Tasks.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: nan
+Valid as Of: 2025-05-06
+Version: Cloud
+
+--- Record 989 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: API Gateway module: APIRule v2 upgrade and deletion of v1beta1 are postponed
+Description:     After careful consideration, we have decided to postpone the release of API Gateway 3.0.0, which contains the APIRule v2 upgrade, to May 5, 2025.  Additionally, the planned deletion of v1beta1 for the end of May will also be postponed. A new target date will be announced in the future.  Required action: Migrate all your APIRule custom resources (CRs) to version v2.      To migrate your APIRule CRs from version v2alpha1 to version v2, you must update the version in APIRule CRs’ metadata.  To migrate your APIRule CRs from version v1beta1 to v2, follow the procedure described in the blog posts:   APIRule migration - noAuth and jwt handlers  APIRule migration - Ory Oathkeeper based OAuth2 handlers    For more information, see Changes Introduced in APIRule v2alpha1 and v2. Since the APIRule CRD v2alpha1 is identical to v2, the migration procedure from version v1beta1 to version v2 is the same as from version v1beta1 to version v2alpha1.
+Action: Required
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-04-16
+Valid as Of: 2025-05-05
+Version: Cloud
+
+--- Record 990 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: API Gateway module: Update to version 3.0.2
+Description: This version of the API Gateway module introduces APIRule CR in the stable version v2.   The new CRD allows you to expose your workloads using one of the three supported access strategies: jwt, noAuth, and extAuth. The noAuth access strategy provides a simple configuration for exposing workloads over the specified HTTP methods. The jwt access strategy allows you to secure your workload by defining Istio JWT configuration and the extAuth access strategy allows for providing custom authentication and authorization logic. For more information, see APIRule Custom Resource.  Additionally, version 3.0.2 contains the following fixes:  We've fixed the behavior of in-cluster connectivity when using JWT handler in APIRule. Now, in-cluster connectivity is blocked.  Now, when you create an APIRule with the noAuth access strategy, it is validated if the target workload has an Istio sidecar proxy injected.  
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-05-05
+Valid as Of: 2025-05-05
+Version: Cloud
+

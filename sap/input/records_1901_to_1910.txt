@@ -1,0 +1,130 @@
+--- Record 1901 ---
+Component: Java Server
+Environment: Neo
+Title: Tomcat version for Java Web Tomcat 9 and Java EE 7 Web Profile TomEE 7
+Description: Java Web Tomcat 9 (runtime version 4.90) and Java EE 7 Web Profile TomEE 7 (runtime version 1.188) have been updated to Tomcat version 9.0.96.  See the Changelog and Security Fixes.  Recommended action: Update your applications to the latest runtime version.
+Action: Recommended
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-11-28
+Valid as Of: 2024-11-28
+Version: Cloud
+
+--- Record 1902 ---
+Component: Application Autoscaler
+Environment: Cloud Foundry
+Title: Prevent the Application Autoscaler from scaling your application
+Description: To control the scaling of your application manually and to prevent the Application Autoscaler from scaling your application automatically, without changing the setup of your application, use the label app-autoscaler.cloudfoundry.org/disable-autoscaling. The Application Autoscaler does not scale apps labeled with it.  For more information, see Preventing the Application Autoscaler from Scaling your Application.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-11-28
+Valid as Of: 2024-11-28
+Version: Cloud
+
+--- Record 1903 ---
+Component: Automation Pilot
+Environment: Cloud Foundry
+Title: New Landscape Deployment
+Description: SAP Automation Pilot is now productively available on the KSA (Dammam – KSA Regulated Customers) landscape. See Service Availability.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-11-28
+Valid as Of: 2024-11-28
+Version: Cloud
+
+--- Record 1904 ---
+Component: Availability Service
+Environment: Cloud Foundry
+Title: Enabled certificate validation for Expsrvpush URL monitors
+Description: AvS added an option to toggle certificate validation for Expsrvpush URL monitors (for example, to support PKI scenarios). For more information, see  ?sap-ot O2O class="- topic/xref " href="643030f616404d21babdd9a12e1911b5.xml" text="" desc="" xtrc="xref:5" xtrf="file:/home/builder/src/dita-all/yoe1460360436347/loio922bf2dbe0b646aaaa8cb5e077cfd799_en-US/src/content/localization/en-us/6da9927f396a47609f58c262831b0d9e.xml" output-class="xref" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.sap.prd.dita.html5/xsl/sap-html5/sap-html5-table-json.xsl" ? . Existing evaluations are not affected by the change.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-11-28
+Valid as Of: 2024-11-28
+Version: Cloud
+
+--- Record 1905 ---
+Component: Availability Service
+Environment: Cloud Foundry
+Title: New APIs for tagging
+Description: The new set of APIs for tagging (v2/tagclass) are added to AvS.  The current APIs for tagging (v1/tagclass) are marked as deprecated and will be removed in 180 days.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-11-28
+Valid as Of: 2024-11-28
+Version: Cloud
+
+--- Record 1906 ---
+Component: Cloud Logging
+Environment: Cloud Foundry
+Title: Cloud Logging service is now available in IL30
+Description: The Cloud Logging service is now available in IL30
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-11-28
+Valid as Of: 2024-11-28
+Version: Cloud
+
+--- Record 1907 ---
+Component: Cloud Logging
+Environment: Cloud Foundry
+Title: Update OpenSearch and OpenSearch Dashboards to 1.3.19
+Description: We have updated the OpenSearch and OpenSearch Dashboards to 1.3.19
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-11-28
+Valid as Of: 2024-11-28
+Version: Cloud
+
+--- Record 1908 ---
+Component: Document Management Service
+Environment: Cloud Foundry
+Title: Availability in Additional Regions
+Description: SAP Document Management Service is now available in the following regions:       Brazil (São Paulo) (cf-br20) - Microsoft Azure  Australia (Sydney) (cf-ap30) - Google Cloud      See information available on the  SAP Discovery Center.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-11-28
+Valid as Of: 2024-11-28
+Version: Cloud
+
+--- Record 1909 ---
+Component: SAP Alert Notification Service
+Environment: Cloud Foundry
+Title: New SAP Enterprise Threat Detection, cloud edition section and event.
+Description: You can now use the newly supported SAP Enterprise Threat Detection, cloud edition event - Logs Received In The Last Hour. For more information, see SAP Enterprise Threat Detection, Cloud Edition Events section page.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-11-28
+Valid as Of: 2024-11-28
+Version: Cloud
+
+--- Record 1910 ---
+Component: SAP BTP Command Line Interface
+Environment: ABAP,Cloud Foundry,Kyma,Neo,Other
+Title: Changes to Maximum Session Length
+Description: When you log in with the btp CLI, the maximum session length is now limited to a maximum of 12 hours. After that, you'll have to log in again. See Log in.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-11-26
+Valid as Of: 2024-11-28
+Version: Cloud
+

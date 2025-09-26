@@ -1,0 +1,130 @@
+--- Record 1991 ---
+Component: SAP Document and Reporting Compliance, Cloud Edition
+Environment: Kyma
+Title: Updated German Template for Document Preview in the Peppol Exchange Process
+Description: For Germany only: For the Peppol Exchange process, the template for displaying XRechnung documents in HTML format has been updated.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: nan
+Valid as Of: 2024-11-15
+Version: Cloud
+
+--- Record 1992 ---
+Component: Application Autoscaler
+Environment: Cloud Foundry
+Title: Additional functionality for using custom metrics was added
+Description: By using custom metrics, it's now possible that one application sends custom metrics to scale another application.  For more information, see Defining a Custom Metric.
+Action: Recommended
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-11-14
+Valid as Of: 2024-11-14
+Version: Cloud
+
+--- Record 1993 ---
+Component: Cloud Integration for Data Services
+Environment: Neo
+Title: Documentation update only: Administrators in Sub-orgs Can Promote to Parent Orgs
+Description: The Help Center topics Working in Multiple Environments and User Roles have been updated with a clarification that a user with the Administrator role in a sub-org and either the Administrator or Developer role in its parent org can promote tasks from the sub-org to the parent org.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Database and Data Management
+Latest Revision: 2024-11-14
+Valid as Of: 2024-11-14
+Version: 1.0.11.55
+
+--- Record 1994 ---
+Component: Cloud Integration for Data Services
+Environment: Neo
+Title: OData Adapter Option 'Use Audit' Set to False By Default
+Description: The option Use Audit is now set to false (unchecked) by default when creating a data flow with an OData adapter target object. Be aware that setting this option to true ignores task errors, so the execution status is always successful. For more information, see OData Adapter Options.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Database and Data Management
+Latest Revision: 2024-11-14
+Valid as Of: 2024-11-14
+Version: 1.0.11.55
+
+--- Record 1995 ---
+Component: Documentation
+Environment: Cloud Foundry,Kyma
+Title: Updated Comparison: SAP BTP, Kyma Runtime and SAP BTP, Cloud Foundry Runtime
+Description: Based on customer feedback, we've updated Comparison: SAP BTP, Kyma Runtime and SAP BTP, Cloud Foundry Runtime:  The navigation is simpler and the page titles are more descriptive. Some entries moved to other pages; for example, release frequency is now under Offerings by the Runtime Service. Furthermore, the Observability information saw substancial enhancements.  Stay tuned for further improvements, and don't hesitate to use the Feedback options if there's anything you'd like us to improve.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-11-13
+Valid as Of: 2024-11-14
+Version: Cloud
+
+--- Record 1996 ---
+Component: Job Scheduling Service
+Environment: Cloud Foundry
+Title: Updated Procedure for Creating a Service Instance
+Description: You no longer need to specify the enable-xsuaa-support: true property when creating a service instance using the SAP BTP cockpit or the CF CLI. It is now set by default.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-11-14
+Valid as Of: 2024-11-14
+Version: Cloud
+
+--- Record 1997 ---
+Component: SAP Alert Notification Service
+Environment: Cloud Foundry
+Title: New SAP Variant Configuration and Pricing event
+Description: You can now use the newly supported SAP Variant Configuration and Pricing event - Delta Replication Check Status
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-11-14
+Valid as Of: 2024-11-14
+Version: Cloud
+
+--- Record 1998 ---
+Component: SAP BTP, Cloud Foundry Runtime
+Environment: Cloud Foundry
+Title: Version 44.3.0
+Description: Cloud Foundry has been updated from 44.0.0 to 44.3.0.      https://github.com/cloudfoundry/cf-deployment/releases/tag/v44.3.0  https://github.com/cloudfoundry/cf-deployment/releases/tag/v44.2.0  https://github.com/cloudfoundry/cf-deployment/releases/tag/v44.1.0    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-11-14
+Valid as Of: 2024-11-14
+Version: Cloud
+
+--- Record 1999 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Update Task Attributes in Batch
+Description: You can update the task attributes for multiple task instances in a single request.For more information, see API Documentation.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-11-14
+Valid as Of: 2024-11-14
+Version: Cloud
+
+--- Record 2000 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Update the User Interface of Task Instances
+Description: You can update the user interface of task instances enabling migration from Standalone App Router to Managed App Router.For more information, see Modify Existing Task Instances.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-11-14
+Valid as Of: 2024-11-14
+Version: Cloud
+

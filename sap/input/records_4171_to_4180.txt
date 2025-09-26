@@ -1,0 +1,130 @@
+--- Record 4171 ---
+Component: Cloud Portal Service
+Environment: Neo
+Title: Notification of Removing Outdated SAPUI5 Versions from CDM.
+Description: For more information about the removal of outdated SAPUI5 versions from the CDN, refer to SAP Note 3001696   To read the official blog post, see: Removing outdated UI5 versions from the UI5 CDN.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2023-10-19
+Valid as Of: 2023-10-19
+Version: Cloud
+
+--- Record 4172 ---
+Component: Credential Store
+Environment: Cloud Foundry,Kyma
+Title: Binding Validity Management
+Description: You can now extend the validity of expiring service bindings with up to 3 days. To learn how, see: Manage Service Binding Validity
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-10-19
+Valid as Of: 2023-10-19
+Version: Cloud
+
+--- Record 4173 ---
+Component: Data Quality Services
+Environment: Cloud Foundry,Neo
+Title: Enhancements
+Description:     The microservice updated the country name for Turkey to Türkiye.      The microservice now supports address validation in Denmark to the secondary level. See Country Coverage for more information.      The address reference data for Argentina now includes postcodes in the 8-character alphanumeric format.      Improvements were made to the standardization of Israel addresses that are selected from type ahead suggestions.    The microservice now supports importing and exporting a country/region configuration in the Configuration Editor. See Rename a Configuration and Edit a Configuration for more information.  
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2023-10-19
+Version: Cloud
+
+--- Record 4174 ---
+Component: SAP Alert Notification Service
+Environment: Cloud Foundry
+Title: New SAP Credential Store events
+Description: You can now use the newly supported Number Of Credentials Threshold Reached and Used Storage In MB Threshold Reached events.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-10-20
+Valid as Of: 2023-10-19
+Version: Cloud
+
+--- Record 4175 ---
+Component: SAP BTP Cockpit
+Environment: Cloud Foundry,Neo
+Title: Enabling Horizon Theme in SAP BTP Cockpit
+Description: The Horizon theme is now available in SAP BTP cockpit for SAP BTP, Neo environment and SAP BTP, Cloud Foundry environment. It introduces distinctive design elements aimed at helping you do your work faster, more intuitively and with better results.   The default theme is the light version of the Horizon theme, called Morning Horizon. The cockpit also supports a dark version called Evening Horizon as well as black-and-white high-contrast versions of the themes for accessibility to help people with visual impairments.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-10-19
+Valid as Of: 2023-10-19
+Version: Cloud
+
+--- Record 4176 ---
+Component: SAP BTP Cockpit
+Environment: Cloud Foundry
+Title: New Global URL
+Description: Starting now, you can use the URL https://cockpit.btp.cloud.sap to access SAP BTP Cockpit (Feature Set B). Depending on your own geo location this URL will redirect you to the closest of the three regional Cockpit URLs (https://emea.cockpit.btp.cloud.sap, https://amer.cockpit.btp.cloud.sap, https://apac.cockpit.btp.cloud.sap).  You can also use deep links to get redirected directly to a specific page in the BTP Cockpit, for example, https://cockpit.btp.cloud.sap/cockpit#/globalaccount/<your-global-account>/accountModel.   Don’t worry - the regional Cockpit URLs we established recently, continue to work and we don’t plan to change that in the near future. The new global URL automatically chooses the best regional URL for you.  Note that these changes only apply to Cloud Management Tools Feature Set B. If you want to learn more about the differences between Feature Set A and Feature Set B, check out our help page on Cloud Management Tools - Feature Set Overview.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-10-19
+Valid as Of: 2023-10-19
+Version: Cloud
+
+--- Record 4177 ---
+Component: SAP BTP, Cloud Foundry Runtime
+Environment: Cloud Foundry
+Title: Version 32.11.0
+Description: Cloud Foundry has been updated from version 32.3.0 to 32.11.0.      https://github.com/cloudfoundry/cf-deployment/releases/tag/v32.11.0  https://github.com/cloudfoundry/cf-deployment/releases/tag/v32.10.0  https://github.com/cloudfoundry/cf-deployment/releases/tag/v32.9.0  https://github.com/cloudfoundry/cf-deployment/releases/tag/v32.8.0  https://github.com/cloudfoundry/cf-deployment/releases/tag/v32.7.0  https://github.com/cloudfoundry/cf-deployment/releases/tag/v32.6.0  https://github.com/cloudfoundry/cf-deployment/releases/tag/v32.5.0  https://github.com/cloudfoundry/cf-deployment/releases/tag/v32.4.0    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-10-19
+Valid as Of: 2023-10-19
+Version: Cloud
+
+--- Record 4178 ---
+Component: SAP Java Buildpack
+Environment: Cloud Foundry
+Title: Version 1.78.0
+Description: SAP Java Buildpack has been updated from version 1.77.0 to 1.78.0      SapMachine 17 is updated from version 17.0.7 to 17.0.8.1      SapMachine 11 is updated from version 11.0.20 to 11.0.20.1      Apache TomEE 7 is updated from version 7.0.9.sap-33 to 7.0.9.sap-35      SAP HANA Driver (hana.driver.2.X.X) is updated from version 2.17.12 to 2.18.11      otel-agent is updated from version 1.27.0 to 1.30.0      otel-agent-ext-java is updated from version 1.5.2 to 1.5.5        com.sap.cloud.security.xsuaa is updated from version 2.13.9 to 2.14.2      SAP BTP Environment Variable Access (com.sap.cloud.environment.servicebinding) is updated from version 0.7.0 to 0.9.0       com.sap.core.connectivity.jco is updated from version 3.3.12 to 3.3.13        com.sap.conn.jco-cloud is updated from version 3.1.7.0 to 3.1.8.0    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2023-10-03
+Valid as Of: 2023-10-19
+Version: Cloud
+
+--- Record 4179 ---
+Component: SAP Start
+Environment: Cloud Foundry
+Title: Availability of foundation service plan
+Description: The foundation service plan for SAP Build Work Zone, standard edition is now available. The foundation service plan extends the availability of SAP Start to all customers who have subscribed at least one of the integrated SAP Cloud business solutions.  This enables using SAP Start for free up to a predefined limit of Active Users, as specified in the SAP BTP Service Description Guide.  For more information, see Commercialization Aspects.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-10-19
+Valid as Of: 2023-10-19
+Version: Cloud
+
+--- Record 4180 ---
+Component: SAP Start
+Environment: Cloud Foundry
+Title: Availability of setup booster that subscribes to the foundation service plan
+Description: Customers who do not have a subscription to SAP Build Work Zone, standard edition, can now use a booster to set up SAP Start and subscribe to the foundation service plan, instead of the standard service plan.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2023-10-19
+Valid as Of: 2023-10-19
+Version: Cloud
+

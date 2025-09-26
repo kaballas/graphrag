@@ -1,0 +1,130 @@
+--- Record 1491 ---
+Component: Data Space Integration
+Environment: Cloud Foundry
+Title: Contract References Available
+Description: Business admins can now maintain contract references to keep an overview of the contracts you have with other business partners in a data space. Once you've created a contract reference, you can use it in policies and company policies.See Create Contract References.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-02-08
+Valid as Of: 2025-02-08
+Version: 2413
+
+--- Record 1492 ---
+Component: Data Space Integration
+Environment: Cloud Foundry
+Title: Software Version Update
+Description: The following are the latest versions in Data Space Integration:      Data Space Integration: 1.5.*      Increment: 2413      Tractus-X Eclipse Dataspace Connector: 0.7.6      FOSS Eclipse Dataspace Components: 0.7.2      See also the Release Notes of Catena-X. 
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-02-08
+Valid as Of: 2025-02-08
+Version: 2413
+
+--- Record 1493 ---
+Component: Edge Integration Cell
+Environment: Cloud Foundry
+Title: Software Version Update
+Description:     Edge Integration Cell: 8.26.*    Increment: 2413  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-02-08
+Valid as Of: 2025-02-08
+Version: 2413
+
+--- Record 1494 ---
+Component: Integration Assessment
+Environment: Cloud Foundry
+Title: Software Version Update
+Description:     Integration Assessment: 1.36.*      Increment: 2413    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-02-08
+Valid as Of: 2025-02-08
+Version: 2413
+
+--- Record 1495 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Upcoming upgrade to Kubernetes 1.31
+Description: The Kyma environment is planned to be upgraded to the Kubernetes version 1.31 in the 2025 Q1 Maintenance and Major Upgrade Window.  For more information on the upcoming upgrade, see the feature highlights, deprecations, and removals in the blog post and the Kubernetes release notes.  See the detailed schedule for the Subaccount Regions for Kyma:  2025-02-08 14:00 - 16:00 UTC: ap10, ap12, ap21, ap20, in30, jp30  2025-02-09 07:00 - 09:00 UTC: br10, us20, us10, us11   2025-02-15 14:00 - 16:00 UTC: jp10, ap11, jp20, ap30  2025-02-15 21:00 - 23:00 UTC: eu20, eu11  2025-02-21 17:00 - 21:00 UTC: il30, sa30  2025-02-22 21:00 - 23:00 UTC: eu30, eu10, ch20  2025-02-23 07:00 - 09:00 UTC: ca10, us21, us30, br20, br30  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-01-08
+Valid as Of: 2025-02-08
+Version: Cloud
+
+--- Record 1496 ---
+Component: Migration Assessment
+Environment: Cloud Foundry
+Title: Software Version Update
+Description:     Migration Assessment: 1.36.*      Increment: 2413    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-02-08
+Valid as Of: 2025-02-08
+Version: 2413
+
+--- Record 1497 ---
+Component: Trading Partner Management
+Environment: Cloud Foundry
+Title: Idempotent Process Call
+Description: The retry mechanism in integration flow Step 2 - Interchange Processing Flow V2 has been enhanced with idempotent process call, ensuring that only failed payloads are retried, and minimizing redundant reprocessing of successful payloads.  See: Interchange Processing Flow V2
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-02-08
+Valid as Of: 2025-02-08
+Version: 2413
+
+--- Record 1498 ---
+Component: Trading Partner Management
+Environment: Cloud Foundry
+Title: Pass-through B2B Transaction
+Description: You can now create a pass-through B2B transaction capability, enabling data forwarding between trading partners without requiring additional configuration.  See: Creating a Pass-Through B2B Transaction  
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-02-08
+Valid as Of: 2025-02-08
+Version: 2413
+
+--- Record 1499 ---
+Component: Joule
+Environment: Cloud Foundry
+Title: Data Center Availability
+Description: Joule is now available in the Sydney, Australia data center of Microsoft Azure. For more information about data centers, see Data Centers Supported by Joule.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-02-07
+Valid as Of: 2025-02-07
+Version: Cloud
+
+--- Record 1500 ---
+Component: SAP Document and Reporting Compliance, Cloud Edition
+Environment: Kyma
+Title: Receiving Duplicate Documents in the Peppol Exchange Process
+Description: When you receive multiple invoices or credit notes with the same ID from the same sender through the Peppol network, the cloud edition accepts them. The cloud edition then sends a transport acknowledgment to the sender's access point to confirm the successful receipt of the invoice or credit memo.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: nan
+Valid as Of: 2025-02-07
+Version: Cloud
+

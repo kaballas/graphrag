@@ -1,0 +1,130 @@
+--- Record 4211 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Regular Upgrade
+Description: Identity Authentication has been upgraded.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-10-11
+Valid as Of: 2023-10-11
+Version: Cloud
+
+--- Record 4212 ---
+Component: Identity Provisioning
+Environment: Neo
+Title: In-App Help implemented
+Description: SAP Companion context-sensitive in-app help has been implemented in the SAP Cloud Identity Services administration console. You can start the in-app help by selecting the   Help control. The administration console provides Help Topics, Guided Tours, and What's New content.  For more information, see SAP Companion User Guide.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-12-06
+Valid as Of: 2023-10-11
+Version: Cloud
+
+--- Record 4213 ---
+Component: Identity Provisioning
+Environment: Neo
+Title: Support for reading userName of group members
+Description: Reading the userName of group members is now supported in the default transformations of SAP S/4HANA-based source and proxy systems. This change affects SAP S/4HANA Cloud, SAP IBP, SAP Market Communication, SAP Marketing Cloud, and SAP BTP ABAP environment.  For more information, see SAP S/4HANA Cloud.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2023-12-06
+Valid as Of: 2023-10-11
+Version: Cloud
+
+--- Record 4214 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Release of the NATS module
+Description: We are happy to announce NATS as a new module for the SAP BTP, Kyma runtime. This module ships the NATS Manager, which is responsible for managing the lifecycle of a NATS JetStream deployment. It observes the state of the NATS cluster and reconciles its state according to the desired state.  NATS is an infrastructure that enables the exchange of data in the form of messages. JetStream is a distributed persistence system providing more functionalities and higher qualities of service on top of ‘Core NATS’. For further information about NATS and NATS JetStream, consult the Official NATS Documentation.  Kyma Eventing can use NATS as backend to process events and send them to subscribers.  NATS is an optional module, which you can activate as required. By default, it will be inactive when you create a new Kyma cluster. For details, see Enable and Disable a Kyma Module.  We invite you to learn more about NATS in Kyma and appreciate your feedback or contribution to our GitHub project. 
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-10-10
+Valid as Of: 2023-10-11
+Version: Cloud
+
+--- Record 4215 ---
+Component: Mobile Services
+Environment: Cloud Foundry
+Title: Doc Update: Cross Context SSO
+Description: Version 2309) Cross Context SSO documentation has been updated for IAS-based mobile apps. IAS-based apps do not support read only tokens. The documentation now indicates that when you configure security for IAS-based apps from the Mobile Services cockpit and you enable Cross Context SSO, the SSO Onboarding URL for Android Widget Support option does not appear.  See:     Configuring App Security      Configuring Cross Context SSO    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2023-10-11
+Version: Cloud
+
+--- Record 4216 ---
+Component: Mobile Services
+Environment: Cloud Foundry
+Title: Doc Update: XSUAA Token Limitations
+Description: (Version 2309) Security documentation has been updated to reflect changes to the XSUAA token limitations. The maximum values for Token Lifetime and Refresh Token Lifetime have been reduced. The shorter token lifetime helps ensure better security.  See Configuring App Security
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2023-10-11
+Version: Cloud
+
+--- Record 4217 ---
+Component: Mobile Services
+Environment: Cloud Foundry
+Title: Short survey for Administrators
+Description: (Version 2309) A short survey is available from the SAP Mobile Services user interface, which enables administrators to provide quick feedback about their experience with Mobile Services. Select the feedback icon () in the upper-right corner near your login name.  See User Interface
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2023-10-11
+Version: Cloud
+
+--- Record 4218 ---
+Component: Cloud Application Programming Model
+Environment: Cloud Foundry
+Title: September Release
+Description: The September release of the SAP Cloud Application Programming Model is now available.   Highlights:    Improved PostgreSQL support  Calculated Elements general available  New role for internal endpoints  Optimized cds.test  … and much more.  See September 2023 release for the CAP framework.   Action: We recommend to adapt the new versions as soon as possible, see Managing Dependencies.
+Action: Recommended
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2023-10-10
+Version: Cloud
+
+--- Record 4219 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Release of the Telemetry module 1.1.0 in the fast channel
+Description: The new version brings the following improvements:  Telemetry Manager:    The Telemetry status API now shows whether a module deletion is blocked. (#381)      Logs:    The HTTP output of LogPipeline now supports mTLS (#366).      Update to Fluent Bit 2.1.9 (#422).      Traces:    The OTel Collector logs in JSON format (#442).      Update to OTel Collector 0.86.0 (#434).      Improved resource settings for the trace gateway (#409).    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-10-09
+Valid as Of: 2023-10-10
+Version: Cloud
+
+--- Record 4220 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: Role Collections
+Description: The role collection Document_Information_Extraction_UI_Admin_User has been deprecated.  To create or delete schemas and templates, use the role collection Document_Information_Extraction_UI_Templates_Admin.  See Role Collections.
+Action: Info only
+Lifecycle: Deprecated
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2023-10-09
+Valid as Of: 2023-10-09
+Version: Cloud
+

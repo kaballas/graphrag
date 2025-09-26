@@ -1,0 +1,130 @@
+--- Record 841 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Keda module: Update to version 1.7.0
+Description: This version of the Keda module contains the latest (2.17.0) version of KEDA.  Additionally, we have improved the Keda's installation configuration for better observability by enabling Prometheus metrics by default and allowing users to control Pod annotations for the Keda workloads.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-05-07
+Valid as Of: 2025-05-20
+Version: Cloud
+
+--- Record 842 ---
+Component: SAP Digital Payments Add-On
+Environment: Cloud Foundry
+Title: Additional bank direct debit types supported
+Description: In addition to ACH/eCheck, the SAP digital payments add-on now supports ACSS, BACS, BECS, and SEPA in a similar way to payment card payments.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Finance
+Latest Revision: 2024-01-01
+Valid as Of: 2025-05-20
+Version: Cloud
+
+--- Record 843 ---
+Component: SAP AI Launchpad
+Environment: Cloud Foundry
+Title: Generative AI hub
+Description: Going forward, users will need an orchestration deployment to use the Prompt Editor and Chat apps.  You likely already have an orchestration deployment running. You can check by viewing your deployments in the ML Ops app. For more information, see View a Deployment.  To create a new orchestration deployment, see Create a Deployment for Orchestration.  Alternatively, administrators can use the Enable Orchestration button available through the interface. 
+Action: Required
+Lifecycle: Deprecated
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2025-05-19
+Valid as Of: 2025-05-19
+Version: Cloud
+
+--- Record 844 ---
+Component: SAP AI Core
+Environment: Cloud Foundry
+Title: Generative AI hub
+Description: New models are supported, including OpenAI GPT, o3, o4-mini, 4.1, 4.1-mini, 4.1-nano and Mistral small instruct.For more information, see SAP Note 3437766 .
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2025-05-19
+Valid as Of: 2025-05-19
+Version: Cloud
+
+--- Record 845 ---
+Component: SAP AI Launchpad
+Environment: Cloud Foundry
+Title: Generative AI hub
+Description: Image as input is supported in orchestration. For more information, see Templating.  To see which models support image input, consult the model library. For more information, see Model Library.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2025-05-19
+Valid as Of: 2025-05-19
+Version: Cloud
+
+--- Record 846 ---
+Component: SAP AI Launchpad
+Environment: Cloud Foundry
+Title: Generative AI hub
+Description: New models are supported, including OpenAI GPT, o3, o4-mini, 4.1, 4.1-mini, 4.1-nano and Mistral small instruct.For more information, see SAP Note 3437766 .
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2025-05-19
+Valid as Of: 2025-05-19
+Version: Cloud
+
+--- Record 847 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Studio Home Application
+Description: You can configure the Studio Home application to allow users to access business process projects outside of the lobby and manage specific artifacts, such as decisions.See Configure the Studio Home Application and Use Studio Home.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-05-19
+Valid as Of: 2025-05-19
+Version: Cloud
+
+--- Record 848 ---
+Component: SAP Advanced Financial Closing
+Environment: Cloud Foundry
+Title: Changes to Setup for SAP Build Process Automation Integration
+Description: With an adjustment regarding environment settings on the side of SAP Build Process Automation, the integration between SAP Advanced Financial Closing and SAP Build Process Automation also needs to be adjusted.  As of now the integration will be set up using a destination created in the SAP BTP cockpit. This destination is then maintained in the system settings in SAP Advanced Financial Closing. This new approach replaces the previous out-of-the-box approach that was based on the fact that both tenants were part of the same subaccount.  This change has the benefit that for the integration to work, the subscription for the SAP Build Process Automation tenant no longer has to be part of the same SAP BTP subaccount as the one for SAP Advanced Financial Closing.  More information:How to Set Up the SAP Build Process Automation Integration for SAP Advanced Financial Closing    Area affected: Integration with SAP Build Process Automation  Action: If you've set up the integration with SAP Build Process Automation with the previous approach, you need to adjust the set up to the new approach. This includes the adjustment of the destination in the SAP BTP cockpit and a new connection setup in the Specify Communication Systems app in SAP Advanced Financial Closing.  You can find the information about the destination settings in the SAP Build Process Automation documentation. We've provided links to that documentation and information about the adjustments required in SAP Advanced Financial Closing under How to Set Up the SAP Build Process Automation Integration for SAP Advanced Financial Closing.
+Action: Required
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Finance
+Latest Revision: 2025-05-18
+Valid as Of: 2025-05-18
+Version: Cloud
+
+--- Record 849 ---
+Component: SAP Advanced Financial Closing
+Environment: Cloud Foundry
+Title: Move Tasks in Task List Templates
+Description: You can now move tasks across folders in the closing structure of task list templates. This allows for a more flexible task list management.  More information:  How to Move Tasks  App affected:  Manage Closing Task Lists
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Finance
+Latest Revision: 2025-05-05
+Valid as Of: 2025-05-18
+Version: Cloud
+
+--- Record 850 ---
+Component: SAP Advanced Financial Closing
+Environment: Cloud Foundry
+Title: New Notification Scenario for Financial Close Workflow
+Description: The new notification scenario Processed Task Approved is now available. This means that users can now receive an email as soon as a task they're assigned to is approved.  More information:  Notifications in the Financial Close Workflow  App affected:  Manage Email Notification Configurations
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Finance
+Latest Revision: 2025-05-05
+Valid as Of: 2025-05-18
+Version: Cloud
+

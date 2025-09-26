@@ -1,0 +1,130 @@
+--- Record 3641 ---
+Component: Java Server
+Environment: Neo
+Title: Tomcat version for Java Web Tomcat 9 and Java EE 7 Web Profile TomEE 7
+Description: Java Web Tomcat 9 (runtime version 4.69) and Java EE 7 Web Profile TomEE 7 (runtime version 1.167) have been updated to Tomcat version 9.0.85.  See the Changelog.  Recommended action: Update your applications to the latest runtime version.
+Action: Recommended
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-02-08
+Valid as Of: 2024-02-08
+Version: Cloud
+
+--- Record 3642 ---
+Component: Connectivity
+Environment: Cloud Foundry,Neo
+Title: Cloud Connector 2.16.2 - Bug Fixes
+Description: Release of Cloud Connector version 2.16.2 provides the following bug fixes:    Multiple issues were fixed for configuring certificate-based authentication:  Authentication was no longer working after an upgrade from 2.16.0 to 2.16.1, because the configuration was modified wrongly during the upgrade.  Authentication was no longer working after changing LDAP settings, because the configuration was modified wrongly when persisting the LDAP changes.  The list of trusted certificates could not be adjusted anymore after activating certificate-based authentication.    Compatibility mode in bgRFC for sending units to old SAP NetWeaver 7.01 systems contains dummy RFC_PING invocations to reflect some constraints in such a scenario. The Cloud Connector, however, required RFC_PING to be part of the access control list and hence did not automatically allow it, like it should be for such infrastructure-related, remote-enabled functions. This issue could occur in IBP integration scenarios.  The proxy check could wrongly indicate that the HTTPS proxy is not reachable.  A vulnerability could occur in the Cloud Connector due to improper checking of certificates.For more information, see SAP security note 3424610 .     These issues have been fixed.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2024-02-08
+Version: Cloud
+
+--- Record 3643 ---
+Component: Connectivity
+Environment: Cloud Foundry,Neo
+Title: Cloud Connector 2.16.2 - Enhancements
+Description: Release of Cloud Connector version 2.16.2 provides the following enhancements:    The Cloud Connector now supports clients that use a SAProuter string in their configuration in order to connect to an SNC-protected service channel to an ABAP Cloud system.  The Cloud Connector now provides a changeRole script that allows to switch the high availability role from master to shadow and vice versa.  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2024-02-08
+Version: Cloud
+
+--- Record 3644 ---
+Component: Multitarget Applications for Cloud Foundry
+Environment: Cloud Foundry
+Title: Bug fixes and improvements
+Description:     The deployment failure of MTAs has been fixed in scenarios where a Cloud Foundry application was continuing to use the deprecated 'None' health-check type.    The failure of MTA operations due to errors during the update of optional services has been fixed.  The traceability of extension descriptors utilized during deployment has been improved.  
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-01-29
+Valid as Of: 2024-02-08
+Version: Cloud
+
+--- Record 3645 ---
+Component: SAP Alert Notification Service
+Environment: Other
+Title: New information about environments
+Description: New information about Kyma and Other environments has been added. See Initial Setup.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-02-14
+Valid as Of: 2024-02-08
+Version: Cloud
+
+--- Record 3646 ---
+Component: SAP Alert Notification Service
+Environment: Cloud Foundry
+Title: Update in HDB Estimated Memory Size event type
+Description: The property host is now available under resouce.tags in Estimated Memory Size event type
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-02-14
+Valid as Of: 2024-02-08
+Version: Cloud
+
+--- Record 3647 ---
+Component: SAP BTP, Cloud Foundry Runtime
+Environment: Cloud Foundry
+Title: Version 36.0.0
+Description: Cloud Foundry has been updated from version 35.1.0 to 36.0.0.      https://github.com/cloudfoundry/cf-deployment/releases/tag/v36.0.0  https://github.com/cloudfoundry/cf-deployment/releases/tag/v35.5.0  https://github.com/cloudfoundry/cf-deployment/releases/tag/v35.4.0  https://github.com/cloudfoundry/cf-deployment/releases/tag/v35.3.0  https://github.com/cloudfoundry/cf-deployment/releases/tag/v35.2.0    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-02-08
+Valid as Of: 2024-02-08
+Version: Cloud
+
+--- Record 3648 ---
+Component: SAP Java Buildpack
+Environment: Cloud Foundry
+Title: Version 1.87.0
+Description: SAP Java Buildpack 1 has been updated from version 1.86.0 to 1.87.0. Updated components:      com.sap.cloud.security.xsuaa is updated from version 2.17.2 to 2.17.3      com.sap.hcp.cf.logging is updated from 3.8.0 to 3.8.1      com.sap.cloud.connectivity.apiext is updated from version 3.32.0 to 3.33.0      SAP JVM is updated from version 81.96.96 to 81.97.97      SapMachine 11 is updated from version 11.0.21 to 11.0.22      SapMachine 17 is updated from version 17.0.9 to 17.0.10      Apache TomEE 7 is updated from version 7.0.9.sap-38 to 7.0.9.sap-39      Apache Tomcat 9 is updated from version 9.0.84 to 9.0.85    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-01-26
+Valid as Of: 2024-02-08
+Version: Cloud
+
+--- Record 3649 ---
+Component: Service Manager
+Environment: Kubernetes
+Title: Using the SAP BTP service operator to Work with Multiple Subaccounts-Explicit Instance-Level Definition
+Description: You can now explicitly define on a service instance level to which subaccount it shall be associated. This enables you to work with multiple subaccounts within one namespace. See Working With Multiple Subaccounts.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2024-02-08
+Version: Cloud
+
+--- Record 3650 ---
+Component: Extensions
+Environment: Cloud Foundry,Kyma
+Title: Add the Outbound Service ID in the SAP S/4HANA Cloud Extensibility Service Descriptor File
+Description: When provisioning new SAP S/4HANA Cloud Extensibility service instances with service plan api-access, in the SAP S/4HANA Cloud Extensibility service descriptor file, you can now specify the Outbound Service ID. When you specify the id property of the outbound service, you can skip the name property.  See Communication Arrangement JSON/YAML File - Properties.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-02-07
+Valid as Of: 2024-02-07
+Version: Cloud
+

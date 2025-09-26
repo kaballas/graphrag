@@ -1,0 +1,130 @@
+--- Record 3931 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Commenting Feature
+Description: Use the new commenting feature to improve the documentation.  See Creating Better Documentation Together: SAP Help Portal’s new approach to Collaboration and Feedback.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-11-30
+Valid as Of: 2023-11-30
+Version: Cloud
+
+--- Record 3932 ---
+Component: SAP Build Work Zone, advanced edition
+Environment: Cloud Foundry
+Title: Number of Views of Overview Pages
+Description: The following issue has been fixed: Number of views is missing for overview pages restored from trash.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2023-11-23
+Valid as Of: 2023-11-30
+Version: Cloud
+
+--- Record 3933 ---
+Component: SAP Build Work Zone, advanced edition
+Environment: Cloud Foundry
+Title: Private Folders Available for Selection
+Description: Private folders are available for selection in the following widgets: Content, Image, Slideshow, Multimedia, Rotating Banner.   Only users who have access to a private folder can access the widgets that include a private folder.  This feature is already available on preview systems.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-11-23
+Valid as Of: 2023-11-30
+Version: Cloud
+
+--- Record 3934 ---
+Component: SAP Build Work Zone, standard edition
+Environment: Cloud Foundry
+Title: Updated SAP Companion content for runtime
+Description: The SAP Companion content for the runtime time has been updated. To view the updated in-app help content, you need to update some of the SAP Companion parameters in the Site Settings. For more information, see Activating SAP Companion Content.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2023-11-30
+Valid as Of: 2023-11-30
+Version: Cloud
+
+--- Record 3935 ---
+Component: SAP Java Buildpack
+Environment: Cloud Foundry
+Title: Version 1.81.0
+Description: SAP Java Buildpack has been updated from version 1.80.0 to 1.81.0        com.sap.cloud.security.xsuaa is updated from version 2.14.2 to 2.16.0      SAP BTP Environment Variable Access (com.sap.cloud.environment.servicebinding) is updated from version 0.9.0 to 0.10.1       otel-agent is updated from version 1.30.0 to 1.31.0      otel-agent-ext-java is updated from version 1.5.5 to 1.5.6    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2023-11-20
+Valid as Of: 2023-11-30
+Version: Cloud
+
+--- Record 3936 ---
+Component: SAP S/⁠4HANA Cloud for Credit Integration
+Environment: Cloud Foundry
+Title: Integration with new credit agency: Rubix Data Sciences
+Description: The credit agency Rubix Data Sciences is now connected to SAP S/⁠4HANA Cloud for credit integration.  More information:    Available Credit Agency Products and Features      Your Tasks for Integrating a New Credit Agency    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Finance
+Latest Revision: 2023-11-30
+Valid as Of: 2023-11-30
+Version: Cloud
+
+--- Record 3937 ---
+Component: SAP BTP, Cloud Foundry Runtime
+Environment: Cloud Foundry
+Title: Deprecation of Weak Client Certificate Chains
+Description: As originally announced on May 18, 2023 and November 2, 2023, weak client certificate chains have been deprecated for the region br10 in order to harden security standards.   Accordingly, the OpenSSL security has been raised to level 2, resulting in weak certificates or certificate chains no longer being accepted by the platform. For more information and a full definition of security level 2, see https://www.openssl.org/docs/man3.0/man3/SSL_CTX_set_security_level.html#DEFAULT-CALLBACK-BEHAVIOUR.   Note that this change only affects client certificates. If you do not use client certificates or mTLS to authenticate with the platform, you are not affected.   For more details on the command, see 3333978 .
+Action: Info only
+Lifecycle: Deprecated
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2023-11-29
+Valid as Of: 2023-11-29
+Version: Cloud
+
+--- Record 3938 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Kyma dashboard has a new look!
+Description: We are proud to announce that since recently Kyma dashboard has followed the New Horizon theme, which is the same as in other BTP products. Now, it's fresh and modern. Stay tuned, as in the coming months you may expect a constant flow of new features that will greatly improve the Kyma dashboard usability.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-11-27
+Valid as Of: 2023-11-29
+Version: Cloud
+
+--- Record 3939 ---
+Component: SAP Datasphere
+Environment: Cloud Foundry
+Title: Features for Version 2023.25
+Description: New and changed features are available for administration, data cataloging, data integration, data modeling, and SAP BW bridge.  For more information, see What's New in SAP Datasphere 2023.25. 
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-11-28
+Valid as Of: 2023-11-28
+Version: Cloud
+
+--- Record 3940 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: Enrichment Data API
+Description: The orderby parameter was replaced by order in December 2022.  The legacy orderby parameter is now deprecated and no longer available.  See List Data-Persistence Jobs.
+Action: Info only
+Lifecycle: Deprecated
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2023-11-27
+Valid as Of: 2023-11-27
+Version: Cloud
+

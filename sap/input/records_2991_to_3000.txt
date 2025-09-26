@@ -1,0 +1,130 @@
+--- Record 2991 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: ABAP Development Tools for Eclipse: Launching ABAP Unit Tests with Quick Actions
+Description: Using quick actions enables you to launch unit tests with a single mouse click. This can be used for single test methods or whole test classes.  See Launching ABAP Unit Tests from ABAP Editor.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-05-17
+Valid as Of: 2024-05-17
+Version: ABAP Environment 2405
+
+--- Record 2992 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: ABAP Development Tools for Eclipse: New Editors for Launchpad Space and Page Templates
+Description: You can now build launchpad space templates and launchpad page templates in the ABAP development tools for Eclipse. You can create launchpad space templates in the Launchpad Space Template creation wizard and edit them in the Launchpad Space Template editor. Similar editors are available for page templates.  See Scoping Space and Page Templates.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-04-08
+Valid as Of: 2024-05-17
+Version: ABAP Environment 2405
+
+--- Record 2993 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: ABAP Development Tools for Eclipse: New Property ABAP Language Version
+Description: You can now use the new property abaplv to filter your object searches with the ABAP language version.  See Property Filter.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-05-17
+Valid as Of: 2024-05-17
+Version: ABAP Environment 2405
+
+--- Record 2994 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: ABAP Development Tools for Eclipse: Scheduling of Custom Code Migration Projects via Application Jobs
+Description: Through the Schedule Custom Code Analysis app, you can now schedule projects created in the Custom Code Migration app as application jobs. With this functionality, their analyses can be performed periodically. The Schedule Custom Code Analysis app is available to all users that have access to the Custom Code Migration app.For more information, see Custom Code Analysis.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-04-08
+Valid as Of: 2024-05-17
+Version: ABAP Environment 2405
+
+--- Record 2995 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: ABAP Development Tools for Eclipse: Software Component Relations Editor
+Description: You can now use the software component relations editor to create software component relations that define access permissions and dependencies between productive custom development software components.  See Working with Software Component Relations.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-05-17
+Valid as Of: 2024-05-17
+Version: ABAP Environment 2405
+
+--- Record 2996 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: ABAP Development Tools for Eclipse: Template Contexts When Creating Metadata Extensions
+Description: The former template context for metadata extensions has been replaced with the two new contexts Annotate Entity (creation) and Annotate View (creation).  See Creating Metadata Extensions.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-05-17
+Valid as Of: 2024-05-17
+Version: ABAP Environment 2405
+
+--- Record 2997 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: ABAP Development Tools for Eclipse: Test Code Highlighting for Method Calls
+Description: You can now use test code highlighting to get a quick visual overview of method calls that are used in unit test classes. Different colors are used to distinguish between various method contexts.  See Test Code Highlighting.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-05-17
+Valid as Of: 2024-05-17
+Version: ABAP Environment 2405
+
+--- Record 2998 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: ABAP Development Tools for Eclipse: Toggling The Step Size in The ABAP Debugger
+Description: While running the ABAP Debugger, you can now switch between the following two step modes:      Step Size: 'Line' to step from one line to the next.  Note  This is the default mode.      Step Size: 'Expression' changes the behavior for:      more than one statement in a single line.      conditional expressions and expressions.          See Toggling the Step Size.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-05-17
+Valid as Of: 2024-05-17
+Version: ABAP Environment 2405
+
+--- Record 2999 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: ABAP Development Tools for Eclipse: Tool Bridges Between ABAP Development Tools for Eclipse and VSCode/BAS
+Description: It's now possible to provide tool bridges that streamline the UI development flow between backend ABAP service development in ADT and frontend SAPUI5/Fiori Elements development in BAS/VSCode.  See Creating a Fiori Project.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-05-16
+Valid as Of: 2024-05-17
+Version: ABAP Environment 2405
+
+--- Record 3000 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: ABAP Development Tools for Eclipse: Using Quick Actions to Insert ABAP Unit Test Class Templates
+Description: You can now use quick actions to insert templates for ABAP Unit test classes with just a single mouse click.  See How to Write ABAP Unit Test Classes.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-05-17
+Valid as Of: 2024-05-17
+Version: ABAP Environment 2405
+

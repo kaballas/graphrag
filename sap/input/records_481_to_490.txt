@@ -1,0 +1,130 @@
+--- Record 481 ---
+Component: Joule
+Environment: Cloud Foundry
+Title: Document Grounding Capability - Support for Documents in JSON and PPTX File Formats
+Description: The document grounding capability now supports documents in JSON and PPTX file formats for the following providers and regions:  Amazon Web Services eu10 - Europe (Frankfurt), eu11 - Europe (Frankfurt) EU Access, and us10 - US East (VA)  Google Cloud eu30 - Europe (Frankfurt) and us30 - US Central (IA)  Microsoft Azure eu20 - Europe (Netherlands) and us21 - US East (VA)    See Set Up Document Grounding.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-07-11
+Valid as Of: 2025-07-11
+Version: Cloud
+
+--- Record 482 ---
+Component: Joule
+Environment: Cloud Foundry
+Title: Document Grounding Capability - Support for Integration with SAP Build Work Zone
+Description: The document grounding capability now supports the integration with SAP Build Work Zone, advanced edition.  See Set Up Data Repository Integration, Configure Access from SAP BTP, and Set Up Content Ingestion.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-07-11
+Valid as Of: 2025-07-11
+Version: Cloud
+
+--- Record 483 ---
+Component: Multitarget Applications for Cloud Foundry
+Environment: Cloud Foundry
+Title: Introduction of Readiness Health Checks
+Description: Starting at the end of September 2025, MTA deployment in Cloud Foundry will support Cloud Foundry readiness health checks by introducing new module-specific parameters:  readiness-health-check-http-endpoint  readiness-health-check-type  readiness-health-check-invocation-timeout  readiness-health-check-interval    Users may encounter problems during MTA deployment if the parameters readiness-health-check-<XYZ> are already defined in their MTA descriptor but are incorrectly configured. In such case, the MTA deployments will start to fail with the error message: None of the instances of the app <app-name> become routable. Please verify that the defined MTA parameters for the readiness health check align with the app's code and configuration.  Action: Review your MTA descriptors and verify the related readiness health check configurations to ensure correctness. To prevent issues when enabling readiness health check support in MTA deployment, follow the guidelines in SAP Note 3625631 .
+Action: Required
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-07-10
+Valid as Of: 2025-07-10
+Version: Cloud
+
+--- Record 484 ---
+Component: Multitarget Applications for Cloud Foundry
+Environment: Cloud Foundry
+Title: Switch of the default MTA Java module buildpack to SAP Java Buildpack 2
+Description: The default value of the buildpack parameter for modules of type java, java.tomcat, and java.tomee has been changed from sap_java_buildpack (SAP Java Buildpack 1) to sap_java_buildpack_jakarta (SAP Java Buildpack 2). This is done to ensure compliance with the deprecation of SAP Java Buildpack 1.  Action: If you have not yet migrated your applications to SAP Java Buildpack 2, please do so immediately.  If migration is not currently feasible, you can temporarily revert to SAP Java Buildpack 1 by explicitly setting the buildpack or buildpacks parameters for the java, java.tomcat, and java.tomee modules in your MTA deployment descriptor.  This is only a temporary workaround. You are strongly advised to complete the migration to SAP Java Buildpack 2 as soon as possible to ensure continued support and compatibility.  See:  Migrate your Applications to SAP Java Buildpack 2  SAP Java Buildpack 2: Jakarta-Based, Fresh and New!  TomEE 10 has landed in SAP Java Buildpack 2!  
+Action: Required
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-07-10
+Valid as Of: 2025-07-10
+Version: Cloud
+
+--- Record 485 ---
+Component: Java Server
+Environment: Neo
+Title: Tomcat version for Java Web Tomcat 10
+Description: Java Web Tomcat 10 (runtime version 5.26) has been updated to Tomcat version 10.1.42.  See the Changelog and Security Fixes.  Recommended action: Update your applications to the latest runtime version. See Keeping Your Application Runtimes Up-to-date.
+Action: Recommended
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-07-10
+Valid as Of: 2025-07-10
+Version: Cloud
+
+--- Record 486 ---
+Component: Java Server
+Environment: Neo
+Title: Tomcat version for Java Web Tomcat 9 and Java EE 7 Web Profile TomEE 7
+Description: Java Web Tomcat 9 (runtime version 4.106) and Java EE 7 Web Profile TomEE 7 (runtime version 1.204) have been updated to Tomcat version 9.0.106.  See the Changelog and Security Fixes.  Recommended action: Update your applications to the latest runtime version. See Keeping Your Application Runtimes Up-to-date.
+Action: Recommended
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-07-10
+Valid as Of: 2025-07-10
+Version: Cloud
+
+--- Record 487 ---
+Component: Automation Pilot
+Environment: Cloud Foundry
+Title: Cloud Transport Management Service Catalog
+Description: You can now use commands for management of transport nodes, routes, and transport requests in SAP Cloud Transport Management. See Cloud Transport Management Service (ctms-sapcp) Catalog.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-07-10
+Valid as Of: 2025-07-10
+Version: Cloud
+
+--- Record 488 ---
+Component: Automation Pilot
+Environment: Cloud Foundry
+Title: Integration with SAP Cloud Connector
+Description: You can now use your existing Cloud Connector setup to interact with systems that are not directly accessible from the public Internet. This integration enables you to perform different types of requests and automate the operation of resources in your on-premise systems with SAP Automation Pilot. Currently, the integration is available in HttpRequest Command, SendEmail Command, and Jenkins (jenkins-sapcp) Catalog.  See Integrating the Service with SAP Cloud Connector.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-07-10
+Valid as Of: 2025-07-10
+Version: Cloud
+
+--- Record 489 ---
+Component: Availability Service
+Environment: Cloud Foundry
+Title: Enhanced Compare and Analyze
+Description: With the latest improvements of the Compare and Analyze feature, in addition to metadata comparison, you can also compare availability, events, and incidents across evaluations. You can view two reports side-by-side for detailed analysis, customize comparisons with selectable timeframes, share your setups with colleagues, and download raw data in CSV format for further analysis in other tools.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-07-10
+Valid as Of: 2025-07-10
+Version: Cloud
+
+--- Record 490 ---
+Component: Cloud Logging
+Environment: Cloud Foundry
+Title: Availability of OpenSearch 2.19
+Description: Cloud Logging offers a major version upgrade of underlying OpenSearch towards version 2.19. This brings major advancements and new features. The upgrade can be explored immediately, within 3 months a mandatory migration will be rolled out.  For most instances there should be no actions required.  Check SAP Note 3617458 - SAP Cloud Logging: OpenSearch Stack Update Available to understand:   The phased rollout  Cases where your action might be required  How to explore the upgrade  
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2025-07-10
+Valid as Of: 2025-07-10
+Version: Cloud
+

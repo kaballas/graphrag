@@ -1,0 +1,130 @@
+--- Record 3761 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Consume API Actions using API Business Hub Enterprise
+Description: Your business processes can consume APIs managed by your organization. To consume such APIs, create an action project using API Business Hub Enterprise.  For more information about creating an action project, see   .
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-19
+Valid as Of: 2024-01-19
+Version: Cloud
+
+--- Record 3762 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Domain Changes
+Description: In March 2024, the domain for SAP Build Process Automation will change. If you are using a firewall, you must adapt your firewall rules to allow access to the tenant. If you want to use debug mode with agent versions below 3.13.52 and below 2.0.35, you must update the tenant domain in the agent.  See 3440715 .
+Action: Required
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-01-18
+Valid as Of: 2024-01-18
+Version: Cloud
+
+--- Record 3763 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: New Machine Type in the Microsoft Azure and Azure Lite plans
+Description: A new Machine Type, Dsv5-series, has been added to the Microsoft Azure and Azure Lite plans. It supports online volume resizing without any downtime. You can migrate to the new type by updating the Machine Type parameter.  For more information, go to the Machine Type parameter's detailed specification.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-16
+Valid as Of: 2024-01-17
+Version: Cloud
+
+--- Record 3764 ---
+Component: Mobile Services
+Environment: Cloud Foundry
+Title: Supported versions for Cloud Build Service
+Description: We've updated the supported versions for the Cloud Build service:    January 2024    Mobile Development Kit SDK version, Android and iOS versions, and notes      SAP Asset Manager Android and iOS versions, and notes          December 2023    Mobile Development Kit SDK version, Android and iOS versions, and notes      SAP Asset Manager SDK version, Android and iOS versions, and notes          November 2023 - Mobile Development Kit SDK version, Android and iOS versions, and notes      See Supported Build Types, Client Types, Packaging Details, and Build Options. 
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2024-01-17
+Version: Cloud
+
+--- Record 3765 ---
+Component: Mobile Services
+Environment: Neo
+Title: Supported versions for Cloud Build Service
+Description: We've updated the supported versions for the Cloud Build service:    January 2024 (2305 PL11) Mobile Development Kit SDK version, iOS version, and notes      December 2023 (2305 PL09)    Fiori Packaged SDK version, UI5 version, Android and iOS versions, and notes      Custom Fiori Client SDK version, Android and iOS versions, and notes      Mobile Development Kit SDK version, Android and iOS versions, and notes      SAP Asset Manager SDK version, Android and iOS versions, and notes          November 2023 (2305 PL08) Mobile Development Kit SDK version and notes      See Supported Build Types, Client Types, Packaging Details, and Build Options. 
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2024-01-17
+Version: Cloud
+
+--- Record 3766 ---
+Component: Pricing Service
+Environment: Cloud Foundry
+Title: Extension Concept - Proper Display of HANA DECIMAL-Type Columns in Local Extension Database Access
+Description: Reading call values from DECIMAL type columns in the local extension database access used to display unprocessable result. This issue has been corrected.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-01-16
+Valid as Of: 2024-01-17
+Version: Cloud
+
+--- Record 3767 ---
+Component: SAP Datasphere
+Environment: Cloud Foundry
+Title: Features for Version 2024.2
+Description: New and changed features are available for data cataloging, data integration, and data modeling.  For more information, see What's New in SAP Datasphere 2024.2. 
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-17
+Valid as Of: 2024-01-17
+Version: Cloud
+
+--- Record 3768 ---
+Component: SAP HANA Spatial Services
+Environment: Cloud Foundry,Kyma
+Title: nan
+Description:     Enhancements: Mapping API, Routing API, Geocoding API  Security updates have been implemented.    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2024-01-17
+Version: Cloud
+
+--- Record 3769 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Branding and Layout
+Description: Tenant administrator can upload an image in the administration console and use it as a logo for the applications in the tenant. See Configure Logo.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-17
+Valid as Of: 2024-01-16
+Version: 25497
+
+--- Record 3770 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Regular Upgrade
+Description: Identity Authentication has been upgraded.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-17
+Valid as Of: 2024-01-16
+Version: 25497
+

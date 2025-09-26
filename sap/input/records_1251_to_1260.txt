@@ -1,0 +1,130 @@
+--- Record 1251 ---
+Component: Cloud Integration
+Environment: Cloud Foundry,Neo
+Title: Customizable Proxy Settings Enabled for Edge Integration Cell Runtime
+Description: You can now set the proxy type settings if you have Edge Integration Cell runtime activated.  For more information, see   Configure the AS2 Sender Adapter  Configure the AS2 Receiver Adapter      SAP Cloud Integration customers, see   Configure the AS2 Sender Adapter  Configure the AS2 Receiver Adapter  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-03-16
+Valid as Of: 2025-03-16
+Version: 2501
+
+--- Record 1252 ---
+Component: Cloud Integration
+Environment: Cloud Foundry,Neo
+Title: Enhanced AS4 Response Handling and Streamlined Push Operations
+Description: You can now   Choose to add an attachment to the payload of AS4 message. For more information, see Configure Receiver Channel with ebMS3 PushSAP Cloud Integration customers, see Configure Receiver Channel with ebMS3 Push  Decide how to handle the response type, as user message or receipt message. For more information, see Configure Receiver Channel with ebMS3 PushSAP Cloud Integration customers, see Configure Receiver Channel with ebMS3 Push  Choose the two way sync communication pattern as the response type. For more information, see Configure the Sender Channel with ebMS3 PushSAP Cloud Integration customers, Configure the Sender Channel with ebMS3 Push  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-03-16
+Valid as Of: 2025-03-16
+Version: 2501
+
+--- Record 1253 ---
+Component: Cloud Integration
+Environment: Cloud Foundry,Neo
+Title: New Access Type Option for the JMS Adapter
+Description: You can now configure your queues to either exclusive or non-exclusive access types. With the non-exclusive access type, messages are processed concurrently by multiple worker nodes, offering higher throughput. While with exclusive acces type messages are processed messages are processed sequentially by a single consumer, maintaining the order in which messages are received, which is essential for scenarios requiring strict sequencing. For more information on these configuration options, see: Configure the JMS Sender Adapter, and Configure the JMS Receiver Adapter.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-03-16
+Valid as Of: 2025-03-16
+Version: 2501
+
+--- Record 1254 ---
+Component: Cloud Integration
+Environment: Cloud Foundry
+Title: New Message Size Chart in Data Store
+Description:   A chart for message sizes is added to Data Store in the Inspect feature.  The Top Data Stores heatmaps now display top data stores by usage and message size.    See: Inspect Data Store Usage  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-03-16
+Valid as Of: 2025-03-16
+Version: 2501
+
+--- Record 1255 ---
+Component: Cloud Integration
+Environment: Cloud Foundry
+Title: New Statuses in Temporary Storage Chart
+Description: Statuses are now included in the Temporary Storage chart in the Inspect feature.See: Inspect Temporary Storage
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-03-16
+Valid as Of: 2025-03-16
+Version: 2501
+
+--- Record 1256 ---
+Component: Cloud Integration
+Environment: Cloud Foundry
+Title: Software Version Update
+Description:   SAP Cloud Integration: 8.27.*    Increment: 2501    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-03-16
+Valid as Of: 2025-03-16
+Version: 2501
+
+--- Record 1257 ---
+Component: Cloud Integration
+Environment: Cloud Foundry
+Title: Software Version Update
+Description:   SAP Cloud Integration: 6.63.*    Increment: 2501    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-03-16
+Valid as Of: 2025-03-16
+Version: 2501
+
+--- Record 1258 ---
+Component: Cloud Integration
+Environment: Neo
+Title: Software Version Update
+Description:   SAP Cloud Integration: 5.71.*    Adapter Development Kit for SAP Cloud Integration: 2.53.*      Increment: 2501    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-03-16
+Valid as Of: 2025-03-16
+Version: 2501
+
+--- Record 1259 ---
+Component: Cloud Integration
+Environment: Neo
+Title: Software Version Update
+Description:   SAP Cloud Integration: 7.36.*    Adapter Development Kit for SAP Cloud Integration: 2.53.*      Increment: 2501      The software version 7.36.* is being rolled out in a phased approach. All tenants running on software version 5.71.* would be automatically moved to 7.36.* or a higher version available at that point of time, in the near future.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-03-16
+Valid as Of: 2025-03-16
+Version: 2501
+
+--- Record 1260 ---
+Component: SAP Advanced Financial Closing
+Environment: Cloud Foundry
+Title: Create Task from Model Dialog Enhanced
+Description: The Create Task from Model dialog has been enhanced so that you can now run a search for a task model while keeping other models selected.  App affected:  Manage Closing Task Lists
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Finance
+Latest Revision: 2025-03-03
+Valid as Of: 2025-03-16
+Version: Cloud
+

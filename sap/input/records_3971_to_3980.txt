@@ -1,0 +1,130 @@
+--- Record 3971 ---
+Component: Connectivity
+Environment: Cloud Foundry,Neo
+Title: Cloud Connector 2.16.1 - Enhancements
+Description: Release of Cloud Connector version 2.16.1 provides the following enhancement:  The subaccount dashboard now allows to sort the entries based on the display name.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2023-11-16
+Version: Cloud
+
+--- Record 3972 ---
+Component: Multitarget Applications for Cloud Foundry
+Environment: Cloud Foundry
+Title: Bug fixes and improvements
+Description:   Add MTA metadata attributes to user-provided service instances. This will improve MTA discovery of org.cloudfoundry.user-provided-service type of resources.  You can now preserve app environment after blue-green deployment with MTA Module parameter keep-existing and its option env. For more information see CF-MTA-Examples.  
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2023-11-06
+Valid as Of: 2023-11-16
+Version: Cloud
+
+--- Record 3973 ---
+Component: Multitarget Applications for Cloud Foundry
+Environment: Cloud Foundry
+Title: Features and improvements
+Description:     Improved performance and usability of deployment with MTA archive URL. In order to use the latest improvements it is necessary for you to update your multiapps plugin to the latest 3.3.1 version.       Improved user experience when sharing your service instances using the Service Manager functionality and consuming it afterwards by resolving ${service-guid} as a cross mta configuration.      Large MTA archive processing on GCP environments is enabled. The limit on MTA archives has been expanded from 1GB to 4GBs.    
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2023-11-06
+Valid as Of: 2023-11-16
+Version: Cloud
+
+--- Record 3974 ---
+Component: SAP Alert Notification Service
+Environment: Other
+Title: A new section has been added
+Description: You can now find information about the Security Recommendations related to the SAP Alert Notification service.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-11-22
+Valid as Of: 2023-11-16
+Version: Cloud
+
+--- Record 3975 ---
+Component: SAP Alert Notification Service
+Environment: Cloud Foundry
+Title: New SAP HANA Cloud Service Database Events
+Description: You can now use the newly supported HDB Last Infrastructure Operation and HDB Template Recovery events.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-11-22
+Valid as Of: 2023-11-16
+Version: Cloud
+
+--- Record 3976 ---
+Component: SAP BTP, Cloud Foundry Runtime
+Environment: Cloud Foundry
+Title: Change to Cloud Foundry API Rate Limit Reset Interval
+Description: The Cloud Foundry API rate limit configuration has been changed from about 40.000 requests per user per hour to a new limit of around 20.000 requests per user per 30 minutes.   This change is made to prevent the CF API peak load from having a negative impact on the availability of the CF API.   The overall CF API rate limits have not been changed.   Please note that the CF API rate limit reset interval is planned to be further reduced in the future.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2023-11-16
+Valid as Of: 2023-11-16
+Version: Cloud
+
+--- Record 3977 ---
+Component: SAP BTP, Cloud Foundry Runtime
+Environment: Cloud Foundry
+Title: Version 32.17.0
+Description: Cloud Foundry has been updated from version 32.13.0 to 32.17.0.      https://github.com/cloudfoundry/cf-deployment/releases/tag/v32.17.0  https://github.com/cloudfoundry/cf-deployment/releases/tag/v32.16.0  https://github.com/cloudfoundry/cf-deployment/releases/tag/v32.15.0  https://github.com/cloudfoundry/cf-deployment/releases/tag/v32.14.0    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-11-16
+Valid as Of: 2023-11-16
+Version: Cloud
+
+--- Record 3978 ---
+Component: SAP Java Buildpack
+Environment: Cloud Foundry
+Title: Version 1.80.0
+Description: SAP Java Buildpack has been updated from version 1.79.0 to 1.80.0      org.apache.logging.log4j is updated from version 2.20.0 to 2.21.1        commons-io is updated from version 2.14.0 to 2.15.0        com.sap.xs.onpremise.runtime is updated from version 1.1.4 to 1.1.5      SAP JVM (sapjvm.version) is updated from 81.95.95 to 81.96.96    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2023-11-06
+Valid as Of: 2023-11-16
+Version: Cloud
+
+--- Record 3979 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Release of the Eventing module
+Description: We are proud to announce the release of the Eventing module, which replaces Kyma's classic Eventing component.  It is enabled by default in all the existing clusters with the NATS module added or with the Eventing component configured to use SAP Event Mesh. In clusters without such prior configuration and in new ones, you must enable the Eventing module manually. For details, see Enable and Disable a Kyma Module.  Kyma's Eventing module manages the lifecycle of Eventing resources - it observes the state of Eventing resources and reconciles them according to the desired state.  If you want to use NATS as eventing backend, enable our NATS module as well.  We invite you to learn more about Eventing in Kyma and appreciate your feedback or contribution in our GitHub project.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-11-15
+Valid as Of: 2023-11-15
+Version: Cloud
+
+--- Record 3980 ---
+Component: Mobile Services
+Environment: Cloud Foundry
+Title: Supported versions for Cloud Build Service
+Description: We've updated the supported versions for the Cloud Build service:    November 2023 - Mobile Development Kit SDK version, Android and iOS versions, and notes      October 2023 - Mobile Development Kit SDK version, Android and iOS versions, and notes      September 2023 - Mobile Development Kit SDK version, Android and iOS versions, and notes      See Supported Build Types, Client Types, Packaging Details, and Build Options  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2023-11-15
+Version: Cloud
+

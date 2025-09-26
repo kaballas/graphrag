@@ -1,0 +1,130 @@
+--- Record 1841 ---
+Component: Edge Integration Cell
+Environment: Cloud Foundry
+Title: New Diagnostics Task
+Description: You can now create a new garbage collection logging task in Diagnostics. See: Diagnostics
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-12-07
+Valid as Of: 2024-12-07
+Version: 2410
+
+--- Record 1842 ---
+Component: Edge Integration Cell
+Environment: Cloud Foundry
+Title: New Filter in Diagnostics
+Description: You can now filter the diagnostic tasks list to locate specific tasks.   See: Diagnostics
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-12-07
+Valid as Of: 2024-12-07
+Version: 2410
+
+--- Record 1843 ---
+Component: Edge Integration Cell
+Environment: Cloud Foundry
+Title: Software Version Update
+Description:     Edge Integration Cell: 8.23.*    Increment: 2410  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-12-07
+Valid as Of: 2024-12-07
+Version: 2410
+
+--- Record 1844 ---
+Component: Integration Advisor
+Environment: Cloud Foundry,Neo
+Title: Functions in Mapping Guidelines
+Description: Functions in Mapping Guideline editor now supports XSLT 3.0 and XPath 3.1.  See: Functions
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-12-07
+Valid as Of: 2024-12-07
+Version: 2410
+
+--- Record 1845 ---
+Component: Integration Advisor
+Environment: Cloud Foundry,Neo
+Title: Software Version Update
+Description:   SAP Integration Advisor: 1.93.*    Increment: 2410    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-12-07
+Valid as Of: 2024-12-07
+Version: 2410
+
+--- Record 1846 ---
+Component: Integration Advisor
+Environment: Cloud Foundry,Neo
+Title: xCBL Type System
+Description: The Type System library now includes the new xCBL type system. The content of the system will be rolled-out in a phased manner post-release.  See: Overview Of B2B Standards
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-12-07
+Valid as Of: 2024-12-07
+Version: 2410
+
+--- Record 1847 ---
+Component: Integration Assessment
+Environment: Cloud Foundry
+Title: Manage requests via APIs
+Description: You can now create and delete business solution and interface requests using the newly added APIs. You are also able to use the APIs to submit, complete, and reopen business solution requests.  For further details, see API Reference on SAP Business Accelerator Hub and Integration Assessment APIs.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-12-07
+Valid as Of: 2024-12-07
+Version: 2410
+
+--- Record 1848 ---
+Component: Integration Assessment
+Environment: Cloud Foundry
+Title: Software Version Update
+Description:     Integration Assessment: 1.34.*      Increment: 2410    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-12-07
+Valid as Of: 2024-12-07
+Version: 2410
+
+--- Record 1849 ---
+Component: Migration Assessment
+Environment: Cloud Foundry
+Title: Evaluation of Extended Receiver Determinations
+Description: Rules have been added for analyzing operation mappings in extended receiver determinations. The additional information is reported in the full evaluation result spreadsheet.  Please note that to view this new information, you will need to perform a new data extraction. For more details on how to extract the your data, visit Create a Data Extraction Request.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-12-07
+Valid as Of: 2024-12-07
+Version: 2410
+
+--- Record 1850 ---
+Component: Migration Assessment
+Environment: Cloud Foundry
+Title: Software Version Update
+Description:     Migration Assessment: 1.34.*      Increment: 2410    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-12-07
+Valid as Of: 2024-12-07
+Version: 2410
+

@@ -1,0 +1,130 @@
+--- Record 2611 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Off-Cycle Upgrade
+Description: Cloud Identity Services have been upgraded.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-07-26
+Valid as Of: 2024-07-26
+Version: 26436
+
+--- Record 2612 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Profile Page
+Description: You can access your own profile page directly from the administration console. See Application Types.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-07-26
+Valid as Of: 2024-07-26
+Version: 26436
+
+--- Record 2613 ---
+Component: Pricing Service
+Environment: Cloud Foundry
+Title: Document Pricing – Proper Loading of Old Pricing Documents
+Description: Loading of old pricing documents used to fail because of the null value for newly introduced fields. This issue has been corrected.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-07-26
+Valid as Of: 2024-07-26
+Version: Cloud
+
+--- Record 2614 ---
+Component: Java Server
+Environment: Neo
+Title: Java Web Tomcat 8 is deprecated
+Description: [Periodic reminder] We have stopped the support of Java Web Tomcat 8 runtime following the official announcement of Apache Tomcat 8.5 end of life.   Required Action: If you have Java applications running on that runtime, migrate to Java Web Tomcat 9 immediately. See Migrating from Java Web Tomcat 8 to Java Web Tomcat 9.
+Action: Required
+Lifecycle: Deprecated
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-07-25
+Valid as Of: 2024-07-25
+Version: Cloud
+
+--- Record 2615 ---
+Component: Authorization and Trust Management Service
+Environment: ABAP,Cloud Foundry,Kyma,Other
+Title: Preservation of Case for Shadow Users in New Subaccounts
+Description: For subaccounts created after this change, the SCIM APIs of the SAP Authorization and Trust Management service preserve the case of the userName. Before this change, the APIs normalized the value of userName to lower case. A new parameter enables administrators to configure subaccounts for the old and new behavior.  The new behavior ensures that no matter how a user is created, during logon, with the SAP BTP cockpit, btp CLI, or SCIM APIs, all these interfaces handle the user name in the same way.  Note  The runtime ignores case. Donna.Moore@example.com is treated the same as donna.moore@example.com.  Action:  You are affected if both of the following are true about your service or application:      It handles userName in a case-sensitive way.      You expect it to run in subaccounts created after this change.      If you are affected, ensure your service or application ignores case when working with the userName property.  For more information, see Working with Users and the User Management (SCIM) API.
+Action: Required
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-04-16
+Valid as Of: 2024-07-25
+Version: 2407a
+
+--- Record 2616 ---
+Component: SAP BTP, Cloud Foundry Runtime
+Environment: Cloud Foundry
+Title: Cloud Foundry API v2 Deprecation
+Description: This is a reminder that, as announced on July 14, 2022, the Cloud Foundry API v2 is deprecated and replaced by the Cloud Foundry API v3. For more information on version 3, see https://v3-apidocs.cloudfoundry.org/index.html.  Since April 2023, the usage of the Cloud Foundry API v2 has been restricted by rate limits. The range of those limits decreases over time and will eventually reach a range of a few hundred requests per hour per user.  Action:  Any direct usage of the CF API v2 must be migrated to CF API v3. For information on the migration, see https://v3-apidocs.cloudfoundry.org/index.html#upgrade-guide.  If you are using the Cloud Foundry command line interface (CF CLI) in version 7, you must upgrade to CF CLI v8. See https://docs.cloudfoundry.org/cf-cli/install-go-cli.html.  If you’re deploying applications using the MultiApps CF CLI Plugin, you must update the plugin to the newest version. For more information, see https://github.com/cloudfoundry/multiapps-cli-plugin.
+Action: Required
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-07-25
+Valid as Of: 2024-07-25
+Version: Cloud
+
+--- Record 2617 ---
+Component: Application Autoscaler
+Environment: Cloud Foundry
+Title: End of support for the “Basic” HTTP Authentication scheme (basic auth) when using the Application Autoscaler Custom Metrics API for security reasons
+Description: We are going to make the following change for security reasons. The target audience of the change is developers:   Until now, service bindings of the Application Autoscaler always provided url, username, and password in the credentials section. These credentials could be used to access the Application Autoscaler Custom Metrics API using the “Basic” HTTP Authentication security scheme.  What changes  We are going to remove the support for “Basic” HTTP Authentication scheme to access the Application Autoscaler Custom Metrics API.   To enable you to prepare and test this transition, we are introducing a new parameter credential-type, which can be used to proactively prepare for the removal.  Note  Alternatively, you have the option to change the behavior up to three months later.   If no credential types are defined in the service binding parameters, the Application Autoscaler service applies a default. This default is for now binding-secret.       When the credential-type binding-secret is chosen, url, username, and password will be provided in the credentials section.       When the credential-type x509 is chosen, url, username and password are not provided in the credentials section.       Regardless of which credential-type is active, it is always possible access to the Application Autoscaler Custom Metrics API using mTLS, see Defining a Custom Metric.  On 2025-01-22, we plan to change the credential-type default to x509, but you will still be able to explicitly specify the credential-type binding-secret.   Starting, 2025-04-30 only the credential-type x509 will be valid, either set explicitly, or by default, if not set explicitly.  Action    Check whether you will be affected by the upcoming changes. The upcoming changes only affect new service bindings if any of the following prerequisites are true:       No credential-type parameter is passed during the creation of the binding.       Or the credential-type parameter is set to binding-secret during the creation of the binding.      If you are affected, ensure that your application works with secrets of the x509 credential type before we activate this change. You can easily test the new behavior by specifying the x509 credential type in the binding parameter:   [“credential-type", "x509"]   It has the same effect as the planned changes.   Recommendation    We strongly recommend configuring x509 as credential type.   For more information on how to use the x509 credential type, see Defining a Custom Metric.
+Action: Recommended
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-07-25
+Valid as Of: 2024-07-25
+Version: Cloud
+
+--- Record 2618 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Regional Availability
+Description: Cloud Identity Services now operates with two IPs in the data center in China: 121.91.104.198 and 121.91.104.204   The following IPs are no longer in use: 157.133.186.67 and 157.133.186.78. See Regional Availability.
+Action: Recommended
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-07-25
+Valid as Of: 2024-07-25
+Version: 26387
+
+--- Record 2619 ---
+Component: Java Server
+Environment: Neo
+Title: Tomcat version for Java Web Tomcat 9 and Java EE 7 Web Profile TomEE 7
+Description: Java Web Tomcat 9 (runtime version 4.82) and Java EE 7 Web Profile TomEE 7 (runtime version 1.180) have been updated to Tomcat version 9.0.90. The new version contains security fixes.  See the Changelog.  Recommended action: Update your applications to the latest runtime version.
+Action: Recommended
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-07-25
+Valid as Of: 2024-07-25
+Version: Cloud
+
+--- Record 2620 ---
+Component: Cloud Logging
+Environment: Cloud Foundry
+Title: New Updates
+Description: We have improved Kyma and Cloud Foundry dashboards by fixing the error visualization in the 4 Golden Signal to show the correct values when filtering.  We have improved ingestion stability by fixing sporadic 502 responses from the ingest endpoint.  We've removed never-supported email destinations from the alerting plugin dropdown.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-07-25
+Valid as Of: 2024-07-25
+Version: Cloud
+

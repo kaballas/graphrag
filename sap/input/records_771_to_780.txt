@@ -1,0 +1,130 @@
+--- Record 771 ---
+Component: Job Scheduling Service
+Environment: Cloud Foundry,Kyma
+Title: Deletion of One-Time Schedules Not Run Within Last 30 Days
+Description: As of May 29, 2025, one-time schedules will be deleted if they have not been run within the last 30 days.  Action: Instead of using one-time schedules, you can run recurring schedules. See Recurring Schedules.
+Action: Recommended
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-05-15
+Valid as Of: 2025-05-29
+Version: Cloud
+
+--- Record 772 ---
+Component: Availability Service
+Environment: Cloud Foundry
+Title: Improved Accessibility
+Description: Added color independent visual markers to signal periods with low availability.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2025-05-29
+Valid as Of: 2025-05-29
+Version: Cloud
+
+--- Record 773 ---
+Component: Availability Service
+Environment: Cloud Foundry
+Title: Improved API Documentation
+Description: Improved the AvS API documentation of the evaluation-metadata and the evaluation-data APIs in the interactive Swagger documentation. Upgraded to the OpenAPI 3.1.0 standard.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2025-05-29
+Valid as Of: 2025-05-29
+Version: Cloud
+
+--- Record 774 ---
+Component: Availability Service
+Environment: Cloud Foundry
+Title: Improved the Alert Incident History Visualisation
+Description: You can now see the alert incidents as part of your event history in a unified and standardised way.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2025-05-29
+Valid as Of: 2025-05-29
+Version: Cloud
+
+--- Record 775 ---
+Component: Availability Service
+Environment: Cloud Foundry
+Title: Improved the Email Performance
+Description: Improved the throughput of AvS email alerting solution.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2025-05-29
+Valid as Of: 2025-05-29
+Version: Cloud
+
+--- Record 776 ---
+Component: Availability Service
+Environment: Cloud Foundry
+Title: Introduced a Roll-Back Mechanism for Version upgrades and Updated the Operations Guide
+Description: Recommended actions - new app names.  Troubleshooting guide - introduced the capability to revert to the last stable version and updated the managing of inaccessible groups.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-05-29
+Valid as Of: 2025-05-29
+Version: Cloud
+
+--- Record 777 ---
+Component: Availability Service
+Environment: Cloud Foundry
+Title: Redesigned Email Alerts
+Description: Improved the look of AvS email alerts.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2025-05-29
+Valid as Of: 2025-05-29
+Version: Cloud
+
+--- Record 778 ---
+Component: Forms Service by Adobe
+Environment: Cloud Foundry
+Title: Availability - New Regions
+Description: The SAP Forms service is now available in the following additional regions (data centers):    cf-eu30 (Europe (Frankfurt)/Google Cloud)  cf-us30 (US Central (IA)/Google Cloud)  cf-ap30 (Australia Southeast (Sydney)/Google Cloud)  cf-sa31 (KSA (Dammam)/Google Cloud)    For more information, see Regions and API Endpoints Available for the Cloud Foundry Environment.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2025-05-29
+Version: Cloud
+
+--- Record 779 ---
+Component: Job Scheduling Service
+Environment: Cloud Foundry,Kyma
+Title: Integration with SAP Cloud ALM
+Description: You can now integrate SAP Job Scheduling service with SAP Cloud ALM. This integration allows you to track the status of your job processes directly from the interface of SAP Cloud ALM.  See Integration with SAP Cloud ALM.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-05-29
+Valid as Of: 2025-05-29
+Version: Cloud
+
+--- Record 780 ---
+Component: Job Scheduling Service
+Environment: Cloud Foundry,Kyma
+Title: New Horizon Themes in the Job Scheduling Service Dashboard
+Description: You can now switch to new Horizon themes in the user interface of the Job Scheduling service dashboard:    Morning Horizon      Evening Horizon      Horizon High Contrast White      Horizon High Contrast Black    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-05-29
+Valid as Of: 2025-05-29
+Version: Cloud
+

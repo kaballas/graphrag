@@ -1,0 +1,130 @@
+--- Record 551 ---
+Component: Cloud Integration
+Environment: Neo
+Title: Software Version Update
+Description:   SAP Cloud Integration: 7.40.*    Adapter Development Kit for SAP Cloud Integration: 2.53.*      Increment: 2505      The software version 7.40.* is being rolled out in a phased approach. All tenants running on software version 5.75.* would be automatically moved to 7.40.* or a higher version available at that point of time, in the near future.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-07-03
+Valid as Of: 2025-07-03
+Version: 2505
+
+--- Record 552 ---
+Component: Cloud Integration
+Environment: Cloud Foundry,Neo
+Title: Update Version of Integration Flow Components
+Description:   The button previously labeled Migrate is now renamed to Update Version.  You can now also update the version of integration adapters and flow steps.    See Update Version of Integration Flow Component  SAP Cloud Integration customers, see Update Version of Integration Flow Component.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-07-03
+Valid as Of: 2025-07-03
+Version: 2505
+
+--- Record 553 ---
+Component: Cloud Transport Management
+Environment: Cloud Foundry
+Title: Integration of Joule Studio with SAP Cloud Transport Management
+Description: You can now use SAP Cloud Transport Management to transport Joule Studio projects.  See:   Supported Content Types  Integrating SAP Cloud Transport Management with Other SAP Cloud Solutions  
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Application Development and Integration
+Latest Revision: 2025-07-23
+Valid as Of: 2025-07-02
+Version: Cloud
+
+--- Record 554 ---
+Component: Cloud Transport Management
+Environment: Cloud Foundry
+Title: New build-runtime application service plan available.
+Description: You can use the build-runtime service plan when you use SAP Cloud Transport Management as part of a service from the SAP Build ecosystem.  See:   Subscribing to Cloud Transport Management  Updating the Service Plan  
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Application Development and Integration
+Latest Revision: 2025-07-02
+Valid as Of: 2025-07-02
+Version: 2506a
+
+--- Record 555 ---
+Component: Pricing Service
+Environment: Cloud Foundry
+Title: Document Pricing - Clearing of Persisted Error Messages
+Description: The persistent item-level messages used to be kept after item updates or repricing, resulting in incorrect calculation status. This issue has been corrected.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-07-02
+Valid as Of: 2025-07-02
+Version: Cloud
+
+--- Record 556 ---
+Component: Pricing Service
+Environment: Cloud Foundry
+Title: Ignore Inconsistent Condition Types During Condition Exclusion
+Description: The condition exclusion based on the exclusion procedure was not functioning as expected when the condition types of an exclusion group were missing or inconsistent. The issue has been corrected.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-06-27
+Valid as Of: 2025-07-02
+Version: Cloud
+
+--- Record 557 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Regular Upgrade
+Description: Cloud Identity Services have been upgraded.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-07-01
+Valid as Of: 2025-07-01
+Version: 28019
+
+--- Record 558 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Support for SAP extension schema for groups
+Description: The default transformations of the following connectors support attributes from the SAP extension schema for groups, including application ID, type, and supported operations.  For more information, see  SAP Marketing Cloud  SAP Market Communication for Utilities  
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-07-01
+Valid as Of: 2025-07-01
+Version: 28019
+
+--- Record 559 ---
+Component: Cloud Integration
+Environment: Cloud Foundry
+Title: IBM MQ Adapter Supports New Version
+Description: A new variant (JMS Subscribe) for the IBM MQ Sender adapter (1.2.0) is available now.  See: IBM MQ Sender Adapter
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-07-01
+Valid as Of: 2025-07-01
+Version: Cloud
+
+--- Record 560 ---
+Component: Identity Provisioning
+Environment: Neo
+Title: Support for SAP extension schema for groups
+Description: The default transformations of the following connectors support attributes from the SAP extension schema for groups, including application ID, type, and supported operations.  For more information, see:    SAP Marketing Cloud  SAP Market Communication for Utilities  
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-07-01
+Valid as Of: 2025-07-01
+Version: Cloud
+

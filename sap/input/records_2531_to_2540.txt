@@ -1,0 +1,130 @@
+--- Record 2531 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Technical Monitoring: Table Analysis
+Description: The Table Analysis app has been enhanced with more information about top column tables by growth, writes, reads, and writes and about top column indexes by size. The monitoring screens Top Column Tables by Growth, Top Column Tables by Reads, Top Column Tables by Writes, Top Column Indexes by Size, and Top Column Tables by Size are therefore no longer available in the technical monitoring cockpit.   See HANA Table Analysis.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-06-12
+Valid as Of: 2024-08-16
+Version: ABAP Environment 2408
+
+--- Record 2532 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Units of Measurement (UoM)
+Description: You can maintain units and dimensions using released ABAP Cloud APIs (CL_UOM*) now without namespace restriction.  For more information, see Units of Measurement.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-06-19
+Valid as Of: 2024-08-16
+Version: ABAP Environment 2408
+
+--- Record 2533 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Using Dynamic Topics in Advanced Event Mesh
+Description: You can use dynamic topics for routing and filtering outbound events in the Advanced Event Mesh (AEM). Dynamic topics make use of the context attribute annotations to extend the corresponding event topic with further dynamic segments, derived from the corresponding annotated payload field. Dynamic topics enable detailed event filtering and routing, ensuring that events are delivered only to the relevant components, improving efficiency and reducing unnecessary processing.  See Using Dynamic Topics in Advanced Event Mesh.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-08-16
+Valid as Of: 2024-08-16
+Version: ABAP Environment 2408
+
+--- Record 2534 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: XCO Library
+Description:     It's now possible to use source templates to provide the content specification of a metadata extension (DDLX).      You can now generate service bindings with the binding type SQL - Web API.      Correction: It was previously announced that it's possible to read the longtext of a message using the XCO library. This is not the case. You cannot use the XCO library to read the longtext of a message. This feature has not been implemented.      For more information, see XCO Library and RAP BO Generation.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-08-05
+Valid as Of: 2024-08-16
+Version: ABAP Environment 2408
+
+--- Record 2535 ---
+Component: SAP Health Data Services for FHIR
+Environment: Cloud Foundry
+Title: SAP Health Data Services for FHIR Capacity Unit Calculator
+Description: SAP Health Data Services for FHIR Capacity Unit Cost Estimator helps you to determine the number of capacity units (CU) required on a monthly basis. This calculation can be done for all SAP BTP subaccounts that are using SAP Health Data Services for FHIR.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-08-16
+Valid as Of: 2024-08-16
+Version: Cloud
+
+--- Record 2536 ---
+Component: SAP Task Center
+Environment: Cloud Foundry
+Title: SAP Fieldglass  CONFIG Job Failing 
+Description: The CONGIF job for new or existing destinations to SAP Fieldglass might be failing.   For more information, see SAP Note 3507354 .
+Action: Recommended
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-08-15
+Valid as Of: 2024-08-15
+Version: Cloud
+
+--- Record 2537 ---
+Component: Continuous Integration & Delivery
+Environment: Cloud Foundry
+Title: New Node Version
+Description: Node version 20.11 is now available.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-08-15
+Valid as Of: 2024-08-15
+Version: Cloud
+
+--- Record 2538 ---
+Component: SAP Task Center
+Environment: Cloud Foundry
+Title: Improvements
+Description: The following improvements are made in the SAP Task Center Web app:    In the decision options not displayed in native user interface for task details.      In the navigation to next task, which has failed when completing a task in the Web app in full-screen mode.    
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-08-15
+Valid as Of: 2024-08-15
+Version: Cloud
+
+--- Record 2539 ---
+Component: UI Theme Designer
+Environment: Cloud Foundry,Neo
+Title: Base Theming Content for CF and Neo.
+Description: The base theming content is updated to version 11.18.0. Review the changes at https://github.com/SAP/theming-base-content/releases.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2024-08-15
+Version: Cloud
+
+--- Record 2540 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Regional Availability
+Description: Cloud Identity Services now operates with three additional IPs in the data center in South Korea:  Action:  We recommend you to add the following IPs to your allowed IP list:    LB IP - 3.35.109.127, 3.37.25.236, 15.164.195.144  NAT IP 3.39.112.56/32, 54.180.170.146/32, 3.38.127.188/32, 43.202.135.25/32, 3.36.27.20/32, 52.79.160.50/32    The following NAT IPs are no longer in use: 13.125.196.137/32, 3.34.68.186/32, 52.79.155.87/32. See Regional Availability.
+Action: Recommended
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-08-14
+Valid as Of: 2024-08-14
+Version: 26537
+

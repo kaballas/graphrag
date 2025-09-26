@@ -1,0 +1,130 @@
+--- Record 4041 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Removed Outbound NAT IP Addresses
+Description: Due to infrastructure changes, certain outbound NAT IP addresses are no longer used. At the end of the year, these IP addresses will be freed up and given back to the IP pool. They shouldn't be used for IP filtering anymore. List of IP addresses: 18.184.119.149 18.184.95.49 34.226.95.216 52.5.218.33 13.112.212.221 3.115.119.177  For more information, see Regions and API Endpoints for the ABAP Environment.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-11-10
+Valid as Of: 2023-11-10
+Version: ABAP Environment 2311
+
+--- Record 4042 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Removed Outbound NAT IP Addresses
+Description: Due to infrastructure changes, certain outbound NAT IP addresses are no longer used. At the end of the year, these IP addresses will be freed up and given back to the IP pool. They shouldn't be used for IP filtering anymore. List of IP addresses: 18.184.119.149 18.184.95.49 34.226.95.216 52.5.218.33 13.112.212.221 3.115.119.177  For more information, see Regions and API Endpoints for the ABAP Environment.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-11-10
+Valid as Of: 2023-11-10
+Version: Cloud
+
+--- Record 4043 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Service Consumption Model
+Description: The Service Consumption Model now generates all data type information necessary for consuming remote services in one single ABAP proxy model class.  For an example usage of the Service Consumption Model, see Developing a UI Service with Access to a Remote Service.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-11-10
+Valid as Of: 2023-11-10
+Version: ABAP Environment 2402
+
+--- Record 4044 ---
+Component: Cloud Integration Automation Service
+Environment: Cloud Foundry
+Title: New Integration Scenario
+Description: Introducing a new integration scenario - Connectivity Setup of Real-Time Integration (RTI) in SAP Integrating Business Planning (IBP).Using this scenario, you can integrate master data and transactional data from your SAP S/4HANA or SAP ERP system to SAP IBP order-based planning in near real-time without using batch jobs.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2023-11-10
+Version: Cloud
+
+--- Record 4045 ---
+Component: Process Visibility Capability
+Environment: Cloud Foundry
+Title: Cluster View in Process Workspace
+Description: You can now group instances based on attributes to analyze the process performance. See Gain Visibility Using Process Workspace.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-11-10
+Valid as Of: 2023-11-10
+Version: Cloud
+
+--- Record 4046 ---
+Component: SAP Build Apps
+Environment: Cloud Foundry
+Title: Preview
+Description:   SAP Build Apps mobile preview upgraded to version 4.9.11.  Enabled mobile preview support for SAP Authentication and SAP Destinations.  Enabled mobile support for sample data.    Fix for “Internal property change” event not triggering from repeated composite component.      Fix for marker list with formula binding and app crash issues with “Embedded map view (beta)” component.      Fix for failing to open regular page from modal page.      Fix for flow functions not working properly when navigation menu is disabled.      Fix for true/false value in nested object not getting changed via checkbox.      Fixes for component opacity functionality.      Fix for Lottie animation having a white background.      Fix dropdown's initial value "Select option" not working.      Fix for text decoration color and decoration style issues.      Fix for showing remaining audio loops and playing audio from a cached file.    
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2023-11-10
+Version: Cloud
+
+--- Record 4047 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Process Visibility - Business Events
+Description: You can now view the business events consumed by SAP Build Process Automation in the Acquired Events tile. See Manage Events.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-11-09
+Valid as Of: 2023-11-10
+Version: Cloud
+
+--- Record 4048 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Process Visibility - Cluster View
+Description: You can now group instances based on attributes to analyze the process performance. See Gain Visibility Using Process Workspace.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-11-09
+Valid as Of: 2023-11-10
+Version: Cloud
+
+--- Record 4049 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: New Generative AI Tutorial
+Description: The tutorial Use Trial to Extract Information from Custom Documents with Generative AI and SAP Document AI is now available.  Learn how to use SAP Document AI with generative AI to automate the extraction of information from custom document types using large language models (LLMs).
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-11-10
+Valid as Of: 2023-11-10
+Version: Cloud
+
+--- Record 4050 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Removal of the Monitoring component
+Description: As announced in January 2023 (see blog post and What's New), the Prometheus/Grafana installation that is part of the Monitoring component has been deprecated. The removal will happen with Kyma release 2.20.  Required action: If you haven’t started the transition to alternative solutions yet, please do it now. With the removal, you will lose the ability to browse for metrics in Grafana or call the Prometheus API directly.
+Action: Required
+Lifecycle: Deleted
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2023-09-04
+Valid as Of: 2023-11-09
+Version: Cloud
+

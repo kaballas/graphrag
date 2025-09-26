@@ -1,0 +1,130 @@
+--- Record 461 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Regular Upgrade
+Description: Cloud Identity Services have been upgraded.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-07-15
+Valid as Of: 2025-07-15
+Version: 28063
+
+--- Record 462 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Support for SAP extension schema for groups
+Description: The default transformations of the following connectors support attributes from the SAP extension schema for groups, including application ID, type, and supported operations.  For more information, see  SAP SuccessFactors Employee Central Payroll  Cloud Foundry UAA Server  Procurement Data Warehouse  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-07-15
+Valid as Of: 2025-07-15
+Version: 28063
+
+--- Record 463 ---
+Component: Identity Provisioning
+Environment: Neo
+Title: Change in provisioning job behavior
+Description: Provisioning jobs that skip create and delete operations and only update entities will no longer fail if those entities - previously provisioned from the source to the target system, are deleted in the target. By design, Identity Provisioning runs update jobs only for entities that exist in the target system.  Instead of marking these entities as failed, Identity Provisioning now classifies them as skipped. Therefore, the job status is Successful rather than Finished with Error.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-07-15
+Valid as Of: 2025-07-15
+Version: Cloud
+
+--- Record 464 ---
+Component: Identity Provisioning
+Environment: Neo
+Title: Change in provisioning job behavior (Effective July 15, 2025)
+Description: As of July 15, 2025, provisioning jobs that skip create and delete operations and only update entities will no longer fail if those entities - previously provisioned from the source to the target system - are deleted in the target. By design, Identity Provisioning runs update jobs only for entities that exist in the target system.  Instead of marking these entities as failed, Identity Provisioning will now classify them as skipped. Therefore, the job status will be Successful rather than Finished with Error.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-07-15
+Valid as Of: 2025-07-15
+Version: Cloud
+
+--- Record 465 ---
+Component: Identity Provisioning
+Environment: Neo
+Title: Support for SAP extension schema for groups
+Description: The default transformations of the following connectors support attributes from the SAP extension schema for groups, including application ID, type, and supported operations.  For more information, see:    SAP SuccessFactors Employee Central Payroll  Cloud Foundry UAA Server  Procurement Data Warehouse  
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-07-15
+Valid as Of: 2025-07-15
+Version: Cloud
+
+--- Record 466 ---
+Component: Joule
+Environment: Cloud Foundry
+Title: Joule Enhancements
+Description:   Co-referencing of Complex Message TypesComplex message types can now be co-referenced in chats. This allows users to reference previous non-text outputs, ensuring coherent and context-aware conversations.  Propagate Error Message for User-Transparent and Understandable LLM Error HandlingTransparent error handling in Joule ensures that users receive clear and understandable messages about specific errors, such as content filter violations and length restrictions. This allows users to continue their conversations seamlessly, enhancing the overall user experience by minimising confusion and interruptions.  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-07-15
+Valid as Of: 2025-07-15
+Version: Cloud
+
+--- Record 467 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: Rebranding to SAP Document AI
+Description: Document Information Extraction has been renamed and is now SAP Document AI. For more information, see the blog post SAP Document AI - Smarter, Faster, and More Efficient Document Processing.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Intelligent Technologies
+Latest Revision: 2025-07-15
+Valid as Of: 2025-07-15
+Version: Cloud
+
+--- Record 468 ---
+Component: SAP Omnichannel Promotion Pricing
+Environment: Cloud Foundry
+Title: Cancel the Redemption of Coupon Codes in a Multi-Code Coupon with the Maintain Coupons App
+Description: You can use the Cancel Redemption button in the Maintain Coupons app to cancel the redemption of coupon codes in a multi-code coupon. Once the redemption of the coupon code is successfully cancelled, the coupon code is available for use again. For more information, see Code Overview.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-07-15
+Valid as Of: 2025-07-15
+Version: Cloud
+
+--- Record 469 ---
+Component: SAP Document and Reporting Compliance, Cloud Edition
+Environment: Kyma
+Title: Integration of the VAT Return (Slovenia) Process with SAP S/4HANA and SAP S/4HANA Cloud Private Edition
+Description: You use this process to submit the VAT return report to the tax authority in Slovenia.  See Supported Compliance Tasks.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: nan
+Valid as Of: 2025-07-14
+Version: Cloud
+
+--- Record 470 ---
+Component: SAP Business Application Studio
+Environment: Cloud Foundry
+Title: Calculation Views
+Description: In the calculation view editor, table-type input parameters of a table function can be automatically mapped to matching columns from data sources, and scalar input parameters can be mapped to calculation view input parameters or constants.  See Use Table Functions in Calculation Views.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-07-13
+Valid as Of: 2025-07-13
+Version: T2506b
+

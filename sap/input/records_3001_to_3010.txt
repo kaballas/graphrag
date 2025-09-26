@@ -1,0 +1,130 @@
+--- Record 3001 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Entity Assignment of RAP Business Events
+Description: You can now assign RAP business events to entities that are not defined as root entity.  For more information on business events, see RAP Business Events.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-05-17
+Valid as Of: 2024-05-17
+Version: ABAP Environment 2405
+
+--- Record 3002 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Factory Calendar Pull Integration
+Description: You can now integrate the S/4HANA Cloud data from your factory calendar into the SAP BTP, ABAP environment to keep them in sync. A pull integration is available that pulls the data from the SAP S/4HANA system and inserts it in the SAP BTP, ABAP environment. Doing this, you can avoid double maintenance, and factory calendar calculations can still be done locally for optimal performance.  For more information, see Integrating Factory Calendar.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-05-17
+Valid as Of: 2024-05-17
+Version: ABAP Environment 2405
+
+--- Record 3003 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Field Extension Wizard
+Description: You can now use the field extension wizard in ABAP development tools for Eclipse to create extension fields.  For more information, see Generating Extension Fields.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-05-17
+Valid as Of: 2024-05-17
+Version: ABAP Environment 2405
+
+--- Record 3004 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Hello, ABAP Cloud! Page
+Description: Are you wondering where to find information about ABAP Cloud like documentation, release notes, roadmap or where to find examples with different levels of complexity complexity? The ABAP Cloud landing page in the ABAP Development Tools for Eclipse shows all of this information and helps to find everything about ABAP Cloud in one place.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-05-17
+Valid as Of: 2024-05-17
+Version: ABAP Environment 2405
+
+--- Record 3005 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: IAM Information System
+Description: With this feature you can display whether a dependent business catalog is optional. You can view this information on the Business Catalog -Dependent Business Catalog tab. You can also display the related spaces and pages for a business role.  For more information, see IAM Information System.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-03-26
+Valid as Of: 2024-05-17
+Version: ABAP Environment 2405
+
+--- Record 3006 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Maintain Business Roles
+Description: With this feature you define several general restrictions as leading. You can do this by selecting the required restrictions and then clicking Leading. In addition to this, you can now also filter for undefined restrictions in the Maintain Restrictions UI.  For more information, see Maintain Business Roles.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-03-26
+Valid as Of: 2024-05-17
+Version: ABAP Environment 2405
+
+--- Record 3007 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Maintain SAML 2.0 Configuration
+Description: With this feature you can now upload the primary and secondary signing certificates you have maintained within the Cloud Identity Services.  For more information, see Maintain SAML 2.0 Configuration.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-03-26
+Valid as Of: 2024-05-17
+Version: ABAP Environment 2405
+
+--- Record 3008 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Maintain Translations
+Description: New CDS annotations are now supported for translation: UI.dataPoint.title, EnterpriseSearch.modelName and EnterpriseSearch.modelNamePlural in data definitions and metadata extensions.  For more information, see CDS-Based Enterprise Search Models.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-05-17
+Valid as Of: 2024-05-17
+Version: ABAP Environment 2405
+
+--- Record 3009 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: New Transport Option in the ABAP Repository Wizard
+Description: The new transport option Manual with preselection is now the default option when a maintenance object is generated using the Generate ABAP Repository Objects wizard. See Generating a Business Configuration Maintenance Object with the Generate ABAP Repository Objects Wizard
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-05-17
+Valid as Of: 2024-05-17
+Version: ABAP Environment 2405
+
+--- Record 3010 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Result Cardinality for Factory Actions
+Description: You can now define the result cardinality [1..*] for factory actions.  For more information on actions, see Actions.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-05-17
+Valid as Of: 2024-05-17
+Version: ABAP Environment 2405
+

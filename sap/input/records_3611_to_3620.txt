@@ -1,0 +1,130 @@
+--- Record 3611 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Sampled Work Process Data
+Description: For the monitoring screens for sampled work process data, you now get an enhanced user interface where you can filter for workload management process classes and tenant IDs. In addition, you can drill down based on selected workload classifiers, such as transaction code, workload management process class, tenant ID, or request entry type and name.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-02-18
+Valid as Of: 2024-02-16
+Version: Cloud
+
+--- Record 3612 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: SAP Fiori Launchpad - Pages and Spaces
+Description: The SAP Fiori launchpad now offers merging of spaces or pages. Administrators can define spaces that should be merged in the Manage Launchpad Spaces app, or pages that should be merged in the Manage Launchpad Pages app. Merging spaces or pages can be used for example to reduce the number of duplicate apps, pages or spaces for users. It can also be helpful if you want to enrich SAP-delivered spaces or pages with customer-defined content.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-02-18
+Valid as Of: 2024-02-16
+Version: ABAP Environment 2402
+
+--- Record 3613 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: SAP Fiori Launchpad - Pages and Spaces
+Description: The SAP Fiori launchpad now offers merging of spaces or pages. Administrators can define spaces that should be merged in the Manage Launchpad Spaces app, or pages that should be merged in the Manage Launchpad Pages app. Merging spaces or pages can be used for example to reduce the number of duplicate apps, pages or spaces for users. It can also be helpful if you want to enrich SAP-delivered spaces or pages with customer-defined content.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-02-18
+Valid as Of: 2024-02-16
+Version: Cloud
+
+--- Record 3614 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: UI Development
+Description: For UI development with Visual Studio Code Extensions, the update to the new extension version is required. Please refer to note 3425883  for more information.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-02-18
+Valid as Of: 2024-02-16
+Version: ABAP Environment 2402
+
+--- Record 3615 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: UI Development
+Description: For UI development with Visual Studio Code Extensions, the update to the new extension version is required. Please refer to note 3425883  for more information.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-02-18
+Valid as Of: 2024-02-16
+Version: Cloud
+
+--- Record 3616 ---
+Component: Process Visibility Capability
+Environment: Cloud Foundry
+Title: Processing Information
+Description: You can now view the total number of instances and the number of completed and/or abruptly ended instances in the Monitor Visibility Scenarios application.  See Manage Scenarios.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-02-16
+Valid as Of: 2024-02-16
+Version: Cloud
+
+--- Record 3617 ---
+Component: SAP Analytics Cloud
+Environment: Other
+Title: Features for 2024 QRC 1 (version 2024.2)
+Description: We are happy to inform you that with the release of SAP Analytics Cloud Q1 2024, all the supporting documentation is available on SAP Help Portal.    On the SAP Analytics Cloud product page, you’ll find a complete set of SAP Analytics Cloud guides and resources.   Some highlights include:  Stories improvements:   As a story designer using the optimized story experience, you now have the option to define which of the following filter types you would like to pass through an internal (page or story) hyperlink: story, page, local, or linked analysis filters.  For bar/column charts and horizontal waterfall charts created in the optimized design experience, you can now choose to show a variance as a waterfall chart.  In the optimized experience, you can now configure the variable settings to preserve the current variable selections (current behavior) when a story is opened or to use the server-defined default values.  For tables in the optimized story experience, you can now sort on version dimension members.  In the optimized story experience, you can now add geo map filters as dynamic text.  Exporting a Story to PowerPoint is now supported in optimized view mode. In addition, as a story developer in story experience, you can use the Export to PowerPoint technical object with script APIs to customize the export experience.  When using the Export dialog to export an optimized story as a PDF, you can now have the export process run in the background by setting the option Enable Export in the Background. However, the option will be disabled for classic stories that have enabled Optimized View Mode.  As a story designer in optimized story experience, you can now customize the view time toolbar for phone and tablet, in addition to desktop. Related interactive tutorial is available: Interactive Tutorial: Customizing View Time Toolbar in Optimized Story Experience.  As a story designer in optimized story experience, you can add geo map filters as a dynamic text.  Exporting Story to PowerPoint is now supported in optimized view mode. In addition, as a story developer in optimized story experience, you can use the Export to PowerPoint technical object with script APIs to customize the export experience.  Custom widgets can now be bookmarked in optimized story experience. As a custom widget developer, you can enable bookmark support for your custom widget in its JSON file.  As a story developer in optimized story experience, you can use a Text Pool technical object with related APIs to translate the texts in the scripts.  As a story developer in optimized story experience, you can use setSelectedMembersWithUnbooked and getActiveSelectedMembersWithUnbooked APIs to set and get selected members on the input control, including unbooked ones.  The Lite Viewer is now available for SAP Analytics Cloud users. This feature is an extension of the Optimized (Unified) Experience that loads the lightest version of the application. To view a story using the Light Viewer:  The story must be part of Optimized (Unified) Experience.  The story should be limited to only core Business Intelligence (BI) functionality- it should exclude Planning and Advanced BI including Scripting, CSS, and so on.  The story must be opened via a URL in Embed mode; it cannot be opened in the View or Present modes.  When a story does not meet these requirements, you will be automatically re-directed to the full Optimized (Unified) Experience view. This Lite Viewer initial release includes upgrades for geographical visualizations to ArcGIS 4.X to benefit from:  Improved rendering performance: map graphics are now rendered using WebGL resulting in a more rapid display of both small and large datasets, including smooth transitions when the map is zoomed or panned.  Improved datapoint interaction: when hovering over datapoints, they are now highlighted to improve interaction. Also, overlapping datapoints are now detected to provide a quicker understanding of the data context.    You can now use the fluid data entry mode in tables built on SAP BPC live data models.  In stories, you can now add data point comments to tables when dimension properties are used in table axes or filters. Similarly, you can also add comments in comment widgets when dimension properties are used in comment widget filters.  In a table of a story built on a new model type (but without an account dimension), you can now add data point comments when Measure Values (the default cross calculation) or restricted cross calculations are in the table axes or filters. Note that: Previously, you can add data point comments when a restricted cross calculation is used in the filter, but the specific filters on dimensions used to define this cross calculation will not be included in the context for comments. Now, they will be included in the context. Comments are not supported for calculated cross calculations or aggregations. Comments sourced from restricted cross calculations will also be shown in the comment widget when the same context applies.    Planning mprovements:   You can now manually migrate a copy of an existing allocation process or step to a data action with the Migrate to Data Action button in the legacy allocations app. The existing allocation process or step won't be affected. You can also migrate an existing allocation step (as part of a data action) created by referencing a legacy allocation step to one that supports detailed configuration in the data action designer.  Note that creating an allocation process or step using the legacy allocations app, as well as an allocation step (as part of a data action) that references a legacy allocation step, is no longer supported. We recommend using the allocation step in data actions to configure your allocation.  The data action designer now allows you to switch between displaying the ID or description of dimension members from the Display section of the toolbar, to help identify the correct members.  In advanced formulas, with the new configuration function of CONFIG.READ_CALCULATED_MEMBER_VALUES, calculated members, which include non-leaf members, account members with formulas, and calculated measures, can now be defined in and read by RESULTLOOKUP and LINK functions. This configuration function is only supported on SAP Analytics Cloud tenants based on SAP HANA Cloud platform. For details, see CONFIG.READ_CALCULATED_MEMBER_VALUES at About Script Formulas and Calculations in Advanced Formulas for Planning.  In advanced formulas, you can now define a virtual variable member for the version dimension in VARIABLEMEMBER.  In the predictive step of multi actions, you can now use Train Only and Apply Only actions to retrain and apply the predictive model separately. These two new actions come especially handy in what-if simulations, where you can apply the predictive model to different versions with distinct future values for the influencers and produce forecasts, without having to retrain the predictive model multiple times.      Calendar improvements:   As owner of SAP Analytics Cloud calendar events or as assignee of a calendar process, you can now enable the access to your calendar events from external applications. A calendar API allows you to interact with the events in the SAP Analytics Cloud calendar. For details, see Access Calendar Events Using the Calendar API.  As the creator of calendar processes or manual calendar tasks, you can now enable all involved parties to view the events in Microsoft Outlook and Microsoft Teams. For details, see Integrate Your Calendar Events in Microsoft Tools.    Modeling improvements:   The modeler has been extensively redesigned to align with the changes made to models in SAP Analytics Cloud. Models are now more flexible, and you can select how you’d like to build your model. When creating a new model in the Modeler, the application lets you decide whether you want to focus on the data first approach followed by building your model structure, or build your model structure first followed by adding your data. At the heart of this redesign is the new model type, whose capabilities have been extended to offer more flexibility to your modeling workflows. While you can still create classic account models and datasets, we encourage you to try out the new model type to benefit from the latest functionalities available. For more information, check out Get Started with Flexible Modeling, or this blog.   The Data Export API has been extended and now support Public Dimensions. This compliments the Data Import Service API – Master Data Public Dimension, recently released in QRC Q3 2023.  Three new formulas are now available: YearToDate (YTD), QuarterToDate (QTD) and MonthToDate (MTD). These formulas will help modeler and planners perform running totals across time granularities for a given year, quarter, or month.  The Calculations workspace in the modeler now offers an Object Dependency Graph, which provides a graphical representation of object relationships.  The Detail() formula is now deprecated. We strongly recommend replacing this formula in your models with an Exception Aggregation using type SUM and Exception Aggregation Dimension using All Members to see the achieve results. For more information, see: KBA 3235670 - Details () Formula in SAP Analytics Cloud Modeler is Deprecated. For more details on the Data Export API improvements, new formulas and the new dependency graph, check out this blog.     Augmented Analytics improvements:   Just Ask, powered by artificial intelligence, is a natural language query interface used to query data.  Acquired data model support: Classic account and new models.  Initial support of live SAP Datasphere.  Supports queries in English.  Supports copying results to a story and opening data analyzer.    Enhanced accuracy:  Just Ask supports LLM learning enhanced learning with each release.  Automatically infers similar words based on meaning.  Supports customizing synonyms for both metadata and master data.    Enhanced relevancy of query results:   Centrally set searchable models.   Reduces ambiguity when different models include the same names.  Captures user intent through preset rules.      Commenting and Scheduling improvements:   Data point commenting is now supported in models that have role-based data security applied via model privacy. You can comment on data points if you have role-based permissions for multiple read and write permissions on more than one dimension.  You can now use the Include Formatting option while scheduling a publication with the CSV file type and keep the numerical formatting precisely as it appears in the table or chart.  The No End Date option is no longer available. We recommend not creating recurrent schedules with this option. For all existing recurring scheduled publications that are created with the No End Date option, it is recommended to update the series with a definite number of recurrences or an end date to continue uninterrupted scheduled publication under the End Recurrence By option. Schedules with No End Date recurrences will start having their occurrences canceled after a year.  As a Schedule Owner, you now get notified via email whenever the status of your scheduled publication changes from open to partially successful, failed, or canceled. You can view details of the status by clicking the Open Task button on the notification email.       For a complete list of the new features brought to SAP Analytics Cloud as part of the Q1 2024 launch, check out the brand new What’s New Viewer.  You can also have a look at the Top 5 features in our latest video.  If you’re also interested in the content that’s been delivered in the past, check out our Archives.  Check out the Content Package guides for the Analytics Content Network with all the latest additions to our Business Content packages.  The Help Library describes how you use SAP Analytics Cloud to create stories, analytic applications, models, dashboards, as well as how to take advantage of planning and predictive features, and lots more.  The Video Tutorials show you how to use SAP Analytics Cloud features in simple, step-by-step visual walkthroughs.  Don’t forget to also check out the right-side bar for a list of additional information, such as a What’s New, and links to additional blogs, learning, and community resources.  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2024-02-16
+Version: Cloud
+
+--- Record 3618 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Process Visibility - Processing Information
+Description: You can view the total number of instances and the number of completed and/or abruptly ended instances in the Visibility Scenarios application.  See Visibility Scenarios.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-02-16
+Valid as Of: 2024-02-16
+Version: Cloud
+
+--- Record 3619 ---
+Component: SAP Document and Reporting Compliance, Cloud Edition
+Environment: Kyma
+Title: Updated Information About Exporting Data from the Cloud Edition
+Description: Added details about the type of data that we store in the cloud edition.  See Exporting Data from the Cloud Edition. 
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-04-28
+Valid as Of: 2024-02-16
+Version: Cloud
+
+--- Record 3620 ---
+Component: SAP Health Data Services for FHIR
+Environment: Cloud Foundry
+Title: Support GroupPolicy URL and version for configuring attributes during role creation
+Description: During the creation of a role, in the Configure Attributes tab, for the grouppolicy attribute, you can enter the GroupPolicy URL and latest version with the piped operator in the Values field to avoid naming conflict. For more information, see SAP Health Data Services for FHIR Preshipped SAP BTP Role Templates.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-02-16
+Valid as Of: 2024-02-16
+Version: Cloud
+

@@ -1,0 +1,130 @@
+--- Record 811 ---
+Component: Variant Configuration
+Environment: Cloud Foundry
+Title: Production - Configurations API – Closing of Configuration Session
+Description: The endpoint POST /closeSession used to be used to remove configurations from the HTTP session. This is no longer required because of improved resource management. The endpoint will be removed with release 2605.  Action: If called from your application, remove that call before the May release in 2026.  See API Definition and Development Guide for SAP Variant Configuration and Pricing - Production.
+Action: Required
+Lifecycle: Deprecated
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-04-15
+Valid as Of: 2025-05-21
+Version: Cloud
+
+--- Record 812 ---
+Component: Variant Configuration
+Environment: Cloud Foundry
+Title: Production – Configurations API – Limit the Number of Conflicts
+Description: There is a new query parameter called conflictsTop for endpoints like GET /configurations/{configurationId}. Use the new query parameter to specify the maximum number of conflicts that should be calculated and returned.  Action: Set conflictsTop=0 to suppress conflict calculation and improve performance if conflicts are of no interest for the consuming application.  See API Definition and Development Guide for SAP Variant Configuration and Pricing - Production.
+Action: Recommended
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-04-15
+Valid as Of: 2025-05-21
+Version: Cloud
+
+--- Record 813 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Cloud Identity Services Documentation
+Description: As of May 21, 2025 the Version column of What's New for Cloud Identity Services contains the number of the version instead of the sprint number. All the information in the column has been updated.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2025-05-21
+Valid as Of: 2025-05-21
+Version: 27861
+
+--- Record 814 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Password Management
+Description: You can configure the system to show a password expiration reminder at the sign-in page of the user. See Enable Password Expiration Reminder.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-05-21
+Valid as Of: 2025-05-21
+Version: 27861
+
+--- Record 815 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Regular Upgrade
+Description: Cloud Identity Services have been upgraded.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-05-21
+Valid as Of: 2025-05-21
+Version: 27861
+
+--- Record 816 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: SAML 2.0 Configuration
+Description: The Name field in the SAML 2.0 configuration page on application level has been changed to Entity ID. See Configure SAML 2.0 Service Provider.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-05-21
+Valid as Of: 2025-05-21
+Version: 27861
+
+--- Record 817 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Support for SAP extension schema for groups
+Description: The default transformations of the following connectors support attributes from the SAP extension schema for groups, including application ID, type, and supported operations.  See:    SAP Fieldglass  SAP Field Service Management  SAP Enable Now  SAP Data Custodian  SAP CPQ  SAP HANA Cloud, SAP HANA Database  
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-05-21
+Valid as Of: 2025-05-21
+Version: 27861
+
+--- Record 818 ---
+Component: Identity Provisioning
+Environment: Neo
+Title: Support for SAP extension schema for groups
+Description: The default transformations of the following connectors support attributes from the SAP extension schema for groups, including application ID, type, and supported operations.  For more information, see:    SAP Fieldglass  SAP Field Service Management  SAP Enable Now  SAP Data Custodian  SAP CPQ  SAP HANA Cloud, SAP HANA Database  
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-05-21
+Valid as Of: 2025-05-21
+Version: Cloud
+
+--- Record 819 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: The 0 value possible for Auto Scaler Max in additional worker node pools
+Description: In additional worker node pools, with high availability disabled, you can scale down Auto Scaler Min to 0 and Auto Scaler Max to 1. This setting helps you reduce costs but is not recommended for production environments. If no user workloads are deployed onto the nodes associated with a given additional worker node pool, the nodes are removed automatically.  For more information, see Additional Worker Node Pools and Assigning Workloads to Worker Node Pools.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-05-21
+Valid as Of: 2025-05-21
+Version: Cloud
+
+--- Record 820 ---
+Component: Pricing Service
+Environment: Cloud Foundry
+Title: Extensions Concept – Disable Buffering of Local Extension Calls
+Description: In remote extension implementations, you can return response header Cache-Control: no-store to disable the call buffering of a custom pricing routine. Now it is also possible to disable the call buffering for local extensions by listing the JavaScript function name with the parameter caching: false in a manifest file.  See: Extension Guide for SAP Variant Configuration and Pricing.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-05-21
+Valid as Of: 2025-05-21
+Version: Cloud
+

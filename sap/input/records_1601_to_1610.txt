@@ -1,0 +1,130 @@
+--- Record 1601 ---
+Component: Extensions
+Environment: Cloud Foundry,Kyma
+Title: Use a New Formation of Type Integration with Joule
+Description: You can use Joule in SAP systems. To do that, you have to integrate these systems with Joule by including them in a formation of type Integration with Joule. The integration is between the Joule system and every SAP system in the formation, but not between each and every SAP system.  See Enabling Joule.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2025-01-23
+Valid as Of: 2025-01-23
+Version: Cloud
+
+--- Record 1602 ---
+Component: Extensions
+Environment: Cloud Foundry,Kyma
+Title: Use a New Formation of Type Integration with SAP Advanced Financial Closing
+Description: You can configure the connectivity between an SAP S/4HANA Cloud system and an SAP Advanced Financial Closing system using the new formation type Integration with SAP Advanced Financial Closing.  See Automating Integrations with SAP Advanced Financial Closing.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2025-01-23
+Valid as Of: 2025-01-23
+Version: Cloud
+
+--- Record 1603 ---
+Component: Extensions
+Environment: Cloud Foundry,Kyma
+Title: Use a New Formation of Type Integration with SAP Ariba Central Invoice Management
+Description: You can configure the connectivity between an SAP S/4HANA Cloud system and an SAP Ariba Central Invoice Management system using the new formation type Integration with SAP Ariba Central Invoice Management.  See Automating Integrations with SAP Ariba Central Invoice Management.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2025-01-23
+Valid as Of: 2025-01-23
+Version: Cloud
+
+--- Record 1604 ---
+Component: Extensions
+Environment: Cloud Foundry,Kyma
+Title: Use a New Formation of Type Integration with SAP Collaboration Manager
+Description: You can configure the connectivity between an SAP S/4HANA Cloud system and an SAP Collaboration Manager system using the new formation type Integration with SAP Collaboration Manager.  See Automating Integrations with SAP Collaboration Manager.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2025-01-23
+Valid as Of: 2025-01-23
+Version: Cloud
+
+--- Record 1605 ---
+Component: Extensions
+Environment: Cloud Foundry,Kyma
+Title: Use a New Formation of Type Integration with SAP Master Data Integration
+Description: You can automatically set up an integration between systems of type SAP Master Data Integration and other systems or applications, for example SAP S/4HANA Cloud using the formation of type Integration with SAP Master Data Integration.  See Enabling Integration with SAP Master Data Integration.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2025-01-23
+Valid as Of: 2025-01-23
+Version: Cloud
+
+--- Record 1606 ---
+Component: Extensions
+Environment: Cloud Foundry,Kyma
+Title: Use a New Formation of Type Integration with SAP Subscription Billing
+Description: You can configure the connectivity between an SAP S/4HANA Cloud system and an SAP Subscription Billing system using the new formation type Integration with SAP Subscription Billing.  See Automating Integrations with SAP Subscription Billing.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2025-01-23
+Valid as Of: 2025-01-23
+Version: Cloud
+
+--- Record 1607 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Istio module: Update to version 1.13.1
+Description: We've updated Istio to version 1.24.2. For more information, see the Istio 1.24.2 release announcement.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-01-23
+Valid as Of: 2025-01-23
+Version: Cloud
+
+--- Record 1608 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Serverless module: Documentation
+Description: We're excited to announce that the Serverless module documentation is now live on Help Portal. To learn more on how to build, run, and manage Serverless Functions, see Serverless Module.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-01-22
+Valid as Of: 2025-01-23
+Version: Cloud
+
+--- Record 1609 ---
+Component: SAP BTP, Cloud Foundry Runtime
+Environment: Cloud Foundry
+Title: Version 46.1.0
+Description: Cloud Foundry has been updated from 45.0.0 to 46.1.0.      https://github.com/cloudfoundry/cf-deployment/releases/tag/v46.1.0  https://github.com/cloudfoundry/cf-deployment/releases/tag/v46.0.0  https://github.com/cloudfoundry/cf-deployment/releases/tag/v45.1.0    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-01-23
+Valid as Of: 2025-01-23
+Version: Cloud
+
+--- Record 1610 ---
+Component: SAP Build Work Zone, advanced edition
+Environment: Cloud Foundry
+Title: Multiple Subscriptions to SAP Build Work Zone Editions
+Description: It's no longer possible to subscribe to multiple SAP Build Work Zone editions in parallel in a given SAP BTP subaccount. Trying to subscribe to multiple editions, for example both to standard and advanced editions in the same subaccount, will result in an error.   Note that existing subscriptions are not impacted by this restriction and continue to work as before.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-01-23
+Valid as Of: 2025-01-23
+Version: 2413B
+

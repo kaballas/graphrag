@@ -1,0 +1,130 @@
+--- Record 3091 ---
+Component: Connectivity
+Environment: Cloud Foundry,Neo
+Title: Cloud Connector 2.17.0 - Enhancements
+Description: Release of Cloud Connector version 2.17.0 provides the following enhancements:    Cloud Connector 2.17 is based on a different runtime container. So far, it was based on the JavaWeb 3.x runtime on Tomcat 8.5, now it switched to JavaWeb 4.x, which is based on Tomcat 9.  The Cloud Connector can now use SAPMachine 21 as Java runtime. For more information, see Prerequisites.  Cloud Connector 2.17 supports up to 3 LDAP servers for authentication. This allows to support setups in which the user base is not completely available in a single LDAP user store, or if there are multiple user bases in a single LDAP user store.For more information, see Use LDAP for User Administration.  You can configure a separate port for the high availability (HA)- related communication between the two instances (master and shadow). This lets you use HA together with certificate-based authentication.For more information, see Install a Failover Instance for High Availability.  Additional hardware monitoring REST APIs for disk and CPU status have been provided.For more information, see Monitoring APIs.  You can now use the hardware monitor on the shadow instance as well.For more information, see Hardware Metrics.  A description for subject patterns was introduced.For more information, see Configure Subject Patterns for Principal Propagation.  Access control data now contains the creation timestamp.For more information, see Configure Access Control.  You can now add a subaccount using an authentication data file downloaded from SAP BTP. For more information, see Set up Connection Parameters and HTTPS Proxy (steps 2 + 4: file-based subaccount configuration).   The Cloud Connector UI now provides a session expiration progress bar in the top right corner of each screen, indicating how long your current session is still valid until you need to login again before proceeding.For more information, see Initial Configuration.  You can now run the new script resetCiphers from the scc folder in the Cloud Connector installation directory to reset the ciphers if UI access is blocked due to wrong cipher settings. For more information on cipher suites, see Encryption Ciphers.  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-05-02
+Valid as Of: 2024-05-02
+Version: Cloud
+
+--- Record 3092 ---
+Component: Mobile Services
+Environment: Cloud Foundry
+Title: Certificate expiration alerts
+Description: (Version: 2404) For Mobile Services that require a certificate, you can now define a certificate expiration alert in the Alert Notification Service (ANS). This enables you to control the expiration time and to be alerted when the expiration date is approaching.   See Subscribe to Certificate Expiration Notices
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-04-16
+Valid as Of: 2024-05-02
+Version: Cloud
+
+--- Record 3093 ---
+Component: Pricing Service
+Environment: Cloud Foundry
+Title: Calculate Upper and Lower Limits Correctly
+Description: The upper and lower limit of a pricing condition used to be calculated incorrectly if the condition unit differed from the entered condition rate unit. This issue has been corrected.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-03-25
+Valid as Of: 2024-05-02
+Version: Cloud
+
+--- Record 3094 ---
+Component: Pricing Service
+Environment: Cloud Foundry
+Title: Document Pricing - Enable SAP CPQ to Work With Alternative Units of Measure
+Description: In pricing results, the conditions rates are returned as maintained. Only condition values are returned in the target document currency based on the item's target quantity and unit of measure. To help SAP CPQ to cope with condition rates that use alternative units of measure, the item condition details of endpoint GET /api/v1/pricing/documents/{documentId} is enhanced with a new field rateNormalized, which also considers the target currency and the sales unit of measure.  This field is for use in SAP CPQ only and may change becoming incompatible at any time when requested by SAP CPQ. Do not use this field in any other integrations.  See API Definition and Development Guide for SAP Variant Configuration and Pricing.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-03-25
+Valid as Of: 2024-05-02
+Version: Cloud
+
+--- Record 3095 ---
+Component: Pricing Service
+Environment: Cloud Foundry
+Title: Document Pricing - Return Condition Scales
+Description: With the last release, scales for item conditions used to be returned only by endpoint GET /api/v1/pricing/documents/{documentId}. The following endpoints have been enhanced to return the scale information as well:    POST /api/v1/pricing/documents/{documentId}/items/{itemId}/conditions      PATCH /api/v1/pricing/documents/{documentId}/items/{itemId}/conditions/{conditionId}      GET /api/v1/pricing/documents/{documentId}/items/{itemId}/conditions/{conditionId}      POST /api/v1/pricing/documents/{documentId}/itemsConditions      POST /api/v1/pricing/documents/{documentId}/itemsConditionsList      See API Definition.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-03-25
+Valid as Of: 2024-05-02
+Version: Cloud
+
+--- Record 3096 ---
+Component: Pricing Service
+Environment: Cloud Foundry
+Title: Extension Concept - Improve Token Handling for Remote Extension Destinations Accessed Via Cloud Connector
+Description: Accessing a remote extension through the Destination service and the SAP Cloud Connector used to cause an HTTP 407 error when the cloud connector token was expired. This issue has been corrected.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-04-22
+Valid as Of: 2024-05-02
+Version: Cloud
+
+--- Record 3097 ---
+Component: Pricing Service
+Environment: Cloud Foundry
+Title: Extension Concept - Pass Scales to Extension Implementations
+Description: Information about the scales found for a condition record can now also be requested by custom routines and can be passed as input to custom routine implementations. With that, a custom routine can also use the other scale levels as the basis for their calculations.  See Extension Guide for SAP Variant Configuration and Pricing.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-03-25
+Valid as Of: 2024-05-02
+Version: Cloud
+
+--- Record 3098 ---
+Component: Pricing Service
+Environment: Cloud Foundry
+Title: Extension Concept - Provide More Data to Requirement Implementations
+Description: The pricing engine used to only pass parameters attributes and exclusioIndicator as input data to requirement implementations.  This is still the default behavior, but through a projection on fields of structure itemInput in COLLECT ATTRIBUTES' response via extendedInput>documentInput>itemInput>projection it is now also possible to request the item quantity and other conditions information for a requirement formula.  For a requirement formula, it is only possible to retrieve a subset of the conditions field for the already determined pricing conditions:    stepNumber      counter      conditionType      conditionRate      conditionUnit      scale      See API Definition and Extension Guide for SAP Variant Configuration and Pricing.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-03-25
+Valid as Of: 2024-05-02
+Version: Cloud
+
+--- Record 3099 ---
+Component: Pricing Service
+Environment: Cloud Foundry
+Title: Pricing Engine Trace - Log Inactivity Because of a Missing Routine Implementation
+Description: When a pricing implementation is missing, the condition type will be marked as inactive in the pricing results. But in the calculation trace, the reason for the inactivity used to be missing. This issue has been corrected.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-03-25
+Valid as Of: 2024-05-02
+Version: Cloud
+
+--- Record 3100 ---
+Component: Pricing Service
+Environment: Cloud Foundry
+Title: SAP Cloud ALM Integration for Performance Monitoring
+Description: The Real User Monitoring start page, which should provide an overview of all service requests, was hard to read because a very large number of individual requests was listed. This happened due to some IDs in the paths of the requests that could not be aggregated at the endpoint level. This issue has been corrected by replacing such IDs with an asterisk. With that, now you see aggregations such as /api/v1/pricing/documents/*/conditions/* or /api/v1/pricing/documents/*/items/* instead of individual requests per document id, item id, or condition id.  See Administration Guide for SAP Variant Configuration and Pricing.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-04-15
+Valid as Of: 2024-05-02
+Version: Cloud
+

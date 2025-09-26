@@ -1,0 +1,130 @@
+--- Record 3401 ---
+Component: SAP Document and Reporting Compliance, Cloud Edition
+Environment: Kyma
+Title: Managing Destination Mapping (Electronic Documents Only)
+Description: In the Manage Destination Mappings - Outgoing application, you can enable the cloud edition to send data received from the external communication party to the business system.      For SAP ERP, see Managing Destination Mapping.      For SAP S/4HANA or SAP S/4HANA Cloud Private Edition, see Managing Destination Mapping.      For SAP S/4HANA Cloud Public Edition, see Managing Destination Mapping.    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: nan
+Valid as Of: 2024-03-14
+Version: Cloud
+
+--- Record 3402 ---
+Component: SAP Document and Reporting Compliance, Cloud Edition
+Environment: Kyma
+Title: New Role Collection for the Cloud Edition
+Description: Assign the new SAP Document and Reporting Compliance, Cloud Edition - Administrator role collection to your user to keep your user authorizations up-to-date. See Assigning Users to Role Collections and SAP Document and Reporting Compliance, Cloud Edition New Role Collection.
+Action: Required
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: nan
+Valid as Of: 2024-03-13
+Version: Cloud
+
+--- Record 3403 ---
+Component: Intelligent Situation Automation
+Environment: Cloud Foundry
+Title: Support for REST API based custom action
+Description: We now support custom situation actions based on REST API. With this, we will be deprecating CUSTOM_ACTION in next 2 months. We recommend using REST API for custom situation actions. See Manage Situation Actions.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-03-18
+Valid as Of: 2024-03-13
+Version: Cloud
+
+--- Record 3404 ---
+Component: Mobile Services
+Environment: Neo
+Title: Supported versions for Cloud Build Service
+Description: We've updated the supported versions for the Cloud Build service:    March 2024 (2305 PL14)       Fiori Packaged Kapsel and iOS versions      Custom Fiori Client Kapsel and iOS versions          February 2024 (2305 PL12) SAP Asset Manager SDK version, iOS version, and notes      January 2024 (2305 PL11) Mobile Development Kit SDK version, iOS version, and notes      See Supported Build Types, Client Types, Packaging Details, and Build Options. 
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2024-03-13
+Version: Cloud
+
+--- Record 3405 ---
+Component: SAP Document and Reporting Compliance, Cloud Edition
+Environment: Kyma
+Title: Deprecation of the SAP Document and Reporting Compliance, Cloud Edition Administrator Role Collection
+Description: The SAP Document and Reporting Compliance, Cloud Edition Administrator role collection has been deprecated. You can still assign and keep it assigned to your users, but it's no longer managed by SAP. This means that, to this deprecated role collection, SAP won't include new roles that might be necessary for the use of features released as of March 2024.  For having the role collection maintained by SAP with up-to-date authorizations, assign the new SAP Document and Reporting Compliance, Cloud Edition - Administrator role collection to your user. See Assigning Users to Role Collections and SAP Document and Reporting Compliance, Cloud Edition New Role Collection.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: nan
+Valid as Of: 2024-03-13
+Version: Cloud
+
+--- Record 3406 ---
+Component: SAP Omnichannel Promotion Pricing
+Environment: Cloud Foundry
+Title: Enhancements to Configure Omnichannel Promotion Pricing app
+Description: The following changes and enhancements are now available in the Configure Omnichannel Promotion Pricing app:      Renaming of the Padding Configurations section to Identifier Formats.      Removal of the Padding Character field in the Identifier Formats section.      You can now maintain Additional Settings in the Identifier Formats section to enable a conversion of a field ID between its application-internal representation and the external format seen on the user interface, and vice versa.      For more information about Identifier Format configurations, see Creating Identifier Format Configurations.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2022-01-01
+Valid as Of: 2024-03-13
+Version: Cloud
+
+--- Record 3407 ---
+Component: SAP Omnichannel Promotion Pricing
+Environment: Cloud Foundry
+Title: Reusing a Merchandise Set
+Description: If you wish to reuse a merchandise set that exists in another promotion to a new or existing promotion, you can create a merchandise set with reference.  For more information, see Reusing a Merchandise Set.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2022-01-01
+Valid as Of: 2024-03-13
+Version: Cloud
+
+--- Record 3408 ---
+Component: SAP Omnichannel Promotion Pricing
+Environment: Cloud Foundry
+Title: Security Recommendation on Extensibility
+Description: You can now learn about our security recommendation on extensibility.  For more information, see Security Recommendations.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2022-01-01
+Valid as Of: 2024-03-13
+Version: Cloud
+
+--- Record 3409 ---
+Component: UI Theme Designer
+Environment: Cloud Foundry,Neo
+Title: Base Theming Content for CF and Neo.
+Description: The base theming content is updated to version 11.13.0. Review the changes at https://github.com/SAP/theming-base-content/releases.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2024-03-13
+Version: Cloud
+
+--- Record 3410 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Custom Schemas
+Description: You can view via the administration console the assigned attributes from custom schemas. See List and Edit User Details.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-03-12
+Valid as Of: 2024-03-12
+Version: 25778
+

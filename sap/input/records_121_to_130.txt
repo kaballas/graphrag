@@ -1,0 +1,151 @@
+--- Record 121 ---
+Component: Joule,SAP BTP Cockpit
+Environment: Cloud Foundry
+Title: New Use Cases Added to Joule in SAP BTP Cockpit
+Description: Joule in the Cockpit can now:    Add a user to a Cloud Foundry org or space  List applications in a Cloud Foundry space    For more information, check out Supported Administrative Tasks Using Joule in the Cockpit.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-09-11
+Valid as Of: 2025-09-11
+Version: Cloud
+
+--- Record 122 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: API Gateway module: Update to version 3.2.2
+Description: The APIRule custom resource's status is now correctly updated when a Gateway defined in the spec.gateway field uses the legacy format. See issue #2067.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-09-09
+Valid as Of: 2025-09-11
+Version: Cloud
+
+--- Record 123 ---
+Component: SAP Task Center
+Environment: Cloud Foundry
+Title: Action Required to Maintain Views
+Description: To maintain the existing views for end users, SAP Task Center administrators must update the content of the HTML5 Apps on the Channel Manager tab of your central point of entry for accessing applications. For more information on the central point of entry for accessing applications, see Create a Task Center Tile.  If end users encounter an "Unable to load the data" error after September 18th, please follow the same steps outlined above.
+Action: Required
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-09-10
+Valid as Of: 2025-09-10
+Version: Cloud
+
+--- Record 124 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Provided APIs
+Description: Cloud Identity Services have exposed the Identity Directory API, Corporate Identity Providers API, and SAP Cloud Identity Services Application Directory as provided APIs for the Administration Console application to be used for principal propagation. See Consume APIs from the Administration Console.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-09-10
+Valid as Of: 2025-09-10
+Version: 28270
+
+--- Record 125 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Regular Upgrade
+Description: Cloud Identity Services have been upgraded.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-09-10
+Valid as Of: 2025-09-10
+Version: 28270
+
+--- Record 126 ---
+Component: Document Management Service
+Environment: Cloud Foundry
+Title: Update to 'maxItems' Parameter in getChildren and Query API
+Description: To improve response time and prevent open-ended parameter values that could potentially impact performance, we have reduced the default and maximum value for this parameter to 10,000.   Action: If you rely on the default 'maxItems' value for your API calls, you may need to review and adjust your implementation to ensure it aligns with the new limit. Consider specifying a value for 'maxItems' that suits your needs, especially if your application requires processing more than 10,000 items. 
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-09-10
+Valid as Of: 2025-09-10
+Version: Cloud
+
+--- Record 127 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Additional Google Cloud Platform Region
+Description: You can choose from an additional Google Cloud Platform region for the SAP BTP ABAP environment: Israel (Tel Aviv).  For more information, see Regions and API Endpoints for the ABAP Environment.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-09-09
+Valid as Of: 2025-09-08
+Version: ABAP Environment 2508
+
+--- Record 128 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Kyma CLI version 3.1.0 released
+Description: The new version of Kyma CLI brings the following improvements:  Community modules support: You can now discover and add the available community-driven modules using the --community flag. For example: kyma module catalog
+NAME                    AVAILABLE VERSIONS                                                 COMMUNITY
+...
+cap-operator            0.15.0                                                             true
+docker-registry         0.9.0                                                              true
+
+kyma module add docker-registry --community --default-cr
+Warning:
+  You are about to install a community module.
+  Community modules are not officially supported and come with no binding Service Level Agreement (SLA).
+  There is no guarantee of support, maintenance, or compatibility.
+
+Are you sure you want to proceed with the installation? [Y/n]: Y
+docker-registry community module enabled  Kubeconfig generation for the selected OIDC configuration: We have added a command to generate kubeconfig files for the named openidconnects.authentication.gardener.cloud resources, for example: kubectl get openidconnects.authentication.gardener.cloud
+NAME
+oath0
+
+kyma alpha kubeconfig generate --oidc-name oath0 --output=/tmp/oauth0.yaml
+Kubeconfig saved to: /tmp/oauth0.yaml  Support for scripting and automations: Many commands now support the --output flag, allowing you to format command results (e.g., as YAML or JSON). In addition, the enhanced dry-run support lets you preview changes before applying them, improving safety and transparency. For example:kyma function create test --runtime nodejs22 --dry-run -oyaml > test-fn.yaml
+
+kubectl apply -f test-fn.yaml
+function.serverless.kyma-project.io/test created  Command groups moved out of the alpha group:  kyma module --help  kyma app push --help  kyma {extension} --help, for example kyma function --help  
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-09-05
+Valid as Of: 2025-09-08
+Version: Cloud
+
+--- Record 129 ---
+Component: API Management
+Environment: Cloud Foundry
+Title: Reusable API Artifact
+Description: A reusable API artifact can now be created, allowing its components, endpoints, and services to be leveraged across multiple applications, projects, or contexts—without the need for significant rewrites or modifications. This enhances consistency, accelerates development, and promotes reuse within your integration landscape. For more information, see Reusable API Artifact.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-09-07
+Valid as Of: 2025-09-07
+Version: 2507
+
+--- Record 130 ---
+Component: API Management
+Environment: Cloud Foundry
+Title: XML Threat Protection Policy
+Description: The XML Threat Protection policy has been introduced to safeguard XML-based applications and APIs from malicious attacks. This policy enforces strict rules on XML data to prevent common threats such as recursive payloads, excessive node depth, and oversized payloads. For more infornation, see XML Threat Protection Policy.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-09-07
+Valid as Of: 2025-09-07
+Version: 2507
+

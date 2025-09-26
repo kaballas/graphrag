@@ -1,0 +1,130 @@
+--- Record 2721 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: EU Access-only regions
+Description: Switzerland (Zurich) EU Access (cf-ch20) running on Microsoft Azure is now available as a new region for use with enterprise accounts.  Europe (Frankfurt) EU Access (cf-eu11) running on Amazon Web Services, which has been limitedly available so far, is now available without any restriction for use with enterprise accounts.  For more information, see Regions for the Kyma Environment.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-07-10
+Valid as Of: 2024-07-10
+Version: Cloud
+
+--- Record 2722 ---
+Component: SAP BTP Developer's Guide
+Environment: Cloud Foundry,Kyma
+Title: SAP Event Broker Becomes SAP Cloud Application Event Hub
+Description: The name of the SAP Event Broker service has been changed to SAP Cloud Application Event Hub.  See:      Business Application Services      What Is SAP Cloud Application Event Hub?    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-07-10
+Valid as Of: 2024-07-10
+Version: Cloud
+
+--- Record 2723 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Terminology change:Unattended Triggers renamed to Triggers.
+Description: The Unattended Triggers has been renamed to Triggers. Only the name has been changed and there is no change in the functionality.  You can view your Triggers from the Control Tower, choose your Environments and select the Triggers view.  See: Add Triggers to a Project.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-07-10
+Valid as Of: 2024-07-10
+Version: Cloud
+
+--- Record 2724 ---
+Component: Forms Service by Adobe
+Environment: Cloud Foundry
+Title: Availability - Additional Regions
+Description: The SAP Forms service is now available in the following additional regions (Azure):    Europe - Netherleands (cf-eu20-001)  Switzerland - Zurich (cf-ch20 - EU access)    For more information, see also SAP Discovery Center.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2024-07-09
+Version: Cloud
+
+--- Record 2725 ---
+Component: Forms Service by Adobe
+Environment: Cloud Foundry
+Title: New Features
+Description: The SAP Forms service provides the following new features:     A new landing page lets you access the Forms service tools and UIs easily.For more information, see Forms Service Landing Page.  You can now create a Forms service template store repository manually.For more information, see Create a Template Store Repository.  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2024-07-09
+Version: Cloud
+
+--- Record 2726 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Keda module: Update to version 1.2.0
+Description: In this release, we have updated the KEDA version to 2.14.0.  Additionally, we have introduced a dedicated priority class for the managed KEDA workloads, which prevents the eviction of the KEDA Pods in the resource-congested clusters.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-06-28
+Valid as Of: 2024-07-09
+Version: Cloud
+
+--- Record 2727 ---
+Component: SAP Task Center
+Environment: Cloud Foundry
+Title: Minor Improvements
+Description: For enhanced performance, the removal of unused API has been finalized.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-07-09
+Valid as Of: 2024-07-09
+Version: Cloud
+
+--- Record 2728 ---
+Component: SAP AI Core
+Environment: Cloud Foundry
+Title: Generative AI hub
+Description: Additional selected models from GCP Vertex AI are supported.  For more information, see SAP Note 3437766 .
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-07-08
+Valid as Of: 2024-07-08
+Version: Cloud
+
+--- Record 2729 ---
+Component: SAP AI Launchpad
+Environment: Cloud Foundry
+Title: Generative AI hub
+Description: Additional selected models from GCP Vertex AI are supported.For more information, see Models and Scenarios in the Generative AI Hub.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-07-08
+Valid as Of: 2024-07-08
+Version: Cloud
+
+--- Record 2730 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: Improved Extraction of Line Items Directly above Document Footers
+Description: We’ve fixed an issue with the extraction of line items. If the line spacing between the final line item and the document footer is the same as the line spacing in the line items, SAP Document AI no longer extracts the footer text as part of the final line item.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Intelligent Technologies
+Latest Revision: 2024-07-08
+Valid as Of: 2024-07-08
+Version: Cloud
+

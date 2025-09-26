@@ -1,0 +1,130 @@
+--- Record 2741 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: The SAP GUI Technology
+Description: The Recorder with Desktop Agent x64 can now automate both 32-bit and 64-bit versions of SAPWinGUI. See The SAP GUI Technology.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-07-03
+Valid as Of: 2024-07-03
+Version: Cloud
+
+--- Record 2742 ---
+Component: SAP Datasphere
+Environment: Cloud Foundry
+Title: Features for Version 2024.14
+Description: New and changed features are available for administration, data integration, data modeling, and space management.  For more information, see What's New in SAP Datasphere 2024.14. 
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-07-03
+Valid as Of: 2024-07-03
+Version: Cloud
+
+--- Record 2743 ---
+Component: SAP Omnichannel Promotion Pricing
+Environment: Cloud Foundry
+Title: Mass Deletion of Objects in Maintain Promotions App
+Description: You can now trigger mass deletion of entities like products, merchandise hierarchy nodes and generic attributes within a merchandise set in the Maintain Promotions app using the Delete All button.  For more information, see Merchandise Sets.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2022-01-01
+Valid as Of: 2024-07-03
+Version: Cloud
+
+--- Record 2744 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Regional Availability
+Description: Cloud Identity Services now operates with additional IPs in the data center in India. See Regional Availability.  Action:  We recommend you to add the following IPs to your allowed IP list:    LB IP - 43.204.242.5, 13.234.128.163, 13.202.113.251  NAT IP - 3.108.210.169/32, 13.127.105.96/32, 13.232.175.70/32, 3.7.5.154/32, 43.205.169.10/32, 65.2.62.24/32  
+Action: Recommended
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-07-02
+Valid as Of: 2024-07-02
+Version: 26327
+
+--- Record 2745 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Regional Availability
+Description: Cloud Identity Services now operates with only two IPs in the data center in Switzerland. See Regional Availability.  Action:  We recommend you to add the following IPs to your allowed IP list:    LB IP - 20.250.104.188, 20.250.104.193  NAT IP - 4.226.38.130/32, 4.226.41.61/32  
+Action: Recommended
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-07-02
+Valid as Of: 2024-07-02
+Version: 26327
+
+--- Record 2746 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Regular Upgrade
+Description: Cloud Identity Services have been upgraded.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-07-02
+Valid as Of: 2024-07-02
+Version: 26327
+
+--- Record 2747 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Security recommendations for SAP Cloud Identity Services - Identity Provisioning
+Description: Security recommendations for SAP Cloud Identity Services - Identity Provisioning are now available to help you secure its configuration and operation in your landscape.  See Security Information. 
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-07-02
+Valid as Of: 2024-07-02
+Version: 26327
+
+--- Record 2748 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: skipOperations create is enhanced in SAP Analytics Cloud version 1 target systems
+Description: The skipOperations create is enhanced and works properly for SAP Analytics Cloud version 1 target systems. When Identity Provisioning tries to provision a user that already exists in the target system, the service resolves the ID of the user and can now add it to the request body of the PUT update request.  See SAP Analytics Cloud.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-07-02
+Valid as Of: 2024-07-02
+Version: 26327
+
+--- Record 2749 ---
+Component: Continuous Integration & Delivery
+Environment: Cloud Foundry
+Title: Build Customization in Cloud Foundry Environment Jobs
+Description: If you define a script named build in the scripts section of your package.json file, it will be automatically executed during the Build stage of your Cloud Foundry Environment job when using the npm build tool.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-07-02
+Valid as Of: 2024-07-02
+Version: Cloud
+
+--- Record 2750 ---
+Component: Graph
+Environment: Cloud Foundry
+Title: Add comments to Graph documentation using GitHub
+Description: Customer feedback has always been important to us. We love hearing from you because it gives us insight into how you use our products and if our documentation is helping you achieve your goals.  Now, with the introduction of the Open Documentation Initiative, we offer a unique collaboration channel that enables you to actively participate, provide feedback, and even make edits to our documentation via GitHub, ensuring that we address your specific needs.  We look forward to hearing from you. For more information on how to collaborate, see Collaborate with Us – Open Documentation Initiative for Graph.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Intelligent Technologies
+Latest Revision: 2024-07-02
+Valid as Of: 2024-07-02
+Version: Cloud
+

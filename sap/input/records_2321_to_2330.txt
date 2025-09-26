@@ -1,0 +1,130 @@
+--- Record 2321 ---
+Component: Data Quality Services
+Environment: Cloud Foundry,Neo
+Title: Enhancements
+Description: Improvements were made to support the address pattern in Slovakia that consists of a building number and a house number, and to support validation of rural addresses in Slovakia that consist of a house number on an unnamed road.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2024-09-19
+Version: Cloud
+
+--- Record 2322 ---
+Component: Extensions
+Environment: Cloud Foundry,Kyma
+Title: Add a System of Type SAP Business Application Studio when Creating a Formation of Type Developing with SAP Business Application Studio
+Description: When creating a formation of type Developing with SAP Business Application Studio you now add a system of type SAP Business Application Studio.  All existing formation have been automatically migrated to the new approach.  See Setting Up System Landscape for SAP Business Application Studio.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-09-19
+Valid as Of: 2024-09-19
+Version: Cloud
+
+--- Record 2323 ---
+Component: Extensions
+Environment: Cloud Foundry,Kyma
+Title: CAP Application System Type Is Renamed to SAP BTP Application
+Description: The CAP Application system type has beed renamed to SAP BTP Application.   See Declaring System APIs and Events as Dependencies for Business Scenarios.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-09-19
+Valid as Of: 2024-09-19
+Version: Cloud
+
+--- Record 2324 ---
+Component: Object Store
+Environment: Cloud Foundry,Kyma
+Title: Continuous backup on AWS
+Description: Object Store now supports continuous backup and point-in time restoration on AWS. See Enable Continuous Backup and Request Point-in-Time Restoration.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-09-19
+Valid as Of: 2024-09-19
+Version: Cloud
+
+--- Record 2325 ---
+Component: Object Store
+Environment: Cloud Foundry,Kyma
+Title: Role-based service bindings on Google Cloud Platform
+Description: Object Store now supports read and write role-based service binding credentials. See Role-Based Bindings and Service Keys (Google Cloud).
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-09-19
+Valid as Of: 2024-09-19
+Version: Cloud
+
+--- Record 2326 ---
+Component: SAP Alert Notification Service
+Environment: Cloud Foundry
+Title: New SAP Alert Notification service event
+Description: You can now use the newly supported SAP Alert Notification service event - Delivery Status.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-09-19
+Valid as Of: 2024-09-19
+Version: Cloud
+
+--- Record 2327 ---
+Component: SAP Alert Notification Service
+Environment: Neo
+Title: New SAP Alert Notification service event
+Description: You can now use the newly supported SAP Alert Notification service event - Delivery Status.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-09-19
+Valid as Of: 2024-09-19
+Version: Cloud
+
+--- Record 2328 ---
+Component: SAP Alert Notification Service
+Environment: Cloud Foundry
+Title: New SAP Automation Pilot events
+Description: You can now use the newly supported SAP Automation Pilot events - Command Created, Command Deleted, Command Updated, Input Created, Input Deleted and Input Updated
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-09-19
+Valid as Of: 2024-09-19
+Version: Cloud
+
+--- Record 2329 ---
+Component: SAP BTP, Cloud Foundry Runtime
+Environment: Cloud Foundry
+Title: Version 42.2.0
+Description: Cloud Foundry has been updated from 42.1.0 to 42.2.0.    https://github.com/cloudfoundry/cf-deployment/releases/tag/v42.2.0  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-09-19
+Valid as Of: 2024-09-19
+Version: Cloud
+
+--- Record 2330 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Read-only in Form Tables
+Description: Previously, you can only set the complete table to read only. Now you can select single columns and mark them as read only. However, this feature only protects against accidental overwriting of content. Users can still tweak their browsers to change the content.  For more information, see Form Tables.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-09-19
+Valid as Of: 2024-09-19
+Version: Cloud
+

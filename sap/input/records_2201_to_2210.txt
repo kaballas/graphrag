@@ -1,0 +1,130 @@
+--- Record 2201 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: New Instant Learning for Information Extraction Using Generative AI (Premium Edition)
+Description: SAP Document AI now allows you to enhance extraction with generative AI by using your edited extraction results to enrich the prompt to large language models (LLMs) with user feedback.  If you use an appropriately configured schema, SAP Document AI learns from your feedback as soon you commit documents with edited extraction results. As a result, information extraction is improved for relevant fields in all subsequent documents.  To use this feature, you must first activate it using the configuration key enableInstantLearning.  See Instant Learning (Premium Edition) and Configuration Keys.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Intelligent Technologies
+Latest Revision: 2024-10-22
+Valid as Of: 2024-10-08
+Version: Cloud
+
+--- Record 2202 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: New List of Values Data Type for Schemas (Premium Edition)
+Description: With SAP Document AI you can now use the data type list of values to extract header or line item fields with the setup type auto.  The new data type allows you to define multiple values for fields. For example, if your company handles three different types of invoice, you can define these as list values. As a result, only these values are extracted for Invoice Type fields in your documents.  See List of Values Data Type (Premium Edition).
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Intelligent Technologies
+Latest Revision: 2024-10-08
+Valid as Of: 2024-10-08
+Version: Cloud
+
+--- Record 2203 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: New Schema Import and Schema Export Endpoints
+Description: You can now import and export schemas using the following new Schema API endpoints:    Import Schema      Export Schema    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Intelligent Technologies
+Latest Revision: 2024-10-08
+Valid as Of: 2024-10-08
+Version: Cloud
+
+--- Record 2204 ---
+Component: Cloud Portal Service
+Environment: Cloud Foundry
+Title: Collecting Data and Performance Metrics
+Description: Performance and usage metrics of applications deployed on SAP BTP can be measured using the Front-End Statistical Records (FESR) tool. The results of these metrics, called performance artifacts, are collected, and transferred to SAP Cloud ALM (CALM) service that sends the data to cloud reporting.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-09-30
+Valid as Of: 2024-10-07
+Version: 2409B
+
+--- Record 2205 ---
+Component: Graph
+Environment: Cloud Foundry
+Title: New Graph Guest user role for read-only access
+Description: You can enable users to have read-only access to Graph and the Graph Configuration API by assigning the Graph guest role to one or more users. For more information, see:    Enabling Guest Users      Define Users for Graph    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Intelligent Technologies
+Latest Revision: 2024-10-07
+Valid as Of: 2024-10-07
+Version: Cloud
+
+--- Record 2206 ---
+Component: SAP AI Core
+Environment: Cloud Foundry
+Title: Generative AI hub
+Description: Additional selected models from IBM are supported.For more information, see SAP Note 3437766 .
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-10-07
+Valid as Of: 2024-10-07
+Version: Cloud
+
+--- Record 2207 ---
+Component: SAP AI Core
+Environment: Cloud Foundry
+Title: Generative AI hub
+Description: Additional selected models from Mistral AI are supported.For more information, see SAP Note 3437766 .
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-10-07
+Valid as Of: 2024-10-07
+Version: Cloud
+
+--- Record 2208 ---
+Component: SAP AI Core
+Environment: Cloud Foundry
+Title: Generative AI hub
+Description: For selected models, response streaming is supported in the generative AI hub orchestration service.   For more information, see Streaming.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-10-07
+Valid as Of: 2024-10-07
+Version: Cloud
+
+--- Record 2209 ---
+Component: SAP AI Launchpad
+Environment: Cloud Foundry
+Title: Generative AI hub
+Description: Additional selected models from IBM are supported.  For more information, see Models and Scenarios in the Generative AI Hub.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-10-07
+Valid as Of: 2024-10-07
+Version: Cloud
+
+--- Record 2210 ---
+Component: SAP AI Launchpad
+Environment: Cloud Foundry
+Title: Generative AI hub
+Description: Additional selected models from Mistral AI are supported.  For more information, see Models and Scenarios in the Generative AI Hub.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-10-07
+Valid as Of: 2024-10-07
+Version: Cloud
+

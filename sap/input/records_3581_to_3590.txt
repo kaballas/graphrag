@@ -1,0 +1,130 @@
+--- Record 3581 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Display Restriction Types
+Description: With this feature you can display the component to which a restriction type belongs to create an incident if required.   See Display Restriction Types.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-02-18
+Valid as Of: 2024-02-16
+Version: ABAP Environment 2402
+
+--- Record 3582 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Display Restriction Types
+Description: With this feature you can display the component to which a restriction type belongs to create an incident if required.   See Display Restriction Types.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-02-18
+Valid as Of: 2024-02-16
+Version: Cloud
+
+--- Record 3583 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Editor for ILM Objects
+Description: There is now a new server-driven UI editor for ILM objects (ILMB).  For more information, see Working with ILM Objects.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-02-18
+Valid as Of: 2024-02-16
+Version: ABAP Environment 2402
+
+--- Record 3584 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Editor for ILM Objects
+Description: There is now a new server-driven UI editor for ILM objects (ILMB).  For more information, see Working with ILM Objects.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-02-18
+Valid as Of: 2024-02-16
+Version: Cloud
+
+--- Record 3585 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Elastic Scaling of Application Servers
+Description: Via the elastic scaling feature, a system will scale dynamically by adding additional application servers when the system load increases. When the load decreases again, the system scales down. Scaling happens up to a system-specific maximum ACU value. Charges will relate to the actual allocated ABAP compute units.  For more information, see Creating an ABAP System.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-02-18
+Valid as Of: 2024-02-16
+Version: ABAP Environment 2402
+
+--- Record 3586 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Elastic Scaling of Application Servers
+Description: Via the elastic scaling feature, a system will scale dynamically by adding additional application servers when the system load increases. When the load decreases again, the system scales down. Scaling happens up to a system-specific maximum ACU value. Charges will relate to the actual allocated ABAP compute units.  For more information, see Creating an ABAP System.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-02-18
+Valid as Of: 2024-02-16
+Version: Cloud
+
+--- Record 3587 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Enterprise Event Enablement: Filter for Outbound Bindings
+Description: You can now filter events before they are published to the event consumer. You can configure event filters for each channel and event topic using the Fiori app Enterprise Event Enablement  Maintain Event Channel Binding.  For more information, see Maintain Filters for Outbound Event Topics.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-18
+Valid as Of: 2024-02-16
+Version: ABAP Environment 2402
+
+--- Record 3588 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Enterprise Event Enablement: Filter for Outbound Bindings
+Description: You can now filter events before they are published to the event consumer. You can configure event filters for each channel and event topic using the Fiori app Enterprise Event Enablement  Maintain Event Channel Binding.  For more information, see Maintain Filters for Outbound Event Topics.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-18
+Valid as Of: 2024-02-16
+Version: Cloud
+
+--- Record 3589 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Generate SOAP Provider Proxies
+Description: You can now generate SOAP provider proxies from WSDL files using the so-called SOAP Provider Model.  For more information, see   .
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-02-18
+Valid as Of: 2024-02-16
+Version: ABAP Environment 2402
+
+--- Record 3590 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Generate SOAP Provider Proxies
+Description: You can now generate SOAP provider proxies from WSDL files using the so-called SOAP Provider Model.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-02-18
+Valid as Of: 2024-02-16
+Version: Cloud
+

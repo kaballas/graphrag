@@ -1,0 +1,130 @@
+--- Record 1681 ---
+Component: Data Space Integration
+Environment: Cloud Foundry
+Title: Software Version Update
+Description: The following are the latest versions in Data Space Integration:      Data Space Integration: 1.4.*      Increment: 2412      Tractus-X Eclipse Dataspace Connector: 0.7.6      FOSS Eclipse Dataspace Components: 0.7.2      See also the Release Notes of Catena-X. 
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-01-11
+Valid as Of: 2025-01-11
+Version: 2412
+
+--- Record 1682 ---
+Component: Edge Integration Cell
+Environment: Cloud Foundry
+Title: Edge Local Authentication and Authorization support for External Certificate pinning
+Description: You can now use Edge Integration Cell to disable certificate pinning. However, it is important to note that when pinning is disabled, both the current certificates and any previously used ones (with older issue dates) can authenticate successfully. For more information, see Edge Local Authentication and Authorization.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-01-11
+Valid as Of: 2025-01-11
+Version: 2412
+
+--- Record 1683 ---
+Component: Edge Integration Cell
+Environment: Cloud Foundry
+Title: New Artifact Diagnostic Task
+Description: You can now diagnose issues within the artifact lifecycle, such as deployment, undeployment, and component restart. This also includes the calculation of the artifact state or simulations.  See: Diagnostics
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-01-11
+Valid as Of: 2025-01-11
+Version: 2412
+
+--- Record 1684 ---
+Component: Edge Integration Cell
+Environment: Cloud Foundry
+Title: New Component in Diagnostics
+Description: You can now select Worker from the list of components when creating a diagnostic task.  See: Diagnostics
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-01-11
+Valid as Of: 2025-01-11
+Version: 2412
+
+--- Record 1685 ---
+Component: Edge Integration Cell
+Environment: Cloud Foundry
+Title: New PGP View
+Description: The new PGP view is now available for Edge Integration Cell, allowing you to manage Public and Secret Keyrings. For more information, see: Manage PGP Keyrings for Edge Integration Cell.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-01-11
+Valid as Of: 2025-01-11
+Version: 2412
+
+--- Record 1686 ---
+Component: Edge Integration Cell
+Environment: Cloud Foundry
+Title: Software Version Update
+Description:     Edge Integration Cell: 8.25.*    Increment: 2412  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-01-11
+Valid as Of: 2025-01-11
+Version: 2412
+
+--- Record 1687 ---
+Component: Integration Advisor
+Environment: Cloud Foundry,Neo
+Title: Creating a Custom IDoc
+Description: When creating a custom IDoc, you can now define a naming convention in the format Message Type.IDoc Type.Extension Type.  See: Adding a Custom Message
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-01-11
+Valid as Of: 2025-01-11
+Version: 2412
+
+--- Record 1688 ---
+Component: Integration Advisor
+Environment: Cloud Foundry,Neo
+Title: Creating a MIG
+Description: When creating a MIG from a payload, you can now select specific nodes for qualification.  See: Creating a Message Implementation Guideline
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-01-11
+Valid as Of: 2025-01-11
+Version: 2412
+
+--- Record 1689 ---
+Component: Integration Advisor
+Environment: Cloud Foundry,Neo
+Title: Improved Mapping Proposal
+Description: To enhance the Proposal feature's capabilities, Draft MIGs and MAGs will now be published to the knowledge base, in addition to active ones. You can opt-in/opt-out of this feature in the settings.  See: Settings 
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-01-11
+Valid as Of: 2025-01-11
+Version: 2412
+
+--- Record 1690 ---
+Component: Integration Advisor
+Environment: Cloud Foundry,Neo
+Title: Simulating a MAG
+Description: Simulation errors in the MAG editor now displays the specific nodes and corresponding links for easy identification.  See: Simulating a Mapping Guideline
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-01-11
+Valid as Of: 2025-01-11
+Version: 2412
+

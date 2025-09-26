@@ -1,0 +1,130 @@
+--- Record 2751 ---
+Component: Graph
+Environment: Cloud Foundry
+Title: Graph documentation available in SAP Integration Suite documentation
+Description: Graph documentation is now available in the following sections of the SAP Integration Suite documentation:    Capabilities of SAP Integration Suite      Design      Monitoring and Troubleshooting for Graph    
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Intelligent Technologies
+Latest Revision: 2024-07-02
+Valid as Of: 2024-07-02
+Version: Cloud
+
+--- Record 2752 ---
+Component: Graph
+Environment: Cloud Foundry
+Title: New features on Graph UI for business data graph configuration
+Description: Graph now displays the details of a business data graph on SAP Integration Suite. This includes listing all entities with their configured locating rules exposed by a business data graph. Listing all entities was previously only available on the Graph Navigator in SAP API Business Hub Enterprise.  In addition, the details of the cues and key mappings are displayed if they are available for your business data graph.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Intelligent Technologies
+Latest Revision: 2024-07-02
+Valid as Of: 2024-07-02
+Version: Cloud
+
+--- Record 2753 ---
+Component: Identity Provisioning
+Environment: Neo
+Title: Security recommendations for SAP Cloud Identity Services - Identity Provisioning
+Description: Security recommendations for SAP Cloud Identity Services - Identity Provisioning are now available to help you secure its configuration and operation in your landscape.  For more information, see: Communication Security.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-07-02
+Valid as Of: 2024-07-02
+Version: Cloud
+
+--- Record 2754 ---
+Component: Identity Provisioning
+Environment: Neo
+Title: skipOperations create is enhanced in SAP Analytics Cloud version 1 target systems
+Description: The skipOperations create is enhanced and works properly for SAP Analytics Cloud version 1 target systems. When Identity Provisioning tries to provision a user that already exists in the target system, the service resolves the ID of the user and can now add it to the request body of the PUT update request.  For more information, see: SAP Analytics Cloud.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-07-02
+Valid as Of: 2024-07-02
+Version: Cloud
+
+--- Record 2755 ---
+Component: Object Store
+Environment: Cloud Foundry,Kyma
+Title: Role-based service bindings on Azure
+Description: Object Store Service now supports read and write role based service binding credentials. Please refer the section Role-based Bindings and Service-keys for more details.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-07-02
+Valid as Of: 2024-07-02
+Version: Cloud
+
+--- Record 2756 ---
+Component: SAP BTP Command Line Interface
+Environment: ABAP,Cloud Foundry,Kyma,Neo,Other
+Title: Discontinuation of btp CLI Client Versions 2.33 and older
+Description: As announced on December 14, 2023, we have now discontinued client versions 2.33 and older.  Action: If you're still using one of these versions, you need to update to the latest btp CLI client version from: SAP Development Tools as these versions can no longer be used. See Get Updates for the btp CLI.
+Action: Required
+Lifecycle: Deleted
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-07-01
+Valid as Of: 2024-07-01
+Version: Cloud
+
+--- Record 2757 ---
+Component: Continuous Integration & Delivery
+Environment: Cloud Foundry
+Title: Error Message for Non-Assigned Roles
+Description: We've reworked the information screen that is shown if no roles are assigned for a user.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-07-01
+Valid as Of: 2024-07-01
+Version: Cloud
+
+--- Record 2758 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Istio module: Update to version 1.7.0
+Description:   This release contains Istio in version 1.21.3. For more details, read Istio 1.21.3 Release Announcement and Change Notes. See the changelog.  Now, you can opt out of the <ENABLE_EXTERNAL_NAME_ALIAS> Istio pilot environment variable in the Istio custom resource. This allows for retaining behavior that was present in Istio prior to version 1.21. See Istio Custom Resource Annotations.  We've added Request Authentication UI for Kyma dashboard.  Istio Operator does not restart Pods with the Istio sidecar that contain custom image annotations. See Resource Annotations.  We've changed Istio Ingress Gateway's scaling to be based only on CPU utilization. This adjustment ensures that the scaling is more responsive to traffic changes, as the Istio Ingress Gateway memory utilization is not a good indicator of the traffic load.  The default number of Istio Ingress Gateway replicas in smaller clusters is now set to 1.  We've introduced the compatibility mode, which allows you to mitigate breaking changes when a new Istio module's release introduces an Istio upgrade. The Istio module supports compatibility with the previous minor version of Istio. See Compatibility Mode.  
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-06-17
+Valid as Of: 2024-07-01
+Version: Cloud
+
+--- Record 2759 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: New Improved ML Models for Invoice, Purchase Order, and Payment Advice.
+Description: We’ve improved the machine learning models for the document types invoice, purchase order, and payment advice.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Intelligent Technologies
+Latest Revision: 2024-07-01
+Valid as Of: 2024-07-01
+Version: Cloud
+
+--- Record 2760 ---
+Component: Platform Domains
+Environment: Neo
+Title: TLS 1.3 Support
+Description: TLS 1.3, the latest version of the security protocol, brings significant improvements over TLS 1.2 by offering enhanced security, better performance, and increased privacy. Consequently, TLS 1.3 is planned to be enabled for all platform domains in the Neo environment by the end of June 2024. Furthermore, TLS 1.2 remains as a fallback option.  The following domains are adjusted:      *.<Region.Domain>      *.dispatcher.<Region.Domain>      *.cert.<Region.Domain>      *.static.<Region.Domain>      connectivitynotification.<Region.Domain>      connectivitytunnel.<Region.Domain>      For more information, see SAP Note 3435199 .  Action: During the transition period, until TLS 1.3 is fully enabled by the end of June 2024, we recommend you verify your clients by connecting them to the following URL (applicable for TLS 1.3 and TLS 1.2): https://account.ca1.hana.ondemand.com/#/home/welcome.
+Action: Recommended
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-04-02
+Valid as Of: 2024-06-30
+Version: Cloud
+

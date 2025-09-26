@@ -1,0 +1,130 @@
+--- Record 2101 ---
+Component: Integration Advisor
+Environment: Cloud Foundry,Neo
+Title: Software Version Update
+Description:   SAP Integration Advisor: 1.92.*    Increment: 2409    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-10-26
+Valid as Of: 2024-10-26
+Version: 2409
+
+--- Record 2102 ---
+Component: Integration Advisor
+Environment: Cloud Foundry,Neo
+Title: Versioning a Global Code Value Mapping
+Description: Global Code Value mappings can now be activated providing consistency and standardized code-value associations.  See: Global Code Value Mapping
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-10-26
+Valid as Of: 2024-10-26
+Version: 2409
+
+--- Record 2103 ---
+Component: Integration Assessment
+Environment: Cloud Foundry
+Title: Software Version Update
+Description:     Integration Assessment: 1.33.*      Increment: 2409    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-10-26
+Valid as Of: 2024-10-26
+Version: 2409
+
+--- Record 2104 ---
+Component: Integration Suite General Features
+Environment: Cloud Foundry
+Title: Improved Scope for SAP Integration Suite, starter edition
+Description: The edition now supports the usage of OEM adapters from SAP Business Accelerator Hub.  For the detailed scope of the edition, see SAP Note 2903776.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-10-26
+Valid as Of: 2024-10-26
+Version: 2409
+
+--- Record 2105 ---
+Component: Migration Assessment
+Environment: Cloud Foundry
+Title: Assessment of Dual-Stack Scenarios
+Description: You can now use Migration Assessment to assess dual-stack scenarios.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-10-26
+Valid as Of: 2024-10-26
+Version: 2409
+
+--- Record 2106 ---
+Component: Migration Assessment
+Environment: Cloud Foundry
+Title: Software Version Update
+Description:     Migration Assessment: 1.33.*      Increment: 2409    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-10-26
+Valid as Of: 2024-10-26
+Version: 2409
+
+--- Record 2107 ---
+Component: Joule
+Environment: Cloud Foundry
+Title: Document Grounding Capability - SharePoint Granularity
+Description: The SharePoint granularity feature is now available with the document grounding capability. Use it to add specific SharePoint folders from the SharePoint site to the data pipeline. For more information, see Set Up Content Ingestion.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-11-27
+Valid as Of: 2024-10-25
+Version: Cloud
+
+--- Record 2108 ---
+Component: SAP Build
+Environment: Cloud Foundry
+Title: Control Tower - Custom Identity Provider
+Description: You can now use an optional setting to establish direct access to your BTP subaccount through a Custom Identity Provider.  See Tenant Configuration.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-10-25
+Valid as Of: 2024-10-25
+Version: Cloud
+
+--- Record 2109 ---
+Component: SAP Omnichannel Promotion Pricing
+Environment: Cloud Foundry
+Title: Create and Use Single-Code Coupons using Coupon Management Service
+Description: You can now manage the creation, maintenance, reservation, and redemption of SINGLECODE coupons using the Coupon Management service for SAP Omnichannel Promotion Pricing.There is only one coupon code associated with a single-code coupon. This code can be used as many times as defined in the coupon.For more information, see Coupon Management.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2022-01-01
+Valid as Of: 2024-10-24
+Version: Cloud
+
+--- Record 2110 ---
+Component: SAP Omnichannel Promotion Pricing
+Environment: Cloud Foundry
+Title: Product Search Using Description via Integration Flow
+Description: You can now search for products using their description even if the integration to your back-end system is done using integration flows.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2022-01-01
+Valid as Of: 2024-10-24
+Version: Cloud
+

@@ -1,0 +1,130 @@
+--- Record 4081 ---
+Component: Cloud Identity Services
+Environment: Other
+Title: Root Certificate Replacement
+Description: DigiCert has deprecated their DigiCert Global Root CA and will stop issuing certificates for SAP under any of its Intermediate CAs (ICA) at the end of 2023. For more information, see DigiCert root and intermediate CA certificate updates 2023.  SAP Cloud Identity Services switches to the G2 ICA and will deploy certificates signed by the new CA for the domains listed below starting in mid-November 2023. This means that the DigiCert Root CA domain certificate will be signed by DigiCert Global Root G2 instead of DigiCert Global Root CA. The following domains are affected:    *.accounts.ondemand.com      *.accounts.cloud.sap      *.accounts.sapcloud.cn      *.trial-accounts.ondemand.com      Action: If your SAP Cloud Identity Services tenants are running on any of the affected domains, ensure that you trust the new root CA: DigiCert Global Root G2.
+Action: Required
+Lifecycle: Deprecated
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2023-11-02
+Valid as Of: 2023-11-02
+Version: Cloud
+
+--- Record 4082 ---
+Component: Identity Provisioning
+Environment: Neo
+Title: Root Certificate Replacement
+Description: DigiCert has deprecated their DigiCert Global Root CA and will stop issuing certificates for SAP under any of its Intermediate CAs (ICA) at the end of 2023. For more information, see DigiCert root and intermediate CA certificate updates 2023.      If your tenant is running on SAP BTP, Neo environment and you are using Identity Provisioning proxy and real-time provisioning scenarios, ensure that you trust the new root CA: DigiCert Global Root G2. It replaces the old one DigiCert Global Root CA.   For more information, see Root Certificate Replacement.      If your tenant is running on SAP Cloud Identity Services infrastructure on the domains listed below, ensure that you trust the new root CA: DigiCert Global Root G2 starting in mid-November 2023:      *.accounts.ondemand.com      *.accounts.cloud.sap      *.accounts.sapcloud.cn      *.trial-accounts.ondemand.com          For more information, see Root Certificate Replacement in What's New for Identity Authentication.
+Action: Required
+Lifecycle: Deprecated
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2023-12-06
+Valid as Of: 2023-11-02
+Version: Cloud
+
+--- Record 4083 ---
+Component: Java Server
+Environment: Neo
+Title: Java Web Tomcat 8 is deprecated
+Description: [Periodic reminder] The Java Web Tomcat 8 runtime is deprecated following the official announcement of Apache Tomcat 8.5 end of life. After the end of 2023, we stop providing updates and security patches to it.  Required Action: If you have Java applications running on that runtime, migrate to Java Web Tomcat 9 by the end of 2023. See Migrating from Java Web Tomcat 8 to Java Web Tomcat 9.  For new Java applications, we recommend using Java Web Tomcat 9.
+Action: Required
+Lifecycle: Deprecated
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2023-11-02
+Valid as Of: 2023-11-02
+Version: Cloud
+
+--- Record 4084 ---
+Component: SAP BTP, Cloud Foundry Runtime
+Environment: Cloud Foundry
+Title: Deprecation of Weak Client Certificate Chains
+Description: This is a reminder that, as originally announced on May 18, 2023, we plan to harden the security standards on certain properties for client certificates and their certificate chains in November 2023 to further strengthen platform security.   We will do so by raising the OpenSSL security level to 2. This will result in weak certificates or certificate chains no longer being accepted by the platform. For more information and a full definition of security level 2, see https://help.sap.com/docs/link-disclaimer?site=https%3A%2F%2Fwww.openssl.org%2Fdocs%2Fman3.0%2Fman3%2FSSL_CTX_set_security_level.html%23DEFAULT-CALLBACK-BEHAVIOUR  The change will be rolled out gradually, starting with the region br10 on November 29 and the region eu20 on November 30, 2023. All other regions are planned to be updated in January 2024. Further details regarding the timelines for the remaining regions will be announced through this channel in a timely manner.  Note that this change only affects client certificates. If you do not use client certificates / mTLS to authenticate with the platform, you are not affected.  If you are using client certificates / mTLS, you can check your certificate chain using the following command:openssl verify -auth_level=2 -CAfile ./ca.pem -untrusted ./intermediate.pem ./cert.pem  For more details on the command, see SAP Note 3333978 .  Action:  Please contact the issuer of the certificate with the command you executed and the output you got and request a certificate that passes the verification.
+Action: Required
+Lifecycle: Deprecated
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2023-11-02
+Valid as Of: 2023-11-02
+Version: Cloud
+
+--- Record 4085 ---
+Component: SAP BTP, Cloud Foundry Runtime
+Environment: Cloud Foundry
+Title: Removal of .NET, Ruby, and R Buildpacks
+Description: This the final reminder that the .NET, Ruby, and R offline buildpacks have been deprecated and are scheduled to be removed from the SAP BTP, Cloud Foundry environment on November 16, 2023.  If you want to continue using these buildpacks after their removal, you can use the online community buildpacks by specifying their URLs in the code of your applications. For more information, see SAP Note 3364781 
+Action: Recommended
+Lifecycle: Deprecated
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2023-11-02
+Valid as Of: 2023-11-02
+Version: Cloud
+
+--- Record 4086 ---
+Component: Region
+Environment: Cloud Foundry
+Title: Additional NAT and LB IPs Added to Amazon Web Services Regions
+Description: Additional NAT and Load Balancer (LB) IP addresses were added on SAP BTP regions running on Amazon Web Services (AWS). The following regions are affected by this change:        br10 – Brazil (São Paulo)    jp10 – Japan (Tokyo)  ap10 – Australia (Sydney)  ap11 – Asia Pacific (Singapore)  ap12 – Asia Pacific (Seoul)  ca10 – Canada (Montreal)  eu10 – Europe (Frankfurt)  eu11 – Europe (Frankfurt)  us10 – US East (VA)      Action:  If your Cloud Foundry application connects to systems which restrict access by allowlisting IPs in firewall rules, make sure to adopt your configuration accordingly. The new IP addresses may be used at the end of Q1, 2024.   For details, see Regions and API Endpoints for the Cloud Foundry Environment.  In case of questions please contact SAP Support.
+Action: Required
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-11-02
+Valid as Of: 2023-11-02
+Version: Cloud
+
+--- Record 4087 ---
+Component: Service Manager
+Environment: Kubernetes
+Title: SAP BTP Service Operator - Fixed SAP Kubernetes Service Binding Specification
+Description: The Secret created for the service binding contains an instance name key in the service instance info section. This key uses the BTP name of the service binding, which is the value of the external_name property in the service binding spec. The external_instance_name key has been removed from the secret. For more info, see Formats of Secret Objects.
+Action: Required
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2023-10-11
+Valid as Of: 2023-11-02
+Version: Cloud
+
+--- Record 4088 ---
+Component: Java Server
+Environment: Neo
+Title: Tomcat version for Java Web Tomcat 8
+Description: Java Web Tomcat 8 (runtime version 3.190) has been updated to Tomcat version 8.5.95. The new version contains security fixes.   See the Changelog.  Recommended action: Update your applications to the latet runtime version.
+Action: Recommended
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2023-11-02
+Valid as Of: 2023-11-02
+Version: Cloud
+
+--- Record 4089 ---
+Component: Authorization and Trust Management Service
+Environment: Cloud Foundry,Kyma
+Title: Limits for Roles, Role Collections, Trust, and Service Broker Instances
+Description: There are limits that apply when you define roles, role collections, and trust configurations. Furthermore, the number of service broker instances is limited.  For more information, see Limits for Technical Artifacts of the SAP Authorization and Trust Management Service.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2023-10-19
+Valid as Of: 2023-11-02
+Version: Cloud
+
+--- Record 4090 ---
+Component: Automation Pilot
+Environment: Cloud Foundry
+Title: Generative AI Content Assistant (Beta)
+Description: You can now bootstrap your command and generate fully working DevOps and SRE automation flows by using the new generative AI feature integrated into SAP Automation Pilot. This is a beta feature. See Generative AI in SAP Automation Pilot (Beta).
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-11-02
+Valid as Of: 2023-11-02
+Version: Cloud
+

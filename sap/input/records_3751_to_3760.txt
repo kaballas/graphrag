@@ -1,0 +1,130 @@
+--- Record 3751 ---
+Component: Integration Advisor
+Environment: Cloud Foundry,Neo
+Title: Software Version Update
+Description:   SAP Integration Advisor: 1.82.*    Increment: 2312    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-01-20
+Valid as Of: 2024-01-20
+Version: 2312
+
+--- Record 3752 ---
+Component: Integration Advisor
+Environment: Cloud Foundry,Neo
+Title: Support of xsd:nillable in Custom Messages
+Description: Custom Messages now support xsd:nillable.  See: Custom Type Systems
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-01-20
+Valid as Of: 2024-01-20
+Version: 2312
+
+--- Record 3753 ---
+Component: Integration Assessment
+Environment: Cloud Foundry
+Title: Software Version Update
+Description:     Integration Assessment: 1.23.*    Increment: 2312  
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-01-20
+Valid as Of: 2024-01-20
+Version: 2312
+
+--- Record 3754 ---
+Component: Migration Assessment
+Environment: Cloud Foundry
+Title: Add System Version for SAP Process Orchestration Systems
+Description: When adding a new SAP Process Orchestration System, you can now select the system version, or have the application auto-detect it.  See Add an SAP Process Orchestration System.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-20
+Valid as Of: 2024-01-20
+Version: 2312
+
+--- Record 3755 ---
+Component: Migration Assessment
+Environment: Cloud Foundry
+Title: New Rules Added
+Description: The following rules have been added for Migration Assessment:      SenderMailPostprocessing: Evaluate the postprocessing steps (Delete, Mark as Read, Archive) of the mail sender adapter.      SenderMailTransportProtocol: Evaluate the mail protocol.      SenderRESTErrorHandling: Evaluate the error handling of the sender REST adapter.    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-20
+Valid as Of: 2024-01-20
+Version: 2312
+
+--- Record 3756 ---
+Component: Migration Assessment
+Environment: Cloud Foundry
+Title: Software Version Update
+Description:     Migration Assessment: 1.23.*      Increment: 2312    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-20
+Valid as Of: 2024-01-20
+Version: 2312
+
+--- Record 3757 ---
+Component: Trading Partner Management
+Environment: Cloud Foundry
+Title: Create an Agreement
+Description: With alias based configuration of agreement templates, you can now choose to copy or reference the B2B Scenarios while creating an agreement.  See: Trading Partner Agreement  
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-01-20
+Valid as Of: 2024-01-20
+Version: 2312
+
+--- Record 3758 ---
+Component: Trading Partner Management
+Environment: Cloud Foundry
+Title: Migrate an Agreement
+Description: With the introduction of Creation Mode in agreements, you need to migrate your old agreements to the new format to continue editing/copying.  See: Migrating an Agreement
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-01-20
+Valid as Of: 2024-01-20
+Version: 2312
+
+--- Record 3759 ---
+Component: Trading Partner Management
+Environment: Cloud Foundry
+Title: Software Version Update
+Description:   SAP Cloud Integration: 6.44.*  Increment: 2312  
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-01-20
+Valid as Of: 2024-01-20
+Version: 2312
+
+--- Record 3760 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Build API Actions from Scratch
+Description: We have introduced a new option called Build from Scratch, which allows you to easily create API actions from scratch, providing a more flexible and customized experience.  For more information about creating a custom action project, see   .
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-19
+Valid as Of: 2024-01-19
+Version: Cloud
+

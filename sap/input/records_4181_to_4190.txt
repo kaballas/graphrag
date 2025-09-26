@@ -1,0 +1,130 @@
+--- Record 4181 ---
+Component: Mobile Services
+Environment: Cloud Foundry
+Title: Supported versions for Cloud Build Service
+Description: We've updated the supported versions for the Cloud Build service:    October 2023 - Mobile Development Kit SDK version, Android and iOS versions, and notes      September 2023 - Mobile Development Kit SDK version, Android and iOS versions, and notes      August 2023      Mobile Development Kit SDK version, iOS version, and notes      SAP Asset Manager SDK version, Android and iOS versions, and notes          See Supported Build Types, Client Types, Packaging Details, and Build Options  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2023-10-18
+Version: Cloud
+
+--- Record 4182 ---
+Component: Mobile Services
+Environment: Neo
+Title: Supported versions for Cloud Build Service
+Description: We've updated the supported versions for the Cloud Build service:    October 2023 (2305 PL06)    Fiori Packaged UI5 version and iOS version      Custom Fiori Client iOS version      Mobile Development Kit SDK version, iOS versions and notes          September 2023 (2305 PL05)    Fiori Packaged SDK version and iOS version      Custom Fiori Client SDK version and iOS version      Mobile Development Kit SDK version and notes          August 2023 (2305 PL04): Mobile Development Kit SDK version, iOS version, and notes      See Supported Build Types, Client Types, Packaging Details, and Build Options  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2023-10-18
+Version: Cloud
+
+--- Record 4183 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Change Agent Groups to the Any Type
+Description: You can change agent groups from type Login or Machine to type Any to make their content easier to manage.  See Change Agent Groups to the Any Type.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2023-10-17
+Valid as Of: 2023-10-17
+Version: Cloud
+
+--- Record 4184 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Change Language and Theme in Desktop Agent 3
+Description: You can now change the language and theme in desktop agent 3 under System /Settings. You can also rearrange the columns in the trace viewer by right-clicking on the respective column.  See Accessibility Features for Desktop Agent 3.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2023-10-17
+Valid as Of: 2023-10-17
+Version: Cloud
+
+--- Record 4185 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Without Excel Application Activities
+Description: Without Excel application activities are a subset of activities inside MS Excel SDK. You can now use these activities even if you don't have the MS Excel application. See Without Excel Application Activities.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-10-17
+Valid as Of: 2023-10-17
+Version: Cloud
+
+--- Record 4186 ---
+Component: SAP Intelligent Robotic Process Automation
+Environment: Cloud Foundry
+Title: Configuring Web Browsers
+Description: Our mutation observer is now improved to detect webpage unloads in the Chrome or Edge browser. See Configuring Web Browsers.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2023-10-17
+Valid as Of: 2023-10-17
+Version: Cloud
+
+--- Record 4187 ---
+Component: SAP Intelligent Robotic Process Automation
+Environment: Cloud Foundry
+Title: Without Excel Application Activities
+Description: Without Excel application activities are a subset of activities inside MS Excel SDK. You can now use these activities even if you don't have the MS Excel application. See Without Excel Application Activities.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-10-17
+Valid as Of: 2023-10-17
+Version: Cloud
+
+--- Record 4188 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: New SAP Fiori UI5 Theme: Horizon
+Description: With this release, only the following themes are supported in SAP Build Process Automation for Lobby, Store, Monitor, and Settings:    Morning Horizon    Evening Horizon  Horizon High Contrast White  Horizon High Contrast Black   
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-10-16
+Valid as Of: 2023-10-16
+Version: Cloud
+
+--- Record 4189 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Deletion of APIRule in version v1alpha1
+Description: APIRule in version v1alpha1 has been deprecated since Kyma 2.5, and its end of life is planned for Kyma 2.19. Migrate your APIRules to v1beta1.   To do that, you must change the apiVersion field of your existing APIRule custom resources to gateway.kyma-project.io/v1beta1. Read the APIRule CR documentation to learn more about the specification of each version.
+Action: Required
+Lifecycle: Deleted
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2023-09-05
+Valid as Of: 2023-10-14
+Version: Cloud
+
+--- Record 4190 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Deletion of the Cluster Users component
+Description: The Cluster Users component has been deprecated since Kyma 2.7 and will be removed with Kyma 2.19. The component includes predefined Kubernetes ClusterRoles such as kyma-admin, kyma-namespace-admin, kyma-edit, kyma-developer, kyma-view, and kyma-essentials. These Roles specify permissions for accessing Kyma resources that you can assign to users. For example, if you bind a user to the kyma-admin ClusterRole, it grants them full admin access to the entire cluster, and if you bind a user to the kyma-view ClusterRole, they are only allowed to view and list the resources within the cluster. Once the component is removed, these Roles will no longer be available for newly created clusters. This means that you won’t be able to use these predefined sets of rights and will be required to specify yourself which users or groups should have access to which of your resources. However, for clusters created before the release of Kyma 2.19, the already-defined Roles will not be deleted.  Action: Learn how to Assign Roles in the Kyma Environment. After the deletion of the Kyma 2.19 release, you will be required to model access rights to Kyma resources yourself instead of using the predefined permissions provided by the Cluster Users component. 
+Action: Required
+Lifecycle: Deleted
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2023-09-05
+Valid as Of: 2023-10-14
+Version: Cloud
+

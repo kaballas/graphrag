@@ -1,0 +1,130 @@
+--- Record 3501 ---
+Component: Cloud Management Tools,SAP BTP Cockpit
+Environment: ABAP,Cloud Foundry,Kyma,Neo,Other
+Title: Usability Enhancements Added to SAP BTP Cockpit "Entitlements" Pages
+Description: We've made several improvements to the Entitlements  Entity Assignments and Entitlements  Service Assignments in SAP BTP cockpit to enhance usability when managing service assignments in your global account.      Changed layout in Entity Assignments page: The Entity Assignments page now offers two views (tabs):      Manage Assignments: This is where global account admins can distribute the entitled service plans of their global account to subaccounts and directories. The functionality remains the same as before, except for the Configure Entitlements button that has been renamed to Edit.    View Commercial Information: This new tab allows global account admins and viewers to view the commercial source of their entitlements. This feature is not available for trial accounts.        Changed layout in Service Assignments page: The Service Overview option has been moved out of the Service dropdown menu and now has its own All Services view (tab) in the Service Assignments page. As a result, the Service Assignments page now has two views (tabs):      All Services: Provides an overview of all available service entitlements of your global account.      Assignments by Service: Allows you to choose specific services and see how their service plans are assigned to subaccounts and directories within your global account.          Improved visibility of free service plans: When configuring assignments in the Entity Assignments page, the Add Service Plans dialog box now displays the "Always Free" and "Free Tier" labels for service plans falling into these categories. This enhancement allows you to easily identify which plans are not charged for consumption.      Enhanced Service Assignments page: In the Service Assignments page, under the All Services view, we have added a new column called Assigned To. It shows you the total number of directories and subaccounts to which each service plan is assigned in your global account. You can click on the links in this column to quickly navigate to the selected service view and display more details about these assignments.      Access to service-related links: Documentation links, support info links, and SAP Discovery Center links, have been added when available. These links can be accessed in the Add Service Plans dialog box in the Entity Assignments page and in the main table of both Entitlements pages by clicking on the new    (Service Details) icon for any service listed under the Service Technical Name column.      Improved search functionality: In both Entitlements pages, the Search field has been relocated to the top of the page. You can now search for more than one term. Also, when you start typing, you get a list of suggestions. This change makes it more convenient for you to quickly search for specific entitlements or services.      New Plan Display Name column: We've added a new Plan Display Name column to both Entitlements pages. By default, this column is hidden, but you can choose to display it if needed.      See Managing Entitlements and Quotas Using the Cockpit, Configure Entitlements and Quotas for Directories, and Configure Entitlements and Quotas for Subaccounts.  Read also the SAP BTP Cockpit - Commercial Information in SAP BTP Cockpit "Entitlements" Pages blog.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-02-22
+Valid as Of: 2024-02-22
+Version: Cloud
+
+--- Record 3502 ---
+Component: Cloud Portal Service
+Environment: Cloud Foundry
+Title: Explore Role Assignments
+Description: A new capability is now available in the Settings  Identity Provisioning screen of the Site Manager, which allows the administrator to explore all the roles that were assigned to specific users and provisioned by the Identity Provisioning service.  The roles returned by the search include the content roles, which are also available in the Content Manager table, as well as assigned Derived roles and Composite roles which are not visible in the Content Manager table.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-02-15
+Valid as Of: 2024-02-22
+Version: Cloud
+
+--- Record 3503 ---
+Component: Foundational Services
+Environment: ABAP,Cloud Foundry,Kyma,Other
+Title: Pattern for Naming Applications in Identity Authentication When Subscribing Applications
+Description: Some applications also create an application in SAP Cloud Identity Services - Identity Authentication when you subscribe to the application. The pattern used to create the display name of these applications has changed.      Old pattern: <Name defined by application>      New pattern: <Name defined by application>  (<subaccount_display_name>)      This change has no impact on existing applications created by subscriptions.  For more information, see Change an Application's Display Name.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-02-22
+Valid as Of: 2024-02-22
+Version: Cloud
+
+--- Record 3504 ---
+Component: Object Store
+Environment: Cloud Foundry,Kyma
+Title: AWS: Auto-expiration rules deletion capability
+Description: Option to delete an auto-expiration rule is now available.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-02-22
+Valid as Of: 2024-02-22
+Version: Cloud
+
+--- Record 3505 ---
+Component: Object Store
+Environment: Cloud Foundry,Kyma
+Title: Instance Sharing
+Description: Instance Sharing can be enabled on an objectstore instance of ‘standard’ plan. Please refer Instance Sharing for more details.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-02-22
+Valid as Of: 2024-02-22
+Version: Cloud
+
+--- Record 3506 ---
+Component: SAP Alert Notification Service
+Environment: Cloud Foundry
+Title: New SAP HANA Cloud Service Database Events
+Description: You can now use the newly supported HDB Free Tier Instance Expiration and Data Lake Free Tier Instance Expiration events.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-02-22
+Valid as Of: 2024-02-22
+Version: Cloud
+
+--- Record 3507 ---
+Component: SAP BTP, Cloud Foundry Runtime
+Environment: Cloud Foundry
+Title: Version 37.0.0
+Description: Cloud Foundry has been updated from version 36.0.0 to 37.0.0.  https://github.com/cloudfoundry/cf-deployment/releases/tag/v37.0.0  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-02-22
+Valid as Of: 2024-02-22
+Version: Cloud
+
+--- Record 3508 ---
+Component: SAP Build Apps
+Environment: Cloud Foundry
+Title: Web & Mobile
+Description:   Corrected the order of component versions in the Marketplace.  Improved the operation speed of Preview.  
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2024-02-22
+Version: Cloud
+
+--- Record 3509 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Escalation and Timer Events in the Process Editor
+Description: You can raise escalation events from anywhere in your business process.  You can handle escalation events in the parent process of your business process. In addition, you can catch escalation events from workflows that you added as subprocesses.  The timer events can be handled by a parent process or by a user task, that is, an approval form or a form.  See:    Raise an Escalation Event      Handle Events Using the Parent Process      Handle Timer Events with a Form or Approval    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-02-22
+Valid as Of: 2024-02-22
+Version: Cloud
+
+--- Record 3510 ---
+Component: SAP Build Work Zone, advanced edition
+Environment: Cloud Foundry
+Title: Explore Role Assignments
+Description: A new capability is now available in the Settings  Identity Provisioning screen of the Site Manager, which allows the administrator to explore all the roles that were assigned to specific users and provisioned by the Identity Provisioning service.  The roles returned by the search include the content roles, which are also available in the Content Manager table, as well as assigned Derived roles and Composite roles which are not visible in the Content Manager table.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-02-15
+Valid as Of: 2024-02-22
+Version: Cloud
+

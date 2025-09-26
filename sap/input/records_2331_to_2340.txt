@@ -1,0 +1,130 @@
+--- Record 2331 ---
+Component: SAP Build Work Zone, advanced edition
+Environment: Cloud Foundry
+Title: Transporting a Local App with a Card Visualization
+Description: It is now possible to transport a local app with a card visualization between landscapes.  Note  This is not relevant to standalone cards.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-09-19
+Valid as Of: 2024-09-19
+Version: 2409A
+
+--- Record 2332 ---
+Component: SAP Build Work Zone, standard edition
+Environment: Cloud Foundry
+Title: Sorting Local Pages
+Description: Sorting local pages created in the Content Manager are sorted by ID.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-09-19
+Valid as Of: 2024-09-19
+Version: 2409A
+
+--- Record 2333 ---
+Component: SAP Build Work Zone, standard edition
+Environment: Cloud Foundry
+Title: Transporting Spaces and Pages
+Description: It is now possible to transport spaces and pages between landscapes.  For more information, see Before Transporting Content - Important Rules and Guidelines.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-09-19
+Valid as Of: 2024-09-19
+Version: 2409A
+
+--- Record 2334 ---
+Component: SAP Document and Reporting Compliance, Cloud Edition
+Environment: Kyma
+Title: Integration of the EC Sales List (United Kingdom) Process with SAP S/4HANA Cloud Public Edition
+Description: You use this process to report your sales to other European Union Countries to Her Majesty's Revenue and Customs (HMRC), the tax authority in the UK.  See Supported Compliance Tasks.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: nan
+Valid as Of: 2024-09-19
+Version: Cloud
+
+--- Record 2335 ---
+Component: SAP Document and Reporting Compliance, Cloud Edition
+Environment: Kyma
+Title: Integration of the ECSL and VAT Return (Netherlands) Process with SAP S/4HANA Cloud Public Edition
+Description: You use this process to report the following to Belastingdienst, the tax authority in the Netherlands:    Your cross-border sales with other European Union countries      How much VAT you charged and paid to other businesses      See Supported Compliance Tasks.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: nan
+Valid as Of: 2024-09-19
+Version: Cloud
+
+--- Record 2336 ---
+Component: SAP Document and Reporting Compliance, Cloud Edition
+Environment: Kyma
+Title: Integration of the EFD-Reinf (Brazil) Process with SAP S/4HANA Cloud Public Edition
+Description: You use this process to submit the EFD-Reinf report to the tax authorities in Brazil.  See Supported Compliance Tasks.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: nan
+Valid as Of: 2024-09-19
+Version: Cloud
+
+--- Record 2337 ---
+Component: SAP Document and Reporting Compliance, Cloud Edition
+Environment: Kyma
+Title: Integration of the GST Return (Singapore) Process with SAP S/4HANA Cloud Public Edition
+Description: You use this process to report the goods and services tax (GST) to the Inland Revenue Authority of Singapore (IRAS), and communicate how much GST you charged and how much you paid to other businesses.  See Supported Compliance Tasks.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: nan
+Valid as Of: 2024-09-19
+Version: Cloud
+
+--- Record 2338 ---
+Component: SAP Document and Reporting Compliance, Cloud Edition
+Environment: Kyma
+Title: Integration of the Supplier E-Invoices (Serbia) Process with SAP S/4HANA or SAP S/4HANA Cloud Private Edition
+Description: You use this process to receive electronic documents from suppliers through the Serbian tax authority portal System e-Faktura (SEF).  See Supported Compliance Tasks.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: nan
+Valid as Of: 2024-09-19
+Version: Cloud
+
+--- Record 2339 ---
+Component: SAP Document and Reporting Compliance, Cloud Edition
+Environment: Kyma
+Title: Integration of the Withholding Taxes (United Kingdom) Process with SAP S/4HANA Cloud Public Edition
+Description: You use this process to submit the withholding tax declaration to Her Majesty's Revenue and Customs (HMRC), the tax authority in the UK.  See Supported Compliance Tasks.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: nan
+Valid as Of: 2024-09-19
+Version: Cloud
+
+--- Record 2340 ---
+Component: SAP Java Buildpack
+Environment: Cloud Foundry
+Title: Version 1.103.0
+Description: SAP Java Buildpack 1 has been updated from version 1.102.0 to 1.103.0. Updated components:      DSR is removed from SAP Java Buildpack 1      PostgreSQL JDBC Driver (postgresql.version) is updated from 42.7.3 to 42.7.4      commons-compress is updated from version 1.26.3 to 1.27.1      com.sap.xs.onpremise.runtime is updated from version 1.2.4 to 1.2.5    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-09-03
+Valid as Of: 2024-09-19
+Version: Cloud
+

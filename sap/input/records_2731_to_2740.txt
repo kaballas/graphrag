@@ -1,0 +1,130 @@
+--- Record 2731 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: Schema Description and Schema Field Description
+Description: We’ve increased the maximum length of the following strings to 500 characters:  schemaDescription  schema field description    See Create Schema and Add Fields to Schema Version.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Intelligent Technologies
+Latest Revision: 2024-07-08
+Valid as Of: 2024-07-08
+Version: Cloud
+
+--- Record 2732 ---
+Component: SAP Document and Reporting Compliance, Cloud Edition
+Environment: Kyma
+Title: Integration of the Structural Business Statistics (Austria) Process with SAP S/4HANA or SAP S/4HANA Cloud Private Edition
+Description: You use this process to communicate with the Austrian authorities to provide data for the Structural Business Statistics survey.  See Supported Compliance Tasks.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: nan
+Valid as Of: 2024-07-08
+Version: Cloud
+
+--- Record 2733 ---
+Component: Credential Store
+Environment: Cloud Foundry,Kyma
+Title: CMK Encryption Details
+Description: You can now view the encryption details of your customer-managed keys (CMK) in the SAP Credential Store user interface See:       Customer-Managed Keys (CMK)      View CMK Encryption Details    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-06-28
+Valid as Of: 2024-07-05
+Version: Cloud
+
+--- Record 2734 ---
+Component: Object Store
+Environment: Cloud Foundry,Kyma
+Title: Role-based service bindings on AWS
+Description: Object Store Service now supports read and write role based service binding credentials. Please refer the section Role-based Bindings and Service-keys for more details.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-07-04
+Valid as Of: 2024-07-04
+Version: Cloud
+
+--- Record 2735 ---
+Component: Decentralized Identity Verification
+Environment: Cloud Foundry
+Title: Adding the New Revocation Type - BitstringStatusList
+Description: Revocation lists can be created with the new BitstringStatusList revocation list type.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2024-07-03
+Version: 3.0
+
+--- Record 2736 ---
+Component: Decentralized Identity Verification
+Environment: Cloud Foundry
+Title: Supporting Additional Signing Algorithms
+Description: You can now select the following signing algorithms: ES256K, ES256, ES384, Ed25519, PS256
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2024-07-03
+Version: 3.0
+
+--- Record 2737 ---
+Component: Java Library
+Environment: Cloud Foundry
+Title: Supporting Trust Lists
+Description: The Java library allows you to create, delete, and update trust lists.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2024-07-03
+Version: 3.0
+
+--- Record 2738 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Telemetry module: Update to version 1.17
+Description: Version 1.17.0 brings the following improvements:      Telemetry Manager now checks the health of the data flow in agents and gateways, and reports it to the pipeline resources under the new status condition TelemetryFlowHealthy. With this, you can easily detect if there are problems with the data flow for logs, traces, and metrics; for example, caused by unavailability of backends (#425).      For better usability and consistency, we've extended the reasons and messages for status conditions (#1023).      Metrics: Metrics provided using a MetricPipeline input now have a well-defined OTEL instrumentationScope version attribute defined to identify the Telemetry module's version as origin of the metric (#1000).      Metrics, Traces: Update to OTel Collector version 0.100.0 (#1085).      Version 1.17.1 brings the following improvements:      The new version addresses vulnerability CVE-2024-36129 by updating OTel Collector to version 0.102.1 (#1158).    We fixed a bug that prevented accessing the Telemetry module configuration in the Kyma dashboard (#1140).  
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-07-11
+Valid as Of: 2024-07-03
+Version: Cloud
+
+--- Record 2739 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Telemetry module: Update to version 1.18.0
+Description: The new version brings the following improvements:      Logs, Metrics, and Traces: The pipeline status shows whether the certificate is invalid or expired, based on the ca field in a pipeline TLS section (#1065).      Logs: Update to Fluent Bit 3.0.7 (#1169).    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-06-18
+Valid as Of: 2024-07-03
+Version: Cloud
+
+--- Record 2740 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: BAPI Overview and BAPI Action Group Overview
+Description: The BAPI method is now available for use in an automation for Agent 3 x64bit. See BAPI Overview.  The BAPI Action Group for Agent 3 x64bit is now available for use. See BAPI Action Group Overview.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-07-03
+Valid as Of: 2024-07-03
+Version: Cloud
+

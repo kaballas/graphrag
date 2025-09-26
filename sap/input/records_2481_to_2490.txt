@@ -1,0 +1,130 @@
+--- Record 2481 ---
+Component: SAP Advanced Financial Closing
+Environment: Cloud Foundry
+Title: Task Deactivation Action in Task Details
+Description: You can now also deactivate or reactivate a task directly in the task details.  More information:  How to Deactivate and Activate Tasks  App affected:  Manage Closing Task Lists
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Finance
+Latest Revision: 2024-08-02
+Valid as Of: 2024-08-18
+Version: Cloud
+
+--- Record 2482 ---
+Component: SAP Advanced Financial Closing
+Environment: Cloud Foundry
+Title: Use of Comments for Documentation Feedback
+Description: You can now add comments directly on SAP Help Portal to provide feedback about the documentation of SAP Advanced Financial Closing.  More information:  Giving Documentation Feedback on SAP Help Portal  Creating Better Documentation Together: SAP Help Portal’s New Approach to Collaboration and Feedback    Documentation affected: All guides except for the Administration Guide
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Finance
+Latest Revision: 2024-08-02
+Valid as Of: 2024-08-18
+Version: Cloud
+
+--- Record 2483 ---
+Component: SAP Advanced Financial Closing
+Environment: Cloud Foundry
+Title: User Role Details Page Updated
+Description: The appearance of the user role details page in the Manage User Roles app has been changed to make it more intuitive:  Some information has been relocated within the page.  The Edit button has been moved to the General Information section and renamed as Edit General Information.  Administrative information has been moved to the General Information section.    App affected:  Manage User Roles
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Finance
+Latest Revision: 2024-08-02
+Valid as Of: 2024-08-18
+Version: Cloud
+
+--- Record 2484 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: ABAP Development Tools for Eclipse: Deprecated Business Catalog for Analytical Queries
+Description: The business catalog SAP_A4C_BC_DEV_PC used for the preview of analytical queries will be removed. Please use its successor BC SAP_A4C_BC_DEV_DAT_PRV_PC instead. Both business catalogs require the Developer business role.
+Action: Info only
+Lifecycle: Deprecated
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-08-16
+Valid as Of: 2024-08-16
+Version: ABAP Environment 2408
+
+--- Record 2485 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Custom Business Configurations: Recreation of Variants Needed
+Description: You need to recreate variants for the list report of the Fiori app Custom Business Configurations due to a change in the persistence key.  For more information, see SAP note: 3486327 .
+Action: Recommended
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-08-16
+Valid as Of: 2024-08-16
+Version: ABAP Environment 2408
+
+--- Record 2486 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: ABAP Development Tools for Eclipse: ABAP Debugger: Variables with Hidden Values
+Description: In the ABAP Debugger, the variable values with a type that is based on the domains XUBCODE, RSECDATA or DISPLAY_PROTECTED_STRING/DISPLAY_PROTECTED_XSTRING, are now hidden in the Variables view and in the ABAP Internal Table (Debugger) view. The values, for example of passwords or other sensitive data, will then be displayed as ******** or DEADDA7A.  See Symbols with Hidden Content.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-08-16
+Valid as Of: 2024-08-16
+Version: ABAP Environment 2408
+
+--- Record 2487 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: ABAP Development Tools for Eclipse: Assigning Fiori Space Templates to Business Role Templates
+Description: You can now assign Fiori Space templates to business role templates. When a business role is created from a business role template, the related Fiori Spaces are assigned.  See Working with Business Role Template Launchpad Space Template Assignments.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-08-16
+Valid as Of: 2024-08-16
+Version: ABAP Environment 2408
+
+--- Record 2488 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: ABAP Development Tools for Eclipse: ATC Checks now Support List of Classic APIs
+Description: Should released APIs for ABAP Cloud be missing, the ABAP Extensibility Guide recommends creating a custom API wrapper. The ATC checks “Usage of Released APIs” and “Usage of Released APIs (Cloudification Repository)”, which are classic APIs that are recommended to be used in a wrapper, were adjusted. If you're using a SAP BTP ABAP environment system as your central ATC check system, no ATC error is shown in case an API classified as classic is used in custom code. Instead, you’ll only receive a warning.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-08-16
+Valid as Of: 2024-08-16
+Version: ABAP Environment 2408
+
+--- Record 2489 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: ABAP Development Tools for Eclipse: Browser for Cloudification Repository Content
+Description: You can now browse through the content of the Cloudification Repository on GitHub.  See Cloudification Repository Viewer.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-08-16
+Valid as Of: 2024-08-16
+Version: ABAP Environment 2408
+
+--- Record 2490 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: ABAP Development Tools for Eclipse: Communication Targets for HTTP Outbound Communication
+Description: The usage of the new application destinations via outbound services of type communication target is recommended when developing a new application with HTTP outbound communication. This enables developers to define and control which applications can use a particular application destination.  See Working with Communication Targets.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-08-16
+Valid as Of: 2024-08-16
+Version: ABAP Environment 2408
+

@@ -1,0 +1,130 @@
+--- Record 991 ---
+Component: Data Space Integration
+Environment: Cloud Foundry
+Title: Assignees Column Available in Company Policies
+Description: In the list of company policies (Configure  Data Spaces), the column Assignees now shows you how many clients are already assigned to the company policy.  See Create and Edit Company Policies.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-05-04
+Valid as Of: 2025-05-04
+Version: 2503
+
+--- Record 992 ---
+Component: Data Space Integration
+Environment: Cloud Foundry
+Title: Software Version Update
+Description: The following are the latest versions in Data Space Integration:      Data Space Integration: 1.8.*      Increment: 2503      Tractus-X Eclipse Dataspace Connector: 0.7.6      FOSS Eclipse Dataspace Components: 0.7.2      See also the Release Notes of Catena-X. 
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-05-04
+Valid as Of: 2025-05-04
+Version: 2503
+
+--- Record 993 ---
+Component: Integration Advisor
+Environment: Cloud Foundry,Neo
+Title: Mass Validate XSLT Snippets
+Description: You can now mass validate all your XSLT snippets inside your mapping guideline (MAG). See Working with a Mapping Guideline (MAG).  As Cloud Integration (standalone) customer, see Working with a Mapping Guideline (MAG).
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-05-04
+Valid as Of: 2025-05-04
+Version: 2503
+
+--- Record 994 ---
+Component: Integration Advisor
+Environment: Cloud Foundry,Neo
+Title: Software Version Update
+Description:   SAP Integration Advisor: 1.99.*    Increment: 2503    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-05-04
+Valid as Of: 2025-05-04
+Version: 2503
+
+--- Record 995 ---
+Component: Integration Advisor
+Environment: Cloud Foundry,Neo
+Title: Use Full or Reduced Message XSD File
+Description: In your message implementation guideline (MIG) for EDI type systems, you can now choose if you want to use the full or a reduced message XSD file. The message XSD file is used in the EDI flow steps. For new MIGs, the default is the full XSD file, whereas existing MIGs continue to use reduced XSD files for compatibility reasons. See Exporting Runtime Artifacts.  As Cloud Integration (standalone) customer, see Exporting Runtime Artifacts. 
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-05-04
+Valid as Of: 2025-05-04
+Version: 2503
+
+--- Record 996 ---
+Component: Trading Partner Management
+Environment: Cloud Foundry
+Title: Configuring Interchange Number for Functional Acknowledgment
+Description: You can now configure the interchange number while you're creating a new functional acknowledgment.   See Creating a B2B Transaction.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-05-04
+Valid as Of: 2025-05-04
+Version: 2503
+
+--- Record 997 ---
+Component: Trading Partner Management
+Environment: Cloud Foundry
+Title: Software Version Update
+Description:   SAP Cloud Integration: 6.65.*  Increment: 2503  
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-05-04
+Valid as Of: 2025-05-04
+Version: 2503
+
+--- Record 998 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Referenced SAPUI5 Version
+Description: As part of hotfix collection 2 (which is used for the pre-upgrade only), SAPUI5 version 1.133.1 is used for the administrator’s SAP Fiori launchpad, SAP-delivered Fiori apps, and the custom-built SAP Fiori apps, which are deployed to the ABAP system.  See SAP BTP ABAP Environment – Maintenance Windows and Major Upgrade Windows in 2025 and SAP UI5
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-05-02
+Valid as Of: 2025-05-02
+Version: ABAP Environment 2505
+
+--- Record 999 ---
+Component: Connectivity
+Environment: Cloud Foundry
+Title: Destination Service - New Feature
+Description: The Destination service is now able to accept user tokens, issued by third-party OAuth servers, with a custom type (“typ”) header (property   x_user_token.header.typ).  For more information, see:    OAuth SAML Bearer Assertion Authentication    OAuth JWT Bearer Authentication  OAuth User Token Exchange Authentication    SAML Assertion Authentication  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-05-02
+Valid as Of: 2025-05-02
+Version: Cloud
+
+--- Record 1000 ---
+Component: SAP Document and Reporting Compliance, Cloud Edition
+Environment: Kyma
+Title: Integration of the Peppol Exchange Process with SAP Ariba Central Invoice Management Enabled for Ireland
+Description: In Test subaccounts, buyers that use SAP Ariba Central Invoice Management can use the Peppol Exchange  process to receive invoices from the Peppol network, provided both the buyer and supplier are registered with the Peppol network.  Supported electronic documents: invoices, credit memos.  See Supported Compliance Tasks
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: nan
+Valid as Of: 2025-05-02
+Version: Cloud
+

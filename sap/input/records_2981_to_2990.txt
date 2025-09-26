@@ -1,0 +1,130 @@
+--- Record 2981 ---
+Component: Joule
+Environment: Cloud Foundry
+Title: New Conversational Pattern and Use Cases Now Supported in SAP SuccessFactors
+Description: We now provide 25 new transactional cases, including "create position" and "generate compensation insights", and support the navigational pattern with 40 use cases, such as "create time off" and "view performance goals".
+Action: Recommended
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-05-17
+Valid as Of: 2024-05-17
+Version: Cloud
+
+--- Record 2982 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: ABAP Development Tools for Eclipse: ABAP Contract Check Violations Feed
+Description: The ABAP Contract Check Violations feed is now also available for the Cloud. In this feed, you can configure the feed query to display all contract check violations found by the RAP runtime.  See ABAP Contract Check Violations Feed.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-05-17
+Valid as Of: 2024-05-17
+Version: ABAP Environment 2405
+
+--- Record 2983 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: ABAP Development Tools for Eclipse: Application Job Catalog Entries Editor
+Description: You can now display sections, groups, and parameters of application job catalog entries and synchronize the parameter list of the application job catalog entries with the corresponding ABAP class.  See Working with Application Job Catalog Entries.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-05-17
+Valid as Of: 2024-05-17
+Version: ABAP Environment 2405
+
+--- Record 2984 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: ABAP Development Tools for Eclipse: ATC Checks for Knowledge Transfer Documents
+Description: There are now several ATC checks to ensure the quality of Knowledge Transfer Documents.  See Knowledge Transfer Documents.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-05-17
+Valid as Of: 2024-05-17
+Version: ABAP Environment 2405
+
+--- Record 2985 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: ABAP Development Tools for Eclipse: Clear Console When Running an ABAP Application
+Description: You now have the option to clear the console of previously displayed content when running an ABAP application in the ABAP development tools for Eclipse.  See  Running an ABAP Program (Console).
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-05-17
+Valid as Of: 2024-05-17
+Version: ABAP Environment 2405
+
+--- Record 2986 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: ABAP Development Tools for Eclipse: Display Remote ATC Runs from SAP BTP in ABAP Development Tools for Eclipse
+Description: It's now possible to display the results of an ATC mass run performed via theCustom Code Migration app in SAP BTP in the ATC result browser.  See  Working with the ATC Result Browser.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-05-15
+Valid as Of: 2024-05-17
+Version: ABAP Environment 2405
+
+--- Record 2987 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: ABAP Development Tools for Eclipse: Displaying Failed Assertions and Status of Test Methods
+Description: You can now display failed assertions and status of unit test methods directly in the source code editor.  See Evaluating ABAP Unit Test Results.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-05-17
+Valid as Of: 2024-05-17
+Version: ABAP Environment 2405
+
+--- Record 2988 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: ABAP Development Tools for Eclipse: Exporting an ABAP Runtime Error as ZIP File
+Description: You can now export short dumps as ZIP file on your local drive. This enables you to copy and share its content with your team or SAP.  To export, open the short dump in the ABAP Runtime Error viewer and choose the Export icon from the integrated toolbar and save it on the relevant drive.  See Exporting an ABAP Runtime Error as ZIP File.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-05-17
+Valid as Of: 2024-05-17
+Version: ABAP Environment 2405
+
+--- Record 2989 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: ABAP Development Tools for Eclipse: Handling Issues Relating to Authorization Checks of Authorization Object S_DEVELOP
+Description: The back-end and related APIs perform authorization checks in order to protect the ABAP Repository against unauthorized changes. Depending on the respective authorizations given to the respective role or user, this may result in error messages about missing authorizations.  Now, the authority checks are performed in a more consistent way.  See SAP note 3441852  Consistent use of the 'activity' in authorization checks against authorization object S_DEVELOP.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-05-17
+Valid as Of: 2024-05-17
+Version: ABAP Environment 2405
+
+--- Record 2990 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: ABAP Development Tools for Eclipse: Improvements for Better Handling of Large ABAP Traces
+Description: You can now minimize and restructure the number of levels how a call is displayed in the Aggregated Call Tree. Select the call in the Aggregated Call Tree and choose Set as New Root from the context menu. The call and the tree of its subsequent calls will then be displayed in a clear way.  See Analyzing Trace Events in the Aggregated Call Tree.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-05-17
+Valid as Of: 2024-05-17
+Version: ABAP Environment 2405
+

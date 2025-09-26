@@ -1,0 +1,130 @@
+--- Record 4151 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: Better Model for the Extraction of invoice Documents
+Description: The machine learning model for the extraction of invoice documents has been improved. The improvements include better extraction results for date fields.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2023-10-23
+Valid as Of: 2023-10-23
+Version: Cloud
+
+--- Record 4152 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: Better Model for the Extraction of paymentAdvice Documents
+Description: The machine learning model for the extraction of paymentAdvice documents has been improved. The improvements include better extraction results for date fields, and amount fields in line items.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2023-10-23
+Valid as Of: 2023-10-23
+Version: Cloud
+
+--- Record 4153 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: Edit Template
+Description: You can now edit templates. In addition to changing the name and description, you can choose a different schema for the template. Changing the schema makes a new set of extraction fields available for the template.  If you’ve already edited extraction results for sample documents associated with your template, these edits are preserved following the change of schema if the relevant fields appear in both the old and the new schema.  See Edit Template.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-11-29
+Valid as Of: 2023-10-23
+Version: Cloud
+
+--- Record 4154 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: Field Label
+Description: In Schema Configuration, you can now optionally enter a field label in the Add Data Field dialog. These labels enable you to give user-friendly names to some or all of the header fields and line item fields that you add to schemas.  Field labels that you define in this way are displayed instead of the technical field names in the pane where you see extraction results for a document in the Document feature of the SAP Document AI basic UI.  See Add Data Fields.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-10-23
+Valid as Of: 2023-10-23
+Version: Cloud
+
+--- Record 4155 ---
+Component: Trading Partner Management
+Environment: Cloud Foundry
+Title: AS2 Receiver Adapter
+Description: The AS2 Receiver adapter now provides you an option whether to append milliseconds to the message timestamp.  See:     Creating a Company Profile and a Subsidiary    Creating a Trading Partner Profile  
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2023-10-23
+Valid as Of: 2023-10-23
+Version: 2309
+
+--- Record 4156 ---
+Component: Trading Partner Management
+Environment: Cloud Foundry
+Title: Custom Search Attributes
+Description: You can now create and define custom search attributes for monitoring interchanges in the B2B design space.  See: Configuration Manager
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2023-10-23
+Valid as Of: 2023-10-23
+Version: 2309
+
+--- Record 4157 ---
+Component: Trading Partner Management
+Environment: Cloud Foundry
+Title: Dynamic Parameters
+Description: You can now create dymanic parameters for a company and trading partner profile.  See:     Creating a Company Profile and a Subsidiary    Creating a Trading Partner Profile  
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2023-10-23
+Valid as Of: 2023-10-23
+Version: 2309
+
+--- Record 4158 ---
+Component: Trading Partner Management
+Environment: Cloud Foundry
+Title: Generic Integration Flow
+Description: The integration package Cloud Integration - Trading Partner Management V2 has been upgraded to version 2.1.0. With this update,     A new integration flow supporting the ProcessDirect adapter has been added.    A new integration flow for writing the message to the message queue has been added.    See:Integration Flow Configuration Version 2.0  
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2023-10-23
+Valid as Of: 2023-10-23
+Version: 2309
+
+--- Record 4159 ---
+Component: Trading Partner Management
+Environment: Cloud Foundry
+Title: ProcessDirect Adapter
+Description: The application now supports ProcessDirect Sender and Receiver adapter.  See:     Creating a Company Profile and a Subsidiary    Creating a Trading Partner Profile  
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2023-10-23
+Valid as Of: 2023-10-23
+Version: 2309
+
+--- Record 4160 ---
+Component: Trading Partner Management
+Environment: Cloud Foundry
+Title: Software Version Update
+Description:   SAP Cloud Integration: 6.42.*  Increment: 2309  
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2023-10-23
+Valid as Of: 2023-10-23
+Version: 2309
+

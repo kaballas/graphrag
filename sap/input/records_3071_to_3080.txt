@@ -1,0 +1,130 @@
+--- Record 3071 ---
+Component: Trading Partner Management
+Environment: Cloud Foundry
+Title: Target Encoding for UN/EDIFACT Type System
+Description: You can now set the target encoding for UN/EDIFACT type system in the transaction activity of your agreement.  See:     Creating an Agreement Template    Trading Partner Agreement    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-05-10
+Valid as Of: 2024-05-10
+Version: 2403
+
+--- Record 3072 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Conditional Authentication
+Description: You can use asterisk (*) in the top-level domain part when you add rules for authentication against different identity providers. See Add a New Authentication Rule.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-05-08
+Valid as Of: 2024-05-08
+Version: 26053
+
+--- Record 3073 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Data type name changed
+Description: In the Identity Provisioning graphical editor, the Object and ObjectArray data types for transformation expressions, such as constant and defaultValue, have been renamed to JSONObject and JSONObjectArray, respectively.  See Transformation Expressions.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-05-08
+Valid as Of: 2024-05-08
+Version: 26053
+
+--- Record 3074 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Regular Upgrade
+Description: Cloud Identity Services have been upgraded.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-05-08
+Valid as Of: 2024-05-08
+Version: 26053
+
+--- Record 3075 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: User Groups
+Description: You can search for specific member in a group via SCIM ID. See List and Search Users in Groups.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-05-08
+Valid as Of: 2024-05-08
+Version: 26053
+
+--- Record 3076 ---
+Component: Continuous Integration & Delivery
+Environment: Cloud Foundry
+Title: Last Build Status Available in Job Overview
+Description: The Jobs tab now includes a column that displays information about the latest build.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-05-14
+Valid as Of: 2024-05-08
+Version: Cloud
+
+--- Record 3077 ---
+Component: UI Theme Designer
+Environment: Cloud Foundry,Neo
+Title: Base Theming Content for CF and Neo.
+Description: The base theming content is updated to version 11.15.0. Review the changes at https://github.com/SAP/theming-base-content/releases.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2024-05-08
+Version: Cloud
+
+--- Record 3078 ---
+Component: UI Theme Designer
+Environment: Cloud Foundry
+Title: Migrating Themes
+Description: On the welcome screen, you can now migrate existing custom themes based on a different SAP standard theme. For more information, see Migrating Themes and Migrate Your Themes with Ease.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2024-05-08
+Version: Cloud
+
+--- Record 3079 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Telemetry module: Update to version 1.14.0
+Description: The new version brings the following improvements:      Logs, Traces, and Metrics: To use the memory limits more efficiently, the resource setup has been improved for all components. (#804)      Logs: Improved status message for LogPipeline if the used certificate is invalid (#996).      Traces, Metrics: You can now easily detect whether there is an invalid or expired client certificate, because the TracePipeline and MetricPipeline status shows what's wrong (#930).    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-04-23
+Valid as Of: 2024-05-07
+Version: Cloud
+
+--- Record 3080 ---
+Component: SAP Datasphere
+Environment: Cloud Foundry
+Title: Features for Version 2024.10
+Description: New and changed features are available for administration, data integration, data marketplace, and data modeling.  For more information, see What's New in SAP Datasphere 2024.10. 
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-05-07
+Valid as Of: 2024-05-07
+Version: Cloud
+

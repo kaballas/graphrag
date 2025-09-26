@@ -1,0 +1,130 @@
+--- Record 621 ---
+Component: SAP Business Application Studio
+Environment: Cloud Foundry
+Title: SAP HANA Development Tooling
+Description: In the SAP HANA Native Application dev space for SAP Business Application Studio, the Dependency Viewer now allows you to perform the following new actions:    Expand or collapse all schemas in the dependency graph  Locate and focus on objects with the predictive search box    See View Database Objects with the Database Explorer. 
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-06-23
+Valid as Of: 2025-06-23
+Version: T2506a
+
+--- Record 622 ---
+Component: SAP Business Application Studio
+Environment: Cloud Foundry
+Title: SAP HANA Development Tooling
+Description: In the SAP HANA Native Application dev space for SAP Business Application Studio, the Explain Plan option in the SQL Console now shows data from both EXPLAIN_PLAN_TABLE and EXPLAIN_CALL_PLANS, providing a more complete view for SELECT statements that internally call procedures or calculation views.  See Use the SQL Console for SAP HANA to Query the Database. 
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-06-23
+Valid as Of: 2025-06-23
+Version: T2506a
+
+--- Record 623 ---
+Component: SAP Business Application Studio
+Environment: Cloud Foundry
+Title: SAP HANA Development Tooling
+Description: In the SAP HANA Native Application dev space for SAP Build Code, you can now generate realistic sample data for existing database tables using Generative AI.  See Generate Sample Data for Tables Using Generative AI. 
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-06-23
+Valid as Of: 2025-06-23
+Version: T2506a
+
+--- Record 624 ---
+Component: SAP Task Center
+Environment: Cloud Foundry
+Title: Pushing UiPath Tasks Enabled
+Description: You can now enable task updates to be pushed from UiPath. For more information, see step 1, 2, and the tc.clientId property in Connect UiPath and SAP Task Center.   End users can access tasks through the SAP Task Center Web app directly for review and approval of processed documents. 
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-06-23
+Valid as Of: 2025-06-23
+Version: Cloud
+
+--- Record 625 ---
+Component: SAP Advanced Financial Closing
+Environment: Cloud Foundry
+Title: Consistency Check Adjustment
+Description: As of now, the consistency check confirms whether a user group assigned in the task list template contains any users. If a user group is empty, the consistency check issues a warning message for now, allowing you to continue with task list generations.  However, as of the release planned to be released in July, the consistency check will issue an error message if it detects an empty user group in the template. This error will then prevent you from generating task lists.  More information:  How to Perform Checks on Templates  App affected:  Manage Closing Task Lists  Action: Ensure that you don't have empty user groups. Pay special attention to the warning messages raised for empty user groups and address the changes required.  For information about how to run a consistency check, see How to Perform Checks on Templates.
+Action: Required
+Lifecycle: General Availability
+Type: New
+Line of Business: Finance
+Latest Revision: 2025-06-09
+Valid as Of: 2025-06-22
+Version: Cloud
+
+--- Record 626 ---
+Component: SAP Advanced Financial Closing
+Environment: Cloud Foundry
+Title: Overview of Task List Generations
+Description: You can now find an overview of ongoing and finished task list generations on the new tab Task List Generations in the task list details. This tab offers the following details about the task list generations:  Information about the generation status:This is helpful because, as of now, task list generations run in the background once you initiate them.  Detailed error messages created during the generation:Unlike before - where messages would disappear after you had closed the corresponding pop-up window - these messages now remain available if a task list generation fails. They'll be available until a successful task list generation for the same fiscal year and period has run.    Note  The Task List Generations tab displays task list generations that have run since the release of this feature in June 2025.  More information:  How to Generate and Release Task Lists  App affected:  Manage Closing Task Lists
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Finance
+Latest Revision: 2025-06-09
+Valid as Of: 2025-06-22
+Version: Cloud
+
+--- Record 627 ---
+Component: SAP Advanced Financial Closing
+Environment: Cloud Foundry
+Title: User Group Information
+Description: On several screens where you find the name of user groups (for example, a user group being assigned to a task or folder), you can now find additional information about the user group. The following information is available in a pop-over on the user group name:  User group name  User group description  Table listing the group members with the following information:  User name  User ID  Email address  Phone number (if available in the user profile)  Mobile phone number (if available in the user profile)      More information:  Legal Basis for Data Processing  Apps affected: Several apps where user group information is displayed.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Finance
+Latest Revision: 2025-06-09
+Valid as Of: 2025-06-22
+Version: Cloud
+
+--- Record 628 ---
+Component: SAP AI Launchpad
+Environment: Cloud Foundry
+Title: Generative AI hub
+Description: New models are supported, including Nova Premier from AWS Bedrock.For more information, see SAP Note 3437766 .
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2025-06-21
+Valid as Of: 2025-06-21
+Version: Cloud
+
+--- Record 629 ---
+Component: SAP Translation Hub
+Environment: Cloud Foundry
+Title:   Support for LLM-based translation in Software Translation  
+Description:   Software translation workflow and editor: File and git projects now support LLM-based translation as additional translation provider, using Large Language Models via SAP's generative AI hub  APIs: LLM-based translation support was also added to the Translate API (synchronous) and the following project APIs: file project and git project API.  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-06-18
+Valid as Of: 2025-06-20
+Version: Cloud
+
+--- Record 630 ---
+Component: Application Frontend Service
+Environment: Cloud Foundry
+Title: Availability in the SAP BTP Trial
+Description: Application Frontend is available in the cf-us10- region of the SAP BTP trial.  Trial accounts are limited to five applications per subaccount.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-06-23
+Valid as Of: 2025-06-19
+Version: Cloud
+

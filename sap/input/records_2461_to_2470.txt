@@ -1,0 +1,131 @@
+--- Record 2461 ---
+Component: Identity Provisioning
+Environment: Neo
+Title: Condition and skip update - changed behavior
+Description: As of September 24, 2024, Identity Provisioning will change the behavior of target transformations that contain a combination of condition and skip operations for updates. For example: Code Syntax  "condition": "$.groups empty false",
+"skipOperations": ["update"],   Currently, the skip operation is evaluated before the condition. If any users or groups have been updated in the source system, they are marked as skipped in the logs, and Identity Provisioning does not proceed to evaluate the condition. As a result, users or groups that do not meet the condition are not deleted as they should be.  Following the change, the condition will be evaluated first. Users and groups who do not match the condition will be deleted. After the condition is evaluated, the skip operation will determine whether the remaining users will be skipped or provisioned.  For more information, see Transformation Expressions. 
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-08-20
+Valid as Of: 2024-08-20
+Version: Cloud
+
+--- Record 2462 ---
+Component: Identity Provisioning
+Environment: Neo
+Title: isValidEmail function supports new value
+Description: The conditional function isValidEmail can now accept the following value $.emails[*].value. In cases where users have multiple emails, this function will validate each email in the emails array.  For more information, see Transformation Functions. 
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-08-20
+Valid as Of: 2024-08-20
+Version: Cloud
+
+--- Record 2463 ---
+Component: Identity Provisioning
+Environment: Neo
+Title: Read and proxy read transformation changes
+Description: The mapping which omits the display of groups under the user entity is removed from the default read and proxy read transformations of the Identity Authentication connector. This makes possible filtering users by groups display name when using condition in the target system.  For more information, see Identity Authentication. 
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-08-20
+Valid as Of: 2024-08-20
+Version: Cloud
+
+--- Record 2464 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Configure Step Outcomes
+Description: You can now configure step outcomes for individual steps of the type user task for an SAP Build Process Automation process.  See Configure Step Outcomes. 
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-08-20
+Valid as Of: 2024-08-20
+Version: Cloud
+
+--- Record 2465 ---
+Component: SAP Print service
+Environment: Cloud Foundry,Other
+Title: Permitted Maximum Size for Single Documents Increased from 1 MB to 5 MB
+Description: The permitted maximum size for a single document is now 5 MB.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-08-20
+Valid as Of: 2024-08-20
+Version: Cloud
+
+--- Record 2466 ---
+Component: Continuous Integration & Delivery
+Environment: Cloud Foundry
+Title: New Region
+Description: SAP Continuous Integration and Delivery can now also be consumed in the Australia (Sydney) region. See Regional Availability.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-08-19
+Valid as Of: 2024-08-19
+Version: Cloud
+
+--- Record 2467 ---
+Component: Continuous Integration & Delivery
+Environment: Cloud Foundry
+Title: Permission Change
+Description: Now, only users who are assigned the CICD Administrator role collection are allowed to view the list of allowed spaces. See Manage Allowed Spaces and Assigning Roles and Permissions.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-08-19
+Valid as Of: 2024-08-19
+Version: Cloud
+
+--- Record 2468 ---
+Component: SAP AI Launchpad
+Environment: Cloud Foundry
+Title: Generative AI hub
+Description: Disclaimers created by administrators now appear in the generative AI hub chat app.  For more information, see Create a Disclaimer.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-08-19
+Valid as Of: 2024-08-19
+Version: Cloud
+
+--- Record 2469 ---
+Component: SAP AI Launchpad
+Environment: Cloud Foundry
+Title: Generative AI hub
+Description: Additional selected models from Anthropic are supported via AWS Bedrock.  For more information, see Models and Scenarios in the Generative AI Hub.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-08-19
+Valid as Of: 2024-08-19
+Version: Cloud
+
+--- Record 2470 ---
+Component: SAP Build
+Environment: Cloud Foundry
+Title: Lobby - Enhanced Actions for Released Versions in Build Apps Project
+Description: You can now View, Transport, Export, Import, and Delete released versions of the Build Apps Project, offering greater flexibility and control over project versions.  See     Release a Project      Manage Existing Projects     .
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-08-19
+Valid as Of: 2024-08-19
+Version: Cloud
+

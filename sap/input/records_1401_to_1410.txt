@@ -1,0 +1,130 @@
+--- Record 1401 ---
+Component: SAP Build Work Zone, standard edition
+Environment: Cloud Foundry
+Title: Themes: Automatic Theme Detection in the Site Manager and in the Runtime Site
+Description: It is now possible to automatically detect the theme of the operating system and display the Site Manager and the runtime site with the corresponding theme.  To enable this, a new option, Automatic (based on your operating system settings), was added to:    Site Manager - under User Settings  Theme  Runtime site - under Settings  Appearance  Theme    The automatic theme detection is available for all theme sets (such as the SAP Quartz and the SAP Horizon sets) where there is more than one theme available in the set.   Automatic theme detection is not supported for custom theme sets.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-02-20
+Valid as Of: 2025-02-20
+Version: 2501B
+
+--- Record 1402 ---
+Component: SAP Build Work Zone, standard edition
+Environment: Cloud Foundry
+Title: Themes: SAP Horizon Theme Set in the Site Manager
+Description: The SAP Horizon theme set has been added to the Site Manager, and SAP Morning Horizon will be the new default theme in the Site Manager.  For existing admins, their selected theme will not change, but for new admins the default will be SAP Morning Horizon.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-02-20
+Valid as Of: 2025-02-20
+Version: 2501B
+
+--- Record 1403 ---
+Component: SAP Build Work Zone, standard edition
+Environment: Cloud Foundry
+Title: Themes: Themes Are Arranged in Categories
+Description: The themes are now arranged according to the following categories:    SAP Quartz (Set)  SAP Horizon (Set)  Individual Themes    This is visible in:    Site Manager - under User Settings  Theme  Runtime site - under Settings  Appearance  Theme  
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-02-20
+Valid as Of: 2025-02-20
+Version: 2501B
+
+--- Record 1404 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: New Invoice Header Fields
+Description: The following invoice header fields are now available for extraction:  receiverCity  receiverCountryCode  receiverDistrict  receiverExtraAddressPart  receiverHouseNumber  receiverPostalCode  receiverState  receiverStreet  senderCity  senderCountryCode  senderDistrict  senderExtraAddressPart  senderHouseNumber  senderPostalCode  senderState  senderStreet    See Extracted Header Fields (Base Edition and Premium Edition).
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Intelligent Technologies
+Latest Revision: 2025-02-20
+Valid as Of: 2025-02-20
+Version: Cloud
+
+--- Record 1405 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: Support for SAP Schemas with Instant Learning (Premium Edition)
+Description: We’ve enhanced instant learning to support SAP schemas for standard document types.  If you activate instant learning in SAP Document AI the service can now use your feedback about extraction results to select the best model for individual fields in preconfigured SAP schemas for the following standard document types: invoices, payment advices, and purchase orders.  See Instant Learning (Premium Edition) and Instant Learning (Premium Edition): Best Practices.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Intelligent Technologies
+Latest Revision: 2025-02-20
+Valid as Of: 2025-02-20
+Version: Cloud
+
+--- Record 1406 ---
+Component: SAP Java Buildpack
+Environment: Cloud Foundry
+Title: Version 1.110.0
+Description: SAP Java Buildpack 1 has been updated from version 1.109.0 to 1.110.0. Updated components:      SapMachine 11 is updated from version 11.0.25 to 11.0.26      SapMachine 17 is updated from version 17.0.13 to 17.0.14      SAP JVM is updated from version 81.102.102 to 81.103.103      otel-agent is updated from version 2.10.0 to 2.11.0      otel-agent-ext-java is updated from version 1.5.21 to 1.5.22      jdkext is updated from version 81.102.102 to 81.103.103      com.sap.core.connectivity.jco is updated from version 3.4.8 to 3.4.9    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-02-05
+Valid as Of: 2025-02-20
+Version: Cloud
+
+--- Record 1407 ---
+Component: SAP Java Buildpack
+Environment: Cloud Foundry
+Title: Version 2.24.0
+Description: SAP Java Buildpack 2 has been updated from version 2.23.0 to 2.24.0. Updated components:      Apache TomEE 10 is now added to the buildpack.      SAP HANA Driver (hana.driver.2.X.X) is updated from version 2.23.7 to 2.23.8      SapMachine 17 is updated from version 17.0.13 to 17.0.14      SapMachine 21 is updated from version 21.0.5 to 21.0.6      PostgreSQL JDBC Driver (postgresql.version) is updated from 42.7.4 to 42.7.5      SAP BTP Environment Variable Access (com.sap.cloud.environment.servicebinding) is updated from version 0.10.5 to 0.20.0       otel-agent is updated from version 2.10.0 to 2.11.0      otel-agent-ext-java is updated from version 1.5.21 to 1.5.22      logback is updated from version 1.5.15 to 1.5.16      logback-access is updated from version 2.0.5 to 2.0.6      com.sap.xs.onpremise.runtime is updated from version 1.3.0 to 1.3.3      com.sap.core.connectivity.jco is updated from version 3.4.8 to 3.4.9      org.apache.httpcomponents.client5.httpclient5 is updated from version 5.3.1 to 5.4.1      org.json is updated from version 20240303 to 20250107      com.sap.cloud.security.xsuaa is updated from version 3.5.4 to 3.5.7    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-02-05
+Valid as Of: 2025-02-20
+Version: Cloud
+
+--- Record 1408 ---
+Component: SAP Start
+Environment: Cloud Foundry
+Title: Automatic Theme Detection
+Description: It is now possible to automatically detect the theme of the operating system and display SAP Start with the corresponding theme.  To enable this, a new option, Automatic (based on your operating system settings), was added to: Settings  Appearance  Theme.  The automatic theme detection is available for all theme sets (such as the SAP Quartz and the SAP Horizon sets) where there is more than one theme available in the set.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-02-20
+Valid as Of: 2025-02-20
+Version: Cloud
+
+--- Record 1409 ---
+Component: SAP Start
+Environment: Cloud Foundry
+Title: Themes Are Arranged in Categories
+Description: The themes under Settings  Appearance  Theme are now arranged according to the following categories:    SAP Quartz (Set)  SAP Horizon (Set)  Individual Themes  
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-02-20
+Valid as Of: 2025-02-20
+Version: Cloud
+
+--- Record 1410 ---
+Component: SAPUI5
+Environment: ABAP,Cloud Foundry,Kyma,Neo,Other
+Title: SAPUI5 Distribution 1.133
+Description: SAPUI5 version 1.133 has been released for UI development and can now be consumed by SAP BTP services. It’s up to the services to determine when they start using the new version.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2025-02-20
+Valid as Of: 2025-02-20
+Version: Cloud
+

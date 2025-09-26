@@ -1,0 +1,130 @@
+--- Record 2521 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Outbound Emails
+Description: This feature enables you to monitor the status of asynchronous emails using the interface IF_BCS_MAIL_STATUS_MONITOR. The released API CL_BCS_MAIL_MESSAGE that is used for sending emails provides the option to send emails asynchronously. To monitor the status of the emails a released API is required.  For more information, see   .
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-08-16
+Valid as Of: 2024-08-16
+Version: ABAP Environment 2408
+
+--- Record 2522 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Outbound SQL Using CDS External Entities
+Description: With ABAP SQL as outbound service type, you can now access external databases using ABAP CDS and ABAP SQL. This feature is integrated into ABAP Cloud concepts, including CDS modeling of the external data sources, and natively uses SAP HANA federation capabilities (taking advantage of SAP HANA Smart Data Access). In this new dynamic access, you can model external data sources using the new CDS external entities and the new logical external schemas. The CDS external entities can be consumed using ABAP SQL. Dynamic external entities are the replacement of secondary database connections in ABAP Cloud. The available set of remote source types depends on the system type.  For more information, see CDS External Entities. 
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-07-08
+Valid as Of: 2024-08-16
+Version: ABAP Environment 2408
+
+--- Record 2523 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: RAP Data Services for Print Forms
+Description: With this feature, you can add a new parameter to modify parameters that are not exposed by default but created during runtime. An example are RAP entities implementing draft functionality. For this, an additional import parameter was added.  For more information, see RAP Data Services for Print Forms.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-08-16
+Valid as Of: 2024-08-16
+Version: ABAP Environment 2408
+
+--- Record 2524 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: SAP Fiori Applications in the ABAP Environment: Scoping Space and Page Templates
+Description: You can now assign space and page templates to a business role template. Furthermore, a default scope for space and page templates is set automatically in test and production systems, depending on the software component.   For more information, see Working with Business Role Template Launchpad Space Template Assignmens and Scoping Space and Page Templates.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-07-16
+Valid as Of: 2024-08-16
+Version: ABAP Environment 2408
+
+--- Record 2525 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: SAP Fiori Launchpad: Define the Home Title in the Shell Bar
+Description: You can now specify an alternative text for the Home text in the shell bar. This is an optional alternative title for the shell and browser tab when navigating to the starting pages. The default value is empty, which means "Home" (or the respective translation) is used.   For more information, see Manage Launchpad Settings.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-08-16
+Valid as Of: 2024-08-16
+Version: ABAP Environment 2408
+
+--- Record 2526 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: SAP Fiori Launchpad: Define the Launchpad Title in the Browser
+Description: In the SAP Fiori launchpad, you can now adjust the title shown as the window, and the tab title in the browser, according to your needs. In the Manage Launchpad Settings app, the new parameter WINDOW_TITLE_EXTENSION was added. With this parameter, administrators can specify an additional text following "Home", or the app title. Text translations can be added if required. The text will also be interpreted by a screenreader to enhance usability and accessibility.  For more information, see Manage Launchpad Settings.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-08-16
+Valid as Of: 2024-08-16
+Version: ABAP Environment 2408
+
+--- Record 2527 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: SAP Fiori Launchpad: Upload and Download Pages
+Description: In the Manage Launchpad Pages app, you can now select and download existing pages or upload pages that were downloaded in another system. This enables you to create backups or exchange pages between different systems when you can't use transports, meaning that you can improve productivity across different systems. This also saves you time and effort because you don't need to recreate everything from scratch.  For more information, see Uploading and Downloading Pages.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-08-16
+Valid as Of: 2024-08-16
+Version: ABAP Environment 2408
+
+--- Record 2528 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Selectable Application Server Sizes
+Description: The selectable application server size feature gives you the possibility to explicitly configure either 0.5 ACUs or 2 ACUs as the size of the application servers. With this feature, it's now possible to configure application servers of size 2 ACUs for an SAP BTP ABAP environment system that uses the elastic scaling feature.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-08-16
+Valid as Of: 2024-08-16
+Version: ABAP Environment 2408
+
+--- Record 2529 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: SQL Service and ODBC Driver
+Description: With the new system views SYS.FUNCTIONS and SYS.FUNCTION_PARAMETERS, you can find automatically exposed CDS SQL-based scalar functions and retrieve their metadata. You can use these CDS SQL-based scalar functions to get ABAP-based data using the SQL service and the ODBC driver.  For more information, see   .
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-07-08
+Valid as Of: 2024-08-16
+Version: ABAP Environment 2408
+
+--- Record 2530 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Technical Monitoring: HANA Thread Samples
+Description: With the new HANA Thread Samples app, you can check how much HANA CPU time your custom applications consume. The app helps you to identify your top workload that consumes most of the HANA CPU time, from where you can drill down to a detailed view of HANA thread samples and the related single SQL statements.  See HANA Thread Samples
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-06-12
+Valid as Of: 2024-08-16
+Version: ABAP Environment 2408
+

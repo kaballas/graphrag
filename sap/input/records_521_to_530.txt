@@ -1,0 +1,130 @@
+--- Record 521 ---
+Component: Responsibility Management Service
+Environment: Cloud Foundry
+Title: New Data Centers
+Description: The Responsibility Management Service is now also available in the following regions:  AWS: EU12 - Europe (Frankfurt)  Google Cloud Platform: US30 - US Central (IA)  Google Cloud Platform: EU30 - Europe (Frankfurt)  See Pricing and Regions Information.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-07-14
+Valid as Of: 2025-07-07
+Version: Cloud
+
+--- Record 522 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Advanced Functions for Decisions
+Description: You can now use a new function, TRUNC in your decisions. See Functions.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-07-07
+Valid as Of: 2025-07-07
+Version: Cloud
+
+--- Record 523 ---
+Component: API Management
+Environment: Cloud Foundry
+Title: Availibility of the Externalization feature on Edge Integration Cell
+Description: You can now use the externalization feature to define API policies that can retrieve externalized configuration values during runtime. These parameters can be utilized later without modifying the standard API artifact. For more information, see Externalize Parameter for API Artifact.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2025-07-06
+Valid as Of: 2025-07-06
+Version: 2505
+
+--- Record 524 ---
+Component: API Management
+Environment: Cloud Foundry
+Title: Improved Navigation for API Management Onboarding
+Description: The navigation for onboarding the API Management capability has been updated. Previously, you could begin by selecting the Set Up button under Settings  APIs. Now, to activate the API Management runtime and initiate onboarding, navigate to Settings  Runtimes, scroll down to the API Management section and choose Set Up. For more information, see Setting Up API Management .
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-07-06
+Valid as Of: 2025-07-06
+Version: 2505
+
+--- Record 525 ---
+Component: API Management
+Environment: Cloud Foundry
+Title: Introduction of New API Modeling Checkbox
+Description: A new checkbox, API Modelling, has been introduced in the activation process for API Management. Previously, after selecting the Manage APIs checkbox, it was noted that the API portal was enabled by default on the next screen. Now, instead of this note, the API Modelling checkbox will be displayed, which will also be enabled by default.  This change provides a more intuitive way to activate the API Management capabilities during setup. For more information, see Activating and Configuring API Management Capability.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-07-06
+Valid as Of: 2025-07-06
+Version: 2505
+
+--- Record 526 ---
+Component: API Management
+Environment: Cloud Foundry
+Title: Security Schemes for API Artifact on Edge Integration Cell
+Description: With this enhancement, API artifacts now automatically include built-in authentication mechanisms upon creation and publication, enabling application developers to securely access and test the APIs.   This configuration is reflected in the API specification—under the securitySchemes section for OpenAPI 3.0, and under securityDefinitions for version 2.0. For more information, see Security Specification for API Artifact.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-07-06
+Valid as Of: 2025-07-06
+Version: 2505
+
+--- Record 527 ---
+Component: Data Space Integration
+Environment: Cloud Foundry
+Title: Software Version Update
+Description: The following are the latest versions in Data Space Integration:      Data Space Integration: 1.10.*      Increment: 2505      Tractus-X Eclipse Dataspace Connector: 0.7.6      FOSS Eclipse Dataspace Components: 0.7.2      See also the Release Notes of Catena-X. 
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-07-06
+Valid as Of: 2025-07-06
+Version: 2505
+
+--- Record 528 ---
+Component: Edge Integration Cell
+Environment: Cloud Foundry
+Title: Externalization
+Description: You can now use the externalization feature to define API policies that can retrieve externalized configuration values during runtime. These parameters can be utilized later without modifying the standard API artifact. For more information, see Externalize Parameter for API Artifact.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-07-06
+Valid as Of: 2025-07-06
+Version: 2505
+
+--- Record 529 ---
+Component: Edge Integration Cell
+Environment: Cloud Foundry
+Title: Kubernetes (K8s) 1.32. is now supported
+Description: Kubernetes (K8s) 1.32. is now supported.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-07-06
+Valid as Of: 2025-07-06
+Version: 2505
+
+--- Record 530 ---
+Component: Edge Integration Cell
+Environment: Cloud Foundry
+Title: Restart Components in Component Monitor
+Description: You can now perform a rolling restart for your components.See: Component Monitor
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-07-06
+Valid as Of: 2025-07-06
+Version: 2505
+

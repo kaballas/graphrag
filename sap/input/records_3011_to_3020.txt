@@ -1,0 +1,130 @@
+--- Record 3011 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: SAP Fiori Launchpad: Manage Pages and Spaces
+Description: You can now merge your spaces or pages at the same time that you create or copy a new space or a new page in the Manage Launchpad Spaces and Manage Launchpad Pages apps. Previously, you had to do this in a separate step but now you can add the merge ID directly. In addition, the value help now also shows predefined spaces or pages, for example, as delivered by SAP.  For more information, see Merging Pages and Merging Spaces.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-05-17
+Valid as Of: 2024-05-17
+Version: ABAP Environment 2405
+
+--- Record 3012 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: SAP Fiori Launchpad: User Names in Manage Views Dialog
+Description: In the Manage Views dialog, the Created By column now displays the user name rather than the user ID.  See Manage Views.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-05-17
+Valid as Of: 2024-05-17
+Version: ABAP Environment 2405
+
+--- Record 3013 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: SAP Logo as favIcon for the SAP Fiori Launchpad
+Description: The SAP Fiori launchpad browser favIcon will change from the Fiori flower to the SAP logo. The favIcon can be changed in the SAP UI Theme Designer with the theme parameter sapUiShellFavicon.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-05-17
+Valid as Of: 2024-05-17
+Version: ABAP Environment 2405
+
+--- Record 3014 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Set the AIR-Key as Custom HTTP Header Field
+Description: You can now set the AIR key as custom HTTP header for asynchronous SOAP outbound communication with the HTTP header protocol (setting the AIR key for synchronous SOAP outbound communication was already possible).  Once a web service call is performed, the custom HTTP header is reset. If you want to use the same value again, you must set the value again.  See   .
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-04-10
+Valid as Of: 2024-05-17
+Version: ABAP Environment 2405
+
+--- Record 3015 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: SQL-based Remote Access from SAP HANA Cloud Databases to ABAP Systems
+Description: The SAP HANA database component of SAP HANA Cloud now supports SQL-based remote access to ABAP core data services (CDS) view entities, which are exposed by an ABAP system (such as SAP BTP, ABAP environment) via ABAP SQL services.  For more information, see Create an ABAP Cloud Remote Source.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-05-06
+Valid as Of: 2024-05-17
+Version: ABAP Environment 2405
+
+--- Record 3016 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Subentities as Authorization Master
+Description: You can now define entities as authorization master that are not defined as root entity.  For more information on authorization control, see Authorization Control.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-05-17
+Valid as Of: 2024-05-17
+Version: ABAP Environment 2405
+
+--- Record 3017 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Technical Monitoring: Table Analysis
+Description: The Table Analysis provides a guided analysis of table statistics from an aggregated view over time regarding memory, disk usage and table records. You can filter and drill down by table name, table entity, table type, and application component, and navigate to the individual table details, such as indexes or table partitions.  See HANA Table Analysis.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-03-21
+Valid as Of: 2024-05-17
+Version: ABAP Environment 2405
+
+--- Record 3018 ---
+Component: Continuous Integration & Delivery
+Environment: Cloud Foundry
+Title: Job Sorting by Latest Build
+Description: In the Jobs overview table, you can now sort your jobs by their latest build.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-05-17
+Valid as Of: 2024-05-17
+Version: Cloud
+
+--- Record 3019 ---
+Component: SAP Analytics Cloud
+Environment: Other
+Title: Features for 2024 QRC 2 (version 2024.8)
+Description: We are happy to inform you that with the release of SAP Analytics Cloud Q2 2024, all the supporting documentation is available on SAP Help Portal.    On the SAP Analytics Cloud product page, you’ll find a complete set of SAP Analytics Cloud guides and resources.  Some highlights include:   Stories improvements:  In the optimized story experience, the filter by member dialog has been redesigned and now provides new features:  Improved UI architecture: The UI layout of the member selector provides direct access to the essential actions and settings, such as the search field and the hierarchy selection. Other settings, like read mode or text presentation, have been moved into a settings panel that can be opened on demand. The multi-column presentation of the selectable members allows for better readability.  Increased flexibility: The dialog box can now be resized, and can be dragged to a different position. The panels are also resizable, and the content of the panels are fully responsive.   Continuous scrolling: The new member selector implements a lazy loading mechanism that applies to the list of selectable members as well as the list of member selections: as you scroll down, members are automatically and continuously loaded at the bottom.  Search hits highlighting: The new member selector bolds each part of a member label that matches the search criteria.  Enhanced search capabilities: The new member selector supports the wildcard search, specifically the wildcard character “*” which replaces zero or more characters.  Enhanced member exclusion paradigm: The new member selector introduces an advanced paradigm for member exclusion: it allows you to deselect one or more descendants of a selected node. For example, select the country “USA” but explicitly exclude the state “Florida”. This selection is dynamic, which means that if, in the data source, a new state is registered under the country “USA”, it is implicitly part of the selection.    In the optimized story experience, we now support model replacement.  Replacement within stories is done on a per model basis and will be limited to models that have the same data source type and same number and type of structure dimensions. The original model and replacement model do not need to share the same connection nor have the same number of objects (accounts, measures, dimensions, or properties). However, the version level of the system where the replacement model is located is meant to be the same or higher than that of the system on which the original model is located.  Some data models cannot be used as replacement models because their feature set is superseded by alternative models for which further new features are being developed. These types of models can only be used as original models and can be replaced by their designated alternative models. For example:  An SAP Datasphere Analytic Dataset can be replaced by an SAP Datasphere Analytic Model.  A Classic Model (Account Only) can be replaced by a New Model with accounts and measures.  A Public Dataset can be replaced by a New Model with measures (and no accounts).    In the optimized story experience, the displayed numeric values (and decimal places) will be based on the full precision (non-rounded) source value: this improves the precision of planning workflows that use these numbers. However, some numbers may not be displayed as expected and will require additional formatting.  As an application integration developer, you can call the SAP Analytics Cloud REST API by story ID and widget ID to access data from numeric points in optimized story experience. You can therefore consume the SAP Analytics Cloud widgets in SAP Mobile Start.   The following features are now supported in optimized story experience: section widget, batch export, export all table data to XLSX.  In optimized story experience, you can use composites on responsive pages in addition to canvas pages. In addition, you can replace models of a composite, or objects in use without replacing the model after adding it to your story.  As a story designer in optimized story experience, you can open the font scaling tool to set font scale for responsive pages or individual widgets for specific devices, so that the font sizes in your story are dynamically adapted to different devices.      Planning improvements:  In the advanced formulas of data actions, you can now use analytic models owned by SAP Analytics Cloud as source models.   When checking data changes in the analytic window during data action tracing, you can now enable Show Only Leaves for a dimension to only show its leaf members.  New Planning Trigger Styling Options: When using the optimized story experience, you can now set and save your default style preferences for your planning triggers in the Theme Preferences dialog. Additionally, you have the option to upload SVG files to use as the trigger button icon either in the Styling panel or the Theme Preferences dialog.  Prediction Interval in Multi Actions: In the predictive step of multi actions, when you choose either the Train and Forecast or Apply predictive action, you can now save a prediction interval by choosing a prediction interval minimum and a prediction interval maximum. Using this feature allows you to visualize the prediction quality.    Data Analyzer improvements:  In data analyzer you can now filter in the filterline on calculated measures you’ve created. After having created the calculated measures, they appear instantly in the list of measure options in the filterline.  As a user of the Calculated Measures dialog in data analyzer you can now find syntax highlighting in the formula editor. This adds clarity to the formula you create by differentiating objects like measures and functions, etc.  The Available Objects list and the Builder panel in data analyzer have been enhanced:  In the Available Objects list the sorting now works separately for either dimensions, measures or structures via the More (three dots) menu for the respective object type.   If your model contains a hierarchy, the hierarchy structure is now displayed in the Available Objects list and in the Builder panel.    If you export data as PDF file in data analyzer, you can now use the setting option Fit to page width which allows you to resize your table to fit the actual page width for the PDF export.  In data analyzer you can now open a model from SAP BW workspaces, save insights to workspaces and reopen them from a workspace. You can also open data analyzer from a chart or table in story that uses a model saved to a workspace.    Calendar improvements:  In both optimized story experience and analytics designer, you can use script APIs to create a calendar process, send an immediate reminder, update or reopen a calendar event, get more properties of it, and so on.   Administrators can now configure which in-app notifications or emails are sent to users who are involved in calendar events. They can define the settings depending on the users’ roles (owners, assignees/reviewers, or viewers). For details, see Emails and Notifications.    For a complete list of the new features brought to SAP Analytics Cloud as part of the Q2 2024 launch, check out the What’s New Viewer.  You can also have a look at the Top 5 features in our latest video.  If you’re also interested in the content that’s been delivered in the past, check out our Archives.  Check out the Content Package guides for the Analytics Content Network with all the latest additions to our Business Content packages.  The Help Library describes how you use SAP Analytics Cloud to create stories, analytic applications, models, dashboards, as well as how to take advantage of planning and predictive features, and lots more.  The Video Tutorials show you how to use SAP Analytics Cloud features in simple, step-by-step visual walkthroughs.  Don’t forget to also check out the right-side bar for a list of additional information, such as a What’s New, and links to additional blogs, learning, and community resources.  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2024-05-17
+Version: Cloud
+
+--- Record 3020 ---
+Component: SAP Document and Reporting Compliance, Cloud Edition
+Environment: Kyma
+Title: FI:OVT2 Party ID Type for the Peppol Exchange Process
+Description: For Finland only: In the Configure Participants app, you can now register your Peppol participants using the new FI:OVT2 party ID type for Finland. The previous FI:OVT and the FI:VAT party ID types are now deprecated. Sending and receiving electronic invoices between participants that are registered in the Peppol network using the deprecated party ID types will discontinue to work in future.  If you have existing Peppol participants using the deprecated FI:OVT or FI:VAT as party ID type, you must delete those participants and create them again with the new FI:OVT2 party ID type. See:    Deleting the Registration of Your Company from the Peppol Network  Creating a Participant for Your Company  Registering Your Company to Receive Electronic Documents in the Peppol Network  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: nan
+Valid as Of: 2024-05-17
+Version: Cloud
+

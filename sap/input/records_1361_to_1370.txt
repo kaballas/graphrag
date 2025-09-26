@@ -1,0 +1,130 @@
+--- Record 1361 ---
+Component: Graph
+Environment: Cloud Foundry
+Title: Modify Business Data Graph in JSON format
+Description: You can edit your business data graph in JSON format on the UI.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Intelligent Technologies
+Latest Revision: 2025-02-25
+Valid as Of: 2025-02-25
+Version: Cloud
+
+--- Record 1362 ---
+Component: Identity Provisioning
+Environment: Neo
+Title: Group mapping changes
+Description: The default transformations of SAP S/4 HANA Cloud are changed to support the provisioning of application-specific groups.  For more information, see:  SAP S/4 HANA Cloud (Source)  SAP S/4 HANA Cloud (Target)  SAP S/4 HANA Cloud (Proxy)  
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-02-25
+Valid as Of: 2025-02-25
+Version: Cloud
+
+--- Record 1363 ---
+Component: Identity Provisioning
+Environment: Neo
+Title: Intelligent Opportunity Analyzer connector
+Description: Identity Provisioning supports the Intelligent Opportunity Analyzer connector. You can configure it as source, target, and proxy system for your provisioning scenarios. For more information, see:  Intelligent Opportunity Analyzer (Source)  Intelligent Opportunity Analyzer (Target)  Intelligent Opportunity Analyzer (Proxy)  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-02-25
+Valid as Of: 2025-02-25
+Version: Cloud
+
+--- Record 1364 ---
+Component: Identity Provisioning
+Environment: Neo
+Title: Provisioning sub-attributes of emails attribute
+Description: Changes in proxy write transformations of SAP Ariba Category Management and SAP Ariba Central Invoice Management ensure that users with multiple email addresses are provisioned with the correct primary email.  For more information, see: SAP Ariba Category Management and SAP Ariba Central Invoice Management.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-02-25
+Valid as Of: 2025-02-25
+Version: Cloud
+
+--- Record 1365 ---
+Component: Identity Provisioning
+Environment: Neo
+Title: Troubleshooting entity deletion
+Description: Documentation for troubleshooting the most frequent reasons for deletion of entities from a target system by the Identity Provisioning is now available. For more information, see Entity Deletion Issues.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-02-25
+Valid as Of: 2025-02-25
+Version: Cloud
+
+--- Record 1366 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: API Gateway module: Update to version 2.11.1
+Description: This version brings the following changes:  We've introduced Istio-based local rate limiting, which you can configure using the new RateLimit custom resource. For more information, see RateLimit Custom Resource and Local Rate Limiting Configuration.  We've fixed the issue where a workload exposed via a v2alpha1 APIRule was not accessible from within the cluster.  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-02-11
+Valid as Of: 2025-02-25
+Version: Cloud
+
+--- Record 1367 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: API Gateway module: Update to version 2.11.2
+Description: We have reverted the previously released fix for issue #1632 because it added an additional AuthorizationPolicy with action ALLOW, which was difficult to override.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-02-18
+Valid as Of: 2025-02-25
+Version: Cloud
+
+--- Record 1368 ---
+Component: SAP Build Apps
+Environment: Cloud Foundry
+Title: Web & Mobile
+Description:   We've added Undo and Redo buttons to the global toolbar. These buttons enable you to reverse up to 100 previous changes in the app. Each undo or redo action is shown in its respective canvas.    We have decommissioned the system variables systemVars.releaseEnv and systemVars.env, as they're no longer in use.    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-02-25
+Valid as Of: 2025-02-25
+Version: Cloud
+
+--- Record 1369 ---
+Component: SAP Omnichannel Promotion Pricing
+Environment: Cloud Foundry
+Title: Reserved Until for Reservation and Extend Reservation Requests in Coupon Management Service
+Description: You now have the Reserved Until parameter available for reservation and extend reservation requests in the Coupon Management service.   It indicates the time till which the coupon is reserved in a transaction.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-02-25
+Valid as Of: 2025-02-25
+Version: Cloud
+
+--- Record 1370 ---
+Component: SAP Task Center
+Environment: Cloud Foundry
+Title: Improved Onboarding for SAP S/4HANA Cloud Private Edition with all-tasks Service Plan
+Description: If you are setting up SAP S/4HANA Cloud Private Edition with the all-tasks service plan, you don't need to create an additional ticket to enable the destination anymore. This step is now automated. For more information, see Connect SAP S/4HANA Cloud Private Edition and SAP Task Center.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2025-02-25
+Valid as Of: 2025-02-25
+Version: Cloud
+

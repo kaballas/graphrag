@@ -1,0 +1,130 @@
+--- Record 3131 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Risk-Based Authentication
+Description: You can use Email Domain to create rules for risk-based authentication for a specific application in the tenant. See Create a New Rule.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-04-25
+Valid as Of: 2024-04-25
+Version: 26003
+
+--- Record 3132 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Social Identity Providers
+Description: Twitter social identity provider was renamed to X in the administration console and the documentation of Cloud Identity Services.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-04-25
+Valid as Of: 2024-04-25
+Version: 26003
+
+--- Record 3133 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: User Tokens
+Description: You can use the Maximum Exchange Period configuration in the admin console or the max_exchange_period parameter for the Token Endpoint for Resource Owner Password Credentials Flow to set а limit on how long the application can exchange user tokens without reauthenticating after having acquired the initial token. See Token Policy Configuration for Applications and Configure the Client to Call Identity Authentication Token Endpoint for Resource Owner Password Credentials Flow.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-04-25
+Valid as Of: 2024-04-25
+Version: 26003
+
+--- Record 3134 ---
+Component: Identity Provisioning
+Environment: Neo
+Title: Changing totalResults attribute calculation mechanism
+Description: Identity Provisioning changed the mechanism for calculating the total count of users or groups returned by proxy systems when executing a SCIM Proxy endpoint request to read entities from a backend system.  As of now, if the backend system provides the actual value of the totalResults attribute and there is no condition defined in the read mapping transformation of the proxy system, this value will be returned in the response from the Identity Provisioning implementation of the Proxy System SCIM API.  Previously, the value of totalResults attribute was the sum of the request parameters startIndex and count. This calculation mechanism remains unchanged for backend systems which do not provide value for the totalResults attribute.  For more information, see: SAP Business Accelerator Hub: SAP Cloud Identity Services  Identity Provisioning Service  API Reference   Users/Groups
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-04-25
+Valid as Of: 2024-04-25
+Version: Cloud
+
+--- Record 3135 ---
+Component: Identity Provisioning
+Environment: Neo
+Title: Renamed System
+Description: The SAP Commissions connector has been renamed to SAP SuccessFactors Incentive Management.  For more information, see: SAP SuccessFactors Incentive Management.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-04-25
+Valid as Of: 2024-04-25
+Version: Cloud
+
+--- Record 3136 ---
+Component: SAP Build Apps
+Environment: Cloud Foundry
+Title: Web & Mobile
+Description:   Changed the default theme to SAP Morning Horizon for all new applications.  
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-04-25
+Valid as Of: 2024-04-25
+Version: Cloud
+
+--- Record 3137 ---
+Component: SAP Omnichannel Promotion Pricing
+Environment: Cloud Foundry
+Title: Support of new superdomain .cloud.sap for SAP Omnichannel Promotion Pricing applications
+Description: You can use the new superdomain .cloud.sap to access the SAP Omnichannel Promotion Pricing applications for production and trial.  For more information, see Accessing the SAP Omnichannel Promotion Pricing Apps (production) and Accessing the SAP Omnichannel Promotion Pricing Apps (trial).  The previously known links are currently still working but not recommended for usage. A prompt switch to the new links is highly recommended.
+Action: Recommended
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2022-01-01
+Valid as Of: 2024-04-24
+Version: Cloud
+
+--- Record 3138 ---
+Component: SAP Omnichannel Promotion Pricing
+Environment: Cloud Foundry
+Title: Enhance Search with Customer and Vendor Name for Business Units in Maintain Promotions App
+Description: You can now search for business units Customer and Vendor using their names in the Maintain Promotions application.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2022-01-01
+Valid as Of: 2024-04-24
+Version: Cloud
+
+--- Record 3139 ---
+Component: SAP Omnichannel Promotion Pricing
+Environment: Cloud Foundry
+Title: Handling of Missing and Overlapping Prices with Enable Tolerant Price Handling Flag in Configure Omnichannel Promotion Pricing App
+Description: You can now use a new flag Enable Tolerant Price Handling in the Configure Omnichannel Promotion Pricing application to facilitate the handling of missing and overlapping prices for calculation in the line item mode.  For more information, see Enabling Tolerant Price Handling in Line Item Mode.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2022-01-01
+Valid as Of: 2024-04-24
+Version: Cloud
+
+--- Record 3140 ---
+Component: SAP Omnichannel Promotion Pricing
+Environment: Cloud Foundry
+Title: Handling of Sales and Returns without the Original Transaction
+Description: The Handling of Sales and Returns without the Original Transaction has been enhanced. You can now maintain the field Calculation Base Type on the Promotional Rules detail page in the Maintain Promotions app. Additionally, the new transaction type ReturnTransaction has been added and is available as of Client API version 14.0.  For more information, see Handling of Sales and Returns without the Original Transaction.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2022-01-01
+Valid as Of: 2024-04-24
+Version: Cloud
+

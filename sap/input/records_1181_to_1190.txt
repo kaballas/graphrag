@@ -1,0 +1,130 @@
+--- Record 1181 ---
+Component: Joule
+Environment: Cloud Foundry
+Title: New Use Cases Now Supported in SAP SuccessFactors
+Description: The following Joule use cases are now available in SAP SuccessFactors:    Change "To Be Hired" Status of Position      Change Working Time for Position      For more information, refer to New Use Cases Available in Joule - March 2025.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-03-26
+Valid as Of: 2025-03-26
+Version: Cloud
+
+--- Record 1182 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Istio module: Update to version 1.15.0
+Description: To collect custom metrics from a workload that exposes its metrics endpoint on the same port as its business API, you must use mTLS for scraping. While Kyma Telemetry supports this scenario, other observability tools rely on the prometheusMerge feature of Istio. Now, you can enable this feature by setting the config.telemetry.metrics.prometheusMerge field in the Istio custom resource (CR).  When enabled, the Istio sidecar running with an application exposes an additional port 15020. This port exposes both the workload’s Istio metrics and the custom metrics, as specified by prometheus.io annotations. Istio automatically rewrites the annotations to direct to the new port, allowing metric collection without mTLS.  To disable this feature for a specific workload, you can use the prometheus.istio.io/merge-metrics: "false" annotation.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-03-12
+Valid as Of: 2025-03-26
+Version: Cloud
+
+--- Record 1183 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: New Amazon Web Services Region
+Description: SAP Document AI is now available in the Amazon Web Services region br10 - Brazil (São Paulo).
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Intelligent Technologies
+Latest Revision: 2025-05-15
+Valid as Of: 2025-03-26
+Version: Cloud
+
+--- Record 1184 ---
+Component: SAP Omnichannel Promotion Pricing
+Environment: Cloud Foundry
+Title: Prevent Itemization of Merchandise Sets for Promotion Recommendations Flag in Maintain Promotions App
+Description: You can now use the Prevent Itemization of Merchandise Sets for Promotion Recommendations flag in the Maintain Promotions app. This flag allows you to control whether individual nodes of merchandise sets should be listed in the calculation response. By default, the flag is set to false.  For more information, see:   Applying Promotion Recommendations  Promotional Rule Settings    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-03-26
+Valid as Of: 2025-03-26
+Version: Cloud
+
+--- Record 1185 ---
+Component: Variant Configuration
+Environment: Cloud Foundry
+Title: Correct Reporting of Service Usage
+Description: The service usage used to be reported incorrectly if knowledgebase metrics, translations, or variant table details were requested for an uploaded knowledgebase. This issue has been corrected.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-03-13
+Valid as Of: 2025-03-26
+Version: Cloud
+
+--- Record 1186 ---
+Component: Variant Configuration
+Environment: Cloud Foundry
+Title: Extension Concept - Properly Write Extension Traces For Wrong Responses
+Description: An erroneous response of an extension implementation, for example a response with a missing characteristic id, used to cause an error without writing an entry to the extension trace. This issue has been corrected.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-03-13
+Valid as Of: 2025-03-26
+Version: Cloud
+
+--- Record 1187 ---
+Component: Variant Configuration
+Environment: Cloud Foundry
+Title: Knowledgebases API – Increase Limits of Variant Table API
+Description: The $skip parameter of the API endpoint to read variant tables used to have a maximum length of 4 digits, that is, the maximum value used to be 9999. This limit has been increased to 6 digits, which corresponds to a maximum value of 999.999.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-03-27
+Valid as Of: 2025-03-26
+Version: Cloud
+
+--- Record 1188 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Bundle options documentation
+Description: Documentation for SAP Field Service Management and SAP Cloud ALM bundle options is now available.  For more information, see SAP Field Service Management Bundle and SAP Cloud ALM Bundle.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-03-25
+Valid as Of: 2025-03-25
+Version: 27643
+
+--- Record 1189 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Central store logs display source entity ID
+Description: The central store logs display the source entity ID, which represents the group ID in the Identity Directory.  For more information, see Monitor Central Store Logs.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-03-25
+Valid as Of: 2025-03-25
+Version: 27643
+
+--- Record 1190 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Download all updated entities for a provisioning job
+Description: You can now download and view the details of all updated entities by a provisioning job. To enable this, set the properties ips.trace.updated.entity and ips.trace.updated.entity.content to true.  For more information, see Manage Provisioning Job Logs and List of Properties.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-03-25
+Valid as Of: 2025-03-25
+Version: 27643
+

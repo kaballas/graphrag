@@ -1,0 +1,130 @@
+--- Record 761 ---
+Component: Joule
+Environment: Cloud Foundry
+Title: New Use Cases Available in SAP SuccessFactors
+Description: The following Joule use cases are now available in SAP SuccessFactors:      View current roles      View target roles      View offboarding tasks      View enrolled benefits      Explain pay statement      For more information, see SAP SuccessFactors What's New for Joule.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-05-31
+Valid as Of: 2025-05-31
+Version: Cloud
+
+--- Record 762 ---
+Component: Joule
+Environment: Cloud Foundry
+Title: New Use Cases Now Supported in SAP S/4HANA Cloud Public Edition
+Description: Joule now enables you to view business data of the following objects in SAP S/4HANA Cloud Public Edition:  Work Center  Resource    For a list of the supported business objects, their details, and sample requests, see Viewing Business Data.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-05-31
+Valid as Of: 2025-05-31
+Version: Cloud
+
+--- Record 763 ---
+Component: Joule
+Environment: Cloud Foundry
+Title: SAP Joule for Consultants
+Description: SAP Joule for Consutants enables consultants to quickly obtain precise and indepth answers to questions regarding the design, implementation, or update of SAP systems, encompassing the entire SAP product portfolio.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-05-31
+Valid as Of: 2025-05-31
+Version: Cloud
+
+--- Record 764 ---
+Component: Joule
+Environment: Cloud Foundry
+Title: Update Delivery Date for Purchase Orders
+Description: Joule enables you, as a purchaser, to update delivery dates for purchase orders.  For example, when suppliers or equivalent sources inform you of delays or changes, you can use Joule to update the delivery dates with the new information.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-05-31
+Valid as Of: 2025-05-31
+Version: Cloud
+
+--- Record 765 ---
+Component: Joule
+Environment: Cloud Foundry
+Title: Use Cases Now Supported in Convergent Invoicing in SAP S/4HANA Cloud Private Edition
+Description: The following transactional capabilities are now supported in Convergent Invoicing in SAP S/4HANA Cloud Private Edition:      Clarification case: assign processor, resubmit, put on hold, set invoicing lock, and complete      Billing plan: reopen, release, and complete      Invoicing document: set print lock and remove print lock      Billing request: cancel, reject, send for checking, and release    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-05-31
+Valid as Of: 2025-05-31
+Version: Cloud
+
+--- Record 766 ---
+Component: Joule
+Environment: Cloud Foundry
+Title: Welcome Message Translation
+Description: The welcome message will appear in the user's preferred language based on their language settings. This ensures that Joule is presented in a language you are comfortable with, rather than the default English.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-05-31
+Valid as Of: 2025-05-31
+Version: Cloud
+
+--- Record 767 ---
+Component: Decentralized Identity Verification
+Environment: Cloud Foundry
+Title: DCP Issuer configuration
+Description: You can now configure a DCP issuer through a meta-data endpoint that provides all necessary configuration details.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2025-05-30
+Version: 3.9
+
+--- Record 768 ---
+Component: Decentralized Identity Verification
+Environment: Cloud Foundry
+Title: Restrict Service Keys to a Single Decentralized Identity Verification Application
+Description: You can now restrict the authorization of a service key to a selected DIV application.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2025-05-30
+Version: 3.9
+
+--- Record 769 ---
+Component: Decentralized Identity Verification
+Environment: Cloud Foundry
+Title: Support of DCP Issuance Flow
+Description: Holders can now request verifiable credentials from a trusted issuer using APIs.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2025-05-30
+Version: 3.9
+
+--- Record 770 ---
+Component: Joule
+Environment: Cloud Foundry
+Title: Joule for Microsoft 365 Copilot
+Description: By integrating Joule and Microsoft 365 Copilot, you can leverage the Joule capabilities from within Microsoft 365 Copilot Business Chat. For more information, see Using Joule with Microsoft 365 Copilot.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-05-30
+Valid as Of: 2025-05-30
+Version: Cloud
+

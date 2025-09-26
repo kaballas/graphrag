@@ -1,0 +1,130 @@
+--- Record 3661 ---
+Component: SAP Intelligent Robotic Process Automation
+Environment: Cloud Foundry
+Title: Microsoft 365 Cloud SDK
+Description: You can now use the Get Remote Folder Information activity to return useful information about a remote folder from its open URL. See: Microsoft 365 Cloud SDK.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-02-06
+Valid as Of: 2024-02-06
+Version: Cloud
+
+--- Record 3662 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: Extracted Line Items - currencyCode Deprecation
+Description: We updated the list of line items that you can extract from purchaseOrder documents. The currencyCode line item is now deprecated and no longer available for extraction.Note  The preconfigured SAP schema SAP_purchaseOrder_schema still contains the currencyCode line item. If you use it, the extraction result for currencyCode is going to be empty.  See Extracted Line Items (Base Edition and Premium Edition).
+Action: Info only
+Lifecycle: Deprecated
+Type: Changed
+Line of Business: Intelligent Technologies
+Latest Revision: 2024-02-05
+Valid as Of: 2024-02-05
+Version: Cloud
+
+--- Record 3663 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: Extracted Line Items - materialNumber and senderMaterialNumber Deprecation in SAP_purchaseOrder_schema
+Description: The line items materialNumber and senderMaterialNumber were replaced by supplierMaterialNumber and customerMaterialNumber respectively in the list of fields that you can extract from purchaseOrder documents when using the SAP_purchaseOrder_schema.  The legacy line items materialNumber and senderMaterialNumber are now deprecated and no longer available for purchaseOrder documents.Note  The preconfigured SAP schema SAP_purchaseOrder_schema still contains the line items materialNumber and senderMaterialNumber. If you use it, the extraction results for materialNumber and senderMaterialNumber are going to be empty.  See Extracted Line Items (Base Edition and Premium Edition).
+Action: Info only
+Lifecycle: Deprecated
+Type: Changed
+Line of Business: Intelligent Technologies
+Latest Revision: 2024-02-05
+Valid as Of: 2024-02-05
+Version: Cloud
+
+--- Record 3664 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: Display Description for Fields in Extraction Results for a Document
+Description: You can now display the description text for fields in the pane where you see extraction results for a document on the SAP Document AI basic UI.   To view the description, in the pane where you see extraction results for a document, hover over the name of a header field or line item. A tooltip appears, which includes the description text.  See View and Edit Extraction Results.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Intelligent Technologies
+Latest Revision: 2024-02-05
+Valid as Of: 2024-02-05
+Version: Cloud
+
+--- Record 3665 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: Download Troubleshooting Data for Documents
+Description: You can now download data about documents added to the SAP Document AI basic UI for use in troubleshooting any issues.  See Download Troubleshooting Data.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Intelligent Technologies
+Latest Revision: 2024-02-05
+Valid as Of: 2024-02-05
+Version: Cloud
+
+--- Record 3666 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: Extraction of Descriptions from Columns
+Description: We’ve fixed an issue with extracting description values from columns.  SAP Document AI now extracts the complete content of large column cells containing descriptions of numbers or quantities, for example.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Intelligent Technologies
+Latest Revision: 2024-02-05
+Valid as Of: 2024-02-05
+Version: Cloud
+
+--- Record 3667 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: Extraction of Line Items
+Description: We’ve fixed an issue with extracting line items.  If the template returns the extraction result invalid, but the AI returns the extraction result valid for the same line item, the final result is now valid when SAP Document AI merges the two results.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Intelligent Technologies
+Latest Revision: 2024-02-05
+Valid as Of: 2024-02-05
+Version: Cloud
+
+--- Record 3668 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: Get Templates Endpoint
+Description: The limit parameter of the Get Templates endpoint is now independent of the order parameter.   To apply the limit parameter, you no longer need to specify a value for order.  See Get Template.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Intelligent Technologies
+Latest Revision: 2024-02-05
+Valid as Of: 2024-02-05
+Version: Cloud
+
+--- Record 3669 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: Model Used for Extraction
+Description: The Document API now includes information about the model used for extraction. As a result, you can see whether SAP Document AI used a template or AI to extract information from a particular field.  See Get Result.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Intelligent Technologies
+Latest Revision: 2024-02-05
+Valid as Of: 2024-02-05
+Version: Cloud
+
+--- Record 3670 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: New Location for Schema Configuration Feature on UI
+Description: You now call up the Schema Configuration feature of the SAP Document AI basic UI directly from the navigation bar on the left of the screen.  See Create Schema.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Intelligent Technologies
+Latest Revision: 2024-02-05
+Valid as Of: 2024-02-05
+Version: Cloud
+

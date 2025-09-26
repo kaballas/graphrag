@@ -1,0 +1,130 @@
+--- Record 2491 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: ABAP Development Tools for Eclipse: Creating API Package Assignments
+Description: You can now assign APIs to API packages. An API package assignment is a container that defines the assignment between the API package and the corresponding API object.  See Working with API Package Assignments.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-08-16
+Valid as Of: 2024-08-16
+Version: ABAP Environment 2408
+
+--- Record 2492 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: ABAP Development Tools for Eclipse: Creating API Packages
+Description: You can now create API packages. An API package is a container that can hold different types of APIs.  See Working with API Packages.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-08-16
+Valid as Of: 2024-08-16
+Version: ABAP Environment 2408
+
+--- Record 2493 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: ABAP Development Tools for Eclipse: Creating Background Processing Contexts
+Description: You can now create your own background processing contexts. A background processing context allows asynchronous processing.  See Working with Background Queue Contexts.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-08-16
+Valid as Of: 2024-08-16
+Version: ABAP Environment 2408
+
+--- Record 2494 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: ABAP Development Tools for Eclipse: Creating CDS Aspects in ABAP CDS Syntax
+Description: You can now create CDS aspects to store field definitions and calculations, such as CDS expressions, in order to reuse them in other data definitions.  See Creating CDS Aspects.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-08-16
+Valid as Of: 2024-08-16
+Version: ABAP Environment 2408
+
+--- Record 2495 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: ABAP Development Tools for Eclipse: Creating Logical External Schemas
+Description: You can now create logical external schemas that can be used in combination with external entities for establishing outbound SQL access.  See Working with Logical External Schemas.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: nan
+Latest Revision: 2024-08-16
+Valid as Of: 2024-08-16
+Version: ABAP Environment 2408
+
+--- Record 2496 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: ABAP Development Tools for Eclipse: Display Warnings Sent by SAP HANA
+Description: When debugging a development object in which ABAP Managed Database Procedures (AMDP) are nested, the AMDP Debugger now displays warnings that are sent by the SAP HANA database.  See Stepping in AMDP Debugger.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-08-16
+Valid as Of: 2024-08-16
+Version: ABAP Environment 2408
+
+--- Record 2497 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: ABAP Development Tools for Eclipse: Field Extension Wizard
+Description: You can now use the field extension wizard to create extension fields.  See Generating Extension Fields.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-08-16
+Valid as Of: 2024-08-16
+Version: ABAP Environment 2408
+
+--- Record 2498 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: ABAP Development Tools for Eclipse: Generating an ABAP CDS Provider Model
+Description: The Generate ABAP Repository Objects Wizard creates ABAP development objects based on the Core Schema Notation model workbench object. It generates DDIC tables, CDS views, metadata extensions, and service definitions.  See Generating an ABAP CDS Provider Model with the Generate ABAP Repository Objects Wizard.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-08-16
+Valid as Of: 2024-08-16
+Version: ABAP Environment 2408
+
+--- Record 2499 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: ABAP Development Tools for Eclipse: Maintain Baseline in the Custom Code Migration App
+Description: You can now use the feature of adding findings to the baseline in the Custom Code Migration app.  See Custom Code Migration.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-08-16
+Valid as Of: 2024-08-16
+Version: ABAP Environment 2408
+
+--- Record 2500 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: ABAP Development Tools for Eclipse: New Feature Explorer Tour for RAP Business Object Tooling
+Description: The new RAP BO tools tour has been added to the Feature Explorer. The tour allows you to learn more about the different features that are available for RAP BO development.  See Feature Explorer.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-08-16
+Valid as Of: 2024-08-16
+Version: ABAP Environment 2408
+

@@ -1,0 +1,130 @@
+--- Record 2381 ---
+Component: Connectivity
+Environment: Cloud Foundry,Kyma
+Title: Transparent Proxy for Kubernetes - Bug Fixes
+Description: Transparent Proxy version 1.6.0 provides the following bug fixes:      Fixed an issue with incorrectly parsed dots in the Address field of SAP BTP destinations of type TCP. You can now define addresses without any character limitation.   For more information, see TCP Destinations.      Fixed multiple Golang vulnerabilities by upgrading dependencies to a newer version.    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-09-05
+Valid as Of: 2024-09-05
+Version: Cloud
+
+--- Record 2382 ---
+Component: Connectivity
+Environment: Cloud Foundry,Kyma
+Title: Transparent Proxy for Kubernetes - Enhancements
+Description: Transparent Proxy version 1.6.0 provides the following enhancements:      The Transparent Proxy now responds to Connectivity Proxy updates, providing enhanced synchronization between components.      Improved user experience in the Kyma environment by setting the initially created Destination service instance as the default. This eliminates the need for manual configuration and reduces the complexity of setting up the Transparent Proxy.   For more information, see Destination Service Integration.      Improved user experience in the Kyma environment by creating a "gateway" destination custom resource by default, allowing you to start using destinations immediately without additional configuration in the Kyma instance.   For more information, see Destination Gateway.      Added extensions to the Kyma dashboard for configuration management. You can now create, update, and delete destination custom resources or update the Transparent Proxy configuration using the new user interface views.      Destinations can now be consumed directly from the destination custom resource namespace without specifying the Transparent Proxy namespace in the URL.   For more information, see Using the Transparent Proxy.    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-09-05
+Valid as Of: 2024-09-05
+Version: Cloud
+
+--- Record 2383 ---
+Component: Connectivity
+Environment: Cloud Foundry,Kyma
+Title: Transparent Proxy for Kubernetes - New Features
+Description: Transparent Proxy version 1.6.0 provides the following new features:      You can now define a dedicated port on which a destination is consumable inside a Kubernetes cluster.   For more information, see Destination Custom Resource.      Use the Transparent Proxy Operator in regular Kubernetes clusters with a single-file installation. The Transparent Proxy Operator provides enhanced monitoring of the Transparent Proxy, ensuring it runs optimally according to the provided configuration.   For more information, see Installation with Operator.      Seamless consumption of systems defined as LDAP destinations. Work with systems through the LDAP protocol, leveraging the features provided by the Transparent Proxy.   For more information, see LDAP Destinations.      Seamless consumption of systems defined as MAIL destinations. Work with systems through the SMTP, POP3, and IMAP protocols, leveraging the features provided by the Transparent Proxy.   For more information, see MAIL Destinations.    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-09-05
+Valid as Of: 2024-09-05
+Version: Cloud
+
+--- Record 2384 ---
+Component: Extensions
+Environment: Cloud Foundry,Kyma
+Title: Add a System of Type SAP Build when Creating a Formation of Type Integration with SAP Build
+Description: When creating a formation of type Integration with SAP Build you now add a system of type SAP Build.  All existing formation have been automatically migrated to the new approach.  See Setting Up System Landscape for SAP Build.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-09-05
+Valid as Of: 2024-09-05
+Version: Cloud
+
+--- Record 2385 ---
+Component: Extensions
+Environment: Cloud Foundry,Kyma
+Title: Use a New Formation of Type Integration with SAP Integration Suite
+Description: Now you can configure the connectivity between an SAP S/4HANA Cloud system and an SAP Integration Suite system using the new formation type Integration with SAP Integration Suite.  See Setting Up System Landscape for SAP Integration Suite.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-09-05
+Valid as Of: 2024-09-05
+Version: Cloud
+
+--- Record 2386 ---
+Component: Java ALM
+Environment: Neo
+Title: Enhanced Console Command Output
+Description: The list-applications console command now also returns the size of each Java application deployed in the specified subaccount.  See list-applications.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-09-05
+Valid as Of: 2024-09-05
+Version: Cloud
+
+--- Record 2387 ---
+Component: SAP Alert Notification Service
+Environment: Cloud Foundry
+Title: New PostgreSQL on SAP BTP, hyperscaler option section and events
+Description: You can now use the newly supported PostgreSQL on SAP BTP, hyperscaler option events - CPU Limit, Memory Limit, Max Connections and Storage Full. For more information, see PostgreSQL on SAP BTP, hyperscaler option Events section page.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-09-05
+Valid as Of: 2024-09-05
+Version: Cloud
+
+--- Record 2388 ---
+Component: SAP Alert Notification Service
+Environment: Cloud Foundry
+Title: New Redis on SAP BTP, hyperscaler option section and events
+Description: You can now use the newly supported Redis on SAP BTP, hyperscaler option events - CPU Limit, Memory Limit and Evictions. For more information, see Redis on SAP BTP, hyperscaler option Events section page.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-09-05
+Valid as Of: 2024-09-05
+Version: Cloud
+
+--- Record 2389 ---
+Component: SAP BTP, Cloud Foundry Runtime
+Environment: Cloud Foundry
+Title: Version 42.1.0
+Description: Cloud Foundry has been updated from 41.1.0 to 42.1.0.    https://github.com/cloudfoundry/cf-deployment/releases/tag/v42.1.0  https://github.com/cloudfoundry/cf-deployment/releases/tag/v42.0.0  https://github.com/cloudfoundry/cf-deployment/releases/tag/v41.3.0  https://github.com/cloudfoundry/cf-deployment/releases/tag/v41.2.0  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-09-02
+Valid as Of: 2024-09-05
+Version: Cloud
+
+--- Record 2390 ---
+Component: SAP Build Work Zone, advanced edition
+Environment: Cloud Foundry
+Title: HTML5 Business Solutions – Multitenancy Support
+Description: Building on our recent introduction of HTML5 Business Solutions as a Content Provider, cross subaccount access of multitenant business solutions is now supported.  With this enhancement, HTML5 business solutions that expose CDM content can now be accessed from their subscription subaccount. These multitenant solutions, once subscribed to from a subaccount, can be configured as content providers in the SAP Build Work Zone instance.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-09-05
+Valid as Of: 2024-09-05
+Version: 2408B
+

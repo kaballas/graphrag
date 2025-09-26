@@ -1,0 +1,130 @@
+--- Record 3741 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Off-Cycle Upgrade
+Description: Identity Authentication has been upgraded.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-24
+Valid as Of: 2024-01-24
+Version: 25529
+
+--- Record 3742 ---
+Component: SAP Document and Reporting Compliance, Cloud Edition
+Environment: Kyma
+Title: Integration of the E-Invoices (Serbia) Process with SAP S/4HANA Cloud Public Edition
+Description: You use this process to submit electronic documents through the Serbian tax authority portal System e-Faktura (SEF).  See Supported Compliance Tasks.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: nan
+Valid as Of: 2024-01-24
+Version: Cloud
+
+--- Record 3743 ---
+Component: Edge Integration Cell
+Environment: Cloud Foundry
+Title: API Artifact
+Description: You can now view the Virtual Host URL for the selected Runtime Profile from the Create API wizard.   See: Create an API Artifact Using URLand Create an API Using an Imported API Definition
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-01-23
+Valid as Of: 2024-01-23
+Version: 2312
+
+--- Record 3744 ---
+Component: Edge Integration Cell
+Environment: Cloud Foundry
+Title: Software Version Update
+Description:     Edge Integration Cell: 8.12.*      Increment: 2312    
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-01-23
+Valid as Of: 2024-01-23
+Version: 2312
+
+--- Record 3745 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Process Visibility - Archiving Data
+Description: You can now archive Completed and Abruptly Ended visibility scenario instances. You can download the archived data for further analysis.  See Download Archived Data.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-23
+Valid as Of: 2024-01-23
+Version: Cloud
+
+--- Record 3746 ---
+Component: Intelligent Situation Automation
+Environment: Cloud Foundry
+Title: Support for OData V4 services
+Description: We now support OData V4 services for custom situation actions.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-10
+Valid as Of: 2024-01-22
+Version: Cloud
+
+--- Record 3747 ---
+Component: SAP Advanced Financial Closing
+Environment: Cloud Foundry
+Title: Closing Structure Table Change in Upcoming Release
+Description: With the release planned to be made available in February, a second tab will be added to the Closing Structure table. While the Hierarchy tab will display the closing structure as a hierarchy (that is, the way you already know it), the new List tab will show the folders in a list.  This change will affect the personalized views (formerly known as view variants) that you have created for the Closing Structure table. Due to this change, the existing views will be lost with the February release and will need to be recreated afterwards if still required.  Note  Views will be managed separately on both tabs. This means that you will be able to create views specific to one of the tabs without the view appearing in your view management on the other tab.  App affected:  Manage Closing Task Lists  Action: Take note of the views you're currently using. Once the release planned for February is available, go to the Closing Structure table in the Manage Closing Task Lists app and recreate and save the views if they are still required.
+Action: Required
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Finance
+Latest Revision: 2024-01-19
+Valid as Of: 2024-01-21
+Version: Cloud
+
+--- Record 3748 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Vertical Layout in the Process Editor
+Description: The vertical layout is now generally available.  These are some of the advantages that the new layout offers you:      To move process steps that have already been connected to the process, you simply select the step and drag and drop it.      You can access embedded help using the question mark button (?). In the Help Panel, you can navigate between the help for UI elements, the embedded What's New, and the Guided Tours.      If, for example, the outcome of an approval step in your process is “reject”, you can insert a go-to step and send users back to a previous step asking them to rework their entries.  See Use Cases for Custom Variables.      The side panel is wider and easier to work with. You can close it to save space. To display process information again, use the toggle button in the side panel.      You can select the next step to insert in your process from the smart menu.  See step 6 in Create a Business Process.      Steps with more than one flow are visualized as a group. You can collapse groups to get a better overview of the whole process.      The process is always valid, there are no more dangling ends. If you add a new step, for example, an approval form, all output paths are connected. You do not have to connect, for example, the Reject outcome to the process anymore.      See Create and Configure Forms in a Vertical Layout Process Editor.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2023-01-22
+Valid as Of: 2024-01-21
+Version: Cloud
+
+--- Record 3749 ---
+Component: Integration Advisor
+Environment: Cloud Foundry,Neo
+Title: Administrative Data in the Documentation Template
+Description: You can now select whether you want to display the administrative data of your MIG and MAG in the documentation template.  See: MIGs and MAGs
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-01-20
+Valid as Of: 2024-01-20
+Version: 2312
+
+--- Record 3750 ---
+Component: Integration Advisor
+Environment: Cloud Foundry,Neo
+Title: Display xsd:nillable value in a MIG
+Description: You can now view if an element/node in a MIG allows nil values through the Nillable field.  See: Working with a Node
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-01-20
+Valid as Of: 2024-01-20
+Version: 2312
+

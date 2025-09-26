@@ -1,0 +1,130 @@
+--- Record 1921 ---
+Component: SAP Build
+Environment: Cloud Foundry
+Title: General Availability of ABAP Cloud Project Creation
+Description: You can now create an ABAP Cloud project directly from the SAP Build lobby interface. This new capability simplifies the process, allowing you to effortlessly initiate full-stack applications using the ABAP Cloud development model. By integrating this feature, you can streamline your development workflow, taking full advantage of the robust tools and functionalities offered by ABAP Cloud.  See Full-Stack ABAP Project Creation Using Development Tools.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-11-27
+Valid as Of: 2024-11-27
+Version: Cloud
+
+--- Record 1922 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: Extracted Header Fields - quantity Deprecation
+Description: We updated the list of header fields that you can extract from purchaseOrder documents. The quantity header field is now deprecated and no longer available for extraction.Note  The preconfigured SAP schema SAP_purchaseOrder_schema still contains the header field quantity. If you use it, the extraction result for quantity is going to be empty.  See Extracted Header Fields (Base Edition and Premium Edition).
+Action: Info only
+Lifecycle: Deprecated
+Type: Changed
+Line of Business: Intelligent Technologies
+Latest Revision: 2024-11-26
+Valid as Of: 2024-11-26
+Version: Cloud
+
+--- Record 1923 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Advanced Functions for Decisions
+Description: You can now use three new functions, STRINGLENGTH, DIGITCOUNT and ISNUMERIC in your decisions. See Functions.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-11-26
+Valid as Of: 2024-11-26
+Version: Cloud
+
+--- Record 1924 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: Export/Import Schemas on the SAP Document AI Basic UI
+Description: You can now export schemas as JSON files from one client of the SAP Document AI basic UI and import them to another.   See Export/Import Schema.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Intelligent Technologies
+Latest Revision: 2024-11-26
+Valid as Of: 2024-11-26
+Version: Cloud
+
+--- Record 1925 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: Free Service Plan
+Description: You can now use the service plan Free (free) to try out all premium features, including document information extraction using generative AI, Instant Learning (Premium Edition), and List of Values Data Type (Premium Edition).  See Service Plans.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Intelligent Technologies
+Latest Revision: 2024-11-26
+Valid as Of: 2024-11-26
+Version: Cloud
+
+--- Record 1926 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: New Improved ML Models for Invoice, Purchase Order, and Payment Advice
+Description: We’ve improved the machine learning models for the document types invoice, purchase order, and payment advice.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Intelligent Technologies
+Latest Revision: 2024-11-26
+Valid as Of: 2024-11-26
+Version: Cloud
+
+--- Record 1927 ---
+Component: SAP HANA Spatial Services
+Environment: Cloud Foundry,Kyma
+Title: nan
+Description:     Enhancements: Routing API      Provider Trimble now supports the parameter “providerApiVersion” for Single Routing.      Providers Esri and Trimble now fully support the “various” parameter.      Routing API      Enhancements: Mapping API, Routing API, Geocoding API  Security updates have been implemented.  Mapping API  Routing API  Geocoding API      Bug Fix: Mapping API, Routing API      In Mapping, if provider Trimble is used with the unsupported parameter “politicalView” an error is thrown.      In Single Routing, for provider Trimble an issue has been fixed that resulted in failing requests using "returnGeometry" with value "false".      Mapping API  Routing API    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2024-11-26
+Version: Cloud
+
+--- Record 1928 ---
+Component: UI Theme Designer
+Environment: Cloud Foundry,Neo
+Title: Base Theming Content for CF and Neo.
+Description: The base theming content is updated to version 11.23.0. Review the changes at https://github.com/SAP/theming-base-content/releases.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2024-11-26
+Version: Cloud
+
+--- Record 1929 ---
+Component: UI Theme Designer
+Environment: Cloud Foundry
+Title: Theme Sets
+Description: Create theme sets to define light, dark, and high-contrast appearances for your theme to adjust the theme automatically during the day in sync with your system.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2024-11-26
+Version: Cloud
+
+--- Record 1930 ---
+Component: UI Theme Designer
+Environment: Cloud Foundry
+Title: Theming Base Custom LESS
+Description: You can now add custom LESS for all UI frameworks, not just SAPUI5 and Unified Rendering based technologies. For more information, see Adding Custom LESS and CSS.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2024-11-26
+Version: Cloud
+

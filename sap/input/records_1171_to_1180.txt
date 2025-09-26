@@ -1,0 +1,130 @@
+--- Record 1171 ---
+Component: Cloud Integration
+Environment: Cloud Foundry
+Title: New Microsoft OneDrive Adapter Available
+Description: Microsoft OneDrive adapter is available now.  See: Microsoft OneDrive Adapter
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-03-27
+Valid as Of: 2025-03-27
+Version: 2501
+
+--- Record 1172 ---
+Component: Decentralized Identity Verification
+Environment: Cloud Foundry
+Title: Display the Verifiable Credentials and Verifiable Presentations in a Form
+Description: The admin dashboard now displays verified verifiable credentials and verifiable presentations.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2025-03-27
+Version: 3.8
+
+--- Record 1173 ---
+Component: Personalized Recommendation
+Environment: Cloud Foundry
+Title: Overall Improvements
+Description: There have been several code, stability, and performance improvements.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-03-31
+Valid as Of: 2025-03-27
+Version: Cloud
+
+--- Record 1174 ---
+Component: Personalized Recommendation
+Environment: Cloud Foundry
+Title: Support for X.509 Authentication
+Description: The Personalized Recommendation APIs now support X.509 authentication.  See Enable X.509 Authentication.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-03-31
+Valid as Of: 2025-03-27
+Version: Cloud
+
+--- Record 1175 ---
+Component: SAP Build Apps
+Environment: Cloud Foundry
+Title: Web & Mobile
+Description: We've introduced a new Date field with input component. You can use it to provide date-picking functionality, allowing users to either manually type a date or select it from a calendar. To use the new component, first install it from the Marketplace.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-03-27
+Valid as Of: 2025-03-27
+Version: Cloud
+
+--- Record 1176 ---
+Component: SAP Task Center
+Environment: Cloud Foundry
+Title: New Guided Tour on Getting Started in SAP Companion
+Description: A new guided tour Getting Started with SAP Task Center is now available in the Guided Tour section of SAP Companion in the SAP Task Center Web app.  For more information about SAP Companion, see Working with the Task List.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-03-27
+Valid as Of: 2025-03-27
+Version: Cloud
+
+--- Record 1177 ---
+Component: SAP Task Center
+Environment: Cloud Foundry
+Title: New Property for Extending the Maximum Pull Period
+Description: The new property tc.inbox.pull.days, available for the all-tasks service plan, allows administrators to extend the maximum pull period of the initial pull job per task provider to up to 180 days. For more information, see Conventions and Technical Restrictions and the respective task provider destinations.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2025-03-27
+Valid as Of: 2025-03-27
+Version: Cloud
+
+--- Record 1178 ---
+Component: SAP Task Center
+Environment: Cloud Foundry
+Title: Release Notes Available in the SAP Task Center Administration App
+Description: Release notes for SAP Task Center are now available also in the SAP Task Center Administration app. Starting now, the release notes are separated between both SAP Task Center applications, depending on their target group.  For more information on the SAP Task Center Administration app, see Create a Task Center Administration Tile.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-03-27
+Valid as Of: 2025-03-27
+Version: Cloud
+
+--- Record 1179 ---
+Component: Joule
+Environment: Cloud Foundry
+Title: Creating Insights Cards with Joule in SAP S/4HANA Cloud Public Edition
+Description: Joule now enables you to create a list or table insights card from within an app and add it to your My Home page. For more information, see Creating Insights Cards.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-03-26
+Valid as Of: 2025-03-26
+Version: Cloud
+
+--- Record 1180 ---
+Component: Joule
+Environment: Cloud Foundry
+Title: New Use Cases Now Supported in SAP S/4HANA Cloud Public Edition
+Description: Joule now enables you to view business data of the following objects in SAP S/4HANA Cloud Public Edition:    Inspection Method      Master Inspection Characteristic      Enterprise Project      Process Order Confirmation      Solution Order      Service Contract      For a list of the supported business objects, their details, and sample requests, see Viewing Business Data.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-03-26
+Valid as Of: 2025-03-26
+Version: Cloud
+

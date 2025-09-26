@@ -1,0 +1,130 @@
+--- Record 3591 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Generator for Custom OData UI Services Based on RAP BO Interfaces
+Description: You can now generate custom OData UI services based on RAP BO interfaces using a generator wizard in ADT.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-02-16
+Valid as Of: 2024-02-16
+Version: ABAP Environment 2402
+
+--- Record 3592 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Health Monitoring
+Description: In SAP Cloud ALM, you can now use an additional metric for e-mail transmissions.   See Central Health Monitoring Using SAP Focused Run and SAP Cloud ALM .
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-02-18
+Valid as Of: 2024-02-16
+Version: ABAP Environment 2402
+
+--- Record 3593 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Health Monitoring
+Description: In the Health Monitoring app, you can now use additional metrics for e-mail transmissions and changes to database table entries.   See Local Health Monitoring.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-02-18
+Valid as Of: 2024-02-16
+Version: ABAP Environment 2402
+
+--- Record 3594 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Health Monitoring
+Description: In SAP Cloud ALM, you can now use an additional metric for e-mail transmissions.   See Central Health Monitoring Using SAP Focused Run and SAP Cloud ALM .
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-02-18
+Valid as Of: 2024-02-16
+Version: Cloud
+
+--- Record 3595 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Health Monitoring
+Description: In the Health Monitoring app, you can now use additional metrics for e-mail transmissions and changes to database table entries.   See Local Health Monitoring.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-02-18
+Valid as Of: 2024-02-16
+Version: Cloud
+
+--- Record 3596 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Integration of Enterprise Event Enablement with Advanced Event Mesh Service Plan for Public Cloud
+Description: You can now integrate the enterprise event enablement with the Advanced Event Mesh service plan, using the Advanced Event Mesh Integration Scenario (SAP_COM_0492) and Advanced Event Mesh Validation Service Integration (SAP_COM_0493).  For more information, see Integration with Advanced Mesh Service Plan for Service Cloud.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-18
+Valid as Of: 2024-02-16
+Version: ABAP Environment 2402
+
+--- Record 3597 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Integration of Enterprise Event Enablement with Advanced Event Mesh Service Plan for Public Cloud
+Description: You can now integrate the enterprise event enablement with the Advanced Event Mesh service plan, using the Advanced Event Mesh Integration Scenario (SAP_COM_0492) and Advanced Event Mesh Validation Service Integration (SAP_COM_0493).  For more information, see Integration with Advanced Mesh Service Plan for Service Cloud.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-18
+Valid as Of: 2024-02-16
+Version: Cloud
+
+--- Record 3598 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Maintain Business Roles
+Description: With this feature you can copy restrictions from a deprecated restriction type to the successor restriction types using the Mass Change Wizard.  You can also compare launchpad spaces that are assigned to business roles.  See    and How to Compare Business Roles.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-02-18
+Valid as Of: 2024-02-16
+Version: ABAP Environment 2402
+
+--- Record 3599 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Maintain Business Roles
+Description: With this feature you can copy restrictions from a deprecated restriction type to the successor restriction types using the Mass Change Wizard.  You can also compare launchpad spaces that are assigned to business roles.  See How to Compare Business Roles.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-02-18
+Valid as Of: 2024-02-16
+Version: Cloud
+
+--- Record 3600 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Maintain Business Roles (Deprecated)
+Description: Please note that the Maintain Business Roles (Deprecated) app was removed from the SAP-delivered launchpad space.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-02-18
+Valid as Of: 2024-02-16
+Version: ABAP Environment 2402
+

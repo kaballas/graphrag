@@ -1,0 +1,130 @@
+--- Record 4051 ---
+Component: SAP Omnichannel Promotion Pricing
+Environment: Cloud Foundry
+Title: Additional Extensibility Scenario Including the Customizing of Sequence and Resolution Determination
+Description: You can now add custom logic to SAP Omnichannel Promotion Pricing by implementing extensions.   With the new extension, sequence and resolution can be determined automatically by a customer-specific implementation to simplify and optimize the maintenance of promotions.  For more information, see Getting Started with Extensibility for SAP Omnichannel Promotion Pricing and Automatic Determination of Sequence and Resolution in the new Extensibility Guide for SAP Omnichannel Promotion Pricing.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2022-01-01
+Valid as Of: 2023-11-09
+Version: Cloud
+
+--- Record 4052 ---
+Component: SAP Omnichannel Promotion Pricing
+Environment: Cloud Foundry
+Title: Data Access Service Supports OData V4
+Description: The Data Access service for SAP Omnichannel Promotion Pricing now also supports OData V4. With this, you can search for certain promotions assigned to specific subentities.  For more information, see Data Access.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2022-01-01
+Valid as Of: 2023-11-09
+Version: Cloud
+
+--- Record 4053 ---
+Component: SAP Omnichannel Promotion Pricing
+Environment: Cloud Foundry
+Title: Deletion of All Regular Prices
+Description: You can now delete all regular prices by using the new parameter cleanUpAll in combination with currentTimestamp.  For more information, see Administration.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2022-01-01
+Valid as Of: 2023-11-09
+Version: Cloud
+
+--- Record 4054 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Regular Upgrade
+Description: Identity Authentication has been upgraded.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-11-08
+Valid as Of: 2023-11-08
+Version: Cloud
+
+--- Record 4055 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Source System, Master Data Texts Configuration
+Description: Tenant administrators change the configuration of source systems and master data texts in the administration console for SAP Cloud Identity Services via Edit mode. See Configuring External Authentication Providers and Configure Master Data Texts Via Administration Console.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2023-11-08
+Valid as Of: 2023-11-08
+Version: Cloud
+
+--- Record 4056 ---
+Component: Identity Provisioning
+Environment: Neo
+Title: Download logs from notification e-mails
+Description: You can now download error logs and skipped entities logs directly from the notification e-mails that provide information about the job execution. Sending navigation links to the download page of failed or skipped entities is supported for tenants running on SAP Cloud Identity Services infrastructure.  For more information, see: Manage Job Notifications
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-12-06
+Valid as Of: 2023-11-08
+Version: Cloud
+
+--- Record 4057 ---
+Component: Identity Provisioning
+Environment: Neo
+Title: SAP Initiated system type introduced
+Description: SAP Initiated system type is introduced to represent provisioning systems that are automatically created and preconfigured in the Identity Provisioning UI. It comes in addition to the Customer Managed type which represents provisioning systems that you as a customer create and configure in the Identity Provisioning UI.  For more information, see: System Types
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-12-06
+Valid as Of: 2023-11-08
+Version: Cloud
+
+--- Record 4058 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Keda module: Update to version 1.0.0
+Description: We are happy to announce the release of version 1.0.0 of the Keda module. This version brings the latest Keda version (v2.12.0) and bug fixes in the area of status handling during the module removal.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-11-07
+Valid as Of: 2023-11-08
+Version: Cloud
+
+--- Record 4059 ---
+Component: UI Theme Designer
+Environment: Cloud Foundry,Neo
+Title: Base Theming Content for CF and Neo.
+Description: The base theming content is updated to version 11.9.0. Review the changes at https://github.com/SAP/theming-base-content/releases.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2023-11-08
+Version: Cloud
+
+--- Record 4060 ---
+Component: Edge Integration Cell
+Environment: Cloud Foundry
+Title: Edge Integration Cell is Now Generally Available.
+Description: Edge Integration Cell is an optional hybrid integration runtime offered as part of SAP Integration Suite, which enables you to manage APIs and run integration scenarios within your private landscape. See What Is Edge Integration Cell for more information. As a next step, Plan Your Setup of Edge Integration Cell.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2023-11-07
+Valid as Of: 2023-11-07
+Version: 2309
+

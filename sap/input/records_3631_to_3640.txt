@@ -1,0 +1,130 @@
+--- Record 3631 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Telemetry module: Update to version 1.8.0
+Description: The new version brings the following improvements:  Telemetry Manager:      Improved resource utilisation (#704).      Support for running in a “deny all” Network Policy environment (#536).      Traces and Metrics:      Update to OTel Collector 0.92.0 (#723).    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-01-29
+Valid as Of: 2024-02-13
+Version: Cloud
+
+--- Record 3632 ---
+Component: SAP Build Apps
+Environment: Cloud Foundry
+Title: Web
+Description:   , providing access toCurrent logged-in user's information is now available via a system variable in web applications. systemVars.currentUser  Improved the completion speed of Web builds.  
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2024-02-13
+Version: Cloud
+
+--- Record 3633 ---
+Component: SAP Datasphere
+Environment: Cloud Foundry
+Title: Features for Version 2024.4
+Description: New and changed features are available for administration, data integration, data modeling, and data privacy and protection.  For more information, see What's New in SAP Datasphere 2024.4. 
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-02-13
+Valid as Of: 2024-02-13
+Version: Cloud
+
+--- Record 3634 ---
+Component: UI Theme Designer
+Environment: Cloud Foundry,Neo
+Title: Base Theming Content for CF and Neo.
+Description: The base theming content is updated to version 11.12.0. Review the changes at https://github.com/SAP/theming-base-content/releases.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2024-02-13
+Version: Cloud
+
+--- Record 3635 ---
+Component: Pricing Service
+Environment: Cloud Foundry
+Title: Write Proper Engine Traces
+Description: An unintended extra quotation mark used to make the calculation trace an invalid XML. This issue has been corrected.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-02-09
+Valid as Of: 2024-02-12
+Version: Cloud
+
+--- Record 3636 ---
+Component: Responsibility Management Service
+Environment: Cloud Foundry
+Title: Replace a Team Member
+Description: Using the Manage Teams and Responsibilities app, you can now replace a team member with another team member within a team or across multiple teams. SeeReplace a Team Member.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-02-01
+Valid as Of: 2024-02-12
+Version: Cloud
+
+--- Record 3637 ---
+Component: Workflow Management
+Environment: Cloud Foundry
+Title: Asynchronous Module Loading for Monitor Workflows Apps
+Description: When configuring an SAP Build Work Zone site, you can now enable Asynchronous Module Loading for Monitor Workflows applications.   See,  Site Settings- SAP Build Work Zone, standard edition  Site Settings - SAP Build Workzone, advanced edition  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-02-09
+Valid as Of: 2024-02-09
+Version: Cloud
+
+--- Record 3638 ---
+Component: Java Server
+Environment: Neo
+Title: Java Web Tomcat 8 is deprecated
+Description: [Periodic reminder] We have stopped the support of Java Web Tomcat 8 runtime following the official announcement of Apache Tomcat 8.5 end of life.   Required Action: If you have Java applications running on that runtime, migrate to Java Web Tomcat 9 immediately. See Migrating from Java Web Tomcat 8 to Java Web Tomcat 9.
+Action: Required
+Lifecycle: Deprecated
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-02-08
+Valid as Of: 2024-02-08
+Version: Cloud
+
+--- Record 3639 ---
+Component: Connectivity
+Environment: Cloud Foundry,Kyma
+Title: Transparent Proxy for Kubernetes - Hotfix
+Description: Transparent Proxy version 1.4.3 provides the following hotfix:  An issue was fixed that could potentially cause misconfiguration of the Transparent Proxy upon restart, and could result in failing requests.  We strongly recommend that you pull the new version and upgrade as soon as possible.
+Action: Recommended
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2024-02-08
+Version: Cloud
+
+--- Record 3640 ---
+Component: Custom Domain Service
+Environment: Neo
+Title: New Console Client Commands
+Description: Three new console client commands are now available for managing a third-party cookie deprecation (TPCD) trial token:      set-custom-domain-trial-token      display-custom-domain-trial-token      remove-custom-domain-trial-token      Action: Set this trial token as a temporary solution. However, consider migrating to a sustainable solution.
+Action: Recommended
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-02-08
+Valid as Of: 2024-02-08
+Version: Cloud
+

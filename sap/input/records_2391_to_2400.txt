@@ -1,0 +1,130 @@
+--- Record 2391 ---
+Component: SAP Build Work Zone, standard edition
+Environment: Cloud Foundry
+Title: HTML5 Business Solutions – Multitenancy Support
+Description: Building on our recent introduction of HTML5 Business Solutions as a Content Provider, cross subaccount access of multitenant business solutions is now supported.  With this enhancement, HTML5 business solutions that expose CDM content can now be accessed from their subscription subaccount. These multitenant solutions, once subscribed to from a subaccount, can be configured as content providers in the SAP Build Work Zone instance.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-09-05
+Valid as Of: 2024-09-05
+Version: 2408B
+
+--- Record 2392 ---
+Component: SAP Cloud Application Event Hub
+Environment: Other
+Title: Support for IAS-based certificate authentication
+Description: Use the SAP Cloud Identity service to manage certificates and authenticate the subscriber applications that share events with SAP Cloud Application Event Hub. See Authentication.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-09-09
+Valid as Of: 2024-09-05
+Version: Cloud
+
+--- Record 2393 ---
+Component: SAPUI5
+Environment: ABAP,Cloud Foundry,Kyma,Neo,Other
+Title: SAPUI5 Distribution 1.128
+Description: SAPUI5 version 1.128 has been released for UI development and can now be consumed by SAP BTP services. It’s up to the services to determine when they start using the new version.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-09-05
+Valid as Of: 2024-09-05
+Version: Cloud
+
+--- Record 2394 ---
+Component: SAP Build
+Environment: Cloud Foundry
+Title: General Availability of Events
+Description: You can now create an Events project by using all the available events in the SAP Business Accelerator Hub or by uploading your own specification file. After you create and release the Events project, it can be used in your processes and automations, working as an event trigger to start the process.  See Use Events.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-09-04
+Valid as Of: 2024-09-04
+Version: Cloud
+
+--- Record 2395 ---
+Component: Cloud Identity Services
+Environment: Kyma,Neo
+Title: Off-Cycle Upgrade
+Description: Cloud Identity Services have been upgraded.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-09-03
+Valid as Of: 2024-09-03
+Version: 26612
+
+--- Record 2396 ---
+Component: SAP Build Apps
+Environment: Cloud Foundry
+Title: Web & Mobile
+Description: You can duplicate pages in the page preview header.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-09-03
+Valid as Of: 2024-09-03
+Version: Cloud
+
+--- Record 2397 ---
+Component: Continuous Integration & Delivery
+Environment: Cloud Foundry
+Title: New Region
+Description: SAP Continuous Integration and Delivery can now also be consumed in the Brazil (São Paulo) region. See Regional Availability.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-09-02
+Valid as Of: 2024-09-02
+Version: Cloud
+
+--- Record 2398 ---
+Component: SAP AI Core
+Environment: Cloud Foundry
+Title: Generative AI hub
+Description: Additional selected models from OpenAI are supported via Azure.For more information, see SAP Note 3437766 .
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-09-02
+Valid as Of: 2024-09-02
+Version: Cloud
+
+--- Record 2399 ---
+Component: SAP AI Launchpad
+Environment: Cloud Foundry
+Title: Generative AI hub
+Description: Image as input is supported for selected models.  For more information, see Chat and Prompt Experimentation.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-09-02
+Valid as Of: 2024-09-02
+Version: Cloud
+
+--- Record 2400 ---
+Component: SAP AI Launchpad
+Environment: Cloud Foundry
+Title: Generative AI hub
+Description: Additional selected models from OpenAI are supported via Azure.  For more information, see Models and Scenarios in the Generative AI Hub.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-09-02
+Valid as Of: 2024-09-02
+Version: Cloud
+

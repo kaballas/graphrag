@@ -1,0 +1,130 @@
+--- Record 1631 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Kyma runtime system maintenance
+Description: We are upgrading the Kyma runtime management in our Kyma Control Plane. During this upgrade, the following minor adjustment will be applied to your Kubernetes cluster:  ClusterRoleBindings of administrators will be temporarily duplicated. This will not affect the access to your cluster. The redundant ClusterRoleBindings will be removed in a post action.  The upgrade process starts in calendar week 04/2025 and will be completed in week 06/2025.  Please note that:    The upgrade is a zero-downtime maintenance.  No actions are required from your side.  
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2025-01-17
+Valid as Of: 2025-01-22
+Version: Cloud
+
+--- Record 1632 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Telemetry module: Update to version 1.31.0
+Description: The new version brings the following improvements:  Metrics: Improved MetricPipeline defaulting of inputs (#1712).  Traces and Metrics: Update to OTel Collector 0.116.0 (#1071).   
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-01-08
+Valid as Of: 2025-01-22
+Version: Cloud
+
+--- Record 1633 ---
+Component: Pricing Service
+Environment: Cloud Foundry
+Title: Pre-Production - Base Calculations Include Current Percentage Step
+Description: In scenarios where a percentage condition spans multiple counters within the same step range in the pricing procedure, the condition base used not to be dynamically adjusted to account for the cumulative effect of prior conditions. Instead, all counters for the condition type used to use the original base amount. This issue has been corrected.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-12-10
+Valid as Of: 2025-01-22
+Version: Cloud
+
+--- Record 1634 ---
+Component: Pricing Service
+Environment: Cloud Foundry
+Title: Pre-Production - Standard Requirement Formula 58
+Description: Support standard requirement formula 58 that returns true if the accounting indicator (KOMP-BEMOT) is not initial.  See: Supported Standard Pricing Exits. 
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-12-10
+Valid as Of: 2025-01-22
+Version: Cloud
+
+--- Record 1635 ---
+Component: Pricing Service
+Environment: Cloud Foundry
+Title: Pre-Production - Standard Requirement Formula 67
+Description: Support standard requirement formula 67 that always returns true in the context of the Pricing service.  See: Supported Standard Pricing Exits.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-12-10
+Valid as Of: 2025-01-22
+Version: Cloud
+
+--- Record 1636 ---
+Component: Pricing Service
+Environment: Cloud Foundry
+Title: Pre-Production – Access Sales Records in Purchasing Tables
+Description: Only condition tables and condition records with application ‘V’ (Sales) are considered by the Pricing service. For cases where condition records with application ‘V’ were stored in condition tables with application ‘M’ (Purchasing), those tables can now be added to the replication and will also be considered.  See: Development Guide for SAP Variant Configuration and Pricing.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-12-10
+Valid as Of: 2025-01-22
+Version: Cloud
+
+--- Record 1637 ---
+Component: Pricing Service
+Environment: Cloud Foundry
+Title: Pre-Production – Consider Condition Record Descriptions
+Description: For certain back-end releases it is possible to maintain a description on the condition record level that is then displayed in the pricing results instead of the condition type description. This applies only to non-variant conditions. The Pricing service supports the same mechanism. The feature will only be activated on request through a customer ticket on component LOD-CPS-PRC.   See: API Definition and Development Guide for SAP Variant Configuration and Pricing.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-12-10
+Valid as Of: 2025-01-22
+Version: Cloud
+
+--- Record 1638 ---
+Component: Pricing Service
+Environment: Cloud Foundry
+Title: Pre-Production – Correct Exchange Rate Type in Currency Conversion Trace
+Description: The engine trace used to show an exchange rate type different from the one that was used during price calculation. For example, when the local currency is EUR and the document currency is USD, if the exchange rate type passed is M, but an alternative exchange rate type EURX is maintained in the customizing, the exchange rate is determined based on the alternative type. However, the currency conversion trace did not use to reflect this correctly and displayed the originally passed exchange rate type, M. This discrepancy used to cause confusion during the analysis using the trace information. This issue has been corrected.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-12-10
+Valid as Of: 2025-01-22
+Version: Cloud
+
+--- Record 1639 ---
+Component: Pricing Service
+Environment: Cloud Foundry
+Title: Pre-Production – Document Pricing - Change the Source of a Pricing Document
+Description: When creating a new pricing document with endpoint POST /documents, the owner or source of the document can be specified by providing the following data: The source application, the source type; for example quote, and the source id; for example quote number 49709821. That source information is stored with the pricing document.  The source information can be used as a filter criteria in the APIs to manage stored pricing documents.  New: the enhanced endpoint PATCH /documents  allows overwriting the source of a pricing document if needed.   See: API Definition and Development Guide for SAP Variant Configuration and Pricing.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-12-10
+Valid as Of: 2025-01-22
+Version: Cloud
+
+--- Record 1640 ---
+Component: Pricing Service
+Environment: Cloud Foundry
+Title: Pre-Production – Document Pricing – Stable Source Condition IDs When Copying Items
+Description: When copying an item, the condition id of the source item used to be changed because of an unintended re-pricing of the source document. This issue has been corrected.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-12-10
+Valid as Of: 2025-01-22
+Version: Cloud
+

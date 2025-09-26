@@ -1,0 +1,130 @@
+--- Record 2151 ---
+Component: Connectivity
+Environment: Cloud Foundry,Kyma
+Title: Connectivity Proxy for Kubernetes - New Features
+Description: Connectivity Proxy version 2.13.0 provides the following new features:    The Connectivity Proxy now exposes various JVM and component-specific Prometheus metrics.  [Helm] You can now configure the topology key for the pod anti-affinity of each pod related to the Connectivity Proxy. This gives you more control over pod scheduling.  [Helm] You can now configure the request and limit resource constraints for the Region Configuration Controller micro-service of the Connectivity Proxy.  Support for custom PKI (public key infrastructure): The Connectivity Proxy now provides a list of certificate authorities which it should trust in addition to the default ones when performing outbound HTTPS calls is now supported.  
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-10-17
+Valid as Of: 2024-10-17
+Version: Cloud
+
+--- Record 2152 ---
+Component: Connectivity
+Environment: Cloud Foundry,Kyma
+Title: Connectivity Proxy for Kubernetes - Security Fixes
+Description: Connectivity Proxy version 2.13.0 provides the following security fixes:      Multiple OS vulnerabilities by removing or upgrading packages on the image were fixed.      Multiple Java vulnerabilities by upgrading dependencies to a newer version were fixed.    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-10-17
+Valid as Of: 2024-10-17
+Version: Cloud
+
+--- Record 2153 ---
+Component: Credential Store
+Environment: Cloud Foundry,Kyma
+Title: CMK Encryption Details
+Description: You can now easily set alert notifications on service instance level from the SAP Credential Store user interface, tab Settings. See:       Multiple Expiring Credential Bindings      Maximum Number of Credential Bindings      Maximum Number of Credentials      Maximum Number of Requests      Maximum Used Storage (in MB)    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-10-08
+Valid as Of: 2024-10-17
+Version: Cloud
+
+--- Record 2154 ---
+Component: Data Quality Services
+Environment: Cloud Foundry,Neo
+Title: Enhancements
+Description:   Improvements were made to support validation of rural addresses in Chechia that consist of a house number on an unnamed road.   The microservice now returns the two numbers in street addresses in Chechia and Slovakia in the following output field properties. It returns the first number (registration number) in std_addr_building_name, the second number (orientation number) in std_addr_prim_number, and both numbers separated by a slash in std_addr_prim_number_full. See House Number for more information.  
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2024-10-17
+Version: Cloud
+
+--- Record 2155 ---
+Component: Java ALM
+Environment: Neo
+Title: Downloading Binaries of a Java Application
+Description: You can now download the latest deployed content of an application as a ZIP file. See Download Application Binaries.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-10-17
+Valid as Of: 2024-10-17
+Version: Cloud
+
+--- Record 2156 ---
+Component: SAP Alert Notification Service
+Environment: Cloud Foundry
+Title: New Edge Lifecycle Management section and events
+Description: You can now use the newly supported Edge Lifecycle Management events - Node Not Ready, Pod Evicted Status Reason, Pod Failed Status Reason, Pod Failed Scheduling Status, Pod Failed Status Phase and Pod Node Lost Status Reason. For more information, see Edge Lifecycle Management Events section page.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-10-17
+Valid as Of: 2024-10-17
+Version: Cloud
+
+--- Record 2157 ---
+Component: SAP Alert Notification Service
+Environment: Cloud Foundry
+Title: New SAP Entitlement Management section and event
+Description: You can now use the newly supported SAP Entitlement Management event - Failed Lifecycle Management Operation. For more information, see SAP Entitlement Management Events section page.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-10-17
+Valid as Of: 2024-10-17
+Version: Cloud
+
+--- Record 2158 ---
+Component: SAP BTP Developer's Guide
+Environment: Cloud Foundry,Kyma
+Title: New Mission: Develop a Multitenant CAP Application
+Description: You can now develop multitenant CAP applications and deploy them in SAP BTP. The Develop a Multitenant CAP Application Following the SAP BTP Developer’s Guide mission includes enabling multitenancy, deploying the application in the SAP BTP, Cloud Foundry runtime and SAP BTP, Kyma runtime, and subscribing to the multitenant application.  See Develop a Multitenant CAP Application Following the SAP BTP Developer's Guide.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-10-17
+Valid as Of: 2024-10-17
+Version: Cloud
+
+--- Record 2159 ---
+Component: SAP BTP, Cloud Foundry Runtime
+Environment: Cloud Foundry
+Title: Version 43.6.0
+Description: Cloud Foundry has been updated from 43.3.0 to 43.6.0.    https://github.com/cloudfoundry/cf-deployment/releases/tag/v43.6.0  https://github.com/cloudfoundry/cf-deployment/releases/tag/v43.5.0  https://github.com/cloudfoundry/cf-deployment/releases/tag/v43.4.0  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-10-17
+Valid as Of: 2024-10-17
+Version: Cloud
+
+--- Record 2160 ---
+Component: SAP Build
+Environment: Cloud Foundry
+Title: Lobby - Add Projects from the Dev Space
+Description: You can now use the Add from Dev Space feature to easily migrate your projects from SAP Business Application Studio Dev Space Manager to the SAP Build Code tenant.  See Add Projects From Dev Space.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-10-17
+Valid as Of: 2024-10-17
+Version: Cloud
+

@@ -1,0 +1,130 @@
+--- Record 81 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: First SAP Data Center in Frankfurt
+Description: You can choose from a SAP Cloud Infrastructure region for the SAP BTP ABAP environment: Germany (Frankfurt).  For more information, see Regions and API Endpoints for the ABAP Environment.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-09-11
+Valid as Of: 2025-09-19
+Version: ABAP Environment 2508
+
+--- Record 82 ---
+Component: Connectivity
+Environment: Cloud Foundry
+Title: Cloud Connector - New Region
+Description: An additional region was added to SAP BTP:    eu01: Europe (Frankfurt) - SAP (EU access only)    For more information, see Cloud Connector: Prerequisites.  In case of questions please contact SAP Support.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2025-09-19
+Valid as Of: 2025-09-19
+Version: Cloud
+
+--- Record 83 ---
+Component: Connectivity
+Environment: Cloud Foundry
+Title: Destination Service - New Region
+Description: An additional region was added to SAP BTP:    eu01: Europe (Frankfurt) - SAP (EU access only)    For more information, see Configure Destination Service IPs in Firewall Rules.  In case of questions please contact SAP Support.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2025-09-19
+Valid as Of: 2025-09-19
+Version: Cloud
+
+--- Record 84 ---
+Component: Region
+Environment: Cloud Foundry
+Title: Europe (Frankfurt) - EU Access Only
+Description: Europe (Frankfurt) - EU Access only (cf-eu01) is a new region running on SAP Cloud Infrastructure that is available for use with enterprise accounts. See Regions and API Endpoints Available for the Cloud Foundry Environment.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-09-19
+Valid as Of: 2025-09-19
+Version: Cloud
+
+--- Record 85 ---
+Component: Region
+Environment: Cloud Foundry
+Title: Reminder: Additional NAT IP Range Added to Amazon Web Services Region us10
+Description: On June 26, 2025, SAP announced that an additional NAT IP address range (18.97.36.224/27) was added to the SAP BTP region us10 – US East (VA) running on AWS. This is a reminder that the range will start to be used from October 8, 2025.   Actions:      If your Cloud Foundry applications connect to systems that restrict access by allowlisting IPs in firewall rules, please adapt your configuration before October 8, 2025 by allowlisting the specified NAT IP address range.   Remove the following IP ranges from allowlisting between October 20, 2025 and October 24, 2025 if your Cloud Foundry applications connect to systems that restrict access by allowlisting IPs in firewall rules. This is necessary because these IP ranges will be released from SAP and returned to AWS for redistribution, which changes their availability. Removing these ranges helps prevent unauthorized access to your environments by other AWS clients.       IPs to remove from allowlist:    52.23.189.23      52.23.1.211      52.4.101.240      18.204.173.15      18.210.47.160      18.211.235.11      184.73.43.82      3.213.197.54      3.216.16.207      3.88.250.160      34.192.100.96      34.192.134.47      34.202.136.35      34.225.190.250      34.234.191.59      35.153.88.132      52.2.110.230      52.20.242.182      52.200.165.163      52.204.111.138      52.71.83.110      54.156.172.106      54.205.71.200      54.208.119.130      54.221.30.91      54.234.93.200      54.85.65.82      For additional reference, see the list of IPs in Regions and API Endpoints for the Cloud Foundry Environment. The changes described above will be reflected in the list on October 9, 2025.
+Action: Required
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2025-09-18
+Valid as Of: 2025-09-18
+Version: Cloud
+
+--- Record 86 ---
+Component: Automation Pilot
+Environment: Cloud Foundry
+Title: Service Availability
+Description: SAP Automation Pilot is now also available in region Japan (Tokyo).
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-09-18
+Valid as Of: 2025-09-18
+Version: Cloud
+
+--- Record 87 ---
+Component: Connectivity
+Environment: Cloud Foundry,Kyma
+Title: Connectivity Proxy for Kubernetes - Enhancement
+Description: Connectivity Proxy version 2.18.0 provides the following enhancement:  The Connectivity Proxy now supports ECDSA private keys when using mTLS passthrough or mTLS between Ingress and Proxy.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-09-18
+Valid as Of: 2025-09-18
+Version: Cloud
+
+--- Record 88 ---
+Component: Connectivity
+Environment: Cloud Foundry,Kyma
+Title: Connectivity Proxy for Kubernetes - New Features
+Description: Connectivity Proxy version 2.18.0 provides the following new features:    Added a configuration parameter (ipv6.preference.enabled) to let Java prefer IPv6 for outbound calls.For more information, see Configuration Guide.  Added support for the arm64 processor architecture.  
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2025-09-18
+Valid as Of: 2025-09-18
+Version: Cloud
+
+--- Record 89 ---
+Component: Connectivity
+Environment: Cloud Foundry,Kyma
+Title: Connectivity Proxy for Kubernetes - Security Fixes
+Description: Connectivity Proxy version 2.18.0 provides the following security fixes:    Fixed multiple OS vulnerabilities by removing or upgrading packages on the image.  Fixed multiple Java vulnerabilities by upgrading dependencies to a newer version.  
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-09-18
+Valid as Of: 2025-09-18
+Version: Cloud
+
+--- Record 90 ---
+Component: Connectivity
+Environment: Cloud Foundry
+Title: Destination Service - Destination Chaining
+Description: Added a new chain that allows to perform a user token OAuth flow twice before using the end result towards the destination target.   For more information, see Sequential User Propagation Chain.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-09-18
+Valid as Of: 2025-09-18
+Version: Cloud
+

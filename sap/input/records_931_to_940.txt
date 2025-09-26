@@ -1,0 +1,130 @@
+--- Record 931 ---
+Component: Edge Integration Cell
+Environment: Cloud Foundry
+Title: Edge Deploy Controller Component Supported in Diagnostics
+Description: You can select Edge Deploy Controller from the component selection list when creating a new diagnostic task.  See: Diagnostics
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-05-11
+Valid as Of: 2025-05-11
+Version: 2503
+
+--- Record 932 ---
+Component: Edge Integration Cell
+Environment: Cloud Foundry
+Title: Grafana Dashboards for System Monitoring
+Description: Grafana dashboards are now seamlessly delivered with the Edge Integration Cell deployment.See: System Monitoring
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-05-11
+Valid as Of: 2025-05-11
+Version: 2503
+
+--- Record 933 ---
+Component: Edge Integration Cell
+Environment: Cloud Foundry
+Title: New action Rotate Signing Key in Component Monitor
+Description: You can manually rotate the signing keys for access tokens in the Edge Local Authentication and Authorization component.  For more information, see:  Manually Rotate Signing Keys of Access Tokens  Component Monitor  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-05-11
+Valid as Of: 2025-05-11
+Version: 2503
+
+--- Record 934 ---
+Component: Edge Integration Cell
+Environment: Cloud Foundry
+Title: New Components
+Description: There are two new components available in Component Monitor:  Destination Service Data Maintainer   Destination Service Rest  See: Component Monitor
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-05-11
+Valid as Of: 2025-05-11
+Version: 2503
+
+--- Record 935 ---
+Component: Edge Integration Cell
+Environment: Cloud Foundry
+Title: New Diagnostic Task
+Description: You can now diagnose issues during adapter processing in the integration flow with the Adapter task.See: Diagnostics
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-05-11
+Valid as Of: 2025-05-11
+Version: 2503
+
+--- Record 936 ---
+Component: Edge Integration Cell
+Environment: Cloud Foundry
+Title: New RFC Adapter card in the Operations cockpit
+Description: You can now monitor the underlying JCo entities of the integration flows deployed with the RFC adapter.See:RFC Adapter Monitor  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-05-11
+Valid as Of: 2025-05-11
+Version: 2503
+
+--- Record 937 ---
+Component: Edge Integration Cell
+Environment: Cloud Foundry
+Title: RFC Sender Adapter
+Description: The RFC Sender adapter is now available on the Edge Integration Cell runtime.See: RFC Sender Adapter  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-05-11
+Valid as Of: 2025-05-11
+Version: 2503
+
+--- Record 938 ---
+Component: Edge Integration Cell
+Environment: Cloud Foundry
+Title: Software Version Update
+Description:     Edge Integration Cell: 8.29.*    Increment: 2503  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-05-11
+Valid as Of: 2025-05-11
+Version: 2503
+
+--- Record 939 ---
+Component: Integration Assessment
+Environment: Cloud Foundry
+Title: Software Version Update
+Description:     Integration Assessment: 1.39.*      Increment: 2503    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-05-11
+Valid as Of: 2025-05-11
+Version: 2503
+
+--- Record 940 ---
+Component: Integration Assessment
+Environment: Cloud Foundry
+Title: Standard Content Update
+Description: Version 1.4 of SAP provided standard content is now available.  It provides updated technology recommendations for process integration scenarios, introducing new capabilities of SAP Integration Suite, e.g. Edge Integration Cell for on-premise to on-premise and Event Mesh for event driven integrations.  For more details on how to update the standard content to the newest version, visit Update Content Maintained by SAP. Note that only an Enterprise Architect or an Administrator can perform this task.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-05-11
+Valid as Of: 2025-05-11
+Version: 2503
+

@@ -1,0 +1,130 @@
+--- Record 4001 ---
+Component: Process Visibility Capability
+Environment: Cloud Foundry
+Title: Execution Limits
+Description: Based on the scalability limits defined for the process visibility capability, the number of events acquired and the event payload size are updated. See SAP Note 3341306 .  Action: Ensure that you adjust the implementation considering the updated execution limits. 
+Action: Required
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2023-06-16
+Valid as Of: 2023-11-10
+Version: Cloud
+
+--- Record 4002 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Process Visibility - Execution Limits
+Description: Based on the scalability limits defined for Process Visibility, the number of events acquired and the event payload size are updated. See SAP Note 3341306 .  Action: Ensure that you adjust the implementation considering the updated execution limits.
+Action: Required
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2023-06-16
+Valid as Of: 2023-11-10
+Version: Cloud
+
+--- Record 4003 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: ABAP Development Tools for Eclipse: Tools User Guide
+Description: If you have a structure with one or more component groups, you can now display the component group(s) in the Variables view.  See Displaying Component Groups.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-11-10
+Valid as Of: 2023-11-10
+Version: ABAP Environment 2311
+
+--- Record 4004 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: ABAP Development Tools for Eclipse: Tools User Guide
+Description: In the past, the Ignore White Space option in the compare editor ignored all white spaces, including the significant ones that can influence the program logic, such as string literals. Now, the significant white spaces are visible.  See     Improved "Ignore Whitespace" in Java Compare      Rework of the "Ignore White Space" Option in the Compare Editor    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-11-10
+Valid as Of: 2023-11-10
+Version: ABAP Environment 2311
+
+--- Record 4005 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: ABAP Development Tools for Eclipse: Tools User Guide
+Description: When debugging, you can now display the memory consumption of a debugged ABAP program in the new ABAP Memory (Debugger) view.  See    ABAP Memory (Debugger)      Creating a Memory Snapshot      Displaying the Current Memory Consumption      
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-11-10
+Valid as Of: 2023-11-10
+Version: ABAP Environment 2308
+
+--- Record 4006 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: ABAP Development Tools for Eclipse: Tools User Guide
+Description: If you have a structure with one or more component groups, you can now display the component group(s) in the Variables view.  See Displaying Component Groups.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-11-10
+Valid as Of: 2023-11-10
+Version: Cloud
+
+--- Record 4007 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: ABAP Development Tools for Eclipse: Tools User Guide
+Description: In the past, the Ignore White Space option in the compare editor ignored all white spaces, including the significant ones that can influence the program logic, such as string literals. Now, the significant white spaces are visible.  See     Improved "Ignore Whitespace" in Java Compare      Rework of the "Ignore White Space" Option in the Compare Editor    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-11-10
+Valid as Of: 2023-11-10
+Version: Cloud
+
+--- Record 4008 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: ABAP Development Tools for Eclipse: Tools User Guide
+Description: When debugging, you can now display the memory consumption of a debugged ABAP program in the new ABAP Memory (Debugger) view.  See    ABAP Memory (Debugger)      Creating a Memory Snapshot      Displaying the Current Memory Consumption      
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-11-10
+Valid as Of: 2023-11-10
+Version: Cloud
+
+--- Record 4009 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: ABAP Development Tools for Eclipse: User Guide
+Description: You can now use the new where-used pre-execution dialog to pre-filter your where-used search results. Restricting the search scope helps you to concentrate on usages that are relevant for your current use case.  See Where-Used Dialog.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-11-10
+Valid as Of: 2023-11-10
+Version: ABAP Environment 2311
+
+--- Record 4010 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: ABAP Development Tools for Eclipse: User Guide
+Description: You can now use the new where-used pre-execution dialog to pre-filter your where-used search results. Restricting the search scope helps you to concentrate on usages that are relevant for your current use case.  See Where-Used Dialog.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-11-10
+Valid as Of: 2023-11-10
+Version: Cloud
+

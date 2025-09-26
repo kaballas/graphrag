@@ -1,0 +1,130 @@
+--- Record 1581 ---
+Component: SAP Document and Reporting Compliance, Cloud Edition
+Environment: Kyma
+Title: Data Storage in the SAP Credential Store
+Description: SAP Document and Reporting Compliance, Cloud Edition stores data in the SAP Credential Store. See Data Storage Security for Other Electronic Document Processes.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: nan
+Valid as Of: 2025-01-27
+Version: Cloud
+
+--- Record 1582 ---
+Component: SAP Business Application Studio
+Environment: Cloud Foundry
+Title: Development Experience
+Description: When working on full-stack Java projects, You can now create run configurations using the wizard-based runner. See Using the Wizard-Based Runner.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-01-26
+Valid as Of: 2025-01-26
+Version: T2413b
+
+--- Record 1583 ---
+Component: SAP Business Application Studio
+Environment: Cloud Foundry
+Title: Development Experience
+Description: When running your Full-Stack Application Using Productivity Tools project (using the Run Configurations tool), you can now view and edit the destination with which you want to run external resources of type RFC.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-01-26
+Valid as Of: 2025-01-26
+Version: T2413b
+
+--- Record 1584 ---
+Component: SAP Business Application Studio
+Environment: Cloud Foundry
+Title: Service Center
+Description: You can now explore SAP S/4HANA Cloud products created in the Developer Hub directly from the Service Center and consume their services (APIs) in CAP or HTML5 applications. See Developer Hub Service Provider.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-01-26
+Valid as Of: 2025-01-26
+Version: T2413b
+
+--- Record 1585 ---
+Component: SAP Document and Reporting Compliance, Cloud Edition
+Environment: Kyma
+Title: Electronic supplier invoice verification is supported in the integration of the E-Invoices (Israel) process with SAP S/4HANA Cloud Public Edition
+Description: The E-Invoices (Israel) process supports electronic supplier invoices. You use this process to retrieve the allocation number of the supplier invoices from the Israel Tax Authority (ITA), the tax authority in Israel. The business system uses this data to verify the allocation number you received from your supplier.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: nan
+Valid as Of: 2025-01-24
+Version: Cloud
+
+--- Record 1586 ---
+Component: SAP Document and Reporting Compliance, Cloud Edition
+Environment: Kyma
+Title: Integration of the E-Invoices (Israel) Process with SAP S/4HANA Cloud Public Edition
+Description: You use this process to exchange electronic documents with the Israel Tax Authority (ITA), the tax authority in Israel.  See Supported Compliance Tasks.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: nan
+Valid as Of: 2025-01-24
+Version: Cloud
+
+--- Record 1587 ---
+Component: SAP Document and Reporting Compliance, Cloud Edition
+Environment: Kyma
+Title: Integration of the Peppol Exchange Process with SAP S/4HANA Cloud Public Edition for Malaysia
+Description: You use the Peppol Exchange process to exchange and validate electronic documents among business partners, customers, and suppliers using the Peppol network.  See Supported Compliance Tasks.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: nan
+Valid as Of: 2025-01-24
+Version: Cloud
+
+--- Record 1588 ---
+Component: SAP S/⁠4HANA Cloud for Credit Integration
+Environment: Cloud Foundry
+Title: Change of product name of SAP S/4HANA Cloud Public Edition
+Description: The integrated product SAP S/4HANA Cloud was renamed to SAP S/4HANA Cloud Public Edition. The references in the documentation of SAP S/4HANA Cloud for credit integration have been updated.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Finance
+Latest Revision: 2025-01-24
+Valid as Of: 2025-01-24
+Version: Cloud
+
+--- Record 1589 ---
+Component: Multitarget Applications for Cloud Foundry
+Environment: Cloud Foundry
+Title: Removal of MTA module types business-logging and com.sap.business-logging.content
+Description: The MTA module types business-logging and com.sap.business-logging.content are officially removed.  If you continue using these module types in your MTA, the deployments will fail with a similar error message: Error merging descriptors: Unsupported module type "business-logging" for platform type "CLOUD-FOUNDRY".   Action: Migrate to other module types depending on your needs. If you require support, report an incident to component BC-CP-CF-DS.
+Action: Required
+Lifecycle: Deleted
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-01-09
+Valid as Of: 2025-01-23
+Version: Cloud
+
+--- Record 1590 ---
+Component: Automation Pilot
+Environment: Cloud Foundry
+Title: ForEach and SensitiveForEach Commands
+Description: Both ForEach (Version 1) and SensitiveForEach (Version 1) commands are now deprecated. You can use their respective Version 2 commands instead.  See ForEach Version 2 Command and SensitiveForEach Version 2 Command.
+Action: Info only
+Lifecycle: Deprecated
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-01-23
+Valid as Of: 2025-01-23
+Version: Cloud
+

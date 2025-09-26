@@ -1,0 +1,130 @@
+--- Record 1591 ---
+Component: PostgreSQL, Hyperscaler Option
+Environment: Cloud Foundry
+Title: V12 instance upgrade for Azure regions
+Description: End of life of version 12 for PostgreSQL, Hyperscaler Option on Azure.  We highly recommend upgrading v12 databases to major version 15.   For more information, see End of Life of Version 12 for PostgreSQL, Hyperscaler Option on Azure.   Any remaining v12 Postgres Hyperscaler Azure instances will be force upgraded to higher version in the timeframe from February 8 to February 23, 2025.
+Action: Info only
+Lifecycle: Deprecated
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-01-23
+Valid as Of: 2025-01-23
+Version: Cloud
+
+--- Record 1592 ---
+Component: Java Server
+Environment: Neo
+Title: Tomcat version for Java Web Tomcat 10
+Description: Java Web Tomcat 10 (runtime version 5.14) has been updated to Tomcat version 10.1.34.  See the Changelog and Security Fixes.  Recommended action: Update your applications to the latest runtime version. See Keeping Your Application Runtimes Up-to-date.
+Action: Recommended
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-01-23
+Valid as Of: 2025-01-23
+Version: Cloud
+
+--- Record 1593 ---
+Component: Java Server
+Environment: Neo
+Title: Tomcat version for Java Web Tomcat 9 and Java EE 7 Web Profile TomEE 7
+Description: Java Web Tomcat 9 (runtime version 4.94) and Java EE 7 Web Profile TomEE 7 (runtime version 1.192) have been updated to Tomcat version 9.0.98.  See the Changelog and Security Fixes.  Recommended action: Update your applications to the latest runtime version. See Keeping Your Application Runtimes Up-to-date.
+Action: Recommended
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-01-23
+Valid as Of: 2025-01-23
+Version: Cloud
+
+--- Record 1594 ---
+Component: Authorization and Trust Management Service
+Environment: ABAP,Cloud Foundry,Kyma,Other
+Title: Delay Between Operations for Token Signing Keys Increased
+Description: The service enforces a minimum delay between the following operations on signing keys for access tokens:      Creation and activation      Activation and deletion      The delay between these operations is increased from 1-hour to 12-hours. The delay helps ensure that all necessary artifacts are replicated across the entire landscape.  For more information, see Rotate Signing Keys of Access Tokens.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-01-09
+Valid as Of: 2025-01-23
+Version: 2413b
+
+--- Record 1595 ---
+Component: Cloud Portal Service
+Environment: Cloud Foundry
+Title: SAP SuccessFactors
+Description: SAP SuccessFactors has been removed from the list of supported content providers in SAP Help Portal, as it was added accidentally.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-01-23
+Valid as Of: 2025-01-23
+Version: 2413B
+
+--- Record 1596 ---
+Component: Cloud Portal Service
+Environment: Cloud Foundry
+Title: Tracking Imports in the Transport Manager 
+Description: A new screen has been added to the Site Manager – the Transport Manager.   Administrators can use the Transport Manager, accessed from the side panel, to track the progress of an import process. As a result, this process no longer takes control of the Site Manager, allowing administrators to continue working during the import. 
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-01-15
+Valid as Of: 2025-01-23
+Version: 2413B
+
+--- Record 1597 ---
+Component: Cloud Transport Management
+Environment: Cloud Foundry
+Title: Introduction of tags in SAP Cloud Transport Management
+Description: You can now tag transport nodes, allowing you to group them based on the assigned tags. You can use tags to add additional information, such as project details, or system characteristics. The tags appear as labels on the Transport Nodes screen, providing more information at a glance beyond just the description field.  See:   Create Transport Nodes  
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Application Development and Integration
+Latest Revision: 2025-01-23
+Valid as Of: 2025-01-23
+Version: 2413b
+
+--- Record 1598 ---
+Component: Cloud Transport Management
+Environment: Cloud Foundry
+Title: Option to download MTA operation logs directly from the Log of Transport Request
+Description: For MTA deployment on Cloud Foundry, the log of the transport request now contains additional information about how to download the corresponding MTA operation logs, and includes a link to download the logs of the deploy operation directly from the SAP Cloud Transport Management user interface. Like this, you can obtain the MTA logs without using the Cloud Foundry command- line interface (cf cli).   See:   Options to Display Information about Transport Requests  
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Application Development and Integration
+Latest Revision: 2025-01-23
+Valid as Of: 2025-01-23
+Version: 2413b
+
+--- Record 1599 ---
+Component: Cloud Transport Management
+Environment: Cloud Foundry
+Title: Option to download transport action logs in a .csv file format.
+Description: You can now download transport action logs as .csv files, either individually or all at once. This structured format simplifies data analysis and enhances audit compliance.  See:   Transport Action Logs  
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Application Development and Integration
+Latest Revision: 2025-01-23
+Valid as Of: 2025-01-23
+Version: 2413b
+
+--- Record 1600 ---
+Component: Connectivity
+Environment: Cloud Foundry
+Title: Destination Service - New Features
+Description:   When calling the Destination service, you can now provide a previously generated and signed SAML assertion when fetching an OAuth2SAMLBearerAssertion destination. This SAML assertion will be exchanged for a token with the configured token service, instead of the Destination service generating one based on a provided user token.  A new Destinations UI for managing destination configuration objects is now available as a BETA version in the SAP BTP cockpit, side-by-side with the current UI. It is not yet at feature parity with the current UI, but feel free to try it out and send us your feedback.  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-01-23
+Valid as Of: 2025-01-23
+Version: Cloud
+

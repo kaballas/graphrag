@@ -1,0 +1,130 @@
+--- Record 2911 ---
+Component: SAP Task Center
+Environment: Cloud Foundry
+Title: Security Topic Updated
+Description: The security information for SAP Task Center is extended with more details about the SAP Cloud Identity Services and third-party integration.   For more information, see Security.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-06-05
+Valid as Of: 2024-06-05
+Version: Cloud
+
+--- Record 2912 ---
+Component: SAP Task Center
+Environment: Cloud Foundry
+Title: Third-Party Task Provider Supported
+Description: You can now connect a third-party task provider to SAP Task Center. For more information, see Connect a Third-Party Task Provider and SAP Task Center.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-06-05
+Valid as Of: 2024-06-05
+Version: Cloud
+
+--- Record 2913 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Eventing module: Update to version 1.2.0
+Description: The new version removes the support for the Subscription API v1alpha1.  The new API version was announced in March 2023, and the deprecation of the old API version was announced last autumn.  If you haven't switched to the new API yet, we recommend that you do that now.
+Action: Required
+Lifecycle: Deleted
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-05-22
+Valid as Of: 2024-06-04
+Version: Cloud
+
+--- Record 2914 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Telemetry module: Update to version 1.16.0
+Description: The new version brings the following improvements:      For the Telemetry Kubernetes API (CRD), we've aligned the status conditions, so that all reasons are named consistently (#1038).      The Telemetry module is now visualized in the Kyma Dashboard (#1092).      Metrics: Metrics provided using a MetricPipeline input now have a well-defined OTEL instrumentationScope attribute defined to identify the Telemetry module's input as origin of the metric, like io.kyma-project.telemetry/prometheus (#973).      Logs: Update of Fluent Bit to version 3.0.3 (#1027).    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-05-21
+Valid as Of: 2024-06-04
+Version: Cloud
+
+--- Record 2915 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Telemetry module: Update to version 1.16.1
+Description: The new version addresses vulnerability CVE-2024-4323 by updating Fluent Bit to version 3.0.4 (#1113).  All SAP BTP, Kyma runtime clusters are updated automatically; no customer action required.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-05-23
+Valid as Of: 2024-06-04
+Version: Cloud
+
+--- Record 2916 ---
+Component: SAP BTP, Cloud Foundry Runtime
+Environment: Cloud Foundry
+Title: New HTTP Header for mTLS Authentication
+Description: We added a new HTTP header X-SSL-Client-Root-CA-DN for all requests to SAP BTP, Cloud Foundry runtime that include optional or required client certificate authentication via mutual TLS (mTLS). You can use the new HTTP header to identify the root certificate authority (CA) at the top of the public key infrastructure hierarchy with the CA that signed the client certificate.  Action:  Check whether the total amount of HTTP headers in each of your requests is still under the limit of 101 (see SAP BTP-Specific Configurations), considering that the platform now takes up an additional HTTP header.  For general information about HTTP headers that the platform uses for mTLS authentication, see SAP Note 3472521 .
+Action: Required
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-06-03
+Valid as Of: 2024-06-03
+Version: Cloud
+
+--- Record 2917 ---
+Component: SAP AI Core
+Environment: Cloud Foundry
+Title: Generative AI hub
+Description: Selected models from Amazon and Anthropic are supported via AWS Bedrock.  For more information, see SAP Note 3437766 .
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-06-03
+Valid as Of: 2024-06-03
+Version: Cloud
+
+--- Record 2918 ---
+Component: SAP AI Core
+Environment: Cloud Foundry
+Title: Generative AI hub
+Description: Selected models from Meta are supported.  For more information, see SAP Note 3437766 .
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-06-03
+Valid as Of: 2024-06-03
+Version: Cloud
+
+--- Record 2919 ---
+Component: SAP AI Launchpad
+Environment: Cloud Foundry
+Title: Generative AI hub
+Description: Selected models from Amazon and Anthropic are supported via AWS Bedrock.  For more information, see SAP Note 3437766 .
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-06-03
+Valid as Of: 2024-06-03
+Version: Cloud
+
+--- Record 2920 ---
+Component: SAP AI Launchpad
+Environment: Cloud Foundry
+Title: Generative AI hub
+Description: Selected models from Meta are supported.  For more information, see SAP Note 3437766 .
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-06-03
+Valid as Of: 2024-06-03
+Version: Cloud
+

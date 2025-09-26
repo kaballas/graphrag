@@ -1,0 +1,130 @@
+--- Record 111 ---
+Component: Edge Integration Cell
+Environment: Cloud Foundry
+Title: Software Version Update
+Description:     Edge Integration Cell: 8.33.*    Increment: 2507  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-09-14
+Valid as Of: 2025-09-14
+Version: 2507
+
+--- Record 112 ---
+Component: Edge Integration Cell
+Environment: Cloud Foundry
+Title: Solace Renamed to Messaging Service
+Description: The message service previously known as Solace is now called Message Service in the Operations cockpit.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-09-14
+Valid as Of: 2025-09-14
+Version: 2507
+
+--- Record 113 ---
+Component: Edge Integration Cell
+Environment: Cloud Foundry
+Title: Update Known Hosts (SSH) Files
+Description: You can now edit Known Hosts (SSH) security artifacts by uploading files from your local system.  See: Manage Security for Edge Integration Cell
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-09-14
+Valid as Of: 2025-09-14
+Version: 2507
+
+--- Record 114 ---
+Component: Edge Integration Cell
+Environment: Cloud Foundry
+Title: Updates on Component Monitor
+Description:   The Component Monitor page has been redesigned.  There's a new Auditlog Agent component available.  Selected metrics are now displayed for certain components.    See: Component Monitor
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-09-14
+Valid as Of: 2025-09-14
+Version: 2507
+
+--- Record 115 ---
+Component: Edge Integration Cell
+Environment: Cloud Foundry
+Title: XML Threat Protection Policy
+Description: The XML Threat Protection policy has been introduced to safeguard XML-based applications and APIs from malicious attacks. This policy enforces strict rules on XML data to prevent common threats such as recursive payloads, excessive node depth, and oversized payloads.   See, XML Threat Protection Policy.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-09-14
+Valid as Of: 2025-09-14
+Version: 2507
+
+--- Record 116 ---
+Component: Joule
+Environment: Cloud Foundry
+Title: Project assistant capabilities for SAP S/4HANA Cloud Private Edition in Enterprise Portfolio and Project Management, to read the due or overdue activities in a Project, WBS Element, Network
+Description: The following transactional project assistant capabilities are now supported in Enterprise Portfolio and Project Management for SAP S/4HANA Cloud Private Edition.    Display due or overdue activities in a Project  Display due or overdue activities in a WBS Element  Display due or overdue activities in a Network    For more information, see Read Due or Overdue Activities in Project, WBS Element, Network.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-08-31
+Valid as Of: 2025-09-12
+Version: Cloud
+
+--- Record 117 ---
+Component: Joule
+Environment: Cloud Foundry
+Title: Support Extended for Mass Change of Sales Orders
+Description: Joule capabilities in Sales for Mass Change of Sales Orders are now also supported in SAP S/4HANA Cloud Private Edition 2022.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2025-07-21
+Valid as Of: 2025-09-12
+Version: Cloud
+
+--- Record 118 ---
+Component: Decentralized Identity Verification
+Environment: Cloud Foundry
+Title: Adaptaton of DCP Credential Offer API to RC4 specifications
+Description: Decentralized Identity Verification is now compliant with the RC4 release candidate specifications for the DCP credential issuance flow.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2025-09-11
+Version: 3.13
+
+--- Record 119 ---
+Component: Decentralized Identity Verification
+Environment: Cloud Foundry
+Title: Addition of Credential Creation UI Form
+Description: You can now enter credential data through a UI form before issuing the credential.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2025-09-11
+Version: 3.13
+
+--- Record 120 ---
+Component: Decentralized Identity Verification
+Environment: Cloud Foundry
+Title: Possibility to Add Custom Context to DID Document
+Description: You can now extend the DID Document by adding a custom context.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2025-09-11
+Version: 3.13
+

@@ -1,0 +1,130 @@
+--- Record 2761 ---
+Component: SAP Translation Hub
+Environment: Cloud Foundry
+Title:   General availability of SAP Translation Hub in the BTP multi-environment   
+Description:   SAP Translation Hub is now generally available in the BTP multi-environment (e.g. Cloud Foundry).   
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-06-30
+Valid as Of: 2024-06-30
+Version: Cloud
+
+--- Record 2762 ---
+Component: Region
+Environment: Cloud Foundry
+Title: Israel (Tel Aviv)
+Description: Israel (Tel Aviv) (cf-il30) is available as a new region running on Google Cloud for use with enterprise accounts. See Regions and API Endpoints Available for the Cloud Foundry Environment.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-06-28
+Valid as Of: 2024-06-28
+Version: Cloud
+
+--- Record 2763 ---
+Component: SAP Document and Reporting Compliance, Cloud Edition
+Environment: Kyma
+Title: Establishing Connection from Cloud Edition to Business System
+Description: You establish the connection from the cloud edition to the business system so the business system can receive communication from an external communication party. This connection is relevant only when you are processing electronic documents and you have SAP Note 3442326  implemented in your system.      For SAP ERP, see Establishing Connection from Cloud Edition to Business System (Electronic Documents and Data Submission Only).      For SAP S/4HANA, see Establishing Connection from Cloud Edition to Business System (Electronic Documents and Data Submission Only).    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: nan
+Valid as Of: 2024-06-28
+Version: Cloud
+
+--- Record 2764 ---
+Component: SAP Document and Reporting Compliance, Cloud Edition
+Environment: Kyma
+Title: Integration of the Medical Certificate (Slovakia) Process with SAP HCM for SAP S/4HANA and SAP ERP HCM
+Description: You use this process to retrieve employee's medical certificates from the social insurance agency.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: nan
+Valid as Of: 2024-06-28
+Version: Cloud
+
+--- Record 2765 ---
+Component: SAP Document and Reporting Compliance, Cloud Edition
+Environment: Kyma
+Title: Integration of the VAT Return (United Kingdom) Process with SAP S/4HANA Cloud Public Edition
+Description: You can use the new process to communicate the tax authority (HMRC) how much VAT you charged and how much you paid to other business in the United Kingdom. See Supported Compliance Tasks.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: nan
+Valid as Of: 2024-06-28
+Version: Cloud
+
+--- Record 2766 ---
+Component: SAP S/⁠4HANA Cloud for Credit Integration
+Environment: Cloud Foundry
+Title: Bureau van Dijk is now Moody's
+Description: The credit product Orbis is now provided by Moody's. We've adjusted our documentation and user interface accordingly.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Finance
+Latest Revision: 2024-06-28
+Valid as Of: 2024-06-28
+Version: Cloud
+
+--- Record 2767 ---
+Component: Cloud Management Tools,SAP BTP Cockpit
+Environment: ABAP,Cloud Foundry,Kyma,Neo,Other
+Title: Cost Information Added to the SAP BTPEA / CPEA Card in Costs and Usage Page
+Description: In the Costs and Usage page in SAP BTP cockpit, the SAP BTP Enterprise Agreement (SAP BTPEA) and Cloud Platform Enterprise Agreement (CPEA) cards now display monthly cost information relating to your cloud credits for the current contract phase.  Use the card's new Costs and Usage buttons to switch between usage and cost information.   Note that this information was already available in the card's expanded view; we've promoted the information to the card's unexpanded view.  See Monitoring Usage and Consumption Costs in Your Global Account.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-06-27
+Valid as Of: 2024-06-27
+Version: Cloud
+
+--- Record 2768 ---
+Component: Cloud Management Tools,SAP BTP Cockpit
+Environment: ABAP,Cloud Foundry,Kyma,Neo,Other
+Title: Create Subaccounts Based on an Existing Subaccount
+Description: In the Account Explorer  page in SAP BTP cockpit, we've added a new option that allows you to quickly create a new subaccount based on an existing one, instead of creating it from scratch. The properties, labels, and service plan assignments can be copied from the existing subaccount to the new subaccount, after which you can continue to set up your new subaccount as needed.  You can access this feature from either the main Create   Create from Existing Subaccount button or the Create as New Subaccount option in the    (Actions) context menu of any listed subaccount.  This new option is available only on the AWS, Azure, or GCP region.  See Create a Subaccount from an Existing Subaccount [Feature Set B].
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-06-27
+Valid as Of: 2024-06-27
+Version: Cloud
+
+--- Record 2769 ---
+Component: Cloud Management Tools,SAP BTP Cockpit
+Environment: ABAP,Cloud Foundry,Kyma,Neo,Other
+Title: Custom Export of Filtered Usage and Costs Data
+Description: We've enhanced the spreadsheet data export feature in the Costs and Usage page in the cockpit. Now, you can choose to export only the data that is currently filtered in the main table, and to export data for just the current month.   In addition, you can choose any label names (keys) to be added as dedicated columns to the Subaccount Costs by Service and Actual Usage tabs in the spreadsheet.  To use these enhancements, look for the new Export  Custom option.  See Exporting Usage and Cost Data Information.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-06-27
+Valid as Of: 2024-06-27
+Version: Cloud
+
+--- Record 2770 ---
+Component: Cloud Management Tools,SAP BTP Cockpit
+Environment: ABAP,Cloud Foundry,Kyma,Neo,Other
+Title: Renamed Default Account Entity in Costs and Usage Page
+Description: Some SAP BTP services report their billing and usage at the global account level, not at the subaccount level. Until now, such services were listed in the Costs and Usage page in SAP BTP cockpit under a designated account entity named DEFAULT_SA. Following your feedback, we’ve improved the clarity by renaming it to REPORTED-AT-GLOBAL-ACCOUNT-LEVEL.  Note  The subaccount ID remains unchanged (DEFAULT_SA) so that your existing scripts using the exported Microsoft Excel document remain compatible and won't require an update.  See Monitoring Usage and Consumption Costs in Your Global Account.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-06-27
+Valid as Of: 2024-06-27
+Version: Cloud
+

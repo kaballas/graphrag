@@ -1,0 +1,130 @@
+--- Record 2511 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: CDS Reusable Measures & Filters
+Description: Managing and aligning analytical reporting might be quite challenging for complex businesses. With the introduction of reusable measures and filters, you can define key figures, measures, formulas, filters and many more features centrally, based on your needs. Those reusable measures and filters can then be utilized by CDS view entities by referencing those reusable artifacts. This ensures a homogenous definition of complex calculations and consolidates existing coherences of your running business.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-08-16
+Valid as Of: 2024-08-16
+Version: ABAP Environment 2408
+
+--- Record 2512 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Communication Arrangements
+Description: Communication arrangements now also support Communication Targets and Logical External Schema.  For more information, see   .
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-07-09
+Valid as Of: 2024-08-16
+Version: ABAP Environment 2408
+
+--- Record 2513 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Creation of Local ABAP CDS Models Based on imported CDS Models
+Description: Do you have an existing CDS Model that was created via CAP Core Data Services, the LCAP Modeler in BAS or One Domain Model and you want to transfer it into you ABAP Cloud stack? You can import these external CDS models via the CSN-import and create a local CSN object model, You can generate an ABAP CDS data model based on the imported CSN model.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-08-16
+Valid as Of: 2024-08-16
+Version: ABAP Environment 2408
+
+--- Record 2514 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Direct Push-Based Integration
+Description: With direct push-based integration, you can connect neighboring ABAP Systems with each other. In this scenario, the connected systems exchange data (like business events) by calling each other directly via RFC.  See Direct Push-Based Integration.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-08-16
+Valid as Of: 2024-08-16
+Version: ABAP Environment 2408
+
+--- Record 2515 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Display IAM Apps
+Description: With this feature you can display IAM apps of all supported types. This helps you to keep an overview of the assigned business roles. For external apps, you can view the related authorizations including authorization objects, authorization instances and authorization fields.  For more information, see Display IAM Apps.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-07-09
+Valid as Of: 2024-08-16
+Version: ABAP Environment 2408
+
+--- Record 2516 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Exposing APIs via UCL
+Description: You can now expose APIs via UCL (Unified Customer Landscape) for the usage in BAS (SAP Business Application Studio) and SAP Build. You can do this by creating packages and assigning them to the required APIs in ABAP development tools for Eclipse.  For more information, see Working with API Packages.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-07-09
+Valid as Of: 2024-08-16
+Version: ABAP Environment 2408
+
+--- Record 2517 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Improved CDS Buffering - Buffer Propagation
+Description: Extend the reach of the CDS/ABAP buffering approach and optimize the memory consumption with buffer propagation to enable the ASQL runtime to read denormalized elements within CDS view entities directly from the ABAP buffer instead of pushing the joins to the database.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-08-16
+Valid as Of: 2024-08-16
+Version: ABAP Environment 2408
+
+--- Record 2518 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Maintain Business Roles
+Description: The Mass Change Wizard has been expanded so that you can also use it for derived business roles.  For more information, see Maintain Business Roles.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-07-09
+Valid as Of: 2024-08-16
+Version: ABAP Environment 2408
+
+--- Record 2519 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: OData API: Support User - Read Integration
+Description: The following API is now available to retrieve support user data:  Support User – Read Integration  The following corresponding communication scenario is available:  Support User Request Log Integration (SAP_COM_0347)   For more information, see Support User - Read Integration.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-07-09
+Valid as Of: 2024-08-16
+Version: ABAP Environment 2408
+
+--- Record 2520 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: OData APIs for Communication Management
+Description: The following APIs are now available for Communication Management data:      Communication Arrangement - Read and Write Integration      Communication System - Read and Write Integration      Communication User - Read and Write Integration      The following corresponding communication scenario is available:    Communication Management Integration scenario (SAP_COM_0A48)      For more information, see Integrating Communication Management Data (Read and Write)
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-07-09
+Valid as Of: 2024-08-16
+Version: ABAP Environment 2408
+

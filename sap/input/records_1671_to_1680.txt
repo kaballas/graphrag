@@ -1,0 +1,130 @@
+--- Record 1671 ---
+Component: Identity Provisioning
+Environment: Neo
+Title: Tenant Reset renamed to Reset Provisioning Settings
+Description: The Tenant Reset option, which enables you to delete all provisioning systems configured for your tenant, along with scheduled jobs, subscriptions, and logs, has been renamed to Reset Provisioning Settings.  For more information, see Reset Identity Provisioning Settings.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-01-14
+Valid as Of: 2025-01-14
+Version: Cloud
+
+--- Record 1672 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Serverless module: Update to version 1.6.0
+Description: With this release, we removed Node.js v18 and Python 3.9 runtimes, deprecated with the 1.4.0 version, and added support for Node.js v22.  In addition, we improved memory management by limiting Secret caching by label.  We also deprecated the Function attributes related to the Function build, as we plan to remove this stage of Function processing in the future.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-01-08
+Valid as Of: 2025-01-14
+Version: Cloud
+
+--- Record 1673 ---
+Component: SAP Digital Payments Add-On
+Environment: Cloud Foundry
+Title: Retrieval of transaction details enabled
+Description: You can now retrieve transaction details for direct capture transactions using the SAP digital payments add-on consumer application API.  For more information, see Consumer Application API. 
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Finance
+Latest Revision: 2024-01-01
+Valid as Of: 2025-01-14
+Version: Cloud
+
+--- Record 1674 ---
+Component: Application for Data Replication and Administration
+Environment: Cloud Foundry
+Title: Zero Maintenance Downtime
+Description: The weekly maintenance windows have been eliminated. Major upgrade windows have been shortened from 8 hours to 4 hours, and start times aligned with BTP and HANA Cloud.   See Service Level Agreement.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-01-17
+Valid as Of: 2025-01-13
+Version: Cloud
+
+--- Record 1675 ---
+Component: Joule
+Environment: Cloud Foundry
+Title: Document Grounding Capability - Support to Destination Configuration with OAuth2ClientCredentials Authentication
+Description: The document grounding capability now supports OAuth2ClientCredentials authentication when you create a destination configuration in the SAP BTP cockpit.  See Configure Access from SAP BTP.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-01-15
+Valid as Of: 2025-01-13
+Version: Cloud
+
+--- Record 1676 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Istio module: Update to version 1.12.0
+Description: Now, you can configure Istio Egress Gateway in the Istio custom resource. Using Istio Egress Gateways allows you to specify exit points from the Istio service mesh and apply a range of Istio features, like monitoring and routing policies, to your outbound traffic. To learn more, see Egress Gateways.  This version of the Istio module includes Istio 1.24.1 and Envoy 1.32.2.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-12-30
+Valid as Of: 2025-01-13
+Version: Cloud
+
+--- Record 1677 ---
+Component: Pricing Service
+Environment: Cloud Foundry
+Title: Zero Maintenance Downtime
+Description: The weekly maintenance windows have been eliminated. Major upgrade windows have been shortened from 8 hours to 4 hours, and start times aligned with BTP and HANA Cloud.   See Service Level Agreement.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-01-17
+Valid as Of: 2025-01-13
+Version: Cloud
+
+--- Record 1678 ---
+Component: Variant Configuration
+Environment: Cloud Foundry
+Title: Zero Maintenance Downtime
+Description: The weekly maintenance windows have been eliminated. Major upgrade windows have been shortened from 8 hours to 4 hours, and start times aligned with BTP and HANA Cloud.   See Service Level Agreement.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-01-17
+Valid as Of: 2025-01-13
+Version: Cloud
+
+--- Record 1679 ---
+Component: SAP Business Application Studio
+Environment: Cloud Foundry
+Title: Development Experience
+Description: When working in a Full-Stack Application Using Productivity Tools dev space, the Project Overview is now displayed when you first open the workspace. The Project Overview includes all the functionality of the Project Explorer as well as additional features that will enhance your development experience. See Project Overview.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-01-12
+Valid as Of: 2025-01-12
+Version: T2412b
+
+--- Record 1680 ---
+Component: SAP Business Application Studio
+Environment: Cloud Foundry
+Title: SAP Build Code
+Description: If you are using SAP Build Code, you can now use Joule to create your application logic.   Please note that the template based visual design is no longer supported. Changes to dependency libraries may cause existing application logic to stop working. In such cases, users should use version 1.2.4 of the @sap/low-code-event-handler instead of the latest version. See Customize Service Behavior.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-01-12
+Valid as Of: 2025-01-12
+Version: T2412b
+

@@ -1,0 +1,130 @@
+--- Record 2861 ---
+Component: Object Store
+Environment: Cloud Foundry,Kyma
+Title: Handling of exposed service credentials in AWS and GCP
+Description: Both AWS and GCP apply certain restrictions on the publicly exposed service key credentials. Please refer Security of Object Store Access Keys section for more details.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-06-13
+Valid as Of: 2024-06-13
+Version: Cloud
+
+--- Record 2862 ---
+Component: SAP BTP, Cloud Foundry Runtime
+Environment: Cloud Foundry
+Title: Version 40.12.0
+Description: Cloud Foundry has been updated from 40.9.0 to 40.12.0.    https://github.com/cloudfoundry/cf-deployment/releases/tag/v40.12.0  https://github.com/cloudfoundry/cf-deployment/releases/tag/v40.11.0  https://github.com/cloudfoundry/cf-deployment/releases/tag/v40.10.0  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-06-13
+Valid as Of: 2024-06-13
+Version: Cloud
+
+--- Record 2863 ---
+Component: SAP Build Apps
+Environment: Cloud Foundry
+Title: Web & Mobile
+Description: The SAP BTP authentication is now enabled by default when you create a new application. For more information, see the SAP BTP Authentication section.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-06-13
+Valid as Of: 2024-06-13
+Version: Cloud
+
+--- Record 2864 ---
+Component: SAP Build Work Zone, advanced edition
+Environment: Cloud Foundry
+Title: Direct Deployment of Apps with Card Visualization
+Description: It is now supported to directly deploy applications with card visualization from the Development Tools for SAP Build Work Zone extension in SAP Business Application Studio to the subaccount.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-06-13
+Valid as Of: 2024-06-13
+Version: Cloud
+
+--- Record 2865 ---
+Component: SAP Build Work Zone, advanced edition
+Environment: Cloud Foundry
+Title: Filtering Invalid Cards
+Description: Any cards that are no longer enabled will be filtered out in runtime and will not be displayed in a workpage.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-06-13
+Valid as Of: 2024-06-13
+Version: Cloud
+
+--- Record 2866 ---
+Component: SAP Build Work Zone, advanced edition
+Environment: Cloud Foundry
+Title: UI Changes in Workspaces
+Description:   For public/private workspaces, the Quick Access button is removed.  The default workpage title (of a new workspace) is renamed to "Overview".  Recent Items widget has a clearer selection of “Recently Visited Workspaces”, and “Recently Viewed Content”.  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-06-13
+Valid as Of: 2024-06-13
+Version: Cloud
+
+--- Record 2867 ---
+Component: SAP Java Buildpack
+Environment: Cloud Foundry
+Title: Version 1.96.0
+Description: SAP Java Buildpack 1 has been updated from version 1.95.0 to 1.96.0. Updated components:      com.sap.cloud.connectivity.apiext is updated from version 3.33.0 to 3.35.0      com.sap.xs.onpremise.runtime is updated from version 1.2.1 to 1.2.2    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-05-28
+Valid as Of: 2024-06-13
+Version: Cloud
+
+--- Record 2868 ---
+Component: SAP Java Buildpack
+Environment: Cloud Foundry
+Title: Version 2.10.0
+Description: SAP Java Buildpack 2 has been updated from version 2.9.0 to 2.10.0. Updated components:      Apache Tomcat 10 is updated from version 10.1.23 to 10.1.24      SAP BTP Environment Variable Access (com.sap.cloud.environment.servicebinding) is updated from version 0.10.4 to 0.10.5       com.sap.cloud.security.xsuaa is updated from version 3.4.2 to 3.5.0      com.sap.xs.onpremise.runtime is updated from version 1.2.0 to 1.2.2    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-05-28
+Valid as Of: 2024-06-13
+Version: Cloud
+
+--- Record 2869 ---
+Component: SAPUI5
+Environment: ABAP,Cloud Foundry,Kyma,Neo,Other
+Title: SAPUI5 Distribution 1.125
+Description: SAPUI5 version 1.125 has been released for UI development and can now be consumed by SAP BTP services. It’s up to the services to determine when they start using the new version.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-06-12
+Valid as Of: 2024-06-13
+Version: Cloud
+
+--- Record 2870 ---
+Component: UI Theme Designer
+Environment: Cloud Foundry,Neo
+Title: Base Theming Content for CF and Neo.
+Description: The base theming content is updated to version 11.16.1. Review the changes at https://github.com/SAP/theming-base-content/releases.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2024-06-13
+Version: Cloud
+

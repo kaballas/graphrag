@@ -1,0 +1,130 @@
+--- Record 31 ---
+Component: Variant Configuration
+Environment: Cloud Foundry
+Title: Pre-Production - Configurations API – On-Request Tracing
+Description: Additionally to the existing trace settings ON and OFF, a new setting ON_REQUEST was introduced to collect traces only for a subset of requests. To determine for what requests the traces will be collected, the header parameter x-cps-trace needs to be set. The relevant trace type must be set as a parameter value: CONFIGURATION_ENGINE, EXTENSION, or DEPENDENCY_PROFILING.  See: API Definition, Development Guide for SAP Variant Configuration and Pricing, and Administration Guide for SAP Variant Configuration and Pricing.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-09-19
+Valid as Of: 2025-10-22
+Version: Cloud
+
+--- Record 32 ---
+Component: Variant Configuration
+Environment: Cloud Foundry
+Title: Pre-Production - Configurations API – Read Dependency Information
+Description: New endpoint GET /knowledgebases/{kbId}/dependencies/{dependencyId} to receive dependency data, such as name, description, explanation, dependency type, and source code.  The existing endpoint GET /knowledgebases/{kbId} was extended to return a list of dependencies on request including the dependency name, description and type.  See: API Definition and Development Guide for SAP Variant Configuration and Pricing.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-09-19
+Valid as Of: 2025-10-22
+Version: Cloud
+
+--- Record 33 ---
+Component: SAP Dynamic Forms
+Environment: Cloud Foundry
+Title: Release 2509
+Description:     Object number added to MAIF linkage table:  To help you easily identify which object a form is attached to, the object number has been added to the SAP Dynamic Forms linkage table in MAIF, /SMFND/D_FORMREG.      Support for populating dropdown dataset from Form Instance XML:  Using MAIF's pre-processing, Form Instance dropdown controls can now be initialized with S/4 data.      Support for passing user information into offline forms in SAP Service and Asset Manager:  By using the XPath formula xxf:user-name(), the user's email address can now also be passed into an offline form when filling it out in the SAP Service and Asset Manager application. This allows you to identify internal and external employees on the form.      In the Form Categories app, the Form Version field is now optional.    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-09-12
+Valid as Of: 2025-10-21
+Version: Cloud
+
+--- Record 34 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Upcoming upgrade to Kubernetes 1.33
+Description: The Kyma environment is planned to be upgraded to the Kubernetes 1.33 release.  Schedule:  BTP Live Middle East regions: 2025-10-17 17:00 - 21:00 UTC  BTP Live Asia Pacific & Japan (APJ) regions: 2025-10-18 14:00 - 17:00 UTC  BTP Live Europe regions: 2025-10-18 21:00 - 24:00 UTC  BTP Live Americas regions: 2025-10-19 06:00 - 09:00 UTC    For more information on the upcoming release, see the feature highlights, deprecations, and removals in the blog post and the Kubernetes release notes.  Note: As part of the migration, new workers are created, and the existing worker nodes are drained (application Pods evicted) and removed. To minimize disruption to your workloads, it is advisable to ensure the availability of your applications by running multiple replicas across different Availability Zones and configuring Pod Disruption Budgets.  Note: The v1 Endpoints API is now officially deprecated (though still fully supported). The API will not be removed, but you should start using the EndpointSlice API instead.
+Action: Recommended
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2025-09-23
+Valid as Of: 2025-10-17
+Version: Cloud
+
+--- Record 35 ---
+Component: Authorization and Trust Management Service
+Environment: ABAP,Cloud Foundry,Kyma,Neo,Other
+Title: Replacement of Library for JSON Web Tokens (JWT)
+Description: With this release, we replace the library for JSON Web Tokens (JWT). We take this step to improve security and compliance with the OIDC standard. We don't expect any impact for our customers.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2025-10-02
+Valid as Of: 2025-10-13
+Version: 2510a
+
+--- Record 36 ---
+Component: Event Mesh
+Environment: Cloud Foundry
+Title: New Fields for Messages
+Description: You can now view a message's delivery count, spool time, and expiration. See Monitor Event Mesh.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-10-06
+Valid as Of: 2025-10-06
+Version: 2508
+
+--- Record 37 ---
+Component: Multitarget Applications for Cloud Foundry
+Environment: Cloud Foundry
+Title: REMINDER: Introduction of Readiness Health Checks
+Description: Starting at the end of September 2025, MTA deployment in Cloud Foundry will support Cloud Foundry readiness health checks by introducing new module-specific parameters:  readiness-health-check-http-endpoint  readiness-health-check-type  readiness-health-check-invocation-timeout  readiness-health-check-interval    Users may encounter problems during MTA deployment if the parameters readiness-health-check-<XYZ> are already defined in their MTA descriptor but are incorrectly configured. In such case, the MTA deployments will start to fail with the error message: None of the instances of the app <app-name> become routable. Please verify that the defined MTA parameters for the readiness health check align with the app's code and configuration.  Action: Review your MTA descriptors and verify the related readiness health check configurations to ensure correctness. To prevent issues when enabling readiness health check support in MTA deployment, follow the guidelines in SAP Note 3625631 .
+Action: Required
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-08-26
+Valid as Of: 2025-10-02
+Version: 2509b
+
+--- Record 38 ---
+Component: SAP BTP, Cloud Foundry Runtime
+Environment: Cloud Foundry
+Title: Version 51.7.0
+Description: Cloud Foundry has been updated from 51.5.0 to 51.7.0.    https://github.com/cloudfoundry/cf-deployment/releases/tag/v51.7.0  https://github.com/cloudfoundry/cf-deployment/releases/tag/v51.6.0  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-09-24
+Valid as Of: 2025-10-02
+Version: 2509b
+
+--- Record 39 ---
+Component: SAP Java Buildpack
+Environment: Cloud Foundry
+Title: Removal of SAP Java Buildpack 1 postponed to October 1, 2025
+Description: We want to remind you that SAP Java Buildpack 1 has been deprecated and is going to be removed from SAP BTP, Cloud Foundry environment. To learn more, see: Removal of SAP Java Buildpack 1    However, a good number of applications are still using it. To prevent disruptions and support business continuity as much as possible, we're postponing its removal to October 1, 2025.   Caution  SAP Java Buildpack 1 contains highly outdated and no longer supported open source components, which bring significant security and compliance risks. Therefore, we cannot afford any further timeline extensions.  Action:  If you have applications still running on sap_java_buildpack, please migrate them to sap_java_buildpack_jakarta as soon as possible! To learn how, see: Migrate your Applications to SAP Java Buildpack 2
+Action: Required
+Lifecycle: Deprecated
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2025-06-27
+Valid as Of: 2025-10-01
+Version: Cloud
+
+--- Record 40 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Telemetry module: Update to version 1.48.0
+Description: The new version brings the following improvements:      Logs: Improved security for the log agent setup based on OTel Collector (#2459).      Logs: Improved the LogPipeline view in Kyma dashboard (#2499).      Logs, Metrics, and Traces: Update to OTel Collector 0.138.0 (#2508).      Logs: Update to Fluent Bit 4.0.9 (#2498).    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-09-17
+Valid as Of: 2025-10-01
+Version: Cloud
+

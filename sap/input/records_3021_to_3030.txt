@@ -1,0 +1,130 @@
+--- Record 3021 ---
+Component: SAP Document and Reporting Compliance, Cloud Edition
+Environment: Kyma
+Title: Updated File for Germany
+Description: For Germany only: For the Peppol Exchange process, the file for XRechnung has been updated to version 2.0.2. This version is compatible with XRechnung 3.0.1.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: nan
+Valid as Of: 2024-05-17
+Version: Cloud
+
+--- Record 3022 ---
+Component: SAP Document and Reporting Compliance, Cloud Edition
+Environment: Kyma
+Title: Updated German Template for Document Preview in the Peppol Exchange Process
+Description: For Germany only: For the Peppol Exchange process, the template for displaying XRechnung 2.3 and XRechnung 3.0 documents in HTML format has been updated.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: nan
+Valid as Of: 2024-05-17
+Version: Cloud
+
+--- Record 3023 ---
+Component: Java Server
+Environment: Neo
+Title: Java Web Tomcat 8 is deprecated
+Description: [Periodic reminder] We have stopped the support of Java Web Tomcat 8 runtime following the official announcement of Apache Tomcat 8.5 end of life.   Required Action: If you have Java applications running on that runtime, migrate to Java Web Tomcat 9 immediately. See Migrating from Java Web Tomcat 8 to Java Web Tomcat 9.
+Action: Required
+Lifecycle: Deprecated
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-05-16
+Valid as Of: 2024-05-16
+Version: Cloud
+
+--- Record 3024 ---
+Component: Authorization and Trust Management Service
+Environment: ABAP,Cloud Foundry,Kyma,Other
+Title: Deprecation of /check_token Endpoint for Online Token Validation
+Description: The target audience of the change are developers.  The /check_token endpoint is deprecated with immediate effect. Note that the endpoint is mostly used for online token validation. It isn't relevant for offline token validation using the security libraries.  This change conforms with the endpoint deprecation in Cloud Foundry User Account and Authentication (UAA).  Action  Instead of using the /check_token endpoint, we recommend the adaption of the /introspect endpoint.  For more information, see https://docs.cloudfoundry.org/api/uaa/version/77.1.0/index.html#check-token and https://docs.cloudfoundry.org/api/uaa/version/77.1.0/index.html#introspect-token.
+Action: Info only
+Lifecycle: Deprecated
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-05-16
+Valid as Of: 2024-05-16
+Version: Cloud
+
+--- Record 3025 ---
+Component: Authorization and Trust Management Service
+Environment: ABAP,Cloud Foundry,Kyma,Other
+Title: Deprecation of Service Plans
+Description: The target audience of the change are developers and subaccount administrators.  The following service plans are deprecated:        apiaccess      space      default      devuser        Instead of using the apiaccess plan, we recommend that subaccount administrators use the API credential mechanism using the SAP BTP command line interface (btp CLI).  For more information, see Get Access to the APIs.  Instead of using the other deprecated plans, we recommend that developers use the application plan. For more information, see Service plans of the SAP Authorization and Trust Management service.
+Action: Info only
+Lifecycle: Deprecated
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-05-16
+Valid as Of: 2024-05-16
+Version: Cloud
+
+--- Record 3026 ---
+Component: Cloud Portal Service
+Environment: Cloud Foundry
+Title: Async Loading Enabled by Default
+Description: In March 2023, a new async loading setting was introduced to enhance site security by using a stricter policy and improving performance. It was recommended that you switch to this mode to ensure the proper rendering of your custom apps and plugins.  As of May 16th, 2024, asynchronous loading will be enabled by default for new sites. Therefore, please make sure to test your applications in asynchronous mode to see if any adaptations need to be made and make sure they're not using 'unsafe-eval' and 'unsafe-inline' directives.
+Action: Recommended
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-05-02
+Valid as Of: 2024-05-16
+Version: Cloud
+
+--- Record 3027 ---
+Component: Java Server
+Environment: Neo
+Title: Tomcat version for Java Web Tomcat 9 and Java EE 7 Web Profile TomEE 7
+Description: Java Web Tomcat 9 (runtime version 4.77) and Java EE 7 Web Profile TomEE 7 (runtime version 1.175) have been updated to Tomcat version 9.0.88.  See the Changelog.  Recommended action: Update your applications to the latest runtime version.
+Action: Recommended
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-05-16
+Valid as Of: 2024-05-16
+Version: Cloud
+
+--- Record 3028 ---
+Component: SAP Build Work Zone, advanced edition
+Environment: Cloud Foundry
+Title: Async Loading Enabled by Default
+Description: In March 2023, a new async loading setting was introduced to enhance site security by using a stricter policy and improving performance. It was recommended that you switch to this mode to ensure the proper rendering of your custom apps and plugins.  As of May 16th, 2024, asynchronous loading will be enabled by default for new sites. Therefore, please make sure to test your applications in asynchronous mode to see if any adaptations need to be made and make sure they're not using 'unsafe-eval' and 'unsafe-inline' directives.
+Action: Recommended
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-05-16
+Valid as Of: 2024-05-16
+Version: Cloud
+
+--- Record 3029 ---
+Component: SAP Build Work Zone, standard edition
+Environment: Cloud Foundry
+Title: Async Loading Enabled by Default
+Description: In March 2023, a new async loading setting was introduced to enhance site security by using a stricter policy and improving performance. It was recommended that you switch to this mode to ensure the proper rendering of your custom apps and plugins.  As of May 16th, 2024, asynchronous loading will be enabled by default for new sites. Therefore, please make sure to test your applications in asynchronous mode to see if any adaptations need to be made and make sure they're not using 'unsafe-eval' and 'unsafe-inline' directives.
+Action: Recommended
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-05-04
+Valid as Of: 2024-05-16
+Version: Cloud
+
+--- Record 3030 ---
+Component: Automation Pilot
+Environment: Cloud Foundry
+Title: New Section Working with Provided Catalogs in the SAP Automation Pilot Guide
+Description: A new section Working with Provided Catalogs has been added to the SAP Automation Pilot guide. You can now find more information about the SAP Alert Notification Service for SAP BTP (ans-sapcp) catalog. See SAP Alert Notification Service for SAP BTP (ans-sapcp) Catalog.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-05-16
+Valid as Of: 2024-05-16
+Version: Cloud
+

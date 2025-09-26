@@ -1,0 +1,130 @@
+--- Record 4021 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Changed Runtime Behavior for Determinations and Validations
+Description: For performance reasons, determinations and validations that are assigned to a determine action (including prepare) are skipped during this determine action, if these determinations and validations have already been executed as part of a previous determine action, that has been executed on the same instance (draft or active) in the same transaction.Determinations and validations are skipped in the save sequence, if these determinations and validations have already been executed as part of a previous determine action that has been executed on the active instance in the same transaction.The performance optimizations outlined above are not applied in the following cases:    A modification performed after the first determine action triggers a determination/validation.      A validation in the first determine action reports a failed key.      A determination/validation has been assigned using the addition always.    Ensure that the determinations and validations of your business object follow the respective guidelines described in Determination and Validation Modelling. Neglecting these guidelines can impair the runtime behavior.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-11-10
+Valid as Of: 2023-11-10
+Version: ABAP Environment 2402
+
+--- Record 4022 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Custom Business Configurations
+Description: You can now create the ADT wizard to create a business configuration application consisting of multiple tables. Previously, only one table and its text table could be processed.   See Generating a Business Configuration Maintenance Object with the Generate ABAP Repository Objects Wizard.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-11-10
+Valid as Of: 2023-11-10
+Version: ABAP Environment 2311
+
+--- Record 4023 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Custom Business Configurations
+Description: You can now create the ADT wizard to create a business configuration application consisting of multiple tables. Previously, only one table and its text table could be processed.   See Generating a Business Configuration Maintenance Object with the Generate ABAP Repository Objects Wizard.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-11-10
+Valid as Of: 2023-11-10
+Version: Cloud
+
+--- Record 4024 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Custom Code Analysis for SAP BTP: Configuration Guide
+Description: This guide describes how the SAP BTP ABAP environment needs to be configured and how a connection between SAP BTP and your on-premise system needs to be established to perform remote custom code analysis using the Custom Code Migration app.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-11-10
+Valid as Of: 2023-11-10
+Version: ABAP Environment 2311
+
+--- Record 4025 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Custom Code Analysis for SAP BTP: Configuration Guide
+Description: This guide describes how the SAP BTP ABAP environment needs to be configured and how a connection between SAP BTP and your on-premise system needs to be established to perform remote custom code analysis using the Custom Code Migration app.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-11-10
+Valid as Of: 2023-11-10
+Version: Cloud
+
+--- Record 4026 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Custom Code Migration
+Description: While running a remote analysis using the Custom Code Migration app, some ATC checks might call more RFC function modules than in earlier releases.  To update the accessible RFC function modules, import the ZIP file attached to SAP Note 2861842  into the access control list of your Cloud Connector. It contains the updated list of function modules for the latest release of SAP BTP ABAP Environment.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-11-10
+Valid as Of: 2023-11-10
+Version: ABAP Environment 2311
+
+--- Record 4027 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Custom Code Migration
+Description: While running a remote analysis using the Custom Code Migration app, some ATC checks might call more RFC function modules than in earlier releases.  To update the accessible RFC function modules, import the ZIP file attached to SAP Note 2861842  into the access control list of your Cloud Connector. It contains the updated list of function modules for the latest release of SAP BTP ABAP Environment.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-11-10
+Valid as Of: 2023-11-10
+Version: Cloud
+
+--- Record 4028 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Display Outbound Services
+Description: You can now display all available outbound services defined by you or delivered by SAP. You can also display further information about these services.  For more information, see Display Outbound Services.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-11-10
+Valid as Of: 2023-11-10
+Version: ABAP Environment 2311
+
+--- Record 4029 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Display Outbound Services
+Description: You can now display all available outbound services defined by you or delivered by SAP. You can also display further information about these services.  For more information, see Display Outbound Services.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-11-10
+Valid as Of: 2023-11-10
+Version: Cloud
+
+--- Record 4030 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Factory Calendar
+Description: The runtime API was enhanced. You can now check if a date is a working day by using the new method is_date_workingday.  You can now see the validity of a calendar within the value help.  For more information, see Factory Calendar and Accessing Holiday and Factory Calendar Tables Using VDM-Compliant CDS Views.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-11-10
+Valid as Of: 2023-11-10
+Version: ABAP Environment 2311
+

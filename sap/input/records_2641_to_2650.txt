@@ -1,0 +1,135 @@
+--- Record 2641 ---
+Component: SAP Document and Reporting Compliance, Cloud Edition
+Environment: Kyma
+Title: Integration of the Structural Business Statistics (Austria) Process with SAP S/4HANA Cloud Public Edition
+Description: You use this process to communicate with the Austrian authorities to provide data for the Structural Business Statistics survey.  See Supported Compliance Tasks.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: nan
+Valid as Of: 2024-07-24
+Version: Cloud
+
+--- Record 2642 ---
+Component: SAP Document and Reporting Compliance, Cloud Edition
+Environment: Kyma
+Title: Integration of the Supplier E-Invoices (Serbia) Process with SAP S/4HANA Cloud Public Edition
+Description: You use this process to receive electronic documents from suppliers through the Serbian tax authority portal System e-Faktura (SEF).  See Supported Compliance Tasks.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: nan
+Valid as Of: 2024-07-24
+Version: Cloud
+
+--- Record 2643 ---
+Component: SAP Document and Reporting Compliance, Cloud Edition
+Environment: Kyma
+Title: Updated Information About Creating Communication Arrangements for the E-Invoices and Transport Registration (Romania) Process with SAP S/4HANA Cloud Public Edition
+Description: Added information on creating communication arrangements to enable the electronic transport registration for Romania. See Creating Communication Arrangements.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: nan
+Valid as Of: 2024-07-24
+Version: Cloud
+
+--- Record 2644 ---
+Component: Workflow Capability
+Environment: Cloud Foundry,Neo
+Title: Improvements in My Inbox
+Description:     Improvement in loading My Inbox options in the user menu      Improvement in completing a task in My Inbox when it is opened via the Open in App button in SAP Task Center Web app      Improvement in the Substitute For dialog which is now resizable    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-07-24
+Valid as Of: 2024-07-24
+Version: Cloud
+
+--- Record 2645 ---
+Component: Workflow Capability
+Environment: Cloud Foundry
+Title: Redirect URIs in Service Instance Creation
+Description: The definition of redirect-uris is now supported when creating or updating a workflow service instance.  When creating or updating a workflow service instance you can specify a list of allowed redirect-uris and provide them as part of the service instance parameter in the following form:"xs-security": {
+    "oauth2-configuration": {
+        "redirect-uris": ["https://myapp.cfapps.eu10-004.hana.ondemand.com", " https://myapp.mydomain.com/my/content"]
+    }
+}
+
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-07-24
+Valid as Of: 2024-07-24
+Version: Cloud
+
+--- Record 2646 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: SAP Cloud Identity Services - Identity Provisioning integration with SAP Cloud ALM
+Description: SAP Cloud Identity Services - Identity Provisioning is now integrated with SAP Cloud ALM and you can use the Configuration & Security Analysis and the Job & Automation Monitoring apps.  See Monitoring with SAP Cloud ALM.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-07-23
+Valid as Of: 2024-07-23
+Version: 26387
+
+--- Record 2647 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Changes to the User Interface in Environments.
+Description:     In the Agent Management screen for your environment, there is a new column that displays the Status of the agent. You no longer need to go to the Agents screen to check the status.       In the Automation Launchers screen, you can choose then Open in Automation Jobs and go to the list of automation jobs started with the automation launcher. The filter settings are set to the automation launcher and the last 7 days by default.    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-07-23
+Valid as Of: 2024-07-23
+Version: Cloud
+
+--- Record 2648 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Environments
+Description: In the Agents screen (under Control Tower   Agents) a new warning message is displayed if the agent has not been added to an environment, or is not part of an agent group that has been added to an environment.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-07-23
+Valid as Of: 2024-07-23
+Version: Cloud
+
+--- Record 2649 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Terminology Change: Project Launcher and Attended Trigger renamed Automation Launcher
+Description: The Project Launcher artifact has been renamed Automation Launcher. The Attended Trigger has also been renamed Automation Launcher. Only the name of these artifacts have been changed and there is no impact on feature functionality.  See Create an Automation Launcher and Configure an Automation Launcher.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-07-23
+Valid as Of: 2024-07-23
+Version: Cloud
+
+--- Record 2650 ---
+Component: Continuous Integration & Delivery
+Environment: Cloud Foundry
+Title: New Build Tool Version
+Description: You can now use Java 21 as a build tool for Maven or together with the available node versions for MTA builds. See Supported Tools.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-07-22
+Valid as Of: 2024-07-22
+Version: Cloud
+

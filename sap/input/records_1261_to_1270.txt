@@ -1,0 +1,130 @@
+--- Record 1261 ---
+Component: SAP Advanced Financial Closing
+Environment: Cloud Foundry
+Title: Default Value for Approval Type Mass Changes
+Description: When you change the approval type of several tasks in a mass action, the default value Completed Approval Required is now set as soon as you choose Replace Field Value. You can, of course, still change this value before saving.  App affected:  Manage Closing Task Lists
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Finance
+Latest Revision: 2025-03-03
+Valid as Of: 2025-03-16
+Version: Cloud
+
+--- Record 1262 ---
+Component: SAP Advanced Financial Closing
+Environment: Cloud Foundry
+Title: Draft Exists Column Added
+Description: The new column Draft Exists allows you to sort, filter, and export data based on folder editing statuses in the closing structure. The column has been added to several tables on task list header and closing structure level.  You can still find detailed information about a draft, such as who created the draft, in the Editing Status column where available.  Tip  To use the new column efficiently, you can update your existing views to add the new column to them, or create new views that include this column.  More information:  Draft Handling  App affected:  Manage Closing Task Lists
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Finance
+Latest Revision: 2025-03-03
+Valid as Of: 2025-03-16
+Version: Cloud
+
+--- Record 1263 ---
+Component: SAP Advanced Financial Closing
+Environment: Cloud Foundry
+Title: Language Scope for Documentation on the SAP Help Portal Increased
+Description: The entire SAP Help Portal documentation for SAP Advanced Financial Closing is now available to you in several additional languages. The additional language versions are provided by SAP's machine translation. To change the language of the documentation, simply select the desired language from the dropdown menu next to the guide's title:            More information:  Language Scope  Area affected: Entire SAP Help Portal documentation for SAP Advanced Financial Closing
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Finance
+Latest Revision: 2025-03-03
+Valid as Of: 2025-03-16
+Version: Cloud
+
+--- Record 1264 ---
+Component: SAP Advanced Financial Closing
+Environment: Cloud Foundry
+Title: New App for Task Model Management
+Description: The new app Manage Task Models has now been released. The app offers an overview of the task models available in each communication system, allowing you to find detailed information about task models, task model types, and job variants. Additionally, you can use the overview of parameters for the different job variants for comparison purposes.  Stay tuned for more functions to come.  Note  Your communication system must fulfill specific requirements for the task model management feature to be available. You can find this information under System-Dependent Feature Availability.  More information:  Manage Task Models  Task Model Management Scope  How to View Task Models  Task Models    App affected:  Manage Task Models
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Finance
+Latest Revision: 2025-03-03
+Valid as Of: 2025-03-16
+Version: Cloud
+
+--- Record 1265 ---
+Component: SAP Advanced Financial Closing
+Environment: Cloud Foundry
+Title: New Notification Scenario for Financial Close Workflow
+Description: The new notification scenario Task Invalidated is now available. This means that users now receive an email as soon as a task they're assigned to is invalidated because a predecessor task is set to the status Completed with Errors manually after having been completed successfully before.  More information:  Notifications in the Financial Close Workflow  App affected:  Manage Email Notification Configurations
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Finance
+Latest Revision: 2025-03-03
+Valid as Of: 2025-03-16
+Version: Cloud
+
+--- Record 1266 ---
+Component: SAP Advanced Financial Closing
+Environment: Cloud Foundry
+Title: Spreadsheet Export of Closing Structure
+Description: On the List tab of the closing structure, you can now export the folder list of a task list. To export the folder overview, simply choose the Export Table icon  on the List tab.  If you have set filters, the export only includes the folders that fit the filter settings.  App affected:  Manage Closing Task Lists
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Finance
+Latest Revision: 2025-03-03
+Valid as Of: 2025-03-16
+Version: Cloud
+
+--- Record 1267 ---
+Component: SAP S/⁠4HANA Cloud for Credit Integration
+Environment: Cloud Foundry
+Title: For SAP S/4HANA Cloud Public Edition: Integration of financial statement data with Manage Credit Accounts app
+Description: New for SAP S/4HANA Cloud Public Edition 2502.1 (HFC6)  Credit agencies can send financial statement data as additional data in their credit reports. These data are now integrated with the SAP S/4HANA Cloud Public Edition system. You can see them in the Manage Credit Accounts app in the Financial Statement Data section.  More information:   Displaying Financial Statement Data  Available Features per Credit Agency
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Finance
+Latest Revision: 2025-03-13
+Valid as Of: 2025-03-13
+Version: Cloud
+
+--- Record 1268 ---
+Component: Pricing Service
+Environment: Cloud Foundry
+Title: Correct InactiveFlag Assignment for Conditions After an Inactive Price Condition
+Description: Condition used to be flagged wrongly as inactive (inactiveFlag = "Y") when:    in the preceding pricing procedure step a price condition with multiple records existed with counters > 1      when the difference between the step numbers was exactly 1 (e.g., Condition X at step 10 and Condition Y at step 11)      all but the last price condition record were set to inactiveFlag = "Y"      the counter of the relevant condition was smaller than the counter of the active price condition record. This issue has been corrected.    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-03-12
+Valid as Of: 2025-03-12
+Version: Cloud
+
+--- Record 1269 ---
+Component: Cloud Identity Services
+Environment: Other
+Title: Attributes Based on Flexible Expressions
+Description: Cloud Identity Services now supports a new attribute based on flexible expressions for the application - Application Groups to list the application-specific groups to which the user is assigned to. See Configuring Attributes Based on Flexible Expressions.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-03-11
+Valid as Of: 2025-03-11
+Version: 27566
+
+--- Record 1270 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Attributes Based on Flexible Expressions
+Description: The display name of Groups attribute based on flexible expressions for the application is renamed to All Groups. See Configuring Attributes Based on Flexible Expressions.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-03-11
+Valid as Of: 2025-03-11
+Version: 27566
+

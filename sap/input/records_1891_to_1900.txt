@@ -1,0 +1,130 @@
+--- Record 1891 ---
+Component: SAP AI Core
+Environment: Cloud Foundry
+Title: Generic Secrets
+Description: Generic secrets are now available at the tenant-wide level.  For more information, see Create a Generic Secret.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-12-02
+Valid as Of: 2024-12-02
+Version: Cloud
+
+--- Record 1892 ---
+Component: SAP Build Work Zone, standard edition
+Environment: Cloud Foundry
+Title: Integration with Joule
+Description: Administrators can integrate Joule, SAP’s AI copilot tool. Joule provides a conversational user interface that enables end users to ask questions and receive replies from connected SAP business systems.  For more information, see Integration with Joule.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-12-02
+Valid as Of: 2024-12-02
+Version: 2411B
+
+--- Record 1893 ---
+Component: SAP Start
+Environment: Cloud Foundry
+Title: Integration with Joule
+Description: Administrators can integrate Joule, SAP’s AI copilot tool. Joule provides a conversational user interface that enables end users to ask questions and receive replies from connected SAP business systems.  For more information, see Integrate Joule.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-12-02
+Valid as Of: 2024-12-02
+Version: Cloud
+
+--- Record 1894 ---
+Component: SAP AI Launchpad
+Environment: Cloud Foundry
+Title: Generative AI hub
+Description: Additional selected models and model versions from Anthropic via AWS Bedrock are supported.For more information, see Foundation Models and SAP Note 3437766 .
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-12-01
+Valid as Of: 2024-12-01
+Version: Cloud
+
+--- Record 1895 ---
+Component: SAP AI Launchpad
+Environment: Cloud Foundry
+Title: Generative AI hub
+Description: Additional selected models and model versions from Open AI are supported.For more information, see SAP Note 3437766 .
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-12-01
+Valid as Of: 2024-12-01
+Version: Cloud
+
+--- Record 1896 ---
+Component: SAP AI Launchpad
+Environment: Cloud Foundry
+Title: Generative AI hub
+Description: Additional selected model versions fromVertex AI are supported.For more information, see SAP Note 3437766 .
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-12-01
+Valid as Of: 2024-12-01
+Version: Cloud
+
+--- Record 1897 ---
+Component: SAP AI Launchpad
+Environment: Cloud Foundry
+Title: Generative AI hub
+Description: Additional module added to orchestration.  The grounding module integrates external, contextually relevant, domain-specific, or real-time data into AI processes. This data supplements the natural language processing capabilities of pre-trained models, which are trained on general material.   For more information, see Grounding .
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-12-01
+Valid as Of: 2024-12-01
+Version: Cloud
+
+--- Record 1898 ---
+Component: SAP AI Launchpad
+Environment: Cloud Foundry
+Title: Generative AI hub
+Description: Prompt registry   Prompt registry integrates prompt templates into SAP AI Core, making them discoverable across your applications and orchestration It reduces the complexity of dealing with prompt templates and leveraging integration capabilities.  For more information, see .
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-12-01
+Valid as Of: 2024-12-01
+Version: Cloud
+
+--- Record 1899 ---
+Component: Continuous Integration & Delivery
+Environment: Cloud Foundry
+Title: New Regions
+Description: SAP Continuous Integration and Delivery can now also be consumed in the Kingdom of Saudi Arabia (Dammam) and Australia (Sydney) regions. See Regional Availability.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-11-29
+Valid as Of: 2024-11-29
+Version: Cloud
+
+--- Record 1900 ---
+Component: Java Server
+Environment: Neo
+Title: Tomcat version for Java Web Tomcat 10
+Description: Java Web Tomcat 10 (runtime version 5.10) has been updated to Tomcat version 10.1.31.  See the Changelog and Security Fixes.  Recommended action: Update your applications to the latest runtime version.
+Action: Recommended
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-11-28
+Valid as Of: 2024-11-28
+Version: Cloud
+

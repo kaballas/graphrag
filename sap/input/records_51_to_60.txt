@@ -1,0 +1,130 @@
+--- Record 51 ---
+Component: Cloud Integration for Data Services
+Environment: Kyma,Neo
+Title: Documentation update only: Environment Indicators in User Documentation
+Description: In support of the release of SAP Cloud Integration for data services on SAP BTP Kyma runtime and with the service's being in use simultaneously on the Neo environment, indicators have been added in various places within the user documentation to reflect when information pertains to one environment or the other.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Database and Data Management
+Latest Revision: 2025-09-24
+Valid as Of: 2025-09-25
+Version: 2509
+
+--- Record 52 ---
+Component: Cloud Integration for Data Services
+Environment: Kyma,Neo
+Title: Documentation update only: User Activation Emails
+Description: Finish Setting Up a Standard User has been updated to reflect that, when using SAP Identity Authentication (IAS) on the Neo environment or Kyma runtime, SAP Cloud Integration for data services does not send emails to notify users when they have been activated.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Database and Data Management
+Latest Revision: 2025-09-19
+Valid as Of: 2025-09-25
+Version: 2509
+
+--- Record 53 ---
+Component: Cloud Integration for Data Services
+Environment: Kyma,Neo
+Title: IBP JDBC Supported on the Neo Environment Only
+Description: IBP JDBC and other cloud applications such as SAP Lumira Cloud and SAP HANA are not supported on SAP Cloud Integration for data services on Kyma runtime. Information in the user documentation that refers to these has been marked as 'Neo environment only'.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Database and Data Management
+Latest Revision: 2025-08-08
+Valid as Of: 2025-09-25
+Version: 2509
+
+--- Record 54 ---
+Component: Cloud Integration for Data Services
+Environment: Kyma
+Title: Notifications and Renewal of Expiring IdP Certificates
+Description: As the expiration date of an IdP certificate approaches, administrators and security administrators will receive email notifications. You can use the new Renew Certificate button to initiate the renewal. If not renewed before its expiration, the certificate will automatically be renewed by the system. Renewed certificates must be manually configured on the IdP. Also, IdP certificate renewals will appear in the Security log. For more information, see Notifications and Renewal of Expiring IdP Certificates and Security Log.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Database and Data Management
+Latest Revision: 2025-08-08
+Valid as Of: 2025-09-25
+Version: 2509
+
+--- Record 55 ---
+Component: Cloud Integration for Data Services
+Environment: Kyma
+Title: Release Number Added to Administration Tab
+Description: The SAP Cloud Integration for data services release number you are using now appears on the Administration tab beside your current server version. For more information, see Administration.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Database and Data Management
+Latest Revision: 2025-07-09
+Valid as Of: 2025-09-25
+Version: 2509
+
+--- Record 56 ---
+Component: Joule
+Environment: Cloud Foundry
+Title: Document Grounding Capability - Pipelines
+Description: You can now upload a maximum number of 3000 documents per pipeline with the document grounding capability.  See Set Up Content Ingestion.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-09-25
+Valid as Of: 2025-09-25
+Version: Cloud
+
+--- Record 57 ---
+Component: Joule
+Environment: Cloud Foundry
+Title: Document Grounding Capability - Support for Images and Tables Embedded in PDF Documents
+Description: The document grounding capability supports now images and tables embedded in PDF documents.  See Set Up Document Grounding.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-09-25
+Valid as Of: 2025-09-25
+Version: Cloud
+
+--- Record 58 ---
+Component: SAP Task Center
+Environment: Cloud Foundry
+Title: Use SAP Build Work Zone to Access SAP Task Center When Both Are in Different Subaccounts
+Description: You can now use SAP Build Work Zone as your central point of entry for accessing your SAP Task Center, when both are in different subaccounts. For more information, see Connect SAP Task Center and SAP Build Work Zone in Different Subaccounts.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-09-25
+Valid as Of: 2025-09-25
+Version: Cloud
+
+--- Record 59 ---
+Component: Intelligent Situation Automation
+Environment: Cloud Foundry
+Title: Deprecation of Intelligent Situation Automation
+Description: Intelligent Situation Automation is being deprecated. The service will be under maintenance only mode till the end-of-service date, 6 months from the announcement or when the last contract commitment is fulfilled. For more information, see this blog post.
+Action: Info only
+Lifecycle: Deprecated
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-09-24
+Valid as Of: 2025-09-24
+Version: Cloud
+
+--- Record 60 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: API Gateway module: Update to version 3.2.3
+Description: We've fixed the jwt and ext-auth setup of RequestAuthentication, which is now created for all workloads, regardless of whether they have the app label or not. For more information, see issue #2237.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-09-22
+Valid as Of: 2025-09-24
+Version: Cloud
+

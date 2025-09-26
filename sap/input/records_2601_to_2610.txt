@@ -1,0 +1,130 @@
+--- Record 2601 ---
+Component: SAP Java Buildpack
+Environment: Cloud Foundry
+Title: Version 2.14.0
+Description: SAP Java Buildpack 2 has been updated from version 2.13.1 to 2.14.0. Updated components:      Apache Tomcat 10 is updated from version 10.1.25 to 10.1.26      SapMachine 17 is updated from version 17.0.11 to 17.0.12      com.fasterxml.jackson is updated from version 2.17.1 to 2.17.2      com.sap.cloud.connectivity.apiext is updated from version 3.36.0 to 3.37.0      com.sap.core.connectivity.jco is updated from version 3.4.6 to 3.4.7      commons-lang3 is updated from version 3.14.0 to 3.15.0      assertj-core is updated from version 3.26.0 to 3.26.3      logback-access is updated from version 2.0.1 to 2.0.2    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-07-30
+Valid as Of: 2024-08-01
+Version: Cloud
+
+--- Record 2602 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Translation Support for Forms
+Description: You can now have your forms translated so that they are available in relevant languages in SAP Build Process Automation.  See Manage Project Translation Files.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-07-31
+Valid as Of: 2024-07-31
+Version: Cloud
+
+--- Record 2603 ---
+Component: SAP Document and Reporting Compliance, Cloud Edition
+Environment: Kyma
+Title: Integration of the FOS Tax Card (Sweden)  Process with SAP HCM for SAP S/4HANA and SAP ERP HCM
+Description: You use this process to request employee tax cards from the Swedish tax authority.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: nan
+Valid as Of: 2024-07-31
+Version: Cloud
+
+--- Record 2604 ---
+Component: SAP S/⁠4HANA Cloud for Credit Integration
+Environment: Cloud Foundry
+Title: For SAP S/4HANA Cloud: New trusted domains
+Description: Please add the following new trusted domains:    https://*.s4hana.cloud.sap:port      https://*.s4hana.ondemand.com:port      https://*.cfapps.sap.hana.ondemand.com:443      https://*.cfapps.<your region>.hana.ondemand.com:443  For <your region>, use the region in the base path for your credit integration launchpad. For example: https://*.cfapps.eu10.hana.ondemand.com:443      More information:  Add Trusted Domains on the SAP Fiori Launchpad  Add Trusted Domains on SAP BTP
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Finance
+Latest Revision: 2024-07-31
+Valid as Of: 2024-07-31
+Version: Cloud
+
+--- Record 2605 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Regular Upgrade
+Description: Cloud Identity Services have been upgraded.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-07-30
+Valid as Of: 2024-07-30
+Version: 26445
+
+--- Record 2606 ---
+Component: Cloud Integration Automation Service
+Environment: Cloud Foundry
+Title: New Data Center
+Description: You can now subscribe to Cloud Integration Automation service in the new data center - Montreal (CA10). For more information, see Prerequisites.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2024-07-30
+Version: Cloud
+
+--- Record 2607 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: Extracted Header Fields
+Description: You can now extract the invoiceReferenceNumber  header field from invoice documents. The invoiceReferenceNumber  header field is only relevant for e-invoices from India and is extracted from a barcode in the documents.  See Extracted Header Fields (Base Edition and Premium Edition) and Barcode Extracted Fields in Invoice Documents.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Intelligent Technologies
+Latest Revision: 2024-07-29
+Valid as Of: 2024-07-29
+Version: Cloud
+
+--- Record 2608 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: Improved Performance of Template-Based Extraction for Larger Schemas
+Description: We’ve improved the performance of template-based extraction.  If your schemas include many templates, extraction is now faster than it was in the past.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Intelligent Technologies
+Latest Revision: 2024-07-29
+Valid as Of: 2024-07-29
+Version: Cloud
+
+--- Record 2609 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: Purchase Orders - Unit of Measure Mapping
+Description: The mapping of unit of measure specifications to standard codes in purchaseOrder documents has been improved.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Intelligent Technologies
+Latest Revision: 2024-07-29
+Valid as Of: 2024-07-29
+Version: Cloud
+
+--- Record 2610 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Administration Console Look and Feel
+Description: You can change the appearance of the administration console by selecting the SAP Morning Horizon or SAP Quartz Light theme. See Application Types.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-07-26
+Valid as Of: 2024-07-26
+Version: 26436
+

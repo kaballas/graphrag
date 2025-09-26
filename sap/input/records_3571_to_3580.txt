@@ -1,0 +1,130 @@
+--- Record 3571 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Business Role Templates
+Description: You can now display which scope items business role templates depend on. You can also check which component you can use to create incidents if required.  See Business Role Templates.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-02-18
+Valid as Of: 2024-02-16
+Version: ABAP Environment 2402
+
+--- Record 3572 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Business Role Templates
+Description: You can now display which scope items business role templates depend on. You can also check which component you can use to create incidents if required.  See Business Role Templates.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-02-18
+Valid as Of: 2024-02-16
+Version: Cloud
+
+--- Record 3573 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: CDS-based Enterprise Search Models
+Description: With enterprise search, you can now define custom search models with dedicated CDS annotations for their CDS view entities.  For more information, see CDS-based Enterprise Search Models.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-02-18
+Valid as Of: 2024-02-16
+Version: ABAP Environment 2402
+
+--- Record 3574 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: CDS-based Enterprise Search Models
+Description: With enterprise search, you can now define custom search models with dedicated CDS annotations for their CDS view entities.  For more information, see CDS-based Enterprise Search Models.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-02-18
+Valid as Of: 2024-02-16
+Version: Cloud
+
+--- Record 3575 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Communication Systems
+Description: You can now select the Refresh Allowed checkbox and define a Refresh Token Expiry Time in days, months or years if required.   See Communication Systems.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-02-18
+Valid as Of: 2024-02-16
+Version: ABAP Environment 2402
+
+--- Record 3576 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Communication Systems
+Description: You can now select the Refresh Allowed checkbox and define a Refresh Token Expiry Time in days, months or years if required.   See Communication Systems.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-02-18
+Valid as Of: 2024-02-16
+Version: Cloud
+
+--- Record 3577 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Data Replication: ABAP Environment as a Source
+Description: With the ABAP SQL service, you can now also expose ABAP-managed data for replication, using the replication flows provided by SAP Datasphere. This scenario covers both initial load and delta extraction, and you can replicate data from public and from custom CDS view entities.   See   .
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-02-22
+Valid as Of: 2024-02-16
+Version: ABAP Environment 2402
+
+--- Record 3578 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Data Replication: ABAP Environment as a Source
+Description: With the ABAP SQL service, you can now also expose ABAP-managed data for replication, using the replication flows provided by SAP Datasphere. This scenario covers both initial load and delta extraction, and you can replicate data from public and from custom CDS view entities.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-02-22
+Valid as Of: 2024-02-16
+Version: Cloud
+
+--- Record 3579 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Display Communication Scenarios
+Description: You can now display which scope items communication scenarios depend on. You can also check which component you can use to create incidents if required.   See Display Communication Scenarios.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-02-18
+Valid as Of: 2024-02-16
+Version: ABAP Environment 2402
+
+--- Record 3580 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Display Communication Scenarios
+Description: You can now display which scope items communication scenarios depend on. You can also check which component you can use to create incidents if required.   See Display Communication Scenarios.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-02-18
+Valid as Of: 2024-02-16
+Version: Cloud
+

@@ -1,0 +1,131 @@
+--- Record 2451 ---
+Component: Pricing Service
+Environment: Cloud Foundry
+Title: Extensions Concept - Log Local Extensions Database Access Errors with Higher Level of Detail
+Description: Errors occurring when using the database access API of local extensions used to be logged with insufficient level of detail. This issue has been corrected by providing a more detailed error message in the extension trace.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-08-26
+Valid as Of: 2024-08-21
+Version: Cloud
+
+--- Record 2452 ---
+Component: SAP Task Center
+Environment: Cloud Foundry
+Title: Improvements
+Description: The following improvements are made in the SAP Task Center Web app:      Attachments and comments related to a task are now persistently displayed when switching between tasks.      The Enter Full-Screen Mode and Close Column buttons are now consistently visible, regardless of screen size.      A visual separator has been added between the Open in App and the option to enter full-screen mode, making it easier to distinguish and select the desired action.    
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-08-21
+Valid as Of: 2024-08-21
+Version: Cloud
+
+--- Record 2453 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Administrators
+Description: The Client ID is now generated automatically with the creation of a system as administrator. See Add System as Administrator.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-08-20
+Valid as Of: 2024-08-20
+Version: 26537
+
+--- Record 2454 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Condition and skip update - changed behavior
+Description: As of September 24, 2024, Identity Provisioning will change the behavior of target transformations that contain a combination of condition and skip operations for updates. For example: Code Syntax  "condition": "$.groups empty false",
+"skipOperations": ["update"],   Currently, the skip operation is evaluated before the condition. If any users or groups have been updated in the source system, they are marked as skipped in the logs, and Identity Provisioning does not proceed to evaluate the condition. As a result, users or groups that do not meet the condition are not deleted as they should be.  Following the change, the condition will be evaluated first. Users and groups who do not match the condition will be skipped. After the condition is evaluated, the skip operation will determine whether the remaining users will be skipped or provisioned.  See Transformation Expressions.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-08-20
+Valid as Of: 2024-08-20
+Version: 26537
+
+--- Record 2455 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: isValidEmail function supports new value
+Description: The conditional function isValidEmail can now accept the following value $.emails[*].value. In cases where users have multiple emails, this function will validate each email in the emails array.  See Transformation Functions.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-08-20
+Valid as Of: 2024-08-20
+Version: 26537
+
+--- Record 2456 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: OpenID Connect
+Description: You can use certificate to authenticate the system as administrator when you call Identity Authentication Token Endpoint for Client Credentials Flow. SeeConfigure the Client to Call Identity Authentication Token Endpoint for Client Credentials Flow .
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-08-20
+Valid as Of: 2024-08-20
+Version: 26537
+
+--- Record 2457 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Read and proxy read transformation changes
+Description: The mapping which omits the display of groups under the user entity is removed from the default read and proxy read transformations of the Identity Authentication and Local Identity Directory connectors. This makes possible filtering users by groups display name when using condition in the target system.  See Identity Authentication and Local Identity Directory.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-08-20
+Valid as Of: 2024-08-20
+Version: 26537
+
+--- Record 2458 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Regular Upgrade
+Description: Cloud Identity Services have been upgraded.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-08-20
+Valid as Of: 2024-08-20
+Version: 26537
+
+--- Record 2459 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: User Management
+Description: Cloud Identity Services now supports filtering by loginTime. Supported operators are: eq, ne, sw, gt, lt. See Identity Directory API.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-08-20
+Valid as Of: 2024-08-20
+Version: 26537
+
+--- Record 2460 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Write and proxy write transformation changes
+Description: A userName mapping that was previously used to ensure that patch operations worked correctly for Local Identity Directory on the Neo environment, is now removed. Currently, you only need to set scim.support.patch.operation = true on the target system.  See Local Identity Directory.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-08-20
+Valid as Of: 2024-08-20
+Version: 26537
+

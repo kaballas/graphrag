@@ -1,0 +1,130 @@
+--- Record 401 ---
+Component: Integration Assessment
+Environment: Cloud Foundry
+Title: Software Version Update
+Description:     Integration Assessment: 1.42.*      Increment: 2506    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-07-27
+Valid as Of: 2025-07-27
+Version: 2506
+
+--- Record 402 ---
+Component: Migration Assessment
+Environment: Cloud Foundry
+Title: Clean Core Modernization Recommendations for BAPIs
+Description: New modernization recommendations have been added, evaluating the types of BAPIs in integration scenarios. The respective SOAP/OData APIs are recommended according to the SAP Business Accelerator Hub. These recommendations support the implementation of a clean core strategy during migration.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-07-27
+Valid as Of: 2025-07-27
+Version: 2506
+
+--- Record 403 ---
+Component: Migration Assessment
+Environment: Cloud Foundry
+Title: Extraction Status in Evaluation Spreadsheet
+Description: You can now see an Extraction Status column in the Eval by Integration Scenario sheet of the evaluation report showing extraction statuses: Successfully Extracted, Extracted with Warning, and Extracted with Errors.Note  Items extracted with errors, which are not included in evaluation, will also appear in the report.    For information on creating scenario evaluation reports, check Create a Scenario Evaluation Request.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-07-27
+Valid as Of: 2025-07-27
+Version: 2506
+
+--- Record 404 ---
+Component: Migration Assessment
+Environment: Cloud Foundry
+Title: Software Version Update
+Description:     Migration Assessment: 1.42.*      Increment: 2506    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-07-27
+Valid as Of: 2025-07-27
+Version: 2506
+
+--- Record 405 ---
+Component: Migration Assessment
+Environment: Cloud Foundry
+Title: Updated Rule Categories and Weights
+Description: The rule categories and weights have been updated to incorporate new features, ensuring more precise evaluation results.  Please run a new evaluation to see these updates reflected in your assessment.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-07-27
+Valid as Of: 2025-07-27
+Version: 2506
+
+--- Record 406 ---
+Component: Trading Partner Management
+Environment: Cloud Foundry
+Title: More Type Systems Available for B2B Transactions
+Description: You can now also create B2B transactions for the type systems GS1 EANCOM, Odette EDIFACT, and VDA EDIFACT.  Additonally, for the sender type systems UN/EDIFACT, GS1 EANCOM, Odette EDIFACT, VDA EDIFACT, ASC X12 or TRADACOMS, you can use the field Source Encoding, to let the generic integration flow know the source encoding so it can convert the sender payload to UTF-8 correctly.  See Creating a B2B Transaction.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-07-27
+Valid as Of: 2025-07-27
+Version: 2506
+
+--- Record 407 ---
+Component: Trading Partner Management
+Environment: Cloud Foundry
+Title: Software Version Update
+Description:   SAP Cloud Integration: 6.68.*  Increment: 2506  
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-07-27
+Valid as Of: 2025-07-27
+Version: 2506
+
+--- Record 408 ---
+Component: Trading Partner Management
+Environment: Cloud Foundry
+Title: Using a CMIS Repository for B2B Archiving
+Description: By default, B2B archiving uses the same CMIS repository and destination as MPL archiving. If you'd prefer to use a separate CMIS repository instead, you must create a dedicated desination in Cloud Integration.See Archiving Payload Data.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-07-27
+Valid as Of: 2025-07-27
+Version: 2506
+
+--- Record 409 ---
+Component: Connectivity
+Environment: Cloud Foundry
+Title: Connectivity Service, Cloud Connector - IPv6 Addresses for AWS Regions
+Description: The Connectivity service is planning to enable IPv4 and IPv6 dual stack ingress for AWS-based regions. Currently, only IPv4 is supported, therefore in our documentation we had listed only the respective addresses. We have now added also the IPv6 addresses that we plan to use. The enablement of the IPv6 addresses will happen no earlier than February 2026. Until then, please ensure any needed action is performed, based on the information below.Note  Regions for which we haven’t added IPv6 address in the documentation are currently not planned for this activity.  The Connectivity service ingress endpoints are the ones that are called by the Cloud Connector. If the network in which your Cloud Connector is running does not support IPv6, no action is needed, as the IPv4 addresses remain unaffected.  If the network in which your Cloud Connector is running does support IPv6, then the Java virtual machine (JVM) will usually prefer using IPv4 instead of IPv6 (usually controlled via the system property java.net.preferIPv6Addresses). If this is the case for your JVM, again, no action is needed.     Note  As of version 2.18.1, the Cloud Connector shows the IPv6 status on the About screen.    Required Action:  If your JVM is configured to prefer IPv6, you need to verify if you have firewall rules in place that limit outgoing traffic from the network. If this is true, you would have previously allowed the Connectivity service’s IPv4 addresses in order to enable the Cloud Connectors communication with BTP. Now, you need to add also the IPv6 addresses to the allowlist.  For more information, see Cloud Connector: Prerequisites.  In case of questions please contact SAP Support.
+Action: Required
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2025-07-24
+Valid as Of: 2025-07-24
+Version: Cloud
+
+--- Record 410 ---
+Component: Connectivity
+Environment: Cloud Foundry
+Title: Destination Service, Cloud Connector - IPv6 Addresses for AWS Regions
+Description: The Destination service is planning to enable IPv4 and IPv6 dual stack ingress and egress for AWS-based regions. Currently, only IPv4 is supported, as such in our documentation, we had only the respective addresses. We have now added also the IPv6 addresses that we plan to use. The enablement of the IPv6 addresses will happen no earlier than February 2026. Until then, please ensure any needed action is performed, based on the information below.  The Destination service ingress endpoints are the ones that are called by your HTTP client, accessing its REST API (you would not usually need to take action for this flow, unless you have productive calls to the service from your own network) and the Cloud Connector (only in the cases where automatic token retrieval is performed for an on-premise OAuth destination). If you make use of this on-premise token retrieval functionality and if the network in which your Cloud Connector is running does not support IPv6, no action is needed, as the IPv4 addresses are unaffected.   If the network in which your Cloud Connector is running does support IPv6, then the Java virtual machine will usually prefer to use IPv4 instead of IPv6 (usually controlled via the java.net.preferIPv6Addresses system property). If this is the case for your Java virtual machine, again, no action is needed.   Required Action:  If your JVM is configured to prefer IPv6, you need to verify if you have firewall rules in place that limit outgoing traffic from the network. If that is the case, you would have previously allowed the certain IPv4 addresses to enable the Cloud Connector’s communication with BTP. Now, you need to add also the IPv6 addresses to the allowlist.    Note  As of version 2.18.1, the Cloud Connector shows the IPv6 status on the About screen.    The Destination service egress IPs are the ones on behalf of which external resources are accessed either via Check Connection or automatic token retrieval for an Internet destination. In some cases, you might have an allowlist for IPs at the target system. If that is the case, please add the IPv6 addresses of the Destination service to the list.  For more information, see Configure Destination Service IPs in Firewall Rules.  In case of questions please contact SAP Support.
+Action: Required
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2025-07-24
+Valid as Of: 2025-07-24
+Version: Cloud
+

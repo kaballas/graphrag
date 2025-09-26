@@ -1,0 +1,130 @@
+--- Record 2671 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: ips.application.id property introduced
+Description: Identity Provisioning introduces the ips.application.id property, which holds the value of the applicationId group attribute. The value, set by the customers, is used to distinguish groups provisioned from various source systems to the Identity Directory of SAP Cloud Identity Services.   Currently, it is supported for SAP Advanced Financial Closing only.  See List of Properties →ips.application.id.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-07-17
+Valid as Of: 2024-07-17
+Version: 26387
+
+--- Record 2672 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Local Identity Directory - group mapping
+Description: The default transformations of Local Identity Directory provisioning systems are extended to support the urn:ietf:params:scim:schemas:extension:sap:2.0:Group schema, which contains the applicationId, type and supportedOperationsgroup attributes.  The applicationId allows Identity Provisioning to replicate application-specific groups to the Identity Directory.  See:  Groups  Local Identity Directory (Source)  Local Identity Directory (Target)  Local Identity Directory (Proxy)    List of Properties →ips.application.id      
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-07-17
+Valid as Of: 2024-07-17
+Version: 26387
+
+--- Record 2673 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Procurement Data Warehouse connector
+Description: Identity Provisioning supports the Procurement Data Warehouse connector. You can configure it as source, target, and proxy system for your provisioning scenarios. See:    Procurement Data Warehouse (Source)      Procurement Data Warehouse (Target)      Procurement Data Warehouse (Proxy)    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-07-17
+Valid as Of: 2024-07-17
+Version: 26387
+
+--- Record 2674 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Regular Upgrade
+Description: Cloud Identity Services have been upgraded.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-07-17
+Valid as Of: 2024-07-17
+Version: 26387
+
+--- Record 2675 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: SAP Advanced Financial Closing - group mapping
+Description: The default read and proxy read transformations of SAP Advanced Financial Closing provisioning systems are extended to support the provisioning of application-specific groups.  These transformations include type and supportedOperations group attributes.  The read transformation is also extended with a condition. It checks that the ips.application.id property contains a value and is not null.  See:      SAP Advanced Financial Closing      SAP Advanced Financial Closing      List of Properties →ips.application.id    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-07-17
+Valid as Of: 2024-07-17
+Version: 26387
+
+--- Record 2676 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Support for OAuth certificate authentication
+Description: Identity Provisioning supports OAuth certificate authentication for communication with Procurement Data Warehouse and SAP Business Network provisioning systems.  See Configure OAuth Certificate Authentication.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-07-17
+Valid as Of: 2024-07-17
+Version: 26387
+
+--- Record 2677 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: User Management
+Description: As of September 10, 2024, the meta.lastModified attribute will no longer be modified after you sign in. See Identity Directory API.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-07-17
+Valid as Of: 2024-07-17
+Version: 26387
+
+--- Record 2678 ---
+Component: Identity Provisioning
+Environment: Neo
+Title: Procurement Data Warehouse connector
+Description: Identity Provisioning supports the Procurement Data Warehouse connector. You can configure it as source, target, and proxy system for your provisioning scenarios.  For more information, see:      Procurement Data Warehouse (Source)      Procurement Data Warehouse (Target)      Procurement Data Warehouse (Proxy)    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-07-17
+Valid as Of: 2024-07-17
+Version: Cloud
+
+--- Record 2679 ---
+Component: Identity Provisioning
+Environment: Neo
+Title: SAP Business Ecology Management bundle is deprecated
+Description: SAP Cloud Identity Services are no longer bundled with SAP Business Ecology Management. SAP has discontinued offering the cloud solution that previously helped customers analyze their environmental impact.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-07-17
+Valid as Of: 2024-07-17
+Version: Cloud
+
+--- Record 2680 ---
+Component: Identity Provisioning
+Environment: Neo
+Title: Support for OAuth certificate authentication
+Description: Identity Provisioning supports OAuth certificate authentication for communication with Procurement Data Warehouse and SAP Business Network provisioning systems.  For more information, see Configure OAuth Certificate Authentication.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-07-17
+Valid as Of: 2024-07-17
+Version: Cloud
+

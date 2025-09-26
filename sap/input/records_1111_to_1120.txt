@@ -1,0 +1,130 @@
+--- Record 1111 ---
+Component: Graph
+Environment: Cloud Foundry
+Title: Graph supports OpenAPI-specific REST services for business data graphs
+Description: You can use OpenAPI-specific REST services in addition to OData services as data sources for business data graphs. This allows you to construct a unified API across different API protocols for diverse enterprise landscapes.  Note  Graph does not yet fully support optional parameters in imported REST operations. All parameters by default are required for these operations.  For more information, see:   REST Services  REST Services as Data Sources  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Intelligent Technologies
+Latest Revision: 2025-04-08
+Valid as Of: 2025-04-08
+Version: Cloud
+
+--- Record 1112 ---
+Component: Identity Provisioning
+Environment: Neo
+Title: Identity Authentication (using SCIM API version 2) - changed behavior
+Description: Similar to the Local Identity Directory, you can now use Identity Authentication version 2 for reading and writing application-specific group. Depending on the configured pair of provisioning systems, to ensure successful provisioning, you might need to manually define value mappings for the attribute applicationId in the source or the target system transformations.  For more information, see:     Identity Authentication (Source)  Identity Authentication (Target)  List of Properties→ips.application.id  
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-04-08
+Valid as Of: 2025-04-08
+Version: Cloud
+
+--- Record 1113 ---
+Component: Identity Provisioning
+Environment: Neo
+Title: Support for SAP extension schema for groups
+Description: The default transformations of Identity Authentication (using SCIM API version 2), SAP BTP Account Members (Neo), and SAP BTP XS Advanced UAA (Cloud Foundry) support attributes from the SAP extension schema for groups, including application ID, type, and supported operations.  For more information, see Identity Authentication, SAP BTP Account Members (Neo) and SAP BTP XS Advanced UAA (Cloud Foundry).
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-04-08
+Valid as Of: 2025-04-08
+Version: Cloud
+
+--- Record 1114 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Regions: Europe (Netherlands) and Singapore (Jurong West)
+Description: Europe (Netherlands) (cf-eu31) and Singapore (Jurong West) (cf-ap31 ), running on Google Cloud, are now available as new regions for use with enterprise accounts.  For more information, see Regions for the Kyma Environment and Provisioning and Updating Parameters in the Kyma Environment.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-04-08
+Valid as Of: 2025-04-08
+Version: Cloud
+
+--- Record 1115 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Landscape Portal: Distributing Consumer Subscriptions
+Description: With the new Manage Consumer Subscription app in the Landscape Portal, you can now control how consumers of your solutions are distributed among the available systems. See Manage Consumer Subscription.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-12-05
+Valid as Of: 2025-04-07
+Version: ABAP Environment 2502
+
+--- Record 1116 ---
+Component: UI Theme Designer
+Environment: Cloud Foundry,Neo
+Title: Theming Base Content for CF and Neo.
+Description: The base theming content is updated to version 11.29.0. Review the changes at https://github.com/SAP/theming-base-content/releases.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2025-04-07
+Version: Cloud
+
+--- Record 1117 ---
+Component: API Management
+Environment: Cloud Foundry
+Title: Discover and Publish Events from Business Systems on Developer Hub
+Description: You can now add events discovered from business systems to products and make them publicly available by publishing the associated products on Developer Hub. For more information, see Discover and Publish Events from Business Systems on Developer Hub.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-04-06
+Valid as Of: 2025-04-06
+Version: 2502
+
+--- Record 1118 ---
+Component: Cloud Integration
+Environment: Cloud Foundry,Neo
+Title: Append custom parameters to service document call for OData V4 receiver adapter
+Description: For OData V4 receiver adpater version 1.17 and above, the custom parameters configured for $metadata call will also be appended to the service document call.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-04-06
+Valid as Of: 2025-04-06
+Version: 2502
+
+--- Record 1119 ---
+Component: Cloud Integration
+Environment: Cloud Foundry
+Title: Inspect Total Values of Data Store Usage
+Description: You can now view the exact values of data store usage in the Data Store bar chart.  See: Inspect Data Store Usage  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-04-06
+Valid as Of: 2025-04-06
+Version: 2502
+
+--- Record 1120 ---
+Component: Cloud Integration
+Environment: Cloud Foundry
+Title: Migration Tooling now supports migration via the pipeline approach
+Description: You can now migrate large number of integration scenarios to Cloud Integration using the pipeline approach.  See: Pipeline Approach and Migration Approaches.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-04-06
+Valid as Of: 2025-04-06
+Version: 2502
+

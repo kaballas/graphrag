@@ -1,0 +1,130 @@
+--- Record 501 ---
+Component: SAP Build Work Zone, standard edition
+Environment: Cloud Foundry
+Title: App Catalogs Displayed
+Description: When using the page editor to add apps to a page, you can now see a list of app catalogs. Selecting a catalog, filters the results and displays only the apps in the selected catalog.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-07-10
+Valid as Of: 2025-07-10
+Version: 2506B
+
+--- Record 502 ---
+Component: SAP Build Work Zone, standard edition
+Environment: Cloud Foundry
+Title: Defining Custom Themes
+Description: The Local Entry Point business solution developer guide has been enhanced to include information about how to integrate with the UI Theme Designer service to create and manage custom themes.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-07-10
+Valid as Of: 2025-07-10
+Version: 2506B
+
+--- Record 503 ---
+Component: SAP Build Work Zone, standard edition
+Environment: Cloud Foundry
+Title: Display of Site Menu
+Description: A new site setting enables the admin to choose how to display the site menu at runtime.   Options are:  Side: menu displayed on the side according to language.  Top: menu displayed at the top of the screen.  Minimized: menu displayed in a collapsed state and can be expanded.  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-07-10
+Valid as Of: 2025-07-10
+Version: Cloud
+
+--- Record 504 ---
+Component: SAP Build Work Zone, standard edition
+Environment: Cloud Foundry
+Title: HTML Business Solutions without Destinations
+Description: It is now possible to create a content channel for HTML5 business solutions without defining destinations.   In the HTML5 business solution scenario, the content provider on the consumer side can be created by selecting it from a list of subscribed applications or locally deployed applications. 
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-07-10
+Valid as Of: 2025-07-10
+Version: 2506B
+
+--- Record 505 ---
+Component: SAP Build Work Zone, standard edition
+Environment: Cloud Foundry
+Title: Key User Adaptation Support
+Description: The Key User Adaptation site setting is enabled by default for new sites.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-07-10
+Valid as Of: 2025-07-10
+Version: 2506B
+
+--- Record 506 ---
+Component: SAP Build Work Zone, standard edition
+Environment: Cloud Foundry
+Title: Read-Only Roles
+Description: A new admin read-only role collection has been added to the SAP BTP cockpit to allow support teams to access a subset of the admin environment. This will enable them to investigate issues without being able to change customer data or configurations.The role name is: Launchpad_Admin_Read_Only.Support users will see a banner that indicates that they only have read-only access and will not be able to save any changes in the configurations.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-07-10
+Valid as Of: 2025-07-10
+Version: 2506B
+
+--- Record 507 ---
+Component: SAP HANA Service
+Environment: Neo
+Title: New Metrics for SAP HANA System
+Description: We have added HANA File-based Certificate Store Usage and HANA Own Certificate Expiration as two more metrics to the default metrics of an SAP HANA System. For more information, see View Monitoring Metrics of a Database System.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-07-10
+Valid as Of: 2025-07-10
+Version: Cloud
+
+--- Record 508 ---
+Component: SAP HANA Service
+Environment: Neo
+Title: Revision 2.00.079.05
+Description: You can now update to SAP HANA revision 2.00.079.05. See 3590219 - SAP HANA 2 SPS07 Revision 079.05.  If you are still on SAP HANA 1.0, upgrade to the latest version of SAP HANA 2.0 as SAP HANA 1.0 has reached the end of mainstream maintenance in June 2021. See 2946614 - End-of-Maintenance of SAP HANA 1.0 in the SAP BTP, Neo Environment.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-07-10
+Valid as Of: 2025-07-10
+Version: Cloud
+
+--- Record 509 ---
+Component: SAP Java Buildpack
+Environment: Cloud Foundry
+Title: Version 1.114.0
+Description: SAP Java Buildpack 1 has been updated from version 1.113.0 to 1.114.0. Updated components:      Apache TomEE 7 is updated from version 7.0.9.sap-54 to 7.0.9.sap-56      Apache Tomcat 9 is updated from version 9.0.105 to 9.0.106      SAP HANA Driver (hana.driver.2.X.X) is updated from version 2.24.8 to 2.25.9      PostgreSQL JDBC Driver (postgresql.version) is updated from 42.7.6 to 42.7.7      com.sap.xs.onpremise.runtime is updated from version 1.3.7 to 1.3.8      com.fasterxml.jackson is updated from version 2.19.0 to 2.19.1    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-06-26
+Valid as Of: 2025-07-10
+Version: Cloud
+
+--- Record 510 ---
+Component: SAP Java Buildpack
+Environment: Cloud Foundry
+Title: Version 2.35.0
+Description: SAP Java Buildpack 2 has been updated from version 2.33.0 to 2.35.0. Updated components:       TomEE 10 is updated from version 10.0.1 to 10.1.0      Tomcat 10 is updated from version 10.1.41 to 10.1.42      SAP HANA Driver (hana.driver.2.X.X) is updated from version 2.24.8 to 2.25.9      PostgreSQL JDBC Driver (postgresql.version) is updated from 42.7.6 to 42.7.7      com.fasterxml.jackson is updated from version 2.18.3 to 2.19.0    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-06-26
+Valid as Of: 2025-07-10
+Version: Cloud
+

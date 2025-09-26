@@ -1,0 +1,130 @@
+--- Record 1051 ---
+Component: Java Server
+Environment: Neo
+Title: Tomcat version for Java Web Tomcat 10
+Description: Java Web Tomcat 10 (runtime version 5.20) has been updated to Tomcat version 10.1.39.  See the Changelog.  Recommended action: Update your applications to the latest runtime version. See Keeping Your Application Runtimes Up-to-date.
+Action: Recommended
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-04-17
+Valid as Of: 2025-04-17
+Version: Cloud
+
+--- Record 1052 ---
+Component: Java Server
+Environment: Neo
+Title: Tomcat version for Java Web Tomcat 9 and Java EE 7 Web Profile TomEE 7
+Description: Java Web Tomcat 9 (runtime version 4.100) and Java EE 7 Web Profile TomEE 7 (runtime version 1.198) have been updated to Tomcat version 9.0.102.  See the Changelog.  Recommended action: Update your applications to the latest runtime version. See Keeping Your Application Runtimes Up-to-date.
+Action: Recommended
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-04-17
+Valid as Of: 2025-04-17
+Version: Cloud
+
+--- Record 1053 ---
+Component: Application Autoscaler
+Environment: Cloud Foundry
+Title: The Application Autoscaler offers a plugin for the Cloud Foundry Command Line Interface (cf CLI).
+Description: The Application Autoscaler cf CLI plugin includes commands that you can use to get some insights into your scaling policies and for debugging.  For more information, see Autoscaler Plugin for Cloud Foundry CLI.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-04-17
+Valid as Of: 2025-04-17
+Version: Cloud
+
+--- Record 1054 ---
+Component: Automation Pilot
+Environment: Cloud Foundry
+Title: New Catalog: Health Monitoring for SAP Cloud ALM
+Description: You can now use new commands for troubleshooting and recovering SAP BTP resources from SAP Cloud ALM. See Health Monitoring for SAP Cloud ALM (calmhm-sapcp) Catalog.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-04-17
+Valid as Of: 2025-04-17
+Version: Cloud
+
+--- Record 1055 ---
+Component: Availability Service
+Environment: Cloud Foundry
+Title: New Compound Evaluation Type (AVG)
+Description: New compound evaluation is added - now you can choose to calculate the average (AVG) of sub-evaluations in a compound.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-04-17
+Valid as Of: 2025-04-17
+Version: Cloud
+
+--- Record 1056 ---
+Component: Cloud Integration
+Environment: Cloud Foundry
+Title: Anaplan Adapter Supports New Version
+Description: The new version (1.2.0) supporting authentication using OAuth2 Authorization Code is available now.  See: Anaplan Adapter
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-04-17
+Valid as Of: 2025-04-17
+Version: 2502
+
+--- Record 1057 ---
+Component: Cloud Transport Management
+Environment: Cloud Foundry
+Title: New tutorial available on SAP Learning: Transport SAP Integration Suite Content using SAP Cloud Transport Management service and SAP Content Agent service
+Description: If you want to transport SAP Integration Suite content using SAP Cloud Transport Management and use SAP Content Agent both for the export of the content in a source subaccount and for the import of the content in a target subaccount, use this tutorial to learn about the required configuration steps.  See:   Transport SAP Integration Suite Content using SAP Cloud Transport Management service and SAP Content Agent service  
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Application Development and Integration
+Latest Revision: 2025-04-17
+Valid as Of: 2025-04-17
+Version: Cloud
+
+--- Record 1058 ---
+Component: Connectivity
+Environment: Cloud Foundry,Kyma
+Title: Connectivity Proxy for Kubernetes - Bug Fix
+Description: Connectivity Proxy version 2.14.0 provides the following bug fix:  An issue was fixed where temporary network issues, while fetching the trusted CAs for the Cloud Connector client certificate, would result in the removal of the CAs, preventing the Connectivity Proxy from starting.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-04-17
+Valid as Of: 2025-04-17
+Version: Cloud
+
+--- Record 1059 ---
+Component: Connectivity
+Environment: Cloud Foundry,Kyma
+Title: Connectivity Proxy for Kubernetes - Enhancement
+Description: Connectivity Proxy version 2.14.0 provides the following enhancement:A new observability metric tunnel count gauge (connectivity_business_data_tunnels_count) is now available. This metric tracks the total number of active business data tunnels (connections between the Connectivity Proxy and different Cloud Connectors). For more information, see Monitoring.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-04-17
+Valid as Of: 2025-04-17
+Version: Cloud
+
+--- Record 1060 ---
+Component: Connectivity
+Environment: Cloud Foundry,Kyma
+Title: Connectivity Proxy for Kubernetes - Security
+Description: Connectivity Proxy version 2.14.0 provides the following security features and fixes:    A FIPS (Federal Information Processing Standard) mode now lets you use a FIPS-certified cryptographic module. You can enable this mode using the configuration property compliance.fipsModeEnabled.For more information, see Configuration Guide.  Fixed multiple OS vulnerabilities by removing or upgrading packages on the image.  Fixed multiple Java vulnerabilities by upgrading dependencies to a newer version.  
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-04-17
+Valid as Of: 2025-04-17
+Version: Cloud
+

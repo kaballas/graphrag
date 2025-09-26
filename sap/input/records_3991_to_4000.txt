@@ -1,0 +1,130 @@
+--- Record 3991 ---
+Component: SAP Advanced Financial Closing
+Environment: Cloud Foundry
+Title: Behavior When Displaying Task Description Improved
+Description: The default value displayed for task descriptions is now the description available for the respective logon language. If no translation of a task description is available in that language, the default description for that task is displayed.    App affected:  Manage Closing Task Lists
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Finance
+Latest Revision: 2023-10-27
+Valid as Of: 2023-11-12
+Version: Cloud
+
+--- Record 3992 ---
+Component: SAP Advanced Financial Closing
+Environment: Cloud Foundry
+Title: Default Value Changed for Mass Changes of User Assignments
+Description: When you perform a mass change to user assignments and you change the value for the fields Responsible User Type or Processor Type, the default values for the following corresponding fields are also set to <Replace Field Value>:  User Responsible or User Group Responsible respectively  Processing User or Processing User Group respectively      More information:      App affected:  Manage Closing Task Lists
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Finance
+Latest Revision: 2023-10-27
+Valid as Of: 2023-11-12
+Version: Cloud
+
+--- Record 3993 ---
+Component: SAP Advanced Financial Closing
+Environment: Cloud Foundry
+Title: Information About ITS Settings
+Description: You can now find the ITS settings of your on-premise system displayed in the new section SAP Internet Transaction Server in the system details. Additionally, you can check the settings using the Check ITS Settings button in this section.  The information in this section is read-only. If you need to make any adjustment to the ITS settings, make them in the corresponding communication system as described in the Advanced Financial Closing Local Settings Guide.    More information:  How to Check the System Information  How to Set Up ITS Navigation for Use with a Proxy Server (Advanced Financial Closing Local Settings Guide)      Apps affected:  Specify Communication Systems  Monitor Communication Systems    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Finance
+Latest Revision: 2023-10-27
+Valid as Of: 2023-11-12
+Version: Cloud
+
+--- Record 3994 ---
+Component: SAP Advanced Financial Closing
+Environment: Cloud Foundry
+Title: Limit for Moving Folders
+Description: The maximum number of folders that can be moved at the same time has been increased to 300.    More information:  How to Move Folders    App affected:  Manage Closing Task Lists
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Finance
+Latest Revision: 2023-10-27
+Valid as Of: 2023-11-12
+Version: Cloud
+
+--- Record 3995 ---
+Component: SAP Advanced Financial Closing
+Environment: Cloud Foundry
+Title: Predefined Task Filter Changed
+Description: The predefined filter Tasks Completed with Errors in the Tasks table has been adjusted to now show tasks with the statuses Completed with Errors or Failed. Accordingly, the filter has been renamed to Tasks Completed with Errors or Failed.    More information:      Apps affected:  Process Closing Tasks
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Finance
+Latest Revision: 2023-10-27
+Valid as Of: 2023-11-12
+Version: Cloud
+
+--- Record 3996 ---
+Component: SAP Advanced Financial Closing
+Environment: Cloud Foundry
+Title: Send Notifications to Additional Interested Users
+Description: You can now send notifications about tasks to users that aren't assigned as a user responsible or as a processing user. These additional assignments are made under Interested User or Interested User Group.  You define the specific notifications in the notification scenario.    More information:  How to Create Tasks  Task List and Task Details  How to Change Task Attributes  Notifications in the Financial Close Workflow  How to Manage Email Notification Configurations      Apps affected:  Manage Closing Task Lists  Process Closing Tasks  Manage Email Notification Configurations  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Finance
+Latest Revision: 2023-10-27
+Valid as Of: 2023-11-12
+Version: Cloud
+
+--- Record 3997 ---
+Component: SAP Advanced Financial Closing
+Environment: Cloud Foundry
+Title: System Behavior Changed for Setting Task Lists to Completed
+Description: If one or more tasks are still awaiting approval when you try to set a task list to status Completed, you now receive a warning and no longer an error message. You can then still confirm the dialog and set the task list to Completed anyway.  App affected:  Manage Closing Task Lists
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Finance
+Latest Revision: 2023-10-27
+Valid as Of: 2023-11-12
+Version: Cloud
+
+--- Record 3998 ---
+Component: SAP Advanced Financial Closing
+Environment: Cloud Foundry
+Title: Translation of Task List Default Descriptions
+Description: You can now provide translations of your task list default descriptions. These translations will be displayed as the task list description in the corresponding logon language.    More information:  Translation    Apps affected:  For maintenance: Manage Closing Task Lists  All other apps that display the task list description  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Finance
+Latest Revision: 2023-10-27
+Valid as Of: 2023-11-12
+Version: Cloud
+
+--- Record 3999 ---
+Component: SAP Advanced Financial Closing
+Environment: Cloud Foundry
+Title: User Interface Changes for Uploading Attachments
+Description: The user interface for uploading attachments has been changed:  Icons for different file types have been introduced.  Messages have been adjusted.    App affected:  Manage Closing Task Lists
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Finance
+Latest Revision: 2023-10-27
+Valid as Of: 2023-11-12
+Version: Cloud
+
+--- Record 4000 ---
+Component: SAP Analytics Cloud
+Environment: Other
+Title: Features for 2023 QRC 4 (version 2023.24)
+Description: We are happy to inform you that with the release of SAP Analytics Cloud Q4 2023, all the supporting documentation is available on SAP Help Portal.     On the SAP Analytics Cloud product page, you’ll find a complete set of SAP Analytics Cloud guides and resources.  Some highlights include:  General imrpovements:  SAP Analytics Cloud now has a new embedded help experience with SAP Companion. Explore the UI with summary help popovers to get more context and learn about different features. Watch embedded video tutorials to become familiar with common tasks and access a curated list of interactive, self-directed learning tutorials that are relevant to the screen you're on. With the enhanced help, streamline the process it takes for you to find additional guidance and learning content so you can get the right information when you need it the most!Check out our community blog for more details as well as our new video on how to find help for SAP Analytics Cloud.    Stories improvements:  In table forecast layouts, you can now set Week as the granularity for Range (a new option used for setting the timeframe covered in a forecast layout), Look back additional, and Look ahead additional. In rolling forecast layouts, the Week granularity is now available for Look back and Look ahead.  When creating stacked bar/column charts or stacked area charts in the optimized design experience, you can now add both the version (or category) dimension and other dimensions to the color feed.  When adding the Version (or Category) dimension to the Color section for your chart, you can now choose to use the measures/accounts to set the color and patterns. This feature is only available in the optimized story experience.  When creating story calculations based on data from the new model (with an account dimension), you can now use MEMBERLOOKUP and ACCOUNTLOOKUP functions in the calculations. This feature is only available in the optimized story experience.  When using a restricted measure calculation that includes a Version dimension, you can now remove the version dimension from the chart axis. This feature is only available in the optimized story experience.    Planning improvements:  When you use the Add Member functionality, inner dimension members relative to the member where you trigger this functionality are now automatically replicated and filled into the new line. This enhancement is also available to tables built on SAP BPC live data models.  When configuring a version management step in multi actions, you now have the option to decide how you want your data to publish. You can choose to automatically publish your changes and have the publish fail if there are any restrictions, or you can choose to automatically publish your changes and discard any data that is affected by restrictions.  When configuring the API step of multi actions, you can now select the Require CSRF Token checkbox and enter a CSRF token URL if a CSRF token is required by the external application you want to use.  You can now benefit from the features of Multi Actions Service API on the SAP Business Accelerator Hub.  In data actions, you can now select the checkbox Allow "All Members" as a parameter property. Parameters with this property enabled can be used in the source context of different types of data action steps. In data action triggers, you can now choose Member Selection, Input Control, or Story Filter to set values for such parameters using the All Members selection.  In validation rules created by combining dimension members, you can now copy dimension member combinations from other applications like Microsoft Excel or from existing member combinations, and paste them into the validation rule grid, either by using dedicated buttons or via keyboard shortcuts. This helps you quicky add many member combinations into your rule.  In IF statements of advanced formulas, you can now use "==" or "!==" to define a dimension combination filter that produces a scope of dimension member combinations based on whether or not dimension properties match.  When editing a public version with the recommended planning area defined in the model settings, you can now first select the checkbox Auto-generate based on the table context in the Builder panel of the table you're working on before putting the public version into Edit Mode. The recommended planning area that's applied also takes into account the table context that covers story, page, and table filters. This helps you further restrict the size of the recommended planning area to improve performance, especially for large public versions.  The following Story APIs can now be used to customize the planning area:  As an application designer or story developer in optimized story experience, you can use getPlanningAreaInfo with filter related APIs to define customized planning area. You can further use startEditMode and copy API to edit or copy the customized planning area.  As an application designer or story developer in optimized story experience, you can use startEditMode API to start edit mode on specific planning areas in public versions.  In both analytics designer and optimized story experience, the copy API to now supports the options to create a planning version from visible data and customized planning area.      Calendar improvements:  Next to the planned start and end dates of calendar events, you can now see the actual dates of the events in the List workspace and in the Details panel of an event. Both planned and actual dates are visualized in the Gantt chart. Administrators can turn off the display of the actual dates under System > Administration. For details, see Work in the List Workspace.  To better identify overdue and delayed events, you can now filter your calendar List workspace according to their time-related status (On Track, Delayed, or Overdue). For details, see Filter Calendar Events.  You can now view the time zone in which a calendar task series was created by selecting the globe icon in the Time section of a series or single occurrence. If a series takes place during a daylight-saving time change, it is adjusted accordingly and takes place one hour earlier or later. Note that you need to update existing series to make use of this feature.  Until now, you could add parent processes to events. Now you can also add or remove direct child events in the Details panel of a process. For more information, see Work with Processes.  You can now reset the setting changes of decoupled occurrences so they match the series settings again. You can do this either from the Details panel of the decoupled occurrences, from the Details panel of the series, or when you update the series. For more information, see Working With Series in Work with Calendar Events You Created.    Modeling improvements:  A new ToPeriod formula now allows you to aggregate a running total across flexible time granularities for a given period. This dynamic formula will help modelers create calculated measures using Year-to-Date, Quarter-to-Date and Month-to-Date running totals at a model level, and reuse them in stories. ToPeriod can also be used in combination with LOOKUP or RESTRICT.  You can now combine formulas with other formulas in calculated measures. This improvement will save you time, as you’ll no longer have to create multiple calculated measure to combine LOOKUP, RESTRICT, YOY, SMA & CAGR with other formulas.  Performance improvements are possible for currency rates tables containing large volumes of data. This follows the introduction of the Data Import API for currency data in QRC3. These include improved loading times, saving times, and improved filtering handling for large currency rates tables.  As a preview for what’s coming next in the Modeling and upcoming enhancements, check out this blog.    Data Analyzer improvements:  You can now find the following improvements for the chart usage in data analyzer:  You can now also use the Stacked Column and the Stacked Bar charts for the visualization of your data.  You can now use the chart visualization with all model types except the classic account model.  There are user experience improvements in the builder panel for charts.    In the table visualization in data analyzer you can now scroll horizontally if the table has a large number of columns. If there are more than 100 columns a warning message is displayed to use the filter function and restrict the number of columns.  In data analyzer you can now drag objects from the builder panel on the table. The following object types are supported:  Dimensions  Display attributes (connected with the associated dimension)  Measure/Account structures      For a complete list of the new features brought to SAP Analytics Cloud as part of the Q4 2023 launch, check out the brand new What’s New Viewer.  Check out the Content Package guides for the Analytics Content Network with all the latest additions to our Business Content packages.  The Help Library describes how you use SAP Analytics Cloud to create stories, analytic applications, models, dashboards, as well as how to take advantage of planning and predictive features, and lots more.  The Video Tutorials show you how to use SAP Analytics Cloud features in simple, step-by-step visual walkthroughs.    Don’t forget to also check out the right-side bar for a list of additional information, such as a What’s New, and links to additional blogs, learning, and community resources.  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2023-11-11
+Version: Cloud
+

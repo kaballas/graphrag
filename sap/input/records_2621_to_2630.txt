@@ -1,0 +1,130 @@
+--- Record 2621 ---
+Component: Cloud Management Tools,SAP BTP Cockpit
+Environment: ABAP,Cloud Foundry,Kyma,Neo,Other
+Title: New Chart - Global Account Cost Summary
+Description: In the Costs and Usage page in the SAP BTP cockpit, we've added a new Global Account - Cost Summary chart that summarizes the costs by month in your global account for the last 12 months.  You can find this chart in the Billing view under the main table when you haven't selected a service, subaccount, or directory in the main table.  See Monitoring Usage and Consumption Costs in Your Global Account.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-07-25
+Valid as Of: 2024-07-25
+Version: Cloud
+
+--- Record 2622 ---
+Component: Continuous Integration & Delivery
+Environment: Cloud Foundry
+Title: New Region Available
+Description: SAP Continuous Integration and Delivery can now also be consumed in the Europe (Netherlands) region. See Regional Availability.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-07-25
+Valid as Of: 2024-07-25
+Version: Cloud
+
+--- Record 2623 ---
+Component: Joule
+Environment: Cloud Foundry
+Title: Data Center Availability
+Description: The following attributes are added to Client Information:     Europe (Netherlands) of Microsoft Azure (EU20)      Europe (Frankfurt) of Google Cloud Platform (EU30)      US East (VA) of Microsoft Azure (US21)      US Central (IA) of Google Cloud Platform (US30)     See Data Centers Supported by Joule.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-07-25
+Valid as Of: 2024-07-25
+Version: Cloud
+
+--- Record 2624 ---
+Component: Multitarget Applications for Cloud Foundry
+Environment: Cloud Foundry
+Title: New dependency-specific parameter
+Description: You can now use the new binding-name parameter in the requires section to specify the name of the binding.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-07-15
+Valid as Of: 2024-07-25
+Version: Cloud
+
+--- Record 2625 ---
+Component: SAP Audit Log
+Environment: Cloud Foundry
+Title: Filter your audit log data based on categories
+Description: With the Retrieval API, it is now possible to filter your audit log data based on categories. The predefined audit log categories available for selection include: "audit.security-events", "audit.data-access", "audit.data-modification", and "audit.configuration". For more information, see Audit Log Retrieval API Usage for Subaccounts in the Cloud Foundry Environment
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-07-19
+Valid as Of: 2024-07-25
+Version: Cloud
+
+--- Record 2626 ---
+Component: SAP BTP Best Practices
+Environment: ABAP,Cloud Foundry,Kyma,Neo,Other
+Title: Best Practices Guide - Update
+Description: Find recommendations about SAP Cloud Transport Management and SAP Cloud ALM in Delivering Applications, improved guidance for Configuring Backup and Naming Conventions for SAP BTP Accounts, and an example for using both, Cloud Foundry runtime and Kyma runtime in Creating a Staged Development Environment.  Stay informed with the new page What's New for SAP BTP Best Practices.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-07-24
+Valid as Of: 2024-07-25
+Version: Cloud
+
+--- Record 2627 ---
+Component: SAP BTP, Cloud Foundry Runtime
+Environment: Cloud Foundry
+Title: Version 40.18.0
+Description: Cloud Foundry has been updated from 40.17.0 to 40.18.0.  https://github.com/cloudfoundry/cf-deployment/releases/tag/v40.18.0  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-07-25
+Valid as Of: 2024-07-25
+Version: Cloud
+
+--- Record 2628 ---
+Component: SAP Java Buildpack
+Environment: Cloud Foundry
+Title: Version 1.99.1
+Description: SAP Java Buildpack 1 has been updated from version 1.98.1 to 1.99.1. Updated components:      Apache TomEE 7 is updated from version 7.0.9.sap-43 to 7.0.9.sap-44      SAP HANA Driver (hana.driver.2.X.X) is updated from version 2.21.10 to 2.21.11      Dependency org.apache.httpcomponents.core5.httpcore5, version 5.2.4, is added.      Dependency org.apache.httpcomponents.client5.httpclient5, version 5.3.1, is added.      com.sap.cloud.connectivity.apiext is updated from version 3.35.0 to 3.36.0      com.sap.xs.onpremise.runtime is updated from version 1.2.3 to 1.2.4      otel-agent is updated from version 2.3.0 to 2.4.0      otel-agent-ext-java is updated from version 1.5.14 to 1.5.15    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-07-15
+Valid as Of: 2024-07-25
+Version: Cloud
+
+--- Record 2629 ---
+Component: SAP Java Buildpack
+Environment: Cloud Foundry
+Title: Version 2.13.1
+Description: SAP Java Buildpack 2 has been updated from version 2.12.1 to 2.13.1. Updated components:      SAP HANA Driver (hana.driver.2.X.X) is updated from version 2.21.10 to 2.21.11      Dependency org.apache.httpcomponents.core5.httpcore5, version 5.2.4, is added.      Dependency org.apache.httpcomponents.client5.httpclient5, version 5.3.1, is added.      com.sap.cloud.connectivity.apiext is updated from version 3.35.0 to 3.36.0      com.sap.cloud.security.xsuaa is updated from version 3.5.0 to 3.5.2      com.sap.xs.onpremise.runtime is updated from version 1.2.3 to 1.2.4      com.github.ben-manes.caffeine is updated from version 3.1.5 to 3.1.8      otel-agent is updated from version 2.3.0 to 2.4.0      otel-agent-ext-java is updated from version 1.5.14 to 1.5.15    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-07-15
+Valid as Of: 2024-07-25
+Version: Cloud
+
+--- Record 2630 ---
+Component: SAP Task Center
+Environment: Cloud Foundry
+Title: Check and Update Your Service Keys and Bindings
+Description: Please make sure your SAP Task Center service keys and service bindings are following the new pattern (created after July 2022). If they are following the old pattern, make sure to recreate and update them by August 31, 2024. For more information, see SAP Note 3499354 .
+Action: Required
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-07-24
+Valid as Of: 2024-07-24
+Version: Cloud
+

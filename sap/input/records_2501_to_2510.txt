@@ -1,0 +1,130 @@
+--- Record 2501 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: ABAP Development Tools for Eclipse: Opening Non-Native-Integrated Development Objects
+Description: If you open an ABAP development object that is not native-integrated in Eclipse, it will now be opened in a new fallback editor in ADT. This editor shows, for example, the information that is usually displayed in the Properties view or the source code in a read-only preview.  See Opening Non-Native-Integrated Development Objects.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-08-16
+Valid as Of: 2024-08-16
+Version: ABAP Environment 2408
+
+--- Record 2502 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: ABAP Development Tools for Eclipse: Planned Decommissioning Date for Deprecated Objects
+Description: For formerly released but meanwhile deprecated local APIs, the system now shows their planned decommissioning date. If SAP has no concrete plans to change the state of an object to decommissioned, the date is not set, and the priorities of the corresponding ATC check results (developer extensibility) and rework tasks (key user extensibility) are lower than for objects with a planned decommissioning date. This will help you to prioritize the rework of custom objects that use deprecated APIs.  See Deprecation.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-08-16
+Valid as Of: 2024-08-16
+Version: ABAP Environment 2408
+
+--- Record 2503 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: ABAP Development Tools for Eclipse: Schedule Custom Code Analysis
+Description: Through the Schedule Custom Code Analysis app, you can now schedule projects created in the Custom Code Migration app as application jobs. With this functionality, the analyses can be performed once or periodically. The Schedule Custom Code Analysis app is available to all users that have access to the Custom Code Migration app.  See Schedule Custom Code Analysis.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-08-16
+Valid as Of: 2024-08-16
+Version: ABAP Environment 2408
+
+--- Record 2504 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: ABAP Development Tools for Eclipse: Specifying "Empty Key" Key Definition for Table Types
+Description: You can now specify Empty Key as a Primary Key Definition for a table type.  See Working with Table Types.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-08-16
+Valid as Of: 2024-08-16
+Version: ABAP Environment 2408
+
+--- Record 2505 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: ABAP Development Tools for Eclipse: Working with the Core Schema Notation Model Object Type
+Description: The Core Schema Notation Model workbench object is a container for the imported Core Schema Notation (CSN) documents and the derived CSN model. The CSN documents can be manually uploaded into the Core Schema Notation Model workbench object.  See Working with the Core Schema Notation Model.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-08-16
+Valid as Of: 2024-08-16
+Version: ABAP Environment 2408
+
+--- Record 2506 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Add Custom Logo to Fiori Launchpad
+Description: You can now exchange the SAP logo in the SAP Fiori launchpad with a customer logo. For administrators, there is a new parameter COMPANY_LOGO_URL in the Manage Launchpad Settings app. Here, you can upload a logo from a file. This logo will replace the SAP logo for all users.  For more information, see Manage Launchpad Settings.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-08-16
+Valid as Of: 2024-08-16
+Version: ABAP Environment 2408
+
+--- Record 2507 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Annotation: ObjectModel.supportedCapabilities
+Description: You can use this annotation to check whether or not the UI use case is supported. If supported, then either the creation of UI projections or alternatively the direct consumption in an UI service binding is possible. Otherwise, warnings or errors occur indicating that the UI usage is not supported and might lead to unexpected errors.  For more information, see the annotation documentation of the ObjectModel domain in KTD.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-08-16
+Valid as Of: 2024-08-16
+Version: ABAP Environment 2408
+
+--- Record 2508 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Annotation: Semantics.valueRange
+Description: You can use this annotation to inform consumers about the value range of a CDS element, allowing to specify minimal and/or maximal values and indicate whether these are exclusive or inclusive. The annotation can be applied to all fully ordered data types, i.e. Characters, Strings, Numbers, or Data Types.  For more information, see the annotation documentation of the Semantics domain in KTD.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-08-16
+Valid as Of: 2024-08-16
+Version: ABAP Environment 2408
+
+--- Record 2509 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Annotation: UI.dataPoint.title
+Description: You can use this annotation to define the title of a data point.  For more information, see the annotation documentation of the UI domain in KTD.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-08-16
+Valid as Of: 2024-08-16
+Version: ABAP Environment 2408
+
+--- Record 2510 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Business Configuration App without Transport Option
+Description:     You can now select the transport option No Transport.      There is a new option to enable a transport request selection bar in the header toolbar.    See Generating a Business Configuration Maintenance Object with the Generate ABAP Repository Objects Wizard
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-08-16
+Valid as Of: 2024-08-16
+Version: ABAP Environment 2408
+

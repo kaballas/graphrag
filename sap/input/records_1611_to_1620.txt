@@ -1,0 +1,130 @@
+--- Record 1611 ---
+Component: SAP Build Work Zone, advanced edition
+Environment: Cloud Foundry
+Title: SAP SuccessFactors
+Description: SAP SuccessFactors has been removed from the list of supported content providers in SAP Help Portal, as it was added accidentally.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-01-23
+Valid as Of: 2025-01-23
+Version: 2413B
+
+--- Record 1612 ---
+Component: SAP Build Work Zone, advanced edition
+Environment: Cloud Foundry
+Title: Tracking Imports in the Transport Manager
+Description: A new screen has been added to the Site Manager – the Transport Manager.   Administrators can use the Transport Manager, accessed from the side panel, to track the progress of an import process. As a result, this process no longer takes control of the Site Manager, allowing administrators to continue working during the import.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-01-16
+Valid as Of: 2025-01-23
+Version: 2413B
+
+--- Record 1613 ---
+Component: SAP Build Work Zone, standard edition
+Environment: Cloud Foundry
+Title: Multiple Subscriptions to SAP Build Work Zone Editions
+Description: It's no longer possible to subscribe to multiple SAP Build Work Zone editions in parallel in a given SAP BTP subaccount. Trying to subscribe to multiple editions, for example both to standard and advanced editions in the same subaccount, will result in an error.   Note   Existing subscriptions are not impacted by this restriction and continue to work as before.  If you're interested in upgrading from the foundation service plan to the standard service plan, you can use the Updatesubscription option in the SAP BTP cockpit.  Note that the Updateoption is only available if the subaccount has entitlements to both the foundation and standard service plans.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-01-23
+Valid as Of: 2025-01-23
+Version: 2413B
+
+--- Record 1614 ---
+Component: SAP Build Work Zone, standard edition
+Environment: Cloud Foundry
+Title: SAP SuccessFactors
+Description: SAP SuccessFactors has been removed from the list of supported content providers in SAP Help Portal, as it was added accidentally.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-01-23
+Valid as Of: 2025-01-23
+Version: 2413B
+
+--- Record 1615 ---
+Component: SAP Build Work Zone, standard edition
+Environment: Cloud Foundry
+Title: Tracking Imports in the Transport Manager
+Description: A new screen has been added to the Site Manager – the Transport Manager.   Administrators can use the Transport Manager, accessed from the side panel, to track the progress of an import process. As a result, this process no longer takes control of the Site Manager, allowing administrators to continue working during the import. 
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-01-23
+Valid as Of: 2025-01-23
+Version: 2413B
+
+--- Record 1616 ---
+Component: SAP Java Buildpack
+Environment: Cloud Foundry
+Title: Version 1.109.0
+Description: SAP Java Buildpack 1 has been updated from version 1.107.0 to 1.109.0. Updated components:      Apache Tomcat 9 is updated from version 9.0.96 to 9.0.98      Apache TomEE 7 is updated from version 7.0.9.sap-46 to 7.0.9.sap-49      SAP HANA Driver (hana.driver.2.X.X) is updated from version 2.22.12 to 2.23.7      otel-agent is updated from version 2.8.0 to 2.10.0      otel-agent-ext-java is updated from version 1.5.19 to 1.5.21      com.fasterxml.jackson is updated from version 2.18.0 to 2.18.2      com.sap.conn.jco-cloud is updated from version 3.1.10.0 to 3.1.11.0      com.sap.xs.onpremise.runtime is updated from version 1.2.6 to 1.3.0    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-01-10
+Valid as Of: 2025-01-23
+Version: Cloud
+
+--- Record 1617 ---
+Component: SAP Java Buildpack
+Environment: Cloud Foundry
+Title: Version 2.23.0
+Description: SAP Java Buildpack 2 has been updated from version 2.22.0 to 2.23.0. Updated components:      Tomcat 10 is updated from version 10.1.33 to 10.1.34      SAP HANA Driver (hana.driver.2.X.X) is updated from version 2.22.12 to 2.23.7      otel-agent is updated from version 2.9.0 to 2.10.0      otel-agent-ext-java is updated from version 1.5.20 to 1.5.21      logback is updated from version 1.5.12 to 1.5.15    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-01-10
+Valid as Of: 2025-01-23
+Version: Cloud
+
+--- Record 1618 ---
+Component: SAP Start
+Environment: Cloud Foundry
+Title: Integration with SAP Integrated Business Planning
+Description: Integrate SAP Integrated Business Planning business content.  For more information, see Integrate SAP Integrated Business Planning.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-01-23
+Valid as Of: 2025-01-23
+Version: Cloud
+
+--- Record 1619 ---
+Component: SAPUI5
+Environment: ABAP,Cloud Foundry,Kyma,Neo,Other
+Title: SAPUI5 Distribution 1.132
+Description: SAPUI5 version 1.132 has been released for UI development and can now be consumed by SAP BTP services. It’s up to the services to determine when they start using the new version.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2025-01-22
+Valid as Of: 2025-01-23
+Version: Cloud
+
+--- Record 1620 ---
+Component: Application for Data Replication and Administration
+Environment: Cloud Foundry
+Title: New table KONPT added
+Description: The table KONPT has been added and will be loaded when running a new pricing load.  Action: Please adjust your allowlist and/or source system permissions to allow loading the new table.  See: Administration Guide for SAP Variant Configuration and Pricing.
+Action: Required
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-12-12
+Valid as Of: 2025-01-22
+Version: Cloud
+

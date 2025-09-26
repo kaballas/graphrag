@@ -1,0 +1,130 @@
+--- Record 2081 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: Create and Manage Schema Versions on the SAP Document AI Basic UI
+Description: You can now use the SAP Document AI basic UI to create and manage versions of schemas.  Using schema versions means that you no longer have to copy or adapt existing schemas for broadly similar use cases that differ only slightly in terms of the data fields involved and the associated settings.   After configuring, saving, and activating a new schema, you can create additional versions by adding and removing fields and changing settings, as needed. These changes don’t affect the original schema, which remains as version 1.  See Use Schema Versions.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Intelligent Technologies
+Latest Revision: 2024-10-30
+Valid as Of: 2024-10-30
+Version: Cloud
+
+--- Record 2082 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: Improved Underlying Infrastructure for LLM-usage (Premium Edition)
+Description: The underlying infrastructure for LLM-usage in SAP Document AI has been improved for better service performance.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Intelligent Technologies
+Latest Revision: 2024-11-05
+Valid as Of: 2024-10-30
+Version: Cloud
+
+--- Record 2083 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: Select Schema Version When Adding Documents or Creating Templates on the SAP Document AI Basic UI
+Description: When you add a document or create a template on the SAP Document AI basic UI, you now have the option of selecting a version of the schema.  See Add Document and Add Template.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Intelligent Technologies
+Latest Revision: 2024-10-30
+Valid as Of: 2024-10-30
+Version: Cloud
+
+--- Record 2084 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: API Gateway module: Deprecation of APIRule v1beta1
+Description: To improve and optimize our services, the APIRule CustomResourceDefinition version v1beta1 will be gradually phased out. The deprecation phase will start on October 28, 2024. APIRule v1beta1 version will be deleted on May 12, 2025. To make sure you can smoothly migrate your APIRule custom resources (CRs) to the stable version v2, you can start testing version v2alpha1 and provide feedback before the migration window opens. Version v2alpha1 is intended for testing purposes only, helping you evaluate the new version’s compatibility and functionality. It is not recommended for use in production environments. By testing APIRule v2alpha1 in advance and providing feedback, you can help us further refine this version, ensuring that the formal upgrade will have minimal impact on your operations. The migration process does not disturb any existing applications.   We expect version v2alpha1 to be promoted to version v2 without significant changes. The release of version v2 is planned for April 15, 2025. After that, you will be required to complete the migration from version v1beta1 to version v2 by May 12, 2025.  Recommended action: We strongly recommend that you test the migration process in a non-production environment using version v2alpha1. This will not only help you familiarize yourself with the new features but also allow us to optimize the migration experience and apply your feedback.  Required action: During the migration window lasting from April 15, 2025 until May 12, 2025, you must migrate your production APIRule CRs to version v2.   For detailed migration steps and timelines, see the blog posts on the APIRule migration for the noAuth and jwt handlers and APIRule migration for the ORY Oathkeeper-based OAuth2 handlers. 
+Action: Required
+Lifecycle: Deprecated
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-10-21
+Valid as Of: 2024-10-28
+Version: Cloud
+
+--- Record 2085 ---
+Component: Connectivity
+Environment: Cloud Foundry
+Title: Cloud Connector - New Regions
+Description: Additional regions were added to SAP BTP:    ap30: Australia (Sydney) - Google Cloud  br20: Brazil (São Paulo) - Azure  sa30: KSA (Dammam) - Google Cloud    For more information, see Cloud Connector: Prerequisites.  In case of questions please contact SAP Support.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-10-28
+Valid as Of: 2024-10-28
+Version: Cloud
+
+--- Record 2086 ---
+Component: Continuous Integration & Delivery
+Environment: Cloud Foundry
+Title: Bug Fix for Application Name in the SAP Fiori for ABAP Platform Pipeline
+Description: In the release stage of the SAP Fiori for ABAP Platform pipeline, the namespace prefixes are available again.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-10-28
+Valid as Of: 2024-10-28
+Version: Cloud
+
+--- Record 2087 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: API Gateway module: Update to verison 2.7.0
+Description: This release contains the following changes:     We've added support for short host name in version v2alpha1 of APIRule. If you only provide the leftmost label in the spec.hosts field of an APIRule custom resource (CR), it uses the domain name from the referenced Gateway, expanding the host to <label>.<gateway domain>. See Sample Custom Resources.      We've fixed the wildcard path format and the validation of the rule path in an APIRule.      Release 2.7 of the API Gateway module includes the fully functional version of APIRule v2alpha1 with noAuth, jwt, and extAuth access strategies. Version v2alpha1 is not meant for use in a production environment but for testing purposes only. After the rollout to the regular channel on October 28, 2024, you’ll be required to start testing the migration procedure. To learn more, see the APIRule migration blog post. It provides the timeline for deletion of APIRule v1beta1 and covers the following migration scenarios:  From the noop, allow, or no_authhandler in version v1beta1 to the noAuth handler in version v2alpha1  From the jwt handler in version v1beta1 to the new configuration of the jwt handler in version v2alpha1    The migration procedure from OAuth2 handlers based on Ory Oathkeeper to the new extAuth handler will be published in the next blog post. For now, see the tutorial Exposing a Workload with extAuth.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-10-03
+Valid as Of: 2024-10-28
+Version: Cloud
+
+--- Record 2088 ---
+Component: Region
+Environment: Cloud Foundry
+Title: Australia (Sydney)
+Description: Australia (Sydney) (cf-ap30) is available as a new region running on Google Cloud for use with enterprise accounts. See Regions and API Endpoints Available for the Cloud Foundry Environment.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-10-28
+Valid as Of: 2024-10-28
+Version: Cloud
+
+--- Record 2089 ---
+Component: Region
+Environment: Cloud Foundry
+Title: Brazil (São Paulo)
+Description: Brazil (São Paulo) (cf-br20) is available as a new region running on Azure for use with enterprise accounts. See Regions and API Endpoints Available for the Cloud Foundry Environment.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-10-28
+Valid as Of: 2024-10-28
+Version: Cloud
+
+--- Record 2090 ---
+Component: SAP Task Center
+Environment: Cloud Foundry
+Title: SAP Task Center Improvements
+Description: The following improvements are introduced for the SAP Task Center Web app:    Handling of attachments with IDs that include special characters      Support for opening task directly via deep links    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-10-28
+Valid as Of: 2024-10-28
+Version: Cloud
+

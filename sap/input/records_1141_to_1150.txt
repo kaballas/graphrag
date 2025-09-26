@@ -1,0 +1,130 @@
+--- Record 1141 ---
+Component: SAP Document and Reporting Compliance, Cloud Edition
+Environment: Kyma
+Title: Enhancement for the Creation of Peppol Participants for Singapore for the Peppol Exchange Process
+Description: Relevant for Singapore: In the Configure Participants app, you can find the following enhancements when creating participants:      The field names for entering your business contact data are adjusted as follows:      Contact Person's Full Name      Contact Person's Business Email      Contact Person's Business Phone          The specification of the following business contact data is now optional. It is no longer mandatory:      Contact Person's Full Name      Contact Person's Business Email          The cloud edition sends your business contact data directly to the Service Metadata Publishers (SMP) and doesn't store it locally.      Your changes to your business contact data are reflected in the SAP Audit Log service on the SAP BTP.    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: nan
+Valid as Of: 2025-04-04
+Version: Cloud
+
+--- Record 1142 ---
+Component: SAP Document and Reporting Compliance, Cloud Edition
+Environment: Kyma
+Title: Flexible Capitalization of the drccSystemType Property Entry in Destinations for the Peppol Exchange Process
+Description: Relevant for the integration of the Peppol Exchange process: When you create a Destination, you no longer need to consider the case sensitivity of the entry for the drccSystemType property. As long as the entry for the drccSystemType property matches the one mentioned in the documentation, you won't encounter errors due to capitalization differences. Update any entries that don't match those in the documentation.  Find the entries for the drccSystemType property relevant for your business system:     SAP Business ByDesign: Setting Up Connectivity    SAP Business Network: Setting Up Connectivity (Relevant Only for Australia, Japan, New Zealand, and Singapore)  SAP Ariba Central Invoice Management: Setting Up Connectivity  SAP Business One: Setting Up Connectivity  Concur Invoice: Setting Up Connectivity  SAP ERP: Setting Up Connectivity  SAP S/4HANA or SAP S/4HANA Cloud Private Edition: Setting Up Connectivity  SAP S/4HANA Cloud Public Edition: Setting Up Connectivity  
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: nan
+Valid as Of: 2025-04-04
+Version: Cloud
+
+--- Record 1143 ---
+Component: SAP Document and Reporting Compliance, Cloud Edition
+Environment: Kyma
+Title: In-App Help Available in the Peppol Exchange Applications
+Description: You can now access What's This App? and field documentation in the apps within the Peppol Exchange tile. This documentation supports you when configuring your participants and monitoring documents that you exchange. To access the documentation, select the interrogation sign button on the top right-hand corner of the screen.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: nan
+Valid as Of: 2025-04-04
+Version: Cloud
+
+--- Record 1144 ---
+Component: Multitarget Applications for Cloud Foundry
+Environment: Cloud Foundry
+Title: Deleted module hooks
+Description: The following module hooks are deleted:  application.before-stop.live  application.before-stop.idle  application.after-stop.live  application.after-stop.idle  application.before-unmap-routes    Action: Use the new module hooks as outlined below:  for regular deployment:  Replace application.before-stop.live with deploy.application.before-stop.  application.before-stop.idle is no longer applicable.  Replace application.after-stop.live with deploy.application.after-stop.  application.after-stop.idle is no longer applicable.  application.before-unmap-routes is no longer applicable.    for blue-green deployment:  Replace application.before-stop.live with blue-green.application.before-stop.live.  Replace application.before-stop.idle with blue-green.application.before-stop.idle.  Replace application.after-stop.live with blue-green.application.after-stop.live.  Replace application.after-stop.idle with blue-green.application.after-stop.idle.  Replace application.before-unmap-routes with blue-green.application.before-unmap-routes.live.      For more information about the available module hooks, see Module Hooks.
+Action: Required
+Lifecycle: Deleted
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-03-10
+Valid as Of: 2025-04-03
+Version: Cloud
+
+--- Record 1145 ---
+Component: SAP Java Buildpack
+Environment: Cloud Foundry
+Title: REMINDER: Removal of SAP Java Buildpack 1
+Description: We want to remind you that SAP Java Buildpack 1 has been deprecated and is going to be removed from SAP BTP, Cloud Foundry environment on June 30, 2025.  Background and Motivation:  SAP Java Buildpack 2 is generally available (GA) since March 2024 and provides support for the latest and greatest versions of Java (17 and 21), Tomcat (10.1), and TomEE (10.0).  SAP Java Buildpack 1, on the other hand, supports older versions of Java (8, 11), Tomcat 9, an SAP-patched version of TomEE 7 (which reached EoL in March 2021), and SapMachine 11 (which also reached EoL in December 2024).  Our goal is to focus our efforts on delivering highly-requested new features, reducing technical debt, and boosting product quality and security.  As a result, SAP Java Buildpack 1 has been deprecated and will be removed from the SAP BTP, Cloud Foundry environment on June 30, 2025.   Action:    If you have applications running on sap_java_buildpack, you need to migrate them to sap_java_buildpack_jakarta as soon as possible.   To learn how, see: Migrate your Applications to SAP Java Buildpack 2  Timeline:  We plan to support SAP Java Buildpack 1 until June 30, 2025, and then it will be removed from the SAP BTP, Cloud Foundry environment.  Applications that haven’t been migrated to SAP Java Buildpack 2 by then might continue to run but will fail if being restaged or redeployed.  In H1 of 2025, new releases of SAP Java Buildpack 1 will be only made for critical security updates and bug fixes.
+Action: Required
+Lifecycle: Deprecated
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2025-04-03
+Valid as Of: 2025-04-03
+Version: Cloud
+
+--- Record 1146 ---
+Component: Cloud Transport Management
+Environment: Cloud Foundry
+Title: New troubleshooting topic containing information about issues that can arise when transporting Multitarget Applications (MTAs) in Cloud Foundry.
+Description: See:   Troubleshooting Issues when Transporting Multitarget Applications (MTAs)  
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Application Development and Integration
+Latest Revision: 2025-04-03
+Valid as Of: 2025-04-03
+Version: Cloud
+
+--- Record 1147 ---
+Component: Cloud Transport Management
+Environment: Cloud Foundry
+Title: SAP Cloud Transport Management service available on new data centers.
+Description: SAP Cloud Transport Management service is now also available in the following regions:  Amazon Web Services in the Brazil (São Paulo) region  Google Cloud in the Japan (Osaka) region  Google Cloud in the Australia Southeast (Sydney) region  Google Cloud in the Europe (Frankfurt) region  See:   SAP Cloud Transport Management in SAP Discovery Center  Regions and API Endpoints Available for the Cloud Foundry Environment  
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Application Development and Integration
+Latest Revision: 2025-04-03
+Valid as Of: 2025-04-03
+Version: Cloud
+
+--- Record 1148 ---
+Component: Feature Flags Service
+Environment: Cloud Foundry,Kyma
+Title: Environments
+Description: You can now enable/disable feature flags, and set different behaviors and delivery strategies for a flag, depending on the environment (landscape) you're deploying your applications on.   For more information, see: Concepts → Environments
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-03-27
+Valid as Of: 2025-04-03
+Version: Cloud
+
+--- Record 1149 ---
+Component: Joule
+Environment: Cloud Foundry
+Title: Document Grounding Capability - Pipeline Processing Statuses for Documents
+Description: You can now use the following Pipeline API endpoints of the document grounding capability to get pipeline processing statuses for documents:    GET <url>/pipeline/api/v1/pipeline/{pipelineId}/executions/{executionId}/documents      GET <url>/pipeline/api/v1/pipeline/{pipelineId}/executions/{executionId}/documents/{documentId}      GET <url>/pipeline/api/v1/pipeline/{pipelineId}/documents      GET <url>/pipeline/api/v1/pipeline/{pipelineId}/documents/{documentId}      See Get Pipeline Status.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-04-03
+Valid as Of: 2025-04-03
+Version: Cloud
+
+--- Record 1150 ---
+Component: SAP Alert Notification Service
+Environment: Cloud Foundry
+Title: New SAP HANA Cloud Service Database event
+Description: You can now use the newly supported SAP HANA Cloud Service Database event - HDB NSE Buffer Cache Unload Threshold. For more information, see the SAP HANA Cloud Service Database Events section.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-04-03
+Valid as Of: 2025-04-03
+Version: Cloud
+

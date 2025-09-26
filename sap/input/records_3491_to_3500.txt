@@ -1,0 +1,130 @@
+--- Record 3491 ---
+Component: Document Management Service
+Environment: Cloud Foundry
+Title: Integrating SAP S/4HANA with Google Workspace Using SAP Document Management Service
+Description: With this release we have the following updates:      You can now establish a trust configuration between SAP S/4HANA On-Premise and SAP BTP.   See Establishing Trust Configuration Between SAP S/4HANA On-Premise And SAP BTP.      By using the Secure File Share Configuration app, you can now configure the File Shares to ensure that they function correctly to complete file sharing operations effectively.    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-02-23
+Valid as Of: 2024-02-23
+Version: Cloud
+
+--- Record 3492 ---
+Component: Document Management Service
+Environment: Cloud Foundry
+Title: UI Improvements: Pagination
+Description: Instead of a toggle switch, you can now find a More option at the bottom of the page to support pagination in Document Management Service, Application Option. It automatically loads 100 documents at a time.  See Using Pagination.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-02-23
+Valid as Of: 2024-02-23
+Version: Cloud
+
+--- Record 3493 ---
+Component: SAP Digital Payments Add-On
+Environment: Cloud Foundry
+Title: User interface available in additional languages
+Description: The user interface texts of the SAP digital payments add-on are now also available in the following languages: Arabic, Bulgarian, Chinese (simplified), Chinese (traditional), Croatian, Czech, Danish, Dutch, Finnish, French, German, Greek, Hebrew, Hungarian, Italian, Japanese, Kazakh, Korean, Malay, Norwegian, Polish, Portuguese, Romanian, Russian, Serbian (Latin), Slovak, Slovenian, Spanish, Swedish, Thai, Turkish, and Ukrainian.  The user interfaces texts will be displayed according to your browser language settings.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Finance
+Latest Revision: 2024-01-01
+Valid as Of: 2024-02-23
+Version: Cloud
+
+--- Record 3494 ---
+Component: SAP BTP, Cloud Foundry Runtime
+Environment: Cloud Foundry
+Title: Deprecation of Weak Client Certificate Chains
+Description: As announced on January 25, 2024, certain weak client certificate chains are now deprecated on all BTP regions.  To harden security standards and increase platform security, the OpenSSL security level was raised to 2. Following this change, weak certificates or certificate chains are no longer accepted by the platform. For more information, see SAP Note 3333978 .
+Action: Info only
+Lifecycle: Deprecated
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-02-22
+Valid as Of: 2024-02-22
+Version: Cloud
+
+--- Record 3495 ---
+Component: Connectivity
+Environment: Cloud Foundry
+Title: Cloud Connector - IP Addresses
+Description:   Note  This release note refers to the same note from November 16, 2023, now including a concrete time limit (date) for updating your firewall rules.    Additional IP addresses were added to SAP BTP regions running on Amazon Web Services (AWS). The following regions are affected by this change:      br10 – Brazil (São Paulo)      jp10 – Japan (Tokyo)      ap10 – Australia (Sydney)      ap11 – Asia Pacific (Singapore)      ap12 – Asia Pacific (Seoul)      ca10 – Canada (Montreal)      eu10 – Europe (Frankfurt)      eu11 – Europe (Frankfurt)      us10 – US East (VA)      Action:  If you restrict system access by allowlisting IPs in firewall rules, make sure you update your configuration as soon as possible. The additional IP addresses will be used after March 31, 2024.   For more information, see Cloud Connector: Prerequisites.  In case of questions please contact SAP Support.
+Action: Required
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2024-02-22
+Version: Cloud
+
+--- Record 3496 ---
+Component: Region
+Environment: Cloud Foundry
+Title: Additional NAT and LB IPs Added to Amazon Web Services Regions
+Description: This is a reminder that on November 2, 2023, additional NAT and LB IP addresses were added for the following SAP BTP regions running on AWS:        br10 – Brazil (São Paulo)      jp10 – Japan (Tokyo)      ap10 – Australia (Sydney)      ap11 – Asia Pacific (Singapore)      ap12 – Asia Pacific (Seoul)      ca10 – Canada (Montreal)      eu10 – Europe (Frankfurt)      eu11 – Europe (Frankfurt)      us10 – US East (VA)        Action::  The additional IP addresses will start to be used after March 31, 2024. If your Cloud Foundry applications connect to systems which restrict access by allowlisting IPs in firewall rules, make sure to adopt your configuration before March 31, 2024.  You can find the list of IPs in Regions and API Endpoints for the Cloud Foundry Environment.
+Action: Required
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-02-22
+Valid as Of: 2024-02-22
+Version: Cloud
+
+--- Record 3497 ---
+Component: Region
+Environment: Neo
+Title: Additional Outbound IP Addresses Added for Region neo-us3
+Description: Additional outbound IPs have been added to the SAP BTP region neo-us3 (US East (Sterling)).   Action:  If your applications connect to systems that restrict access by allowlisting IPs in firewall rules, make sure to adopt your configuration accordingly. The new IP addresses will start to be used in Q3, 2024.  For details, see Regions and Hosts Available for the Neo Environment. 
+Action: Required
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-02-22
+Valid as Of: 2024-02-22
+Version: Cloud
+
+--- Record 3498 ---
+Component: Authorization and Trust Management Service
+Environment: ABAP,Cloud Foundry,Kyma,Other
+Title: Pattern for Naming Application When Establishing Trust for Subaccounts
+Description: When using the establish trust function to associate a subaccount with SAP Cloud Identity Services - Identity Authentication, the SAP Authorization and Trust Management service creates an application in Identity Authentication. The pattern used to create the display name for this application has changed.      Old patten: XSUAA_<subaccount_display_name>      New pattern: SAP BTP subaccount <subaccount_display_name>      This change has no impact on existing applications created by establishing trust.  For more information, see Establish Trust and Federation Between SAP Authorization and Trust Management Service and Identity Authentication.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-02-22
+Valid as Of: 2024-02-22
+Version: Cloud
+
+--- Record 3499 ---
+Component: Cloud Management Tools,SAP BTP Cockpit
+Environment: ABAP,Cloud Foundry,Kyma,Neo,Other
+Title: Commercial Information in SAP BTP Cockpit "Entitlements" Pages
+Description: We're excited to announce a new enhancement to the SAP BTP cockpit that improves commercial transparency in the Entitlements pages in SAP BTP cockpit. With this enhancement, we've added entitlement source information, which displays how each entitled plan was added to your global account. This addition allows global account admins and viewers to gain a better understanding of the relationship between contractual service entitlements and the technical assets (services and plans) in your global account. This functionality is highly valuable, for example, if your account has multiple subscriptions from different packages for the same service plan, or your global account is entitled to service plans that are derived from both the subscription-based and consumption-based models.  Here's what you can expect:      Entitlements  Service Assignments page: Look for the Show commercial info toggle button. By turning on this option, you will see these new commercially-oriented columns added to the main table: Entitlement Source, Licensed Quantity, and Commercial Type.      Entitlements  Entity Assignments page:    Find the new View Commercial Info tab, which provides comprehensive commercial information.      Add Service Plans toggle button. By turning on this dialog box: Each service plan now includes an expandable Entitlements Sources section. This feature is accessible when configuring your assignments in the Manage Assignments view.          Additionally, we've introduced an Entitlement Source filter in both pages, allowing you to easily list plans based on their source of entitlement.   Note that this commercial information is not available for trial accounts.  See Managing Entitlements and Quotas Using the Cockpit, Configure Entitlements and Quotas for Directories, and Configure Entitlements and Quotas for Subaccounts.  Read also the SAP BTP Cockpit - Commercial Information in SAP BTP Cockpit "Entitlements" Pages blog.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-02-22
+Valid as Of: 2024-02-22
+Version: Cloud
+
+--- Record 3500 ---
+Component: Cloud Management Tools,SAP BTP Cockpit
+Environment: ABAP,Cloud Foundry,Kyma,Neo,Other
+Title: Contract-to-Billing Traceability Enhancements in SAP BTP Cockpit
+Description: The Usage Analytics page in SAP BTP cockpit has been replaced with a new page called Costs and Usage. The new page offers a new look and exciting capabilities focusing on enhancing the cost transparency of the service consumption in your global account. All the features in the old Usage Analytics page are still available in the new page but may work a little differently now.  These are the new capabilities you can expect:      Billing Verification: Verify billing accurately using data and terminology incorporated from your monthly balance statement.      Cross Charging Analysis: Easily track and manage costs in your account hierarchy through search and filter options based on labels.      Advanced Usage and Cost Monitoring: Compare usage and costs for multiple services, see trends, and drill into subaccounts for more details.      Direct Access to Filtered Views: Bookmark your filters and search queries for quicker direct access and easier sharing with colleagues.      Note that if your global account has only a subscription-based commercial agreement, then the new page is called Usage. This page doesn't show billing data nor the new billing-related features that are described above.  See Monitoring Usage and Consumption Costs in Your Global Account and the Enhancing Costs, Usage and Contract Transparency blog.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-02-22
+Valid as Of: 2024-02-22
+Version: Cloud
+

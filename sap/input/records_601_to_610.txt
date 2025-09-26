@@ -1,0 +1,130 @@
+--- Record 601 ---
+Component: SAP Document and Reporting Compliance, Cloud Edition
+Environment: Kyma
+Title: Specifying Destination for Received Documents for the Peppol Exchange Process
+Description: In the Configure Participants app for the Peppol Exchange process, we've added the Destination for Received Documents field alongside the existing Destination Name field. This allows you to specify different destinations for electronic document transactions.   For more information, check the In-App Help in the Configure Participants app, or the following page in the SAP Help Portal: Creating a Participant for Your Company
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: nan
+Valid as Of: 2025-06-25
+Version: Cloud
+
+--- Record 602 ---
+Component: Cloud Integration
+Environment: Cloud Foundry
+Title: Docusign Receiver Adapter Available
+Description: Docusign Receiver adapter is available now.  See: Docusign Receiver Adapter
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-06-24
+Valid as Of: 2025-06-24
+Version: 2504
+
+--- Record 603 ---
+Component: Cloud Integration
+Environment: Cloud Foundry
+Title: Google BigQuery Receiver Adapter Available
+Description: Google BigQuery adapter is available now.  See: Google BigQuery Receiver Adapter
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-06-24
+Valid as Of: 2025-06-24
+Version: 2504
+
+--- Record 604 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Istio module: Update to version 1.18.1
+Description: With this release, we've fixed an issue where defining multiple external authorizers in the Istio custom resource resulted in only the last one being configured in the Istio installation configuration.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-06-23
+Valid as Of: 2025-06-24
+Version: Cloud
+
+--- Record 605 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Add a Placeholder to a Process
+Description: You can now add a placeholder to a process to replace it later with any appropriate activity. See   Add a Placeholder to a Process  Guidelines for Using a Placeholder  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-06-24
+Valid as Of: 2025-06-24
+Version: Cloud
+
+--- Record 606 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Import a BPMN Process
+Description: You can now import a Business Process Model and Notation (BPMN) process from other tools to SAP Build Process Automation. See   Import a BPMN Process  Activity Mappings for BPMN Models  Event Mappings for BPMN Models  Gateway Mappings for BPMN Models  Variable Mappings for BPMN Models  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-06-24
+Valid as Of: 2025-06-24
+Version: Cloud
+
+--- Record 607 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: New Improved ML Model for Purchase Order
+Description: We’ve improved the machine learning model for purchase order documents.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Intelligent Technologies
+Latest Revision: 2025-06-27
+Valid as Of: 2025-06-24
+Version: Cloud
+
+--- Record 608 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: Overall Improvements
+Description: There have been several code and stability improvements.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Intelligent Technologies
+Latest Revision: 2025-06-27
+Valid as Of: 2025-06-24
+Version: Cloud
+
+--- Record 609 ---
+Component: SAP HANA Cloud
+Environment: Cloud Foundry,Kyma,Other
+Title: New component version available
+Description: A new component version is available for the following SAP HANA Cloud components:   2025.14 (QRC 2/2025) for SAP HANA Cloud, SAP HANA database  2025.2.5816 (QRC 2/2025) for SAP HANA Cloud, data lake      See What's New in SAP HANA Cloud.  Action: To use the new component version, you must upgrade your instance. See Managing SAP HANA Cloud Instances.
+Action: Recommended
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-06-23
+Valid as Of: 2025-06-23
+Version: Cloud
+
+--- Record 610 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Off-Cycle Upgrade
+Description: Cloud Identity Services have been upgraded.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-06-23
+Valid as Of: 2025-06-23
+Version: 27990
+

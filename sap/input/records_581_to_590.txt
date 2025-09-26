@@ -1,0 +1,130 @@
+--- Record 581 ---
+Component: Connectivity
+Environment: Cloud Foundry,Kyma
+Title: Transparent Proxy for Kubernetes - Enhancements
+Description: Transparent Proxy version 1.8.0 provides the following enhancements:    Destination Custom Resources (CRs) are now namespace-scoped. This enhancement allows the creation of Destination CRs with the same name in different namespaces without conflict, enabling more flexible deployments.For more information, see Destination Custom Resource.  Enhanced logging now provides better tracing and troubleshooting capabilities for non-HTTP destinations.  The base image for the HTTP proxy has been updated to improve startup speed and ensure compatibility with the arm64 architecture.  
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-06-26
+Valid as Of: 2025-06-26
+Version: Cloud
+
+--- Record 582 ---
+Component: Connectivity
+Environment: Cloud Foundry,Kyma
+Title: Transparent Proxy for Kubernetes - New Features
+Description: Transparent Proxy version 1.8.0 provides the following new features:    The Transparent Proxy now supports the use of customer-signed SAML assertions to obtain OAuth tokens for destinations configured with the OAuth2SAMLBearerAssertion authentication flow.For more information, see IAS-Signed SAML Bearer Assertion.  The Transparent Proxy now allows users to specify whether a fragment is optional. If set to true and the fragment does not exist, the Transparent Proxy will manage the connection based solely on the destination.For more information, see Destination Custom Resource and Destination Gateway (Dynamic Lookup of Destinations).  In the Kyma environment, enhanced configuration now allows the Telemetry module to automatically scrape Prometheus metrics from Transparent Proxy.For more information, see Configuration Guide.  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-06-26
+Valid as Of: 2025-06-26
+Version: Cloud
+
+--- Record 583 ---
+Component: Java Applications
+Environment: Neo
+Title: Visibility of Used Subaccount Size Quota
+Description: You can now view what percent of the total subaccount size quota is used for Java applications. This information is available in SAP BTP cockpit or via the Java ALM REST API. See Deploy on the Cloud with the Cockpit and List Subaccount Applications.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-06-26
+Valid as Of: 2025-06-26
+Version: Cloud
+
+--- Record 584 ---
+Component: Joule
+Environment: Cloud Foundry
+Title: Project assistant capabilities for Joule – Read Project sub-elements and Summarize changes to Projects & WBS Elements
+Description: The following transactional use cases are now supported in Enterprise Portfolio and Project Management for SAP S/4HANA Cloud Private Edition:     Display WBS elements and Networks assigned to a project or WBS element  Summarize the changes of Projects and WBS Elements  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-06-24
+Valid as Of: 2025-06-26
+Version: Cloud
+
+--- Record 585 ---
+Component: SAP BTP, Cloud Foundry Runtime
+Environment: Cloud Foundry
+Title: Configurable Load-Balancing Algorithm for Application Routes
+Description: We’ve added support for configuring the load-balancing algorithm of application routes. The route definition has been extended with a generic options map that allows you to specify which load balancing algorithm you want to use.  Supported Algorithms  Currently, the following load-balancing algorithms are supported:  round-robin: Distributes the load evenly across all available backends.  least-connection: Directs traffic to the backend with the fewest active connections at any given time.  The default algorithm is round-robin.  Configuring the Load-Balancing Algorithm of an Application Route  You have the following options for choosing the load-balancing algorithm of an application route:  Option 1: You can specify the load balancing algorithm in your application manifest using the loadbalancing property of the route options.  Option 2: You can specify the load balancing algorithm in the Cloud Foundry CLI using the commands create-route, update-route, and map-route.  For more information and detailed examples, check out the following resources:  Blog post by SAP: Support for Customizable Load-Balancing Algorithms  Cloud Foundry documentation: Configuring per-route options  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-06-26
+Valid as Of: 2025-06-26
+Version: Cloud
+
+--- Record 586 ---
+Component: SAP BTP, Cloud Foundry Runtime
+Environment: Cloud Foundry
+Title: Version 49.4.0
+Description: Cloud Foundry has been updated from 49.2.0 to 49.4.0.  https://github.com/cloudfoundry/cf-deployment/releases/tag/v49.4.0  https://github.com/cloudfoundry/cf-deployment/releases/tag/v49.3.0  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-06-26
+Valid as Of: 2025-06-26
+Version: Cloud
+
+--- Record 587 ---
+Component: SAP BTP, Cloud Foundry Runtime
+Environment: Cloud Foundry
+Title: WebSocket Support Enabled
+Description: WebSocket support is now enabled for applications with route services.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-07-31
+Valid as Of: 2025-06-26
+Version: 2506a
+
+--- Record 588 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Bookmark the Filter Instances
+Description: You can now bookmark your filtered instances based on the following filter parameters:  Status  Project  Definition  Environment  Started By  See   .
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-06-26
+Valid as Of: 2025-06-26
+Version: Cloud
+
+--- Record 589 ---
+Component: SAP Build Work Zone, advanced edition
+Environment: Cloud Foundry
+Title: Automatic Theme Detection in the Site Manager and in the Runtime Site
+Description: A new option was added to the site themes, allowing an automatic detection of SAP themes based on the operating system.   The new option,  Automatic (based on your operating system settings), is available under the User Action Menu (avatar):    Site Manager - User Settings  Theme        Runtime site - Settings  Appearance  Theme        The automatic theme detection is available for all theme sets (such as the SAP Quartz and the SAP Horizon sets) where there is more than one theme available in the set.  Automatic theme detection is not supported for custom theme sets.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-06-26
+Valid as Of: 2025-06-26
+Version: 2506A
+
+--- Record 590 ---
+Component: SAP Document and Reporting Compliance, Cloud Edition
+Environment: Kyma
+Title: Integration of the GST InvoiceNow (Singapore) Process with SAP S/4HANA or SAP S/4HANA Cloud Private Edition or SAP ERP
+Description: You use this process to submit data to the tax authority in Singapore.   See Supported Compliance Tasks.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: nan
+Valid as Of: 2025-06-26
+Version: Cloud
+

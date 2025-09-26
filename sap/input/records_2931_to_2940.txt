@@ -1,0 +1,130 @@
+--- Record 2931 ---
+Component: Connectivity
+Environment: Cloud Foundry
+Title: Java Connector 3.1.9.0 - Bug Fixes
+Description: Release of Java Connector (JCo) version 3.1.9.0 provides the following bug fixes:      Setting numeric string values into fields of type BCD with method JCoRecord.setValue([name|index], String) resulted in a ConversionException if the numeric string used scientific notation with an exponent. The same ConversionException occurred when deserializing such strings for field type BCD from JSON input data via method JCoRecord.fromJSON([Reader|String]).    Setting decimal number values into fields of type BCD with method JCoRecord.setValue([name|index], BigDecimal) did not throw a ConversionException if the fraction part of the provided java.math.BigDecimal value had too many digits to fully fit into the BCD field. The BigDecimal value was rounded and stored in the BCD field nevertheless. Thus, the provided value's precision was lost unnoticed.      If a JCoFunction uses a TABLES parameter with compatibly-extended metadata having appended additional columns compared to the parameter metadata used on RFC communication partner side, the first additional field of each transferred row could contain NULL-bytes and/or garbage characters. The occurrence of this program error depended on the table row's field structure and whether alignment bytes are required for internally organizing the table content data or not.        These issues have been fixed.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-05-30
+Valid as Of: 2024-05-30
+Version: Cloud
+
+--- Record 2932 ---
+Component: Connectivity
+Environment: Cloud Foundry
+Title: Java Connector 3.1.9.0 - Enhancements
+Description: Release of Java Connector (JCo) version 3.1.9.0 provides the following enhancements:        JCo 3.1.9.0 now supports SapMachine 21.      WebSocket RFC client communication has been improved by adding a ping/pong packet exchange mechanism for keeping WebSocket RFC connections alive while waiting for an RFC response from the communication partner. Hence, an underlying TCP/IP network connection should not get closed anymore by firewalls or other network devices due to a potential network traffic idle timeout while waiting for long running requests being processed on the WebSocket RFC communication partner server side.  Corresponding ping periods and pong timeouts are configurable.   Find more details about the new properties jco.destination.ws_ping_period and jco.destination.ws_pong_timeout in Target System Configuration (Cloud Foundry environment).      
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-05-30
+Valid as Of: 2024-05-30
+Version: Cloud
+
+--- Record 2933 ---
+Component: Multitarget Applications for Cloud Foundry
+Environment: Cloud Foundry
+Title: New system parameters
+Description: Introduced new system parameters default-live-url, use-live-routes and others. You can use them to ensure the live url of an application is the resolved and persisted in dependencies during blue-green deployment (as opposed to the idle url, that is used in the testing phase).  For more information, see:  Execute blue-green deployment using live parameters  Execute blue-green deployment using the live routes parameter
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-05-16
+Valid as Of: 2024-05-30
+Version: Cloud
+
+--- Record 2934 ---
+Component: SAP Audit Log
+Environment: Cloud Foundry
+Title: New filter for audit data in Retrieval API
+Description: You can now use Retrieval API to filter audit data by the "event type" of the audit log event. For more information see Audit Log Retrieval API Usage for Subaccounts in the Cloud Foundry Environment and search for filter_message_type and Example: Get audit logs filtered by event type.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-05-27
+Valid as Of: 2024-05-30
+Version: Cloud
+
+--- Record 2935 ---
+Component: SAP HANA Service
+Environment: Neo
+Title: Revision 2.00.059.13
+Description: You can now update to SAP HANA revision 2.00.059.13. See 3440885 - SAP HANA 2 SPS05 Revision 059.13.    Note  If you are still on SAP HANA 1.0, upgrade to the latest version of SAP HANA 2.0 as SAP HANA 1.0 has reached the end of mainstream maintenance in June 2021. See 2946614 - End-of-Maintenance of SAP HANA 1.0 in the SAP BTP, Neo Environment.  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-05-30
+Valid as Of: 2024-05-30
+Version: Cloud
+
+--- Record 2936 ---
+Component: SAP Java Buildpack
+Environment: Cloud Foundry
+Title: Version 1.95.0
+Description: SAP Java Buildpack 1 has been updated from version 1.94.0 to 1.95.0. Updated components:      SapMachine 11 is updated from version 11.0.22 to 11.0.23      SapMachine 17 is updated from version 17.0.10 to 17.0.11      Apache Tomcat 9 is updated from version 9.0.87 to 9.0.89      Apache TomEE 7 is updated from version 7.0.9.sap-42 to 7.0.9.sap-43      SAP JVM is updated from version 81.98.98 to 81.99.99      SAP BTP Environment Variable Access (com.sap.cloud.environment.servicebinding) is updated from version 0.10.3 to 0.10.4       com.sap.core.connectivity.jco is updated from version 3.3.14 to 3.4.6      com.sap.conn.jco-cloud is updated from version 3.1.8.0 to 3.1.9.0      com.fasterxml.jackson is updated from version 2.17.0 to 2.17.1      com.faster.jackson.databind is updated from version 2.17.0 to 2.17.1      otel-agent is updated from version 2.2.0 to 2.3.0      otel-agent-ext-java is updated from version 1.5.12 to 1.5.13      org.json is updated from version 20240205 to 20240303      com.sap.cloud.security.xsuaa is updated from version 2.17.3 to 2.17.5      The eager loading of data sources has been deleted on application start.    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-05-22
+Valid as Of: 2024-05-30
+Version: Cloud
+
+--- Record 2937 ---
+Component: SAP Java Buildpack
+Environment: Cloud Foundry
+Title: Version 2.9.0
+Description: SAP Java Buildpack 2 has been updated from version 2.7.0 to 2.9.0. Updated components:      SapMachine 17 is updated from version 17.0.10 to 17.0.11      SapMachine 21 is updated from version 21.0.2 to 21.0.3      Apache Tomcat 10 is updated from version 10.1.20 to 10.1.23      SAP BTP Environment Variable Access (com.sap.cloud.environment.servicebinding) is updated from version 0.10.3 to 0.10.4       com.sap.core.connectivity.jco is updated from version 3.3.14 to 3.4.6      com.sap.conn.jco-cloud is updated from version 3.1.8.0 to 3.1.9.0      com.fasterxml.jackson is updated from version 2.17.0 to 2.17.1      com.faster.jackson.databind is updated from version 2.17.0 to 2.17.1      otel-agent is updated from version 2.2.0 to 2.3.0      otel-agent-ext-java is updated from version 1.5.12 to 1.5.13      org.json is updated from version 20240205 to 20240303      com.sap.cloud.security.xsuaa is updated from version 3.3.5 to 3.4.2      com.sap.cloud.connectivity.apiext is updated from version 3.33.0 to 3.35.0      com.sap.cp.auditlog.audit-java-client is updated from version 2.8.0 to 2.8.1      The eager loading of data sources has been deleted on application start.    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-05-22
+Valid as Of: 2024-05-30
+Version: Cloud
+
+--- Record 2938 ---
+Component: SAP Start
+Environment: Cloud Foundry
+Title: Integration with SAP S/4HANA Cloud Public Edition
+Description: For the automated setup of SAP Start, the integration with SAP S/4HANA Cloud Public Edition is now optional.  When running the SAP Start booster, you can now specify whether an integration of an SAP S/4HANA Cloud Public Edition system will be performed as part of the automated setup.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-05-30
+Valid as Of: 2024-05-30
+Version: Cloud
+
+--- Record 2939 ---
+Component: Connectivity
+Environment: Cloud Foundry,Kyma
+Title: Transparent Proxy for Kubernetes - Hotfix
+Description: Transparent Proxy version 1.5.2 provides the following hotfix:    Fixed an issue that could potentially increase CPU usage for Transparent Proxy pods beyond the threshold, possibly resulting in failed requests.  Fixed an issue in the automated Istio integration which could previously prevent the Transparent Proxy from starting.  
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-05-29
+Valid as Of: 2024-05-29
+Version: Cloud
+
+--- Record 2940 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Environment Association During Destination Creation
+Description: You can now associate environments directly during destination creation. This new feature allows you to associate a destination across all environments or select specific ones from a list of available environments.  See Manage Destinations.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-05-29
+Valid as Of: 2024-05-29
+Version: Cloud
+

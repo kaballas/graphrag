@@ -1,0 +1,130 @@
+--- Record 2171 ---
+Component: Multitarget Applications for Cloud Foundry
+Environment: Cloud Foundry
+Title: New restriction regarding namespace length
+Description: Namespace length is now limited to a maximum of 36 characters. This change will become effective on October 15, 2024.  Action: Review your current namespaces and ensure they comply with the new 36-character limit.  Note  The namespace feature is still experimental. It is normal to expect backward incompatible changes affecting the stability and the usability of the feature.  For more information about this feature, see (Experimental) Namespaces.
+Action: Recommended
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-10-04
+Valid as Of: 2024-10-15
+Version: Cloud
+
+--- Record 2172 ---
+Component: Integration Suite General Features
+Environment: Cloud Foundry
+Title: Introducing SAP Integration Suite, starter edition
+Description: You can now subscribe to the new SAP Integration Suite, starter edition. With this new edition, you get the Cloud Integration capability with full access to all prepackaged standard content, create unlimited extension integration scenarios, and deploy a limited set of custom integration flows.  For the detailed scope of the edition, see SAP Note 2903776.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-10-15
+Valid as Of: 2024-10-15
+Version: 2408
+
+--- Record 2173 ---
+Component: Joule
+Environment: Cloud Foundry
+Title: Conversational Search Filter capability now supported for SAP S/4HANA Cloud Private Edition
+Description: Conversational Search Filter capability, which is an Informational use case is now supported for SAP S/4HANA Cloud Private Edition.  With Joule, you now have conversational access to the product documentation on SAP Help Portal. Just enter your query or question in plain natural language and wait for Joule to check whether your question activates a built-in business functionality to start a transaction or a navigation. If there's none, Joule searches SAP Help Portal to find an answer for you. Joule uses a large language model to summarize the search results in the background. This summarization is then displayed to you as Joule's answer to your question, along with the top three search results. If you select the title link of a result, you'll be taken directly to the relevant topic on SAP Help Portal.   Note  Joule is an addition to in-app help content, guided tours, embedded learning content, and customer-specific enablement content in SAP Companion.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-10-10
+Valid as Of: 2024-10-15
+Version: Cloud
+
+--- Record 2174 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Keda module: Update to version 1.3.0
+Description: In this release, we have updated the KEDA version to 2.15.1, which supports new scalers and introduces bug fixes.  Additionally, we have made Istio sidecar injection for KEDA workloads configurable. This allows you to include or exclude them from the Istio service mesh.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-10-02
+Valid as Of: 2024-10-15
+Version: Cloud
+
+--- Record 2175 ---
+Component: SAP BTP Developer's Guide
+Environment: Cloud Foundry,Kyma
+Title: Get to Know the Architecting Multi-Region Resiliency for SAP BTP Use Cases Reference Architecture
+Description: A link to the Architecting Multi-Region Resiliency for SAP BTP Use Cases reference architecture has been added to the SAP BTP Developer's Guide. It shows the multi-region high availability architecture for SAP BTP services and the applications built on SAP BTP.  See Developing Resilient Applications.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-10-15
+Valid as Of: 2024-10-15
+Version: Cloud
+
+--- Record 2176 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Install Desktop Agent 3 for MacOS
+Description: The latest version of the MacOS Agent is now available on the SBPA platform, delivering improved quality and performance to enhance your experience.  See    and Install Desktop Agent 3 for MacOS.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-10-15
+Valid as Of: 2024-10-15
+Version: Cloud
+
+--- Record 2177 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Microsoft 365 Cloud SDK - Teams
+Description: You can now use the Send Channel Message activity to allow a registered user in Microsoft Teams to send a new post to a specified channel within a team. See Teams - Send Channel Message.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-10-15
+Valid as Of: 2024-10-15
+Version: Cloud
+
+--- Record 2178 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Release a Project
+Description: When you release a project, the project version is now available in read-only mode during the release process. If necessary, you can now cancel the release process and return to the editable version.  For more information, see Release a Project.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-10-15
+Valid as Of: 2024-10-15
+Version: Cloud
+
+--- Record 2179 ---
+Component: SAP Intelligent Robotic Process Automation
+Environment: Cloud Foundry
+Title: Microsoft 365 Cloud SDK - Teams
+Description: You can now use the Send Channel Message activity to allow a registered user in Microsoft Teams to send a new post to a specified channel within a team. See Teams - Send Channel Message.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-10-15
+Valid as Of: 2024-10-15
+Version: Cloud
+
+--- Record 2180 ---
+Component: SAP Task Center
+Environment: Cloud Foundry
+Title: UiPath Supported as Task Provider 
+Description: You can now connect UiPath as task provider to SAP Task Center. For more information, see Connect UiPath and SAP Task Center.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-10-15
+Valid as Of: 2024-10-15
+Version: Cloud
+

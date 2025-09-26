@@ -1,0 +1,130 @@
+--- Record 2251 ---
+Component: Region
+Environment: Cloud Foundry
+Title: KSA (Dammam)
+Description: KSA (Dammam) (cf-sa30) is available as a new region running on Google Cloud for use with enterprise accounts. See Regions and API Endpoints Available for the Cloud Foundry Environment.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-09-30
+Valid as Of: 2024-09-30
+Version: Cloud
+
+--- Record 2252 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Map Custom Variables
+Description: To enable mapping of output variables of a trigger form to the custom variables of the process, the Initial Value column was added in the Configure Custom Variables dialog. You can select the output variable from the Process Content list.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-09-30
+Valid as Of: 2024-09-30
+Version: Cloud
+
+--- Record 2253 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Map Optional List Parameters
+Description: Up to now, you could only map list parameters to required fields of a process step if the list itself was marked as required. This restriction was removed to allow for custom variables and optional list parameters form external systems.For more information, see Ensure Availability of Optional List Input Parameters.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-09-30
+Valid as Of: 2024-09-30
+Version: Cloud
+
+--- Record 2254 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: More Options for Waits in a Process
+Description: To determine how long the live process waits (or pauses) before continuing, you always could define static durations. With the enhanced feature, you can also use dynamic durations and waits based on a reference date.For more information, see Add Wait for Duration to a Process.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-09-30
+Valid as Of: 2024-09-30
+Version: Cloud
+
+--- Record 2255 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: New Regions
+Description: The following regions are available as a new regions running for use with enterprise accounts.        AWS      Brazil (São Paulo); cf-br10      Singapore; cf-ap11      Canada (Montreal); cf-ca10      South Korea (Seoul) AWS; cf-ap12          Microsoft Azure      Japan (Tokyo); cf-jp20      Singapore; cf-ap21      US West (WA); cf-us20      US East (VA); cf-us21      Australia (Sydney); cf-ap20          Google Cloud Platform      Japan (Osaka) GCP; cf-jp30      KSA (Dammam) GCP public sector; cf-sa30      India (Mumbai) GCP; (cf-in30)      Israel (Tel Aviv); cf-il30      Europe (Frankfurt); cf-eu30          
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-10-08
+Valid as Of: 2024-09-30
+Version: Cloud
+
+--- Record 2256 ---
+Component: SAP Document and Reporting Compliance, Cloud Edition
+Environment: Kyma
+Title: Enabled Maintaining Company Contact Data for the Peppol Exchange Process for Singapore
+Description: For Singapore only: You can maintain the contact data of the person to be entered as the contact person in the Service Metadata Publisher (SMP) when registering in the Peppol network. See Creating a Participant for Your Company.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: nan
+Valid as Of: 2024-09-30
+Version: Cloud
+
+--- Record 2257 ---
+Component: SAP Document and Reporting Compliance, Cloud Edition
+Environment: Kyma
+Title: Enabled OIOUBL Document Type for the Peppol Exchange Process for Denmark
+Description: For Denmark only: You can enable the receiving of documents in OIOUBL format by adding the additional document type OIOUBL in the app for your participant. See Creating a Participant for Your Company.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: nan
+Valid as Of: 2024-09-30
+Version: Cloud
+
+--- Record 2258 ---
+Component: SAP Document and Reporting Compliance, Cloud Edition
+Environment: Kyma
+Title: Enabled Validation of Electronic Supplier Invoices Received by Email Using the Peppol Exchange Process with SAP S/4HANA or SAP S/4HANA Cloud Private Edition and SAP ERP for Germany
+Description: For Germany only: With the Peppol Exchange process, you can validate electronic supplier invoices that you received by email from your business partners. See Supported Compliance Tasks.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: nan
+Valid as Of: 2024-09-30
+Version: Cloud
+
+--- Record 2259 ---
+Component: SAP Document and Reporting Compliance, Cloud Edition
+Environment: Kyma
+Title: Integration of the E-Invoices (Croatia) Process with SAP S/4HANA or SAP S/4HANA Cloud Private Edition
+Description: You use this process to exchange electronic documents with the tax authorities in Croatia. See Supported Compliance Tasks.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: nan
+Valid as Of: 2024-09-30
+Version: Cloud
+
+--- Record 2260 ---
+Component: SAP Document and Reporting Compliance, Cloud Edition
+Environment: Kyma
+Title: Malware Scan for Authorization Documents for the Peppol Exchange Process for Singapore
+Description: For Singapore only: When you upload an authorization document to create your Peppol Participant in the Configure Participants app, the document is scanned for malware. You receive an error message if the system detects malware in your file.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: nan
+Valid as Of: 2024-09-30
+Version: Cloud
+

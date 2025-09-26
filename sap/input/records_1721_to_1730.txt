@@ -1,0 +1,130 @@
+--- Record 1721 ---
+Component: SAP Business Application Studio
+Environment: Cloud Foundry
+Title: SAP Build Code
+Description: If you are subscribed to SAP Build Code, you can now use the Refactor feature to optimize your code. See Joule Code Assistant.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-01-07
+Valid as Of: 2025-01-07
+Version: T2412IL
+
+--- Record 1722 ---
+Component: SAP Datasphere
+Environment: Cloud Foundry
+Title: Features for Version 2025.1
+Description: New and changed features are available for administration, data integration, data marketplace, and data modeling.  For more information, see What's New in SAP Datasphere 2025.1. 
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-01-07
+Valid as Of: 2025-01-07
+Version: Cloud
+
+--- Record 1723 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Off-Cycle Upgrade
+Description: Cloud Identity Services have been upgraded.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-02-05
+Valid as Of: 2025-01-05
+Version: 27391
+
+--- Record 1724 ---
+Component: SAP BTP Developer's Guide
+Environment: Cloud Foundry,Kyma
+Title: Reference Full-Stack Multitenant SaaS Application for Partners
+Description: There is now a reference application dedicated to SAP partners that provides a recommended way to becoming a SaaS provider of multitenant applications based on the SAP BTP.  See Tutorials and Reference Sample for Full-Stack Multitenant SaaS Applications for Partners.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2025-01-03
+Valid as Of: 2025-01-03
+Version: Cloud
+
+--- Record 1725 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Support Conditions with Multiple Outcomes
+Description: You can add up to 10 branches to the condition step in a process. These branches have their own conditions defined in the condition editor. The branches are defined independently of one another and have no predefined order. If two or more branches have a condition that is met, the system runs the first true branch that it processesSee Add and Configure Process Conditions .
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-01-03
+Valid as Of: 2025-01-03
+Version: Cloud
+
+--- Record 1726 ---
+Component: SAP Build
+Environment: Cloud Foundry
+Title: Store - New Content Packages
+Description: A set of 7 content packages (2 business, 2 learning, 1 sample) were added to the Store from July to Dec 2024.      Sample Content: Invoice Approval Process – Sample    Learning Content  SAP Success Factors: HR Position Planning  SAP Service Cloud: Service Cloud Case Assignment to Processors    Business Content  SAP Complaint Handling: Post Submission Rules for SAP Complaint Handling    SAP Complaint Handling: Entry Validation Rules for SAP Complaint Handling          The following Live Process packages mentioned have been transformed into process templates and released. The previous Live Process packages are now deprecated.  SAP S/4HANA Cloud, Public Edition and S/4HANA On-Premise  Accrual Object Creation Approval    Authorization For Expenditure      Business Partner Creation Approval Process      Business Partner Payment Data Change Process      Cancel Customer Invoice      Capital Expenditure Approval Process      Fixed Asset Transfer Approval      General Ledger Master Data Creation Approval Process      Notify Production of Maintenance Order      Plan Activity Prices Approval      Project Activity Trigger      Project Approval And Release      Project Budget Approval      Project Manager Project Creation      Retail Sales Price Update      SAP Business By Design: Account Master Data Enrichment for Document Information Extraction (1C2)  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-01-02
+Valid as Of: 2025-01-02
+Version: Cloud
+
+--- Record 1727 ---
+Component: SAP Document and Reporting Compliance, Cloud Edition
+Environment: Kyma
+Title: SAP Help Portal Documentation Available in Additional Languages
+Description: You can now view the SAP Help Portal content for the SAP Document and Reporting Compliance, Cloud Edition translated to up to 39 languages. Some of the content is automatically generated via machine translation. When this is the case for the language you select, you can see a disclaimer above the title.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: nan
+Valid as Of: 2025-01-02
+Version: Cloud
+
+--- Record 1728 ---
+Component: SAP Translation Hub
+Environment: Cloud Foundry
+Title:   Support for new attribute "maxwidth" in XLIFF File projects.  
+Description:   Software translation in SAP Translation Hub now supports the maxwidth attribute on translation units in XLIFF files (.xlf or .xliff). When the attribute is specified, SAP Translation Hub checks if the number of characters exceeds the specificed maxwidth and if the translation is longer than allowed, it is shortened to the allowed number of characters.   
+Action: Info only
+Lifecycle: Restricted Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-01-01
+Valid as Of: 2025-01-01
+Version: Cloud
+
+--- Record 1729 ---
+Component: Continuous Integration & Delivery
+Environment: Cloud Foundry
+Title: Deprecation of MTA Build Tool Version Java 8 Node 18
+Description: The MTA build tool version Java 8 Node 18 is deprecated and will be removed soon.  Action: Please upgrade Cloud Foundry Environment and SAP Fiori in the Neo Environment jobs that contain Java 8 Note 18 to newer build tool versions.
+Action: Required
+Lifecycle: Deprecated
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-10-28
+Valid as Of: 2024-12-31
+Version: Cloud
+
+--- Record 1730 ---
+Component: Authorization and Trust Management Service
+Environment: ABAP,Cloud Foundry,Kyma,Other
+Title: Deprecation of SAML for User-Interactive Authentication in Customer-Owned Accounts
+Description: This announcement is only for subaccount administrators managing business users in SAP BTP subaccounts.  SAML trust configurations are deprecated for user-interactive authentication in customer-owned accounts regardless of the specific identity provider. The CIO Guide: Identity Lifecycle in SAP Landscapes provides the guidance for this deprecation. We recommend a single trust configuration per subaccount with SAP Cloud Identity Services - Identity Authentication using the OpenID Connect (OIDC) protocol. This configuration enables direct usage of SAP Cloud Identity Services by applications and services, meaning without the SAP Authorization and Trust Management service. Such direct usage of SAP Cloud Identity Services is the recommended programming model for new applications and services.  The deprecation doesn't apply to the following cases:      Principal propagation using the SAML Bearer flow. An example for this is an SAML trust configuration to accept API calls on behalf of users from another subaccount using a destination.      Trust between a partner-owned subaccount and a customer-owned tenant of SAP Cloud Identity Services. OIDC support for this constellation is planned, but isn't possible yet. Until then, use SAML and make sure the trusted identity provider is already SAP Cloud Identity Services and not any other identity provider.      Trust between your SAP Cloud Identity Services tenant and your corporate identity provider.      Note  This announcement has no bearing on the use of SAML for other SAP products or other use cases within the SAP BTP family of solutions.   Existing SAML trust configurations affected by the deprecation will still be tolerated after the deprecation date and continue to work. Support will be restricted to security-related fixes.   Impact  When you create a new trust configuration for interactive login, choose a tenant of SAP Cloud Identity Services with the OIDC protocol. Use Establish Trust in the SAP BTP cockpit or the btp create security/trust command of the btp CLI. For more information, see the documentation about Establish Trust. If you have a corporate identity provider, use SAP Cloud Identity Services as a proxy and then connect corporate identity providers with SAML or OIDC.  We recommend migrating existing SAML trusts according to the documentation Migration from SAML Trust to OpenID Connect Trust with SAP Cloud Identity Services, however this isn't mandatory until the deprecation date. The following cases are covered:        Trust to SAP Cloud Identity Services: A simple change of protocol.      Trust to another identity provider: SAP Cloud Identity Services is inserted as a proxy between the SAP Authorization and Trust Management service and your corporate identity provider.   Note  The restriction of a single Identity Authentication OIDC trust per subaccount also applies here.      
+Action: Info only
+Lifecycle: Deprecated
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-05-28
+Valid as Of: 2024-12-31
+Version: 2412b
+

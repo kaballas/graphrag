@@ -1,0 +1,130 @@
+--- Record 2311 ---
+Component: Trading Partner Management
+Environment: Cloud Foundry
+Title: Software Version Update
+Description:   SAP Cloud Integration: 6.57.*  Increment: 2408  
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-09-21
+Valid as Of: 2024-09-21
+Version: 2408
+
+--- Record 2312 ---
+Component: Trading Partner Management
+Environment: Cloud Foundry
+Title: Update Agreement Properties
+Description: You can now update the Type System Version for a group of agreements.  See: Update Properties
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-09-21
+Valid as Of: 2024-09-21
+Version: 2408
+
+--- Record 2313 ---
+Component: Joule
+Environment: Cloud Foundry
+Title: Joule consumption across data centers
+Description: Joule can now be cross consumed across data centers by the integration application. To enable cross consumption, data center mapping between Joule and SAP SuccessFactors has been removed.  If you have previously mapped a specific data center with SAP SuccessFactors, you can continue to use the mapped data center and enable additional integrations if required.  For ore information about supported data centers, see Data Centers Supported by Joule
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-09-19
+Valid as Of: 2024-09-20
+Version: Cloud
+
+--- Record 2314 ---
+Component: Joule
+Environment: Cloud Foundry
+Title: Support for cookies having independent partitioned state
+Description: Joule will support cookies partitioning in order to mitigate the impact of the deprecation of third-party cookies by Google Chrome. Users can continue to leverage SSO-based login to Joule after the third-party cookies are deprecated.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-09-20
+Valid as Of: 2024-09-20
+Version: Cloud
+
+--- Record 2315 ---
+Component: SAP Document and Reporting Compliance, Cloud Edition
+Environment: Kyma
+Title: Integration of the Peppol Exchange Process with SAP Ariba Central Invoice Management Enabled for Austria and Sweden
+Description: You can integrate the Peppol Exchange  process with SAP Ariba Central Invoice Management to receive electronic documents from the participants of the Peppol network. See Supported Compliance Tasks.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: nan
+Valid as Of: 2024-09-20
+Version: Cloud
+
+--- Record 2316 ---
+Component: SAP HANA Spatial Services
+Environment: Cloud Foundry,Kyma
+Title: nan
+Description:     Enhancements: Mapping API, Routing API, Geocoding API  Security updates have been implemented.    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2024-09-20
+Version: Cloud
+
+--- Record 2317 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Regional Availability
+Description: Cloud Identity Services now operates with additional IPs in the data centers in Singapore, and Europe (Frankfurt).  See Regional Availability.  Action:  We recommend you to add the following IPs to your allowed IP list:  Singapore  LB IP - 13.215.237.53, 13.251.19.109, 3.0.227.4   Europe (Frankfurt)  LB IP - 3.78.87.109, 18.192.230.105, 3.126.8.63
+Action: Recommended
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-09-19
+Valid as Of: 2024-09-19
+Version: Cloud
+
+--- Record 2318 ---
+Component: Automation Pilot
+Environment: Cloud Foundry
+Title: Content Generation Assistant - General Availability
+Description: The Content Generation Assistant is now in general availability. You can generate AI-based commands, executors, inputs, and scheduled executions. See Generative AI in SAP Automation Pilot .
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-09-19
+Valid as Of: 2024-09-19
+Version: Cloud
+
+--- Record 2319 ---
+Component: Custom Domain Service
+Environment: Neo
+Title: New Console Client Command
+Description: You can use the new add-domain-certificate console command to add an already uploaded certificate of another type to the SSL host. For example, if you already have an RSA certificate bound to the SSL host, you now also have the option to add an ECC certificate to that SSL host, and vice versa.  See add-domain-certificate.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-09-19
+Valid as Of: 2024-09-19
+Version: Cloud
+
+--- Record 2320 ---
+Component: Custom Domain Service
+Environment: Neo
+Title: New Optional Parameter for generate-csr
+Description: You can now use the optional parameter --elliptic-curve when running the generate-csr command. This parameter lets you set an elliptic curve for ECC algorithms.  See generate-csr.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-09-19
+Valid as Of: 2024-09-19
+Version: Cloud
+

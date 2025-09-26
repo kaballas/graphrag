@@ -1,0 +1,130 @@
+--- Record 1391 ---
+Component: Continuous Integration & Delivery
+Environment: Cloud Foundry
+Title: Enhanced Connectivity Configuration for On-Premises Systems
+Description: You can now configure connectivity to your on-premises systems in multiple stages. This includes connecting to internal repositories such as Artifactory or Nexus during the build process. For more information, please refer to the following blog post: New Use Cases for SAP Connectivity in SAP Continuous Integration and Delivery.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-02-20
+Valid as Of: 2025-02-20
+Version: Cloud
+
+--- Record 1392 ---
+Component: Continuous Integration & Delivery
+Environment: Cloud Foundry
+Title: New Build Tool Versions Supported
+Description: New build tool versions are available for the MTA and npm build tools:  Java 17 Node 22  Java 21 Node 22  Node 22    For more information, see Supported Build Tools.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-02-20
+Valid as Of: 2025-02-20
+Version: Cloud
+
+--- Record 1393 ---
+Component: SAP BTP, Cloud Foundry Runtime
+Environment: Cloud Foundry
+Title: Changes to Response Header Behavior
+Description: Requests with too many response headers will now fail clearly with a 502 Bad Gateway error and a descriptive x-cf-routererror header. Previously the response would seemingly succeed but intransparently fail at a later stage.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-02-20
+Valid as Of: 2025-02-20
+Version: Cloud
+
+--- Record 1394 ---
+Component: SAP BTP, Cloud Foundry Runtime
+Environment: Cloud Foundry
+Title: Version 47.0.0
+Description: Cloud Foundry has been updated from 46.5.0 to 47.0.0.      https://github.com/cloudfoundry/cf-deployment/releases/tag/v47.0.0  https://github.com/cloudfoundry/cf-deployment/releases/tag/v46.7.0  https://github.com/cloudfoundry/cf-deployment/releases/tag/v46.6.0    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-02-20
+Valid as Of: 2025-02-20
+Version: Cloud
+
+--- Record 1395 ---
+Component: SAP Build Work Zone, advanced edition
+Environment: Cloud Foundry
+Title: Role Assignment to Sites
+Description: In the new Role Assignments screen, you can:    View all the roles assigned to the site.  Assign/unassign single roles (local and remote) that were added to the subaccount.  Assign/unassign content channels. This will result in assigning/unassigning all the roles from a given content channel. This is a new functionality that allows bulk assignment of roles instead of manually assigning them one by one.    Note    When assigning a channel, it’s not possible to select only part of the content channel roles.   Once a content channel is assigned, any change to its roles will automatically be applied to the site assignment.   You can only assign content channels that are set to automatic content addition.   
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-02-20
+Valid as Of: 2025-02-20
+Version: 2501B
+
+--- Record 1396 ---
+Component: SAP Build Work Zone, advanced edition
+Environment: Cloud Foundry
+Title: SAP Task Center Tasks
+Description: SAP Task Center tasks are now included with your SAP Build Work Zone, advanced edition license. Up to 20 tasks stored in the SAP Task Center task cache for each active user, and for each block of 100 connections on the global account level, are now included.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-02-20
+Valid as Of: 2025-02-20
+Version: 2501B
+
+--- Record 1397 ---
+Component: SAP Build Work Zone, advanced edition
+Environment: Cloud Foundry
+Title: Site Studio
+Description: In the Site Directory, clicking the    (site settings) icon on a site tile, which previously opened the Site Settings screen, now opens the Site Studio. The Site Studio consists of a Site Settings screen and a Role Assignments screen. Role assignment to a site has moved from the Site Settings, side panel to the new Role Assignments screen.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-02-20
+Valid as Of: 2025-02-20
+Version: 2501B
+
+--- Record 1398 ---
+Component: SAP Build Work Zone, standard edition
+Environment: Cloud Foundry
+Title: Role Assignment to Sites
+Description: In the new Role Assignments screen, you can:    View all the roles assigned to the site.  Assign/unassign single roles (local and remote) that were added to the subaccount.  Assign/unassign content channels. This will result in assigning/unassigning all the roles from a given content channel. This is a new functionality that allows bulk assignment of roles instead of manually assigning them one by one.    Note    When assigning a channel, it’s not possible to select only part of the content channel roles.   Once a content channel is assigned, any change to its roles will automatically be applied to the site assignment.   You can only assign content channels that are set to automatic content addition.   
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-02-20
+Valid as Of: 2025-02-20
+Version: 2501B
+
+--- Record 1399 ---
+Component: SAP Build Work Zone, standard edition
+Environment: Cloud Foundry
+Title: SAP Task Center Tasks
+Description: SAP Task Center tasks are now included with your SAP Build Work Zone, standard edition license. Up to 20 tasks stored in the SAP Task Center task cache for each active user, and for each block of 100 connections on the global account level, are now included.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-02-20
+Valid as Of: 2025-02-20
+Version: 2501B
+
+--- Record 1400 ---
+Component: SAP Build Work Zone, standard edition
+Environment: Cloud Foundry
+Title: Site Studio
+Description: In the Site Directory, clicking the    (site settings) icon on a site tile, which previously opened the Site Settings screen, now opens the Site Studio. The Site Studio consists of a Site Settings screen and a Role Assignments screen. Role assignment to a site has moved from the Site Settings, side panel to the new Role Assignments screen.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-02-20
+Valid as Of: 2025-02-20
+Version: 2501B
+

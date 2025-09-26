@@ -1,0 +1,130 @@
+--- Record 2821 ---
+Component: Document Management Service
+Environment: Cloud Foundry
+Title: Availability of API for Restoring Capability
+Description: An API has been introduced for self-service restore capabilities. You can now recover accidentally deleted repositories and service instances without the need to contact our support team.  See Repository Restore API.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-06-22
+Valid as Of: 2024-06-22
+Version: Cloud
+
+--- Record 2822 ---
+Component: Document Management Service
+Environment: Cloud Foundry
+Title: Availability of SAP Document Management Service in Additional Regions
+Description: Document Management Service, Integration Option and Document Management Service, Application Option are now available in:  India (Mumbai) - (cf-in30), Google Cloud.  Switzerland (Zürich) - (ch-20), Azure.    See information available on the  SAP Discovery Center.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-06-22
+Valid as Of: 2024-06-22
+Version: Cloud
+
+--- Record 2823 ---
+Component: Document Management Service
+Environment: Cloud Foundry
+Title: Copying Files and Folders Between Repositories
+Description: You can effortlessly copy files and folders between repositories in the Document Management Service, Integration Option. To use this feature, you can access the Copy API available on the SAP Business Accelerator HUB.  See Copying Files and Folders Between Repositories.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-06-22
+Valid as Of: 2024-06-22
+Version: Cloud
+
+--- Record 2824 ---
+Component: Document Management Service
+Environment: Cloud Foundry
+Title: Product Feedback
+Description: Introducing the Product Feedback feature in Document Management Service, Application Option. Quickly share thoughts on specific pages or complete a detailed survey. Your feedback drives our improvements.  Look for the   Give Feedback button in the header of any page to start sharing your insights. Your participation helps enhance our services.  See Product Feedback.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-06-22
+Valid as Of: 2024-06-22
+Version: Cloud
+
+--- Record 2825 ---
+Component: Joule
+Environment: Cloud Foundry
+Title: New Use Cases Now Supported in SAP SuccessFactors
+Description: The following use cases are now supported for SAP SuccessFactors users:    Use Case  Conversational Pattern        Change position  Transactional      Approve mentors  Transactional      Approve mentoring requests  Transactional      Approve time sheets  Transactional      Approve foundation object workflow requests  Transactional      Approve assignment offers  Transactional      Approve acceptance of assignment offers  Transactional      Approve assignment applications  Transactional      Approve assignment publishing  Transactional      Approve MDF workflow requests  Transactional      View job profile approvals  Transactional      View job requisition approvals  Transactional      View job offer approvals  Transactional      View talent pool nominee approvals  Transactional      View performance review forms  Navigational    For more information about the supported use cases, refer to About This Document.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-06-21
+Valid as Of: 2024-06-21
+Version: Cloud
+
+--- Record 2826 ---
+Component: SAP Document and Reporting Compliance, Cloud Edition
+Environment: Kyma
+Title: New Service Plans Available for the Cloud Edition
+Description: The following service plans are now available for the cloud edition      sap-business-network.      sap-business-network-test.      See Cloud Edition Service Plans.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: nan
+Valid as Of: 2024-06-21
+Version: Cloud
+
+--- Record 2827 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Custom Schemas
+Description: The value of custom schemas attributes of type decimal is limited to 16 digits, between -9007199254740991 and 9007199254740991 when the Identity Directory API POST/PUT/PATCH request is sent for users.  See Identity |Directory API.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-06-20
+Valid as Of: 2024-06-20
+Version: 26260
+
+--- Record 2828 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Regular Upgrade
+Description: Cloud Identity Services have been upgraded.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-06-20
+Valid as Of: 2024-06-20
+Version: 26260
+
+--- Record 2829 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: SAP Ariba Category Management connector
+Description: Identity Provisioning supports the SAP Ariba Category Management connector. You can configure it as source, target, and proxy system for your provisioning scenarios. See:    SAP Ariba Category Management (Source)      SAP Ariba Category Management (Target)      SAP Ariba Category Management (Proxy)    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-06-20
+Valid as Of: 2024-06-20
+Version: 26260
+
+--- Record 2830 ---
+Component: Identity Provisioning
+Environment: Neo
+Title: SAP Ariba Category Management connector
+Description: Identity Provisioning supports the SAP Ariba Category Management connector. You can configure it as source, target and proxy system for your provisioning scenarios. For more information, see:    SAP Ariba Category Management      SAP Ariba Category Management      SAP Ariba Category Management    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-06-20
+Valid as Of: 2024-06-20
+Version: Cloud
+

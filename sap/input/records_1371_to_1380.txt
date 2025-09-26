@@ -1,0 +1,130 @@
+--- Record 1371 ---
+Component: UI Theme Designer
+Environment: Cloud Foundry
+Title: Belize theme disabled as base for new themes.
+Description: The Belize theme is disabled as a base for creating new themes. If you are using a theme based on Belize, please note that the Belize theme has been deprecated for theming since August 28, 2024. UI frameworks like SAPUI5 and Unified Rendering no longer support Belize themes in their latest versions. It is recommended to migrate your theme to a Horizon or Quartz theme. You can find a how-to guide at Migrating Themes.
+Action: Recommended
+Lifecycle: Deprecated
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2025-02-24
+Version: Cloud
+
+--- Record 1372 ---
+Component: Document Management Service
+Environment: Cloud Foundry
+Title: Change Log Duration Parameter for Repository Onboarding and Updates
+Description: We have introduced the changeLogDuration parameter as an optional setting in Document Management Service, Integration Option, allowing you to choose how much historical change log data they retrieve, which helps you to reduce errors related to outdated tokens and improves usability by setting the maximum duration to 2160 hours.  See Internal Repository.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-02-24
+Valid as Of: 2025-02-24
+Version: Cloud
+
+--- Record 1373 ---
+Component: Document Management Service
+Environment: Cloud Foundry
+Title: Owner Visibility in Key Properties
+Description: The Document Management Service, Application Option now displays the owner of the document under the Key Properties tab instead of labeling them as Administrator in the Access Control tab. This update helps you add or update the owner’s name as an Access Control List (ACL), which then propagates to subfolders and documents.   Previously, the owner appeared as an ACL principal in the application UI, which confused users regarding the difference between the owner and the ACL. By relocating the owner details to the Key Properties tab, we enhance clarity around the object owner and the associated ACLs, thereby improving the overall user experience. 
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-02-24
+Valid as Of: 2025-02-24
+Version: Cloud
+
+--- Record 1374 ---
+Component: Document Management Service
+Environment: Cloud Foundry
+Title: Thumbnail Generation Enhancement for Document Updates
+Description: Thumbnail generation has been enhanced to support document update scenarios, allowing for the automatic creation of a thumbnail whenever a document is updated with a new version, thereby providing you with a visual representation of the latest content, which was previously unsupported.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-02-24
+Valid as Of: 2025-02-24
+Version: Cloud
+
+--- Record 1375 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Link to the Task in Email Notification
+Description: Email notifications now include task details and a direct action link. Click the link to complete tasks directly in My Inbox or SAP Task Center. See Manage and Personalize your Notifications.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-02-24
+Valid as Of: 2025-02-24
+Version: Cloud
+
+--- Record 1376 ---
+Component: SAP Document and Reporting Compliance, Cloud Edition
+Environment: Kyma
+Title: Integration of the Withholding Taxes Monthly (Spain) Process with SAP S/4HANA Cloud Public Edition
+Description: You use this process to submit monthly withholding tax declaration to the tax authority in Spain.  See Supported Compliance Tasks.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: nan
+Valid as Of: 2025-02-24
+Version: Cloud
+
+--- Record 1377 ---
+Component: SAP Business Application Studio
+Environment: Cloud Foundry
+Title: Service Center
+Description: You can now add an OData service to a Java project from the Service Center. See Service Actions for Development.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-02-23
+Valid as Of: 2025-02-23
+Version: T2501b
+
+--- Record 1378 ---
+Component: SAP Document and Reporting Compliance, Cloud Edition
+Environment: Kyma
+Title: Restructuring of Documentation
+Description: The documentation has been restructured to consider different scenarios for integrating and activating processes.  When you first integrate a process with your business system, you need to perform all the required integration steps as described in the documentation. However, when your business system is already integrated with the cloud edition and you want to activate additional processes, you can now directly access the new Process-Specific Configuration section, which describes the configuration steps that are specific to enable the communication with external communication parties.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: nan
+Valid as Of: 2025-02-21
+Version: Cloud
+
+--- Record 1379 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: Enrichment Data API - Decommissioning of the Endpoint: Delete Enrichment Data (Synchronous)
+Description: The Enrichment Data API endpoint Delete Enrichment Data (Synchronous) is now decommissioned and is no longer available.  Please use the endpoint Delete Enrichment Data to delete data records.
+Action: Required
+Lifecycle: Deprecated
+Type: Changed
+Line of Business: Intelligent Technologies
+Latest Revision: 2025-02-20
+Valid as Of: 2025-02-20
+Version: Cloud
+
+--- Record 1380 ---
+Component: SAP Build Work Zone, standard edition
+Environment: Cloud Foundry
+Title: Themes: SAP Belize Themes Were Deprecated
+Description: The SAP Belize themes have been deprecated.   This is indicated next to the theme names in the runtime site under Settings  Appearance  Theme.
+Action: Info only
+Lifecycle: Deprecated
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-02-20
+Valid as Of: 2025-02-20
+Version: 2501B
+

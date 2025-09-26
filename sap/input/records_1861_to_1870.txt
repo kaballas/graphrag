@@ -1,0 +1,130 @@
+--- Record 1861 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Filtered Actions View
+Description: When you add an action from the smart menu in the process editor to your process, you can now directly search for Remote Function Call actions. To quickly access the list of available RFC actions, choose Browse RFC Actions.The former Browse Library button is now called Browse All Actions.For more information, see Add an Action to a Process.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-12-05
+Valid as Of: 2024-12-05
+Version: Cloud
+
+--- Record 1862 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Telemetry module: Update to version 1.28.0
+Description: The new version brings the following improvements:      Traces: You can now filter out Istio traces properly thanks to the noise filter of the trace gateway that was adjusted to trace changes in Istio (#1612).      Metrics: New MetricPipeline resources now have the subselectors of the runtime input enabled out of the box which means that when you enable the runtime input, all metrics are collected by default (#972).      Metrics: As the annotation-based scraping of Pods running with an Istio sidecar cannot work by design, it is now explicitly not supported. The recommended way to do the scraping is by using annotations on a related service (#1468).      Logs: Improved resource configuration of the log agent no longer triggers CPU throttling alerts in third-party observability solutions (#1601).      New labels to use for telemetry workloads in NetworkPolicies when you enable the communication of your workload with the Telemetry module components (#1516).    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-11-20
+Valid as Of: 2024-12-04
+Version: Cloud
+
+--- Record 1863 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: New Amazon Web Services Region
+Description: SAP Document AI is now available in the Amazon Web Services region ap11 - Asia Pacific (Singapore).
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Intelligent Technologies
+Latest Revision: 2024-12-12
+Valid as Of: 2024-12-04
+Version: Cloud
+
+--- Record 1864 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: New Microsoft Azure Region
+Description: SAP Document AI is now available in the Microsoft Azure region ap20 - Australia (Sydney).
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Intelligent Technologies
+Latest Revision: 2024-12-12
+Valid as Of: 2024-12-04
+Version: Cloud
+
+--- Record 1865 ---
+Component: SAP Task Center
+Environment: Cloud Foundry
+Title: Notifications on SAP Build Work Zone, advanced edition
+Description: Notifications can now be enabled if you are using SAP Build Work Zone, advanced edition as central point of entry for accessing applications. For more information, see Enable Notifications for End Users.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-12-04
+Valid as Of: 2024-12-04
+Version: Cloud
+
+--- Record 1866 ---
+Component: SAP Task Center
+Environment: Cloud Foundry
+Title: SAP SuccessFactors Work Zone Supported as Task Provider 
+Description: You can now connect SAP SuccessFactors Work Zone as task provider to SAP Task Center. For more information, see Connect SAP Build Work Zone, advanced edition or SAP SuccessFactors Work Zone and SAP Task Center.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-12-04
+Valid as Of: 2024-12-04
+Version: Cloud
+
+--- Record 1867 ---
+Component: SAP Task Center
+Environment: Cloud Foundry
+Title: SAP Task Center Improvements
+Description:     Improved caching for SAP Task Center service and task provider destinations, optimizing access, database usage, and performance.      Internal refactoring and optimizations related a concurrency issue.    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-12-04
+Valid as Of: 2024-12-04
+Version: Cloud
+
+--- Record 1868 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Changed behavior of csrf.token.path for SAP Analytics Cloud
+Description: The csrf.token.path property is automatically added with a default value only when an SAP Analytics Cloud system is created using SCIM API version 2.  For more information about the availability and values of this property in both versions 1 and 2, see List of Properties.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-12-03
+Valid as Of: 2024-12-03
+Version: 27084
+
+--- Record 1869 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Corporate IdPs
+Description: We have extended the selection of corporate identity providers (IdPs) via URL parameter to accept more than one IdP. See Create URLs to Access Applications with Specific Identity Providers and Configure IdP-Initiated SSO.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-12-03
+Valid as Of: 2024-12-03
+Version: 27127
+
+--- Record 1870 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Granular access to Identity Provisioning
+Description: Tenant administrators can assign authorization policies to users, allowing them to access only source systems, target systems, proxy systems, provisioning logs, or any combination of these.  For more information, see Configure Provisioning Authorizations.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-12-03
+Valid as Of: 2024-12-03
+Version: 27084
+

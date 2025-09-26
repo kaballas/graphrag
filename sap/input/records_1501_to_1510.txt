@@ -1,0 +1,130 @@
+--- Record 1501 ---
+Component: SAP Document and Reporting Compliance, Cloud Edition
+Environment: Kyma
+Title: Updated Schematron Files for the Peppol Exchange Process
+Description: For the Peppol Exchange process, the schematron files have been updated for the following standards:      PINT: Updated to the following versions:  For Australia and New Zealand: Version 1.0  For Japan: Version 1.0.3  For Singapore: Version 1.2.0        ZUGFeRD: Updated to version 2.3 and version 2.3.2      XRechnung UBL: Updated to version 3.0.2      XRechnung CII: Updated to version 3.0.2    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: nan
+Valid as Of: 2025-02-07
+Version: Cloud
+
+--- Record 1502 ---
+Component: SAP Document and Reporting Compliance, Cloud Edition
+Environment: Kyma
+Title: Updated Template for OIOUBL Document Preview in the Peppol Exchange Process
+Description: For Denmark only: For the Peppol Exchange process, the template for displaying OIOUBL documents in HTML format has been updated.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: nan
+Valid as Of: 2025-02-07
+Version: Cloud
+
+--- Record 1503 ---
+Component: Automation Pilot
+Environment: Cloud Foundry
+Title: SensitiveExecuteHanaCloudSqlStatement Command
+Description: You can now use the new SensitiveExecuteHanaCloudSqlStatement command.  See SensitiveExecuteHanaCloudSqlStatement Command.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-02-06
+Valid as Of: 2025-02-06
+Version: Cloud
+
+--- Record 1504 ---
+Component: Availability Service
+Environment: Cloud Foundry
+Title: New URL authentication method for AvT (Expserv) monitors
+Description: You can now create AvT (Expserv) URL monitors for endpoints protected by oAuth2 client credentials.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2025-02-06
+Valid as Of: 2025-02-06
+Version: Cloud
+
+--- Record 1505 ---
+Component: Availability Service
+Environment: Cloud Foundry
+Title: Tagging Overhaul
+Description: You now have two new tag-class types available: Value-Set tag classes and Label tag classes. Existing tag classes need to be migrated. You can migrate by editing a tag class. For more information, see   , as well as the UI itself, where a detailed explanation of the migration is also available.  These updates also come with new /v2/tagclasses APIs, successor to /v1/tagclasses that should enable simpler API integrations.  After an upcomming announcement of a grace period of 180 days, the legacy types as well as the v1 APIs will be deprecated.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2025-02-06
+Valid as Of: 2025-02-06
+Version: Cloud
+
+--- Record 1506 ---
+Component: Data Attribute Recommendation
+Environment: Cloud Foundry
+Title: Calibration Improvements
+Description: We've enhanced the calibration of classification models. The returned probabilities are now more robust and reliable.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-02-06
+Valid as Of: 2025-02-06
+Version: Cloud
+
+--- Record 1507 ---
+Component: Mobile Services
+Environment: Cloud Foundry
+Title: New Client Passcode Policy
+Description: (Version 2501) We have introduced two new passcode policies and enhanced the Biometric Authentication properties:   Passcode Reuse Restriction  Digits Only property  Changes to Biometric Authentication Allowed property    For more information, see Defining Client Password Policy and Shared Device Overview (Multiple User Mode).
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-02-06
+Valid as Of: 2025-02-06
+Version: Cloud
+
+--- Record 1508 ---
+Component: Mobile Services
+Environment: Cloud Foundry
+Title: Simplify Application Overview
+Description: (Version 2501) We have reorganized the admin UI to group tasks by roles, allowing Developers and Admins to navigate quickly through the application configuration overview page.  For more information, see Application Administration.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-02-06
+Valid as Of: 2025-02-06
+Version: Cloud
+
+--- Record 1509 ---
+Component: Mobile Services
+Environment: Cloud Foundry
+Title: Support service key with external certificate
+Description: (Version 2501) You can create Service Keys using two new Types:  The original type is renamed as X.509 with SAP managed certificate  X.509 with self-managed certificate is new type    For more information, see Service Keys.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-02-06
+Valid as Of: 2025-02-06
+Version: Cloud
+
+--- Record 1510 ---
+Component: Mobile Services
+Environment: Cloud Foundry
+Title: Support Token Validation Period
+Description: (Version 2501) Users can configure the Token Validation Period property. The value must be greater than 0 and less than 1440.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-02-06
+Valid as Of: 2025-02-06
+Version: Cloud
+

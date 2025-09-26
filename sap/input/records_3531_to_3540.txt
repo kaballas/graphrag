@@ -1,0 +1,130 @@
+--- Record 3531 ---
+Component: SAP Advanced Financial Closing
+Environment: Cloud Foundry
+Title: Closing Structure Table Changed
+Description: A second tab has been added to the Closing Structure table. While the Hierarchy tab displays the closing structure as a hierarchy - that is, the way you already know it - the new List tab shows the folders in a list.  This change affects the personalized views (formerly known as view variants) that you have created for the Closing Structure table. The existing views have been removed with this release and need to be recreated as required.  Note  Views are managed separately on both tabs. This means that you can create views specific to one of the tabs without the view appearing in your view management on the other tab.  App affected:  Manage Closing Task Lists  Action: Recreate and save the views as required. To do this, go to the Closing Structure table in the Manage Closing Task Lists app, adjust the view as needed, and save it.
+Action: Required
+Lifecycle: General Availability
+Type: New
+Line of Business: Finance
+Latest Revision: 2024-02-02
+Valid as Of: 2024-02-18
+Version: Cloud
+
+--- Record 3532 ---
+Component: SAP Advanced Financial Closing
+Environment: Cloud Foundry
+Title: Deletion of Task Lists
+Description: The prerequisites for deleting task list templates and task lists have been enhanced. Production task lists can still only be deleted if they have the status Not Released. Non-production task lists, on the other hand, can be deleted irrespective of their status. With this change, a new authorization for user roles has been introduced to allow authorization for different delete actions.  More information:  How to Delete Task List Templates and Task Lists  App affected:  Manage Closing Task Lists  Action: Users managing user access need to assign the new Delete authorization to users that need to delete task lists irrespective of the task list status.
+Action: Required
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Finance
+Latest Revision: 2024-02-02
+Valid as Of: 2024-02-18
+Version: Cloud
+
+--- Record 3533 ---
+Component: SAP Advanced Financial Closing
+Environment: Cloud Foundry
+Title: Important SAP Note for On-Premise Communication Systems Released
+Description: The SAP Note 3336977  has been released and provides an important fix for use of SAP Advanced Financial Closing with communication systems that have been upgraded from a previous version to one of the following system types:    SAP S/4HANA  2023  SAP S/4HANA  2022    More information:  Important SAP Notes for Connected Communication Systems  Action:  If you've upgraded a system you're using as a communication system for SAP Advanced Financial Closing from a previous version to SAP S/4HANA  2023 or SAP S/4HANA  2022, implement this Note.
+Action: Required
+Lifecycle: General Availability
+Type: New
+Line of Business: Finance
+Latest Revision: 2024-02-02
+Valid as Of: 2024-02-18
+Version: Cloud
+
+--- Record 3534 ---
+Component: SAP Advanced Financial Closing
+Environment: Cloud Foundry
+Title: New App for Company Code Groups
+Description: To support your reporting activities in the new reporting apps with organizational unit view, the new Manage Company Code Groups app has been released. In this app, you create and manage company code groups within different grouping characteristics. This allows you to perform your reporting activities based on company code groups, independently of country/region assignments.  More information:  Manage Company Code Groups  How to Manage Company Code Groups  Company Code Groups  In-app help  Explanatory video integrated into the documentation and in-app help    App affected:  Manage Company Code Groups  Action: Familiarize yourself with the information available for this new app and, if required, create company code groups within the different grouping characteristics as described in these materials.
+Action: Required
+Lifecycle: General Availability
+Type: New
+Line of Business: Finance
+Latest Revision: 2024-02-02
+Valid as Of: 2024-02-18
+Version: Cloud
+
+--- Record 3535 ---
+Component: SAP Advanced Financial Closing
+Environment: Cloud Foundry
+Title: New Reporting Apps
+Description: Four new apps have been released to support you in your reporting activities. These four apps consist of the following two sets of apps:  Two apps offering a task view:  Financial Close Overview - Task View  Closing Task Completion - Task View    Two apps offering an organizational unit view:  Financial Close Overview - Organizational Unit View  Closing Task Completion - Organizational Unit View      Task view apps offer reporting based on the task overall status, while organizational unit view apps offer reporting based on the task execution status of each organizational unit. Additionally, organizational unit apps allow you to perform reporting based on company code groups, independently of country/region assignments.  Note  For these new apps, new static role templates are available that need to be assigned to users, so they can access the new apps.  Caution  The new reporting apps display data from task lists generated after the release of these apps only. Data from previous closing cycles can be viewed in the predecessor apps Financial Close Overview (Deprecated) and Closing Task Completion (Deprecated).  More information:  Reporting on Task Execution and Task Overall Level  In-app help  Guided tours accessible through the in-app help  Explanatory videos integrated into the documentation and in-app help    Apps affected:  Financial Close Overview - Task View  Closing Task Completion - Task View  Financial Close Overview - Organizational Unit View  Closing Task Completion - Organizational Unit View    Action: Familiarize yourself with the information available to learn about these new apps and, if required, set up your reporting for these apps as described in these materials.
+Action: Required
+Lifecycle: General Availability
+Type: New
+Line of Business: Finance
+Latest Revision: 2024-02-21
+Valid as Of: 2024-02-18
+Version: Cloud
+
+--- Record 3536 ---
+Component: Integration Advisor
+Environment: Cloud Foundry,Neo
+Title: Duplicate Target Nodes
+Description: You can now duplicate target nodes in the mapping editor of a Mapping Guideline.  See: Mapping the Source and Target Nodes
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-02-18
+Valid as Of: 2024-02-18
+Version: 2313
+
+--- Record 3537 ---
+Component: Integration Advisor
+Environment: Cloud Foundry,Neo
+Title: Global Code Value Mapping
+Description:     You can now create a global code value mapping with multiple source code lists and one target code list (N:1 cardinality).  See: Global Code Value Mapping    You can now map multiple code values with a target code value in a global code value mapping in the mapping editor of a MAG.See: Code Value Mapping  
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-02-18
+Valid as Of: 2024-02-18
+Version: 2313
+
+--- Record 3538 ---
+Component: Integration Advisor
+Environment: Cloud Foundry,Neo
+Title: Software Version Update
+Description:   SAP Integration Advisor: 1.83.*    Increment: 2313    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-02-18
+Valid as Of: 2024-02-18
+Version: 2313
+
+--- Record 3539 ---
+Component: Integration Assessment
+Environment: Cloud Foundry
+Title: Software Version Update
+Description:     Integration Assessment: 1.24.*      Increment: 2313    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-02-18
+Valid as Of: 2024-02-18
+Version: 2313
+
+--- Record 3540 ---
+Component: Migration Assessment
+Environment: Cloud Foundry
+Title: New Rules Added
+Description: The following rules have been added for Migration Assessment:      OMUsageDoNotResolveXOPIncludes: Check if Do Not Resolve XOP Includes is enabled in operation mapping.      SenderRESTURLPattern: Evaluate the parameters configured in the URL.    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-02-18
+Valid as Of: 2024-02-18
+Version: 2313
+
