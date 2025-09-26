@@ -1,130 +1,130 @@
 --- Record 51 ---
-Component: Cloud Integration for Data Services
-Environment: Kyma,Neo
-Title: Documentation update only: Environment Indicators in User Documentation
-Description: In support of the release of SAP Cloud Integration for data services on SAP BTP Kyma runtime and with the service's being in use simultaneously on the Neo environment, indicators have been added in various places within the user documentation to reflect when information pertains to one environment or the other.
+Component: Joule
+Environment: Cloud Foundry
+Title: SAP Joule for Consultants
+Description: SAP Joule for Consutants enables consultants to quickly obtain precise and indepth answers to questions regarding the design, implementation, or update of SAP systems, encompassing the entire SAP product portfolio.
 Action: Info only
 Lifecycle: General Availability
 Type: New
-Line of Business: Database and Data Management
-Latest Revision: 2025-09-24
-Valid as Of: 2025-09-25
-Version: 2509
+Line of Business: Technology
+Latest Revision: 2025-05-31
+Valid as Of: 2025-05-31
+Version: Cloud
 
 --- Record 52 ---
-Component: Cloud Integration for Data Services
-Environment: Kyma,Neo
-Title: Documentation update only: User Activation Emails
-Description: Finish Setting Up a Standard User has been updated to reflect that, when using SAP Identity Authentication (IAS) on the Neo environment or Kyma runtime, SAP Cloud Integration for data services does not send emails to notify users when they have been activated.
-Action: Info only
-Lifecycle: General Availability
-Type: Changed
-Line of Business: Database and Data Management
-Latest Revision: 2025-09-19
-Valid as Of: 2025-09-25
-Version: 2509
-
---- Record 53 ---
-Component: Cloud Integration for Data Services
-Environment: Kyma,Neo
-Title: IBP JDBC Supported on the Neo Environment Only
-Description: IBP JDBC and other cloud applications such as SAP Lumira Cloud and SAP HANA are not supported on SAP Cloud Integration for data services on Kyma runtime. Information in the user documentation that refers to these has been marked as 'Neo environment only'.
-Action: Info only
-Lifecycle: General Availability
-Type: Changed
-Line of Business: Database and Data Management
-Latest Revision: 2025-08-08
-Valid as Of: 2025-09-25
-Version: 2509
-
---- Record 54 ---
-Component: Cloud Integration for Data Services
-Environment: Kyma
-Title: Notifications and Renewal of Expiring IdP Certificates
-Description: As the expiration date of an IdP certificate approaches, administrators and security administrators will receive email notifications. You can use the new Renew Certificate button to initiate the renewal. If not renewed before its expiration, the certificate will automatically be renewed by the system. Renewed certificates must be manually configured on the IdP. Also, IdP certificate renewals will appear in the Security log. For more information, see Notifications and Renewal of Expiring IdP Certificates and Security Log.
+Component: Joule
+Environment: Cloud Foundry
+Title: Update Delivery Date for Purchase Orders
+Description: Joule enables you, as a purchaser, to update delivery dates for purchase orders.  For example, when suppliers or equivalent sources inform you of delays or changes, you can use Joule to update the delivery dates with the new information.
 Action: Info only
 Lifecycle: General Availability
 Type: New
-Line of Business: Database and Data Management
-Latest Revision: 2025-08-08
-Valid as Of: 2025-09-25
-Version: 2509
+Line of Business: Technology
+Latest Revision: 2025-05-31
+Valid as Of: 2025-05-31
+Version: Cloud
 
---- Record 55 ---
-Component: Cloud Integration for Data Services
-Environment: Kyma
-Title: Release Number Added to Administration Tab
-Description: The SAP Cloud Integration for data services release number you are using now appears on the Administration tab beside your current server version. For more information, see Administration.
+--- Record 53 ---
+Component: Joule
+Environment: Cloud Foundry
+Title: Use Cases Now Supported in Convergent Invoicing in SAP S/4HANA Cloud Private Edition
+Description: The following transactional capabilities are now supported in Convergent Invoicing in SAP S/4HANA Cloud Private Edition:      Clarification case: assign processor, resubmit, put on hold, set invoicing lock, and complete      Billing plan: reopen, release, and complete      Invoicing document: set print lock and remove print lock      Billing request: cancel, reject, send for checking, and release    
 Action: Info only
 Lifecycle: General Availability
-Type: Changed
-Line of Business: Database and Data Management
-Latest Revision: 2025-07-09
-Valid as Of: 2025-09-25
-Version: 2509
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-05-31
+Valid as Of: 2025-05-31
+Version: Cloud
+
+--- Record 54 ---
+Component: Joule
+Environment: Cloud Foundry
+Title: Welcome Message Translation
+Description: The welcome message will appear in the user's preferred language based on their language settings. This ensures that Joule is presented in a language you are comfortable with, rather than the default English.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-05-31
+Valid as Of: 2025-05-31
+Version: Cloud
+
+--- Record 55 ---
+Component: Joule
+Environment: Cloud Foundry
+Title: Joule for Microsoft 365 Copilot
+Description: By integrating Joule and Microsoft 365 Copilot, you can leverage the Joule capabilities from within Microsoft 365 Copilot Business Chat. For more information, see Using Joule with Microsoft 365 Copilot.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-05-30
+Valid as Of: 2025-05-30
+Version: Cloud
 
 --- Record 56 ---
 Component: Joule
 Environment: Cloud Foundry
-Title: Document Grounding Capability - Pipelines
-Description: You can now upload a maximum number of 3000 documents per pipeline with the document grounding capability.  See Set Up Content Ingestion.
-Action: Info only
-Lifecycle: General Availability
-Type: Changed
-Line of Business: Technology
-Latest Revision: 2025-09-25
-Valid as Of: 2025-09-25
-Version: Cloud
-
---- Record 57 ---
-Component: Joule
-Environment: Cloud Foundry
-Title: Document Grounding Capability - Support for Images and Tables Embedded in PDF Documents
-Description: The document grounding capability supports now images and tables embedded in PDF documents.  See Set Up Document Grounding.
-Action: Info only
-Lifecycle: General Availability
-Type: Changed
-Line of Business: Technology
-Latest Revision: 2025-09-25
-Valid as Of: 2025-09-25
-Version: Cloud
-
---- Record 58 ---
-Component: SAP Task Center
-Environment: Cloud Foundry
-Title: Use SAP Build Work Zone to Access SAP Task Center When Both Are in Different Subaccounts
-Description: You can now use SAP Build Work Zone as your central point of entry for accessing your SAP Task Center, when both are in different subaccounts. For more information, see Connect SAP Task Center and SAP Build Work Zone in Different Subaccounts.
+Title: Document Grounding Capability - Support for Documents in TXT File Format
+Description: The document grounding capability now supports documents in TXT file format.  See Set Up Document Grounding.
 Action: Info only
 Lifecycle: General Availability
 Type: New
 Line of Business: Technology
-Latest Revision: 2025-09-25
-Valid as Of: 2025-09-25
+Latest Revision: 2025-05-23
+Valid as Of: 2025-05-23
+Version: Cloud
+
+--- Record 57 ---
+Component: Joule,SAP BTP Cockpit
+Environment: Cloud Foundry
+Title: UX Improvements to Joule in SAP BTP Cockpit
+Description: Scenario flows and texts have been optimized for Joule interactions.  Joule in the cockpit now supports multiple attributes when selecting entities. For example, you can select a subaccount by entering the subaccount display name, subaccount ID, and/or subdomain name. Joule validates the name you enter and provides suggestions should it not recognize your entry.  Entities and attributes:  Cloud Foundry Space: ID name, space name  Global Account: subdomain, display name  User: email address  Role Collection: name  Region: region (technical name), display name  Subaccount: ID, display name, subdomain  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-05-16
+Valid as Of: 2025-05-16
+Version: Cloud
+
+--- Record 58 ---
+Component: Joule
+Environment: Cloud Foundry
+Title: Multi Conversation
+Description: The Multi Conversation feature allows you to execute long running queries or asynchronous queries, or start conversations with Joule on multiple topics in parallel. This allows you to start multiple conversations in parallel on different topics. Conversation Threads also allows you to delete selected threads, rename threads, and access conversation history. With this feature, the idle timeout for a conversation thread expiry has been increased from 15 minutes to 8 hours.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-04-24
+Valid as Of: 2025-04-29
 Version: Cloud
 
 --- Record 59 ---
-Component: Intelligent Situation Automation
+Component: Joule
 Environment: Cloud Foundry
-Title: Deprecation of Intelligent Situation Automation
-Description: Intelligent Situation Automation is being deprecated. The service will be under maintenance only mode till the end-of-service date, 6 months from the announcement or when the last contract commitment is fulfilled. For more information, see this blog post.
+Title: User Feedback
+Description: Each Joule response now features Thumbs ups and Thumbs down icons that can be used to record user feedback. Users can click the thumbs up icon to indicate that they have liked the response. Alternatively, if a user finds a response unsatisfactory, clicking the thumbs down button will open a list of options from which the most appropriate reason for the negative feedback can be selected.
 Action: Info only
-Lifecycle: Deprecated
-Type: Changed
+Lifecycle: General Availability
+Type: New
 Line of Business: Technology
-Latest Revision: 2025-09-24
-Valid as Of: 2025-09-24
+Latest Revision: 2025-04-24
+Valid as Of: 2025-04-29
 Version: Cloud
 
 --- Record 60 ---
-Component: Kyma Runtime
-Environment: Kyma
-Title: API Gateway module: Update to version 3.2.3
-Description: We've fixed the jwt and ext-auth setup of RequestAuthentication, which is now created for all workloads, regardless of whether they have the app label or not. For more information, see issue #2237.
+Component: Joule
+Environment: Cloud Foundry
+Title: Joule Capabilities Support Extended to SAP S/4HANA Cloud Private Edition 2022* and 2021*.
+Description: Joule capabilities for SAP S/4HANA Cloud Private Edition 2023 are now also supported in 2022 and 2021 with some exceptions ('*' indicates this). For the list of capabilities available per release of SAP S/4HANA Cloud Private Edition, please refer to Release-Specific Capabilities.
 Action: Info only
 Lifecycle: General Availability
-Type: Changed
+Type: Announcement
 Line of Business: Technology
-Latest Revision: 2025-09-22
-Valid as Of: 2025-09-24
+Latest Revision: 2025-04-28
+Valid as Of: 2025-04-28
 Version: Cloud
 

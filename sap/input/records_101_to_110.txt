@@ -1,130 +1,130 @@
 --- Record 101 ---
-Component: Document Management Service
+Component: Joule
 Environment: Cloud Foundry
-Title: Offboard data
-Description: You can now use the Migration API to offboard data from the SAP Document Management service without causing data loss.  See Offboarding Data from SAP Document Management Service in the Multi-Cloud Foundation  
+Title: Joule Now Available in SAP S/4HANA Cloud Private Edition
+Description: Joule is now available in SAP S/4HANA Cloud Private Edition for navigational use cases. You can type in your request in natural language and Joule can help you complete your goals by navigating you to the relevant SAP Fiori apps, where you can take advantage of all features.
 Action: Info only
 Lifecycle: General Availability
 Type: New
 Line of Business: Technology
-Latest Revision: 2024-01-01
-Valid as Of: 2025-09-16
+Latest Revision: 2024-06-10
+Valid as Of: 2024-10-14
 Version: Cloud
 
 --- Record 102 ---
-Component: SAP Datasphere
+Component: Joule
 Environment: Cloud Foundry
-Title: Features for Version 2025.19
-Description: New and changed features are available for .  For more information, see What's New in SAP Datasphere 2025.19. 
+Title: New Use Cases Now Supported for Finance in SAP S/4HANA Cloud Private Edition
+Description: The following transactional use cases are now supported in Finance for SAP S/4HANA Cloud Private Edition.    Display G/L account balances      Display G/L account line items    
 Action: Info only
 Lifecycle: General Availability
 Type: New
 Line of Business: Technology
-Latest Revision: 2025-09-16
-Valid as Of: 2025-09-16
+Latest Revision: 2024-09-26
+Valid as Of: 2024-10-14
 Version: Cloud
 
 --- Record 103 ---
-Component: SAP AI Launchpad
+Component: Joule
 Environment: Cloud Foundry
-Title: Generative AI hub
-Description: SAP Document Management Service is supported as a repository type for the orchestration grounding module.  For more information, see Create a Generic Secret for AI Data Management.
+Title: New Use Cases Now Supported for Procurement in SAP S/4HANA Cloud Private Edition
+Description: The following transactional use cases are now supported in Procurement for SAP S/4HANA Cloud Private Edition (Operational Purchaser).    Fetch details of purchase orders       Fetch details of purchase requisitions      Navigate to the respective app    
 Action: Info only
 Lifecycle: General Availability
-Type: Announcement
+Type: New
 Line of Business: Technology
-Latest Revision: 2025-09-15
-Valid as Of: 2025-09-15
+Latest Revision: 2024-10-10
+Valid as Of: 2024-10-14
 Version: Cloud
 
 --- Record 104 ---
-Component: Edge Integration Cell
+Component: Joule
 Environment: Cloud Foundry
-Title: Access to Runtime Parameters
-Description: Runtime Parameters has been removed from Quick Links. You can now access Runtime Parameters only through Component Monitor.See: Runtime Parameters
+Title: New Use Cases Now Supported in Cross Area Capabilities for SAP S/4HANA Cloud Private Edition
+Description: The following transactional use cases are now supported in Cross-Area Capabilities for SAP S/4HANA Cloud Private Edition:      Display Business Partner overview      Display Business Partner basic data      Display Business Partner bank accounts      Display Business Partner identification numbers      Display Business Partner roles      Display Business Partner standard address      Display Business Partner addresses      Display Business Partner payment cards      Display Business Partner industries      Display Business partner relationships      Display Business Partner contact person relationships    
 Action: Info only
 Lifecycle: General Availability
 Type: New
 Line of Business: Technology
-Latest Revision: 2025-09-14
-Valid as Of: 2025-09-14
-Version: 2507
+Latest Revision: 2024-09-19
+Valid as Of: 2024-10-14
+Version: Cloud
 
 --- Record 105 ---
-Component: Edge Integration Cell
+Component: Joule
 Environment: Cloud Foundry
-Title: Configure Istio Proxy Resources
-Description: Manually increase resource limits for Istio Proxies for the worker component.See: Set Ixtio Proxy Resources
+Title: Data Center Availability
+Description: Joule is now available in the Japan (Tokyo) data center of AWS. See Data Centers Supported by Joule
 Action: Info only
 Lifecycle: General Availability
-Type: New
+Type: Changed
 Line of Business: Technology
-Latest Revision: 2025-09-14
-Valid as Of: 2025-09-14
-Version: 2507
+Latest Revision: 2024-10-03
+Valid as Of: 2024-10-03
+Version: Cloud
 
 --- Record 106 ---
-Component: Edge Integration Cell
+Component: Joule
 Environment: Cloud Foundry
-Title: Edge Local Authentication and Authorization Support for External Certificate Pinning.
-Description: When pinning is disabled for external client certificates, the system doesn't accept a previously used certificate with an older issue date for authentication once you use a renewed certificate.  See: Edge Local Authentication and Authorization
+Title: Document Grounding Capability
+Description: The document grounding capability is now available for Joule integrations. You can now add context to Joule using information gathered from documents you upload to the service. See Set Up Document Grounding.
 Action: Info only
 Lifecycle: General Availability
 Type: New
 Line of Business: Technology
-Latest Revision: 2025-09-14
-Valid as Of: 2025-09-14
-Version: 2506
+Latest Revision: 2024-09-30
+Valid as Of: 2024-09-30
+Version: Cloud
 
 --- Record 107 ---
-Component: Edge Integration Cell
-Environment: Cloud Foundry,Neo
-Title: Enabling ADK persistency with apadter API Available
-Description: You can now utilize an adapter API to store and retrieve critical information ensuring data persistence even after node restarts or crashes.  See Enabling ADK Persistency
+Component: Joule
+Environment: Cloud Foundry
+Title: Joule consumption across data centers
+Description: Joule can now be cross consumed across data centers by the integration application. To enable cross consumption, data center mapping between Joule and SAP SuccessFactors has been removed.  If you have previously mapped a specific data center with SAP SuccessFactors, you can continue to use the mapped data center and enable additional integrations if required.  For ore information about supported data centers, see Data Centers Supported by Joule
 Action: Info only
 Lifecycle: General Availability
-Type: New
+Type: Changed
 Line of Business: Technology
-Latest Revision: 2025-09-14
-Valid as Of: 2025-09-14
-Version: 2507
+Latest Revision: 2024-09-19
+Valid as Of: 2024-09-20
+Version: Cloud
 
 --- Record 108 ---
-Component: Edge Integration Cell
+Component: Joule
 Environment: Cloud Foundry
-Title: New Action in Job Management
-Description: A new action, Consolidate MPL Aggregation Data, is available in Job Management.See: Job Management
+Title: Support for cookies having independent partitioned state
+Description: Joule will support cookies partitioning in order to mitigate the impact of the deprecation of third-party cookies by Google Chrome. Users can continue to leverage SSO-based login to Joule after the third-party cookies are deprecated.
 Action: Info only
 Lifecycle: General Availability
-Type: New
+Type: Changed
 Line of Business: Technology
-Latest Revision: 2025-09-14
-Valid as Of: 2025-09-14
-Version: 2507
+Latest Revision: 2024-09-20
+Valid as Of: 2024-09-20
+Version: Cloud
 
 --- Record 109 ---
-Component: Edge Integration Cell
+Component: Joule
 Environment: Cloud Foundry
-Title: Reusable API Artifact
-Description: You can now create reusable API artifacts that encapsulate standardized API policies and mediation logic such as authentication, transformation, and validation into modular units. These artifacts can be defined centrally and used across multiple API artifacts, helping you maintain consistency and streamline API development.   See, Reusable API Artifact  
-Action: Info only
+Title: Joule Booster
+Description: Joule booster has been updated. If you run the Joule booster, a Joule formation is created in the System Landscape in SAP BTP. The formation includes the Joule system and the selected systems. Note  Customers who have already set up the integration with Joule, need not run the booster again. The existing integration will continue to work seamlessly. However, if you want to make changes to the existing set up (include or exclude a system), you must run the Joule booster again.See Run the Joule Booster.
+Action: Recommended
 Lifecycle: General Availability
-Type: New
+Type: Changed
 Line of Business: Technology
-Latest Revision: 2025-09-14
-Valid as Of: 2025-09-14
-Version: 2507
+Latest Revision: 2024-08-14
+Valid as Of: 2024-08-14
+Version: Cloud
 
 --- Record 110 ---
-Component: Edge Integration Cell
+Component: Joule
 Environment: Cloud Foundry
-Title: RFC Adapter Receiver Supported in Diagnostics
-Description: The Adapter diagnostics task now also supports the RFC adapter with receiver direction.See: Diagnostics
+Title: Data Center Availability
+Description: The following attributes are added to Client Information:     Europe (Netherlands) of Microsoft Azure (EU20)      Europe (Frankfurt) of Google Cloud Platform (EU30)      US East (VA) of Microsoft Azure (US21)      US Central (IA) of Google Cloud Platform (US30)     See Data Centers Supported by Joule.
 Action: Info only
 Lifecycle: General Availability
 Type: New
 Line of Business: Technology
-Latest Revision: 2025-09-14
-Valid as Of: 2025-09-14
-Version: 2507
+Latest Revision: 2024-07-25
+Valid as Of: 2024-07-25
+Version: Cloud
 

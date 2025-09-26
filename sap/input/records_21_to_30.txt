@@ -1,130 +1,130 @@
 --- Record 21 ---
-Component: Application for Data Replication and Administration
+Component: Joule
 Environment: Cloud Foundry
-Title: Option to Improve Pricing Delta Replication Performance
-Description: The Connect to SAP Cloud screen now has the option Enable Transmit Data in Compact Mode for pricing remote sources. This breaks referential integrity among tables. It is only recommended for when you perform pricing changes with future validity dates.   See: Administration Guide for SAP Variant Configuration and Pricing.
+Title: Enhancement to Create Time Off - August 2025
+Description: We've made an enhancement about half-day absence to the "Create time off" use case.  For more information, refer to Enhancement to Create Time Off - August 2025.
 Action: Info only
 Lifecycle: General Availability
-Type: New
+Type: Changed
 Line of Business: Technology
-Latest Revision: 2025-09-19
-Valid as Of: 2025-10-22
+Latest Revision: 2025-08-19
+Valid as Of: 2025-08-19
 Version: Cloud
 
 --- Record 22 ---
-Component: Application for Data Replication and Administration
+Component: Joule
 Environment: Cloud Foundry
-Title: Show Dependency Profiling Trace
-Description: There is a new screen to show the dependency profiling trace in Configuration  Trace.   See: Administration Guide for SAP Variant Configuration and Pricing.
+Title: New Use Cases Now Supported for Finance Management Controlling in SAP S/4HANA Cloud Private Edition
+Description: The following transactional Joule Use Cases are now available for Finance Management Controlling in SAP S/4HANA Cloud Private Edition:    Manage Activity Type  Manage Profit Center  Manage Statistical Key Figures and Value  Commitment by Cost Center  Manage Direct Activity Allocation  Reassign Cost and Revenue    For more information, see Finance Management Controlling.
 Action: Info only
 Lifecycle: General Availability
 Type: New
 Line of Business: Technology
-Latest Revision: 2025-09-19
-Valid as Of: 2025-10-22
+Latest Revision: 2025-08-19
+Valid as Of: 2025-08-19
 Version: Cloud
 
 --- Record 23 ---
-Component: Pricing Service
+Component: Joule
 Environment: Cloud Foundry
-Title: New Data Center: Microsoft Azure in Australia (Sydney)(cf-ap20)
-Description: SAP Variant Configuration and Pricing used to be available only in:   AWS Europe (Frankfurt) (cf-eu10)  AWS Europe (Frankfurt) EU Access (cf-eu11)  Azure Europe (Netherlands) (cf-eu20)  AWS U.S. East (Virgina) (cf-us10)  AWS Singapore (cf-ap11)    For new contracts, configuration and pricing services now are also available in Microsoft Azure data center in Australia (Sydney)(cf-ap20).  All configuration and pricing services tenants of a customer must be operated in the same data center. It is not possible to run one tenant on AWS and another on Azure, nor to switch data centers for existing tenants.
+Title: Processing In-House Services in SAP S/4HANA Cloud Private Edition
+Description: The following use cases are now supported by Joule:  Search for in-house service objects  Display details of in-house services  Display details of in-house service objects  Perform follow-up actions for in-house service objects  
 Action: Info only
 Lifecycle: General Availability
 Type: New
 Line of Business: Technology
-Latest Revision: 2025-09-19
-Valid as Of: 2025-10-22
+Latest Revision: 2025-08-19
+Valid as Of: 2025-08-19
 Version: Cloud
 
 --- Record 24 ---
-Component: Pricing Service
+Component: Joule
 Environment: Cloud Foundry
-Title: Pre-Production – Stateless Pricing – Condition Supplements in Price Agreements
-Description: Condition supplements, such as those related to surcharges or discounts, that are linked to a primary condition, can now be processed alongside the primary conditions in stateless price agreement scenarios. This ensures that all dependent pricing elements are considered during price calculation.  See: API Definition, and Development Guide for SAP Variant Configuration and Pricing.
+Title: Support Extended for Subscription Order Management in SAP S/4HANA Cloud Private Edition
+Description: The following transactional Joule capabilities are now supported for SAP S/4HANA Cloud Private Edition 2023 FPS01 release onwards.    Create subscription order  Search and summarize subscription contract     For more information, see Subscription Order Management. 
 Action: Info only
 Lifecycle: General Availability
-Type: New
+Type: Announcement
 Line of Business: Technology
-Latest Revision: 2025-09-19
-Valid as Of: 2025-10-22
+Latest Revision: 2025-08-19
+Valid as Of: 2025-08-19
 Version: Cloud
 
 --- Record 25 ---
-Component: Pricing Service
+Component: Joule
 Environment: Cloud Foundry
-Title: Pre-Production – Stateless Pricing – Dynamic Scale Base Types in Price Agreements
-Description: Price agreements in stateless pricing now support dynamic scale base types as part of the pricing input. Consuming applications can specify the scale base type at runtime, for example, quantity, value, weight, volume. This allows the correct evaluation of scale conditions based on the input during runtime rather than relying only on predefined customizing.  See: API Definition, and Development Guide for SAP Variant Configuration and Pricing.
-Action: Info only
+Title: Enhanced Intelligent Scenarios in Sales for SAP S/4HANA Cloud Private Edition
+Description: You can activate the deployment of the intelligent scenarios to consume the inference in your business application, using the following:     2023: SD_INT_AI_GEMINI, SD_INT_AI_GPT. When more than one scenario is active, the system prioritizes the SD_INT_AI_GPT scenario for consumption.    For more information, see Activate and Deactivate and Perform Sales Order Field Changes and Resolve Fulfillment Issues.
+Action: Required
 Lifecycle: General Availability
 Type: New
 Line of Business: Technology
-Latest Revision: 2025-09-19
-Valid as Of: 2025-10-22
+Latest Revision: 2025-08-11
+Valid as Of: 2025-08-15
 Version: Cloud
 
 --- Record 26 ---
-Component: Pricing Service
+Component: Joule
 Environment: Cloud Foundry
-Title: Pre-Production – Stateless Pricing – Validity-Based Selection of Condition Records in Price Agreements
-Description: Price agreements in stateless pricing now support processing of multiple condition records with the same condition type but different validity periods. The relevant condition record is automatically selected and applied based on the pricing date, ensuring accurate handling of time-dependent conditions.  See: API Definition, and Development Guide for SAP Variant Configuration and Pricing.
+Title: New Use Cases Now Supported in Sales for SAP S/4HANA Cloud Private Edition
+Description: The following transactional use cases are now supported in Sales for SAP S/4HANA Cloud Private Edition:    Fetch sales order details  Fetch sales order fulfillment issues  Fetch sales order document flow  Fetch details of outbound deliveries  Perform changes to sales order fields  Provide issue resolution for sales order fulfilment issues  Create sales documents with reference  Fetch billing document information  Navigate to the respective apps  
 Action: Info only
 Lifecycle: General Availability
 Type: New
-Line of Business: Technology
-Latest Revision: 2025-09-19
-Valid as Of: 2025-10-22
+Line of Business: Sales
+Latest Revision: 2025-08-11
+Valid as Of: 2025-08-15
 Version: Cloud
 
 --- Record 27 ---
-Component: Pricing Service
+Component: Joule
 Environment: Cloud Foundry
-Title: Pre-Production – US Tax Calculation via External Engine
-Description: Tax calculation via an external tax engine is now supported for US taxes.  See: API Definition, Development Guide for SAP Variant Configuration and Pricing , and Administration Guide for SAP Variant Configuration and Pricing.
+Title: Document Grounding Capability - Pipeline Processing Statuses for Documents
+Description: Additional attributes are now available to identify details and pipeline processing statuses for documents in the response of the following Pipeline API endpoints of the document grounding capability:    GET <url>/pipeline/api/v1/pipeline/{pipelineId}/executions/{executionId}/documents      GET <url>/pipeline/api/v1/pipeline/{pipelineId}/executions/{executionId}/documents/{documentId}      GET <url>/pipeline/api/v1/pipeline/{pipelineId}/documents      GET <url>/pipeline/api/v1/pipeline/{pipelineId}/documents/{documentId}      The following endpoints include now pagination support:    GET <url>/pipeline/api/v1/pipeline/{pipelineId}/executions/{executionId}/documents      GET <url>/pipeline/api/v1/pipeline/{pipelineId}/documents      See Get Pipeline Status.
 Action: Info only
 Lifecycle: General Availability
-Type: New
+Type: Changed
 Line of Business: Technology
-Latest Revision: 2025-09-19
-Valid as Of: 2025-10-22
+Latest Revision: 2025-08-01
+Valid as Of: 2025-08-01
 Version: Cloud
 
 --- Record 28 ---
-Component: Pricing Service
+Component: Joule,SAP BTP Cockpit
 Environment: Cloud Foundry
-Title: Pre-Production– On-Request Tracing
-Description: Additionally to the existing trace settings ON and OFF, a new setting ON_REQUEST was introduced to collect traces only for a subset of requests. To determine for which requests the traces will be collected, the header parameter x-cps-trace needs to be set. The relevant trace type must be set as a parameter value: CONDITION_DETERMINATION, CONDITION_CALCULATION, EXTENSION, or TAXES_US.  See: API Definition, Development Guide for SAP Variant Configuration and Pricing , andAdministration Guide for SAP Variant Configuration and Pricing.
+Title: New Navigational Use Cases Added to Joule in SAP BTP Cockpit
+Description: Within a Cloud Foundry space, Joule in the cockpit can now take you to the following pages:    Applications  Events    Joule can now also take you to a HANA Cloud instance in a subaccount.  For more information, check out Supported Administrative Tasks Using Joule in the Cockpit.
 Action: Info only
 Lifecycle: General Availability
 Type: New
 Line of Business: Technology
-Latest Revision: 2025-09-19
-Valid as Of: 2025-10-22
+Latest Revision: 2025-07-30
+Valid as Of: 2025-07-30
 Version: Cloud
 
 --- Record 29 ---
-Component: Variant Configuration
+Component: Joule
 Environment: Cloud Foundry
-Title: New Data Center: Microsoft Azure in Australia (Sydney)(cf-ap20)
-Description: SAP Variant Configuration and Pricing used to be available only in:   AWS Europe (Frankfurt) (cf-eu10)  AWS Europe (Frankfurt) EU Access (cf-eu11)  Azure Europe (Netherlands) (cf-eu20)  AWS U.S. East (Virgina) (cf-us10)  AWS Singapore (cf-ap11)    For new contracts, configuration and pricing services now are also available in Microsoft Azure data center in Australia (Sydney)(cf-ap20).  All configuration and pricing services tenants of a customer must be operated in the same data center. It is not possible to run one tenant on AWS and another on Azure, nor to switch data centers for existing tenants.
+Title: Document Grounding Capability - Pipeline Content Update
+Description: You can now send a POST request to the endpoint <url>/pipeline/api/v1/pipeline/trigger to manually trigger a pipeline to start the content update process for the document grounding capability.  See Set Up Content Ingestion.
 Action: Info only
 Lifecycle: General Availability
 Type: New
 Line of Business: Technology
-Latest Revision: 2025-09-19
-Valid as Of: 2025-10-22
+Latest Revision: 2025-07-24
+Valid as Of: 2025-07-24
 Version: Cloud
 
 --- Record 30 ---
-Component: Variant Configuration
+Component: Joule
 Environment: Cloud Foundry
-Title: Pre-Production - Configurations API – Dependency Profiling Trace
-Description: With the dependency profiling trace, it is possible to measure the runtimes of dependencies to analyze the model performance. For on-request tracing, the header parameter x-cps-trace: DEPENDENCY_PROFILING needs to be used. Dependency execution runtimes and counts are recorded and displayed in the administration UI for the configuration service in the section Configuration  Trace   Dependency Profiling Trace.  Dependency profiling is unavailable for products processed through AVC Forwarding. Only dependencies executed within the native engine of the Variant Configuration service will be profiled.  See: Development Guide for SAP Variant Configuration and Pricing, and Administration Guide for SAP Variant Configuration and Pricing.
+Title: New Transactional Use Case Available in SAP SuccessFactors
+Description: The use case View time off instructions has been converted from Navigational to Transactional, and is now available in mobile apps.  For more information, refer to New Transactional Use Case Available in Joule - July 2025.
 Action: Info only
 Lifecycle: General Availability
 Type: New
 Line of Business: Technology
-Latest Revision: 2025-09-19
-Valid as Of: 2025-10-22
+Latest Revision: 2025-07-20
+Valid as Of: 2025-07-24
 Version: Cloud
 

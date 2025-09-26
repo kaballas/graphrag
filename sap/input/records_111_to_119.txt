@@ -1,0 +1,117 @@
+--- Record 111 ---
+Component: Joule
+Environment: Cloud Foundry
+Title: Joule Booster
+Description: You can now select SAP SuccessFactors system in the Select Integrations screen of the Joule booster instead of manually typing the tenant URL and the company code. You need to ensure that you have registered the system in SAP BTP under  System Landscape before you run the booster.  Note  Joule will continue to work seamlessly for existing integrations and no actions are required for the set up done before this change.  See Register an SAP SuccessFactors System in a Global Account in SAP BTP and Integration with SAP SuccessFactors. 
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-07-11
+Valid as Of: 2024-07-11
+Version: Cloud
+
+--- Record 112 ---
+Component: Joule
+Environment: Cloud Foundry
+Title: New Document Grounding Capability
+Description: The document grounding capability is now available in the SAP SuccessFactors HCM Suite. You can now add context to Joule using information gathered from documents you upload to the service. See Set Up Document Grounding.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-06-24
+Valid as Of: 2024-06-24
+Version: Cloud
+
+--- Record 113 ---
+Component: Joule
+Environment: Cloud Foundry
+Title: New Use Cases Now Supported in SAP SuccessFactors
+Description: The following use cases are now supported for SAP SuccessFactors users:    Use Case  Conversational Pattern        Change position  Transactional      Approve mentors  Transactional      Approve mentoring requests  Transactional      Approve time sheets  Transactional      Approve foundation object workflow requests  Transactional      Approve assignment offers  Transactional      Approve acceptance of assignment offers  Transactional      Approve assignment applications  Transactional      Approve assignment publishing  Transactional      Approve MDF workflow requests  Transactional      View job profile approvals  Transactional      View job requisition approvals  Transactional      View job offer approvals  Transactional      View talent pool nominee approvals  Transactional      View performance review forms  Navigational    For more information about the supported use cases, refer to About This Document.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-06-21
+Valid as Of: 2024-06-21
+Version: Cloud
+
+--- Record 114 ---
+Component: Joule
+Environment: Cloud Foundry
+Title: New Conversational Pattern and Use Cases Now Supported in SAP SuccessFactors
+Description: We now provide 25 new transactional cases, including "create position" and "generate compensation insights", and support the navigational pattern with 40 use cases, such as "create time off" and "view performance goals".
+Action: Recommended
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-05-17
+Valid as Of: 2024-05-17
+Version: Cloud
+
+--- Record 115 ---
+Component: Joule
+Environment: Cloud Foundry
+Title: Migration of Joule Application to IAS based Multitenancy
+Description: Joule application has been migrated to SAP Identity Authentication (IAS) and supports IAS multi-tenancy in addition to XSUAA. Joule now requires a trust configuration of type OpenID Connect with your Identity Authentication tenant. SAML-trusted IdPs for Joule will be supported for a short period after which the trust configuration of type OpenID Connect will be required.  If you are using SAML-trusted IdPs for Joule, you need to change the SAML trust configuration to an OIDC configuration. For more information, see Migration from SAML Trust to OpenID Connect Trust with Identity Authentication.   Ensure that you have configured the trusted domains in Identity Authentication as described in Configure Trusted Domains in Identity Authentication.Note  No action is needed if you are using OIDC trust set up for Joule.
+Action: Required
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-04-16
+Valid as Of: 2024-04-16
+Version: Cloud
+
+--- Record 116 ---
+Component: Joule
+Environment: Cloud Foundry
+Title: Data Center Availability
+Description: Joule is now available in Europe (Frankfurt) EU access only data center of AWS. See Data Centers Supported by Joule.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-04-12
+Valid as Of: 2024-04-12
+Version: Cloud
+
+--- Record 117 ---
+Component: Joule
+Environment: Cloud Foundry
+Title: Data Center Availability
+Description: Joule is now available in Australia (Sydney) data center of AWS. See Data Centers Supported by Joule.
+Action: Recommended
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-04-11
+Valid as Of: 2024-04-11
+Version: Cloud
+
+--- Record 118 ---
+Component: Joule
+Environment: Cloud Foundry
+Title: Enhancements to Joule in SAP SuccessFactors
+Description: We’ve made the following enhancements:  When you view someone's information, if there's only one match for the name, their information is now displayed directly without the need for confirmation. Previously, your confirmation was required before viewing their information.    In the use cases "View peers", "View direct reports", and "View manager", inactive users are now removed from the search result. Previously, they were displayed.      In the "Create spot award" use case, if users upload an oversized image for the spot award program, as a workaround, it is automatically replaced by a default image without affecting the award creation. Previously, awards with oversized images couldn’t be successfully created.    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-04-03
+Valid as Of: 2024-04-03
+Version: Cloud
+
+--- Record 119 ---
+Component: Joule
+Environment: Cloud Foundry
+Title: New Use Cases Now Supported in SAP SuccessFactors
+Description: The following transactional use cases are now supported for SAP SuccessFactors users:    Approve spot award       Create spot award      Clock in clock out      View pay statement      View pay statement (PDF)    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-02-07
+Valid as Of: 2024-02-07
+Version: Cloud
+

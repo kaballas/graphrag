@@ -1,130 +1,130 @@
 --- Record 81 ---
-Component: ABAP Environment
-Environment: ABAP
-Title: First SAP Data Center in Frankfurt
-Description: You can choose from a SAP Cloud Infrastructure region for the SAP BTP ABAP environment: Germany (Frankfurt).  For more information, see Regions and API Endpoints for the ABAP Environment.
+Component: Joule
+Environment: Cloud Foundry
+Title: New and Upgraded Use Cases Now Supported in SAP SuccessFactors
+Description: Based on the new conversational experience, we’ve introduced new use cases and upgraded more existing transactional cases. For details, refer to New and Upgraded Use Cases in Joule.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Human Resources
+Latest Revision: 2024-12-13
+Valid as Of: 2024-12-20
+Version: Cloud
+
+--- Record 82 ---
+Component: Joule
+Environment: Cloud Foundry
+Title: New Use Cases Now Supported in SAP S/4HANA Cloud Public Edition
+Description: The following Joule use cases are now available in SAP S/4HANA Cloud Public Edition:    Navigation to the most widely used apps in SAP S/4HANA Cloud Public Edition.      Viewing business data of the following objects:      Batch      Billing Document      Billing Document Request      Bill of Material      Business Partner      Change Master      Cost Center      Cost Center Activity Type      Customer      Customer Project      Customer Return      Customer Returns Delivery      Inbound Delivery      Inspection Lot      Internal Project      Maintenance Order      Material Document      Planned Order      Preliminary Billing Document      Product      Production Routing      Production Order      Production Order Confirmation      Quality Notification      Reservation Document      Sales Quotation      Service Confirmation      Service Quotation      Service Order      Situation      Supplier      Supplier Invoice      Worker          For a list of the supported business objects, their details, and sample requests, see Viewing Business Data.  Note  To access Joule within SAP S/4HANA Cloud Public Edition, an additional entitlement and authorization may be required. Please consult your account executive for more information.
 Action: Info only
 Lifecycle: General Availability
 Type: New
 Line of Business: Technology
-Latest Revision: 2025-09-11
-Valid as Of: 2025-09-19
-Version: ABAP Environment 2508
-
---- Record 82 ---
-Component: Connectivity
-Environment: Cloud Foundry
-Title: Cloud Connector - New Region
-Description: An additional region was added to SAP BTP:    eu01: Europe (Frankfurt) - SAP (EU access only)    For more information, see Cloud Connector: Prerequisites.  In case of questions please contact SAP Support.
-Action: Info only
-Lifecycle: General Availability
-Type: Announcement
-Line of Business: Technology
-Latest Revision: 2025-09-19
-Valid as Of: 2025-09-19
+Latest Revision: 2024-12-20
+Valid as Of: 2024-12-20
 Version: Cloud
 
 --- Record 83 ---
-Component: Connectivity
+Component: Joule
 Environment: Cloud Foundry
-Title: Destination Service - New Region
-Description: An additional region was added to SAP BTP:    eu01: Europe (Frankfurt) - SAP (EU access only)    For more information, see Configure Destination Service IPs in Firewall Rules.  In case of questions please contact SAP Support.
+Title: Use Cases Now Supported in Dispute Management for Contract Accounting in SAP S/4HANA Cloud Private Edition
+Description: The following transactional capabilities are now supported in Dispute Management for Contract Accounting in SAP S/4HANA Cloud Private Edition:    Dispute Resolution      Payment Resolution    
 Action: Info only
 Lifecycle: General Availability
-Type: Announcement
-Line of Business: Technology
-Latest Revision: 2025-09-19
-Valid as Of: 2025-09-19
+Type: New
+Line of Business: Finance
+Latest Revision: 2024-12-20
+Valid as Of: 2024-12-20
 Version: Cloud
 
 --- Record 84 ---
-Component: Region
+Component: Joule
 Environment: Cloud Foundry
-Title: Europe (Frankfurt) - EU Access Only
-Description: Europe (Frankfurt) - EU Access only (cf-eu01) is a new region running on SAP Cloud Infrastructure that is available for use with enterprise accounts. See Regions and API Endpoints Available for the Cloud Foundry Environment.
+Title: New Use Cases Now Supported for Cross- Area Capabilities in SAP S/4HANA Cloud Private Edition
+Description: The following transactional use cases is now supported in Cross-Area capabilities for SAP S/4HANA Cloud Private Edition:    Display Product Master data    
 Action: Info only
 Lifecycle: General Availability
 Type: New
 Line of Business: Technology
-Latest Revision: 2025-09-19
-Valid as Of: 2025-09-19
+Latest Revision: 2024-11-26
+Valid as Of: 2024-12-13
 Version: Cloud
 
 --- Record 85 ---
-Component: Region
+Component: Joule
 Environment: Cloud Foundry
-Title: Reminder: Additional NAT IP Range Added to Amazon Web Services Region us10
-Description: On June 26, 2025, SAP announced that an additional NAT IP address range (18.97.36.224/27) was added to the SAP BTP region us10 – US East (VA) running on AWS. This is a reminder that the range will start to be used from October 8, 2025.   Actions:      If your Cloud Foundry applications connect to systems that restrict access by allowlisting IPs in firewall rules, please adapt your configuration before October 8, 2025 by allowlisting the specified NAT IP address range.   Remove the following IP ranges from allowlisting between October 20, 2025 and October 24, 2025 if your Cloud Foundry applications connect to systems that restrict access by allowlisting IPs in firewall rules. This is necessary because these IP ranges will be released from SAP and returned to AWS for redistribution, which changes their availability. Removing these ranges helps prevent unauthorized access to your environments by other AWS clients.       IPs to remove from allowlist:    52.23.189.23      52.23.1.211      52.4.101.240      18.204.173.15      18.210.47.160      18.211.235.11      184.73.43.82      3.213.197.54      3.216.16.207      3.88.250.160      34.192.100.96      34.192.134.47      34.202.136.35      34.225.190.250      34.234.191.59      35.153.88.132      52.2.110.230      52.20.242.182      52.200.165.163      52.204.111.138      52.71.83.110      54.156.172.106      54.205.71.200      54.208.119.130      54.221.30.91      54.234.93.200      54.85.65.82      For additional reference, see the list of IPs in Regions and API Endpoints for the Cloud Foundry Environment. The changes described above will be reflected in the list on October 9, 2025.
-Action: Required
+Title: New Use Cases Now Supported for Procurement and Finance in SAP S/4HANA Cloud Private Edition
+Description: The following transactional use cases are now supported in Procurement and Finance for SAP S/4HANA Cloud Private Edition:    Create Purchase Requisitions:      Create purchase requisitions with or without material or service items      Show a list of materials      Show a list of source of suppliers          Change Purchase Orders:      Update the delivery date for all schedule line items in one or more purchase orders      Show the details of purchase order items      Show workflow approver emails          Process Invoice Reminders:      Show invoices      Show journal entry line items      Show supplier details      Show workflow approver emails      Remove payment blocks        
+Action: Info only
 Lifecycle: General Availability
-Type: Announcement
+Type: New
 Line of Business: Technology
-Latest Revision: 2025-09-18
-Valid as Of: 2025-09-18
+Latest Revision: 2024-12-13
+Valid as Of: 2024-12-13
 Version: Cloud
 
 --- Record 86 ---
-Component: Automation Pilot
+Component: Joule
 Environment: Cloud Foundry
-Title: Service Availability
-Description: SAP Automation Pilot is now also available in region Japan (Tokyo).
+Title: New Use Cases Now Supported for Product Lifecycle Management in SAP S/4HANA Cloud Private Edition
+Description: The following transactional use cases are now supported in Product Lifecycle Management for SAP S/4HANA Cloud Private Edition:    Bill of Material:    Fetch details of bills of material      Navigate to the Maintain Bill of Material app          Change Record:      Fetch details of change records        
 Action: Info only
 Lifecycle: General Availability
 Type: New
 Line of Business: Technology
-Latest Revision: 2025-09-18
-Valid as Of: 2025-09-18
+Latest Revision: 2024-11-28
+Valid as Of: 2024-12-13
 Version: Cloud
 
 --- Record 87 ---
-Component: Connectivity
-Environment: Cloud Foundry,Kyma
-Title: Connectivity Proxy for Kubernetes - Enhancement
-Description: Connectivity Proxy version 2.18.0 provides the following enhancement:  The Connectivity Proxy now supports ECDSA private keys when using mTLS passthrough or mTLS between Ingress and Proxy.
-Action: Info only
-Lifecycle: General Availability
-Type: Changed
-Line of Business: Technology
-Latest Revision: 2025-09-18
-Valid as Of: 2025-09-18
-Version: Cloud
-
---- Record 88 ---
-Component: Connectivity
-Environment: Cloud Foundry,Kyma
-Title: Connectivity Proxy for Kubernetes - New Features
-Description: Connectivity Proxy version 2.18.0 provides the following new features:    Added a configuration parameter (ipv6.preference.enabled) to let Java prefer IPv6 for outbound calls.For more information, see Configuration Guide.  Added support for the arm64 processor architecture.  
-Action: Info only
-Lifecycle: General Availability
-Type: Announcement
-Line of Business: Technology
-Latest Revision: 2025-09-18
-Valid as Of: 2025-09-18
-Version: Cloud
-
---- Record 89 ---
-Component: Connectivity
-Environment: Cloud Foundry,Kyma
-Title: Connectivity Proxy for Kubernetes - Security Fixes
-Description: Connectivity Proxy version 2.18.0 provides the following security fixes:    Fixed multiple OS vulnerabilities by removing or upgrading packages on the image.  Fixed multiple Java vulnerabilities by upgrading dependencies to a newer version.  
-Action: Info only
-Lifecycle: General Availability
-Type: Changed
-Line of Business: Technology
-Latest Revision: 2025-09-18
-Valid as Of: 2025-09-18
-Version: Cloud
-
---- Record 90 ---
-Component: Connectivity
+Component: Joule
 Environment: Cloud Foundry
-Title: Destination Service - Destination Chaining
-Description: Added a new chain that allows to perform a user token OAuth flow twice before using the end result towards the destination target.   For more information, see Sequential User Propagation Chain.
+Title: New Use Cases Now Supported in Enterprise Portfolio and Project Management for SAP S/4HANA Cloud Private Edition
+Description: The following transactional use cases are now supported in Enterprise Portfolio and Project Management for SAP S/4HANA Cloud Private Edition:    Display or change a Project in Project Builder or show in Project Definition App using Project ID or Description      Display or change WBS Element in Project Builder or show in WBS Element App using WBS Element ID or Description      Display or change Network in Project Builder or show in Network App using Network ID or Description    
 Action: Info only
 Lifecycle: General Availability
 Type: New
 Line of Business: Technology
-Latest Revision: 2025-09-18
-Valid as Of: 2025-09-18
+Latest Revision: 2024-11-26
+Valid as Of: 2024-12-13
+Version: Cloud
+
+--- Record 88 ---
+Component: Joule
+Environment: Cloud Foundry
+Title: New Use Cases Now Supported in Service for SAP S/4HANA Cloud Private Edition
+Description: The following transactional use cases are now supported in Service for SAP S/4HANA Cloud Private Edition:    Fetch service confirmation details  Fetch reference objects  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-02-14
+Valid as Of: 2024-12-13
+Version: Cloud
+
+--- Record 89 ---
+Component: Joule
+Environment: Cloud Foundry
+Title: Use Cases Now Supported in Asset Management for SAP S/4HANA Cloud Private Edition
+Description: The following transactional use cases are now supported in Asset Management for SAP S/4HANA Cloud Private Edition:    Display Maintenance Orders  Display Maintenance Notifications  Display Maintenance Jobs and Perform Activities on Jobs  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Asset Management
+Latest Revision: 2024-12-11
+Valid as Of: 2024-12-13
+Version: Cloud
+
+--- Record 90 ---
+Component: Joule
+Environment: Cloud Foundry
+Title: Use Cases Now Supported in Revenue Accounting and Reporting in SAP S/4HANA Cloud Private Edition
+Description: The following navigational capabilities are now supported in Revenue Accounting and Reporting in SAP S/4HANA Cloud Private Edition    Manage revenue accounting items      Manage revenue contracts      Revenue contract schedule      Combine revenue contracts      Reconcile revenue contracts    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-12-13
+Valid as Of: 2024-12-13
 Version: Cloud
 

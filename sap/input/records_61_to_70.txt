@@ -1,130 +1,130 @@
 --- Record 61 ---
-Component: Pricing Service
+Component: Joule
 Environment: Cloud Foundry
-Title: Extension Concept – Missing Check for Condition Unit in Extended Input
-Description: A missing check for the condition unit in extended input caused the process formula not to be executed. This issue has been corrected.
-Action: Info only
+Title: Electronic Document Error Explanations
+Description: The Manage Electronic Documents app now enables natural language interaction with Joule, making it easier to understand electronic document exchange errors. You can ask Joule for error explanations and recommended resolution steps. By providing detailed insights, SAP Joule helps you understand the root cause of errors and offers guidance on corrective actions.
+Action: Recommended
 Lifecycle: General Availability
-Type: Changed
+Type: New
 Line of Business: Technology
-Latest Revision: 2025-09-24
-Valid as Of: 2025-09-24
+Latest Revision: 2025-04-24
+Valid as Of: 2025-04-25
 Version: Cloud
 
 --- Record 62 ---
 Component: Joule
 Environment: Cloud Foundry
-Title: Enhanced Use Cases for Product Lifecycle Management in SAP S/4HANA Cloud Private Edition
-Description: The following transactional use cases were enhanced in Product Lifecycle Management for SAP S/4HANA Cloud Private Edition.    Change Record      Find change records based on related products and a combination of attributes      Summarize change records, including their description, type, status, responsible, and last changed on, and number of item types      Navigate to selected change records directly in the Manage Change Records app        
+Title: New Analytical Insights Capability in Joule with SAP Analytics Cloud
+Description: Joule, powered by SAP Analytics Cloud, now allows you to explore your data and gain insights into your business, in a natural, conversational experience. Using familiar business terms, simply ask your question, and the analytical insights capability will instantly provide answers about your data as simple charts and metrics.For more information on this capability, see Analytical Insights with SAP Analytics Cloud.
 Action: Info only
 Lifecycle: General Availability
 Type: New
-Line of Business: Technology
-Latest Revision: 2026-09-17
-Valid as Of: 2025-09-23
+Line of Business: Analytics
+Latest Revision: 2025-04-24
+Valid as Of: 2025-04-25
 Version: Cloud
 
 --- Record 63 ---
 Component: Joule
 Environment: Cloud Foundry
-Title: Enhancement to View Leave Balance - September 2025
-Description: SAP SuccessFactors has made an enhancement to the View leave balance use case.  For more information, refer to Enhancement to View Leave Balance - September 2025
+Title: New Transactional Capabilities Now Supported in SAP S/4HANA Cloud Public Edition
+Description: Joule now provides the following transactional capability for SAP S/4HANA Cloud Public Edition, Finance:    Create Fixed Asset Master Data    
 Action: Info only
 Lifecycle: General Availability
 Type: New
-Line of Business: Technology
-Latest Revision: 2025-09-22
-Valid as Of: 2025-09-23
+Line of Business: Finance
+Latest Revision: 2025-04-24
+Valid as Of: 2025-04-25
 Version: Cloud
 
 --- Record 64 ---
 Component: Joule
 Environment: Cloud Foundry
-Title: Joule Available for SAP Logistics Management
-Description: In SAP Logistics Management, you can now use Joule for several transactional, navigational, and informational use cases.
+Title: New Use Cases Now Supported for Subscription Order Management in SAP S/4HANA Cloud Private Edition
+Description:     Create subscription order: Joule enables users to create a subscription order using key attributes such as Transaction Type, Product, and Sold-to Party. Sales representatives can use Joule to update the recurring price, contract account, and technical resource details for a subscription order.   Joule further enables users to search for subscription orders using key attributes such as the Subscription Order ID, Product ID, Sold-to Party, and Contract Start Dates.       Search and summarize subscription contract: This capability enables users to retrieve subscription contract details based on key parameters such as the Sold-to Party, Product, Employee Responsible, Technical Resource, and start and end date range.   Joule enables users to view a summary of the subscription contract by displaying key attributes such as the Status, Price Details, Change History, Total Contract Value, and Important Notifications. The contract summary varies depending on the activation status of the subscription contract ensuring users receive accurate information based on the current state of the contract lifecycle.     For more information, see Subscription Order Management.
 Action: Info only
 Lifecycle: General Availability
 Type: New
 Line of Business: Technology
-Latest Revision: 2025-09-22
-Valid as Of: 2025-09-23
+Latest Revision: 2025-04-24
+Valid as Of: 2025-04-18
 Version: Cloud
 
 --- Record 65 ---
 Component: Joule
 Environment: Cloud Foundry
-Title: Manage business partner certificates in SAP S/4HANA Cloud Private Edition
-Description: The following transactional and read use cases are now supported to manage business partner certificate data in SAP S/4HANA Cloud Private Edition:  Show the business partner certificates configured for a country.  Show the business partner certificates maintained for a business partner for a country.  Show the certificates that are missing for a business partner for a country/region.  List the business partners who don't have mandatory certificates required for a country.  List the business partners based on different certificate details, such as certificate ID or certificate validity and expiry dates.   Exempt a business partner from holding a mandatory certificate.   Extend the validity of a business partner's certificate.    For more information, refer to Managing Business Partner Certificates.
+Title: New Use Cases Now Supported in Service for SAP S/4HANA Cloud Private Edition
+Description: The following transactional and navigational use cases are now supported in Service for SAP S/4HANA Cloud Private Edition:    Search and display service orders  Release service orders and service order items  Navigate to service order details  
 Action: Info only
 Lifecycle: General Availability
 Type: New
 Line of Business: Technology
-Latest Revision: 2025-09-22
-Valid as Of: 2025-09-23
+Latest Revision: 2025-04-16
+Valid as Of: 2025-04-18
 Version: Cloud
 
 --- Record 66 ---
 Component: Joule
 Environment: Cloud Foundry
-Title: Managing Supplier Invoices in SAP S/4HANA Cloud Public Edition
-Description: You can now use Joule to release supplier invoices in SAP S/4HANA Cloud Public Edition. You can ask Joule to release a supplier invoice that is blocked for payment.
+Title: Joule in SAP BTP cockpit
+Description: Joule is now available in SAP BTP cockpit. It helps platform administrators ask questions related to their BTP resources, such as users or the runtime environment, in the cockpit.  You can ask Joule what it can do for you, either by typing the question directly or selecting the quick start button. For example, Joule can provide you with information about your global accounts or subaccounts:      List your global accounts of subaccounts and see details      See available regions      You can ask Joule to provide you with information about users:      Get details about global account or subaccount users      View users and their permissions      List role collections for your global account or subaccount      Joule in the BTP cockpit can also assist you with administrative tasks related to Cloud Foundry:      View available Cloud Foundry environments      List Cloud Foundry instances or spaces      See the Cloud Foundry org or space users      You can also ask questions about SAP BTP Services or the cockpit. Joule references the SAP BTP documentation, summarize its findings, and links to relevant help content.  For more information, see What's New for SAP Business Technology Platform and Account Administration Using Joule in the Cockpit.
 Action: Info only
 Lifecycle: General Availability
 Type: New
-Line of Business: Sourcing and Procurement
-Latest Revision: 2025-09-22
-Valid as Of: 2025-09-23
+Line of Business: Technology
+Latest Revision: 2025-04-04
+Valid as Of: 2025-04-04
 Version: Cloud
 
 --- Record 67 ---
 Component: Joule
 Environment: Cloud Foundry
-Title: New Use Cases Now Supported for Cash and Liquidity Management in SAP S/4HANA Cloud Public Edition
-Description: The following use case are now supported in Cash and Liquidity Management for SAP S/4HANA Cloud Public Edition:  Displaying Cash Positions  Making Bank Transfers  
+Title: Joule Multi Language Support
+Description: Joule now supports multiple languages.  Joule Multi Language Support ensures users experience Joule in their desired language, providing localized messages, product data, and more. It automatically adopts the language configured within the SAP application, and can understand languages other than those officially supported. For more information about language support, see Joule Multi Language Support.
 Action: Info only
 Lifecycle: General Availability
 Type: New
 Line of Business: Technology
-Latest Revision: 2025-09-22
-Valid as Of: 2025-09-23
+Latest Revision: 2025-04-04
+Valid as Of: 2025-04-04
 Version: Cloud
 
 --- Record 68 ---
-Component: Joule
+Component: Joule,SAP BTP Cockpit
 Environment: Cloud Foundry
-Title: New Use Cases Now Supported in Sales for SAP S/4HANA Cloud Private Edition
-Description: The following transactional Joule capabilities are now supported in SAP S/4HANA Cloud Private Edition 2023 FPS01 release onwards:      Perform Release and Acceptance of Solution Quotations: Joule allows you to release, accept, or perform both actions together on solution quotations.      Fetch Solution Quotation Information: Joule enables you to fetch information about solution quotations based on the input criteria provided.      For more information, refer to  and , respectively.
+Title: General Availability for Joule in SAP BTP Cockpit
+Description: After a limited beta program, Joule in SAP BTP cockpit is now generally available with its first set of capabilities. It helps platform administrators ask questions related to their BTP resources, such as users or the runtime environment, in the cockpit.   Check out this demo video for a quick overview of how to start working with Joule.  You can ask Joule what it can do for you, either by typing the question directly or selecting the quick start button. For example, Joule can provide you with information about your global accounts or subaccounts:  List your global accounts of subaccounts and see details  See available regions    You can ask Joule to provide you with information about users:  Get details about global account or subaccount users  View users and their permissions  List role collections for your global account or subaccount    Joule in the BTP cockpit can also assist you with administrative tasks related to Cloud Foundry:  View available Cloud Foundry environments  List Cloud Foundry instances or spaces  See the Cloud Foundry org or space users    You can also ask questions about SAP BTP Services or the cockpit. Joule references the SAP BTP documentation, summarize its findings, and links to relevant help content.  Joule general availability is currently being rolled out in stages to global accounts during the second quarter of 2025. If Joule is available for your global account, the Global Account Administrator will first need to enable Joule in the Global Account settings by accepting the legal Terms and Conditions for Generative AI. Only then will the Joule icon appear in the cockpit tool header.  For more information, see Account Administration Using Joule in the Cockpit
 Action: Info only
 Lifecycle: General Availability
 Type: New
 Line of Business: Technology
-Latest Revision: 2025-10-20
-Valid as Of: 2025-09-23
+Latest Revision: 2025-04-01
+Valid as Of: 2025-04-04
 Version: Cloud
 
 --- Record 69 ---
 Component: Joule
 Environment: Cloud Foundry
-Title: New Use Cases Now Supported in SAP S/4HANA Cloud Public Edition
-Description: Joule now enables you to view business data of the following objects in SAP S/4HANA Cloud Public Edition:  Condition Records for Pricing in Sales    For a list of the supported business objects, their details, and sample requests, see Viewing Business Data.
+Title: Document Grounding Capability - Pipeline Processing Statuses for Documents
+Description: You can now use the following Pipeline API endpoints of the document grounding capability to get pipeline processing statuses for documents:    GET <url>/pipeline/api/v1/pipeline/{pipelineId}/executions/{executionId}/documents      GET <url>/pipeline/api/v1/pipeline/{pipelineId}/executions/{executionId}/documents/{documentId}      GET <url>/pipeline/api/v1/pipeline/{pipelineId}/documents      GET <url>/pipeline/api/v1/pipeline/{pipelineId}/documents/{documentId}      See Get Pipeline Status.
 Action: Info only
 Lifecycle: General Availability
 Type: New
 Line of Business: Technology
-Latest Revision: 2025-09-19
-Valid as Of: 2025-09-23
+Latest Revision: 2025-04-03
+Valid as Of: 2025-04-03
 Version: Cloud
 
 --- Record 70 ---
-Component: Kyma Runtime
-Environment: Kyma
-Title: Istio module: Update to version 1.21.0
-Description: We've updated the Istio version to 1.27.1. To learn about new features, bug fixes, and changes in this release, read the Istio 1.27 release announcement and Upgrade Notes.Caution  Since version 1.27, Istio injects the Istio proxy as an init container by default. In this release, the Istio module's operator disables this behavior to maintain compatibility. Disabling this behavior is a temporary measure and will be removed with Istio module 1.22. After this, sidecar proxies will be injected as init containers by default. For more information, see Istio Proxy as Native Sidecar Container.  The Istio module now supports installation with Istio images injected into the installer from environment variables. This allows for more flexible deployments, especially in environments where images are not available in a public registry. See issue #1519.  Additionally, this release contains the following bug fixes:  We've fixed a bug where the proxy-protocol EnvoyFilter applied by the Istio module on AWS clusters with ELB load balancers was incorrectly detected as a user resource. This resulted in the Istio custom resource being set to the Warning state. See issue #1491.  We've fixed a bug where labels of the Istio managed resources were not correctly reconciled. See issue #1523.  We've fixed a bug where the app.kubernetes.io/version label was not set to the proper version in the managed resources. See issue #1523.  We've fixed a bug where Istio sidecar injected as initContainer was not removed during Istio uninstallation. See issue #1555.  
+Component: Joule
+Environment: Cloud Foundry
+Title: Creating Insights Cards with Joule in SAP S/4HANA Cloud Public Edition
+Description: Joule now enables you to create a list or table insights card from within an app and add it to your My Home page. For more information, see Creating Insights Cards.
 Action: Info only
 Lifecycle: General Availability
-Type: Changed
+Type: New
 Line of Business: Technology
-Latest Revision: 2025-09-08
-Valid as Of: 2025-09-22
+Latest Revision: 2025-03-26
+Valid as Of: 2025-03-26
 Version: Cloud
 

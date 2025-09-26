@@ -1,130 +1,130 @@
 --- Record 41 ---
-Component: SAP Java Buildpack
+Component: Joule,SAP BTP Cockpit
 Environment: Cloud Foundry
-Title: Version 2.40.0
-Description: SAP Java Buildpack 2 has been updated from version 2.39.0 to 2.40.0. Updated components:       Tomcat 10 is updated from version 10.1.44 to 10.1.45      com.sap.core.connectivity.jco is updated from version 5.0.1 to 5.0.2      com.sap.cloud.security.xsuaa is updated from version 3.6.3 to 3.6.4    
+Title: Joule Enhances Navigation in SAP BTP Cockpit
+Description: Joule now offers navigational scenarios in the BTP cockpit, guiding users to specific pages. Currently, navigation is limited to exporting subaccount users and accessing Cloud Foundry spaces.   This feature streamlines the user experience by providing direct navigation to relevant sections, enhancing efficiency and ease of use. For more information, see Account Administration Using Joule in the Cockpit.
 Action: Info only
 Lifecycle: General Availability
-Type: Changed
+Type: New
 Line of Business: Technology
-Latest Revision: 2025-09-20
-Valid as Of: 2025-10-01
+Latest Revision: 2025-06-03
+Valid as Of: 2025-06-11
 Version: Cloud
 
 --- Record 42 ---
-Component: SAP BTP Administrator's Guide
-Environment: ABAP,Cloud Foundry,Kyma,Other
-Title: Updated Shared Responsibility Model
-Description: In alignment with the learning journey for administrators, we've updated the Shared Responsibility Model Between You and SAP.
+Component: Joule
+Environment: Cloud Foundry
+Title: Analytical Insights Capability - Support for SAP Datasphere analytic models in an SAP Business Data Cloud formation.
+Description: Analytic models from SAP Datasphere are now supported by the analytical insights capability in Joule. Your SAP Datasphere system must be part of an SAP Business Data Cloud formation that includes your SAP Analytics Cloud system and Joule.
 Action: Info only
 Lifecycle: General Availability
-Type: Announcement
+Type: New
 Line of Business: Technology
-Latest Revision: 2025-09-25
-Valid as Of: 2025-09-29
+Latest Revision: 2025-05-31
+Valid as Of: 2025-05-31
 Version: Cloud
 
 --- Record 43 ---
-Component: SAP Build Work Zone, advanced edition
+Component: Joule
 Environment: Cloud Foundry
-Title: Content Displayed on SAP Mobile Start
-Description: We’ve corrected the unintended behavior of content in the different view modes of Groups and Spaces and Pages when using SAP Mobile Start.   Now when accessing a site on SAP Mobile Start, only the content that is relevant to the selected view mode is displayed.
+Title: Checking sales order fulfillment status in SAP S/4HANA Cloud Public Edition
+Description: Joule allows you to check whether a sales order's fulfillment is on track and identify the issues that block its fulfillment. For each sales order, Joule can tell whether such issues exist in the order processing phase. If yes, you can display issue details, view possible causes and handling suggestions for each issue, and navigate to related apps.  For more information on this capability, see Sales Order Status Check.
 Action: Info only
 Lifecycle: General Availability
-Type: Changed
-Line of Business: Technology
-Latest Revision: 2025-09-16
-Valid as Of: 2025-09-29
-Version: 2509A
+Type: New
+Line of Business: Sales
+Latest Revision: 2025-05-30
+Valid as Of: 2025-05-31
+Version: Cloud
 
 --- Record 44 ---
-Component: SAP Build Work Zone, standard edition
+Component: Joule
 Environment: Cloud Foundry
-Title: Content Displayed on SAP Mobile Start
-Description: We’ve corrected the unintended behavior of content in the different view modes of Groups and Spaces and Pages when using SAP Mobile Start.   Now when accessing a site on SAP Mobile Start, only the content that is relevant to the selected view mode is displayed.
+Title: Expiring Prices Handling in SAP S/4HANA Cloud Public Edition
+Description: Joule now enables you to manage expiring prices (stored as condition records for pricing in sales) in SAP S/4HANA Cloud Public Edition. With Joule, you can fetch prices that will expire soon, extend their valid-to dates, and adjust their condition amounts or ratios as you need.
 Action: Info only
 Lifecycle: General Availability
-Type: Changed
-Line of Business: Technology
-Latest Revision: 2025-09-16
-Valid as Of: 2025-09-29
-Version: 2509A
+Type: New
+Line of Business: Sales
+Latest Revision: 2025-05-30
+Valid as Of: 2025-05-31
+Version: Cloud
 
 --- Record 45 ---
-Component: Cloud Integration for Data Services
-Environment: Kyma
-Title: New Type of User for Agent Registration
-Description: For increased security, you now use a new type of user called an Agent user to register a Data Services Agent. For more information, see User Administration and Registering an Agent in the Web Interface.
-Action: Required
+Component: Joule
+Environment: Cloud Foundry
+Title: Joule Available in SAP SuccessFactors Mobile apps
+Description: You can now use Joule, SAP's AI copilot, inSAP SuccessFactors Mobile apps. For more information, see Joule Available in SAP SuccessFactors Mobile
+Action: Info only
 Lifecycle: General Availability
 Type: New
-Line of Business: Database and Data Management
-Latest Revision: 2025-09-08
-Valid as Of: 2025-09-25
-Version: 2509
+Line of Business: Technology
+Latest Revision: 2025-05-31
+Valid as Of: 2025-05-31
+Version: Cloud
 
 --- Record 46 ---
-Component: Cloud Integration for Data Services
-Environment: Kyma
-Title: "DSOD" No Longer Appears in the URL for SAP Cloud Integration for data services
-Description: "DSOD" has been removed from the URL for SAP Cloud Integration for data services on SAP BTP, Kyma runtime. The following documentation has been modified:  Finish Setting Up a Standard User  Creating a Client to Use Web Services  Accessing the WSDL File  Agent Diagnostics Available via the Command Line  
-Action: Info only
-Lifecycle: General Availability
-Type: Changed
-Line of Business: Database and Data Management
-Latest Revision: 2025-08-19
-Valid as Of: 2025-09-25
-Version: 2509
-
---- Record 47 ---
-Component: Cloud Integration for Data Services
-Environment: Kyma,Neo
-Title: Announcement: User Interface Supporting Migration from the Neo Environment to Kyma Runtime
-Description: In the Administration user interface of SAP Cloud Integration for data services, an Off-Neo Migration workflow is being rolled out. Once enabled for you, the workflow guides you through the process of migrating from the Neo environment to the Kyma runtime. You will receive an SAP Customer Communication with details about the availability of this workflow in your system. The Tenant Migration Guide and in particular UI Location and Visibility of the Tenant Migration Request contain helpful information about the workflow.
-Action: Info only
-Lifecycle: General Availability
-Type: Announcement
-Line of Business: Database and Data Management
-Latest Revision: 2025-07-09
-Valid as Of: 2025-09-25
-Version: 2509
-
---- Record 48 ---
-Component: Cloud Integration for Data Services
-Environment: Kyma,Neo
-Title: Documentation update only: Compilation of Security Recommendations
-Description: Security-related recommendations that appear in various places within the SAP Cloud Integration for data services documentation set have been compiled into an easily readable table in Security Recommendations.
+Component: Joule
+Environment: Cloud Foundry
+Title: Joule Now Available in SAP Digital Manufacturing
+Description: Joule is now available in SAP Digital Manufacturing for informational use cases. You have conversational access to the product documentation for SAP Digital Manufacturing. Just enter your query or question in plain natural language, and Joule searches the product documentation to find the answer. Joule summarizes the search results in the background. This summarization is then displayed to you as the answer to your question, along with the top three search results. If you select the title link of a result, you're taken directly to the relevant topic on SAP Help Portal.
 Action: Info only
 Lifecycle: General Availability
 Type: New
-Line of Business: Database and Data Management
-Latest Revision: 2025-08-18
-Valid as Of: 2025-09-25
-Version: 2509
+Line of Business: Technology
+Latest Revision: 2025-05-31
+Valid as Of: 2025-05-31
+Version: Cloud
+
+--- Record 47 ---
+Component: Joule
+Environment: Cloud Foundry
+Title: Joule Transactional Use Cases are now Enabled for Cash Management Capabilities in SAP S/4HANA Cloud Private Edition
+Description: You can now use Joule to provide comprehensive cash management capabilities, including monitoring bank statements, analyzing cash flow, and initiating bank transfers. This feature is essential for efficiently managing finances, identifying cash shortages, and maintaining a clear overview of financial activities.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-05-31
+Valid as Of: 2025-05-31
+Version: Cloud
+
+--- Record 48 ---
+Component: Joule
+Environment: Cloud Foundry
+Title: New Use Case Now Supported for Field Logistics in SAP S/4HANA Cloud Private Edition
+Description: The following transactional use case is now supported in Field Logistics for SAP S/4HANA Cloud Private Edition:      Fetch Quantity for a Non-Stock Item    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-05-31
+Valid as Of: 2025-05-31
+Version: Cloud
 
 --- Record 49 ---
-Component: Cloud Integration for Data Services
-Environment: Kyma,Neo
-Title: Documentation update only: Do Not Use Standard Users for Web Services
-Description: User Administration has been updated to reflect that standard users should not be used for web services.
+Component: Joule
+Environment: Cloud Foundry
+Title: New Use Cases Available in SAP SuccessFactors
+Description: The following Joule use cases are now available in SAP SuccessFactors:      View current roles      View target roles      View offboarding tasks      View enrolled benefits      Explain pay statement      For more information, see SAP SuccessFactors What's New for Joule.
 Action: Info only
 Lifecycle: General Availability
-Type: Changed
-Line of Business: Database and Data Management
-Latest Revision: 2025-09-19
-Valid as Of: 2025-09-25
-Version: 2509
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-05-31
+Valid as Of: 2025-05-31
+Version: Cloud
 
 --- Record 50 ---
-Component: Cloud Integration for Data Services
-Environment: Kyma,Neo
-Title: Documentation update only: End of Support for Azure Data Lake Storage Gen1
-Description: Due to Microsoft's having ended support of Azure Data Lake Storage Gen1 in early 2024, SAP Cloud Integration for data services will end support of Gen1 in an early 2026 release. We recommend, as does Microsoft, that you use ADLS Gen2 instead. For more information, see Moving from ADLS Gen1 to Gen2.
+Component: Joule
+Environment: Cloud Foundry
+Title: New Use Cases Now Supported in SAP S/4HANA Cloud Public Edition
+Description: Joule now enables you to view business data of the following objects in SAP S/4HANA Cloud Public Edition:  Work Center  Resource    For a list of the supported business objects, their details, and sample requests, see Viewing Business Data.
 Action: Info only
 Lifecycle: General Availability
-Type: Announcement
-Line of Business: Database and Data Management
-Latest Revision: 2025-07-09
-Valid as Of: 2025-09-25
-Version: 2509
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-05-31
+Valid as Of: 2025-05-31
+Version: Cloud
 

@@ -1,130 +1,130 @@
 --- Record 71 ---
-Component: SAP AI Core
+Component: Joule
 Environment: Cloud Foundry
-Title: Generative AI hub
-Description: New models are supported, including Mistral Medium Instruct, and Cohere Reasoning A Command.For more information, see SAP Note 3437766 .
+Title: New Use Cases Now Supported in SAP S/4HANA Cloud Public Edition
+Description: Joule now enables you to view business data of the following objects in SAP S/4HANA Cloud Public Edition:    Inspection Method      Master Inspection Characteristic      Enterprise Project      Process Order Confirmation      Solution Order      Service Contract      For a list of the supported business objects, their details, and sample requests, see Viewing Business Data.
 Action: Info only
 Lifecycle: General Availability
-Type: Announcement
+Type: New
 Line of Business: Technology
-Latest Revision: 2025-09-22
-Valid as Of: 2025-09-22
+Latest Revision: 2025-03-26
+Valid as Of: 2025-03-26
 Version: Cloud
 
 --- Record 72 ---
-Component: SAP Advanced Financial Closing
+Component: Joule
 Environment: Cloud Foundry
-Title: Restrictions for Deprecated Reporting Apps
-Description: With the release planned to be made available in February 2026, further restrictions will apply to the following reporting apps:  Financial Close Overview (Deprecated)  Closing Task Completion (Deprecated)    These apps have already been deprecated. As of February 2026, the data shown in these two apps will be restricted to task lists that were generated before February 18, 2024.  More information:  Reporting  Apps affected:  Financial Close Overview (Deprecated)  Closing Task Completion (Deprecated)    Action: If you haven't done so yet, switch to the reporting approach based on task execution and overall level. For more information, see Reporting on Task Execution and Task Overall Level.
-Action: Required
-Lifecycle: General Availability
-Type: Announcement
-Line of Business: Finance
-Latest Revision: 2025-09-08
-Valid as Of: 2025-09-21
-Version: Cloud
-
---- Record 73 ---
-Component: SAP Advanced Financial Closing
-Environment: Cloud Foundry
-Title: Switch to Shared Environments for SAP Build Process Automation Integration
-Description: Due to an upcoming change in SAP Build Process Automation, the integration now needs to be set up with a destination and a shared environment, instead of a public environment.  More information:  How to Set Up the SAP Build Process Automation Integration for SAP Advanced Financial Closing  Area affected: Integration with SAP Build Process Automation  Action: If you've already set up an integration with SAP Build Process Automation, you need to adjust the setup to work with a shared environment instead of a public one.
-Action: Required
-Lifecycle: General Availability
-Type: Changed
-Line of Business: Finance
-Latest Revision: 2025-09-08
-Valid as Of: 2025-09-21
-Version: Cloud
-
---- Record 74 ---
-Component: SAP Advanced Financial Closing
-Environment: Cloud Foundry
-Title: Tile in SAP S/4HANA Cloud Public Edition for Direct Navigation to SAP Advanced Financial Closing
-Description: With the 2508 release of SAP S/4HANA Cloud Public Edition, users can now be authorized to see the Manage Advanced Financial Closing tile on their launchpad in SAP S/4HANA Cloud Public Edition. This tile allows them to navigate to SAP Advanced Financial Closing directly from within SAP S/4HANA Cloud Public Edition.  More information:  How to Add the Launchpad Tile in SAP S/4HANA Cloud Public Edition  Area affected: Integration with systems of type SAP S/4HANA Cloud Public Edition  Action: If you want to make use of this tile for direct navigation, the communication arrangement needs to be set up accordingly. If you've already set up the communication arrangement, you need to adjust it to facilitate the direct navigation. For more information about the settings required for the communication arrangement, see How to Create a Communication System.
-Action: Required
-Lifecycle: General Availability
-Type: Changed
-Line of Business: Finance
-Latest Revision: 2025-09-08
-Valid as Of: 2025-09-21
-Version: Cloud
-
---- Record 75 ---
-Component: SAP Advanced Financial Closing
-Environment: Cloud Foundry
-Title: UI Changes for Tables and Themes
-Description: With a new version of UI5 now being used, several changes have been implemented. We've consolidated the changes in a separate document for you.  More information:  New UI5 Version - September 2025 What's New Document  Apps affected: All apps  Action: Changes to the support of UI themes require an action from your side if you've been using the affected themes. Check the What's New document linked above for more information.
-Action: Recommended
-Lifecycle: General Availability
-Type: New
-Line of Business: Finance
-Latest Revision: 2025-09-08
-Valid as Of: 2025-09-21
-Version: Cloud
-
---- Record 76 ---
-Component: Edge Integration Cell
-Environment: Cloud Foundry
-Title: Component Configuration Name Change
-Description: With the Java 8 update to Java 17, the former JBP_CONFIG_SAPJVM configuration parameter for the worker component changed its name to JBP_CONFIG_SAP_MACHINE_JRE.  See: Runtime Parameters
+Title: New Use Cases Now Supported in SAP SuccessFactors
+Description: The following Joule use cases are now available in SAP SuccessFactors:    Change "To Be Hired" Status of Position      Change Working Time for Position      For more information, refer to New Use Cases Available in Joule - March 2025.
 Action: Info only
 Lifecycle: General Availability
 Type: New
 Line of Business: Technology
-Latest Revision: 2025-09-21
-Valid as Of: 2025-09-21
-Version: 2508
+Latest Revision: 2025-03-26
+Valid as Of: 2025-03-26
+Version: Cloud
 
---- Record 77 ---
-Component: SAP Advanced Financial Closing
+--- Record 73 ---
+Component: Joule
 Environment: Cloud Foundry
-Title: Additional Language Available for User Interface and In-App Help
-Description: Vietnamese has been added to the language scope of the user interface and accordingly to the in-app help.  The language can be set either by selecting it in the language settings in SAP Advanced Financial Closing or - when using the Browser Language setting - by deriving it from the browser settings.  More information:  Language Scope  Apps affected: All apps
+Title: Navigational and Transactional Capabilities Support Extended to SAP S/4HANA Cloud Private Edition FPS02 and FPS01.
+Description: Navigational and transactional capabilities for SAP S/4HANA Cloud Private Edition FPS03 are now also supported in FPS02 and FPS01.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2025-03-27
+Valid as Of: 2025-03-25
+Version: Cloud
+
+--- Record 74 ---
+Component: Joule
+Environment: Cloud Foundry
+Title: New Use Cases Now Supported in Sales for SAP S/4HANA Cloud Private Edition
+Description: The following transactional use cases are now supported in Sales for SAP S/4HANA Cloud Private Edition:   Mass Change of Sales Orders   Sales Order Header  Set Delivery Block  Remove Delivery Block  Set Billing Block  Remove Billing Block  Reject Sales Orders  Cancel Rejection  Set Requested Delivery Date  Change Payment Terms  Change Order Reason  Change Billing Date  Change Shipping Condition  Update Price  Change Pricing Date    Sales Order Item  Set Delivery Block  Remove Delivery Block  Set Billing Block  Remove Billing Block  Reject Sales Orders  Cancel Rejection  Change Plant    Schedule Line  Set Delivery Block  Remove Delivery Block  Set Requested Delivery Date  Set Schedule Line Category    
 Action: Info only
 Lifecycle: General Availability
 Type: New
-Line of Business: Finance
-Latest Revision: 2025-09-08
-Valid as Of: 2025-09-21
+Line of Business: Technology
+Latest Revision: 2025-03-27
+Valid as Of: 2025-03-25
+Version: Cloud
+
+--- Record 75 ---
+Component: Joule
+Environment: Cloud Foundry
+Title: Document Grounding Capability - Support for Documents in JPEG, JPG, PNG, and TIFF File Formats
+Description: The document grounding capability now supports documents in the following file formats:  JPEG  JPEG  JPG  TIFF    See Set Up Document Grounding.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-02-10
+Valid as Of: 2025-02-10
+Version: Cloud
+
+--- Record 76 ---
+Component: Joule
+Environment: Cloud Foundry
+Title: Data Center Availability
+Description: Joule is now available in the Sydney, Australia data center of Microsoft Azure. For more information about data centers, see Data Centers Supported by Joule.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-02-07
+Valid as Of: 2025-02-07
+Version: Cloud
+
+--- Record 77 ---
+Component: Joule
+Environment: Cloud Foundry
+Title: Data Center Availability
+Description: Joule is now available in the Singapore data center of AWS. See Data Centers Supported by Joule.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-01-30
+Valid as Of: 2025-01-30
 Version: Cloud
 
 --- Record 78 ---
-Component: SAP Advanced Financial Closing
+Component: Joule
 Environment: Cloud Foundry
-Title: Custom Time-Related Parameter Rules
-Description: In your communication system, new parameter rules will be delivered by SAP. These rules will cover the cases of 12 fiscal periods prior to and later than the key date. The rules will be delivered with the following releases:  SAP S/4HANA 2025, SP01  SAP S/4HANA 2023, SP05    Additionally, we've added documentation about how you can create custom time-related parameter rules for your ABAP programs.  More information:  How to Maintain Custom Parameter Rules  Area affected: ABAP programs in communication systems
+Title: Roles based access for the Joule Standalone Web Client
+Description: Roles based access has been introduced for the Joule Standalone Web Client.  You will be able to login to the Standalone Joule Web Client only if you have the end_user or capability_developer role assigned in SAP BTP.  The login will fail, if the required role is missing. 
 Action: Info only
 Lifecycle: General Availability
 Type: New
-Line of Business: Finance
-Latest Revision: 2025-09-08
-Valid as Of: 2025-09-21
+Line of Business: Technology
+Latest Revision: 2025-01-29
+Valid as Of: 2025-01-29
 Version: Cloud
 
 --- Record 79 ---
-Component: SAP Advanced Financial Closing
+Component: Joule
 Environment: Cloud Foundry
-Title: External Job Environment Details for Workflow Tasks
-Description: In the following locations, you can now find the details of the external job environment in SAP Build Process Automation:  Value help during task creation  Task details page in task list template and task list    More information:    How to Create Tasks  How to Process Tasks    Apps affected:  Manage Closing Task Lists  Process Closing Tasks  
+Title: All SAP SuccessFactors Use Cases Upgraded to New Conversational Experience in Joule
+Description: Based on the new conversational experience, SAP SuccessFactors has introduced a new transactional use case and upgraded all remaining cases. For more information, refer to All Use Cases Upgraded to New Conversational Experience in Joule.
 Action: Info only
 Lifecycle: General Availability
-Type: New
-Line of Business: Finance
-Latest Revision: 2025-09-08
-Valid as Of: 2025-09-21
+Type: Changed
+Line of Business: Human Resources
+Latest Revision: 2025-01-17
+Valid as Of: 2025-01-27
 Version: Cloud
 
 --- Record 80 ---
-Component: SAP Advanced Financial Closing
+Component: Joule
 Environment: Cloud Foundry
-Title: Navigation to Workflow Definitions in SAP Build Process Automation
-Description: From the task details of workflow tasks, you can now navigate directly to the latest workflow definition in SAP Build Process Automation. To do this, use the Navigate to External System button in the header of the task details page.  More information:  How to Create Tasks  App affected:  Manage Closing Task Lists
+Title: Document Grounding Capability - Support to Destination Configuration with OAuth2ClientCredentials Authentication
+Description: The document grounding capability now supports OAuth2ClientCredentials authentication when you create a destination configuration in the SAP BTP cockpit.  See Configure Access from SAP BTP.
 Action: Info only
 Lifecycle: General Availability
 Type: New
-Line of Business: Finance
-Latest Revision: 2025-09-08
-Valid as Of: 2025-09-21
+Line of Business: Technology
+Latest Revision: 2025-01-15
+Valid as Of: 2025-01-13
 Version: Cloud
 

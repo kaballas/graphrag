@@ -1,0 +1,130 @@
+--- Record 1 ---
+Component: Joule
+Environment: Cloud Foundry
+Title: Document Grounding Capability - Pipelines
+Description: You can now upload a maximum number of 3000 documents per pipeline with the document grounding capability.  See Set Up Content Ingestion.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-09-25
+Valid as Of: 2025-09-25
+Version: Cloud
+
+--- Record 2 ---
+Component: Joule
+Environment: Cloud Foundry
+Title: Document Grounding Capability - Support for Images and Tables Embedded in PDF Documents
+Description: The document grounding capability supports now images and tables embedded in PDF documents.  See Set Up Document Grounding.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-09-25
+Valid as Of: 2025-09-25
+Version: Cloud
+
+--- Record 3 ---
+Component: Joule
+Environment: Cloud Foundry
+Title: Enhanced Use Cases for Product Lifecycle Management in SAP S/4HANA Cloud Private Edition
+Description: The following transactional use cases were enhanced in Product Lifecycle Management for SAP S/4HANA Cloud Private Edition.    Change Record      Find change records based on related products and a combination of attributes      Summarize change records, including their description, type, status, responsible, and last changed on, and number of item types      Navigate to selected change records directly in the Manage Change Records app        
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2026-09-17
+Valid as Of: 2025-09-23
+Version: Cloud
+
+--- Record 4 ---
+Component: Joule
+Environment: Cloud Foundry
+Title: Enhancement to View Leave Balance - September 2025
+Description: SAP SuccessFactors has made an enhancement to the View leave balance use case.  For more information, refer to Enhancement to View Leave Balance - September 2025
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-09-22
+Valid as Of: 2025-09-23
+Version: Cloud
+
+--- Record 5 ---
+Component: Joule
+Environment: Cloud Foundry
+Title: Joule Available for SAP Logistics Management
+Description: In SAP Logistics Management, you can now use Joule for several transactional, navigational, and informational use cases.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-09-22
+Valid as Of: 2025-09-23
+Version: Cloud
+
+--- Record 6 ---
+Component: Joule
+Environment: Cloud Foundry
+Title: Manage business partner certificates in SAP S/4HANA Cloud Private Edition
+Description: The following transactional and read use cases are now supported to manage business partner certificate data in SAP S/4HANA Cloud Private Edition:  Show the business partner certificates configured for a country.  Show the business partner certificates maintained for a business partner for a country.  Show the certificates that are missing for a business partner for a country/region.  List the business partners who don't have mandatory certificates required for a country.  List the business partners based on different certificate details, such as certificate ID or certificate validity and expiry dates.   Exempt a business partner from holding a mandatory certificate.   Extend the validity of a business partner's certificate.    For more information, refer to Managing Business Partner Certificates.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-09-22
+Valid as Of: 2025-09-23
+Version: Cloud
+
+--- Record 7 ---
+Component: Joule
+Environment: Cloud Foundry
+Title: Managing Supplier Invoices in SAP S/4HANA Cloud Public Edition
+Description: You can now use Joule to release supplier invoices in SAP S/4HANA Cloud Public Edition. You can ask Joule to release a supplier invoice that is blocked for payment.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Sourcing and Procurement
+Latest Revision: 2025-09-22
+Valid as Of: 2025-09-23
+Version: Cloud
+
+--- Record 8 ---
+Component: Joule
+Environment: Cloud Foundry
+Title: New Use Cases Now Supported for Cash and Liquidity Management in SAP S/4HANA Cloud Public Edition
+Description: The following use case are now supported in Cash and Liquidity Management for SAP S/4HANA Cloud Public Edition:  Displaying Cash Positions  Making Bank Transfers  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-09-22
+Valid as Of: 2025-09-23
+Version: Cloud
+
+--- Record 9 ---
+Component: Joule
+Environment: Cloud Foundry
+Title: New Use Cases Now Supported in Sales for SAP S/4HANA Cloud Private Edition
+Description: The following transactional Joule capabilities are now supported in SAP S/4HANA Cloud Private Edition 2023 FPS01 release onwards:      Perform Release and Acceptance of Solution Quotations: Joule allows you to release, accept, or perform both actions together on solution quotations.      Fetch Solution Quotation Information: Joule enables you to fetch information about solution quotations based on the input criteria provided.      For more information, refer to  and , respectively.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-10-20
+Valid as Of: 2025-09-23
+Version: Cloud
+
+--- Record 10 ---
+Component: Joule
+Environment: Cloud Foundry
+Title: New Use Cases Now Supported in SAP S/4HANA Cloud Public Edition
+Description: Joule now enables you to view business data of the following objects in SAP S/4HANA Cloud Public Edition:  Condition Records for Pricing in Sales    For a list of the supported business objects, their details, and sample requests, see Viewing Business Data.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-09-19
+Valid as Of: 2025-09-23
+Version: Cloud
+
