@@ -1,4 +1,7 @@
-# Copyright (c) 2025 Microsoft Corporation.
-# Licensed under the MIT License
+"""FNLLM provider module with runtime patches applied."""
 
-"""FNLLM provider module."""
+from .patches import apply_patches
+
+apply_patches()
+
+__all__ = ["apply_patches"]
