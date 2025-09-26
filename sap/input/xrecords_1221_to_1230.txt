@@ -1,0 +1,130 @@
+--- Record 1221 ---
+Component: Cloud Integration
+Environment: Cloud Foundry
+Title: New Statuses in Temporary Storage Chart
+Description: Statuses are now included in the Temporary Storage chart in the Inspect feature.See: Inspect Temporary Storage
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-03-16
+Valid as Of: 2025-03-16
+Version: 2501
+
+--- Record 1222 ---
+Component: Cloud Integration
+Environment: Cloud Foundry
+Title: Software Version Update
+Description:   SAP Cloud Integration: 8.27.*    Increment: 2501    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-03-16
+Valid as Of: 2025-03-16
+Version: 2501
+
+--- Record 1223 ---
+Component: Cloud Integration
+Environment: Cloud Foundry
+Title: Software Version Update
+Description:   SAP Cloud Integration: 6.63.*    Increment: 2501    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-03-16
+Valid as Of: 2025-03-16
+Version: 2501
+
+--- Record 1224 ---
+Component: Cloud Integration
+Environment: Neo
+Title: Software Version Update
+Description:   SAP Cloud Integration: 5.71.*    Adapter Development Kit for SAP Cloud Integration: 2.53.*      Increment: 2501    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-03-16
+Valid as Of: 2025-03-16
+Version: 2501
+
+--- Record 1225 ---
+Component: Cloud Integration
+Environment: Neo
+Title: Software Version Update
+Description:   SAP Cloud Integration: 7.36.*    Adapter Development Kit for SAP Cloud Integration: 2.53.*      Increment: 2501      The software version 7.36.* is being rolled out in a phased approach. All tenants running on software version 5.71.* would be automatically moved to 7.36.* or a higher version available at that point of time, in the near future.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-03-16
+Valid as Of: 2025-03-16
+Version: 2501
+
+--- Record 1226 ---
+Component: SAP Advanced Financial Closing
+Environment: Cloud Foundry
+Title: Create Task from Model Dialog Enhanced
+Description: The Create Task from Model dialog has been enhanced so that you can now run a search for a task model while keeping other models selected.  App affected:  Manage Closing Task Lists
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Finance
+Latest Revision: 2025-03-03
+Valid as Of: 2025-03-16
+Version: Cloud
+
+--- Record 1227 ---
+Component: SAP Advanced Financial Closing
+Environment: Cloud Foundry
+Title: Default Value for Approval Type Mass Changes
+Description: When you change the approval type of several tasks in a mass action, the default value Completed Approval Required is now set as soon as you choose Replace Field Value. You can, of course, still change this value before saving.  App affected:  Manage Closing Task Lists
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Finance
+Latest Revision: 2025-03-03
+Valid as Of: 2025-03-16
+Version: Cloud
+
+--- Record 1228 ---
+Component: SAP Advanced Financial Closing
+Environment: Cloud Foundry
+Title: Draft Exists Column Added
+Description: The new column Draft Exists allows you to sort, filter, and export data based on folder editing statuses in the closing structure. The column has been added to several tables on task list header and closing structure level.  You can still find detailed information about a draft, such as who created the draft, in the Editing Status column where available.  Tip  To use the new column efficiently, you can update your existing views to add the new column to them, or create new views that include this column.  More information:  Draft Handling  App affected:  Manage Closing Task Lists
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Finance
+Latest Revision: 2025-03-03
+Valid as Of: 2025-03-16
+Version: Cloud
+
+--- Record 1229 ---
+Component: SAP Advanced Financial Closing
+Environment: Cloud Foundry
+Title: Language Scope for Documentation on the SAP Help Portal Increased
+Description: The entire SAP Help Portal documentation for SAP Advanced Financial Closing is now available to you in several additional languages. The additional language versions are provided by SAP's machine translation. To change the language of the documentation, simply select the desired language from the dropdown menu next to the guide's title:            More information:  Language Scope  Area affected: Entire SAP Help Portal documentation for SAP Advanced Financial Closing
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Finance
+Latest Revision: 2025-03-03
+Valid as Of: 2025-03-16
+Version: Cloud
+
+--- Record 1230 ---
+Component: SAP Advanced Financial Closing
+Environment: Cloud Foundry
+Title: New App for Task Model Management
+Description: The new app Manage Task Models has now been released. The app offers an overview of the task models available in each communication system, allowing you to find detailed information about task models, task model types, and job variants. Additionally, you can use the overview of parameters for the different job variants for comparison purposes.  Stay tuned for more functions to come.  Note  Your communication system must fulfill specific requirements for the task model management feature to be available. You can find this information under System-Dependent Feature Availability.  More information:  Manage Task Models  Task Model Management Scope  How to View Task Models  Task Models    App affected:  Manage Task Models
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Finance
+Latest Revision: 2025-03-03
+Valid as Of: 2025-03-16
+Version: Cloud
+

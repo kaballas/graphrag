@@ -1,0 +1,130 @@
+--- Record 631 ---
+Component: Continuous Integration & Delivery
+Environment: Cloud Foundry
+Title: Update of Toolbox Image
+Description: The image used to execute additional commands now runs with a Node 22 version. For more information on additional commands, see Add Additional Commands to Stages.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-06-18
+Valid as Of: 2025-06-18
+Version: Cloud
+
+--- Record 632 ---
+Component: Identity Provisioning
+Environment: Neo
+Title: Job Execution Outcome introduced
+Description: The Job Execution Outcome is now displayed on the Job Execution Details screen and included in the job notifications. It appears when delta-read jobs and jobs that fail to read entities from the source system affect the deletion of entities in the target system.  For more information, see Monitor Provisioning Job Logs.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-06-18
+Valid as Of: 2025-06-18
+Version: Cloud
+
+--- Record 633 ---
+Component: Identity Provisioning
+Environment: Neo
+Title: SAP Revenue Growth Management connector
+Description: Identity Provisioning supports the SAP Revenue Growth Management connector. You can configure it as source, target, and proxy system for your provisioning scenarios.  For more information, see:    SAP Revenue Growth Management (Source)  SAP Revenue Growth Management (Target)  SAP Revenue Growth Management (Proxy)  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-06-18
+Valid as Of: 2025-06-18
+Version: Cloud
+
+--- Record 634 ---
+Component: Identity Provisioning
+Environment: Neo
+Title: Support for extension enterprise schema for users
+Description: The extension enterprise schema has been defined in the default write and proxy write transformations of SAP Concur.  For more information, see SAP Concur.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-06-18
+Valid as Of: 2025-06-18
+Version: Cloud
+
+--- Record 635 ---
+Component: Identity Provisioning
+Environment: Neo
+Title: Support for SAP extension schema for groups
+Description: The default transformations of the following connectors support attributes from the SAP extension schema for groups, including application ID, type, and supported operations.  For more information, see:    SAP Integrated Business Planning  SAP Intelligent Agriculture  SAP Jam Collaboration  
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-06-18
+Valid as Of: 2025-06-18
+Version: Cloud
+
+--- Record 636 ---
+Component: Identity Provisioning
+Environment: Neo
+Title: System reset confirmation message extended
+Description: The UI message prompting confirmation for system reset has been expanded to include typical cases when a reset is necessary.  For more information, see Reset Identity Provisioning System.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-06-18
+Valid as Of: 2025-06-18
+Version: Cloud
+
+--- Record 637 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: API Gateway module: Update to version 3.1.1
+Description: Release 3.1.0 of the API Gateway module changes the stored version of APIRule to v2alpha1. This change is part of the migration process towards the v2 version, which will eventually result in removing the v1beta1 version.   This releases also contains the following improvements:    We've fixed behavior of in-cluster connectivity when using JWT handler in APIRule. Now, in-cluster connectivity is blocked.   We've fixed the extAuth handler not being scoped to a particular host.  We've fixed reconciliation of convertible APIRules.  When converting APIRule to version v2, the original-version annotation is not set if it's already present in the APIRule.  The order of rules in the APIRule Custom Resource is important. Rules defined earlier in the list have a higher priority than those defined later. For more information, see Significance of Rule Path Order.  
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-06-16
+Valid as Of: 2025-06-18
+Version: Cloud
+
+--- Record 638 ---
+Component: SAP Task Center
+Environment: Cloud Foundry
+Title: SAP Field Service Management Supported as Task Provider
+Description: You can now connect SAP Field Service Management as task provider to SAP Task Center. For more information, see Connect SAP Field Service Management and SAP Task Center.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-06-18
+Valid as Of: 2025-06-18
+Version: Cloud
+
+--- Record 639 ---
+Component: UI Theme Designer
+Environment: Cloud Foundry
+Title: Theme Transport using SAP Content Agent Service.
+Description: You can now manage theme transport in the SAP BTP, Cloud Foundry environment using the SAP Content Agent service, which is integrated with the SAP Cloud Transport Management system. This integration enables you to define transport routes and automate the transfer of themes between different landscapes and subaccounts. For more information, see Transport Using SAP Content Agent Service.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2025-06-17
+Version: Cloud
+
+--- Record 640 ---
+Component: UI Theme Designer
+Environment: Cloud Foundry,Neo
+Title: Theming Base Content for CF and Neo.
+Description: The base theming content is updated to version 11.31.0. Review the changes at https://github.com/SAP/theming-base-content/releases.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2025-06-17
+Version: Cloud
+

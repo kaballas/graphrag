@@ -1,0 +1,130 @@
+--- Record 2721 ---
+Component: SAP Advanced Financial Closing
+Environment: Cloud Foundry
+Title: Recommended Use of New Reporting Apps
+Description: In February 2024, four new reporting apps were released offering reporting data in Task View apps and Organizational Unit View apps.  Task View apps offer reporting based on the task overall status, while Organizational Unit View apps offer reporting based on the task execution status of each organizational unit. Additionally, Organizational Unit View apps allow you to perform reporting based on company code groups, independently of country/region assignments.  Remember  For these new apps, the following new static role templates are available that need to be assigned to users so they can access the new apps:  For the Task View apps: AFC_ReportingTaskView  For the Organizational Unit View apps: AFC_ReportingOrgUnitView    These apps are accompanied by the Manage Company Code Groups app that allows you to create, edit, and delete company code groups to support reporting based on task execution level.  Recommendation  Use the new reporting apps for task lists released as of February 18, 2024.  More information:  Reporting on Task Execution and Task Overall Level  Apps affected:  Financial Close Overview (Deprecated)  Closing Task Completion (Deprecated)  Financial Close Overview - Task View  Closing Task Completion - Task View  Financial Close Overview - Organizational Unit View  Closing Task Completion - Organizational Unit View  Manage Company Code Groups    Action: If you haven't done so yet, start using the new reporting apps offered as Task View apps and Organizational Unit View apps.
+Action: Recommended
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Finance
+Latest Revision: 2024-06-07
+Valid as Of: 2024-06-23
+Version: Cloud
+
+--- Record 2722 ---
+Component: SAP Advanced Financial Closing
+Environment: Cloud Foundry
+Title: Add System Wizard Updated
+Description: In the Add System wizard that guides you through the individual steps to add a communication system to your closing structure, you can now also find the country/region information of the organizational units in step 2.  App affected:  Manage Closing Task Lists
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Finance
+Latest Revision: 2024-06-07
+Valid as Of: 2024-06-23
+Version: Cloud
+
+--- Record 2723 ---
+Component: SAP Advanced Financial Closing
+Environment: Cloud Foundry
+Title: Additional Domain for SAP Advanced Financial Closing
+Description: SAP Advanced Financial Closing is now accessible under an additional domain. The new domain will be the default domain for all new tenants. There is no impact on existing tenants.  More information:  Accessing SAP Advanced Financial Closing
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Finance
+Latest Revision: 2024-06-07
+Valid as Of: 2024-06-23
+Version: Cloud
+
+--- Record 2724 ---
+Component: SAP Advanced Financial Closing
+Environment: Cloud Foundry
+Title: Deactivation of Tasks
+Description: You can now deactivate tasks to exclude them from future task lists generated from the template. This allows you to keep tasks in the task list template including all settings, assignments, and dependencies, while still excluding them from task lists generated from the template. You can later reactivate tasks to include them in future task lists again.  Additionally, the Task Activation Status information has been introduced in relevant places in the Manage Closing Task Lists app as field or column respectively.  Furthermore, deactivated tasks appear differently in the dependency graphs. Instead of a solid line as frame, they have dashed lines:  For now, the task activation status for all existing tasks has automatically been set to Active, so that they're still included in task lists you generate as of now.  More information:  How to Deactivate and Activate Tasks  App affected:  Manage Closing Task Lists
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Finance
+Latest Revision: 2024-06-07
+Valid as Of: 2024-06-23
+Version: Cloud
+
+--- Record 2725 ---
+Component: SAP Advanced Financial Closing
+Environment: Cloud Foundry
+Title: Handling of Job Scheduling upon Task List Deletion
+Description: When you delete a task list, a cancellation request for scheduled jobs is sent to the communication systems.  Remember  Some jobs may still run if the cancellation is no longer possible.  More information:  How to Delete Task List Templates and Task Lists  App affected:  Manage Closing Task Lists
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Finance
+Latest Revision: 2024-06-07
+Valid as Of: 2024-06-23
+Version: Cloud
+
+--- Record 2726 ---
+Component: SAP Advanced Financial Closing
+Environment: Cloud Foundry
+Title: New App for General Settings Available
+Description: The new Manage General Settings app has now been released. This app allows you to make settings that apply to objects throughout SAP Advanced Financial Closing. For now, you can make settings for the archiving times of task lists.  More information:  How to Manage General Settings  App affected:  Manage General Settings
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Finance
+Latest Revision: 2024-06-07
+Valid as Of: 2024-06-23
+Version: Cloud
+
+--- Record 2727 ---
+Component: SAP Advanced Financial Closing
+Environment: Cloud Foundry
+Title: Offset and Planned Start Maintenance Changed
+Description: You're now able to directly edit the planned start date and time of a task in a task list. This means you no longer need to adjust the offset of a task to achieve an adjustment of the planned start. You now maintain a task's offset in task list templates only.  App affected:  Manage Closing Task Lists
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Finance
+Latest Revision: 2024-06-07
+Valid as Of: 2024-06-23
+Version: Cloud
+
+--- Record 2728 ---
+Component: SAP Advanced Financial Closing
+Environment: Cloud Foundry
+Title: Sorting of Task Execution Results
+Description: The sorting of task execution results has been improved. If a job has multiple task execution results, the results will now be sorted based on the following criteria:  Task status:On the top, you find tasks that have failed and tasks with errors, then tasks with warnings, and at the end tasks without errors or warnings.  Organizational unit:Within each status group, the organizational units are arranged in alphabetical order.When relevant, the hierarchical organizational structure will be displayed in each entry in the task execution results.    App affected:  Process Closing Tasks
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Finance
+Latest Revision: 2024-06-07
+Valid as Of: 2024-06-23
+Version: Cloud
+
+--- Record 2729 ---
+Component: SAP Advanced Financial Closing
+Environment: Cloud Foundry
+Title: System Behavior when Editing Dependencies Changed
+Description: When you edit the dependencies of a task and you try to navigate to another task using the dependency graph without saving your changes, you now get a warning message. This message informs you that your changes will be lost if you go to the other task without saving your changes first.  App affected:  Manage Closing Task Lists
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Finance
+Latest Revision: 2024-06-07
+Valid as Of: 2024-06-23
+Version: Cloud
+
+--- Record 2730 ---
+Component: SAP Advanced Financial Closing
+Environment: Cloud Foundry
+Title: Task List Templates and Task List Tables Adjusted
+Description: The tables showing task list templates and task lists in the Manage Closing Task Lists app have been adjusted to provide a better user experience. Columns that aren't required for either task lists or templates have been removed from the corresponding tables:    For task list templates, the following table columns have been removed:  Closing Key Date  Closing Type  Fiscal Year  Fiscal Year Period  Is Production Task List  Posting Period  Task List Status  Restored On    For task lists, the following table columns have been removed:  Consistency Check Status  Last Passed Consistency Check      App affected:  Manage Closing Task Lists
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Finance
+Latest Revision: 2024-06-07
+Valid as Of: 2024-06-23
+Version: Cloud
+

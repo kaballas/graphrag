@@ -1,0 +1,130 @@
+--- Record 611 ---
+Component: SAP Advanced Financial Closing
+Environment: Cloud Foundry
+Title: User Group Information
+Description: On several screens where you find the name of user groups (for example, a user group being assigned to a task or folder), you can now find additional information about the user group. The following information is available in a pop-over on the user group name:  User group name  User group description  Table listing the group members with the following information:  User name  User ID  Email address  Phone number (if available in the user profile)  Mobile phone number (if available in the user profile)      More information:  Legal Basis for Data Processing  Apps affected: Several apps where user group information is displayed.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Finance
+Latest Revision: 2025-06-09
+Valid as Of: 2025-06-22
+Version: Cloud
+
+--- Record 612 ---
+Component: SAP AI Launchpad
+Environment: Cloud Foundry
+Title: Generative AI hub
+Description: New models are supported, including Nova Premier from AWS Bedrock.For more information, see SAP Note 3437766 .
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2025-06-21
+Valid as Of: 2025-06-21
+Version: Cloud
+
+--- Record 613 ---
+Component: SAP Translation Hub
+Environment: Cloud Foundry
+Title:   Support for LLM-based translation in Software Translation  
+Description:   Software translation workflow and editor: File and git projects now support LLM-based translation as additional translation provider, using Large Language Models via SAP's generative AI hub  APIs: LLM-based translation support was also added to the Translate API (synchronous) and the following project APIs: file project and git project API.  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-06-18
+Valid as Of: 2025-06-20
+Version: Cloud
+
+--- Record 614 ---
+Component: Application Frontend Service
+Environment: Cloud Foundry
+Title: Availability in the SAP BTP Trial
+Description: Application Frontend is available in the cf-us10- region of the SAP BTP trial.  Trial accounts are limited to five applications per subaccount.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-06-23
+Valid as Of: 2025-06-19
+Version: Cloud
+
+--- Record 615 ---
+Component: Cloud Integration
+Environment: Cloud Foundry
+Title: Shopify Receiver Adapter Available
+Description: Shopify receiver adapter is available now. It facilitates connectivity with Shopify GrpahQL and REST Admin APIs.  See:   Shopify Receiver Adapter  Shopify GraphQL Receiver Adapter  Shopify REST Receiver Adapter.    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-06-19
+Valid as Of: 2025-06-19
+Version: 2504
+
+--- Record 616 ---
+Component: Decentralized Identity Verification
+Environment: Cloud Foundry
+Title: Automated Credential Request Processing
+Description: Credential requests can now be automatically processed if the verifiable credential is already issued..
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2025-06-19
+Version: 3.10
+
+--- Record 617 ---
+Component: Decentralized Identity Verification
+Environment: Cloud Foundry
+Title: Extend DCP Presentation to Standard Changes
+Description: The DCP presentation flow specification has changed, and we have included support for type
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2025-06-19
+Version: 3.10
+
+--- Record 618 ---
+Component: Decentralized Identity Verification
+Environment: Cloud Foundry
+Title: Filter Credential Requests Received Based on the Status
+Description: You can now filter the list of received credential requests by their status.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2025-06-19
+Version: 3.10
+
+--- Record 619 ---
+Component: Decentralized Identity Verification
+Environment: Cloud Foundry
+Title: Support of the Additional Key Type Capability Invocation
+Description: You can now use a new key type, Capability Invocation, which allows identities to generate tokens for securely sharing Verifiable Presentations.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2025-06-19
+Version: 3.10
+
+--- Record 620 ---
+Component: Continuous Integration & Delivery
+Environment: Cloud Foundry
+Title: Discontinuation of Node 18 Jobs
+Description: Jobs that use Node 18 build tool versions no longer work.  Action: Please upgrade your jobs to newer build tool versions. See Supported Tools.
+Action: Required
+Lifecycle: Deleted
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-06-18
+Valid as Of: 2025-06-18
+Version: Cloud
+

@@ -1,0 +1,130 @@
+--- Record 781 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: API Gateway module: Update to version 3.0.4
+Description: This release contains the following improvements:  We've unified extensibility views for APIGateway and APIRule custom resources in Busola.  Now, the order of rules in the APIRule custom resource is important. Rules defined earlier in the list have a higher priority than those defined later. For more information, see Significance of Rule Path Order.  
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-05-22
+Valid as Of: 2025-05-26
+Version: Cloud
+
+--- Record 782 ---
+Component: Pricing Service
+Environment: Cloud Foundry
+Title: Pricing - Access with Multiple Multi-Valued Attributes
+Description: An access sequence that includes an access with multiple multi-valued attributes, such as KOMP-VARCOND and KOMP-COCO_NUM, used to lead to an unexpected system error. This issue has been corrected.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-06-02
+Valid as Of: 2025-05-26
+Version: Cloud
+
+--- Record 783 ---
+Component: Cloud Integration
+Environment: Cloud Foundry
+Title: Google PubSub Adapter supports WIF(Workload Identity Federation) authentication and On-Premise Connectivity.
+Description: A new version 1.1.0 of Google PubSub adapter is available now.  See: Google PubSub Adapter
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-05-23
+Valid as Of: 2025-05-23
+Version: 2503
+
+--- Record 784 ---
+Component: Joule
+Environment: Cloud Foundry
+Title: Document Grounding Capability - Support for Documents in TXT File Format
+Description: The document grounding capability now supports documents in TXT file format.  See Set Up Document Grounding.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-05-23
+Valid as Of: 2025-05-23
+Version: Cloud
+
+--- Record 785 ---
+Component: UI Theme Designer
+Environment: Cloud Foundry,Neo
+Title: Theming Base Content for CF and Neo.
+Description: The base theming content is updated to version 11.30.0. Review the changes at https://github.com/SAP/theming-base-content/releases.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2025-05-23
+Version: Cloud
+
+--- Record 786 ---
+Component: SAP BTP
+Environment: Cloud Foundry
+Title: Connect with SAP Cloud Application Event Hub
+Description: You can now integrate the SAP Cloud Application Event Hub to exchange events that are distributed between the SAP cloud applications in your landscape.See Connect with SAP Cloud Application Event Hub.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-05-22
+Valid as Of: 2025-05-22
+Version: Cloud
+
+--- Record 787 ---
+Component: SAP Build
+Environment: Cloud Foundry
+Title: Store - New Content Packages
+Description: A new set of content packages (Business and Learning contents) has been added to the store in the months of March, April, and May 2025.  Explore these content packages designed for various lines of business, such as Human Resources and SAP S/4HANA Finance.     Note  Content packages in the SAP Business Accelerator Hub display a 'New date of Publish' due to maintenance activities. However, there are no new versions of the packages, even though the publishing date is updated to April 2025.    Learning Content:  Assignment Management & Time Tracking Reports in SAP CATS    Business Content:    US Tax Exemption Certificates Management (SAP S/4HANA Cloud, Private Edition and SAP S/4HANA On-Premise)  Customer Business Discontinuation Accounts Receivable    SAP Build – Actions:  Flexible Workflow Scenario Notification Action  The following Live Process Package you see has been transformed into a process template and released. The previous Live process package is now deprecated. See Fixed Asset Write Off Approval (SAP S/4HANA Cloud, Private edition and SAP S/4HANA On-Premise)  A new version of the content packages listed here has been released:     Free Form Payment Approval process (Note that only the ‘Configuration guide’ has been updated.)      Fixed Asset Transfer Approval (Bug fix completed)      The following Live Process Packages have been deprecated without any successors:    Reconnection Process      Disconnection Process      Leased Asset Termination Approval      Disconnection Process      Non Operated Joint Venture Cash Call Approval      Handle Tenant Move In Reversal      Automation of customer data validation process in SAP Utilities       Automation of Customer service request creation process in SAP Utilities       Sample SAP Application Interface Framework: SAP Workflow Service Integration      The following Live Process Packages have been deprecated with successors:    Document Centric Approval Process      Manage Purchase Order Approval and Creation      Ariba Purchase Requisitions Approval      Purchase Requisition Header Approval and Release    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-05-22
+Valid as Of: 2025-05-22
+Version: Cloud
+
+--- Record 788 ---
+Component: Pricing Service
+Environment: Cloud Foundry
+Title: Production - Document Pricing – Closing of Pricing Session
+Description: The endpoint POST /closeSession used to be used to remove pricing documents from the HTTP session. This is no longer required because of improved resource management. The endpoint will be removed with release 2605.  Action: If called from your application, remove that call before the May release in 2026.  See  API Definition and Development Guide for SAP Variant Configuration and Pricing - Production.
+Action: Required
+Lifecycle: Deprecated
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-04-16
+Valid as Of: 2025-05-21
+Version: Cloud
+
+--- Record 789 ---
+Component: Variant Configuration
+Environment: Cloud Foundry
+Title: Production - Configurations API – Closing of Configuration Session
+Description: The endpoint POST /closeSession used to be used to remove configurations from the HTTP session. This is no longer required because of improved resource management. The endpoint will be removed with release 2605.  Action: If called from your application, remove that call before the May release in 2026.  See API Definition and Development Guide for SAP Variant Configuration and Pricing - Production.
+Action: Required
+Lifecycle: Deprecated
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-04-15
+Valid as Of: 2025-05-21
+Version: Cloud
+
+--- Record 790 ---
+Component: Variant Configuration
+Environment: Cloud Foundry
+Title: Production – Configurations API – Limit the Number of Conflicts
+Description: There is a new query parameter called conflictsTop for endpoints like GET /configurations/{configurationId}. Use the new query parameter to specify the maximum number of conflicts that should be calculated and returned.  Action: Set conflictsTop=0 to suppress conflict calculation and improve performance if conflicts are of no interest for the consuming application.  See API Definition and Development Guide for SAP Variant Configuration and Pricing - Production.
+Action: Recommended
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-04-15
+Valid as Of: 2025-05-21
+Version: Cloud
+

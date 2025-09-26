@@ -1,0 +1,130 @@
+--- Record 3911 ---
+Component: Cloud Integration Automation Service
+Environment: Cloud Foundry
+Title: New Integration Scenario
+Description: Introducing a new integration scenario - Connectivity Setup of Real-Time Integration (RTI) in SAP Integrating Business Planning (IBP).Using this scenario, you can integrate master data and transactional data from your SAP S/4HANA or SAP ERP system to SAP IBP order-based planning in near real-time without using batch jobs.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2023-11-10
+Version: Cloud
+
+--- Record 3912 ---
+Component: Process Visibility Capability
+Environment: Cloud Foundry
+Title: Cluster View in Process Workspace
+Description: You can now group instances based on attributes to analyze the process performance. See Gain Visibility Using Process Workspace.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-11-10
+Valid as Of: 2023-11-10
+Version: Cloud
+
+--- Record 3913 ---
+Component: SAP Build Apps
+Environment: Cloud Foundry
+Title: Preview
+Description:   SAP Build Apps mobile preview upgraded to version 4.9.11.  Enabled mobile preview support for SAP Authentication and SAP Destinations.  Enabled mobile support for sample data.    Fix for “Internal property change” event not triggering from repeated composite component.      Fix for marker list with formula binding and app crash issues with “Embedded map view (beta)” component.      Fix for failing to open regular page from modal page.      Fix for flow functions not working properly when navigation menu is disabled.      Fix for true/false value in nested object not getting changed via checkbox.      Fixes for component opacity functionality.      Fix for Lottie animation having a white background.      Fix dropdown's initial value "Select option" not working.      Fix for text decoration color and decoration style issues.      Fix for showing remaining audio loops and playing audio from a cached file.    
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2023-11-10
+Version: Cloud
+
+--- Record 3914 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Process Visibility - Business Events
+Description: You can now view the business events consumed by SAP Build Process Automation in the Acquired Events tile. See Manage Events.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-11-09
+Valid as Of: 2023-11-10
+Version: Cloud
+
+--- Record 3915 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Process Visibility - Cluster View
+Description: You can now group instances based on attributes to analyze the process performance. See Gain Visibility Using Process Workspace.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-11-09
+Valid as Of: 2023-11-10
+Version: Cloud
+
+--- Record 3916 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: New Generative AI Tutorial
+Description: The tutorial Use Trial to Extract Information from Custom Documents with Generative AI and SAP Document AI is now available.  Learn how to use SAP Document AI with generative AI to automate the extraction of information from custom document types using large language models (LLMs).
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-11-10
+Valid as Of: 2023-11-10
+Version: Cloud
+
+--- Record 3917 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Removal of the Monitoring component
+Description: As announced in January 2023 (see blog post and What's New), the Prometheus/Grafana installation that is part of the Monitoring component has been deprecated. The removal will happen with Kyma release 2.20.  Required action: If you haven’t started the transition to alternative solutions yet, please do it now. With the removal, you will lose the ability to browse for metrics in Grafana or call the Prometheus API directly.
+Action: Required
+Lifecycle: Deleted
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2023-09-04
+Valid as Of: 2023-11-09
+Version: Cloud
+
+--- Record 3918 ---
+Component: SAP Omnichannel Promotion Pricing
+Environment: Cloud Foundry
+Title: Additional Extensibility Scenario Including the Customizing of Sequence and Resolution Determination
+Description: You can now add custom logic to SAP Omnichannel Promotion Pricing by implementing extensions.   With the new extension, sequence and resolution can be determined automatically by a customer-specific implementation to simplify and optimize the maintenance of promotions.  For more information, see Getting Started with Extensibility for SAP Omnichannel Promotion Pricing and Automatic Determination of Sequence and Resolution in the new Extensibility Guide for SAP Omnichannel Promotion Pricing.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2022-01-01
+Valid as Of: 2023-11-09
+Version: Cloud
+
+--- Record 3919 ---
+Component: SAP Omnichannel Promotion Pricing
+Environment: Cloud Foundry
+Title: Data Access Service Supports OData V4
+Description: The Data Access service for SAP Omnichannel Promotion Pricing now also supports OData V4. With this, you can search for certain promotions assigned to specific subentities.  For more information, see Data Access.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2022-01-01
+Valid as Of: 2023-11-09
+Version: Cloud
+
+--- Record 3920 ---
+Component: SAP Omnichannel Promotion Pricing
+Environment: Cloud Foundry
+Title: Deletion of All Regular Prices
+Description: You can now delete all regular prices by using the new parameter cleanUpAll in combination with currentTimestamp.  For more information, see Administration.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2022-01-01
+Valid as Of: 2023-11-09
+Version: Cloud
+

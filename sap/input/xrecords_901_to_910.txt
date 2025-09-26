@@ -1,0 +1,130 @@
+--- Record 901 ---
+Component: Cloud Integration
+Environment: Cloud Foundry
+Title: Enhancement in Message Mapping Import
+Description: You can now import a message mapping from Enterprise Repository, which has imported archives as dependent object.   See Importing Message Mapping as an Artifact  SAP Cloud Integration customers, see Importing Message Mapping as an Artifact
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-05-11
+Valid as Of: 2025-05-11
+Version: 2503
+
+--- Record 902 ---
+Component: Cloud Integration
+Environment: Cloud Foundry
+Title: RFC Adapter in Edge Integration Cell runtime
+Description: You can now use RFC adapter in Edge Integration Cell runtime.   See RFC Adapter.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-05-11
+Valid as Of: 2025-05-11
+Version: 2503
+
+--- Record 903 ---
+Component: Cloud Integration
+Environment: Cloud Foundry
+Title: Software Version Update
+Description:   SAP Cloud Integration: 8.29.*    Increment: 2503    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-05-11
+Valid as Of: 2025-05-11
+Version: 2503
+
+--- Record 904 ---
+Component: Cloud Integration
+Environment: Cloud Foundry
+Title: Software Version Update
+Description:   SAP Cloud Integration: 6.65.*    Increment: 2503    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-05-11
+Valid as Of: 2025-05-11
+Version: 2503
+
+--- Record 905 ---
+Component: Cloud Integration
+Environment: Neo
+Title: Software Version Update
+Description:   SAP Cloud Integration: 5.73.*    Adapter Development Kit for SAP Cloud Integration: 2.53.*      Increment: 2503    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-05-11
+Valid as Of: 2025-05-11
+Version: 2503
+
+--- Record 906 ---
+Component: Cloud Integration
+Environment: Neo
+Title: Software Version Update
+Description:   SAP Cloud Integration: 7.38.*    Adapter Development Kit for SAP Cloud Integration: 2.53.*      Increment: 2503      The software version 7.38.* is being rolled out in a phased approach. All tenants running on software version 5.73.* would be automatically moved to 7.38.* or a higher version available at that point of time, in the near future.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-05-11
+Valid as Of: 2025-05-11
+Version: 2503
+
+--- Record 907 ---
+Component: Edge Integration Cell
+Environment: Cloud Foundry
+Title: Edge Deploy Controller Component Supported in Diagnostics
+Description: You can select Edge Deploy Controller from the component selection list when creating a new diagnostic task.  See: Diagnostics
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-05-11
+Valid as Of: 2025-05-11
+Version: 2503
+
+--- Record 908 ---
+Component: Edge Integration Cell
+Environment: Cloud Foundry
+Title: Grafana Dashboards for System Monitoring
+Description: Grafana dashboards are now seamlessly delivered with the Edge Integration Cell deployment.See: System Monitoring
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-05-11
+Valid as Of: 2025-05-11
+Version: 2503
+
+--- Record 909 ---
+Component: Edge Integration Cell
+Environment: Cloud Foundry
+Title: New action Rotate Signing Key in Component Monitor
+Description: You can manually rotate the signing keys for access tokens in the Edge Local Authentication and Authorization component.  For more information, see:  Manually Rotate Signing Keys of Access Tokens  Component Monitor  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-05-11
+Valid as Of: 2025-05-11
+Version: 2503
+
+--- Record 910 ---
+Component: Edge Integration Cell
+Environment: Cloud Foundry
+Title: New Components
+Description: There are two new components available in Component Monitor:  Destination Service Data Maintainer   Destination Service Rest  See: Component Monitor
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-05-11
+Valid as Of: 2025-05-11
+Version: 2503
+

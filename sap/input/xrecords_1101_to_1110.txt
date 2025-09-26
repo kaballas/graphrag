@@ -1,0 +1,130 @@
+--- Record 1101 ---
+Component: Integration Advisor
+Environment: Cloud Foundry,Neo
+Title: Exporting Message Types
+Description: You can now directly export EDI Type System Message Types as XSD files, eliminating the need to create a Message Implementation Guideline. See Exporting Runtime Artifacts.  As Cloud Integration (standalone) customer, see Exporting Runtime Artifacts
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-04-06
+Valid as Of: 2025-04-06
+Version: 2502
+
+--- Record 1102 ---
+Component: Integration Advisor
+Environment: Cloud Foundry,Neo
+Title: Software Version Update
+Description:   SAP Integration Advisor: 1.98.*    Increment: 2502    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-04-06
+Valid as Of: 2025-04-06
+Version: 2502
+
+--- Record 1103 ---
+Component: Integration Assessment
+Environment: Cloud Foundry
+Title: Software Version Update
+Description:     Integration Assessment: 1.38.*      Increment: 2502    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-04-06
+Valid as Of: 2025-04-06
+Version: 2502
+
+--- Record 1104 ---
+Component: Migration Assessment
+Environment: Cloud Foundry
+Title: Clean Core Modernization Recommendations for IDOCs
+Description: New modernization recommendations have been added evaluating the types of IDOCs in integration scenarios. The respective SOAP/ODATA APIs and Business Events are recommended according to the SAP Business Accelerator Hub. This helps in applying a clean core strategy during migration.  The additional information is reported in the full evaluation result spreadsheet. Please note that to view this new information, you will need to perform a new data extraction. For more details on how to extract the your data, visit Create a Data Extraction Request.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-04-06
+Valid as Of: 2025-04-06
+Version: 2502
+
+--- Record 1105 ---
+Component: Migration Assessment
+Environment: Cloud Foundry
+Title: Software Version Update
+Description:     Migration Assessment: 1.38.*    Increment: 2502    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-04-06
+Valid as Of: 2025-04-06
+Version: 2502
+
+--- Record 1106 ---
+Component: Joule
+Environment: Cloud Foundry
+Title: Joule in SAP BTP cockpit
+Description: Joule is now available in SAP BTP cockpit. It helps platform administrators ask questions related to their BTP resources, such as users or the runtime environment, in the cockpit.  You can ask Joule what it can do for you, either by typing the question directly or selecting the quick start button. For example, Joule can provide you with information about your global accounts or subaccounts:      List your global accounts of subaccounts and see details      See available regions      You can ask Joule to provide you with information about users:      Get details about global account or subaccount users      View users and their permissions      List role collections for your global account or subaccount      Joule in the BTP cockpit can also assist you with administrative tasks related to Cloud Foundry:      View available Cloud Foundry environments      List Cloud Foundry instances or spaces      See the Cloud Foundry org or space users      You can also ask questions about SAP BTP Services or the cockpit. Joule references the SAP BTP documentation, summarize its findings, and links to relevant help content.  For more information, see What's New for SAP Business Technology Platform and Account Administration Using Joule in the Cockpit.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-04-04
+Valid as Of: 2025-04-04
+Version: Cloud
+
+--- Record 1107 ---
+Component: Joule
+Environment: Cloud Foundry
+Title: Joule Multi Language Support
+Description: Joule now supports multiple languages.  Joule Multi Language Support ensures users experience Joule in their desired language, providing localized messages, product data, and more. It automatically adopts the language configured within the SAP application, and can understand languages other than those officially supported. For more information about language support, see Joule Multi Language Support.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-04-04
+Valid as Of: 2025-04-04
+Version: Cloud
+
+--- Record 1108 ---
+Component: Joule,SAP BTP Cockpit
+Environment: Cloud Foundry
+Title: General Availability for Joule in SAP BTP Cockpit
+Description: After a limited beta program, Joule in SAP BTP cockpit is now generally available with its first set of capabilities. It helps platform administrators ask questions related to their BTP resources, such as users or the runtime environment, in the cockpit.   Check out this demo video for a quick overview of how to start working with Joule.  You can ask Joule what it can do for you, either by typing the question directly or selecting the quick start button. For example, Joule can provide you with information about your global accounts or subaccounts:  List your global accounts of subaccounts and see details  See available regions    You can ask Joule to provide you with information about users:  Get details about global account or subaccount users  View users and their permissions  List role collections for your global account or subaccount    Joule in the BTP cockpit can also assist you with administrative tasks related to Cloud Foundry:  View available Cloud Foundry environments  List Cloud Foundry instances or spaces  See the Cloud Foundry org or space users    You can also ask questions about SAP BTP Services or the cockpit. Joule references the SAP BTP documentation, summarize its findings, and links to relevant help content.  Joule general availability is currently being rolled out in stages to global accounts during the second quarter of 2025. If Joule is available for your global account, the Global Account Administrator will first need to enable Joule in the Global Account settings by accepting the legal Terms and Conditions for Generative AI. Only then will the Joule icon appear in the cockpit tool header.  For more information, see Account Administration Using Joule in the Cockpit
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-04-01
+Valid as Of: 2025-04-04
+Version: Cloud
+
+--- Record 1109 ---
+Component: SAP Datasphere
+Environment: Cloud Foundry
+Title: Features for Version 2025.7
+Description: New and changed features are available for administration, data integration, and data modeling.  For more information, see What's New in SAP Datasphere 2025.7. 
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-04-04
+Valid as Of: 2025-04-04
+Version: Cloud
+
+--- Record 1110 ---
+Component: Multitarget Applications for Cloud Foundry
+Environment: Cloud Foundry
+Title: Deleted module hooks
+Description: The following module hooks are deleted:  application.before-stop.live  application.before-stop.idle  application.after-stop.live  application.after-stop.idle  application.before-unmap-routes    Action: Use the new module hooks as outlined below:  for regular deployment:  Replace application.before-stop.live with deploy.application.before-stop.  application.before-stop.idle is no longer applicable.  Replace application.after-stop.live with deploy.application.after-stop.  application.after-stop.idle is no longer applicable.  application.before-unmap-routes is no longer applicable.    for blue-green deployment:  Replace application.before-stop.live with blue-green.application.before-stop.live.  Replace application.before-stop.idle with blue-green.application.before-stop.idle.  Replace application.after-stop.live with blue-green.application.after-stop.live.  Replace application.after-stop.idle with blue-green.application.after-stop.idle.  Replace application.before-unmap-routes with blue-green.application.before-unmap-routes.live.      For more information about the available module hooks, see Module Hooks.
+Action: Required
+Lifecycle: Deleted
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-03-10
+Valid as Of: 2025-04-03
+Version: Cloud
+

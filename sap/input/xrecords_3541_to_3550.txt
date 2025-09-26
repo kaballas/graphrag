@@ -1,0 +1,130 @@
+--- Record 3541 ---
+Component: Mobile Services
+Environment: Cloud Foundry
+Title: Supported versions for Cloud Build Service
+Description: We've updated the supported versions for the Cloud Build service:    February 2024    Mobile Development Kit SDK version, Android and iOS versions, and notes      SAP Asset Manager SDK version, iOS version, and notes          January 2024    Mobile Development Kit SDK version, Android and iOS versions, and notes      SAP Asset Manager Android and iOS versions, and notes          December 2023    Mobile Development Kit SDK version, Android and iOS versions, and notes      SAP Asset Manager SDK version, Android and iOS versions, and notes          See Supported Build Types, Client Types, Packaging Details, and Build Options. 
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2024-02-06
+Version: Cloud
+
+--- Record 3542 ---
+Component: Mobile Services
+Environment: Neo
+Title: Supported versions for Cloud Build Service
+Description: We've updated the supported versions for the Cloud Build service:    February 2024 (2305 PL12) SAP Asset Manager SDK version, iOS version, and notes      January 2024 (2305 PL11) Mobile Development Kit SDK version, iOS version, and notes      December 2023 (2305 PL09)    Fiori Packaged SDK version, UI5 version, Android and iOS versions, and notes      Custom Fiori Client SDK version, Android and iOS versions, and notes      Mobile Development Kit SDK version, Android and iOS versions, and notes      SAP Asset Manager SDK version, Android and iOS versions, and notes          See Supported Build Types, Client Types, Packaging Details, and Build Options. 
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2024-02-06
+Version: Cloud
+
+--- Record 3543 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Core SDK
+Description: You can now use the Delete Element activity to delete a web object and the Delete Inserted Elements activity to remove all dynamically inserted elements.  See Core SDK.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-02-06
+Valid as Of: 2024-02-06
+Version: Cloud
+
+--- Record 3544 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Microsoft 365 Cloud SDK
+Description: You can now use the Get Remote Folder Information activity to return useful information about a remote folder from its open URL.  See Microsoft 365 Cloud SDK.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-02-06
+Valid as Of: 2024-02-06
+Version: Cloud
+
+--- Record 3545 ---
+Component: SAP Intelligent Robotic Process Automation
+Environment: Cloud Foundry
+Title: Core SDK
+Description: You can now use the Delete Element activity to delete a web object and the Delete Inserted Elements activity to remove all dynamically inserted elements. See: Core SDK.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-02-06
+Valid as Of: 2024-02-06
+Version: Cloud
+
+--- Record 3546 ---
+Component: SAP Intelligent Robotic Process Automation
+Environment: Cloud Foundry
+Title: Microsoft 365 Cloud SDK
+Description: You can now use the Get Remote Folder Information activity to return useful information about a remote folder from its open URL. See: Microsoft 365 Cloud SDK.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-02-06
+Valid as Of: 2024-02-06
+Version: Cloud
+
+--- Record 3547 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: Extracted Line Items - currencyCode Deprecation
+Description: We updated the list of line items that you can extract from purchaseOrder documents. The currencyCode line item is now deprecated and no longer available for extraction.Note  The preconfigured SAP schema SAP_purchaseOrder_schema still contains the currencyCode line item. If you use it, the extraction result for currencyCode is going to be empty.  See Extracted Line Items (Base Edition and Premium Edition).
+Action: Info only
+Lifecycle: Deprecated
+Type: Changed
+Line of Business: Intelligent Technologies
+Latest Revision: 2024-02-05
+Valid as Of: 2024-02-05
+Version: Cloud
+
+--- Record 3548 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: Extracted Line Items - materialNumber and senderMaterialNumber Deprecation in SAP_purchaseOrder_schema
+Description: The line items materialNumber and senderMaterialNumber were replaced by supplierMaterialNumber and customerMaterialNumber respectively in the list of fields that you can extract from purchaseOrder documents when using the SAP_purchaseOrder_schema.  The legacy line items materialNumber and senderMaterialNumber are now deprecated and no longer available for purchaseOrder documents.Note  The preconfigured SAP schema SAP_purchaseOrder_schema still contains the line items materialNumber and senderMaterialNumber. If you use it, the extraction results for materialNumber and senderMaterialNumber are going to be empty.  See Extracted Line Items (Base Edition and Premium Edition).
+Action: Info only
+Lifecycle: Deprecated
+Type: Changed
+Line of Business: Intelligent Technologies
+Latest Revision: 2024-02-05
+Valid as Of: 2024-02-05
+Version: Cloud
+
+--- Record 3549 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: Display Description for Fields in Extraction Results for a Document
+Description: You can now display the description text for fields in the pane where you see extraction results for a document on the SAP Document AI basic UI.   To view the description, in the pane where you see extraction results for a document, hover over the name of a header field or line item. A tooltip appears, which includes the description text.  See View and Edit Extraction Results.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Intelligent Technologies
+Latest Revision: 2024-02-05
+Valid as Of: 2024-02-05
+Version: Cloud
+
+--- Record 3550 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: Download Troubleshooting Data for Documents
+Description: You can now download data about documents added to the SAP Document AI basic UI for use in troubleshooting any issues.  See Download Troubleshooting Data.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Intelligent Technologies
+Latest Revision: 2024-02-05
+Valid as Of: 2024-02-05
+Version: Cloud
+

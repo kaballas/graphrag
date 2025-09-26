@@ -1,0 +1,130 @@
+--- Record 2261 ---
+Component: Object Store
+Environment: Cloud Foundry,Kyma
+Title: Continuous backup on AWS
+Description: Object Store now supports continuous backup and point-in time restoration on AWS. See Enable Continuous Backup and Request Point-in-Time Restoration.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-09-19
+Valid as Of: 2024-09-19
+Version: Cloud
+
+--- Record 2262 ---
+Component: Object Store
+Environment: Cloud Foundry,Kyma
+Title: Role-based service bindings on Google Cloud Platform
+Description: Object Store now supports read and write role-based service binding credentials. See Role-Based Bindings and Service Keys (Google Cloud).
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-09-19
+Valid as Of: 2024-09-19
+Version: Cloud
+
+--- Record 2263 ---
+Component: SAP Alert Notification Service
+Environment: Cloud Foundry
+Title: New SAP Alert Notification service event
+Description: You can now use the newly supported SAP Alert Notification service event - Delivery Status.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-09-19
+Valid as Of: 2024-09-19
+Version: Cloud
+
+--- Record 2264 ---
+Component: SAP Alert Notification Service
+Environment: Neo
+Title: New SAP Alert Notification service event
+Description: You can now use the newly supported SAP Alert Notification service event - Delivery Status.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-09-19
+Valid as Of: 2024-09-19
+Version: Cloud
+
+--- Record 2265 ---
+Component: SAP Alert Notification Service
+Environment: Cloud Foundry
+Title: New SAP Automation Pilot events
+Description: You can now use the newly supported SAP Automation Pilot events - Command Created, Command Deleted, Command Updated, Input Created, Input Deleted and Input Updated
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-09-19
+Valid as Of: 2024-09-19
+Version: Cloud
+
+--- Record 2266 ---
+Component: SAP BTP, Cloud Foundry Runtime
+Environment: Cloud Foundry
+Title: Version 42.2.0
+Description: Cloud Foundry has been updated from 42.1.0 to 42.2.0.    https://github.com/cloudfoundry/cf-deployment/releases/tag/v42.2.0  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-09-19
+Valid as Of: 2024-09-19
+Version: Cloud
+
+--- Record 2267 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Read-only in Form Tables
+Description: Previously, you can only set the complete table to read only. Now you can select single columns and mark them as read only. However, this feature only protects against accidental overwriting of content. Users can still tweak their browsers to change the content.  For more information, see Form Tables.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-09-19
+Valid as Of: 2024-09-19
+Version: Cloud
+
+--- Record 2268 ---
+Component: SAP Build Work Zone, advanced edition
+Environment: Cloud Foundry
+Title: Transporting a Local App with a Card Visualization
+Description: It is now possible to transport a local app with a card visualization between landscapes.  Note  This is not relevant to standalone cards.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-09-19
+Valid as Of: 2024-09-19
+Version: 2409A
+
+--- Record 2269 ---
+Component: SAP Build Work Zone, standard edition
+Environment: Cloud Foundry
+Title: Sorting Local Pages
+Description: Sorting local pages created in the Content Manager are sorted by ID.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-09-19
+Valid as Of: 2024-09-19
+Version: 2409A
+
+--- Record 2270 ---
+Component: SAP Build Work Zone, standard edition
+Environment: Cloud Foundry
+Title: Transporting Spaces and Pages
+Description: It is now possible to transport spaces and pages between landscapes.  For more information, see Before Transporting Content - Important Rules and Guidelines.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-09-19
+Valid as Of: 2024-09-19
+Version: 2409A
+

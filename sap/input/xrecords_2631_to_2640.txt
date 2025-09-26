@@ -1,0 +1,130 @@
+--- Record 2631 ---
+Component: SAP Build Work Zone, standard edition
+Environment: Cloud Foundry
+Title: HTML5 Business Solution as a Content Provider
+Description: It is now possible to create an HTML5 business solution that behaves as a content provider in the subaccount.  The HTML5 business solution can be consumed by the local subaccount and also by other subaccounts that access it via destinations.  To configure the HTML5 busines solution as a content provider, the following actions are required:   Provider subaccount: the HTML5 code should be adjusted and include a cdm.json file that defines the design-time business content (for example, roles, groups, spaces & pages), and destinations.    Consumer subaccount: it is required to configure destinations that will point to the HTML5 business solution and create the content provider.    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-07-11
+Valid as Of: 2024-07-11
+Version: 2406B
+
+--- Record 2632 ---
+Component: SAP Build Work Zone, standard edition
+Environment: Cloud Foundry
+Title: Sort Order of Spaces
+Description: In sites that are using Spaces and Pages - New Experience display mode, spaces are sorted in the menu at runtime as follows:    Content channel: spaces from the same content channel will appear next to each other in the menu       Local spaces are displayed first    Content channels are sorted by their ID      Sort priority: spaces from the same content channel are sorted according to their “Sort Priority”, from low to high    Sort priorities are either defined in the content channel or locally for local spaces (a new UI control is now available).    When no sort priority is defined, the default value is set to zero.      Title: when the content channel and sort priority is the same  ID when the content channel, sort priority, and title are the same   
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-07-11
+Valid as Of: 2024-07-11
+Version: 2406B
+
+--- Record 2633 ---
+Component: SAP Build Work Zone, standard edition
+Environment: Cloud Foundry
+Title: Support Update Operation in Identity Provisioning Transformation
+Description: The default target transformation code of an SAP Build Work Zone, standard edition system in the Identity Provisioning service, has been enhanced to also support updates to existing user records. With this enhancement, when a user attribute changes (for example email address or Global ID), the record is updated instead of being skipped.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-07-11
+Valid as Of: 2024-07-11
+Version: 2406B
+
+--- Record 2634 ---
+Component: SAP Java Buildpack
+Environment: Cloud Foundry
+Title: Version 1.98.1
+Description: SAP Java Buildpack 1 has been updated from version 1.97.0 to 1.98.1. Updated components:      Apache Tomcat 9 is updated from version 9.0.89 to 9.0.90      SpotBugs is updated from version 4.8.5 to 4.8.6      SAP HANA Driver (hana.driver.2.X.X) is updated from version 2.20.17 to 2.21.10      com.sap.cloud.connectivity.apiext is updated from version 3.35.0 to 3.36.0      com.sap.conn.jco-cloud is updated from version 3.1.9.0 to 3.1.10.0      com.sap.xs.onpremise.runtime is updated from version 1.2.2 to 1.2.3    JVM option "-XX:+UseContainerCpuShares" is now replaced by "-XX:ActiveProcessorCount=<value>". It prevents out-of-memory errors in case a GC algorithm with high internal memory usage has been activated in small containers (< 4GB). See: ActiveProcessorCount  
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-07-01
+Valid as Of: 2024-07-11
+Version: Cloud
+
+--- Record 2635 ---
+Component: SAP Java Buildpack
+Environment: Cloud Foundry
+Title: Version 2.12.1
+Description: SAP Java Buildpack 2 has been updated from version 2.11.0 to 2.12.1. Updated components:      Apache Tomcat 10 is updated from version 10.1.24 to 10.1.25      SpotBugs is updated from version 4.8.5 to 4.8.6      SAP HANA Driver (hana.driver.2.X.X) is updated from version 2.20.17 to 2.21.10      com.sap.cloud.connectivity.apiext is updated from version 3.35.0 to 3.36.0      com.sap.conn.jco-cloud is updated from version 3.1.9.0 to 3.1.10.0      com.sap.xs.onpremise.runtime is updated from version 1.2.2 to 1.2.3    JVM option "-XX:+UseContainerCpuShares" is now replaced by "-XX:ActiveProcessorCount=<value>". It prevents out-of-memory errors in case a GC algorithm with high internal memory usage has been activated in small containers (< 4GB). See: ActiveProcessorCount  
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-07-01
+Valid as Of: 2024-07-11
+Version: Cloud
+
+--- Record 2636 ---
+Component: SAP Start
+Environment: Cloud Foundry
+Title: SAP Task Center is Optional in Setup of SAP Start
+Description: In the automated setup of SAP Start, it is no longer necessary to have an entitlement for SAP Task Center available in the global account. In addition, in the SAP Start Booster used by the automated setup, you can choose not to integrate SAP Task Center in SAP Start.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-07-11
+Valid as Of: 2024-07-11
+Version: Cloud
+
+--- Record 2637 ---
+Component: SAPUI5
+Environment: ABAP,Cloud Foundry,Kyma,Neo,Other
+Title: SAPUI5 Distribution 1.126
+Description: SAPUI5 version 1.126 has been released for UI development and can now be consumed by SAP BTP services. It’s up to the services to determine when they start using the new version.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-07-10
+Valid as Of: 2024-07-11
+Version: Cloud
+
+--- Record 2638 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: EU Access-only regions
+Description: Switzerland (Zurich) EU Access (cf-ch20) running on Microsoft Azure is now available as a new region for use with enterprise accounts.  Europe (Frankfurt) EU Access (cf-eu11) running on Amazon Web Services, which has been limitedly available so far, is now available without any restriction for use with enterprise accounts.  For more information, see Regions for the Kyma Environment.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-07-10
+Valid as Of: 2024-07-10
+Version: Cloud
+
+--- Record 2639 ---
+Component: SAP BTP Developer's Guide
+Environment: Cloud Foundry,Kyma
+Title: SAP Event Broker Becomes SAP Cloud Application Event Hub
+Description: The name of the SAP Event Broker service has been changed to SAP Cloud Application Event Hub.  See:      Business Application Services      What Is SAP Cloud Application Event Hub?    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-07-10
+Valid as Of: 2024-07-10
+Version: Cloud
+
+--- Record 2640 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Terminology change:Unattended Triggers renamed to Triggers.
+Description: The Unattended Triggers has been renamed to Triggers. Only the name has been changed and there is no change in the functionality.  You can view your Triggers from the Control Tower, choose your Environments and select the Triggers view.  See: Add Triggers to a Project.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-07-10
+Valid as Of: 2024-07-10
+Version: Cloud
+

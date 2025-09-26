@@ -1,0 +1,130 @@
+--- Record 41 ---
+Component: SAP Java Buildpack
+Environment: Cloud Foundry
+Title: Version 2.40.0
+Description: SAP Java Buildpack 2 has been updated from version 2.39.0 to 2.40.0. Updated components:       Tomcat 10 is updated from version 10.1.44 to 10.1.45      com.sap.core.connectivity.jco is updated from version 5.0.1 to 5.0.2      com.sap.cloud.security.xsuaa is updated from version 3.6.3 to 3.6.4    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-09-20
+Valid as Of: 2025-10-01
+Version: Cloud
+
+--- Record 42 ---
+Component: SAP BTP Administrator's Guide
+Environment: ABAP,Cloud Foundry,Kyma,Other
+Title: Updated Shared Responsibility Model
+Description: In alignment with the learning journey for administrators, we've updated the Shared Responsibility Model Between You and SAP.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2025-09-25
+Valid as Of: 2025-09-29
+Version: Cloud
+
+--- Record 43 ---
+Component: SAP Build Work Zone, advanced edition
+Environment: Cloud Foundry
+Title: Content Displayed on SAP Mobile Start
+Description: We’ve corrected the unintended behavior of content in the different view modes of Groups and Spaces and Pages when using SAP Mobile Start.   Now when accessing a site on SAP Mobile Start, only the content that is relevant to the selected view mode is displayed.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-09-16
+Valid as Of: 2025-09-29
+Version: 2509A
+
+--- Record 44 ---
+Component: SAP Build Work Zone, standard edition
+Environment: Cloud Foundry
+Title: Content Displayed on SAP Mobile Start
+Description: We’ve corrected the unintended behavior of content in the different view modes of Groups and Spaces and Pages when using SAP Mobile Start.   Now when accessing a site on SAP Mobile Start, only the content that is relevant to the selected view mode is displayed.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-09-16
+Valid as Of: 2025-09-29
+Version: 2509A
+
+--- Record 45 ---
+Component: Cloud Integration for Data Services
+Environment: Kyma
+Title: New Type of User for Agent Registration
+Description: For increased security, you now use a new type of user called an Agent user to register a Data Services Agent. For more information, see User Administration and Registering an Agent in the Web Interface.
+Action: Required
+Lifecycle: General Availability
+Type: New
+Line of Business: Database and Data Management
+Latest Revision: 2025-09-08
+Valid as Of: 2025-09-25
+Version: 2509
+
+--- Record 46 ---
+Component: Cloud Integration for Data Services
+Environment: Kyma
+Title: "DSOD" No Longer Appears in the URL for SAP Cloud Integration for data services
+Description: "DSOD" has been removed from the URL for SAP Cloud Integration for data services on SAP BTP, Kyma runtime. The following documentation has been modified:  Finish Setting Up a Standard User  Creating a Client to Use Web Services  Accessing the WSDL File  Agent Diagnostics Available via the Command Line  
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Database and Data Management
+Latest Revision: 2025-08-19
+Valid as Of: 2025-09-25
+Version: 2509
+
+--- Record 47 ---
+Component: Cloud Integration for Data Services
+Environment: Kyma,Neo
+Title: Announcement: User Interface Supporting Migration from the Neo Environment to Kyma Runtime
+Description: In the Administration user interface of SAP Cloud Integration for data services, an Off-Neo Migration workflow is being rolled out. Once enabled for you, the workflow guides you through the process of migrating from the Neo environment to the Kyma runtime. You will receive an SAP Customer Communication with details about the availability of this workflow in your system. The Tenant Migration Guide and in particular UI Location and Visibility of the Tenant Migration Request contain helpful information about the workflow.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Database and Data Management
+Latest Revision: 2025-07-09
+Valid as Of: 2025-09-25
+Version: 2509
+
+--- Record 48 ---
+Component: Cloud Integration for Data Services
+Environment: Kyma,Neo
+Title: Documentation update only: Compilation of Security Recommendations
+Description: Security-related recommendations that appear in various places within the SAP Cloud Integration for data services documentation set have been compiled into an easily readable table in Security Recommendations.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Database and Data Management
+Latest Revision: 2025-08-18
+Valid as Of: 2025-09-25
+Version: 2509
+
+--- Record 49 ---
+Component: Cloud Integration for Data Services
+Environment: Kyma,Neo
+Title: Documentation update only: Do Not Use Standard Users for Web Services
+Description: User Administration has been updated to reflect that standard users should not be used for web services.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Database and Data Management
+Latest Revision: 2025-09-19
+Valid as Of: 2025-09-25
+Version: 2509
+
+--- Record 50 ---
+Component: Cloud Integration for Data Services
+Environment: Kyma,Neo
+Title: Documentation update only: End of Support for Azure Data Lake Storage Gen1
+Description: Due to Microsoft's having ended support of Azure Data Lake Storage Gen1 in early 2024, SAP Cloud Integration for data services will end support of Gen1 in an early 2026 release. We recommend, as does Microsoft, that you use ADLS Gen2 instead. For more information, see Moving from ADLS Gen1 to Gen2.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Database and Data Management
+Latest Revision: 2025-07-09
+Valid as Of: 2025-09-25
+Version: 2509
+

@@ -1,0 +1,130 @@
+--- Record 3171 ---
+Component: Integration Assessment
+Environment: Cloud Foundry
+Title: Software Version Update
+Description:     Integration Assessment: 1.26.*      Increment: 2402    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-04-06
+Valid as Of: 2024-04-06
+Version: 2402
+
+--- Record 3172 ---
+Component: Migration Assessment
+Environment: Cloud Foundry
+Title: New Rules Added
+Description: The following rules have been added for Migration Assessment:      SenderRESTOperationDetermination: Determine if any HTTP method determination is used.    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-04-06
+Valid as Of: 2024-04-06
+Version: 2402
+
+--- Record 3173 ---
+Component: Migration Assessment
+Environment: Cloud Foundry
+Title: Software Version Update
+Description:     Migration Assessment: 1.26.*      Increment: 2402    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-04-06
+Valid as Of: 2024-04-06
+Version: 2402
+
+--- Record 3174 ---
+Component: Automation Pilot
+Environment: Cloud Foundry
+Title: SendAlertNotificationServiceEvent Command
+Description: The SendAlertNotificationServiceEvent command is deprecated. You can now use the SendAnsEvent command instead. See Producing Custom Events.
+Action: Info only
+Lifecycle: Deprecated
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-04-04
+Valid as Of: 2024-04-04
+Version: Cloud
+
+--- Record 3175 ---
+Component: SAP Digital Payments Add-On
+Environment: Cloud Foundry
+Title: New base URLs to meet industry standards
+Description: To meet industry standards, use the URLs shown in Base URLs for communication with the SAP digital payment add-on core.  Other (legacy) routes do still work, technically.  For more information, see SAP Note 3446748 .  If you use the payment page (dpjslib) and have activated Content Security Policies (CSPs), you should align these accordingly.  For more information on this, see SAP Note 3449896 .
+Action: Recommended
+Lifecycle: General Availability
+Type: New
+Line of Business: Finance
+Latest Revision: 2024-01-01
+Valid as Of: 2024-04-04
+Version: Cloud
+
+--- Record 3176 ---
+Component: Authorization and Trust Management Service
+Environment: ABAP,Cloud Foundry,Kyma,Other
+Title: Own Origin Key at Creation of Trust (OpenID Connect) for Subaccounts
+Description: Administrators can enter their own origin key when they establish an OIDC trust from an Identity Authentication tenant to their subaccount. In the SAP BTP cockpit, the wizard assists them in configuring trust, including the entry of the origin key.    Note  The origin key can't be changed later.    For more information, see Establish Trust and Federation Between SAP Authorization and Trust Management Service and SAP Cloud Identity Services.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-04-04
+Valid as Of: 2024-04-04
+Version: Cloud
+
+--- Record 3177 ---
+Component: Automation Pilot
+Environment: Cloud Foundry
+Title: ExecutePythonScript Command
+Description: For better usability, you can now use a dedicated command to execute Python scripts. See Provided Commands.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-04-04
+Valid as Of: 2024-04-04
+Version: Cloud
+
+--- Record 3178 ---
+Component: Automation Pilot
+Environment: Cloud Foundry
+Title: SAP Alert Notification Service for SAP BTP Catalog
+Description: You can now produce or list custom events in SAP Alert Notification service for SAP BTP. See Provided Commands.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-04-04
+Valid as Of: 2024-04-04
+Version: Cloud
+
+--- Record 3179 ---
+Component: Automation Pilot
+Environment: Cloud Foundry
+Title: Time Zone Support for Scheduling Executions
+Description: You can now select the time zone for which you want to schedule an execution. See Scheduled Executions.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-04-04
+Valid as Of: 2024-04-04
+Version: Cloud
+
+--- Record 3180 ---
+Component: Cloud Management Tools,SAP BTP Cockpit
+Environment: ABAP,Cloud Foundry,Kyma,Neo,Other
+Title: Improved Filter Management in Cockpit "Costs and Usage" Page
+Description: We've improved the SAP BTP cockpit's Costs and Usage page by merging the filters and search that were previously available under the Billing and Usage views. Now, you'll find a single set of filters and search above the tabs that functions for both views. This enhancement eliminates the need to redefine the filters and search criteria separately for each view, making your experience more efficient and user-friendly.  See Monitoring Usage and Consumption Costs in Your Global Account.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-04-04
+Valid as Of: 2024-04-04
+Version: Cloud
+

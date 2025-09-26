@@ -1,0 +1,130 @@
+--- Record 2971 ---
+Component: Trading Partner Management
+Environment: Cloud Foundry
+Title: Archiving Payload Data
+Description: You can now archive the interchange payload of your transaction activities in the agreement. They archiving feature is executed once a day and the status of the archiving can be monitored in the Monitor tab.  See:     Creating an Agreement Template    Trading Partner Agreement    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-05-10
+Valid as Of: 2024-05-10
+Version: 2403
+
+--- Record 2972 ---
+Component: Trading Partner Management
+Environment: Cloud Foundry
+Title: Group Identifiers
+Description: To reduce the need for redundant agreements, group identifiers have been introduced that have a common alias, type system, agency and scheme. You can now create Identifier Groups while creating the company/trading partner profiles.  See:     Creating a Company Profile and a Subsidiary    Creating a Trading Partner Profile    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-05-10
+Valid as Of: 2024-05-10
+Version: 2403
+
+--- Record 2973 ---
+Component: Trading Partner Management
+Environment: Cloud Foundry
+Title: Software Version Update
+Description:   SAP Cloud Integration: 6.52.*  Increment: 2403  
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-05-10
+Valid as Of: 2024-05-10
+Version: 2403
+
+--- Record 2974 ---
+Component: Trading Partner Management
+Environment: Cloud Foundry
+Title: Target Encoding for UN/EDIFACT Type System
+Description: You can now set the target encoding for UN/EDIFACT type system in the transaction activity of your agreement.  See:     Creating an Agreement Template    Trading Partner Agreement    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-05-10
+Valid as Of: 2024-05-10
+Version: 2403
+
+--- Record 2975 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Conditional Authentication
+Description: You can use asterisk (*) in the top-level domain part when you add rules for authentication against different identity providers. See Add a New Authentication Rule.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-05-08
+Valid as Of: 2024-05-08
+Version: 26053
+
+--- Record 2976 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Data type name changed
+Description: In the Identity Provisioning graphical editor, the Object and ObjectArray data types for transformation expressions, such as constant and defaultValue, have been renamed to JSONObject and JSONObjectArray, respectively.  See Transformation Expressions.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-05-08
+Valid as Of: 2024-05-08
+Version: 26053
+
+--- Record 2977 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Regular Upgrade
+Description: Cloud Identity Services have been upgraded.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-05-08
+Valid as Of: 2024-05-08
+Version: 26053
+
+--- Record 2978 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: User Groups
+Description: You can search for specific member in a group via SCIM ID. See List and Search Users in Groups.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-05-08
+Valid as Of: 2024-05-08
+Version: 26053
+
+--- Record 2979 ---
+Component: Continuous Integration & Delivery
+Environment: Cloud Foundry
+Title: Last Build Status Available in Job Overview
+Description: The Jobs tab now includes a column that displays information about the latest build.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-05-14
+Valid as Of: 2024-05-08
+Version: Cloud
+
+--- Record 2980 ---
+Component: UI Theme Designer
+Environment: Cloud Foundry,Neo
+Title: Base Theming Content for CF and Neo.
+Description: The base theming content is updated to version 11.15.0. Review the changes at https://github.com/SAP/theming-base-content/releases.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2024-05-08
+Version: Cloud
+

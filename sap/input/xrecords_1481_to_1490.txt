@@ -1,0 +1,130 @@
+--- Record 1481 ---
+Component: Pricing Service
+Environment: Cloud Foundry
+Title: Production - Support X.509 Certificates
+Description: For getting an oauth token to call an endpoint of the Pricing service it used to be required to specify the client id and the client secret. Instead of the client secret, an X.509 certificate can now be used.  Action: Using X.509 certificates is considered more secure than using client id and client secret. Therefore, it is recommended to use the new approach.   See: Security Guide for SAP Variant Configuration and Pricing and Administration Guide for SAP Variant Configuration and Pricing.
+Action: Recommended
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-12-17
+Valid as Of: 2025-02-05
+Version: Cloud
+
+--- Record 1482 ---
+Component: Variant Configuration
+Environment: Cloud Foundry
+Title: Production -Support X.509 Certificates
+Description: For getting an oauth token to call an endpoint of the Variant Configuration service it used to be required to specify the client id and the client secret. Now, instead of the client secret, an X.509 certificate can be used.  Action: Using X.509 certificates is considered more secure than using the client id and client secret. Therefore, it is recommended to use the new approach.   See: Security Guide for SAP Variant Configuration and Pricing and Administration Guide for SAP Variant Configuration and Pricing.
+Action: Recommended
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-12-17
+Valid as Of: 2025-02-05
+Version: Cloud
+
+--- Record 1483 ---
+Component: Variant Configuration
+Environment: Cloud Foundry
+Title: Production – Configurations API – Read Single Characteristics
+Description: There is a new endpoint called GET /api/v2/configurations/{configurationId}/items/{itemId}/characteristics used to read the details of one or more characteristics of an item.   Action: If the UI of the consuming application allows it, it is recommended to always read the configuration results during interactive configuration without the possible values of characteristics. This can be achieved by using the parameter $select omitting the parameter value possibleValue when creating or reading a configuration. Only when the user clicks on a UI element, like a dropdown list box, that requires to render the possible values on the UI, the possible values should be read for that characteristic using the new endpoint. This will improve performance especially when AVC Forwarding is enabled.   See: API Definition and Development Guide for SAP Variant Configuration and Pricing.
+Action: Recommended
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-12-17
+Valid as Of: 2025-02-05
+Version: Cloud
+
+--- Record 1484 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: API Gateway module: Update to version 2.10.3
+Description: The API Gateway module in version 2.10.3 includes the following changes:  We’ve changed the hardcoded algorithm from RSA256 to RS256. This change ensures that JWT tokens are processed correctly by the Ory Oathkeeper, resolving the error message signing key 'XXX' declares unsupported algorithm "RSA256".  If you expose a path using a wildcard pattern, now you can also expose the same path without including the trailing slash. For example, if you have a rule that exposes example.com/path/*, you can also expose example.com/path without the slash at the end.  
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-02-04
+Valid as Of: 2025-02-05
+Version: Cloud
+
+--- Record 1485 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Telemetry module: Update to version 1.32.0
+Description: The new version brings the following improvements:      Metrics: A more sophisticated CRD defaulting mechanism improves the sync behaviour for CI/CD tooling (#1737).      Traces and Metrics: Fixed false positive pipeline health indications (#1410).    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-01-22
+Valid as Of: 2025-02-05
+Version: Cloud
+
+--- Record 1486 ---
+Component: Pricing Service
+Environment: Cloud Foundry
+Title: Correct Reporting of Service Usage
+Description: The service usage used to be reported incorrectly if a PATCH request was sent via a POST request using the X-HTTP-Method-Override header. This issue has been corrected.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-01-31
+Valid as Of: 2025-02-05
+Version: Cloud
+
+--- Record 1487 ---
+Component: Pricing Service
+Environment: Cloud Foundry
+Title: Production - Base Calculations Include Current Percentage Step
+Description: In scenarios where a percentage condition spans multiple counters within the same step range in the pricing procedure, the condition base used not to be dynamically adjusted to account for the cumulative effect of prior conditions. Instead, all counters for the condition type used to use the original base amount. This issue has been corrected.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-12-17
+Valid as Of: 2025-02-05
+Version: Cloud
+
+--- Record 1488 ---
+Component: Pricing Service
+Environment: Cloud Foundry
+Title: Production - Standard Requirement Formula 58
+Description: Support standard requirement formula 58 that returns true if the accounting indicator (KOMP-BEMOT) is not initial.  See: Supported Standard Pricing Exits. 
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-12-17
+Valid as Of: 2025-02-05
+Version: Cloud
+
+--- Record 1489 ---
+Component: Pricing Service
+Environment: Cloud Foundry
+Title: Production - Standard Requirement Formula 67
+Description: Support standard requirement formula 67 that always returns true in the context of the Pricing service.  See: Supported Standard Pricing Exits.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-12-17
+Valid as Of: 2025-02-05
+Version: Cloud
+
+--- Record 1490 ---
+Component: Pricing Service
+Environment: Cloud Foundry
+Title: Production – Access Sales Records in Purchasing Tables
+Description: Only condition tables and condition records with application ‘V’ (Sales) are considered by the Pricing service. For cases where condition records with application ‘V’ were stored in condition tables with application ‘M’ (Purchasing), those tables can now be added to the replication and will also be considered.  See: Development Guide for SAP Variant Configuration and Pricing.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-12-17
+Valid as Of: 2025-02-05
+Version: Cloud
+

@@ -1,0 +1,130 @@
+--- Record 2981 ---
+Component: UI Theme Designer
+Environment: Cloud Foundry
+Title: Migrating Themes
+Description: On the welcome screen, you can now migrate existing custom themes based on a different SAP standard theme. For more information, see Migrating Themes and Migrate Your Themes with Ease.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2024-05-08
+Version: Cloud
+
+--- Record 2982 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Telemetry module: Update to version 1.14.0
+Description: The new version brings the following improvements:      Logs, Traces, and Metrics: To use the memory limits more efficiently, the resource setup has been improved for all components. (#804)      Logs: Improved status message for LogPipeline if the used certificate is invalid (#996).      Traces, Metrics: You can now easily detect whether there is an invalid or expired client certificate, because the TracePipeline and MetricPipeline status shows what's wrong (#930).    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-04-23
+Valid as Of: 2024-05-07
+Version: Cloud
+
+--- Record 2983 ---
+Component: SAP Datasphere
+Environment: Cloud Foundry
+Title: Features for Version 2024.10
+Description: New and changed features are available for administration, data integration, data marketplace, and data modeling.  For more information, see What's New in SAP Datasphere 2024.10. 
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-05-07
+Valid as Of: 2024-05-07
+Version: Cloud
+
+--- Record 2984 ---
+Component: SAP S/⁠4HANA Cloud for Credit Integration
+Environment: Cloud Foundry
+Title: Integration with new credit agency: Cerved Group S.p.A.
+Description: The credit agency Cerved Group S.p.A. is now connected to SAP S/⁠4HANA Cloud for credit integration.   More information:  New SAP Note: 3444411 : BC set UKM_BVD_2_CONF for Cerved  Configure Rating Procedures  Available Credit Agency Products and Features    Your Tasks for Integrating a New Credit Agency  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Finance
+Latest Revision: 2024-05-07
+Valid as Of: 2024-05-07
+Version: Cloud
+
+--- Record 2985 ---
+Component: Service Ticket Intelligence
+Environment: Cloud Foundry
+Title: Consuming the Service via AI API (Beta)
+Description: The following operations are now no longer available:    Create Execution: POST  {{sti_service_url}}/v2/lm/configurations/{{configuration_id}}/executions      Deploy Model: POST  {{sti_service_url}}/v2/lm/configurations/{{configuration_id}}/deployments      See Consuming the Service via AI API (Beta).
+Action: Info only
+Lifecycle: Beta
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-05-06
+Valid as Of: 2024-05-06
+Version: Cloud
+
+--- Record 2986 ---
+Component: Pricing Service
+Environment: Cloud Foundry
+Title: Extension Concept - Proper Size-Based Cache Eviction
+Description: Calls to extension implementations are cached, so that calls with the same input payload do not need to be calculated twice. Such caches are cleaned up regularly or when they become too large. Cache eviction based on the cache size used to fail after the May release. This issue has been corrected.   See Extension Guide for SAP Variant Configuration and Pricing.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-05-03
+Valid as Of: 2024-05-06
+Version: Cloud
+
+--- Record 2987 ---
+Component: Integration Suite General Features
+Environment: Cloud Foundry
+Title: Built-In Support
+Description: A new feature, referred to as built-in support, helps you find solutions to problems you may encounter when using the SAP Integration Suite.   From SAP Integration Suite screens, you can search knowledge base articles that that can help you understand the application behaviour and guide you towards solution.  You can also file an incident and receive assistance with recommended solutions through knowledge base articles or help recommendations.  See: Working with Integration Suite Home
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-04-05
+Valid as Of: 2024-05-05
+Version: 2403
+
+--- Record 2988 ---
+Component: Cloud Application Programming Model
+Environment: Cloud Foundry
+Title: April Release
+Description: The April release of the SAP Cloud Application Programming Model is now available.   Highlights:    Fewer Views in Database  Expressions as Annotation Values   Shell Completion for CDS Commands  Generate test data and HTTP requests  … and much more.  See April 2024 release for the CAP framework.   Action: We recommend to adapt the new versions as soon as possible, see Managing Dependencies.
+Action: Recommended
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2024-05-03
+Version: Cloud
+
+--- Record 2989 ---
+Component: SAP S/⁠4HANA Cloud for Credit Integration
+Environment: Cloud Foundry
+Title: New user role templates available on SAP BTP
+Description: New user role templates are available on SAP BTP. The Credit Integration Specialist user role templates are tailored to give access to only specific apps for configuration and administration. You can use them instead of the Credit Integration Administrator (CreditAdministrator) user role template.  More information:  Defining and Bundling Roles (Integration with SAP S/4HANA Cloud systems)  Defining and Bundling Roles (Integration with on-premise systems)    Note: Log on with your SAP ID to access these documents.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Finance
+Latest Revision: 2024-05-03
+Valid as Of: 2024-05-03
+Version: Cloud
+
+--- Record 2990 ---
+Component: Pricing Service
+Environment: Cloud Foundry
+Title: Extensions Concept - Restricted Syntax in Local Extensions
+Description: The following syntax will not be allowed any longer with the 2405 release when implementing local extensions:    Keywords: async, await, generator functions (function*)      Functions(*): eval, load, loadWithNewGlobal, print, printErr      Objects(*):console, Graal, FinalizationRegistry, Function, Promise, Proxy, Reflect, Symbol      (*) Using it will cause a runtime error.  Action:    Do not use such syntax in new code. It will be blocked in the future during the code upload.      Check your current local extension code for the usage of such obsolete syntax and remove it. If it is not possible to remove it, please create a ticket with component LOD-CPS before May 2024 to find a solution with SAP support.      See Extension Guide for SAP Variant Configuration and Pricing.
+Action: Required
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-03-25
+Valid as Of: 2024-05-02
+Version: Cloud
+

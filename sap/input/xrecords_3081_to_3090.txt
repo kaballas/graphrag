@@ -1,0 +1,130 @@
+--- Record 3081 ---
+Component: SAP Data Intelligence
+Environment: Cloud Foundry
+Title: Support for Key Pair Authentication for Snowflake Databases
+Description: You can now enhance security for a Snowflake connection using key pair authentication. When you configure the connection in the dataflow designer, choose key pair authentication and provide a key file, which can be either encrypted or not encrypted. For more information about the Snowflake connection, see Snowflake in the Administration Guide.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2022-01-01
+Valid as Of: 2024-04-20
+Version: Cloud
+
+--- Record 3082 ---
+Component: SAP Data Intelligence
+Environment: Cloud Foundry
+Title: Upcoming Javascript Change Requires Customer Action:
+Description: Due to a new Javascript interpreter version that will be introduced in an upcoming patch for SAP Data Intelligence Cloud, operators based on the Javascript "Message Operator" or generated from the OpenAPI server template will need to have their scripts adjusted. Customers are advised to update their graphs as soon as possible.  For more information, see 3457456 .
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2022-01-01
+Valid as Of: 2024-04-20
+Version: Cloud
+
+--- Record 3083 ---
+Component: SAP Data Intelligence
+Environment: Cloud Foundry
+Title: Updated Go Libraries
+Description: The libraries used by the Go operators have been updated. To avoid issues, custom operators or Go scripts using the same libraries as SAP Data Intelligence standard content should match the new versions. For details, refer to the file "/files/vflow/operators/com/sap/system/golangExecutor2/depmap.json" in the SAP Data Intelligence repository.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2022-01-01
+Valid as Of: 2024-04-20
+Version: Cloud
+
+--- Record 3084 ---
+Component: SAP Data Intelligence
+Environment: Cloud Foundry
+Title: Updated Kafka Operators
+Description: The library used by the Kafka operators has been updated. This changes the default protocol version to 2.1.0 in anticipation of Kafka release 4.0 dropping support for older versions. Customers are encouraged to update their old Kafka setups or explicitly set the version in the operator configuration to retain compatibility.  For more information, see 3423165  and https://community.sap.com/t5/technology-blogs-by-sap/sap-datasphere-and-sap-data-intelligence-cloud-what-does-this-mean-for-me/ba-p/13603947 on the SAP Community website.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2022-01-01
+Valid as Of: 2024-04-20
+Version: Cloud
+
+--- Record 3085 ---
+Component: SAP Data Intelligence
+Environment: Cloud Foundry
+Title: Updated R Versions and Libraries Used by rClient3 and rClient4 Operators
+Description: The R version used by operators rClient3 and rClient4 has been updated from 3.5.0 to 3.6.3 and 4.1.0 to 4.3.2, respectively. The following R libraries also have been updated: Rserve (to version 1.8-10), jsonlite (to version 1.8.5), tree (to version 1.0-42).
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2022-01-01
+Valid as Of: 2024-04-20
+Version: Cloud
+
+--- Record 3086 ---
+Component: SAP Data Intelligence
+Environment: Cloud Foundry
+Title: View and Configure Default Resources Requirements for Graphs in the Modeler
+Description: You can now view the default resource limits for a graph in the Resources section of the Configuration panel in the Modeler. Hover your mouse over the Information icon next to the Resources heading. You can change the limits in the Configuration panel for the current graph. Previously, if tenant administrators didn't specify resource requirements during graph design, the backend service set the default resource requirements for graphs. This new feature provides tenant administrators more control over the resource allocation and more transparency for tenant members about the resources used.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2022-01-01
+Valid as Of: 2024-04-20
+Version: Cloud
+
+--- Record 3087 ---
+Component: SAP Task Center
+Environment: Cloud Foundry
+Title: Updating HTML5 Apps Required
+Description: Following this week's update of SAP Task Center, it is expected that the Task Center tile count will start showing Error. To restore the tile count, please update the HTML5 apps in the site manager of your central point of entry for accessing apps. For example, see central point of entry for accessing apps. For example, see Create a Task Center Tile for SAP Build Work Zone, advanced edition.  . To restore theЕnd users might have to clear browser cache and refresh their browser. 
+Action: Required
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-04-19
+Valid as Of: 2024-04-19
+Version: Cloud
+
+--- Record 3088 ---
+Component: SAP Task Center
+Environment: Cloud Foundry
+Title: Public Views Enabled
+Description: You can now access public views, predefined by key users. For more information, see Working with Views and Creating Public Views for End Users.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-04-19
+Valid as Of: 2024-04-19
+Version: Cloud
+
+--- Record 3089 ---
+Component: Application Autoscaler
+Environment: Cloud Foundry
+Title: New Metric Type cpuutil
+Description: A new metric type called cpuutil (CPU utilization) is now available. This metric type is linked to the CPU entitlement usage of an application in Cloud Foundry, which depends on its size (memory). cpuutil allows users to set scaling rules based on CPU entitlement, such as scaling up if the usage exceeds 80% and scaling down if it falls below 40%.  Recommendation: If you use the cpu metric, we recommend you to switch to cpuutil to specify thresholds with values from 0% to 100%, which eliminates the need to calculate the CPU entitlement for your application.
+Action: Recommended
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-04-18
+Valid as Of: 2024-04-18
+Version: Cloud
+
+--- Record 3090 ---
+Component: Java Server
+Environment: Neo
+Title: Tomcat version for Java Web Tomcat 9 and Java EE 7 Web Profile TomEE 7
+Description: Java Web Tomcat 9 (runtime version 4.75) and Java EE 7 Web Profile TomEE 7 (runtime version 1.173) have been updated to Tomcat version 9.0.87.   See the Changelog.  Recommended action: Update your applications to the latest runtime version.
+Action: Recommended
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-04-18
+Valid as Of: 2024-04-18
+Version: Cloud
+

@@ -1,0 +1,130 @@
+--- Record 3131 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Serverless module: Update to version 1.4.0
+Description: With this update, we are introducing new versions of the Node.js (v20) and Python (v3.12) Serverless runtimes. At the same time, we deprecated the Node.js v18 and Python v3.9 runtimes. Migrate your Functions to the latest runtime versions. To learn how to do that, check the blog post Changing the function runtime version of a running function.  In addition, now the Serverless operator watches the number of Kubernetes worker nodes and uses smaller presets for the Function's build-time and runtime resources on smaller Kubernetes clusters.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-04-02
+Valid as Of: 2024-04-16
+Version: Cloud
+
+--- Record 3132 ---
+Component: SAP Build
+Environment: Cloud Foundry
+Title: Manage Destinations – Enhancements and Updates
+Description: In this release, we've changed enhance the destination experience:     The Business Application project type now supports destinations.      We've simplified the New Destination button and it is now called Add.      We have relocated the Delete option; it now appears under Actions. And we have renamed it to Remove for clarity.      To optimize usability, the Type and Host Address columns are no longer visible.      See Manage Destinations.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-04-16
+Valid as Of: 2024-04-16
+Version: Cloud
+
+--- Record 3133 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Consume API Actions Using Integration Flow
+Description: Your business processes can consume integration scenarios managed by your organization. To consume such integration flows, create an action project - using Integration Flow.  See:                  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-04-16
+Valid as Of: 2024-04-16
+Version: Cloud
+
+--- Record 3134 ---
+Component: Continuous Integration & Delivery
+Environment: Cloud Foundry
+Title: Connections with SAP Business Application Studio
+Description: The connection issue was resolved that prevented SAP Business Application Studio from connecting with the SAP Continuous Integration and Delivery service when performing setup with the booster.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-05-14
+Valid as Of: 2024-04-15
+Version: Cloud
+
+--- Record 3135 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Upcoming upgrade to Kubernetes 1.28
+Description: The Kyma environment is planned to be upgraded to the Kubernetes 1.28 version in the April 13th - 14th, 2024 maintenance window. For more information, see the Kubernetes release notes and the major changes in the blog post.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-02-29
+Valid as Of: 2024-04-14
+Version: Cloud
+
+--- Record 3136 ---
+Component: Availability Service
+Environment: Cloud Foundry
+Title: Enhanced configuration option for Site24x7 monitors
+Description: AvS now offers more configuration options and flexibility for Site24x7 monitors. For more information, see section Tester Specific Monitor Configurations in       Existing evaluations are not affected by the change.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-04-12
+Valid as Of: 2024-04-12
+Version: Cloud
+
+--- Record 3137 ---
+Component: Data Attribute Recommendation
+Environment: Cloud Foundry
+Title: Training Configuration
+Description: The enableMasking parameter is now also available for the Sales Order Completion executables.  See Training Configuration.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-04-12
+Valid as Of: 2024-04-12
+Version: Cloud
+
+--- Record 3138 ---
+Component: Joule
+Environment: Cloud Foundry
+Title: Data Center Availability
+Description: Joule is now available in Europe (Frankfurt) EU access only data center of AWS. See Data Centers Supported by Joule.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-04-12
+Valid as Of: 2024-04-12
+Version: Cloud
+
+--- Record 3139 ---
+Component: Joule
+Environment: Cloud Foundry
+Title: Data Center Availability
+Description: Joule is now available in Australia (Sydney) data center of AWS. See Data Centers Supported by Joule.
+Action: Recommended
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-04-11
+Valid as Of: 2024-04-11
+Version: Cloud
+
+--- Record 3140 ---
+Component: Cloud Integration Automation Service
+Environment: Cloud Foundry
+Title: New Data Center
+Description: You can now subscribe to Cloud Integration Automation service in the new data center - China (CN20). For more information, see Prerequisites.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2024-04-11
+Version: Cloud
+

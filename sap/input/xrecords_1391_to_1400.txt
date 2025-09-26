@@ -1,0 +1,130 @@
+--- Record 1391 ---
+Component: SAP Advanced Financial Closing
+Environment: Cloud Foundry
+Title: User Email Addresses in Tasks of Type Workflow
+Description: Email addresses of users involved or interested in a task can now also be mapped in SAP Advanced Financial Closing for tasks of the type Workflow. As with the other parameter mappings, you need to consider the mapping requirements.  More information:  Integration of Tasks of Type Workflow  How to Create Workflows in SAP Build Process Automation and Integrate Them into the Financial Close    Area affected: Integration with SAP Build Process Automation
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Finance
+Latest Revision: 2025-02-03
+Valid as Of: 2025-02-16
+Version: Cloud
+
+--- Record 1392 ---
+Component: SAP Health Data Services for FHIR
+Environment: Cloud Foundry
+Title: mTLS compliance for EMS Service Instance
+Description: User-defined EMS instances must support mTLS. Refer to Enabling mTLS for EMS Service Instance for guidance on updating the instance to enable mTLS compliance and the additional steps needed.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2025-02-16
+Version: Cloud
+
+--- Record 1393 ---
+Component: SAP Health Data Services for FHIR
+Environment: Cloud Foundry
+Title: Support for certificate authentication
+Description: SAP Health Data Services for FHIR now supports X.509 certificate-based authentication via the Cloud Identity service.   Refer to Certificate Authentication for more information. 
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2025-02-16
+Version: Cloud
+
+--- Record 1394 ---
+Component: SAP Health Data Services for FHIR
+Environment: Cloud Foundry
+Title: Update service instances
+Description: You can now update a service instance of SAP Health Data Services for FHIR with an event mesh instance.  Refer to Updating Service Instances for more information.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2025-02-16
+Version: Cloud
+
+--- Record 1395 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Guided Process
+Description: You can now delete one or more guided process instances using a simple API call. See Deletion of Personal Data-Guided Process.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-02-15
+Valid as Of: 2025-02-15
+Version: Cloud
+
+--- Record 1396 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: ABAP Development Tools for Eclipse: ABAP Cross Trace: Exporting and Importing a Trace Result
+Description: You can now export/import a trace result of the ABAP Cross Trace to/from a JSON file. This enables you to store important trace results on a file system and to collaborate with other colleagues on error analysis.  See      Exporting an ABAP Cross Trace Result and      Importing an ABAP Cross Trace Result.    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-02-14
+Valid as Of: 2025-02-14
+Version: ABAP Environment 2502
+
+--- Record 1397 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: ABAP Development Tools for Eclipse: ABAP Memory Snapshot
+Description: You can now use the ABAP Memory Snapshot view that lists all memory snapshots. From here, you can open an ABAP memory snapshot in the editor. In the editor, the Memory Objects tab displays a list with the memory objects ranked by their size.  See  ABAP Memory Snapshots.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-02-14
+Valid as Of: 2025-02-14
+Version: ABAP Environment 2502
+
+--- Record 1398 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: ABAP Development Tools for Eclipse: AMDP Test Double Framework
+Description: You can now write automated tests for your ABAP Managed Database Procedure (AMDP) using the new AMDP test double framework. AMDP test double framework helps in testing the logic written in an AMDP while writing the ABAP Unit tests. This API-based framework can be used to isolate and test the logic encapsulated within an AMDP method by isolating the AMDP from all the actual dependencies associated with the code being tested and replacing these dependencies with test doubles created for them.  See  AMDP Test Double Framework.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-02-14
+Valid as Of: 2025-02-14
+Version: ABAP Environment 2502
+
+--- Record 1399 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: ABAP Development Tools for Eclipse: CDS External Entity in Data Preview
+Description: The CDS external entity is now supported in Data Preview.  See  Configuring Select Options for Data Preview Result.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-02-14
+Valid as Of: 2025-02-14
+Version: ABAP Environment 2502
+
+--- Record 1400 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: ABAP Development Tools for Eclipse: CDS Test Double Framework: Supported Test Scenario
+Description: CDS test double frameworks now supports testing of CDS Hierarchy view.  See  ABAP CDS Test Double Framework.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-02-14
+Valid as Of: 2025-02-14
+Version: ABAP Environment 2502
+

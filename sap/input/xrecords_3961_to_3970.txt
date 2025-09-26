@@ -1,0 +1,130 @@
+--- Record 3961 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: End User Screens
+Description: Added Thai, Malay and Vietnamese to the supported languages for end user screens. See Supported Languages.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-11-02
+Valid as Of: 2023-11-02
+Version: Cloud
+
+--- Record 3962 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Integration of Default Attributes and Assertion Attributes in Applications
+Description: In the configuration of applications, we have combined the Default Attributes and Assertion Attributes into a single screen named Attributes. This change gives administrators a complete overview of the user attributes configured for an application. See User Attributes.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2023-11-02
+Valid as Of: 2023-11-02
+Version: Cloud
+
+--- Record 3963 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Off-Cycle Upgrade
+Description: Identity Authentication has been upgraded.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-11-02
+Valid as Of: 2023-11-02
+Version: Cloud
+
+--- Record 3964 ---
+Component: Documentation
+Environment: ABAP,Cloud Foundry,Kyma
+Title: Dynamic Filtering
+Description: We're now piloting the dynamic filtering functionality. You can filter by runtime in the SAP BTP documentation. For example, you can select the Kyma runtime filter to view Kyma-relevant content. By default, all the content is displayed.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-11-02
+Valid as Of: 2023-11-02
+Version: Cloud
+
+--- Record 3965 ---
+Component: Extensions
+Environment: Cloud Foundry,Kyma
+Title: Configuring Communication Scenario Groups when Registering an SAP S/4HANA Cloud System
+Description: When registering an SAP S/4HANA Cloud system in a global account in SAP BTP, you can now configure communication scenario groups. The available communication scenario groups are:      All Communication Scenarios: creates any of the communication scenarios in SAP S/4HANA Cloud.      Integration with SAP Ariba Buying: allows the automatic enablement of the SAP_COM_0545 and SAP_COM_0A00 communication scenarios in SAP S/4HANA Cloud.      Integration with SAP Start: allows the automatic enablement of the SAP_COM_0647 communication scenario in SAP S/4HANA Cloud.      Register an SAP S/4HANA Cloud System in a Global Account in SAP BTP
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2023-11-02
+Valid as Of: 2023-11-02
+Version: Cloud
+
+--- Record 3966 ---
+Component: Extensions
+Environment: Cloud Foundry,Kyma
+Title: Enabling SAP Ariba Buying with SAP S/4HANA Cloud on SAP BTP
+Description: To set up SAP Ariba Buying with SAP S/4HANA Cloud on SAP BTP, you need to have all the necessary systems included in a formation of type Integration with SAP Ariba Buying in the System Landscape page of the SAP BTP cockpit.  If you want to have the end-to-end setup automatically, including creating the formation, use the Set Up SAP Ariba Buying booster in the SAP BTP cockpit.  See Automating Integrations with SAP Ariba Buying.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2023-11-02
+Valid as Of: 2023-11-02
+Version: Cloud
+
+--- Record 3967 ---
+Component: Extensions
+Environment: Cloud Foundry,Kyma
+Title: Enabling SAP Start with SAP S/4HANA Cloud on SAP BTP
+Description: To set up SAP Start with SAP S/4HANA Cloud on SAP BTP, you need to have all the necessary systems included in a formation of type Integration with SAP Start in the System Landscape page of the SAP BTP cockpit.  If you want to have the end-to-end setup automatically, including creating the formation, use the Set Up SAP Start booster in the SAP BTP cockpit.  See Automating Integrations with SAP Start.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2023-11-02
+Valid as Of: 2023-11-02
+Version: Cloud
+
+--- Record 3968 ---
+Component: Identity Provisioning
+Environment: Neo
+Title: Groups are read in delta read mode
+Description: Reading groups in delta read mode is now supported for Identity Authentication version 2 and Local Identity Directory source systems.  For more information, see: Manage Full and Delta Read
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2023-12-06
+Valid as Of: 2023-11-02
+Version: Cloud
+
+--- Record 3969 ---
+Component: Identity Provisioning
+Environment: Neo
+Title: isValidEmail function introduced
+Description: You can now use the isValidEmail function to verify whether an e-mail address is valid. It is used only within conditions and checks if the given string matches a particular regex pattern.  For more information, see: Transformation Functions
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-12-06
+Valid as Of: 2023-11-02
+Version: Cloud
+
+--- Record 3970 ---
+Component: Identity Provisioning
+Environment: Neo
+Title: Local Identity Directory
+Description: In addition to standalone tenants, the Local Identity Directory connector is now enabled for all bundle tenants running on SAP Cloud Identity Services infrastructure. You can configure it as source, target and proxy system for your provisioning scenarios.  For more information, see: Local Identity Directory
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2023-12-06
+Valid as Of: 2023-11-02
+Version: Cloud
+

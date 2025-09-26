@@ -1,0 +1,130 @@
+--- Record 1581 ---
+Component: Variant Configuration
+Environment: Cloud Foundry
+Title: Pre-Production – Configurations API – Read Single Characteristics
+Description: There is a new endpoint called GET /api/v2/configurations/{configurationId}/items/{itemId}/characteristics used to read the details of one or more characteristics of an item.   Action: If the UI of the consuming application allows it, it is recommended to always read the configuration results during interactive configuration without the possible values of characteristics. This can be achieved by using the parameter $select omitting the parameter value possibleValue when creating or reading a configuration. Only when the user clicks on a UI element, like a dropdown list box, that requires to render the possible values on the UI, the possible values should be read for that characteristic using the new endpoint. This will improve performance especially when AVC Forwarding is enabled.   See: API Definition and Development Guide for SAP Variant Configuration and Pricing.
+Action: Recommended
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-12-12
+Valid as Of: 2025-01-22
+Version: Cloud
+
+--- Record 1582 ---
+Component: Variant Configuration
+Environment: Cloud Foundry
+Title: Staged Deployment Strategy
+Description: There is a new staged deployment strategy for the Variant Configuration service starting with the 2502 release. New software releases used to be deployed to all customer tenants at the same time. We will continue to do that for our administration UI and our Administration service, but for the configuration and pricing services we will first deploy the 2502 release only to all non-productive tenants (including the partner tenants) on January 22, 2025 and only two weeks later, on February 5, 2025 we will also deploy it to the productive tenants.  Action: It is recommended to make yourself familiar with the release dates on our product page. Review the changes in the Pre-Production version of the documentation that will be published on January 22, and use the given two weeks to test the new release in your non-productive tenants and process the actions of the recommended or required changes that are announced here in the release notes.  See: Release Schedule and Dates.
+Action: Recommended
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-12-12
+Valid as Of: 2025-01-22
+Version: Cloud
+
+--- Record 1583 ---
+Component: Application for Data Replication and Administration
+Environment: Cloud Foundry
+Title: Advanced Actions - Remote Subscription Exception Display
+Description: The update mechanism for displaying errors relating to the SDI DP Agent was not working properly. This led to instances in which the error was shown only for a few seconds. This issue has been corrected
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-12-12
+Valid as Of: 2025-01-22
+Version: Cloud
+
+--- Record 1584 ---
+Component: Application for Data Replication and Administration
+Environment: Cloud Foundry
+Title: Delta Replication Alert for SAP CALM
+Description: The alert for a too high number of deltas is now also sent to SAP Cloud Application Lifecycle Monitoring – Integration Monitoring.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-12-12
+Valid as Of: 2025-01-22
+Version: Cloud
+
+--- Record 1585 ---
+Component: Cloud Integration for Data Services
+Environment: Neo
+Title: Documentation update only: Component for SAP Support Updated
+Description: In the Help Center topic View Data in a Datastore, the component you should use when asking SAP Support to activate View Data functionality for you has been updated to LOD-HCI-DS-OPS.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Database and Data Management
+Latest Revision: 2025-01-22
+Valid as Of: 2025-01-22
+Version: 1.0.11.55
+
+--- Record 1586 ---
+Component: Data Quality Services
+Environment: Cloud Foundry,Neo
+Title: Enhancements
+Description: The microservice now supports parsing point of reference data in Spanish South America countries. See the Point of Reference description in Extended Address for more information
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2025-01-22
+Version: Cloud
+
+--- Record 1587 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Kyma runtime system maintenance
+Description: We are upgrading the Kyma runtime management in our Kyma Control Plane. During this upgrade, the following minor adjustment will be applied to your Kubernetes cluster:  ClusterRoleBindings of administrators will be temporarily duplicated. This will not affect the access to your cluster. The redundant ClusterRoleBindings will be removed in a post action.  The upgrade process starts in calendar week 04/2025 and will be completed in week 06/2025.  Please note that:    The upgrade is a zero-downtime maintenance.  No actions are required from your side.  
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2025-01-17
+Valid as Of: 2025-01-22
+Version: Cloud
+
+--- Record 1588 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Telemetry module: Update to version 1.31.0
+Description: The new version brings the following improvements:  Metrics: Improved MetricPipeline defaulting of inputs (#1712).  Traces and Metrics: Update to OTel Collector 0.116.0 (#1071).   
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-01-08
+Valid as Of: 2025-01-22
+Version: Cloud
+
+--- Record 1589 ---
+Component: Pricing Service
+Environment: Cloud Foundry
+Title: Pre-Production - Base Calculations Include Current Percentage Step
+Description: In scenarios where a percentage condition spans multiple counters within the same step range in the pricing procedure, the condition base used not to be dynamically adjusted to account for the cumulative effect of prior conditions. Instead, all counters for the condition type used to use the original base amount. This issue has been corrected.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-12-10
+Valid as Of: 2025-01-22
+Version: Cloud
+
+--- Record 1590 ---
+Component: Pricing Service
+Environment: Cloud Foundry
+Title: Pre-Production - Standard Requirement Formula 58
+Description: Support standard requirement formula 58 that returns true if the accounting indicator (KOMP-BEMOT) is not initial.  See: Supported Standard Pricing Exits. 
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-12-10
+Valid as Of: 2025-01-22
+Version: Cloud
+

@@ -1,0 +1,130 @@
+--- Record 2061 ---
+Component: Decentralized Identity Verification
+Environment: Cloud Foundry
+Title: Provisioning - Deleting Services Keys
+Description: Service keys created for a Decentralized Identity Verification tenant can be now deleted.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2024-10-23
+Version: 3.3
+
+--- Record 2062 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Istio module: Update to verison 1.9.0
+Description: During the Istio upgrade, Pods with the Istio sidecar proxies are now divided into smaller groups and restarted in multiple reconciliations instead of all at once. This increases the stability and reliability of the reconciliation for the Istio module's operator. See issue #155.  We've updated the Istio version to 1.23.2. Read the Istio 1.23.2 release announcement and Istio 1.23.0 Change Notes. Take note of the following breaking changes included in the new minor version of Istio:  Deferred cluster creation: In the context of Envoy, a cluster is a group of logically similar upstream hosts that Envoy connects to. Typically, clusters are defined and created at startup. This means that regardless of whether or not a cluster will be used during the lifetime of the Envoy process, it will still be initialized. Envoy has introduced a new optimization that allows these clusters to be created on the worker threads inline during requests, which can save memory and CPU cycles. If you rely on the old behavior, consider using the compatibility mode, which disables the deferred cluster creation feature by setting ENABLE_DEFERRED_CLUSTER_CREATION to false.  Updates to Envoy cluster metrics parsing: Previously, the Envoy cluster metrics for services that did not use the .svc.cluster.local suffix were incorrectly truncated and parsed. This was because Envoy cluster metrics use dots . as a delimiter between metric namespaces. It is impossible to properly distinguish between those delimiters and the dots in hostnames or cluster names. To address this, the regex for parsing cluster_name has been updated to look for a semicolon that indicates the end of a cluster's name. If you have any dependency on the full stat name for cluster metrics, you must update your monitoring system to account for this change. If you require more time to make adjustments, consider using the compatibility mode, which reverts this behavior by setting ENABLE_DELIMITED_STATS_TAG_REGEX to false.  
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-10-10
+Valid as Of: 2024-10-23
+Version: Cloud
+
+--- Record 2063 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Telemetry module: Update to version 1.25.0
+Description: The new version brings the following improvements:      Logs, Metrics, and Traces: You can list all resources across the pipeline types LogPipeline/TracePipeline/MetricPipeline using kubectl get kyma-telemetry-pipelines (#1487).      Metrics: You can now monitor the health of the Telemetry module: By default, every MetricPipeline reports status metrics about the active pipeline and its conditions, which you can use for alerting and troubleshooting (#1294).  For details, see Setting up a MetricPipeline: Monitor Pipeline Health.      Metrics: Now, you can collect metrics (memory, CPU, and filesystem usage) about the Kubernetes Nodes of your cluster: In the runtime input of MetricPipeline, enable the new selector for Node metrics (#1300).  For details, see Setting up a MetricPipeline: Activate Runtime Metrics.    Traces and Metrics: Improved validation for HTTP-based OTLP endpoints using path and port (#1492).    Traces and Metrics: Update to OTel Collector 0.111.0 (#1497).    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-10-09
+Valid as Of: 2024-10-23
+Version: Cloud
+
+--- Record 2064 ---
+Component: Pricing Service
+Environment: Cloud Foundry
+Title: Document Pricing – Manage Stored Documents
+Description: The new endpoint GET /pricing/documents serves to get a list of stored pricing documents. The API offers different filter capabilities, for example, filtering based on the source of the document.  The source of the pricing document can be specified when creating a new document through the endpoint POST /pricing/documents as described above.   A stored pricing document can be read with the endpoint GET /pricing/documents/{documentId}.   A stored document can be deleted using the endpoint DELETE /pricing/documents/{documentId}.  See API Definition and Development Guide for SAP Variant Configuration and Pricing.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-09-24
+Valid as Of: 2024-10-23
+Version: Cloud
+
+--- Record 2065 ---
+Component: Pricing Service
+Environment: Cloud Foundry
+Title: Document Pricing – No Duplicated Error Messages
+Description: Certain error messages, for example, about missing exchange rates, used to be returned several times per condition type when scales existed. This issue has been corrected.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-09-24
+Valid as Of: 2024-10-23
+Version: Cloud
+
+--- Record 2066 ---
+Component: Pricing Service
+Environment: Cloud Foundry
+Title: Engine Traces – Proper Displaying of The Exclusion Indicator
+Description: The exclusion indicator used to be displayed in engine traces for condition accesses where no condition record was found. This issue has been corrected
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-09-24
+Valid as Of: 2024-10-23
+Version: Cloud
+
+--- Record 2067 ---
+Component: Pricing Service
+Environment: Cloud Foundry
+Title: Extensions Concept – Pass the Variant Factors to Extension Implementations
+Description: Variant condition keys are passed to extension implementations using the corresponding pricing attribute. The variant factors returned by the Variant Configuration service with each key used to be missing. Through a projection on the fields of structure itemInput in the response of the action COLLECT_ATTRIBUTES via extendedInput->documentInput->itemInput->projection now it is also possible to request variantKeyFactors.  See Extension Guide for SAP Variant Configuration and Pricing.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-09-24
+Valid as Of: 2024-10-23
+Version: Cloud
+
+--- Record 2068 ---
+Component: Pricing Service
+Environment: Cloud Foundry
+Title: Graduated Interval Scales Factor
+Description: When doing Pricing with Graduated Scales, a factor per scale level is calculated and applied to calculate the condition value from the condition rate. This factor used to overwrite the value of the duration factor in the response field conditions-durationFactor. This loss of information has been corrected by returning this factor separately in the new response field conditions-graduatedScaleFactor.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-09-24
+Valid as Of: 2024-10-23
+Version: Cloud
+
+--- Record 2069 ---
+Component: Pricing Service
+Environment: Cloud Foundry
+Title: Price Agreements
+Description: There are new endpoints to create, change, read, and delete so-called price agreements. With price agreements, the calling application can overwrite the condition rates and scales of condition types on pricing document items. This will enable the new tier pricing feature in SAP CPQ, where the sales agent can negotiate prices and scales with the customer during the quotation process.  See API Definition and Development Guide for SAP Variant Configuration and Pricing.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-09-24
+Valid as Of: 2024-10-23
+Version: Cloud
+
+--- Record 2070 ---
+Component: Pricing Service
+Environment: Cloud Foundry
+Title: Proper Return of Used Currency Exchange Rates
+Description: Condition rates are either converted directly from the condition record currency to the document currency; or they are converted through triangular conversion, first from the condition record currency to the local currency, and then to the document currency. The condition value is always returned in the document currency.   With a request parameter for stateless pricing and document pricing, it is possible to get the used currency conversion rates returned. This allows the calling application to do its own calculations.  In the currency conversion response items->currencyConversions->localCurrencyToDocumentCurrency, the exchange rate provided used to be from the document currency to the local currency, instead of from the local currency to the document currency. This issue has been corrected.  See API Definition and Development Guide for SAP Variant Configuration and Pricing.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-09-24
+Valid as Of: 2024-10-23
+Version: Cloud
+

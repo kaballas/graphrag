@@ -1,0 +1,130 @@
+--- Record 3901 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Manage Software Components app
+Description: You can now not only use the Manage Software Components app to delete a software component only locally but also the structure package including all contained ABAP objects will be deleted from the system instance. After a successful deletion, the software component can be re-cloned again. This might be desirable if local (system instance-specific) inconsistencies occur, which should be resolved. For more information and warning messages, see How to Delete Software Components.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-11-10
+Valid as Of: 2023-11-10
+Version: Cloud
+
+--- Record 3902 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Monitor Email Transmissions
+Description: You can now filter for the recipient address.  For more information, see Monitoring Email Transmissions.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-11-10
+Valid as Of: 2023-11-10
+Version: ABAP Environment 2311
+
+--- Record 3903 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Monitor Email Transmissions
+Description: You can now filter for the recipient address.  For more information, see Monitoring Email Transmissions.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-11-10
+Valid as Of: 2023-11-10
+Version: Cloud
+
+--- Record 3904 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Outbound HTTP: JWT-Based OAuth Client Authentication
+Description: You can now be authenticated as OAuth client through the use of JWT at the token endpoint of any OAuth authorization server that's supporting IETF RFC 7523 (section 2.2). Next to basic authentication and mTLS, this is the third option for OAuth client authentication.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-11-10
+Valid as Of: 2023-11-10
+Version: ABAP Environment 2311
+
+--- Record 3905 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Outbound HTTP: JWT-Based OAuth Client Authentication
+Description: You can now be authenticated as OAuth client through the use of JWT at the token endpoint of any OAuth authorization server that's supporting IETF RFC 7523 (section 2.2). Next to basic authentication and mTLS, this is the third option for OAuth client authentication.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-11-10
+Valid as Of: 2023-11-10
+Version: Cloud
+
+--- Record 3906 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: RAP Default Values Function
+Description: You can now default fields and input parameters for operations in OData Services using Default Values Functions.  See Operation Defaulting.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-11-10
+Valid as Of: 2023-11-10
+Version: ABAP Environment 2402
+
+--- Record 3907 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: RAP Treeview
+Description: You can now use Treeviews to define read-only hierarchical entity structures in OData V4.   See Implementing Hierarchies.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-11-10
+Valid as Of: 2023-11-10
+Version: ABAP Environment 2402
+
+--- Record 3908 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Removed Outbound NAT IP Addresses
+Description: Due to infrastructure changes, certain outbound NAT IP addresses are no longer used. At the end of the year, these IP addresses will be freed up and given back to the IP pool. They shouldn't be used for IP filtering anymore. List of IP addresses: 18.184.119.149 18.184.95.49 34.226.95.216 52.5.218.33 13.112.212.221 3.115.119.177  For more information, see Regions and API Endpoints for the ABAP Environment.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-11-10
+Valid as Of: 2023-11-10
+Version: ABAP Environment 2311
+
+--- Record 3909 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Removed Outbound NAT IP Addresses
+Description: Due to infrastructure changes, certain outbound NAT IP addresses are no longer used. At the end of the year, these IP addresses will be freed up and given back to the IP pool. They shouldn't be used for IP filtering anymore. List of IP addresses: 18.184.119.149 18.184.95.49 34.226.95.216 52.5.218.33 13.112.212.221 3.115.119.177  For more information, see Regions and API Endpoints for the ABAP Environment.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-11-10
+Valid as Of: 2023-11-10
+Version: Cloud
+
+--- Record 3910 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Service Consumption Model
+Description: The Service Consumption Model now generates all data type information necessary for consuming remote services in one single ABAP proxy model class.  For an example usage of the Service Consumption Model, see Developing a UI Service with Access to a Remote Service.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-11-10
+Valid as Of: 2023-11-10
+Version: ABAP Environment 2402
+

@@ -1,0 +1,130 @@
+--- Record 1661 ---
+Component: Cloud Portal Service
+Environment: Cloud Foundry
+Title: Built-In Support
+Description: Built-In Support is a support platform that enables you to get access to support content and channels directly from your current system.  To use this feature, enable it in the Site Settings screen. This displays a headset icon in the menu bar of the site.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-01-09
+Valid as Of: 2025-01-09
+Version: 2413A
+
+--- Record 1662 ---
+Component: Connectivity
+Environment: Cloud Foundry
+Title: Destination Service - New Authentication Type
+Description: For HTTP destinations, a new authentication type OAuth2TokenExchange (based on RFC8693) is now available.  For more information, see OAuth Token Exchange Authentication.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-01-09
+Valid as Of: 2025-01-09
+Version: Cloud
+
+--- Record 1663 ---
+Component: Connectivity
+Environment: Cloud Foundry,Neo
+Title: Java Connector 3.1.11.0 - Bug Fixes
+Description: Release of Java Connector (JCo) version 3.1.11.0 provides the following bug fix:  When calling JCoRepository.load(java.io.Reader), the cache of the JCoRepository instance was not cleared, neither before reading the metadata nor if an error occurred during the load operation. Thus, previously cached function templates and record metadata as well as newly loaded metadata could have been rendered unusable. Working with such invalid or wrong metadata could have resulted in various follow-up errors like NullPointerExceptions or garbled content data.  This issue hass been fixed.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-01-09
+Valid as Of: 2025-01-09
+Version: Cloud
+
+--- Record 1664 ---
+Component: Connectivity
+Environment: Cloud Foundry,Neo
+Title: Java Connector 3.1.11.0 - Enhancements
+Description: Release of Java Connector (JCo) version 3.1.11.0 provides the following enhancement:  The new API com.sap.conn.jco.JCoRepository.isEmpty() has been added and is available for general use. See the API documentation for details.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-01-09
+Valid as Of: 2025-01-09
+Version: Cloud
+
+--- Record 1665 ---
+Component: Document Management Service
+Environment: Cloud Foundry
+Title: Recycle Bin Update
+Description: With this release, the Recycle Bin includes additional features such as access control checks, deletion events, search, pagination, and folder path management. Please note that access to this feature depends on the level of access control granted to users.  See Using the Recycle Bin and Deleting and Restoring Files and Folders.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-01-09
+Valid as Of: 2025-01-09
+Version: Cloud
+
+--- Record 1666 ---
+Component: Document Management Service
+Environment: Cloud Foundry
+Title: UI Improvements: Advanced Search
+Description: We have updated the    Advanced Searchon the Document Management Service, Application Option UI with the following features:  Add and Remove Fields: Use the Filters option to customize your search fields.  Rearrange Fields: Organize search fields to suit your needs.  Search and Group Fields: Find and group fields easily using the Filters option.  Reset Filters: Quickly reset filters to start a new search.  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-01-09
+Valid as Of: 2025-01-09
+Version: Cloud
+
+--- Record 1667 ---
+Component: SAP BTP Cockpit
+Environment: Cloud Foundry,Other
+Title: Displaying Who Created and Last Modified Service Instances in the SAP BTP Cockpit
+Description: We've added Created By and Modified By fields to the Instances and Subscriptions page of subaccounts and to the Service Instances page of Cloud Foundry spaces in the SAP BTP cockpit to show who created and modified service instances.  Note that the feature is now available for all three types of entities that can be created in SAP BTP cockpit: service instances, environment instances, and subscriptions.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-01-01
+Valid as Of: 2025-01-09
+Version: Cloud
+
+--- Record 1668 ---
+Component: SAP BTP, Cloud Foundry Runtime
+Environment: Cloud Foundry
+Title: Version 45.0.0
+Description: Cloud Foundry has been updated from 44.9.0 to 45.0.0.      https://github.com/cloudfoundry/cf-deployment/releases/tag/v45.0.0  https://github.com/cloudfoundry/cf-deployment/releases/tag/v44.11.0  https://github.com/cloudfoundry/cf-deployment/releases/tag/v44.10.0    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-01-09
+Valid as Of: 2025-01-09
+Version: Cloud
+
+--- Record 1669 ---
+Component: SAP Build Work Zone, advanced edition
+Environment: Cloud Foundry
+Title: Built-In Support
+Description: Built-In Support is a support platform that enables you to get access to support content and channels directly from your current system.  To use this feature, enable it in the Site Settings screen. This displays a headset icon in the menu bar of the site.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-01-09
+Valid as Of: 2025-01-09
+Version: 2413A
+
+--- Record 1670 ---
+Component: SAP Build Work Zone, standard edition
+Environment: Cloud Foundry
+Title: Built-In Support
+Description: Built-In Support is a support platform that enables you to get access to support content and channels directly from your current system.  To use this feature, enable it in the Site Settings screen. This displays a headset icon in the menu bar of the site.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-01-09
+Valid as Of: 2025-01-09
+Version: 2413A
+

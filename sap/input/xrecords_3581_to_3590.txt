@@ -1,0 +1,130 @@
+--- Record 3581 ---
+Component: SAP Omnichannel Promotion Pricing
+Environment: Cloud Foundry
+Title: Adding Multiple Business Units
+Description: You can now add multiple business units of the same type to a promotion in one go. For more information, see Adding Multiple Business Units.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2022-01-01
+Valid as Of: 2024-01-31
+Version: Cloud
+
+--- Record 3582 ---
+Component: SAP Omnichannel Promotion Pricing
+Environment: Cloud Foundry
+Title: Application Help for Promotion Maintenance
+Description: You can now learn more about the Maintain Promotions app using the guide Application Help for Promotion Maintenance.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2022-01-01
+Valid as Of: 2024-01-31
+Version: Cloud
+
+--- Record 3583 ---
+Component: SAP Omnichannel Promotion Pricing
+Environment: Cloud Foundry
+Title: Troubleshooting Errors Encountered When Verifying a Merchandise Set
+Description: For information on troubleshooting any errors that are encountered when verifying a merchandise set, see Troubleshooting.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2022-01-01
+Valid as Of: 2024-01-31
+Version: Cloud
+
+--- Record 3584 ---
+Component: SAP S/⁠4HANA Cloud for Credit Integration
+Environment: Cloud Foundry
+Title: Integration with new credit agency: Creditreform CH (Switzerland)
+Description: The credit agency Creditreform CH is now connected to SAP S/⁠4HANA Cloud for credit integration.  More information:  Available Credit Agency Products and Features  Your Tasks for Integrating a New Credit Agency
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Finance
+Latest Revision: 2024-01-31
+Valid as Of: 2024-01-31
+Version: Cloud
+
+--- Record 3585 ---
+Component: SAP S/⁠4HANA Cloud for Credit Integration
+Environment: Cloud Foundry
+Title: New feature: Trade-up of company ID
+Description: When requesting credit information for a company, if the company is not maintained as its own legal entity in the credit agency's database, the agency will provide credit information for the next-highest legal entity. The credit report will be saved under the new company ID, and the incidents of this trade-up of company IDs can be identified when the requested company ID and the company ID used for identification differ in the credit report.  This feature is only available for selected credit agencies.  More information:   About the Trade-Up of a Company ID  Available Features per Credit Agency
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Finance
+Latest Revision: 2024-01-31
+Valid as Of: 2024-01-31
+Version: Cloud
+
+--- Record 3586 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Application Authorizations Based on Policies
+Description: Tenant administrators can configure access to applications in the administration console of SAP Cloud Identity Services via authorizations based on policies. See Configure Authorizations Based on Policies.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-30
+Valid as Of: 2024-01-30
+Version: 25565
+
+--- Record 3587 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Manage Administrators
+Description: You can add tenant administrators in SAP Cloud Identity Services via the SAP for Me portal. See Cloud Identity Services Administrators Card.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-30
+Valid as Of: 2024-01-30
+Version: 25565
+
+--- Record 3588 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Regular Upgrade
+Description: Identity Authentication has been upgraded.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-30
+Valid as Of: 2024-01-30
+Version: 25565
+
+--- Record 3589 ---
+Component: Identity Provisioning
+Environment: Neo
+Title: Notifications for expiring outbound certificate
+Description: The warning message for expiring outbound certificate is now displayed 30 days before the expiration date. Previously, the notification appeared in the Оutbound Certificates tab of the provisioning systems four weeks (28 days) before the expiration.   For more information, see Generate and Manage Certificates for Outbound Connection.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-02-20
+Valid as Of: 2024-01-30
+Version: Cloud
+
+--- Record 3590 ---
+Component: Identity Provisioning
+Environment: Neo
+Title: Support for group.name attribute
+Description: The default transformations of SAP Advanced Financial Closing source, target and proxy system now supports the group.name attribute within the group resource.  For more information, see SAP Advanced Financial Closing
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-02-20
+Valid as Of: 2024-01-30
+Version: Cloud
+

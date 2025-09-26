@@ -1,0 +1,130 @@
+--- Record 3481 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Health Monitoring
+Description: In the Health Monitoring app, you can now use additional metrics for e-mail transmissions and changes to database table entries.   See Local Health Monitoring.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-02-18
+Valid as Of: 2024-02-16
+Version: Cloud
+
+--- Record 3482 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Integration of Enterprise Event Enablement with Advanced Event Mesh Service Plan for Public Cloud
+Description: You can now integrate the enterprise event enablement with the Advanced Event Mesh service plan, using the Advanced Event Mesh Integration Scenario (SAP_COM_0492) and Advanced Event Mesh Validation Service Integration (SAP_COM_0493).  For more information, see Integration with Advanced Mesh Service Plan for Service Cloud.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-18
+Valid as Of: 2024-02-16
+Version: ABAP Environment 2402
+
+--- Record 3483 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Integration of Enterprise Event Enablement with Advanced Event Mesh Service Plan for Public Cloud
+Description: You can now integrate the enterprise event enablement with the Advanced Event Mesh service plan, using the Advanced Event Mesh Integration Scenario (SAP_COM_0492) and Advanced Event Mesh Validation Service Integration (SAP_COM_0493).  For more information, see Integration with Advanced Mesh Service Plan for Service Cloud.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-18
+Valid as Of: 2024-02-16
+Version: Cloud
+
+--- Record 3484 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Maintain Business Roles
+Description: With this feature you can copy restrictions from a deprecated restriction type to the successor restriction types using the Mass Change Wizard.  You can also compare launchpad spaces that are assigned to business roles.  See    and How to Compare Business Roles.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-02-18
+Valid as Of: 2024-02-16
+Version: ABAP Environment 2402
+
+--- Record 3485 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Maintain Business Roles
+Description: With this feature you can copy restrictions from a deprecated restriction type to the successor restriction types using the Mass Change Wizard.  You can also compare launchpad spaces that are assigned to business roles.  See How to Compare Business Roles.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-02-18
+Valid as Of: 2024-02-16
+Version: Cloud
+
+--- Record 3486 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Maintain Business Roles (Deprecated)
+Description: Please note that the Maintain Business Roles (Deprecated) app was removed from the SAP-delivered launchpad space.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-02-18
+Valid as Of: 2024-02-16
+Version: ABAP Environment 2402
+
+--- Record 3487 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Maintain Business Roles (Deprecated)
+Description: Please note that the Maintain Business Roles (Deprecated) app was removed from the SAP-delivered launchpad space.   See Maintain Business Roles.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-02-18
+Valid as Of: 2024-02-16
+Version: Cloud
+
+--- Record 3488 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Monitoring System Workload
+Description: You can now monitor the system workload with a focus on specific metrics such as ABAP and HANA CPU time, as well as ABAP and HANA processing time. You also get an enhanced user interface where you can now filter for more workload classifiers. When displaying the charts for CPU or processing times, you can now drill down based on a selected workload classifier.   See Navigating from System Workload to Single ABAP Statistics Records.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-02-18
+Valid as Of: 2024-02-16
+Version: ABAP Environment 2402
+
+--- Record 3489 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Monitoring System Workload
+Description: You can now monitor the system workload with a focus on specific metrics such as ABAP and HANA CPU time, as well as ABAP and HANA processing time. You also get an enhanced user interface where you can now filter for more workload classifiers. When displaying the charts for CPU or processing times, you can now drill down based on a selected workload classifier.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-02-18
+Valid as Of: 2024-02-16
+Version: Cloud
+
+--- Record 3490 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Monitoring Tenant Workload
+Description: With the new filter for tenants, you can now also use System Workload to display the workload of tenants. System Workload now comprises all features in one place that you previously had with Tenant Workload. Therefore, Tenant Workload is now retired, and the corresponding tile removed from the SAP Fiori launchpad.   See Navigating from System Workload to Single ABAP Statistics Records.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-02-18
+Valid as Of: 2024-02-16
+Version: ABAP Environment 2402
+

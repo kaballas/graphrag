@@ -1,0 +1,130 @@
+--- Record 3061 ---
+Component: SAP Advanced Financial Closing
+Environment: Cloud Foundry
+Title: Improvement to Tasks Tables
+Description: The Tasks tables available on header and folder level as well as on the Dependencies tab when users edit dependencies have been adjusted to improve user experience. The following table columns are no longer available for task list templates but are still available for task lists, since they offer an actual value in task lists only:  Initial Critical Path, Critical Path  Initial Longest Path, Longest Path  Initial Start, Planned Start  Initial End, Planned End  Initial Duration    If you previously had saved views that include these columns, the views will automatically be updated for templates. For task lists, no change will occur.  More information:  How to Create Tasks  App affected:  Manage Closing Task Lists  
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Finance
+Latest Revision: 2024-04-05
+Valid as Of: 2024-04-21
+Version: Cloud
+
+--- Record 3062 ---
+Component: SAP Advanced Financial Closing
+Environment: Cloud Foundry
+Title: Offset and Planned Start Maintenance to Be Changed in Upcoming Release
+Description: As of the release planned to be made available in June, you will be able to directly edit the planned start date and time of a task in a task list. This means you will no longer need to adjust the offset of a task to achieve an adjustment of the planned start. As of the release of this improvement, you will maintain a task's offset in task list templates only.  App affected:  Manage Closing Task Lists
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Finance
+Latest Revision: 2024-06-07
+Valid as Of: 2024-04-21
+Version: Cloud
+
+--- Record 3063 ---
+Component: SAP Advanced Financial Closing
+Environment: Cloud Foundry
+Title: Task Status Reflection on User Interface
+Description: Changes in task status are now reflected faster on the user interface:  On the task details page, a task status change is shown as soon as the status is set, without you needing to refresh the page.  In the table showing all tasks of the task list, a message is shown when a status update is available. By clicking on the message, you refresh the page to show the updated statuses.    App affected:  Process Closing Tasks
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Finance
+Latest Revision: 2024-04-05
+Valid as Of: 2024-04-21
+Version: Cloud
+
+--- Record 3064 ---
+Component: SAP Advanced Financial Closing
+Environment: Cloud Foundry
+Title: Validation of Mandatory Fields in Task Models
+Description: When you create a task from a model, a check now confirms whether all mandatory fields have been filled with valid values. If mandatory values are missing, the affected tasks aren't created and the issue needs to be fixed in the corresponding communication system.  The following fields in a task model are mandatory:  Task Model Type  Task Model  Task Type  Job Template or Program (both only relevant for tasks of the type Job)  Semantic Object and Semantic Action (both only relevant for tasks of the type SAP Fiori Application)    This validation also takes place when you perform the following actions:  Assign task list model  Update task list model    More information:  How to Create Tasks  App affected:  Manage Closing Task Lists  
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Finance
+Latest Revision: 2024-04-05
+Valid as Of: 2024-04-21
+Version: Cloud
+
+--- Record 3065 ---
+Component: SAP Data Intelligence
+Environment: Cloud Foundry
+Title: Dynamic RMS-ABAP Package Size
+Description: The RMS-ABAP package size is now calculated instead of hard coded as 30M. This change improves the resilience of Replication Management System Replication Flow. To benefit from this new feature, you must apply the latest support patch for the ABAP system.  For more information, see 3380359 .
+Action: Recommended
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2022-01-01
+Valid as Of: 2024-04-20
+Version: Cloud
+
+--- Record 3066 ---
+Component: SAP Data Intelligence
+Environment: Cloud Foundry
+Title: Amazon Simple Storage Service Connection (S3) Supports Server Side Encryption and Restricted Access by Assuming a Role
+Description: To improve security when connecting to your Amazon S3 buckets, the connection configuration has been enhanced:   You can now enable server side encryption to use encrypted objects in data flows, optionally using an AWS Key Management Service key for encryption.   You can now assume a role to use temporary security credentials and restrict access to your Amazon S3 buckets based on an Identity and Access Management role (IAM role).
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2022-01-01
+Valid as Of: 2024-04-20
+Version: Cloud
+
+--- Record 3067 ---
+Component: SAP Data Intelligence
+Environment: Cloud Foundry
+Title: Client Certificate and Key Support for CPT
+Description: The CPI connection type and operator now support authentication based on client certificate and key.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2022-01-01
+Valid as Of: 2024-04-20
+Version: Cloud
+
+--- Record 3068 ---
+Component: SAP Data Intelligence
+Environment: Cloud Foundry
+Title: Data Transfer Support for ADL_V2 as a Target
+Description: The Data Transfer operator enables SAP Business Warehouse (BW) to write into cloud sources. With this feature, choose ADL_V2 (Generation 2 Microsoft Azure Data Lake) to transfer data from SAP BW to your ADL_V2 connection type. ADL_V2 has the same capabilities as the other connection types.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2022-01-01
+Valid as Of: 2024-04-20
+Version: Cloud
+
+--- Record 3069 ---
+Component: SAP Data Intelligence
+Environment: Cloud Foundry
+Title: Deprecated Operators
+Description: The following operators are deprecated:  Command Executor (com.sap.system.commandExecutor)  HANA Flowgraph (com.sap.dh.hanaflowgraph)  HANA Monitor (com.sap.hana.monitor2)  Histogram (com.sap.util.histogram)   Histogram Plotter (com.sap.util.histogramPlotter)  HTML Viewer (com.sap.util.htmlViewer)  Message Aggregator (com.sap.util.aggregator)  Process Executor (com.sap.system.processExecutor)  Streaming Analytics Projects (com.sap.streamingproject)   String Operator (com.sap.system.jsengine)  Submit Hadoop Job (com.sap.hadoop.submitJob)     For more information about deprecated operators, see SAP Note 2739161/E .
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2022-01-01
+Valid as Of: 2024-04-20
+Version: Cloud
+
+--- Record 3070 ---
+Component: SAP Data Intelligence
+Environment: Cloud Foundry
+Title: Deprecation of Microsoft Azure Data Lake Storage Gen1
+Description: Microsoft Azure Data Lake Storage Gen1 was retired on February 29, 2024. After this date, it may not be possible to access data with Gen1 connections. Therefore, the connection type is deprecated and may be removed in future SAP Data Intelligence releases.   After your Microsoft Azure Data Lake Storage Gen1 has been migrated to Gen2, recreate the connection with the Gen2 connection type (ADL_V2) and update your graphs and operators to the new connection.   For more information, see Action required: Switch to Azure Data Lake Storage Gen2 by 29 February 2024 on the Azure website.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2022-01-01
+Valid as Of: 2024-04-20
+Version: Cloud
+

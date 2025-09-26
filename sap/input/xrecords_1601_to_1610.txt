@@ -1,0 +1,130 @@
+--- Record 1601 ---
+Component: SAP Omnichannel Promotion Pricing
+Environment: Cloud Foundry
+Title: Loyalty Points Multiplier
+Description: You can now maintain a  Loyalty Points Multiplier as reward in the Maintain Promotions app to define by which value previously calculated and applied loyalty points should be multiplied. For this, a new type of price derivation rule BenefitMultiplierPriceDerivationRule is available as of Client API version 16.0.  For more information, see Granting Loyalty Points and Price Calculation with Loyalty Points Multiplier (XML).
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2022-01-01
+Valid as Of: 2025-01-22
+Version: Cloud
+
+--- Record 1602 ---
+Component: Variant Configuration
+Environment: Cloud Foundry
+Title: Pre-Production - Configurations API – Raise Conflict for Non-Unique Inferences from Multiple Rows of a Variant Table
+Description: When a characteristic value could not be set because a selection on a variant table resulted in more than one row, an exception used to be raised and the configuration service endpoint prompted an error. This behavior has been changed by not raising an exception anymore but signaling a conflict in the configuration results in the same way as LO-VC does it.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-12-12
+Valid as Of: 2025-01-22
+Version: Cloud
+
+--- Record 1603 ---
+Component: Variant Configuration
+Environment: Cloud Foundry
+Title: Pre-Production – Configurations API -– AVC Forwarding – Ensure Sort Order Remains Stable Between Requests
+Description: The order of existing possible values could have changed after a PATCH request, that is, setting a value during the configuration while using AVC forwarding. This issue has been corrected.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-12-12
+Valid as Of: 2025-01-22
+Version: Cloud
+
+--- Record 1604 ---
+Component: Variant Configuration
+Environment: Cloud Foundry
+Title: Pre-Production – Configurations API – AVC Forwarding – Possible Values: Include pre-defined characteristic values
+Description: Valid pre-defined characteristic values used to be omitted from the returned list of possible values of date and numeric characteristics if a restricted dynamic domain was returned by AVC. This issue has been corrected.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-12-12
+Valid as Of: 2025-01-22
+Version: Cloud
+
+--- Record 1605 ---
+Component: Variant Configuration
+Environment: Cloud Foundry
+Title: Pre-Production – Configurations API –Exclude Globally Assigned Characteristics from Configuration Results
+Description: In certain scenarios, characteristics are assigned to classes and products only for internal purposes, for example, if they are used in object dependencies but not assigned to a class of the product. These so-called globally assigned characteristics are now filtered out in the service responses and are not persisted anymore with the configuration results. They can still show up in the configuration engine trace.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-12-12
+Valid as Of: 2025-01-22
+Version: Cloud
+
+--- Record 1606 ---
+Component: Variant Configuration
+Environment: Cloud Foundry
+Title: Pre-Production – Knowledgebases API – New Filter to Read Variant Table ContentPre-Production – Knowledgebases API – New Filter to Read Variant Table Content
+Description: There is an enhancement of endpoint GET /api/v2/knowledgebases/{kbId}/variantTables/{variantTableId} that allows to read the content of a variant table: new IN operator for the parameter $filter allows more advanced table selects in the form of $filter=<characteristic name> IN (<list of characteristic values>).   See: API Definition and Development Guide for SAP Variant Configuration and Pricing.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-12-12
+Valid as Of: 2025-01-22
+Version: Cloud
+
+--- Record 1607 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Best Practices - Capturing Specific Elements
+Description: To capture specific elements such as the Save File dialog or popups in the SAP WebGUI application, we recommend capturing them as a web page.See: Guidelines for the SAP GUI Technology Automation
+Action: Recommended
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-01-21
+Valid as Of: 2025-01-21
+Version: Cloud
+
+--- Record 1608 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Off-Cycle Upgrade
+Description: Cloud Identity Services have been upgraded.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-01-21
+Valid as Of: 2025-01-21
+Version: 27307
+
+--- Record 1609 ---
+Component: Graph
+Environment: Cloud Foundry
+Title: Improved visualization of actions and functions
+Description: The visualization of actions and functions in the Graph Navigator have been enhanced. For more information, see Actions and Functions.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Intelligent Technologies
+Latest Revision: 2025-01-21
+Valid as Of: 2025-01-21
+Version: Cloud
+
+--- Record 1610 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Istio module: Update to version 1.13.0
+Description: We have updated the internal structure that holds Istio Operator. This ensures that the module remains up-to-date with the latest upstream Istio dependencies.  This version of the Istio module includes Istio 1.24.1 and Envoy 1.32.2.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-01-21
+Valid as Of: 2025-01-21
+Version: Cloud
+

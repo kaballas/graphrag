@@ -1,0 +1,130 @@
+--- Record 3741 ---
+Component: SAP Audit Log
+Environment: Cloud Foundry
+Title: Premium service plan is now enabled on US East (VA)
+Description: As a customer using US East (VA) region, when you activate the Premium service plan, you'll be able to write your own audit logs directly in the Audit log service. You'll also have the option to extend your retention period to comply with your business needs.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-12-06
+Valid as Of: 2023-12-14
+Version: Cloud
+
+--- Record 3742 ---
+Component: SAP BTP, Cloud Foundry Runtime
+Environment: Cloud Foundry
+Title: Version 33.8.0
+Description: Cloud Foundry has been updated from version 33.4.0 to 33.8.0.      https://github.com/cloudfoundry/cf-deployment/releases/tag/v33.8.0  https://github.com/cloudfoundry/cf-deployment/releases/tag/v33.7.0  https://github.com/cloudfoundry/cf-deployment/releases/tag/v33.6.0  https://github.com/cloudfoundry/cf-deployment/releases/tag/v33.5.0    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-12-14
+Valid as Of: 2023-12-14
+Version: Cloud
+
+--- Record 3743 ---
+Component: SAP Build Work Zone, advanced edition
+Environment: Cloud Foundry
+Title: SAP Companion Content
+Description: The SAP Companion content has been enhanced with guided tours to help you perform various tasks. To view the updated in-app help content, you need to update the SAP Companion parameters in the Site Settings. For more information, see Activating SAP Companion Content.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2023-12-14
+Valid as Of: 2023-12-14
+Version: Cloud
+
+--- Record 3744 ---
+Component: SAP Java Buildpack
+Environment: Cloud Foundry
+Title: Version 1.82.0
+Description: SAP Java Buildpack has been updated from version 1.81.1 to 1.82.0        com.sap.cloud.security.xsuaa is updated from version 2.16.0 to 2.17.0      SAP HANA Driver (hana.driver.2.X.X) is updated from version 2.18.13 to 2.18.16      com.fasterxml.jackson is updated from version 2.15.3 to 2.16.0      com.faster.jackson.databind is updated from version 2.15.3 to 2.16.0        org.springframework is updated from 5.3.30 to 5.3.31        com.sap.xs.onpremise.runtime is updated from version 1.1.5 to 1.1.6      Apache Tomcat 9 is updated from version 9.0.80 to 9.0.83      org.apache.logging.log4j is updated from version 2.21.1 to 2.22.0      org.apache.commons.commons-lang3 is updated from version 3.13.0 to 3.14.0      PostgreSQL JDBC Driver (postgresql.version) is updated from 42.6.0 to 42.7.0      com.sap.hcp.cf.logging is updated from 3.7.1 to 3.8.0    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2023-12-04
+Valid as Of: 2023-12-14
+Version: Cloud
+
+--- Record 3745 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Off-Cycle Upgrade
+Description: Identity Authentication has been upgraded.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-12-12
+Valid as Of: 2023-12-12
+Version: Cloud
+
+--- Record 3746 ---
+Component: Edge Integration Cell
+Environment: Cloud Foundry
+Title: Software Version Update
+Description:     Edge Integration Cell: 8.10.*      Increment: 2310    
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2023-12-12
+Valid as Of: 2023-12-12
+Version: 2310
+
+--- Record 3747 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Core SDK
+Description: You can now use the Get Screen Application Instance Count activity to return the number of instances of the application screen and the Get Screen Application Instance (Index) activity to retrieve the instance of the application screen from its index.  For more information, see Core SDK.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-12-12
+Valid as Of: 2023-12-12
+Version: Cloud
+
+--- Record 3748 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Create and Manage Projects
+Description: User principles are now case insensitive. For example, "user@mail.com" is treated as the same entity as "USER@mAil.cOM".
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2023-12-12
+Valid as Of: 2023-12-12
+Version: Cloud
+
+--- Record 3749 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Different Types of Set Activity Options in the Enhanced Recorder
+Description: You can now use the following options in the enhanced recorder to modify the input value for the Set activity.    Convert Input into a Variable - This option allows you to convert an input value into a variable.  Replace Variable with Original Input - This option allows you to replace a variable with the original input value.  Replace Input with Existing Variable - This option allows you to replace an input value with the pre-existing variable.    For more information, see Different Types of Set Activity Options in the Enhanced Recorder.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-12-12
+Valid as Of: 2023-12-12
+Version: Cloud
+
+--- Record 3750 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Error Management in the Enhanced Recorder
+Description: You can now effectively manage errors that may arise while recording in the enhanced recorder. For more information, see Error Management in the Enhanced Recorder.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-12-12
+Valid as Of: 2023-12-12
+Version: Cloud
+

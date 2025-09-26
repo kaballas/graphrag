@@ -1,0 +1,130 @@
+--- Record 1311 ---
+Component: Forms Service by Adobe
+Environment: Cloud Foundry
+Title: REST API - New Output Types
+Description: The SAP Forms service REST API now supports the following additional output types:  • CAB  • DPL  • IPL  • PCL  • PS  • TPCL  • ZPL  For more information, see Render Additional Output Types.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2025-02-27
+Version: Cloud
+
+--- Record 1312 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Additional worker node pools
+Description: We have added a new configurable parameter, Additional Worker Node Pools (additionalWorkerNodePools). Adding a customized worker node pool to your Kyma runtime enables you to introduce worker nodes optimized and reserved for your particular workload requirements.  For more information, see Provisioning and Updating Parameters in the Kyma Environment.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-02-26
+Valid as Of: 2025-02-26
+Version: Cloud
+
+--- Record 1313 ---
+Component: Process Visibility Capability
+Environment: Cloud Foundry
+Title: Step Execution Details in Process Path
+Description: You can now view step-level details for every execution of step that runs in loops.   See Gain Visibility Using Process Workspace.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-02-26
+Valid as Of: 2025-02-26
+Version: Cloud
+
+--- Record 1314 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Add Dependent Project Processes to Visibility Scenario
+Description: You can now gain visibility on processes added from dependent projects in your visibility scenario.See Add Process.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-02-26
+Valid as Of: 2025-02-26
+Version: Cloud
+
+--- Record 1315 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Step Execution Details in Process Path
+Description: You can now view step-level details for every execution of step that runs in loops.See Gain Visibility Using Process Workspace.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-02-26
+Valid as Of: 2025-02-26
+Version: Cloud
+
+--- Record 1316 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Central store-based provisioning
+Description: You can enable central store-based provisioning to immediately provision updates related to user assignments in application-specific groups between the Local Identity Directory and your selected target systems.  For more information, see Enable or Disable Central Store-Based Provisioning and Central Store-Based Provisioning.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-02-25
+Valid as Of: 2025-02-25
+Version: 27494
+
+--- Record 1317 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Certificate Renewal
+Description: Identity Authentication can update automatically the expired encryption certificate, and the SAML 2.0 certificate during the first sign in attempt that fails due to the expired certificate. The metadata URL must be provided. See Configure SAML 2.0 Service Provider.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-02-25
+Valid as Of: 2025-02-25
+Version: 27494
+
+--- Record 1318 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Group mapping changes
+Description: The default transformations of SAP S/4 HANA Cloud are changed to support the provisioning of application-specific groups.  For more information, see:  SAP S/4 HANA Cloud (Source)  SAP S/4 HANA Cloud (Target)  SAP S/4 HANA Cloud (Proxy)  
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-02-25
+Valid as Of: 2025-02-25
+Version: 27494
+
+--- Record 1319 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Group Provisioning
+Description: You can enable or disable provisioning of every update in an application specific group to a target system. See Enable or Disable Central Store-Based Provisioning.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-02-25
+Valid as Of: 2025-02-25
+Version: 27494
+
+--- Record 1320 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Increased Number of API Permission Groups Allowed
+Description: API permission groups enable you to expose APIs to other Cloud Identity Services applications. With this release, we have increased the number of API permission groups you can create from 20 to 50.  For more information, see Provide APIs for Consumption by Other Applications.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-02-25
+Valid as Of: 2025-02-25
+Version: 27494
+

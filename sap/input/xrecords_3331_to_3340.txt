@@ -1,0 +1,130 @@
+--- Record 3331 ---
+Component: SAP BTP, Cloud Foundry Runtime
+Environment: Cloud Foundry
+Title: Version 37.5.0
+Description: Cloud Foundry has been updated from 37.0.0 to 37.5.0.      https://github.com/cloudfoundry/cf-deployment/releases/tag/v37.5.0  https://github.com/cloudfoundry/cf-deployment/releases/tag/v37.4.0  https://github.com/cloudfoundry/cf-deployment/releases/tag/v37.3.0  https://github.com/cloudfoundry/cf-deployment/releases/tag/v37.2.0  https://github.com/cloudfoundry/cf-deployment/releases/tag/v37.1.0    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-03-07
+Valid as Of: 2024-03-07
+Version: Cloud
+
+--- Record 3332 ---
+Component: SAP Build Work Zone, standard edition
+Environment: Cloud Foundry
+Title: Exposing SAP Analytics Cloud KPIs in SAP Mobile Start
+Description: You can expose SAP Analytics Cloud KPIs as tiles in SAP Mobile Start or as widgets on the home or lock screen.   The SAP Analytics Cloud KPIs are also available as dynamic tiles in SAP Build Work Zone, standard edition.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-03-07
+Valid as Of: 2024-03-07
+Version: Cloud
+
+--- Record 3333 ---
+Component: SAP Java Buildpack
+Environment: Cloud Foundry
+Title: SAP Java Buildpack 2
+Description: A new major version of SAP Java Buildpack is released - SAP Java Buildpack 2. It supports Apache Tomcat 10, Java 17, and SAP BTP Security Services Integration Libraries 3.x. It also enables usage of Spring Boot 3.x.   To learn more, see:      Documentation: SAP Java Buildpack 2      Blog post: SAP Java Buildpack 2: Jakarta-Based, Fresh and New!    
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-02-23
+Valid as Of: 2024-03-07
+Version: Cloud
+
+--- Record 3334 ---
+Component: SAP Java Buildpack
+Environment: Cloud Foundry
+Title: Version 1.88.0
+Description: SAP Java Buildpack 1 has been updated from version 1.87.0 to 1.88.0. Updated components:      com.sap.xs.onpremise.runtime is updated from version 1.1.7 to 1.1.8      com.sap.hcp.cf.logging is updated from 3.8.1 to 3.8.2      com.sap.cloud.instancemanager is updated from version 2.2.1 to 3.14.0      commons-codec is updated from version 1.16.0 to 1.16.1      otel-agent is updated from version 1.32.0 to 2.0.0      otel-agent-ext-java is updated from version 1.5.8 to 1.5.10    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-02-23
+Valid as Of: 2024-03-07
+Version: Cloud
+
+--- Record 3335 ---
+Component: SAP Start
+Environment: Cloud Foundry
+Title: Integration with SAP S/4HANA Cloud Private Edition
+Description: SAP S/4HANA Cloud Private Edition can now be integrated into SAP Start. This enables access to relevant business content, like cards from the Insights section of the My Home page of SAP S/4HANA Cloud Private Edition as well as searching for and launching apps.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-03-07
+Valid as Of: 2024-03-07
+Version: Cloud
+
+--- Record 3336 ---
+Component: SAP Start
+Environment: Cloud Foundry
+Title: Resetting snooze or hide actions in the Insights section
+Description: You can reset all previously applied Snooze or Hide actions, by clicking the Reset Snooze/Hide Actions option below the Insights section. This option enables cards that were snoozed or hidden to be shown again in the Insights section.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-03-07
+Valid as Of: 2024-03-07
+Version: Cloud
+
+--- Record 3337 ---
+Component: Mobile Services
+Environment: Cloud Foundry
+Title: Doc Update: Android push notifications
+Description: (Version 2402) Google has deprecated the legacy HTTP API that uses Server Key authentication and will discontinue the authentication in June 2024. You must update your configuration to Firebase Service Account Private Key beforehand.  See Configuring Push for Android Apps.
+Action: Info only
+Lifecycle: Deprecated
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-02-27
+Valid as Of: 2024-03-06
+Version: Cloud
+
+--- Record 3338 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Referenced SAPUI5 Version
+Description: As part of hotfix collection 5, SAPUI5 version 1.120.9 is used for the administrator’s SAP Fiori launchpad, SAP-delivered Fiori apps, and the custom-built SAP Fiori apps, which are deployed to the ABAP system.  See SAP BTP ABAP Environment – Maintenance Windows and Major Upgrade Windows in 2024 and SAP UI5
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-03-11
+Valid as Of: 2024-03-06
+Version: ABAP Environment 2402
+
+--- Record 3339 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Referenced SAPUI5 Version
+Description: As part of hotfix collection 5, SAPUI5 version 1.120.9 is used for the administrator’s SAP Fiori launchpad, SAP-delivered Fiori apps, and the custom-built SAP Fiori apps, which are deployed to the ABAP system.  See SAP BTP ABAP Environment – Maintenance Windows and Major Upgrade Windows in 2024 and SAP UI5
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-03-11
+Valid as Of: 2024-03-06
+Version: Cloud
+
+--- Record 3340 ---
+Component: Data Attribute Recommendation
+Environment: Cloud Foundry
+Title: AI API - New Functionalities
+Description: The following new functionalities are now available when consuming the Data Attribute Recommendation service via AI API:    Support for dataset schemas with overlapping features and labels: Add common values to the list of features and labels in your dataset schemas. Use the trained model for autocomplete tasks.  See Upload Dataset.      Support for masking during model training: Set the training configuration parameter enableMasking to true to make the model learn nontrivial relationships between inputs and outputs (even when the list of features coincides with the list of labels).  See Training Configuration.    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-03-06
+Valid as Of: 2024-03-06
+Version: Cloud
+

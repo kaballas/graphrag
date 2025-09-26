@@ -1,0 +1,130 @@
+--- Record 2461 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: XCO Library
+Description:     It's now possible to use source templates to provide the content specification of a metadata extension (DDLX).      You can now generate service bindings with the binding type SQL - Web API.      Correction: It was previously announced that it's possible to read the longtext of a message using the XCO library. This is not the case. You cannot use the XCO library to read the longtext of a message. This feature has not been implemented.      For more information, see XCO Library and RAP BO Generation.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-08-05
+Valid as Of: 2024-08-16
+Version: ABAP Environment 2408
+
+--- Record 2462 ---
+Component: SAP Health Data Services for FHIR
+Environment: Cloud Foundry
+Title: SAP Health Data Services for FHIR Capacity Unit Calculator
+Description: SAP Health Data Services for FHIR Capacity Unit Cost Estimator helps you to determine the number of capacity units (CU) required on a monthly basis. This calculation can be done for all SAP BTP subaccounts that are using SAP Health Data Services for FHIR.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-08-16
+Valid as Of: 2024-08-16
+Version: Cloud
+
+--- Record 2463 ---
+Component: SAP Task Center
+Environment: Cloud Foundry
+Title: SAP Fieldglass  CONFIG Job Failing 
+Description: The CONGIF job for new or existing destinations to SAP Fieldglass might be failing.   For more information, see SAP Note 3507354 .
+Action: Recommended
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-08-15
+Valid as Of: 2024-08-15
+Version: Cloud
+
+--- Record 2464 ---
+Component: Continuous Integration & Delivery
+Environment: Cloud Foundry
+Title: New Node Version
+Description: Node version 20.11 is now available.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-08-15
+Valid as Of: 2024-08-15
+Version: Cloud
+
+--- Record 2465 ---
+Component: SAP Task Center
+Environment: Cloud Foundry
+Title: Improvements
+Description: The following improvements are made in the SAP Task Center Web app:    In the decision options not displayed in native user interface for task details.      In the navigation to next task, which has failed when completing a task in the Web app in full-screen mode.    
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-08-15
+Valid as Of: 2024-08-15
+Version: Cloud
+
+--- Record 2466 ---
+Component: UI Theme Designer
+Environment: Cloud Foundry,Neo
+Title: Base Theming Content for CF and Neo.
+Description: The base theming content is updated to version 11.18.0. Review the changes at https://github.com/SAP/theming-base-content/releases.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2024-08-15
+Version: Cloud
+
+--- Record 2467 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Regional Availability
+Description: Cloud Identity Services now operates with three additional IPs in the data center in South Korea:  Action:  We recommend you to add the following IPs to your allowed IP list:    LB IP - 3.35.109.127, 3.37.25.236, 15.164.195.144  NAT IP 3.39.112.56/32, 54.180.170.146/32, 3.38.127.188/32, 43.202.135.25/32, 3.36.27.20/32, 52.79.160.50/32    The following NAT IPs are no longer in use: 13.125.196.137/32, 3.34.68.186/32, 52.79.155.87/32. See Regional Availability.
+Action: Recommended
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-08-14
+Valid as Of: 2024-08-14
+Version: 26537
+
+--- Record 2468 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Regional Availability
+Description: Cloud Identity Services now operates with three new IPs in the data center in India:  Action:  We recommend you to add the following IPs to your allowed IP list: LB IP - 3.6.178.171, 43.205.3.38, 3.6.141.120  The following IPs are no longer in use: LB IP - 43.204.242.5, 13.234.128.163, 13.202.113.251  See Regional Availability.
+Action: Recommended
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-08-14
+Valid as Of: 2024-08-14
+Version: 26537
+
+--- Record 2469 ---
+Component: Joule
+Environment: Cloud Foundry
+Title: Joule Booster
+Description: Joule booster has been updated. If you run the Joule booster, a Joule formation is created in the System Landscape in SAP BTP. The formation includes the Joule system and the selected systems. Note  Customers who have already set up the integration with Joule, need not run the booster again. The existing integration will continue to work seamlessly. However, if you want to make changes to the existing set up (include or exclude a system), you must run the Joule booster again.See Run the Joule Booster.
+Action: Recommended
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-08-14
+Valid as Of: 2024-08-14
+Version: Cloud
+
+--- Record 2470 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Referenced SAPUI5 Version
+Description: As part of hotfix collection 3, SAPUI5 version 1.124.4 is used for the administrator’s SAP Fiori launchpad, SAP-delivered Fiori apps, and the custom-built SAP Fiori apps, which are deployed to the ABAP system.  See SAP BTP ABAP Environment – Maintenance Windows and Major Upgrade Windows in 2024 and SAP UI5
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-08-06
+Valid as Of: 2024-08-14
+Version: ABAP Environment 2408
+

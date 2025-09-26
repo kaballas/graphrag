@@ -1,0 +1,130 @@
+--- Record 851 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Improved CDS Buffering - Buffer Delegation
+Description: Optimize the ABAP memory consumption for scenarios which make use of CDS Entity Buffering:  Provide support for "delegated buffers" to allow buffering on CDS view entity-level by reusing the buffer on table-level at runtime.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-05-16
+Valid as Of: 2025-05-16
+Version: ABAP Environment 2505
+
+--- Record 852 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Include Start Authorizations for Custom Services in Provider Support Role
+Description: Provider support roles now contain start authorizations for custom services that are shipped as part of an add-on.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-04-11
+Valid as Of: 2025-05-16
+Version: ABAP Environment 2505
+
+--- Record 853 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Including Custom Authorizations in Development Test Role
+Description: The business catalog SAP_CORE_BC_EXT_TST for development test roles is now continuously extended, not only with the start authorizations for custom services, but also with full authorizations for any custom authorization object included in the authorization default values. This improves testability during the early development stages by enabling the developer to test services from a functional perspective without asking the administrator to assign roles with missing authorizations.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-03-27
+Valid as Of: 2025-05-16
+Version: ABAP Environment 2505
+
+--- Record 854 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Increased SAP HANA Cloud Backup Retention Time to 30 Days
+Description: Backups of the SAP HANA Cloud database of an SAP BTP ABAP environment system are now kept for 30 days instead of 14 days.  For more information, see Backups.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-03-27
+Valid as Of: 2025-05-16
+Version: ABAP Environment 2505
+
+--- Record 855 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Message Monitoring for Integration Experts
+Description: You can now download the original payload of your message. While in Message Monitoring for Integration Experts, open the message, go to Data Content  Data Structure and choose Download Original Payload.  See Message Monitoring for Integration Experts.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-03-11
+Valid as Of: 2025-05-16
+Version: ABAP Environment 2505
+
+--- Record 856 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: New Email Configuration for the Upload Business Configuration App
+Description: There is a new configuration available for the app Upload Business Configuration. You can now use the following entities:     SMAIL_VM_DF_ADDR      SMAIL_VM_RCV_DOM      SMAIL_VM_SND_DOM      For more information, see Upload Business Configuration.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-03-18
+Valid as Of: 2025-05-16
+Version: ABAP Environment 2505
+
+--- Record 857 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: New Skip Function within the Application Job Templates App
+Description: You can now skip a single execution of a periodic job chain in the Application Job Templates app.  See Creating an Application Job Template.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-05-16
+Valid as Of: 2025-05-16
+Version: ABAP Environment 2505
+
+--- Record 858 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Null Value Handling
+Description: You can now find an overview of the differences in the behavior of null values and initial values in OData V2 and V4 with regard to sorting and filtering on the Fiori Elements UI as well as explicit filtering through OData Web API request. See: Null Value Handling  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-05-16
+Valid as Of: 2025-05-16
+Version: ABAP Environment 2505
+
+--- Record 859 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: OData UI Service from Scratch
+Description: You can create all RAP-service related repository objects from scratch by using the OData UI Service from Scratch wizard. See: OData UI Service from Scratch
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-05-16
+Valid as Of: 2025-05-16
+Version: ABAP Environment 2505
+
+--- Record 860 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Referenced SAPUI5 Version
+Description: As part of hotfix collection 3 (which is used for the standard upgrade), SAPUI5 version 1.133.2 is used for the administrator’s SAP Fiori launchpad, SAP-delivered Fiori apps, and the custom-built SAP Fiori apps, which are deployed to the ABAP system.  See SAP BTP ABAP Environment – Maintenance Windows and Major Upgrade Windows in 2025 and SAP UI5
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-05-02
+Valid as Of: 2025-05-16
+Version: ABAP Environment 2505
+

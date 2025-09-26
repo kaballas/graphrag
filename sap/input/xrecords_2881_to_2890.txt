@@ -1,0 +1,130 @@
+--- Record 2881 ---
+Component: Peppol Exchange
+Environment: Neo
+Title: Enhancement to the service for Finland
+Description: In the test and production environment, you can now register your Peppol participants using the new FI:OVT2 party ID type for Finland. The previous FI:OVT and the FI:VAT party ID types are now deprecated. Sending and receiving electronic invoices between participants that are registered in the Peppol network using the deprecated party ID types will discontinue to work in future.  If you have existing Peppol participants using the deprecated FI:OVT or FI:VAT as party ID type, you must delete those participants and create them again with the new FI:OVT2 party ID type. See:    Removing the Registration of your Company from the Peppol Network  Enabling Your Company to Send Electronic Documents in the Peppol Network  Enabling Your Company to Receive Electronic Documents in the Peppol Network  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2024-05-20
+Version: Cloud
+
+--- Record 2882 ---
+Component: SAP AI Core
+Environment: Cloud Foundry
+Title: Deployments
+Description: When deployments are submitted, configurations are checked for errors, synchronously.  For more information, see Deploy Models.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-04-08
+Valid as Of: 2024-05-20
+Version: Cloud
+
+--- Record 2883 ---
+Component: SAP AI Core
+Environment: Cloud Foundry
+Title: Generative AI hub
+Description: Additional selected models from Anthropic are supported via AWS Bedrock.  For more information, see SAP Note 3437766 .
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-05-20
+Valid as Of: 2024-05-20
+Version: Cloud
+
+--- Record 2884 ---
+Component: SAP AI Core
+Environment: Cloud Foundry
+Title: Generative AI hub
+Description: Selected models from Mistral AI are supported.  For more information, see SAP Note 3437766 .
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-05-20
+Valid as Of: 2024-05-20
+Version: Cloud
+
+--- Record 2885 ---
+Component: SAP AI Launchpad
+Environment: Cloud Foundry
+Title: Generative AI hub
+Description: Chat conversations are supported, including streaming responses for selected models, including chat context, system message and prompt examples.  For more information, see Chat.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-05-20
+Valid as Of: 2024-05-20
+Version: Cloud
+
+--- Record 2886 ---
+Component: SAP AI Launchpad
+Environment: Cloud Foundry
+Title: Generative AI hub
+Description: Monitoring of prompt storage is supported.   For more information, see Administration.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-05-20
+Valid as Of: 2024-05-20
+Version: Cloud
+
+--- Record 2887 ---
+Component: SAP AI Launchpad
+Environment: Cloud Foundry
+Title: Generative AI hub
+Description: Streaming responses is supported for selected models.   For more information, see Prompt Experimentation and Chat.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-05-20
+Valid as Of: 2024-05-20
+Version: Cloud
+
+--- Record 2888 ---
+Component: SAP AI Launchpad
+Environment: Cloud Foundry
+Title: Generative AI hub
+Description: Selected models from Mistal AI are supported.  For more information, see Models and Scenarios in the Generative AI Hub.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-05-20
+Valid as Of: 2024-05-20
+Version: Cloud
+
+--- Record 2889 ---
+Component: Joule
+Environment: Cloud Foundry
+Title: New Conversational Pattern and Use Cases Now Supported in SAP SuccessFactors
+Description: We now provide 25 new transactional cases, including "create position" and "generate compensation insights", and support the navigational pattern with 40 use cases, such as "create time off" and "view performance goals".
+Action: Recommended
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-05-17
+Valid as Of: 2024-05-17
+Version: Cloud
+
+--- Record 2890 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: ABAP Development Tools for Eclipse: ABAP Contract Check Violations Feed
+Description: The ABAP Contract Check Violations feed is now also available for the Cloud. In this feed, you can configure the feed query to display all contract check violations found by the RAP runtime.  See ABAP Contract Check Violations Feed.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-05-17
+Valid as Of: 2024-05-17
+Version: ABAP Environment 2405
+

@@ -1,0 +1,130 @@
+--- Record 2201 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: New Regions
+Description: The following regions are available as a new regions running for use with enterprise accounts.        AWS      Brazil (São Paulo); cf-br10      Singapore; cf-ap11      Canada (Montreal); cf-ca10      South Korea (Seoul) AWS; cf-ap12          Microsoft Azure      Japan (Tokyo); cf-jp20      Singapore; cf-ap21      US West (WA); cf-us20      US East (VA); cf-us21      Australia (Sydney); cf-ap20          Google Cloud Platform      Japan (Osaka) GCP; cf-jp30      KSA (Dammam) GCP public sector; cf-sa30      India (Mumbai) GCP; (cf-in30)      Israel (Tel Aviv); cf-il30      Europe (Frankfurt); cf-eu30          
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-10-08
+Valid as Of: 2024-09-30
+Version: Cloud
+
+--- Record 2202 ---
+Component: SAP HANA Spatial Services
+Environment: Cloud Foundry,Kyma
+Title: nan
+Description:     Enhancements: Mapping  Provider Here implementation now uses Here Mapping V3 API.  Mapping API      Enhancements: Routing API  Provider Here implementation now uses Here Routing V8 API.  Routing API      Enhancements: Geocoding API  Provider Here implementation now uses Here Geocoding V7 API.  Geocoding API      Enhancements: Mapping API, Routing API, Geocoding API  Security updates have been implemented.    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2024-09-30
+Version: Cloud
+
+--- Record 2203 ---
+Component: Continuous Integration & Delivery
+Environment: Cloud Foundry
+Title: Change of Backend Region
+Description:  Our job execution backend has been switched from the Microsoft Azure - US West (WA) region to the Amazon Web Services - US East (VA) region. The service’s user interface will still be operated in the Microsoft Azure - US West (WA) region.  This change doesn't affect the functionality or performance of SAP Continuous Integration and Delivery. All your data will continue to be encrypted and the entire service will work as before.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-09-27
+Valid as Of: 2024-09-27
+Version: Cloud
+
+--- Record 2204 ---
+Component: SAP Build
+Environment: Cloud Foundry
+Title: UI Improvements - Lobby
+Description: We've made significant enhancements to the user interface within the lobby to improve your project management experience.   The key update includes:    Foldable Project Pane: You can now see detailed information and perform various actions directly from the foldable project pane. When you choose your project, it unfolds to provide access to a range of options.      Updated Versions Tab: Actions such as Publish to Library, Export, Save as New Project, and Transport have been moved under the individual versions of the project in the Versions tab. This change centralizes all version-related actions for easier access and better organization.      Enhanced Filter Search Criteria: The filter search options have been enhanced with additional fields, including Members and Systems. These new fields help you refine your searches more effectively, making it easier to locate specific projects or project details.      Clone from Git: The option to clone from Git has been moved under the Create button. This change makes it easier to start new projects by cloning from an existing Git repository right from the creation step.      Release: The release option has been moved from the lobby to the respective project editors. This change ensures that the release processes are managed within the project context, providing a more streamlined workflow.    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-09-27
+Valid as Of: 2024-09-27
+Version: Cloud
+
+--- Record 2205 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Condition and skip update - changed behavior
+Description: The behavior of target transformations that contain a combination of condition and skip operations for updates has been changed.  Previously, the skip operation was evaluated before the condition. If users or groups have been updated in the source system, they are marked as skipped in the logs, and Identity Provisioning does not proceed to evaluate the condition. As a result, users or groups that do not meet the condition are not deleted as they should be. After the change, the condition is evaluated first.  See: Transformation Expressions
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-09-25
+Valid as Of: 2024-09-25
+Version: 26701
+
+--- Record 2206 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Password Recovery Options
+Description: The configuration of security questions and PIN code for password recovery now requires entering Edit mode. See Enable Users to Recover Password with Security Questions, and Enable Users to Recover Password with PIN Code.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-09-25
+Valid as Of: 2024-09-25
+Version: 26701
+
+--- Record 2207 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Regular Upgrade
+Description: Cloud Identity Services have been upgraded.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-09-25
+Valid as Of: 2024-09-25
+Version: 26701
+
+--- Record 2208 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Reset of SAP Master Data Integration - changed behavior
+Description: Resetting the SAP Master Data Integration source system also resets the delta load marker.  Previously, the reset cleared the operational data without resetting the delta marker. This approach prevented the provisioning of old events in subsequent job runs. Now, the reset procedure for this system is consistent with that of the other supported source systems.  See: SAP Master Data Integration  
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-09-25
+Valid as Of: 2024-09-25
+Version: 26701
+
+--- Record 2209 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: SAML 2.0 Metadata
+Description: You can get tenant metadata via URL parameters. See Get SAML 2.0 IdP Metadata via Parameter.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-09-25
+Valid as Of: 2024-09-25
+Version: 26701
+
+--- Record 2210 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: SAML 2.0 Metadata
+Description: You can choose which certificate to be included in the downloaded tenant SAML 2.0 metadata file. See Tenant SAML 2.0 Configurations.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-09-25
+Valid as Of: 2024-09-25
+Version: 26701
+

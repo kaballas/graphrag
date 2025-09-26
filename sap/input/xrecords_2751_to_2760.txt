@@ -1,0 +1,130 @@
+--- Record 2751 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Process Visibility - Authorization
+Description: You can define granular access by configuring data-level authorization to filter scenario instances based on the logged-in user. This enables users to view and track instances that are specific to their responsibilities.   See Track Instances Based on User Responsibility and Create Custom Roles.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-06-18
+Valid as Of: 2024-06-18
+Version: Cloud
+
+--- Record 2752 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Process Visibility - Configure Step Target
+Description: You can now set the target for a specific step associated with a process to monitor step progress.   See Configure Step Target.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-06-18
+Valid as Of: 2024-06-18
+Version: Cloud
+
+--- Record 2753 ---
+Component: SAP Datasphere
+Environment: Cloud Foundry
+Title: Features for Version 2024.13
+Description: New and changed features are available for data cataloging, data integration, data modeling, and space management.  For more information, see What's New in SAP Datasphere 2024.13. 
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-06-18
+Valid as Of: 2024-06-18
+Version: Cloud
+
+--- Record 2754 ---
+Component: Cloud Portal Service
+Environment: Neo
+Title: Switching SAPUI5 Domain
+Description: Due to a change in the Strict Tracking Prevention policy in Google Chrome and Microsoft Edge, the default SAPUI5 domain sapui5.hana.ondemand.com could be blocked and prevent site loading.  To fix this issue, administrators can switch to the new SAPUI5 domain ui5.sap.com, which allows full site loading.   To switch domains, administrators can use a new editor that was added to the Admin Space under Services and Tools  Subaccount Settings   SAPUI5 Domains.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-05-30
+Valid as Of: 2024-06-17
+Version: Cloud
+
+--- Record 2755 ---
+Component: Edge Integration Cell
+Environment: Cloud Foundry
+Title: API Artifact
+Description: You can now create an OData API artifact by browsing and uploading your .edmx file.  See: Create an API Artifact Using a Target URLand Create an API Artifact Using an API Specification
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-06-17
+Valid as Of: 2024-06-17
+Version: 2404
+
+--- Record 2756 ---
+Component: Edge Integration Cell
+Environment: Cloud Foundry
+Title: API Validation Policy for API Artifact
+Description: You can now validate incoming request messages against an OpenAPI 3.0 Specification using API validation policy. This policy supports validation of the request body (limited to application/json), headers, and query parameters for incoming request messages.   See: API Validation
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-06-17
+Valid as Of: 2024-06-17
+Version: 2404
+
+--- Record 2757 ---
+Component: Edge Integration Cell
+Environment: Cloud Foundry
+Title: Edge Integration Cell now supports outgoing connections through a proxy.
+Description: You can now route outgoing connections through a proxy. This is useful if your Edge Integration Cell is part of a network using an HTTP proxy.  See: Adding an Edge Node
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-06-17
+Valid as Of: 2024-06-17
+Version: 2404
+
+--- Record 2758 ---
+Component: Edge Integration Cell
+Environment: Cloud Foundry
+Title: Kubernetes cluster deployment on Red Hat OpenShift
+Description: You can now deploy your Kubernetes cluster on Red Hat OpenShift.  See: Prepare for Deployment on Red Hat OpenShift (OCP)
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-06-17
+Valid as Of: 2024-06-17
+Version: 2404
+
+--- Record 2759 ---
+Component: Edge Integration Cell
+Environment: Cloud Foundry
+Title: Regenerate your credentials for Edge Integration Cell
+Description: You can be prepared for an upcoming feature by knowing that we have introduced an internal mechanism within Edge Integration Cell.  Once this feature is released, the Edge Integration Cell will convert inbound certificate authentication scenarios into local authentication scenarios, minimizing the runtime dependency on the SAP Business Technology Platform (BTP). We kindly ask for your completion of a manual activity, as detailed in the following SAP Note.  This adjustment is integral to a phased roll-out strategy, aimed at systematically reducing dependency on the Cloud Business Technology Platform and ensuring offline availability during transient connectivity disruptions.  See: 3472645 
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-06-17
+Valid as Of: 2024-06-17
+Version: 2404
+
+--- Record 2760 ---
+Component: Edge Integration Cell
+Environment: Cloud Foundry
+Title: Simulation support in Edge Integration Cell
+Description: Simulation is now enabled for integration flows in Edge Integration Cell runtime.  See:Edge Integration Cell Runtime Scope
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-06-17
+Valid as Of: 2024-06-17
+Version: 2404
+

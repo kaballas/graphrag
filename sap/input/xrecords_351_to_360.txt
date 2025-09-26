@@ -1,0 +1,130 @@
+--- Record 351 ---
+Component: Cloud Logging
+Environment: Cloud Foundry
+Title: New regions available
+Description: SAP Cloud Logging service is now available on regions: cf-ch20 and cf-eu01. For more information, see Regions for the Kyma Environment and Regions and API Endpoints Available for the Cloud Foundry Environment
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2025-08-06
+Valid as Of: 2025-08-06
+Version: Cloud
+
+--- Record 352 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Telemetry module: Update to version 1.44.0
+Description: The new version brings the following improvements:      Logs, Traces and Metrics: Update to OTel Collector 0.129.0 (#2267).      Logs: Update to Fluent Bit 4.0.4 (#2263).    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-07-23
+Valid as Of: 2025-08-06
+Version: Cloud
+
+--- Record 353 ---
+Component: SAP AI Core
+Environment: Cloud Foundry
+Title: Generative AI hub
+Description: New models are supported, including Gemini Embeddings.For more information, see SAP Note 3437766 .
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2025-08-06
+Valid as Of: 2025-08-06
+Version: Cloud
+
+--- Record 354 ---
+Component: SAP BTP Administrator's Guide
+Environment: ABAP,Cloud Foundry,Kyma,Other
+Title: Enhanced Security Recommendations
+Description: We've updated the following documents:    Onboard to SAP Cloud Identity Services: New tenant landscape recommendations, visual comparisons of different setups, and details on key concepts like tenant domains and migration.  Setting Up Identity Lifecycle: New recommendations for using Identity Provisioning to streamline your identity lifecycle processes.  Security Concepts and Setting Up Authentication: Improved recommendation on configuring your custom tenant of SAP Cloud Identity Services.   
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2025-08-06
+Valid as Of: 2025-08-06
+Version: Cloud
+
+--- Record 355 ---
+Component: SAP Build Work Zone, advanced edition
+Environment: Cloud Foundry
+Title: Change in Deployment Timeline
+Description: Starting from 2507B release (6-7.8.25), the release to production will shift one day earlier and will take place, in most cases, on Wednesdays & Thursdays every other week.   For more information about the planned timeline, please refer to the SAP Note: 3303878 - Release schedule for SAP Build Work Zone.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2025-06-26
+Valid as Of: 2025-08-06
+Version: 2507B
+
+--- Record 356 ---
+Component: SAP Datasphere
+Environment: Cloud Foundry
+Title: Features for Version 2025.16
+Description: New and changed features are available for administration, data integration, and data modeling.  For more information, see What's New in SAP Datasphere 2025.16. 
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-08-06
+Valid as Of: 2025-08-06
+Version: Cloud
+
+--- Record 357 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: Configurable Retention Period for Subaccounts
+Description: You can now configure your own retention period for storing your subaccounts audit data.  See Initial Setup.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Intelligent Technologies
+Latest Revision: 2025-08-05
+Valid as Of: 2025-08-05
+Version: Cloud
+
+--- Record 358 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: New Standard Document Types
+Description: The service plans embedded edition and premium edition now support additional standard document types, such as delivery note and national ID.  See the complete list of supported document types in Supported Document Types (Embedded Edition and Premium Edition).
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Intelligent Technologies
+Latest Revision: 2025-08-05
+Valid as Of: 2025-08-05
+Version: Cloud
+
+--- Record 359 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: SAP Document AI Workspace (Embedded Edition)
+Description: The SAP Document AI workspace provides a new UI for processing documents, managing schemas and channels, and making configuration settings.  See Using the SAP Document AI Workspace (Embedded Edition and Premium Edition).  Features include email ingestion via configurable inbound channels. You can now set up SAP Document AI to read and automatically process documents from emails using a specified schema at definable intervals.  See Create Inbound Channel.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Intelligent Technologies
+Latest Revision: 2025-08-05
+Valid as Of: 2025-08-05
+Version: Cloud
+
+--- Record 360 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: SAP Document AI, Embedded Edition
+Description: The service plan SAP Document AI, embedded edition is now available. It allows you to integrate SAP Document AI with other SAP solutions.  See Service Plans and AI Features for Embedded Edition.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Intelligent Technologies
+Latest Revision: 2025-08-05
+Valid as Of: 2025-08-05
+Version: Cloud
+

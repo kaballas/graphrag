@@ -1,0 +1,130 @@
+--- Record 3941 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: Data Feedback Collection for Model Improvement
+Description: You can now use the feedback collection feature in the SAP Document AI basic UI to consent to the use of confirmed documents to retrain the solution’s machine learning models.  See Confirm Documents.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-11-05
+Valid as Of: 2023-11-05
+Version: Cloud
+
+--- Record 3942 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: SAP Document AI Basic UI
+Description: The look and feel of the SAP Document AI basic UI has been updated to provide the latest SAP Fiori user experience.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2023-11-29
+Valid as Of: 2023-11-05
+Version: Cloud
+
+--- Record 3943 ---
+Component: Data Attribute Recommendation
+Environment: Cloud Foundry
+Title: Batch Inference and Transfer Learning Available with Executable Version 3.0
+Description: The functionalities batch inference and transfer learning are now available with executable version 2.0 and 3.0.  See Batch Inference Configuration and Transfer Learning Configuration.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2023-11-03
+Valid as Of: 2023-11-03
+Version: Cloud
+
+--- Record 3944 ---
+Component: Data Attribute Recommendation
+Environment: Cloud Foundry
+Title: Overall Improvements
+Description: There have been several code and stability improvements.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2023-11-03
+Valid as Of: 2023-11-03
+Version: Cloud
+
+--- Record 3945 ---
+Component: Data Attribute Recommendation
+Environment: Cloud Foundry
+Title: Support for X.509 Authentication
+Description: The Data Attribute Recommendation service now supports X.509 authentication.  See Enable X.509 Authentication.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-11-03
+Valid as Of: 2023-11-03
+Version: Cloud
+
+--- Record 3946 ---
+Component: SAP Alert Notification Service
+Environment: Cloud Foundry
+Title: Custom Domain Warning Events are now supported
+Description: You can now use the newly supported Custom Domain Warning Events.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-11-03
+Valid as Of: 2023-11-03
+Version: Cloud
+
+--- Record 3947 ---
+Component: SAP Alert Notification Service
+Environment: Cloud Foundry
+Title: New SAP Credential Store event
+Description: You can now use the newly supported Number Of Bindings Threshold Reached event.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-11-03
+Valid as Of: 2023-11-03
+Version: Cloud
+
+--- Record 3948 ---
+Component: Cloud Identity Services
+Environment: Other
+Title: Root Certificate Replacement
+Description: DigiCert has deprecated their DigiCert Global Root CA and will stop issuing certificates for SAP under any of its Intermediate CAs (ICA) at the end of 2023. For more information, see DigiCert root and intermediate CA certificate updates 2023.  SAP Cloud Identity Services switches to the G2 ICA and will deploy certificates signed by the new CA for the domains listed below starting in mid-November 2023. This means that the DigiCert Root CA domain certificate will be signed by DigiCert Global Root G2 instead of DigiCert Global Root CA. The following domains are affected:    *.accounts.ondemand.com      *.accounts.cloud.sap      *.accounts.sapcloud.cn      *.trial-accounts.ondemand.com      Action: If your SAP Cloud Identity Services tenants are running on any of the affected domains, ensure that you trust the new root CA: DigiCert Global Root G2.
+Action: Required
+Lifecycle: Deprecated
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2023-11-02
+Valid as Of: 2023-11-02
+Version: Cloud
+
+--- Record 3949 ---
+Component: Identity Provisioning
+Environment: Neo
+Title: Root Certificate Replacement
+Description: DigiCert has deprecated their DigiCert Global Root CA and will stop issuing certificates for SAP under any of its Intermediate CAs (ICA) at the end of 2023. For more information, see DigiCert root and intermediate CA certificate updates 2023.      If your tenant is running on SAP BTP, Neo environment and you are using Identity Provisioning proxy and real-time provisioning scenarios, ensure that you trust the new root CA: DigiCert Global Root G2. It replaces the old one DigiCert Global Root CA.   For more information, see Root Certificate Replacement.      If your tenant is running on SAP Cloud Identity Services infrastructure on the domains listed below, ensure that you trust the new root CA: DigiCert Global Root G2 starting in mid-November 2023:      *.accounts.ondemand.com      *.accounts.cloud.sap      *.accounts.sapcloud.cn      *.trial-accounts.ondemand.com          For more information, see Root Certificate Replacement in What's New for Identity Authentication.
+Action: Required
+Lifecycle: Deprecated
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2023-12-06
+Valid as Of: 2023-11-02
+Version: Cloud
+
+--- Record 3950 ---
+Component: Java Server
+Environment: Neo
+Title: Java Web Tomcat 8 is deprecated
+Description: [Periodic reminder] The Java Web Tomcat 8 runtime is deprecated following the official announcement of Apache Tomcat 8.5 end of life. After the end of 2023, we stop providing updates and security patches to it.  Required Action: If you have Java applications running on that runtime, migrate to Java Web Tomcat 9 by the end of 2023. See Migrating from Java Web Tomcat 8 to Java Web Tomcat 9.  For new Java applications, we recommend using Java Web Tomcat 9.
+Action: Required
+Lifecycle: Deprecated
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2023-11-02
+Valid as Of: 2023-11-02
+Version: Cloud
+

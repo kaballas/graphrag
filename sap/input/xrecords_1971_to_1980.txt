@@ -1,0 +1,130 @@
+--- Record 1971 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Track Instances Using the Visibility Scenario Instances Application
+Description: You can now track and monitor instances using the Visibility Scenario Instances application with the Standard User entitlement.See Track Instances Using Visibility Scenario Instances Application.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-11-12
+Valid as Of: 2024-11-12
+Version: Cloud
+
+--- Record 1972 ---
+Component: SAP Print service
+Environment: Cloud Foundry,Other
+Title: Monitoring Connection Status
+Description: Monitor the connection status of SAP Print service to third-party output management systems.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-11-12
+Valid as Of: 2024-11-12
+Version: Cloud
+
+--- Record 1973 ---
+Component: Continuous Integration & Delivery
+Environment: Cloud Foundry
+Title: New Region
+Description: SAP Continuous Integration and Delivery can now also be consumed in the Switzerland (Zurich) and US East (VA) regions. See Regional Availability.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-11-11
+Valid as Of: 2024-11-11
+Version: Cloud
+
+--- Record 1974 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Identity Directory API
+Description: We have introduced a new implementation of the PATCH method of the Identity Directory API for all tenants in all Cloud Identity Services data centers except the ones in North America and Europe. The behavior of the new implementation is the same as the old one.  The implementation in the remaining data centers is planned for November 25, 2024.
+Action: Info only
+Lifecycle: Restricted Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-11-11
+Valid as Of: 2024-11-11
+Version: 26936
+
+--- Record 1975 ---
+Component: Document Management Service
+Environment: Cloud Foundry
+Title: Change of Default Credential Type for Service Key
+Description: The default credential type for Document Management Service, Integration Option service key has been updated. It's now 'binding-secret' instead of 'instance-secret'.  We made this change because xsuaa has deprecated the credential type 'instance-secret'.  This change only affects service instances that are updated with new service key.  Action: Check whether you are affected by the change. If you are impacted, ensure that your application is adjusted to work with 'binding-secret 'credential type before this change is activated.  See Creating and Updating a Service Instance and Service Key.
+Action: Required
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-11-08
+Valid as Of: 2024-11-08
+Version: Cloud
+
+--- Record 1976 ---
+Component: Document Management Service
+Environment: Cloud Foundry
+Title: Superdomain URL for SAP Document Management Service
+Description: SAP is migrating its products to a common cloud.sap superdomain to address browser isolation and privacy issues caused by current domain-specific URLs.  This change aims to improve integration scenarios using iFrames or cross-origin requests, which are affected by modern browser security features.  These changes apply only to new subscriptions and do not impact existing customers.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-11-08
+Valid as Of: 2024-11-08
+Version: Cloud
+
+--- Record 1977 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: SAP BTP Operator module: Documentation
+Description: We are happy to announce the publication of the SAP BTP Operator's documentation.  For general information on the module, see SAP BTP Operator Module. For detailed descriptions of the module's features, operations, and usage guidance, see the comprehensive set of related documents, including Preconfigured Credentials and Access, Creating Service Instances and Service Bindings, Deleting Service Bindings and Service Instances, and more.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-11-07
+Valid as Of: 2024-11-07
+Version: Cloud
+
+--- Record 1978 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Telemetry module: Update to version 1.26.0
+Description: The new version brings the following improvements:      Metrics: You can now collect metrics about the Kubernetes persistent volumes that are bound to your workloads: Just enable the new selector for volume metrics in the runtime input of your MetricPipeline resources. (#1301). For details, see Activate Runtime Metrics.      Traces: The deployment name of the trace gateway is now consistently named telemetry-trace-gateway. This change does not affect users (#652).      Logs: Update to Fluent Bit 3.1.9 (#1503).      Improved resource request settings for several components of the Telemetry module (#1532).    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-10-23
+Valid as Of: 2024-11-06
+Version: Cloud
+
+--- Record 1979 ---
+Component: SAP Build Apps
+Environment: Cloud Foundry
+Title: Mobile
+Description: The Android builds now support only devices with 64-bit processors. We're discontinuing support for Android devices with 32-bit processors to decrease the file sizes of these builds. The application preview for 32-bit devices remains supported.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-11-06
+Valid as Of: 2024-11-06
+Version: Cloud
+
+--- Record 1980 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Create and Manage Process Variants
+Description: You use process variants to create a process with preconfigured settings. The variant is made available to business users and reduces the amount of technical detail and options to guide users by offering a subset of process design options.For more information, see Create and Manage Process Variants.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-11-06
+Valid as Of: 2024-11-06
+Version: Cloud
+

@@ -1,0 +1,130 @@
+--- Record 1831 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Landscape Portal: BYOG Support in Build Product Version App
+Description: The Build Product Version app in the Landscape Portal now supports Bring Your Own Git (BYOG) software components, see Configure a Pipeline Template. For information on BYOG, see How to Configure Your Git Repository.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-12-02
+Valid as Of: 2024-12-02
+Version: ABAP Environment 2411
+
+--- Record 1832 ---
+Component: Data Attribute Recommendation
+Environment: Cloud Foundry
+Title: Availability in Microsoft Azure Regions
+Description: Data Attribute Recommendation is now available in the following Microsoft Azure regions:    eu20 - Europe (Netherlands)      us21 - US East (VA)    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-12-02
+Valid as Of: 2024-12-02
+Version: Cloud
+
+--- Record 1833 ---
+Component: Data Attribute Recommendation
+Environment: Cloud Foundry
+Title: Stability Improvements
+Description: There have been several stability improvements.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-12-02
+Valid as Of: 2024-12-02
+Version: Cloud
+
+--- Record 1834 ---
+Component: Java Server
+Environment: Neo
+Title: Java Web Tomcat 10 runtime is generally available
+Description: The Java Web Tomcat 10 runtime for Java applications in the Neo environment is generally available (it was a Beta feature). It leverages Apache Tomcat 10.1 Web Container without modifications and adds the already established set of SAP BTP services client APIs. It supports a subset of the Jakarta EE 10 APIs.  See Java Web Tomcat 10.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-12-02
+Valid as Of: 2024-12-02
+Version: Cloud
+
+--- Record 1835 ---
+Component: Java Server
+Environment: Neo
+Title: Java Web Tomcat 10 runtime is generally available
+Description: The Java Web Tomcat 10 runtime for Java applications in the Neo environment is generally available (it was a Beta feature). It leverages Apache Tomcat 10.1 Web Container without modifications and adds the already established set of SAP BTP services client APIs. It supports a subset of the Jakarta EE 10 APIs.  See Java Web Tomcat 10.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-12-02
+Valid as Of: 2024-12-02
+Version: Cloud
+
+--- Record 1836 ---
+Component: SAP AI Core
+Environment: Cloud Foundry
+Title: Generative AI hub
+Description: Prompt registry   Prompt registry integrates prompt templates into SAP AI Core, making them discoverable across your applications and orchestration It reduces the complexity of dealing with prompt templates and leveraging integration capabilities.  For more information, see Prompt Registry.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-12-02
+Valid as Of: 2024-12-02
+Version: Cloud
+
+--- Record 1837 ---
+Component: SAP AI Core
+Environment: Cloud Foundry
+Title: Generative AI hub
+Description: Retrieval and vector APIs added.  The vector API can be used for managing collections and documents in the Vector database.  The retrieval API searches data repositories and returns the relevant chunks for the user query.  For more information, see Preparing Data Using the Vector API and Retrieval API.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-12-02
+Valid as Of: 2024-12-02
+Version: Cloud
+
+--- Record 1838 ---
+Component: SAP AI Core
+Environment: Cloud Foundry
+Title: Generative AI hub
+Description: Additional selected models and model versions from Anthropic via AWS Bedrock are supported.For more information, see Foundation Models and SAP Note 3437766 .
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-12-02
+Valid as Of: 2024-12-02
+Version: Cloud
+
+--- Record 1839 ---
+Component: SAP AI Core
+Environment: Cloud Foundry
+Title: Generative AI hub
+Description: Additional selected models and model versions from Open AI are supported.For more information, see SAP Note 3437766 .
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-12-02
+Valid as Of: 2024-12-02
+Version: Cloud
+
+--- Record 1840 ---
+Component: SAP AI Core
+Environment: Cloud Foundry
+Title: Generative AI hub
+Description: Additional selected model versions from Vertex AI are supported.For more information, see SAP Note 3437766 .
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-12-02
+Valid as Of: 2024-12-02
+Version: Cloud
+

@@ -1,0 +1,130 @@
+--- Record 951 ---
+Component: SAP Task Center
+Environment: Cloud Foundry
+Title: New Authentication Method for the SAP Task Center API
+Description: You can now access the SAP Task Center API by utilizing direct authentication via SAP Cloud Identity Services - Identity Authentication.  For more information, see Access the SAP Task Center API Using Identity Authentication.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-05-07
+Valid as Of: 2025-05-07
+Version: Cloud
+
+--- Record 952 ---
+Component: SAP Task Center
+Environment: Cloud Foundry
+Title: New Commercial Plan build-default Available for SAP Task Center
+Description: A new service plan build-default is available for SAP Task Center. For more information, see Service Plans and Metering.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-05-07
+Valid as Of: 2025-05-07
+Version: Cloud
+
+--- Record 953 ---
+Component: Variant Configuration
+Environment: Cloud Foundry
+Title: Pre-Production – Configurations API – Return Context and Source
+Description: When creating a new configuration, the context for the reference characteristics and the source of the configuration can be specified. Both, context and source, can also be overwritten using the corresponding endpoint.   Context and source used to be missing in the configuration results. Both can now be requested as part of the configuration results by listing them in the $select query parameter like this: $select=context,source.  See  API Definition and Development Guide for SAP Variant Configuration and Pricing - Pre-Production.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-04-15
+Valid as Of: 2025-05-07
+Version: Cloud
+
+--- Record 954 ---
+Component: Variant Configuration
+Environment: Cloud Foundry
+Title: Pre-Production – Configurations API – Return Dependencies That Caused the Conflict
+Description: Conflicts returned by GET /configurations/{configurationId} will include the new response structure dependencyId with a list of dependencies, such as constraints, that caused the conflict.  See  API Definition and Development Guide for SAP Variant Configuration and Pricing - Pre-Production.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-04-15
+Valid as Of: 2025-05-07
+Version: Cloud
+
+--- Record 955 ---
+Component: Variant Configuration
+Environment: Cloud Foundry
+Title: Pre-Production – Extensions Concept – WHERE LIKE Database Access
+Description: There is a new API called sap.db() to read table content from local extensions, it will support wildcards with LIKE operator in WHERE clauses of SELECT statements.   See Extension Guide for SAP Variant Configuration and Pricing - Pre-Production.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-04-15
+Valid as Of: 2025-05-07
+Version: Cloud
+
+--- Record 956 ---
+Component: Variant Configuration
+Environment: Cloud Foundry
+Title: Pre-Production – Knowledge Bases API – Search By BOM Application
+Description: There is a new filter value called bomApplication for endpoint GET /kbdetermination, which enables the search for knowledge bases by the BOM application, for example SD01 or PP01.   See  API Definition and Development Guide for SAP Variant Configuration and Pricing - Pre-Production.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-04-15
+Valid as Of: 2025-05-07
+Version: Cloud
+
+--- Record 957 ---
+Component: Variant Configuration
+Environment: Cloud Foundry
+Title: Pre-Production- Configurations API – Lock Configurations Against Changes
+Description: There is a new endpoint called PATCH /configurations/{configurationId}/lock to flag a configuration as locked or not locked. The default setting is not locked. If a configuration is locked, it cannot be deleted, nor changed. For example, adding or removing a characteristic value or resetting the configuration is not possible.  Existing endpoints such as GET /configurations/{configurationId} will be enhanced to return the locked flag for a configuration.   The existing endpoint GET /externalConfigurations will be enhanced to allow searching for locked configurations.  See  API Definition and Development Guide for SAP Variant Configuration and Pricing - Pre-Production.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-04-15
+Valid as Of: 2025-05-07
+Version: Cloud
+
+--- Record 958 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Istio module: Update to version 1.17.0
+Description: We've updated the Istio version to 1.25.1 (#1365). Read the Istio 1.25.1 release announcement and Istio 1.25 Upgrade Notes.  This version of Istio includes changes to compatibility version parameters. See the parameters of the previous compatibility version switched from false to true:  ENABLE_INBOUND_RETRY_POLICY: If true, enables retry policy for inbound routes, which automatically retries any requests that were reset before reaching the intended service.  EXCLUDE_UNSAFE_503_FROM_DEFAULT_RETRY: If true, excludes unsafe retry on 503 from the default retry policy.  PREFER_DESTINATIONRULE_TLS_FOR_EXTERNAL_SERVICES: If true, external services prefer the TLS settings from DestinationRules over the metadata TLS settings.  ENABLE_ENHANCED_DESTINATIONRULE_MERGE: If enabled, Istio merges DestinationRules based on their exportTo fields. The DestinationRules are then kept as independent rules if the exportTo fields are not equal.  PILOT_UNIFIED_SIDECAR_SCOPE: If true, unified SidecarScope creation is used. This is only intended as a temporary feature flag for backward compatibility.  ENABLE_DEFERRED_STATS_CREATION: If enabled, Istio lazily initializes a subset of the stats.  BYPASS_OVERLOAD_MANAGER_FOR_STATIC_LISTENERS: If enabled, the overload manager is not applied to static listeners.    This compatibility version applies the following new parameter set to false:   PILOT_ENABLE_IP_AUTOALLOCATE: If enabled, the pilot starts a controller that assigns IP addresses to ServiceEntry that do not have a user-supplied IP. When combined with DNS capture, this allows TCP routing of traffic sent to the ServiceEntry.    Note the significant changes announce with release 1.25.1 of Istio:   ISTIO_META_DNS_AUTO_ALLOCATE in proxyMetadata has been deprecated in favor of a newer version of DNS auto-allocation.  traffic.sidecar.istio.io/kubevirtInterfaces has been deprecated in favor of istio.io/reroute-virtual-interfaces.  
+Action: Required
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-04-18
+Valid as Of: 2025-05-06
+Version: Cloud
+
+--- Record 959 ---
+Component: SAP Omnichannel Promotion Pricing
+Environment: Cloud Foundry
+Title: Root Certificate Replacement in the SAP BTP, Cloud Foundry Environment
+Description: Update: After an internal validation, the timelines have been shifted to Q1/2026. SAP will provide detailed dates in October 2025.  SAP is switching to the "DigiCert TLS RSA4096 Root G5" and “DigiCert Global Root G3” PKI.  If you have systems in which you manage the trusted certificates yourself, check if the "DigiCert Global Root G2" certificate exists in them. If it exists and the usage is related to SAP BTP products, please add the new G5 and G3 certificates. Do not remove the G2 certificate yet, as it is needed during the transition period.  For more information, see 3566727  and SAP BTP Cloud Foundry: switching to higher security level Root Certificate Authority.
+Action: Required
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2025-06-26
+Valid as Of: 2025-05-06
+Version: Cloud
+
+--- Record 960 ---
+Component: Cloud Integration
+Environment: Cloud Foundry
+Title: IBM MQ Adapter Supports New Version
+Description: A new version 1.1.0 (JMS Variant) of the IBM MQ adapter is available now.  See: IBM MQ Adapter
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-05-06
+Valid as Of: 2025-05-06
+Version: 2503
+

@@ -1,0 +1,130 @@
+--- Record 1411 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Communication Management: Local APIs
+Description: The communication management will provide local APIs for the creation and update of communication arrangements, communication systems, communication users, and the upload of client certificates.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-02-14
+Valid as Of: 2025-02-14
+Version: ABAP Environment 2502
+
+--- Record 1412 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Custom Business Configurations App: Title Name Change
+Description: When a business configuration object is selected, the application title now changes to the name of the business configuration object.See Custom Business Configurations App.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-02-14
+Valid as Of: 2025-02-14
+Version: ABAP Environment 2502
+
+--- Record 1413 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Data Integration Using SQL Service
+Description: The documentation Accessing ABAP-Managed Data Using SQL Services for Data Integration Scenarios has moved to a central guide dedicated to integration and connectivity. You can find all information relating to accessing ABAP-managed data using SQL services in the chapters about data integration: ABAP Integration and Connectivity: Data Integration.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-02-14
+Valid as Of: 2025-02-14
+Version: ABAP Environment 2502
+
+--- Record 1414 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Developing Inbound and Outbound Communication
+Description: The documentation Developing External Service Consumption (Outbound Communication) and Developing APIs for Inbound Communication has been moved to a central guide dedicated to integration and connectivity. You can find all information relating to inbound and outbound communication in the chapters about process integration: ABAP Integration and Connectivity: Process Integration.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-02-14
+Valid as Of: 2025-02-14
+Version: ABAP Environment 2502
+
+--- Record 1415 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Editable Treeview with Draft Capabilities
+Description: In RAP, a treeview visualizes data modeled by a CDS hierarchy, using an SAP Fiori Elements treetable. Previously, you could model hierarchical structures and expose them as read-only treeviews to the SAP Fiori UI. Now you can also expose hierarchical structures as editable treeviews with draft capabilities.   For more information, see Treeviews and Editable Treeviews with Draft Capabilities.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-02-14
+Valid as Of: 2025-02-14
+Version: ABAP Environment 2502
+
+--- Record 1416 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Event-Driven Side Effects
+Description: You can now define an event to trigger a side effect in your RAP business object. Whenever a defined event is raised by the application server, the side effect is triggered and the defined targets are reloaded.   For more information, see Event-Driven RAP Side Effects
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-11-15
+Valid as Of: 2025-02-14
+Version: ABAP Environment 2502
+
+--- Record 1417 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Export Customizing Transports: Release All
+Description: You can now release all open customizing requests at once.See Working in the Export Customizing Transports App.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-02-14
+Valid as Of: 2025-02-14
+Version: ABAP Environment 2502
+
+--- Record 1418 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Harmonized Context Menu in Key User Adaptation
+Description: The context menu is now consistent when you select elements. It no longer depends on how you select an element, such as using the left or right mouse button. The familiar right-click context menu now also appears when you left-click an element.  For more information, see Making UI Changes (Object Pages).
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-10-10
+Valid as Of: 2025-02-14
+Version: ABAP Environment 2502
+
+--- Record 1419 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Hide Empty Spaces and Pages in the SAP Fiori Launchpad
+Description: Spaces and pages are not shown when they are empty because of the user's role context. This feature is opt-in, so it's disabled by default. The launchpad setting SPACES_HIDE_EMPTY_SPACES_PAGES  is set to the default value false that can be changed in the Manage Launchpad Settings app. Note  SAP plans to activate this feature by default with the upcoming 2505 SAP BTP ABAP environment release. You can now try it out and inform your users, if necessary, about a potential change of behavior.With the 2508 release, the setting will be removed from the Manage Launchpad Settings app, and empty spaces and pages will continue to be hidden by default.  For more information, see Empty Spaces and Pages Not Displayed.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-01-14
+Valid as Of: 2025-02-14
+Version: ABAP Environment 2502
+
+--- Record 1420 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: How to Display Open Transport Requests
+Description: You can now display open transport requests by searching a table in the Manage Software Components app.  For more information, see Display Open Transport Requests.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-01-29
+Valid as Of: 2025-02-14
+Version: ABAP Environment 2502
+

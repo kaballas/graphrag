@@ -1,0 +1,130 @@
+--- Record 3471 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Elastic Scaling of Application Servers
+Description: Via the elastic scaling feature, a system will scale dynamically by adding additional application servers when the system load increases. When the load decreases again, the system scales down. Scaling happens up to a system-specific maximum ACU value. Charges will relate to the actual allocated ABAP compute units.  For more information, see Creating an ABAP System.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-02-18
+Valid as Of: 2024-02-16
+Version: ABAP Environment 2402
+
+--- Record 3472 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Elastic Scaling of Application Servers
+Description: Via the elastic scaling feature, a system will scale dynamically by adding additional application servers when the system load increases. When the load decreases again, the system scales down. Scaling happens up to a system-specific maximum ACU value. Charges will relate to the actual allocated ABAP compute units.  For more information, see Creating an ABAP System.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-02-18
+Valid as Of: 2024-02-16
+Version: Cloud
+
+--- Record 3473 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Enterprise Event Enablement: Filter for Outbound Bindings
+Description: You can now filter events before they are published to the event consumer. You can configure event filters for each channel and event topic using the Fiori app Enterprise Event Enablement  Maintain Event Channel Binding.  For more information, see Maintain Filters for Outbound Event Topics.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-18
+Valid as Of: 2024-02-16
+Version: ABAP Environment 2402
+
+--- Record 3474 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Enterprise Event Enablement: Filter for Outbound Bindings
+Description: You can now filter events before they are published to the event consumer. You can configure event filters for each channel and event topic using the Fiori app Enterprise Event Enablement  Maintain Event Channel Binding.  For more information, see Maintain Filters for Outbound Event Topics.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-18
+Valid as Of: 2024-02-16
+Version: Cloud
+
+--- Record 3475 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Generate SOAP Provider Proxies
+Description: You can now generate SOAP provider proxies from WSDL files using the so-called SOAP Provider Model.  For more information, see   .
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-02-18
+Valid as Of: 2024-02-16
+Version: ABAP Environment 2402
+
+--- Record 3476 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Generate SOAP Provider Proxies
+Description: You can now generate SOAP provider proxies from WSDL files using the so-called SOAP Provider Model.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-02-18
+Valid as Of: 2024-02-16
+Version: Cloud
+
+--- Record 3477 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Generator for Custom OData UI Services Based on RAP BO Interfaces
+Description: You can now generate custom OData UI services based on RAP BO interfaces using a generator wizard in ADT.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-02-16
+Valid as Of: 2024-02-16
+Version: ABAP Environment 2402
+
+--- Record 3478 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Health Monitoring
+Description: In SAP Cloud ALM, you can now use an additional metric for e-mail transmissions.   See Central Health Monitoring Using SAP Focused Run and SAP Cloud ALM .
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-02-18
+Valid as Of: 2024-02-16
+Version: ABAP Environment 2402
+
+--- Record 3479 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Health Monitoring
+Description: In the Health Monitoring app, you can now use additional metrics for e-mail transmissions and changes to database table entries.   See Local Health Monitoring.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-02-18
+Valid as Of: 2024-02-16
+Version: ABAP Environment 2402
+
+--- Record 3480 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Health Monitoring
+Description: In SAP Cloud ALM, you can now use an additional metric for e-mail transmissions.   See Central Health Monitoring Using SAP Focused Run and SAP Cloud ALM .
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-02-18
+Valid as Of: 2024-02-16
+Version: Cloud
+

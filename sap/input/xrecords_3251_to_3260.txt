@@ -1,0 +1,130 @@
+--- Record 3251 ---
+Component: SAP Build Work Zone, standard edition
+Environment: Cloud Foundry
+Title: Displaying System Label in Search and in App Finder
+Description: To identify the system in which apps are launched, the system label is displayed in the following locations:      Search suggestions drop-down list (only available when using the Spaces and Pages - New Experienceview mode.)      Search results page      App Finder    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-03-21
+Valid as Of: 2024-03-21
+Version: Cloud
+
+--- Record 3252 ---
+Component: SAP Build Work Zone, standard edition
+Environment: Cloud Foundry
+Title: Filtering Out Empty Spaces and Pages
+Description: Empty spaces and pages are now being filtered out in Spaces and Pages – New Experience view mode. Spaces that don’t contain any pages, or pages that don’t contain any content that is relevant to the user, will not be displayed in the site menu. Filtering out irrelevant content reduces site loading time and improves site performance.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-03-14
+Valid as Of: 2024-03-21
+Version: Cloud
+
+--- Record 3253 ---
+Component: SAP Java Buildpack
+Environment: Cloud Foundry
+Title: Version 1.90.0
+Description: SAP Java Buildpack 1 has been updated from version 1.88.0 to 1.90.0. Updated components:      Apache Tomcat 9 is updated from version 9.0.85 to 9.0.86      Apache TomEE 7 is updated from version 7.0.9.sap-39 to 7.0.9.sap-40      PostgreSQL JDBC Driver (postgresql.version) is updated from 42.7.1 to 42.7.2      com.sap.xs.onpremise.runtime is updated from version 1.1.8 to 1.1.9      com.sap.hcp.cf.logging is updated from 3.8.2 to 3.8.3      org.apache.logging.log4j is updated from version 2.22.1 to 2.23.0      org.springframework is updated from 5.3.31 to 5.3.32      org.eclipse.jetty is updated from version 9.4.53.v20231009 to 9.4.54.v20240208    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-03-13
+Valid as Of: 2024-03-21
+Version: Cloud
+
+--- Record 3254 ---
+Component: SAP Java Buildpack
+Environment: Cloud Foundry
+Title: Version 2.4.0
+Description: SAP Java Buildpack 2 has been updated from version 2.2.0 to 2.4.0. Updated components:      Apache Tomcat 10 is updated from version 10.1.18 to 10.1.19      PostgreSQL JDBC Driver (postgresql.version) is updated from 42.7.1 to 42.7.2      SAP BTP Environment Variable Access (com.sap.cloud.environment.servicebinding) is updated from version 0.10.0 to 0.10.3       com.sap.xs.onpremise.runtime is updated from version 1.1.8 to 1.1.9      com.sap.hcp.cf.logging is updated from 3.8.2 to 3.8.3      com.sap.cloud.security.xsuaa is updated from version 3.3.1 to 3.3.5      commons-codec is updated from version 1.16.0 to 1.16.1      org.json is updated from version 20231013 to 20240205    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-03-13
+Valid as Of: 2024-03-21
+Version: Cloud
+
+--- Record 3255 ---
+Component: SAP Secure Login Service
+Environment: Cloud Foundry
+Title: Custom Certificate Authority
+Description: You can now use the Custom Certificate Authority (CA) feature, which allows you to integrate your own Public Key Infrastructure (PKI) by connecting to a private CA hosted on Amazon Web Services (AWS). For more information, see Certificate Authority.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-03-21
+Valid as Of: 2024-03-21
+Version: Cloud
+
+--- Record 3256 ---
+Component: SAP Start
+Environment: Cloud Foundry
+Title: Show more/less cards in the Insights section
+Description: The Show More option at the bottom of the Insights section enables showing more than the 12 cards displayed by default, up to a maximum of 100 cards.  The Show Less option sets the number back to 12.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-03-21
+Valid as Of: 2024-03-21
+Version: Cloud
+
+--- Record 3257 ---
+Component: SAPUI5
+Environment: ABAP,Cloud Foundry,Kyma,Neo,Other
+Title: SAPUI5 Distribution 1.122
+Description: SAPUI5 version 1.122 has been released for UI development and can now be consumed by SAP BTP services. It’s up to the services to determine when they start using the new version.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-03-20
+Valid as Of: 2024-03-21
+Version: Cloud
+
+--- Record 3258 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Custom Domains
+Description: You can add deprecation trial token for 3rd party cookies deprecation for the custom domain. See Use Custom Domain in Identity Authentication.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-03-20
+Valid as Of: 2024-03-20
+Version: 25820
+
+--- Record 3259 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Off-Cycle Upgrade
+Description: Identity Authenticationhas been upgraded.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-03-20
+Valid as Of: 2024-03-20
+Version: 25820
+
+--- Record 3260 ---
+Component: Pricing Service
+Environment: Cloud Foundry
+Title: Guided Answers for the Pricing Service
+Description: The first version of a public troubleshooting guide was published to help our service consumers to quickly find the information they need.  See Troubleshooting the Pricing service (LOD-CPS-PRC) - Guided Answers (sap.com)
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-03-25
+Valid as Of: 2024-03-20
+Version: Cloud
+

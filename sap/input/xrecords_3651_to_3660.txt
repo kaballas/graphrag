@@ -1,0 +1,130 @@
+--- Record 3651 ---
+Component: SAP HANA Spatial Services
+Environment: Cloud Foundry,Kyma
+Title: nan
+Description:     Enhancements: Mapping API, Routing API, Geocoding API  Security updates have been implemented.    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2024-01-17
+Version: Cloud
+
+--- Record 3652 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Branding and Layout
+Description: Tenant administrator can upload an image in the administration console and use it as a logo for the applications in the tenant. See Configure Logo.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-17
+Valid as Of: 2024-01-16
+Version: 25497
+
+--- Record 3653 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Regular Upgrade
+Description: Identity Authentication has been upgraded.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-17
+Valid as Of: 2024-01-16
+Version: 25497
+
+--- Record 3654 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Upgrade Dates
+Description: SAP Cloud Identity Services planned production releases (updates) change to every second Tuesday, 14:00 UTC from every second Wednesday, 10:00 UTC. SeeUpdates and Notifications.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-01-17
+Valid as Of: 2024-01-16
+Version: 25497
+
+--- Record 3655 ---
+Component: Identity Provisioning
+Environment: Neo
+Title: Conflict resolution error message
+Description: The error thrown in case of failed conflict resolution is enhanced to display the attribute causing the conflict when it is provided by the target system. You can now easily identify the attribute, change its value and resolve the problem.  For more information about the conflict resolution behavior, search for properties <system prefix>user.unique.attribute in List of Properties.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-02-20
+Valid as Of: 2024-01-16
+Version: Cloud
+
+--- Record 3656 ---
+Component: Identity Provisioning
+Environment: Neo
+Title: Paging of provisioning systems
+Description: Paging of source, target and proxy systems is enabled by default. As of now, the provisioning systems are sorted by type and state in an alphabetical order.  For more information, see: Search and Edit Systems
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-02-20
+Valid as Of: 2024-01-16
+Version: Cloud
+
+--- Record 3657 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Telemetry module: Update to version 1.6.0
+Description: The new version brings the following improvements:      The first release of the Metric feature! Now, you can have a cluster-central gateway that collects metrics and pushes them via OTLP to a configured backend using the new API MetricPipeline. Additionally, three inputs are available for a pre-integrated collection of metrics. Learn more under Metrics (#13079).      A new section in the documentation features the integration guides (#575).       The setup of Fluent Bit has been simplified, resulting in an improved performance and buffer usage (#479).    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-12-18
+Valid as Of: 2024-01-16
+Version: Cloud
+
+--- Record 3658 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Event Triggers
+Description: You can now execute an event trigger to immediately initiate event delivery with user-provided data, using the Run now action from the Unattended triggers view. See Manage Event Triggers from the Triggers View.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-16
+Valid as Of: 2024-01-16
+Version: Cloud
+
+--- Record 3659 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Qualtrics Survey in the Enhanced Recorder
+Description: You can now give feedback for the enhanced recorder. See: Qualtrics Survey in the Enhanced Recorder.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-16
+Valid as Of: 2024-01-16
+Version: Cloud
+
+--- Record 3660 ---
+Component: SAP Intelligent Robotic Process Automation
+Environment: Cloud Foundry
+Title: Qualtrics Survey in the Enhanced Recorder
+Description: You are now able to give feedback for the enhanced recorder. See: Qualtrics Survey in the Enhanced Recorder.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-16
+Valid as Of: 2024-01-16
+Version: Cloud
+

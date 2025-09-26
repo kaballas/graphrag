@@ -1,0 +1,130 @@
+--- Record 651 ---
+Component: Authorization and Trust Management Service
+Environment: ABAP,Cloud Foundry,Kyma,Neo,Other
+Title: New Custom Trusts for Platform Users Changed to Token-Based Authentication
+Description: With this release, new OpenID Connect (OIDC) trust configurations between your SAP BTP accounts and custom identity providers for platform users are configured to use token-based authentication instead of password-based. We've taken this step to improve security and compliance with the OIDC standard. There are no changes to existing trust configurations. We don't expect any impact for our customers. For more information, see Establish Trust and Federation of Custom Identity Providers for Platform Users.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-06-12
+Valid as Of: 2025-06-12
+Version: 2505b
+
+--- Record 652 ---
+Component: Automation Pilot
+Environment: Cloud Foundry
+Title: New Documentation Sections for Content Connectors
+Description: You can now find information on how you can back up your content in a specified GitHub repository by using content connectors. See Content Connector, Backing Up Content, Restoring Content.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-06-12
+Valid as Of: 2025-06-12
+Version: Cloud
+
+--- Record 653 ---
+Component: Availability Service
+Environment: Cloud Foundry
+Title: Consistency and Usability Improvements of Late Data
+Description: The indicators that raise awareness to missing (or in the case of push monitors, late) data are changed. Previously the missing (late) data was marked with grey bars in the availability chart, now there's a text indicator.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-06-12
+Valid as Of: 2025-06-12
+Version: Cloud
+
+--- Record 654 ---
+Component: Cloud Management Tools,SAP BTP Cockpit
+Environment: ABAP,Cloud Foundry,Kyma,Neo,Other
+Title: New Budget Capability in SAP BTP Cockpit to Enhance Tracking, Managing, and Controlling of Global Account Costs and Usage (Beta)
+Description: We've introduced a new Budgets tab in the Costs and Usage page of SAP BTP cockpit. This new beta feature allows you to effectively control your global account spending and plan for future consumption. Key functionalities include:      Budget Limits and Scope: Easily set up a monthly budget amount for your global accounts and define the budget scope either for the whole global account or specific subaccounts and service plans.      Email Alerts: Opt in to receive automatic email notifications that alert global account administrators when monthly spending exceeds the defined budget thresholds, enabling timely intervention.      Custom Alerts: Utilize the SAP Alert Notification service for SAP BTP to create tailored alerts that meet your specific monitoring needs when budget thresholds are exceeded.      See Managing Budgets in Your Global Account and blog.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-06-12
+Valid as Of: 2025-06-12
+Version: Cloud
+
+--- Record 655 ---
+Component: Cloud Management Tools,SAP BTP Cockpit
+Environment: ABAP,Cloud Foundry,Kyma,Neo,Other
+Title: New Cloud Credits Forecasting Capability in SAP BTP Cockpit to Improve Global Account Planning and Optimize Spending (Beta)
+Description: We've introduced a new Show forecast option in the SAP BTPEA or CPEA card in the Costs and Usage page in SAP BTP cockpit. This new beta option allows you to view a projection of your anticipated cloud credits funds for the next 6 months or the end of current contract period, whichever is shorter. Use this option to effectively control your global account spending and plan for future consumption.  To use this feature, your global account must have consistent historical data for the last 9 months.  See Estimated and Forecasted Data and blog.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-06-12
+Valid as Of: 2025-06-12
+Version: Cloud
+
+--- Record 656 ---
+Component: Cloud Management Tools,SAP BTP Cockpit,SAP BTP, Cloud Foundry Runtime
+Environment: Cloud Foundry
+Title: Entitlement Management Improvements for Standard Plan
+Description: We've improved the entitlement management functionality for SAP BTP, Cloud Foundry runtime:  You can now manage entitlements for the standard plan, which is automatically assigned to all subaccounts by default. This means that if you want to restrict the usage of this plan, you can unassign it from a subaccount. For more information, see Restricting the Usage of Standard Plan for Cloud Foundry Runtime.  Additionally, if your global account uses the consumption-based commercial model, you can now change the default runtime memory quota of 200 GB that is automatically assigned to a subaccount. For more information, see (optional) Adjusting Runtime Memory Quota for Cloud Foundry Runtime (Consumption-Based).  These improvements give you more flexibility, but they don't affect the overall process for setting up the Cloud Foundry environment in a subaccount. For more information, see Initial Setup.  For an overview of the plans available for SAP BTP, Cloud Foundry runtime, see Service Plans and Metering for Cloud Foundry Runtime.  Note  Currently, these improvements are unavailable in certain regions, such as China (Shanghai) and Government Cloud (US). We're planning to gradually make them available in all regions at a later point in time.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-06-12
+Valid as Of: 2025-06-12
+Version: Cloud
+
+--- Record 657 ---
+Component: Connectivity
+Environment: Cloud Foundry,Neo
+Title: Cloud Connector 2.18.1 - Bug Fixes
+Description: Release of Cloud Connector version 2.18.1 provides the following bug fixes:    When installing the Cloud Connector on Windows, the installer no longer ends with a failure "secsetpasswd: Invalid password" within scc_service.log.  A cause exception similar to Caused by: java.lang.IllegalAccessError: class com.sap.scc.util.LogUtils (in unnamed module @0x2d019f4f) cannot access class sun.security.validator.ValidatorException (in module java.base) can no longer occur, when running the Cloud Connector with SapMachine 11, 17, or 21.  In a shadow instance, the message "LDAP changes will not take effect unless Cloud Connector is restarted" will now be shown only if the LDAP configuration has indeed been changed.  After an upgrade of an instance using both, a separate HA (high availability) port and multiple LDAP instances, the LDAP configuration did not work anymore. The previous configuration got corrupted and as a consequence, the trace was wrongly showing "Unable to determine whether password should be changed for user sccadmin".  Alerts about a successful switch of roles are now no longer popping up again after having deleted these alerts. This was a regression in 2.18.0.  The setting for user OID mapping for client certificate authentication did not survive a restart, it was stored and shown correctly in the UI. However, for the logon always "CN" was used again after a restart.  After an upgrade, an email configuration that used TLS, lost its TLS attribute. This was a regression in 2.18.0.  The upgrade now ignores corrupted zip files (for example, file size 0) in the log directory so the Cloud Connector can be started properly after an upgrade.  Fixed a wrong authorization check, see also SAP security note 3611345.  
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-06-12
+Valid as Of: 2025-06-12
+Version: Cloud
+
+--- Record 658 ---
+Component: Connectivity
+Environment: Cloud Foundry,Neo
+Title: Cloud Connector 2.18.1 - Enhancements
+Description: Release of Cloud Connector version 2.18.1 provides the following enhancements:    The JVM parameters NewSize, MaxNewSize, SurvivorRatio, and TargetSurvivorRatio were dropped, as the G1 garbage collector works better without those settings.  Introduced a new monitoring API /exposed?action=ensureMasterRole which behaves similarly to /exposed?action=hasMasterRole, but also signals the lack of the master role through a HTTP response status code of 409.For more information, see: Monitoring APIs.      The Cloud Connector now shows the IPv6 status on the About screen.  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-06-12
+Valid as Of: 2025-06-12
+Version: Cloud
+
+--- Record 659 ---
+Component: Data Quality Services
+Environment: Cloud Foundry,Neo
+Title: Enhancements
+Description:   The microservice added a new returnPostalCountry setting to the Address Cleanse endpoint. For addresses in territory countries and regions, this setting provides control to return the country as either the territory or the postal country in the response. See Settings for more information.   Improvements were made to support geocoding addresses in India that consist of more than two levels of locality and no street.   
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2025-06-12
+Version: Cloud
+
+--- Record 660 ---
+Component: Job Scheduling Service
+Environment: Cloud Foundry,Kyma
+Title: New Default UI Theme
+Description: Morning Horizon replaces Belize as the default UI theme of the Job Scheduling service dashboard.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-06-09
+Valid as Of: 2025-06-12
+Version: Cloud
+

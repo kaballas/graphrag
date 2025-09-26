@@ -1,0 +1,130 @@
+--- Record 3721 ---
+Component: Identity Provisioning
+Environment: Neo
+Title: Simplified error messages
+Description: The error messages are simplified and no longer display information about class name and package name.  For more information, see: Monitor Provisioning Job Logs
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2023-12-06
+Valid as Of: 2023-12-19
+Version: Cloud
+
+--- Record 3722 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Telemetry module: Update to version 1.5.0
+Description: The new version brings the following improvements:      Istio mTLS support for the Trace Gateway (#597): Workloads with Istio now use mTLS when pushing OTLP data to the gateway. Furthermore, the gateway uses mTLS when pushing OTLP data to backends using Istio that are running inside the cluster .      Update to OTel Collector 0.89.0 (#576).    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-12-04
+Valid as Of: 2023-12-19
+Version: Cloud
+
+--- Record 3723 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: New input parameter: Modules
+Description: While provisioning Kyma runtime, you can use a new feature that lets you choose your modules. The Modules parameter allows you to create a Kyma cluster with one of the following module arrangements:      With the default modules.      With the modules of your choice added through a customized list.      With no modules at all.      You can later view, upgrade, or delete the enabled modules in your Kyma runtime. For more information on the configuration options, check Provisioning and Update Parameters in the Kyma Environment. To check the plans in which the new Modules parameter is available, go to Available Plans in the Kyma Environment.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-12-19
+Valid as Of: 2023-12-18
+Version: Cloud
+
+--- Record 3724 ---
+Component: SAP Advanced Financial Closing
+Environment: Cloud Foundry
+Title: Copy Organizational Unit Folders
+Description: You can now also copy organizational unit folders to take over information to another folder under the same communication system folder within the same template.  More information:  How to Copy Folders  Folder Copying Process    App affected:  Manage Closing Task Lists  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Finance
+Latest Revision: 2023-12-11
+Valid as Of: 2023-12-17
+Version: Cloud
+
+--- Record 3725 ---
+Component: SAP Advanced Financial Closing
+Environment: Cloud Foundry
+Title: Display Technical Parameter Names
+Description: You can now choose to display the technical names of parameters in the Edit Parameters dialogs.    More information:  How to Maintain Task Parameters  How to Edit Task Parameters    App affected:  Manage Closing Task Lists  Process Closing Tasks  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Finance
+Latest Revision: 2023-12-11
+Valid as Of: 2023-12-17
+Version: Cloud
+
+--- Record 3726 ---
+Component: SAP Advanced Financial Closing
+Environment: Cloud Foundry
+Title: Integration with Process Automation Solutions
+Description: You can now set up an integration scenario with SAP Build Process Automation or SAP Intelligent Robotic Process Automation to enhance the automated processing of tasks.  After you've performed the steps required to set up a new task model for the integration, you can use this new task model in the same way as any other task model of the type Job, and tasks created from it will trigger a bot to process the specified task.  More information:  Setup Guide for Integration of Process Automation  App affected:  Process Closing Tasks  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Finance
+Latest Revision: 2023-12-11
+Valid as Of: 2023-12-17
+Version: Cloud
+
+--- Record 3727 ---
+Component: SAP Advanced Financial Closing
+Environment: Cloud Foundry
+Title: Integration with SAP Task Center
+Description: You can now integrate SAP Advanced Financial Closing with SAP Task Center. In SAP Task Center, users can see and approve or reject the closing tasks they're responsible for. In SAP Task Center, users can also see tasks they have in other systems or SAP products, provided that an SAP Task Center integration with those products exists.  More information:  SAP Task Center Integration for SAP Advanced Financial Closing  App affected:  Approve Closing Tasks  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Finance
+Latest Revision: 2023-12-11
+Valid as Of: 2023-12-17
+Version: Cloud
+
+--- Record 3728 ---
+Component: SAP Advanced Financial Closing
+Environment: Cloud Foundry
+Title: Last Changed By and Last Changed On Task Attribute Behavior Fixed
+Description: Previously, when a user changed the status of a task list, the attributes Last Changed By and Last Changed On were updated for all tasks in this task list. This behavior has now been fixed so that the attributes are no longer updated for the tasks when the task list status is changed.  App affected:  Manage Closing Task Lists  
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Finance
+Latest Revision: 2023-12-11
+Valid as Of: 2023-12-17
+Version: Cloud
+
+--- Record 3729 ---
+Component: SAP Advanced Financial Closing
+Environment: Cloud Foundry
+Title: Solution Renamed as SAP Advanced Financial Closing
+Description: The SAP BTP solution SAP S/4HANA Cloud for advanced financial closing has been renamed as SAP Advanced Financial Closing. The renaming has no effect on the functions provided by this solution, which means that you can continue to use the solution as expected.  Documentation, in-app help, and UI texts have been adjusted accordingly. Other occurrences of the product name either have been updated at the same time or will be updated shortly.  Note  You may need to update your notification settings in the What's New Viewer for SAP BTP. However, an update to the subscription assignments has been initiated to ensure that this is not the case.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Finance
+Latest Revision: 2023-12-11
+Valid as Of: 2023-12-17
+Version: Cloud
+
+--- Record 3730 ---
+Component: Java ALM
+Environment: Neo
+Title: Change of Response Message in Java Web Tomcat 9
+Description: When you 're running the Java ALM REST API in the deprecated Java Web Tomcat 8 runtime, the response message contains the status code and the reason phrase.  Example  Status Code: 200 OK  With the new Java Web Tomcat 9 runtime, the response message doesn't include the reason phrase anymore.  Example  Status Code: 200  Action: Because the Java ALM API starts using Java Web Tomcat 9 by the end of the year, adopt your applications to process any Java ALM response messages without the reason phrase. See Apache Tomcat 9 and Java ALM API. 
+Action: Required
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2023-12-15
+Valid as Of: 2023-12-15
+Version: Cloud
+

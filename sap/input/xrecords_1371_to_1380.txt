@@ -1,0 +1,130 @@
+--- Record 1371 ---
+Component: SAP Java Buildpack
+Environment: Cloud Foundry
+Title: Version 2.24.0
+Description: SAP Java Buildpack 2 has been updated from version 2.23.0 to 2.24.0. Updated components:      Apache TomEE 10 is now added to the buildpack.      SAP HANA Driver (hana.driver.2.X.X) is updated from version 2.23.7 to 2.23.8      SapMachine 17 is updated from version 17.0.13 to 17.0.14      SapMachine 21 is updated from version 21.0.5 to 21.0.6      PostgreSQL JDBC Driver (postgresql.version) is updated from 42.7.4 to 42.7.5      SAP BTP Environment Variable Access (com.sap.cloud.environment.servicebinding) is updated from version 0.10.5 to 0.20.0       otel-agent is updated from version 2.10.0 to 2.11.0      otel-agent-ext-java is updated from version 1.5.21 to 1.5.22      logback is updated from version 1.5.15 to 1.5.16      logback-access is updated from version 2.0.5 to 2.0.6      com.sap.xs.onpremise.runtime is updated from version 1.3.0 to 1.3.3      com.sap.core.connectivity.jco is updated from version 3.4.8 to 3.4.9      org.apache.httpcomponents.client5.httpclient5 is updated from version 5.3.1 to 5.4.1      org.json is updated from version 20240303 to 20250107      com.sap.cloud.security.xsuaa is updated from version 3.5.4 to 3.5.7    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-02-05
+Valid as Of: 2025-02-20
+Version: Cloud
+
+--- Record 1372 ---
+Component: SAP Start
+Environment: Cloud Foundry
+Title: Automatic Theme Detection
+Description: It is now possible to automatically detect the theme of the operating system and display SAP Start with the corresponding theme.  To enable this, a new option, Automatic (based on your operating system settings), was added to: Settings  Appearance  Theme.  The automatic theme detection is available for all theme sets (such as the SAP Quartz and the SAP Horizon sets) where there is more than one theme available in the set.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-02-20
+Valid as Of: 2025-02-20
+Version: Cloud
+
+--- Record 1373 ---
+Component: SAP Start
+Environment: Cloud Foundry
+Title: Themes Are Arranged in Categories
+Description: The themes under Settings  Appearance  Theme are now arranged according to the following categories:    SAP Quartz (Set)  SAP Horizon (Set)  Individual Themes  
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-02-20
+Valid as Of: 2025-02-20
+Version: Cloud
+
+--- Record 1374 ---
+Component: SAPUI5
+Environment: ABAP,Cloud Foundry,Kyma,Neo,Other
+Title: SAPUI5 Distribution 1.133
+Description: SAPUI5 version 1.133 has been released for UI development and can now be consumed by SAP BTP services. It’s up to the services to determine when they start using the new version.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2025-02-20
+Valid as Of: 2025-02-20
+Version: Cloud
+
+--- Record 1375 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Istio module: Update to version 1.14.1
+Description: Restarting sidecars is now divided into two phases. In the first phase, only Kyma workloads are restarted. If this phase fails, the Istio Custom Resource (CR) is set to the Error state. In the second phase, customer workloads are restarted in chunks. If any iteration of this phase fails, the Istio CR is set to the Warning state.  We have increased global metrics rotation interval to 6 hours.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-02-12
+Valid as Of: 2025-02-19
+Version: Cloud
+
+--- Record 1376 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: New subaccount and cluster regions available for the Kyma environment
+Description:     Canada (Toronto) (cf-ca20) running on Microsoft Azure is now available as a new subaccount region for use with enterprise accounts and Partner Test, Demo, and Development accounts (azure_lite).  Japan (Tokyo) (cf-jp31) and KSA (Dammam) (cf-sa31) running on Google Cloud are now available as new subaccount regions for use with enterprise accounts.  Canada (Toronto) (canadacentral) running on Microsoft Azure is now available as a new cluster region.  Japan (Tokyo) (asia-northeast1), Singapore (Jurong West) (asia-southeast1), North America (Oregon) (us-west1), North America (Virginia) (us-east4), and Europe (Netherlands) (europe-west4) running on Google Cloud are now available as new cluster regions.      For more information, see Regions for the Kyma Environment and Provisioning and Updating Parameters in the Kyma Environment.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-02-19
+Valid as Of: 2025-02-19
+Version: Cloud
+
+--- Record 1377 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Telemetry module: Update to version 1.33.0
+Description: The new version brings the following improvements:  All telemetry data is now enriched with cloud provider specific resource attributes like the region and zone of the related workloads (#1685).  Metrics/Traces: Update to OTel Collector 0.118.0 (#1787).  Logs: Update to Fluent Bit 3.2.4 (#1781).  
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-02-05
+Valid as Of: 2025-02-19
+Version: Cloud
+
+--- Record 1378 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Best Practices - Embedded Web Pages in SAP WinGUI
+Description: You can now manually capture screens with embedded web pages and automate them.See Guidelines for the SAP GUI Technology Automation.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-02-19
+Valid as Of: 2025-02-19
+Version: Cloud
+
+--- Record 1379 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Known Issues - Managing data type changes in process variables
+Description: When you change the data type of a Process Variable, you might encounter some challenges.See Known Issues.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-02-19
+Valid as Of: 2025-02-19
+Version: Cloud
+
+--- Record 1380 ---
+Component: SAP Datasphere
+Environment: Cloud Foundry
+Title: Features for Version 2025.4
+Description: New and changed features are available for data integration and data modeling.  For more information, see What's New in SAP Datasphere 2025.4. 
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-02-19
+Valid as Of: 2025-02-19
+Version: Cloud
+

@@ -1,0 +1,130 @@
+--- Record 3181 ---
+Component: Commercial Models
+Environment: Cloud Foundry,Kyma
+Title: New commercial model available - SAP BTP Enterprise Agreement (SAP BTPEA)
+Description: The new consumption-based commercial model, SAP BTP Enterprise Agreement (SAP BTPEA), is now available.  SAP BTPEA is an evolution of the existing Cloud Platform Enterprise Agreement (CPEA) commercial model. It offers high flexibility and the ability to keep a fixed spend, whereby you're billed only for actual cloud service consumption. SAP BTPEA comes with an updated and streamlined scope of services which you can activate and deactivate at any time. It introduces an adjusted deprecation policy, and opens the commercial model to additional SAP applications. See:    What Is the Consumption-Based Commercial Model?      SAP Discovery Center Service Catalog    
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-04-10
+Valid as Of: 2024-04-04
+Version: Cloud
+
+--- Record 3182 ---
+Component: Custom Domain Service
+Environment: Neo
+Title: Support for TLS 1.3
+Description: You now have the option to enable TLS 1.3 for your SSL host with the --supported-protocols parameter of the set-ssl-host command.   See set-ssl-host.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-04-04
+Valid as Of: 2024-04-04
+Version: Cloud
+
+--- Record 3183 ---
+Component: Extensions
+Environment: Cloud Foundry,Kyma
+Title: Enable Data Ingestion for Industry Cloud Solutions
+Description: You can now set up on SAP BTP systems that support data ingestion and are part of the industry cloud solutions published by SAP. To do that, you need to include them in a formation of type Data Ingestion for Industry Cloud Solutions. When you create a new formation of type Data Ingestion for Industry Cloud Solutions, a system of type Data Ingestion for Industry Cloud Solutions is automatically added to the Systems list and included in this formation.  See Automating Integrations with Data Ingestion for Industry Cloud Solutions.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-04-04
+Valid as Of: 2024-04-04
+Version: Cloud
+
+--- Record 3184 ---
+Component: Extensions
+Environment: Cloud Foundry
+Title: Enable System Landscape for SAP Build
+Description: You can now discover and consume the APIs exposed by the SAP S/4HANA Cloud systems in your system landscape when you develop and extend applications on SAP BTP, Cloud Foundry environment, using SAP Build. To do this, first you need to enable connectivity between your system landscape in SAP BTP cockpit and SAP Build. The integration requires performing several configuration steps starting with configuration on a global account level, and then, configuration on a subaccount level.  See Setting Up System Landscape for SAP Build.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-04-04
+Valid as Of: 2024-04-04
+Version: Cloud
+
+--- Record 3185 ---
+Component: Monitoring Service
+Environment: Neo
+Title: New Certificate Validity Metric
+Description: There is a new Certificate Validity metric to help you monitor expiring certificates. By default, you see the client certificate with the earliest expiration, but you can customize the default setting. See Certificate Validity Metric.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-04-04
+Valid as Of: 2024-04-04
+Version: Cloud
+
+--- Record 3186 ---
+Component: Monitoring Service
+Environment: Neo
+Title: Use of Comments for Documentation Feedback
+Description: You can now add comments to provide feedback directly on SAP Help Portal for the SAP Monitoring Service documentation. See Giving Feedback on SAP Documentation and Creating Better Documentation Together: SAP Help Portal’s new approach to Collaboration and Feedback.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-04-04
+Valid as Of: 2024-04-04
+Version: Cloud
+
+--- Record 3187 ---
+Component: Object Store
+Environment: Kyma
+Title: Cross-consumption from Kyma on GCP
+Description: Object Store Service can be cross-consumed from Kyma on GCP. Please refer Consumption in the Kyma Environment for more details.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-04-04
+Valid as Of: 2024-04-04
+Version: Cloud
+
+--- Record 3188 ---
+Component: SAP BTP Cockpit
+Environment: Cloud Foundry
+Title: New User Menu, Settings Dialog and About Dialog Design in SAP BTP Cockpit
+Description: We've added a new User Menu, Settings dialog, and About dialog design in SAP BTP cockpit. Additionally, you will now find the content for the User Information dialog in the Settings dialog. The Help and Support page as well as the Useful Links are now removed from the side navigation bar, and added to the new User Menu.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-04-04
+Valid as Of: 2024-04-04
+Version: Cloud
+
+--- Record 3189 ---
+Component: SAP BTP, Cloud Foundry Runtime
+Environment: Cloud Foundry
+Title: Version 39.3.0
+Description: Cloud Foundry has been updated from 39.0.0 to 39.3.0.      https://github.com/cloudfoundry/cf-deployment/releases/tag/v39.3.0  https://github.com/cloudfoundry/cf-deployment/releases/tag/v39.2.0  https://github.com/cloudfoundry/cf-deployment/releases/tag/v39.1.0    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-04-04
+Valid as Of: 2024-04-04
+Version: Cloud
+
+--- Record 3190 ---
+Component: SAP HANA Service
+Environment: Neo
+Title: Revision 2.00.059.12
+Description: You can now update to SAP HANA revision 2.00.059.12. See 3409433 - SAP HANA 2 SPS05 Revision 059.12.    Note  If you are still on SAP HANA 1.0, upgrade to the latest version of SAP HANA 2.0 as SAP HANA 1.0 has reached the end of mainstream maintenance in June 2021. See 2946614 - End-of-Maintenance of SAP HANA 1.0 in the SAP BTP, Neo Environment.  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-04-04
+Valid as Of: 2024-04-04
+Version: Cloud
+

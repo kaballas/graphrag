@@ -1,0 +1,130 @@
+--- Record 1511 ---
+Component: SAP AI Launchpad
+Environment: Cloud Foundry
+Title: Generative AI hub
+Description: Chart mode is available as part of the model library.  For more information, see Model Library.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2025-02-03
+Valid as Of: 2025-02-03
+Version: Cloud
+
+--- Record 1512 ---
+Component: SAP Build
+Environment: Cloud Foundry
+Title: Availability of Development Stacks in Full Stack Application
+Description: You can now select development stacks, such as Node.js and Java, when creating a full stack application project from the lobby.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-02-03
+Valid as Of: 2025-02-03
+Version: Cloud
+
+--- Record 1513 ---
+Component: SAP S/⁠4HANA Cloud for Credit Integration
+Environment: Cloud Foundry
+Title: Integration with new credit agency: TEIKOKU DATABANK
+Description: The credit agency TEIKOKU DATABANK is now connected to SAP S/⁠4HANA Cloud for credit integration.   More information:  Available Credit Agency Products and Features    Your Tasks for Integrating a New Credit Agency    Configure Rating Procedures  (Log on with your SAP ID to access this document.)  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Finance
+Latest Revision: 2025-02-03
+Valid as Of: 2025-02-03
+Version: Cloud
+
+--- Record 1514 ---
+Component: SAP Translation Hub
+Environment: Cloud Foundry
+Title:     New AWS Region:   Europe (Frankfurt) EU-ONLY (access from Europe only)    
+Description:   SAP Translation Hub now supports EU Access using the data center (region) EU11 Europe (Frankfurt). Note that this is only available if this has been explicitly agreed upon in the order from between the customer and SAP. For more information about EU access, see https://help.sap.com/docs/btp/sap-business-technology-platform/regions#eu-access.   
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-01-31
+Valid as Of: 2025-01-31
+Version: Cloud
+
+--- Record 1515 ---
+Component: Cloud Application Programming Model
+Environment: Cloud Foundry
+Title: January Release
+Description: The January release of the SAP Cloud Application Programming Model is now available.   Highlights:    Enums for defaults  Basic support for cds.Map  Default runtime message bundles  Sample code for TypeScript  … and much more.  See January 2025 release for the CAP framework.   Action: We recommend to adapt the new versions as soon as possible, see Managing Dependencies.
+Action: Recommended
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2025-01-30
+Version: Cloud
+
+--- Record 1516 ---
+Component: Joule
+Environment: Cloud Foundry
+Title: Data Center Availability
+Description: Joule is now available in the Singapore data center of AWS. See Data Centers Supported by Joule.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-01-30
+Valid as Of: 2025-01-30
+Version: Cloud
+
+--- Record 1517 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Group mapping changes
+Description: The read and proxy read transformations of SAP Ariba Applications and SAP Analytics Cloud (SCIM API version 1 and 2) support the provisioning of application-specific groups with type and supportedOperations group attributes.  The read transformations of these systems are extended with condition that checks if the ips.application.id property is not null.  The read and proxy read transformations of Local Identity Directory support the applicationId attribute.  For more information, refer to the relevant connector documentation under Supported Systems.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-01-29
+Valid as Of: 2025-01-29
+Version: 27344
+
+--- Record 1518 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Group Provisioning
+Description: You can enable or disable provisioning of every update in an application specific group to a target system. See Enable or Disable Central Store-Based Provisioning.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-01-29
+Valid as Of: 2025-01-29
+Version: 27344
+
+--- Record 1519 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Invalid mapping in SAP AS ABAP
+Description: An invalid mapping containing the valueMapping type has been removed from the SAP AS ABAP read and proxy read transformations. Systems created before January 14, 2025, will need to fix this issue by following the instructions in SAP Note 3562746 .
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-01-29
+Valid as Of: 2025-01-29
+Version: 27344
+
+--- Record 1520 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: New conditional functions implemented
+Description: The conditional function isApplicationSpecificGroup is implemented to verify whether a group is associated with a particular application configured in SAP Cloud Identity Services - Identity Authentication.  The conditional functions IsAttributeWithOptionalPrefix and IsAttributeWithMandatoryPrefix can be used to verify wheter an attribute value starts with an optional or predefined mandatory prefix.  Currently, these functions are implemented for SAP Advanced Financial Closing, SAP Ariba Applications, and SAP Analytics Cloud (SCIM API version 1 and 2) provisioning systems.  For more information, refer to the relevant connector documentation under Supported Systems and Transformation Functions. 
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-01-29
+Valid as Of: 2025-01-29
+Version: 27344
+

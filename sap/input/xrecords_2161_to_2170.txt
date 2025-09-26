@@ -1,0 +1,130 @@
+--- Record 2161 ---
+Component: SAP Build Work Zone, standard edition
+Environment: Cloud Foundry
+Title: Collecting Data and Performance Metrics
+Description: Performance and usage metrics of applications deployed on SAP BTP can be measured using the Front-End Statistical Records (FESR) tool. The results of these metrics, called performance artifacts, are collected, and transferred to SAP Cloud ALM (CALM) service that sends the data to cloud reporting.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-09-30
+Valid as Of: 2024-10-07
+Version: 2409B
+
+--- Record 2162 ---
+Component: Data Space Integration
+Environment: Cloud Foundry
+Title: Data Space Integration Available
+Description: Data Space Integration is now available as a capability of SAP Integration Suite.  For details about the new capability, see Data Space Integration.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-10-05
+Valid as Of: 2024-10-05
+Version: 2408
+
+--- Record 2163 ---
+Component: Data Space Integration
+Environment: Cloud Foundry
+Title: Software Version Update
+Description: The following are the latest versions in Data Space Integration:      Data Space Integration: 1.0.*      Increment: 2408      Tractus-X Eclipse Dataspace Connector: 0.7.3      FOSS Eclipse Dataspace Components: 0.7.1    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-10-05
+Valid as Of: 2024-10-05
+Version: 2408
+
+--- Record 2164 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Use Artifacts of a Dependent Project
+Description: You can reuse certain artifacts, which are part of a dependent project, in your current project. The project dependency of the reused artifacts shows on smart menu tiles and the side panel. These artifacts are, for example, processes data types, actions, decisions, and forms.  See Manage Project Dependencies.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-10-04
+Valid as Of: 2024-10-04
+Version: Cloud
+
+--- Record 2165 ---
+Component: SAP Cloud Application Event Hub
+Environment: Other
+Title: Service name change
+Description: SAP Event Broker for SAP cloud applications has a new name. To better align with the service capabilities, the new name is SAP Cloud Application Event Hub
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-10-07
+Valid as Of: 2024-10-04
+Version: Cloud
+
+--- Record 2166 ---
+Component: SAP Cloud Application Event Hub
+Environment: Other
+Title: Support for SAP CAP application as a consumer of business events
+Description: Configure and deploy an SAP CAP application and connect it to SAP Cloud Application Event Hub to consume business events. See CAP Application as a Consumer.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-10-07
+Valid as Of: 2024-10-04
+Version: Cloud
+
+--- Record 2167 ---
+Component: Authorization and Trust Management Service
+Environment: ABAP,Cloud Foundry,Kyma,Other
+Title: Removal of Security Recommendation BTP-UAA-0009
+Description: The security recommendation BTP-UAA-0009 has been deprecated and removed from the SAP BTP Security Recommendations. The service now has failsafes to prevent administrators from accidentally removing all administrators from accounts. SAP for Me also provides a means to create administrators if one isn't available in an emergency.  For more information, see 2669325 .
+Action: Info only
+Lifecycle: Deleted
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-10-11
+Valid as Of: 2024-10-03
+Version: 2409b
+
+--- Record 2168 ---
+Component: Automation Pilot
+Environment: Cloud Foundry
+Title: New SAP Automation Pilot events
+Description: You can now use more SAP Automation Pilot events supported by SAP Alert Notification service. See Enabling Automation Pilot Events.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-10-03
+Valid as Of: 2024-10-03
+Version: Cloud
+
+--- Record 2169 ---
+Component: Cloud Management Tools,SAP BTP Cockpit
+Environment: ABAP,Cloud Foundry,Kyma,Neo,Other
+Title: New Cost Breakdown Charts in Costs and Usage Page
+Description: In the Costs and Usage page in SAP BTP cockpit, we've added new cost and usage breakdown charts below the main table in the Billing and Usage views. Use these new charts to get a perspective of the costliest and most used subaccounts or service plans per month over the last 12 months.       In the Usage view, the new breakdown chart shows your subaccounts with the most usage for any service plan that you've selected in the main table.      In the Billing view, the new breakdown chart shows your costliest subaccounts or service plans. The scope and type of information displayed in the chart depends on whether you’ve selected the View by Service or View by Account perspective, and whether you’ve selected a row in the main table.   To view the cost breakdown of a specific service plan, directory, or subaccount, select it in the main table. A cost breakdown for the whole global account is presented when no row is select in the main table.      See Monitoring Usage and Consumption Costs in Your Global Account.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-10-03
+Valid as Of: 2024-10-03
+Version: Cloud
+
+--- Record 2170 ---
+Component: Document Management Service
+Environment: Cloud Foundry
+Title: Update Repositories API
+Description: We've enhanced the Update Repositories and Onboarding Repositories API with a new fileExtensions parameter for onboarding internal repositories, allowing you to specify permitted and restricted MIME types at the repository level. These MIME type checks ensure that only allowed types are processed, enhancing efficient content management.   You can configure the list to allow or block different file types during repository onboarding or adjust them for existing repositories using the Update Repositories API. This update provides greater control, improved security, and flexibility in managing your repositories.  For more information, see Repository Configuration API published on the SAP Business Accelerator Hub and the updated parameter section in the help documentation Onboard Repository.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-10-03
+Valid as Of: 2024-10-03
+Version: Cloud
+

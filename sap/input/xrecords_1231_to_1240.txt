@@ -1,0 +1,130 @@
+--- Record 1231 ---
+Component: SAP Advanced Financial Closing
+Environment: Cloud Foundry
+Title: New Notification Scenario for Financial Close Workflow
+Description: The new notification scenario Task Invalidated is now available. This means that users now receive an email as soon as a task they're assigned to is invalidated because a predecessor task is set to the status Completed with Errors manually after having been completed successfully before.  More information:  Notifications in the Financial Close Workflow  App affected:  Manage Email Notification Configurations
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Finance
+Latest Revision: 2025-03-03
+Valid as Of: 2025-03-16
+Version: Cloud
+
+--- Record 1232 ---
+Component: SAP Advanced Financial Closing
+Environment: Cloud Foundry
+Title: Spreadsheet Export of Closing Structure
+Description: On the List tab of the closing structure, you can now export the folder list of a task list. To export the folder overview, simply choose the Export Table icon  on the List tab.  If you have set filters, the export only includes the folders that fit the filter settings.  App affected:  Manage Closing Task Lists
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Finance
+Latest Revision: 2025-03-03
+Valid as Of: 2025-03-16
+Version: Cloud
+
+--- Record 1233 ---
+Component: SAP S/⁠4HANA Cloud for Credit Integration
+Environment: Cloud Foundry
+Title: For SAP S/4HANA Cloud Public Edition: Integration of financial statement data with Manage Credit Accounts app
+Description: New for SAP S/4HANA Cloud Public Edition 2502.1 (HFC6)  Credit agencies can send financial statement data as additional data in their credit reports. These data are now integrated with the SAP S/4HANA Cloud Public Edition system. You can see them in the Manage Credit Accounts app in the Financial Statement Data section.  More information:   Displaying Financial Statement Data  Available Features per Credit Agency
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Finance
+Latest Revision: 2025-03-13
+Valid as Of: 2025-03-13
+Version: Cloud
+
+--- Record 1234 ---
+Component: Pricing Service
+Environment: Cloud Foundry
+Title: Correct InactiveFlag Assignment for Conditions After an Inactive Price Condition
+Description: Condition used to be flagged wrongly as inactive (inactiveFlag = "Y") when:    in the preceding pricing procedure step a price condition with multiple records existed with counters > 1      when the difference between the step numbers was exactly 1 (e.g., Condition X at step 10 and Condition Y at step 11)      all but the last price condition record were set to inactiveFlag = "Y"      the counter of the relevant condition was smaller than the counter of the active price condition record. This issue has been corrected.    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-03-12
+Valid as Of: 2025-03-12
+Version: Cloud
+
+--- Record 1235 ---
+Component: Cloud Identity Services
+Environment: Other
+Title: Attributes Based on Flexible Expressions
+Description: Cloud Identity Services now supports a new attribute based on flexible expressions for the application - Application Groups to list the application-specific groups to which the user is assigned to. See Configuring Attributes Based on Flexible Expressions.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-03-11
+Valid as Of: 2025-03-11
+Version: 27566
+
+--- Record 1236 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Attributes Based on Flexible Expressions
+Description: The display name of Groups attribute based on flexible expressions for the application is renamed to All Groups. See Configuring Attributes Based on Flexible Expressions.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-03-11
+Valid as Of: 2025-03-11
+Version: 27566
+
+--- Record 1237 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Authorizations Based on Policies
+Description: You can now restrict the access to the administration console only to one user type via the new attribute that is supported for authorizations based on policies - user.type. See Configure User Authorizations.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-03-11
+Valid as Of: 2025-03-11
+Version: 27566
+
+--- Record 1238 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Identity Federation for Applications
+Description: You can enable identity federation for an application to override the identity federation settings on the configured corporate identity provider for the application. See Configure Identity Federation for Applications.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-03-11
+Valid as Of: 2025-03-11
+Version: 27566
+
+--- Record 1239 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: No restart for failed job
+Description: If a provisioning job from a source system to multiple target systems stops due to an error in one of the targets, it will not resume for that specific target upon restart. Previously, the job would continue after a restart.  See Monitor Provisioning Job Logs.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-03-11
+Valid as Of: 2025-03-11
+Version: 27566
+
+--- Record 1240 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Regular Upgrade
+Description: Cloud Identity Services have been upgraded.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-03-11
+Valid as Of: 2025-03-11
+Version: 27566
+

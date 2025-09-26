@@ -1,0 +1,130 @@
+--- Record 2611 ---
+Component: Integration Advisor
+Environment: Cloud Foundry,Neo
+Title: Enable/Disable Proposal Service
+Description: You can now control the collection of data for the Proposal service by enabling or disabling the service according to your requirements.  See: Settings  
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-07-14
+Valid as Of: 2024-07-14
+Version: 2405
+
+--- Record 2612 ---
+Component: Integration Advisor
+Environment: Cloud Foundry,Neo
+Title: Software Version Update
+Description:   SAP Integration Advisor: 1.88.*    Increment: 2405    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-07-14
+Valid as Of: 2024-07-14
+Version: 2405
+
+--- Record 2613 ---
+Component: Integration Assessment
+Environment: Cloud Foundry
+Title: Software Version Update
+Description:     Integration Assessment: 1.29.*      Increment: 2405    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-07-14
+Valid as Of: 2024-07-14
+Version: 2405
+
+--- Record 2614 ---
+Component: Migration Assessment
+Environment: Cloud Foundry
+Title: New Rules Added
+Description: The following rules have been added for Migration Assessment:      ICOInboundInterfaces: Count the number of inbound interfaces of an integration scenario.      ICOReceivers: Count the number of receivers of an integration scenario.      SenderFileContentConversion: Determine number of fields in which file content conversion is used.      ReceiverFileContentConversion: Determine number of fields in which file content conversion is used.    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-07-14
+Valid as Of: 2024-07-14
+Version: 2405
+
+--- Record 2615 ---
+Component: Migration Assessment
+Environment: Cloud Foundry
+Title: Software Version Update
+Description:     Migration Assessment: 1.29.*      Increment: 2405    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-07-14
+Valid as Of: 2024-07-14
+Version: 2405
+
+--- Record 2616 ---
+Component: Trading Partner Management
+Environment: Cloud Foundry
+Title: Dead Letter Queue
+Description: You can now enable dead letter queues for your interchanges to collect the messages that have failed even after reaching the maximum retry count.  See: Configuration Manager  
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-07-14
+Valid as Of: 2024-07-14
+Version: 2405
+
+--- Record 2617 ---
+Component: Trading Partner Management
+Environment: Cloud Foundry
+Title: Importing Agreements
+Description: When trying to import agreements, you can now choose to update the MIG/MAG references in these agreements to their latest versions, if available in the importing tenant.  See: Import and Export Agreements
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-07-14
+Valid as Of: 2024-07-14
+Version: 2405
+
+--- Record 2618 ---
+Component: Trading Partner Management
+Environment: Cloud Foundry
+Title: Payload Validation of Agreements
+Description: You can now choose to stop processing the interchanges when validating the payload fails in your agreement.  See: Creating a Trading Partner Agreement
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-07-14
+Valid as Of: 2024-07-14
+Version: 2405
+
+--- Record 2619 ---
+Component: Trading Partner Management
+Environment: Cloud Foundry
+Title: Software Version Update
+Description:   SAP Cloud Integration: 6.54.*  Increment: 2405  
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-07-14
+Valid as Of: 2024-07-14
+Version: 2405
+
+--- Record 2620 ---
+Component: Cloud Portal Service
+Environment: Cloud Foundry
+Title: HTML5 Business Solution as a Content Provider
+Description: It is now possible to create an HTML5 business solution that behaves as a content provider in the subaccount.  The HTML5 business solution can be consumed by the local subaccount and also by other subaccounts that access it via destinations.  To configure the HTML5 business solution as a content provider, the following actions are required:   Provider subaccount: the HTML5 code should be adjusted and include a cdm.json file that defines the design-time business content (for example, roles, groups, spaces & pages), and destinations.    Consumer subaccount: it is required to configure destinations that will point to the HTML5 business solution and create the content provider.    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-07-11
+Valid as Of: 2024-07-11
+Version: 2406B
+

@@ -1,0 +1,130 @@
+--- Record 1911 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: ABAP Development Tools for Eclipse: New Class Interface for Application Job Catalog Entries and Templates
+Description: You can now work with a new attribute-based class interface. With the new class interface, you can now change the parameters, sections, and groups of a catalog entry. Value helps are now supported and can be selected in the catalog entry parameters. You can also run a class for testing in the application job template.  See Working with Application Job Objects.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-11-15
+Valid as Of: 2024-11-15
+Version: ABAP Environment 2411
+
+--- Record 1912 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: ABAP Development Tools for Eclipse: Rerunning Unit Tests with Coverage
+Description: You can now rerun unit tests with coverage in the ABAP Coverage view.  See Evaluating ABAP Unit Code Coverage Results.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-11-15
+Valid as Of: 2024-11-15
+Version: ABAP Environment 2411
+
+--- Record 1913 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: ABAP Development Tools for Eclipse: Triggering Where-Used List for Usages of CDS Annotation
+Description: You can now trigger a where-used search also for CDS annotations. This enables you to investigate in which ABAP CDS objects an annotation is used.  The result is displayed in the Search view. From the integrated toolbar, you filter and change how the result is displayed. By double-clicking the finding, you can navigate to the relevant usage.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-11-15
+Valid as Of: 2024-11-15
+Version: ABAP Environment 2411
+
+--- Record 1914 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: abapGit: Support of Object Deletions
+Description: Object deletions can be exported from and imported to the ABAP environment with abapGit.  For more information, see Object Deletions with abapGit.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-10-16
+Valid as Of: 2024-11-15
+Version: ABAP Environment 2411
+
+--- Record 1915 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: APIs for Customer-Managed Security Settings
+Description: The system exposes APIs to retrieve customer-managed security settings in a read-only manner.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-11-15
+Valid as Of: 2024-11-15
+Version: ABAP Environment 2411
+
+--- Record 1916 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Approve ATC Exemptions App: Change Validity Date for ATC Exemptions in the Approve ATC Exemptions App
+Description: As a processor of an exemption, you can now change its validity date. You no longer have to be the creator of the examption request to do this.  See Approve ATC Exemptions.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-11-15
+Valid as Of: 2024-11-15
+Version: ABAP Environment 2411
+
+--- Record 1917 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Approve ATC Exemptions App: Replication of ATC Exemptions from On-Premise Towards SAP BTP
+Description: You can now replicate ATC exemptions from your on-premise ATC system to the ATC in SAP BTP. Customers need to use transaction SATC_EXPORT_XMPT to download the exemptions from an on-premise ATC system.  See Enable Usage of the Approve ATC Exemptions App.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-11-15
+Valid as Of: 2024-11-15
+Version: ABAP Environment 2411
+
+--- Record 1918 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Automated Handling for Default Client Certificates
+Description: SAP BTP ABAP environment tenants are now equipped with a signed default client certificate, which is automatically rotated and can be used for customer managed integration scenarios.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-11-15
+Valid as Of: 2024-11-15
+Version: ABAP Environment 2411
+
+--- Record 1919 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Business Event Logging
+Description: With Business Event Logging, you can capture and log business events locally within the ABAP environment. It includes:      The business event log: A persistence of raised business events in the ABAP system.      The Activate Business Event Logging configuration item to activate logging on an object level.      UI apps to view the business event log.      CDS views to access the business event logs.      Communication scenario SAP_COM_0A54 to externally access and replicate data to other applications.      The Direct Logging API to create direct entries to the business event log from your ABAP environment.      For more information, see Business Event Logging.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-10-10
+Valid as Of: 2024-11-15
+Version: ABAP Environment 2411
+
+--- Record 1920 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Business Rule Framework Plus
+Description: The Business Rule Framework plus (BRFplus) is enhanced with the following:     Code Generation service: With this new feature, BRFplus functions can now utilize a code template service for automatic code generation.      An API introduced to facilitate the consumption of business rules within ABAP Cloud.      For more information, see API for Consumption of Business Rules.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-11-15
+Valid as Of: 2024-11-15
+Version: ABAP Environment 2411
+

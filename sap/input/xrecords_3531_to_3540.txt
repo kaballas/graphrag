@@ -1,0 +1,130 @@
+--- Record 3531 ---
+Component: SAP Alert Notification Service
+Environment: Cloud Foundry
+Title: Update in HDB Estimated Memory Size event type
+Description: The property host is now available under resouce.tags in Estimated Memory Size event type
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-02-14
+Valid as Of: 2024-02-08
+Version: Cloud
+
+--- Record 3532 ---
+Component: SAP BTP, Cloud Foundry Runtime
+Environment: Cloud Foundry
+Title: Version 36.0.0
+Description: Cloud Foundry has been updated from version 35.1.0 to 36.0.0.      https://github.com/cloudfoundry/cf-deployment/releases/tag/v36.0.0  https://github.com/cloudfoundry/cf-deployment/releases/tag/v35.5.0  https://github.com/cloudfoundry/cf-deployment/releases/tag/v35.4.0  https://github.com/cloudfoundry/cf-deployment/releases/tag/v35.3.0  https://github.com/cloudfoundry/cf-deployment/releases/tag/v35.2.0    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-02-08
+Valid as Of: 2024-02-08
+Version: Cloud
+
+--- Record 3533 ---
+Component: SAP Java Buildpack
+Environment: Cloud Foundry
+Title: Version 1.87.0
+Description: SAP Java Buildpack 1 has been updated from version 1.86.0 to 1.87.0. Updated components:      com.sap.cloud.security.xsuaa is updated from version 2.17.2 to 2.17.3      com.sap.hcp.cf.logging is updated from 3.8.0 to 3.8.1      com.sap.cloud.connectivity.apiext is updated from version 3.32.0 to 3.33.0      SAP JVM is updated from version 81.96.96 to 81.97.97      SapMachine 11 is updated from version 11.0.21 to 11.0.22      SapMachine 17 is updated from version 17.0.9 to 17.0.10      Apache TomEE 7 is updated from version 7.0.9.sap-38 to 7.0.9.sap-39      Apache Tomcat 9 is updated from version 9.0.84 to 9.0.85    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-01-26
+Valid as Of: 2024-02-08
+Version: Cloud
+
+--- Record 3534 ---
+Component: Service Manager
+Environment: Kubernetes
+Title: Using the SAP BTP service operator to Work with Multiple Subaccounts-Explicit Instance-Level Definition
+Description: You can now explicitly define on a service instance level to which subaccount it shall be associated. This enables you to work with multiple subaccounts within one namespace. See Working With Multiple Subaccounts.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2024-02-08
+Version: Cloud
+
+--- Record 3535 ---
+Component: Extensions
+Environment: Cloud Foundry,Kyma
+Title: Add the Outbound Service ID in the SAP S/4HANA Cloud Extensibility Service Descriptor File
+Description: When provisioning new SAP S/4HANA Cloud Extensibility service instances with service plan api-access, in the SAP S/4HANA Cloud Extensibility service descriptor file, you can now specify the Outbound Service ID. When you specify the id property of the outbound service, you can skip the name property.  See Communication Arrangement JSON/YAML File - Properties.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-02-07
+Valid as Of: 2024-02-07
+Version: Cloud
+
+--- Record 3536 ---
+Component: Extensions
+Environment: Cloud Foundry,Kyma
+Title: Define SAP Event Mesh Resource Units in the SAP S/4HANA Cloud Extensibility Service Descriptor File
+Description: When provisioning new SAP S/4HANA Cloud Extensibility service instances with service plan messaging, in the SAP S/4HANA Cloud Extensibility service descriptor file, you can now specify the resource units for the SAP Event Mesh service. A resource unit is a collection of messaging resources such as queues, connections, and so on, required for a message client.  See Define SAP S/4HANA Cloud Extensibility Service Descriptor JSON/YAML File.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-02-07
+Valid as Of: 2024-02-07
+Version: Cloud
+
+--- Record 3537 ---
+Component: Joule
+Environment: Cloud Foundry
+Title: New Use Cases Now Supported in SAP SuccessFactors
+Description: The following transactional use cases are now supported for SAP SuccessFactors users:    Approve spot award       Create spot award      Clock in clock out      View pay statement      View pay statement (PDF)    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-02-07
+Valid as Of: 2024-02-07
+Version: Cloud
+
+--- Record 3538 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Off-Cycle Upgrade
+Description: Identity Authentication has been upgraded.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-02-06
+Valid as Of: 2024-02-06
+Version: 25596
+
+--- Record 3539 ---
+Component: Continuous Integration & Delivery
+Environment: Cloud Foundry
+Title: Sorting, Grouping and Live-Searching for Jobs
+Description: You can now use filters and sorting in the Jobs overview table. Additionally, when you type something into the search field, all columns are taken into account and filtered immediately.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-02-06
+Valid as Of: 2024-02-06
+Version: Cloud
+
+--- Record 3540 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Eventing module: Update to version 1.1.0
+Description: The new version brings the following improvements:      By default, Eventing Manager has an empty backend configuration (#266).      When switching the backend to SAP Event Mesh, resources are cleaned up (#345).      The Eventing Publisher Proxy image has been updated (#406).    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-02-06
+Valid as Of: 2024-02-06
+Version: Cloud
+

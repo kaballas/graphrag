@@ -1,0 +1,130 @@
+--- Record 1091 ---
+Component: Cloud Integration
+Environment: Cloud Foundry
+Title: New Show Flow Step Function in Memory Heatmap
+Description: You can use the Show Flow Step function to identify the integration flow step that consumes the most memory.  See: Inspect Integration Flows By System Memory Usage  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-04-06
+Valid as Of: 2025-04-06
+Version: 2502
+
+--- Record 1092 ---
+Component: Cloud Integration
+Environment: Cloud Foundry
+Title: Scaling Disk Space and Integration Content Size
+Description: All existing disk sizes scale to 10 GB, and integration content scales to 2 GB.  See: System Scope in the Cloud Foundry Environment  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-04-06
+Valid as Of: 2025-04-06
+Version: 2502
+
+--- Record 1093 ---
+Component: Cloud Integration
+Environment: Cloud Foundry
+Title: Software Version Update
+Description:   SAP Cloud Integration: 8.28.*    Increment: 2502    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-04-06
+Valid as Of: 2025-04-06
+Version: 2502
+
+--- Record 1094 ---
+Component: Cloud Integration
+Environment: Cloud Foundry
+Title: Software Version Update
+Description:   SAP Cloud Integration: 6.64.*    Increment: 2502    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-04-06
+Valid as Of: 2025-04-06
+Version: 2502
+
+--- Record 1095 ---
+Component: Cloud Integration
+Environment: Neo
+Title: Software Version Update
+Description:   SAP Cloud Integration: 5.72.*    Adapter Development Kit for SAP Cloud Integration: 2.53.*      Increment: 2502    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-04-06
+Valid as Of: 2025-04-06
+Version: 2502
+
+--- Record 1096 ---
+Component: Cloud Integration
+Environment: Neo
+Title: Software Version Update
+Description:   SAP Cloud Integration: 7.37.*    Adapter Development Kit for SAP Cloud Integration: 2.53.*      Increment: 2502      The software version 7.37.* is being rolled out in a phased approach. All tenants running on software version 5.72.* would be automatically moved to 7.37.* or a higher version available at that point of time, in the near future.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-04-06
+Valid as Of: 2025-04-06
+Version: 2502
+
+--- Record 1097 ---
+Component: Edge Integration Cell
+Environment: Cloud Foundry
+Title: New Access Type Option for the JMS Adapter
+Description: You can now configure your queues to either exclusive or non-exclusive access types. With the non-exclusive access type, messages are processed concurrently by multiple worker nodes, offering higher throughput. While with exclusive acces type messages are processed messages are processed sequentially by a single consumer, maintaining the order in which messages are received, which is essential for scenarios requiring strict sequencing. For more information on these configuration options, see: Configure the JMS Sender Adapter, and Configure the JMS Receiver Adapter.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-04-03
+Valid as Of: 2025-04-06
+Version: 2502
+
+--- Record 1098 ---
+Component: Edge Integration Cell
+Environment: Cloud Foundry
+Title: Software Version Update
+Description:     Edge Integration Cell: 8.28.*    Increment: 2502  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-04-03
+Valid as Of: 2025-04-06
+Version: 2502
+
+--- Record 1099 ---
+Component: Event Mesh
+Environment: Cloud Foundry
+Title: Event Mesh Bridge
+Description: Create a bridge between Event Mesh in SAP Integration Suite and SAP Integration Suite, advanced event mesh. See Event Mesh Bridge.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-04-06
+Valid as Of: 2025-04-06
+Version: 2502
+
+--- Record 1100 ---
+Component: Event Mesh
+Environment: Cloud Foundry
+Title: Test Messaging
+Description: Test messaging on queues and topics you've created in Event Mesh capability. See Test Messaging.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-04-06
+Valid as Of: 2025-04-06
+Version: 2502
+

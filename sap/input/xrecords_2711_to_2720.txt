@@ -1,0 +1,130 @@
+--- Record 2711 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: New Improved ML Models for Invoice, Purchase Order, and Payment Advice.
+Description: We’ve improved the machine learning models for the document types invoice, purchase order, and payment advice.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Intelligent Technologies
+Latest Revision: 2024-06-24
+Valid as Of: 2024-06-24
+Version: Cloud
+
+--- Record 2712 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: New SAPUI5 Version for the SAP Document AI Basic UI
+Description: The SAP Document AI basic UI now uses SAPUI5 Version 1.122.   Notable changes include resizable panels in the document viewer.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Intelligent Technologies
+Latest Revision: 2024-06-24
+Valid as Of: 2024-06-24
+Version: Cloud
+
+--- Record 2713 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: Separator for 1000 and Decimal Separator in Templates
+Description: We’ve improved the template logic for determining whether a comma is a 1000 separator or a decimal separator in numerical values.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Intelligent Technologies
+Latest Revision: 2024-06-24
+Valid as Of: 2024-06-24
+Version: Cloud
+
+--- Record 2714 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: Simplified Document Upload on the SAP Document AI Basic UI
+Description: When you add documents to the SAP Document AI basic UI, it’s now mandatory to include a schema. As a result, you no longer have to review fields for extraction before confirming the document upload – making for quicker and easier uploads.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Intelligent Technologies
+Latest Revision: 2024-06-24
+Valid as Of: 2024-06-24
+Version: Cloud
+
+--- Record 2715 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: Template API
+Description: When creating metadata for a template, you can now add to the payload the options extraction and isLineItemField to provide extraction model information for a field.  See Create Template Metadata and Get Template Metadata.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Intelligent Technologies
+Latest Revision: 2024-06-24
+Valid as Of: 2024-06-24
+Version: Cloud
+
+--- Record 2716 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: Tooltips with Enrichment Metadata on the SAP Document AI Basic UI
+Description: If you use the enrichment feature when adding documents to SAP Document AI, you can now view enrichment metadata on the SAP Document AI basic UI. This metadata shows you the enrichment method, allowing you to debug any issues with your master data more easily.  To display the metadata, simply hover your cursor over the relevant entry in the Enrichment section in the pane where you see extraction results for a document.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Intelligent Technologies
+Latest Revision: 2024-06-24
+Valid as Of: 2024-06-24
+Version: Cloud
+
+--- Record 2717 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: Upload Document - Options Payload - New Option: schemaName
+Description: When uploading a document to SAP Document AI, you can now add schemaName to the Options Payload. Previously, only the schemaId option was available.  You can also use schemaName (instead of schemaId) to add one of the following preconfigured SAP schemas to the Options Payload:    SAP_OCROnly_schema      SAP_invoice_schema      SAP_purchaseOrder_schema      SAP_paymentAdvice_schema      See Upload Document.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Intelligent Technologies
+Latest Revision: 2024-06-24
+Valid as Of: 2024-06-24
+Version: Cloud
+
+--- Record 2718 ---
+Component: SAP Task Center
+Environment: Cloud Foundry
+Title: Integration with SAP Cloud ALM
+Description: You can now use the integration of SAP Task Center with SAP Cloud ALM to monitor all the inbound and outbound communication data events with the SAP Task Center REST API.  For more information, see Integration with SAP Cloud ALM.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-06-24
+Valid as Of: 2024-06-24
+Version: Cloud
+
+--- Record 2719 ---
+Component: SAP Task Center
+Environment: Cloud Foundry
+Title: Performance Optimization
+Description: Unused APIs have been removed for improved performance and optimization of the SAP Task Center service.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-06-24
+Valid as Of: 2024-06-24
+Version: Cloud
+
+--- Record 2720 ---
+Component: SAP Advanced Financial Closing
+Environment: Cloud Foundry
+Title: Consistency Check Extended to Check for Deleted Users
+Description: The consistency check has now been extended by one further check regarding user assignments. It now also checks whether users assigned to tasks, folders, or on header level have been deleted. If the check detects any deleted users, messages are raised and may cause the consistency check to fail due to errors. The following logic is applied:  If a deleted user is assigned as the user responsible, processing user, or remote processing user, the consistency check fails. No task list generation is possible.  If a deleted user is assigned as an interested user, the consistency check is successful, but it shows warnings. Task list generation is possible.  If a user group consists only of deleted users and is assigned as the responsible user group or processing user group, the consistency check fails. No task list generation is possible.  If a user group consists only of deleted users and is assigned as an interested user group, the consistency check is successful, but it shows warnings. Task list generation is possible.    A consistency check has been run automatically for all templates and the status has been set accordingly.  More information:  How to Perform Checks on Templates  App affected:  Manage Closing Task Lists  Action: Check whether any of your templates now have the consistency check status Failed. Resolve the errors and run a new consistency check to enable task list generation from these templates.
+Action: Required
+Lifecycle: General Availability
+Type: New
+Line of Business: Finance
+Latest Revision: 2024-06-07
+Valid as Of: 2024-06-23
+Version: Cloud
+

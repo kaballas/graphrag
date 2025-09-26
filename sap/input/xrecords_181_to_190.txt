@@ -1,0 +1,130 @@
+--- Record 181 ---
+Component: Integration Assessment
+Environment: Cloud Foundry
+Title: Software Version Update
+Description:     Integration Assessment: 1.43.*      Increment: 2507    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-08-31
+Valid as Of: 2025-08-31
+Version: 2507
+
+--- Record 182 ---
+Component: Integration Assessment
+Environment: Cloud Foundry
+Title: Standard Content Update
+Description: Version 1.5 of SAP standard content is now available.  It provides updated technology recommendations for process integration scenarios, introducing the new capability of SAP Integration Suite, Data Space Integration for participation in an industry-specific ecosystem. Visit Content Management for a description of the new update.  For more details on how to update the standard content to the newest version, see Update Content Maintained by SAP. Note that only an Enterprise Architect or an Administrator can perform this task.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-08-31
+Valid as Of: 2025-08-31
+Version: 2507
+
+--- Record 183 ---
+Component: Migration Assessment
+Environment: Cloud Foundry
+Title: Software Version Update
+Description:     Migration Assessment: 1.43.*      Increment: 2507    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-08-31
+Valid as Of: 2025-08-31
+Version: 2507
+
+--- Record 184 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: Supported Languages (Embedded Edition and Premium Edition)
+Description: SAP Document AI now supports Romanian.  See Supported Languages (Embedded Edition and Premium Edition).
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Intelligent Technologies
+Latest Revision: 2025-09-04
+Valid as Of: 2025-08-31
+Version: Cloud
+
+--- Record 185 ---
+Component: Trading Partner Management
+Environment: Cloud Foundry
+Title: Software Version Update
+Description:   SAP Cloud Integration: 6.69.*  Increment: 2507  
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-08-31
+Valid as Of: 2025-08-31
+Version: 2507
+
+--- Record 186 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Additional Google Cloud Platform Regions
+Description: You can choose from additional Google Cloud Platform regions for the SAP BTP ABAP environment: Saudi Arabia (Dammam) for non-regulated customers and Saudi Arabia (Dammam) for regulated customers.  For more information, see Regions and API Endpoints for the ABAP Environment.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-09-02
+Valid as Of: 2025-08-29
+Version: ABAP Environment 2508
+
+--- Record 187 ---
+Component: Joule
+Environment: Cloud Foundry
+Title: New Use Cases Now Available in SAP Integrated Business Planning
+Description: You can now use Joule to do the following in SAP IBP:  Run a master data health check for a master data type of your choice. Before, these health checks could only be started from the Manage Master Data app or using the Master Data Health Check application job, but now you can define your query in a conversation with Joule and read the job results in a result table displayed in the Manage Master Data app.  Quickly run and monitor jobs. You can ask Joule to list your saved jobs, run saved jobs, or check the status of jobs.  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-08-29
+Valid as Of: 2025-08-29
+Version: Cloud
+
+--- Record 188 ---
+Component: Joule
+Environment: Cloud Foundry
+Title: SAP Joule for Consultants, New Features and Content
+Description:   Prompt Guide with Examples  You can now access quick and easy tips for starting conversations with SAP Joule for Consultants. Click the Show Prompt Guide button above the Joule conversation window to view helpful instructions and examples.    Prompt Library  Easily browse a collection of pre-formulated prompts tailored to common roles and areas within SAP. Use filters to find prompts by Role (e.g., Consultant, Product Manager) or Area (e.g., Change Management, ABAP Development).    Each prompt includes:    The actual prompt      A less effective alternative prompt      Prompt objective      Prompt description      To use a prompt, simply copy it from the library and paste it into the Joule Conversation box.  This feature is accessible via a link in the Quick Prompt Guide.      Copy Answer to Clipboard  In addition to the Code Copy you can now quickly copy the entire contents of the Joule answer box by clicking the Copy button. This makes it easy to share Joule’s responses for use in other applications or purposes.    Knowledge Base Articles (Public version)  Public Information from Knowledge-Based Articles are now integrated into SAP Joule for Consultants. Stay tuned for more soon.    Refreshed Content    SAP Learning (Journeys and Courses)      SAP Community Content (Blogs, Forums, Q&A)      Activate Roadmap Content      
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-08-29
+Valid as Of: 2025-08-29
+Version: Cloud
+
+--- Record 189 ---
+Component: SAP BTP Administrator's Guide
+Environment: ABAP,Cloud Foundry,Kyma,Other
+Title: Updated Deploying and Delivering Applications
+Description: We've updated the recommendations in Deploying Applications and Delivering Applications.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2025-08-28
+Valid as Of: 2025-08-28
+Version: Cloud
+
+--- Record 190 ---
+Component: SAP Build
+Environment: Cloud Foundry
+Title: Moving to the SAP Build service plan
+Description: The following services can now upgrade to the SAP Build plan:   SAP Mobile Services  SAP Document Management Service, Integration Option  SAP Cloud Transport Management service  SAP Task Center  SAP BTP, Kyma runtime  SAP BTP ABAP environment  SAP Continuous Integration and Delivery  SAP Alert Notification service for SAP BTP  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-08-28
+Valid as Of: 2025-08-28
+Version: Cloud
+

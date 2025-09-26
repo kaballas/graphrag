@@ -1,0 +1,130 @@
+--- Record 2491 ---
+Component: Document Management Service
+Environment: Cloud Foundry
+Title: Support for Build-Code Service Plan
+Description: If you're using Document Management Service, Integration Optionand Document Management Service, Application Option as part of SAP Build Code, a separate build-code subscription plan is available.  To subscribe or to update to the build-code subscription plan from your current subscriptions, use the SAP Build Code booster.  See:  Service Plans  Updating the Service Plan  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-08-08
+Valid as Of: 2024-08-08
+Version: Cloud
+
+--- Record 2492 ---
+Component: Document Management Service
+Environment: Cloud Foundry
+Title: Terminology Change in the SAP Document Mobile Application
+Description: The option under the user menu Check for Updates has been renamed to Check for App Updates. Only the name has been changed and there is no change in the functionality.  See User Menu.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-08-08
+Valid as Of: 2024-08-08
+Version: Cloud
+
+--- Record 2493 ---
+Component: SAP Alert Notification Service
+Environment: Cloud Foundry
+Title: New Usage Data Management section and event
+Description: You can now use the newly supported Usage Data Management Remaining Credits event. For more information, see Usage Data Management section page.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-08-08
+Valid as Of: 2024-08-08
+Version: Cloud
+
+--- Record 2494 ---
+Component: SAP BTP, Cloud Foundry Runtime
+Environment: Cloud Foundry
+Title: Maximum Instance Memory Increased to 16 GB
+Description: We have increased the maximum limit for runtime memory per application instance from 8 GB to 16 GB. This also means that the guaranteed CPU capacity per application instance can now be scaled up to 4 CPU cores.  For more information, see SAP BTP-Specific Configurations.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-08-08
+Valid as Of: 2024-08-08
+Version: Cloud
+
+--- Record 2495 ---
+Component: SAP BTP, Cloud Foundry Runtime
+Environment: Cloud Foundry
+Title: Version 41.1.0
+Description: Cloud Foundry has been updated from 40.18.0 to 41.1.0.    https://github.com/cloudfoundry/cf-deployment/releases/tag/v41.1.0  https://github.com/cloudfoundry/cf-deployment/releases/tag/v41.0.0  https://github.com/cloudfoundry/cf-deployment/releases/tag/v40.19.0  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-08-08
+Valid as Of: 2024-08-08
+Version: Cloud
+
+--- Record 2496 ---
+Component: SAP Build Work Zone, advanced edition
+Environment: Cloud Foundry
+Title: Bug Fix
+Description: The following issue has been resolved: Web content card can’t be displayed in a full screen mode.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-08-08
+Valid as Of: 2024-08-08
+Version: 2407B
+
+--- Record 2497 ---
+Component: SAP Build Work Zone, advanced edition
+Environment: Cloud Foundry
+Title: Change of Image Size Limitation
+Description: Until now, any image file larger than 5MB (1024*1024*5 pixels) was rejected when uploaded to the image widget and it wouldn't be recognized as an image when uploaded to workspace content.  With the new behavior, for images uploaded to the Content folder, a preview is available for images up to 20MB. Above 20MB, a preview will not be available. For images uploaded directly to the image widget, 20M is the new size limit.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-08-08
+Valid as Of: 2024-08-08
+Version: 2407B
+
+--- Record 2498 ---
+Component: SAP Build Work Zone, advanced edition
+Environment: Cloud Foundry
+Title: Content Thumbnail Image Crop
+Description: Thumbnail images used for wikis, blogs, or KBAs can be adjusted using a slider or dragging the image so that it’s displayed properly in content widgets with different layouts (thumbnail/gallery/carousel) and in the Content list in grid view.  This also applies to the thumbnail image that’s added to a video widget.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-08-08
+Valid as Of: 2024-08-08
+Version: 2407B
+
+--- Record 2499 ---
+Component: SAP Build Work Zone, advanced edition
+Environment: Cloud Foundry
+Title: Notification Enhancements
+Description: The workspace notification UI has been enhanced when using the central notification of BTP. The following issues have been fixed: notification labels, invitation-related actions, and notification types.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-08-08
+Valid as Of: 2024-08-08
+Version: 2407B
+
+--- Record 2500 ---
+Component: SAP Build Work Zone, standard edition
+Environment: Cloud Foundry
+Title: Mapping Cards to Destinations
+Description: Administrators can now map cards to destinations.  After creating a new content channel that contains cards, the administrator must map any destinations defined in the cards to runtime destinations defined in the SAP BTP cockpit.   To do this, use the Map Aliases option, located in the Status column of the channel in the Channel Manager, and map the destinations in the Cards Aliases tab (new).  Note that the mapping is required for new content channels. Existing channels will continue to work with no further actions.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-08-08
+Valid as Of: 2024-08-08
+Version: 2407B
+

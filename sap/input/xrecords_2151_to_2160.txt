@@ -1,0 +1,130 @@
+--- Record 2151 ---
+Component: Graph
+Environment: Cloud Foundry
+Title: New Graph Guest user role for read-only access
+Description: You can enable users to have read-only access to Graph and the Graph Configuration API by assigning the Graph guest role to one or more users. For more information, see:    Enabling Guest Users      Define Users for Graph    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Intelligent Technologies
+Latest Revision: 2024-10-07
+Valid as Of: 2024-10-07
+Version: Cloud
+
+--- Record 2152 ---
+Component: SAP AI Core
+Environment: Cloud Foundry
+Title: Generative AI hub
+Description: Additional selected models from IBM are supported.For more information, see SAP Note 3437766 .
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-10-07
+Valid as Of: 2024-10-07
+Version: Cloud
+
+--- Record 2153 ---
+Component: SAP AI Core
+Environment: Cloud Foundry
+Title: Generative AI hub
+Description: Additional selected models from Mistral AI are supported.For more information, see SAP Note 3437766 .
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-10-07
+Valid as Of: 2024-10-07
+Version: Cloud
+
+--- Record 2154 ---
+Component: SAP AI Core
+Environment: Cloud Foundry
+Title: Generative AI hub
+Description: For selected models, response streaming is supported in the generative AI hub orchestration service.   For more information, see Streaming.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-10-07
+Valid as Of: 2024-10-07
+Version: Cloud
+
+--- Record 2155 ---
+Component: SAP AI Launchpad
+Environment: Cloud Foundry
+Title: Generative AI hub
+Description: Additional selected models from IBM are supported.  For more information, see Models and Scenarios in the Generative AI Hub.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-10-07
+Valid as Of: 2024-10-07
+Version: Cloud
+
+--- Record 2156 ---
+Component: SAP AI Launchpad
+Environment: Cloud Foundry
+Title: Generative AI hub
+Description: Additional selected models from Mistral AI are supported.  For more information, see Models and Scenarios in the Generative AI Hub.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-10-07
+Valid as Of: 2024-10-07
+Version: Cloud
+
+--- Record 2157 ---
+Component: SAP AI Launchpad
+Environment: Cloud Foundry
+Title: Generative AI hub
+Description: Additional module added to orchestration.  The data masking module anonymizes or pseudonymizes personally identifiable information from input.   For more information, see Build Your Orchestration Workflow.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-10-07
+Valid as Of: 2024-10-07
+Version: Cloud
+
+--- Record 2158 ---
+Component: SAP BTP Developer's Guide
+Environment: ABAP,Cloud Foundry,Kyma
+Title: Change in the Structure of the SAP BTP Developer's Guide
+Description: The new structure of the SAP BTP Developer's Guide now follows the design-led development process. It also now contains the development best practices introduced in the former Best Practices for SAP BTP guide, now renamed to SAP BTP Administrator's Guide.  See SAP BTP Developer's Guide.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-10-07
+Valid as Of: 2024-10-07
+Version: Cloud
+
+--- Record 2159 ---
+Component: SAP BTP Developer's Guide
+Environment: Cloud Foundry,Kyma
+Title: New Mission: Develop an Enterprise-Grade CAP Application
+Description: You can now develop enterprise-grade CAP applications and deploy them in SAP BTP. The Develop an Enterprise-Grade CAP Application Following the SAP BTP Developer’s Guide mission includes options for tracking changes, adding audit logs, and uploading attachments.  See Mission: Develop an Enterprise-Grade CAP Application Following the SAP BTP Developer’s Guide.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-10-07
+Valid as Of: 2024-10-07
+Version: Cloud
+
+--- Record 2160 ---
+Component: SAP Build Work Zone, advanced edition
+Environment: Cloud Foundry
+Title: Collecting Data and Performance Metrics
+Description: Performance and usage metrics of applications deployed on SAP BTP can be measured using the Front-End Statistical Records (FESR) tool. The results of these metrics, called performance artifacts, are collected, and transferred to SAP Cloud ALM (CALM) service that sends the data to cloud reporting.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-09-30
+Valid as Of: 2024-10-07
+Version: 2409B
+

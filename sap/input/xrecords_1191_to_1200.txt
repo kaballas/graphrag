@@ -1,0 +1,130 @@
+--- Record 1191 ---
+Component: SAP BTP, Cloud Foundry Runtime
+Environment: Cloud Foundry
+Title: Version 48.1.0
+Description: Cloud Foundry has been updated from 48.0.0 to 48.1.0.      https://github.com/cloudfoundry/cf-deployment/releases/tag/v48.1.0    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-03-20
+Valid as Of: 2025-03-20
+Version: Cloud
+
+--- Record 1192 ---
+Component: SAP Build Apps
+Environment: Cloud Foundry
+Title: Mobile
+Description: We've improved governance and security by removing the option to upload the iOS distribution certificate when creating iOS build configurations. You can now build your iOS project using your Team ID and then perform code-signing on your macOS device. For more information, see iOS Builds
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-03-20
+Valid as Of: 2025-03-20
+Version: Cloud
+
+--- Record 1193 ---
+Component: SAP Build Apps
+Environment: Cloud Foundry
+Title: Web & Mobile
+Description:   You can now generate app pages using AI. The Generate Pages feature is designed to streamline the application development process by enabling you to automatically create pages based on the data entities already integrated in your project. For more information, see Generate Pages Using AI      We've introduced a new context menu that you can access by right-clicking on a component in the UI canvas or the layout tree. The menu allows you to perform common actions like cut, copy, paste, duplicate and delete. Additionally, you can also select the parent UI element, wrap the selected element in a new container, or show and hide the Logic canvas.    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-03-20
+Valid as Of: 2025-03-20
+Version: Cloud
+
+--- Record 1194 ---
+Component: SAP Build Work Zone, advanced edition
+Environment: Cloud Foundry
+Title: Identity Authentication is the Default Authentication Mechanism for New Subscriptions
+Description: For new subscriptions to SAP Build Work Zone, advanced edition and SAP SuccessFactors Work Zone, the default authentication method is now Identity Authentication. Existing subscriptions will not be affected.  Make sure that you have an OIDC-based trust between SAP Cloud Identity Services – Identity Authentication and SAP BTP. For more information, see Establish Trust and Federation Between SAP Authorization and Trust Management Service and SAP Cloud Identity Services
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-03-13
+Valid as Of: 2025-03-20
+Version: 2502B
+
+--- Record 1195 ---
+Component: SAP Build Work Zone, advanced edition
+Environment: Cloud Foundry
+Title: User Profile Information From SCIM API
+Description: If the setting Use profile information from the SCIM API is enabled in the Features screen, more attributes are now taken from the SCIM API: location, nickname, and display name. These attributes can be viewed in the user profile and are read-only.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-03-20
+Valid as Of: 2025-03-20
+Version: 2502B
+
+--- Record 1196 ---
+Component: SAP Build Work Zone, advanced edition
+Environment: Cloud Foundry
+Title: Wizard Enhancements
+Description: The wizard has been enhanced as follows:   Easier access to wizard creation. When you create a new section, you can now choose between a Wizard section type or a Freestyle section type.  A new setting defines whether the wizard is collapsible and what is the default mode – expanded or collapsed.   If a wizard can be executed multiple times, you can now define if the multiple executions can run in parallel (before completing the previous runs).  
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-03-20
+Valid as Of: 2025-03-20
+Version: 2502B
+
+--- Record 1197 ---
+Component: SAP Build Work Zone, standard edition
+Environment: Cloud Foundry
+Title: Identity Authentication is the Default Authentication Mechanism for New Subscriptions
+Description: For new subscriptions to SAP Build Work Zone, standard edition, the default authentication method is now Identity Authentication. Existing subscriptions will not be affected.  Make sure that you have an OIDC-based trust between SAP Cloud Identity Services – Identity Authentication and SAP BTP. For more information, see Establish Trust and Federation Between SAP Authorization and Trust Management Service and SAP Cloud Identity Services.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-03-13
+Valid as Of: 2025-03-20
+Version: 2502B
+
+--- Record 1198 ---
+Component: SAP Java Buildpack
+Environment: Cloud Foundry
+Title: Version 2.26.0
+Description: SAP Java Buildpack 2 has been updated from version 2.25.0 to 2.26.0. Updated components:      Tomcat 10 is updated from version 10.1.35 to 10.1.36      SAP HANA Driver (hana.driver.2.X.X) is updated from version 2.23.8 to 2.23.9      The SLF4J component (org.slf4j) is updated from version 2.0.16 to 2.0.17      SnakeYAML is updated from version 2.2 to 2.3      org.apache.httpcomponents.core5.httpcore5 is updated from version 5.3.1 to 5.3.3      logback is updated from version 1.5.16 to 1.5.17      com.sap.xs.onpremise.runtime is updated from version 1.3.3 to 1.3.4    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-03-06
+Valid as Of: 2025-03-20
+Version: Cloud
+
+--- Record 1199 ---
+Component: SAP Start
+Environment: Cloud Foundry
+Title: Identity Authentication is the Default Authentication Mechanism for New Subscriptions
+Description: For new subscriptions to SAP Start, the default authentication method is now Identity Authentication. Existing subscriptions will not be affected.  Make sure that you have an OIDC-based trust between SAP Cloud Identity Services – Identity Authentication and SAP BTP. For more information, see Establish Trust and Federation Between SAP Authorization and Trust Management Service and SAP Cloud Identity Services.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-03-13
+Valid as Of: 2025-03-20
+Version: Cloud
+
+--- Record 1200 ---
+Component: SAPUI5
+Environment: ABAP,Cloud Foundry,Kyma,Neo,Other
+Title: SAPUI5 Distribution 1.134
+Description: SAPUI5 version 1.134 has been released for UI development and can now be consumed by SAP BTP services. It’s up to the services to determine when they start using the new version.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2025-03-19
+Valid as Of: 2025-03-20
+Version: Cloud
+

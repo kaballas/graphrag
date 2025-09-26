@@ -1,0 +1,130 @@
+--- Record 971 ---
+Component: Trading Partner Management
+Environment: Cloud Foundry
+Title: Configuring Interchange Number for Functional Acknowledgment
+Description: You can now configure the interchange number while you're creating a new functional acknowledgment.   See Creating a B2B Transaction.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-05-04
+Valid as Of: 2025-05-04
+Version: 2503
+
+--- Record 972 ---
+Component: Trading Partner Management
+Environment: Cloud Foundry
+Title: Software Version Update
+Description:   SAP Cloud Integration: 6.65.*  Increment: 2503  
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-05-04
+Valid as Of: 2025-05-04
+Version: 2503
+
+--- Record 973 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Referenced SAPUI5 Version
+Description: As part of hotfix collection 2 (which is used for the pre-upgrade only), SAPUI5 version 1.133.1 is used for the administrator’s SAP Fiori launchpad, SAP-delivered Fiori apps, and the custom-built SAP Fiori apps, which are deployed to the ABAP system.  See SAP BTP ABAP Environment – Maintenance Windows and Major Upgrade Windows in 2025 and SAP UI5
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-05-02
+Valid as Of: 2025-05-02
+Version: ABAP Environment 2505
+
+--- Record 974 ---
+Component: Connectivity
+Environment: Cloud Foundry
+Title: Destination Service - New Feature
+Description: The Destination service is now able to accept user tokens, issued by third-party OAuth servers, with a custom type (“typ”) header (property   x_user_token.header.typ).  For more information, see:    OAuth SAML Bearer Assertion Authentication    OAuth JWT Bearer Authentication  OAuth User Token Exchange Authentication    SAML Assertion Authentication  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-05-02
+Valid as Of: 2025-05-02
+Version: Cloud
+
+--- Record 975 ---
+Component: SAP Datasphere
+Environment: Cloud Foundry
+Title: Features for Version 2025.9
+Description: New and changed features are available for data cataloging and data modeling.  For more information, see What's New in SAP Datasphere 2025.9. 
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-05-01
+Valid as Of: 2025-05-01
+Version: Cloud
+
+--- Record 976 ---
+Component: Continuous Integration & Delivery
+Environment: Cloud Foundry
+Title: Deprecation of Node 18-Based Build Tool Versions
+Description: The following build tool versions based on Node 18 are now deprecated:    Java 11 Node 18      Java 17 Node 18      Java 19 Node 18      Java 21 Node 18      Node 18      We recommend using Java 21 Node 22 and the respective npm version based on Node 22 instead.
+Action: Required
+Lifecycle: Deprecated
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2025-04-30
+Valid as Of: 2025-04-30
+Version: Cloud
+
+--- Record 977 ---
+Component: Node.js System Buildpack
+Environment: Cloud Foundry
+Title: Node.js 18 is reaching end of life
+Description: Node.js 18 is reaching end of life on April 30, 2025 according to the Node.js Roadmap. It will stay available for a short time after that, and then will be removed from the SAP BTP, Cloud Foundry environment. When this version disappears, deployment and redeployment of Cloud Foundry applications running on Node.js 18 will fail.   Action: We strongly recommend that you migrate your applications to Node.js 20 or 22 as soon as possible.   In exceptional cases (if you haven’t managed to switch to Node.js 20 in time), to avoid application failures during redeployment, you can pin the last buildpack version that contains Node.js 18, as provided by the nodejs-buildpack community. To learn how, see: Specify a buildpack version  If you are using MTA deployment descriptors, in your mtad.yaml file you need to define module type javascript.nodejs and set parameter buildpack to nodejs_buildpack. For example:    modules:- name: myapp  type: javascript.nodejs  parameters:    memory: 512M    buildpack: nodejs_buildpack    If you want to pin a particular buildpack version (for example, 1.8.34), you can do it the following way:    modules:- name: myapp  type: javascript.nodejs  parameters:    memory: 512M    buildpack: https://github.com/cloudfoundry/nodejs-buildpack.git#v1.8.34    To learn more, see MTA Module Types.   NOTE: SAP does not recommend use of Node.js 18 after its end-of-life date as no support and security fixes will be provided for this version anymore.
+Action: Required
+Lifecycle: Deprecated
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2025-03-12
+Valid as Of: 2025-04-30
+Version: Cloud
+
+--- Record 978 ---
+Component: Authorization and Trust Management Service
+Environment: ABAP,Cloud Foundry,Kyma,Neo,Other
+Title: Deprecation of the instance-secret Credential Type for Service Instances
+Description: We are going to make the following changes for security reasons. The target audience for the change are developers.  If credential types are defined in the application security descriptor, the SAP Authorization and Trust Management service accepts the following values:        instance-secret      binding-secret      x509        The value instance-secret is deprecated with immediate effect.  Runtime changes are not yet applied. We are going to announce these changes later.    Recommendation  Instead of using the instance-secret credential type, applications and services should use the binding-secret credential type (see Migrate from Instance Secrets to Binding Secrets) or x509 (see Retrieving Access Tokens with Mutual Transport Layer Security (mTLS)).    For more information on the security descriptor, see Application Security Descriptor Configuration Syntax.
+Action: Info only
+Lifecycle: Deprecated
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-04-03
+Valid as Of: 2025-04-30
+Version: 2503a
+
+--- Record 979 ---
+Component: Authorization and Trust Management Service
+Environment: ABAP,Cloud Foundry,Kyma,Neo,Other
+Title: Deprecation of the xsenableasyncservice Element for Service Instances
+Description: The target audience for the change are developers.  The xsenableasyncservice element in the application security descriptor is deprecated with immediate effect.  Runtime changes are not yet applied. We are going to announce these changes later.    Recommendation  You are affected if you explicitly use the xsenableasyncservice element in your security descriptor.If you use the element with the value true, you can remove it without any impact.If you use the element with the value false, you need to ensure that your application or service works with asynchronous service instance creations and updates. See also Creation and Update of xsuaa Service Instance Becomes Asynchronous by Default.    For more information, see Application Security Descriptor Configuration Syntax.
+Action: Info only
+Lifecycle: Deprecated
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-04-03
+Valid as Of: 2025-04-30
+Version: 2503a
+
+--- Record 980 ---
+Component: Application Autoscaler
+Environment: Cloud Foundry
+Title: End of support for the “Basic” HTTP Authentication scheme (basic auth) when using the Application Autoscaler Custom Metrics API for security reasons
+Description: We are going to make the following change for security reasons. The target audience of the change is developers:   The credential type will only be configurable to x509 (instead of x509 or binding-secret).  Creation of new bindings with the credential-type binding-secret will fail.  Action    Check whether you are affected by the upcoming changes. The upcoming changes only affect new service bindings if any of the following prerequisites are true:       The credential-type parameter is set to binding-secret during the creation of the binding.      If you are affected, ensure that your application works with secrets of the x509 credential type before we activate this change.  For more information on how to use the x509 credential type, see Defining a Custom Metric.  Until 2025-04-30 you may configure the credential-type to binding-secret, to restore the previous configuration.
+Action: Recommended
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-04-30
+Valid as Of: 2025-04-30
+Version: Cloud
+

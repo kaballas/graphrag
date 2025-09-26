@@ -1,0 +1,130 @@
+--- Record 3701 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Istio module: Update to version 1.2.0
+Description: This release of the Istio module contains Istio updated to version 1.20.0. For more information, read Istio 1.20.0 Release Announcement and Upgrade Notes.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-12-08
+Valid as Of: 2023-12-21
+Version: Cloud
+
+--- Record 3702 ---
+Component: Cloud Application Programming Model
+Environment: Cloud Foundry
+Title: December Release
+Description: The December release of the SAP Cloud Application Programming Model is now available.   Highlights:    Type Definitions are open source  SAPUI5 Mass Edit support  Open Telemetry support  … and much more.  See December 2023 release for the CAP framework.   Action: We recommend to adapt the new versions as soon as possible, see Managing Dependencies.
+Action: Recommended
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2023-12-20
+Version: Cloud
+
+--- Record 3703 ---
+Component: Personalized Recommendation
+Environment: Cloud Foundry
+Title: Overall Improvements
+Description: There have been several code and stability improvements.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2023-12-20
+Valid as Of: 2023-12-20
+Version: Cloud
+
+--- Record 3704 ---
+Component: SAP AI Core
+Environment: Cloud Foundry
+Title: Generative AI hub
+Description: The generative AI hub includes prompt experimentation, prompt management, and administrative tools. Prompt experimentation includes creating and running natural language prompts with a choice of large language models and parameters. Prompt management includes saving prompts with collections, metadata in the form of tags and notes, versioning and deletion. For more information, see Generative AI Hub in SAP AI Core Overview.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-12-20
+Valid as Of: 2023-12-20
+Version: Cloud
+
+--- Record 3705 ---
+Component: SAP AI Launchpad
+Environment: Cloud Foundry
+Title: Generative AI hub
+Description: You can now access the generative AI hub in SAP AI Core. The generative AI hub includes prompt experimentation, prompt management, and administrative tools. Prompt experimentation includes creating and running natural language prompts with a choice of models and parameters. Prompt management includes saving prompts with collections, metadata in the form of tags and notes, versioning, and deletion.   For more information, see Generative AI Hub.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-12-20
+Valid as Of: 2023-12-20
+Version: Cloud
+
+--- Record 3706 ---
+Component: SAP Omnichannel Promotion Pricing
+Environment: Cloud Foundry
+Title: Additional Price Type for Handling Customer-Specific Prices at Line Item Level
+Description: You can now use an additional price type to handle a customer-specific price for a line item provided by the calling instance, in addition to the regular sales price. For this, a new promotional rule Additional Price Type is now available in the Maintain Promotions app.  For more information, see Using an Additional Price Type as a Trigger, Applying an Additional Price Type and Price Calculation with an Additional Price Type (XML).
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2022-01-01
+Valid as Of: 2023-12-20
+Version: Cloud
+
+--- Record 3707 ---
+Component: SAP Omnichannel Promotion Pricing
+Environment: Cloud Foundry
+Title: New Get Sequence and Resolution Button on Promotional Rules Detail Page
+Description: You can now also use the Get Sequence and Resolution button on the Promotional Rules detail page in the Maintain Promotions app to automatically determine sequence and resolution values.  For more information, see Automatic Determination of Sequence and Resolution.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2022-01-01
+Valid as Of: 2023-12-20
+Version: Cloud
+
+--- Record 3708 ---
+Component: SAP Omnichannel Promotion Pricing
+Environment: Cloud Foundry
+Title: Support of X.509 Certificates
+Description: You can now use X.509 certificates to secure services with mutual Transport Layer Security (mTLS). With this, no secret is shared between calling application and the service instance of SAP Authorization and Trust Management service (XSUAA). For more information, see Retrieving Access Tokens with Mutual Transport Layer Security (mTLS).  To use this credential type, you have to create a service key with certificate and private key. For more information, see Enable mTLS Authentication to SAP Authorization and Trust Management Service for Your Application and Creating Service Keys in the Cloud Foundry Environment.  For more information about creating service keys and accessing the APIs, see Creating Service Keys in the Cloud Foundry Environment and Accessing SAP Omnichannel Promotion Pricing APIs.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2022-01-01
+Valid as Of: 2023-12-20
+Version: Cloud
+
+--- Record 3709 ---
+Component: UI Theme Designer
+Environment: Cloud Foundry,Neo
+Title: Base Theming Content for CF and Neo.
+Description: The base theming content is updated to version 11.10.0. Review the changes at https://github.com/SAP/theming-base-content/releases.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2023-12-20
+Version: Cloud
+
+--- Record 3710 ---
+Component: UI Theme Designer
+Environment: Cloud Foundry
+Title: Support for preview pages hosted on a different domain
+Description: UI theme designer now supports preview pages hosted on a different domain if the preview page comes up with support for UI theme designer. For more information, see Adding Applications for Preview Purposes.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2023-12-20
+Version: Cloud
+

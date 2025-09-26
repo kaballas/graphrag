@@ -1,0 +1,130 @@
+--- Record 3221 ---
+Component: Forms Service by Adobe
+Environment: Cloud Foundry
+Title: Service Availability - Additional Regions
+Description: The SAP Forms service is now available in the following additional regions:      cf-br10 (AWS - Brazil/São Paulo)  cf-ap10 (AWS -Australia/Sydney)  cf-ap11 (AWS - Asia Pacific/Singapore)  cf-ca10 (AWS - Canada/Montreal)      For more informations, see SAP Discovery Center.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2024-03-27
+Version: Cloud
+
+--- Record 3222 ---
+Component: Identity Provisioning
+Environment: Neo
+Title: Logs show the user who triggered a job
+Description: The job logs now show the ID of the user who triggered a job manually. You can see this information in the Job Execution Details  Triggered by field when the job type is read, resync or simulate and the trigger type is immediate.  Scheduled jobs don't display the Triggered by information.  For more information, see: Monitor Provisioning Job Logs.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-03-27
+Valid as Of: 2024-03-27
+Version: Cloud
+
+--- Record 3223 ---
+Component: SAP S/⁠4HANA Cloud for Credit Integration
+Environment: Cloud Foundry
+Title: Changed product portfolio for Coface
+Description: The products integrated with our solution have been adapted by Coface:      New product:    Payment Index Assessment (a|late-payment-index)       Removed products:    URBA Trade payment (r|customized-report|305)    URBA Trade payment (m|customized-report | 306)       Changed default product names:   m|customized-report | 187: Monitoring ( 12 Months)  changed to Monitoring for Full Report plus IGF  m|customized-report | 303: Monitoring ( 12 Months) changed to Monitoring for Full Report URBA        Find the complete list of products here: Integrated Credit Agencies and Products  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Finance
+Latest Revision: 2024-03-27
+Valid as Of: 2024-03-27
+Version: Cloud
+
+--- Record 3224 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Telemetry module: Deprecation of condition types
+Description: With Telemetry version 1.11.0, we are deprecating condition types Running and Pending. They will be removed in future versions of the Telemetry module.  Please adjust your automation to rely on the new condition types instead (#805).
+Action: Required
+Lifecycle: Deprecated
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-03-11
+Valid as Of: 2024-03-26
+Version: Cloud
+
+--- Record 3225 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Telemetry module: Update to version 1.11.0
+Description: The new version brings the following improvements:  Logs and Traces:    For LogPipeline and TracePipeline, we are introducing new status condition types, following the Kubernetes conventions. (#805).    Metrics:      For the MetricPipeline input runtime, we are introducing the metrics *.cpu.usage, which replaces *.cpu.utilization.  This also fixes the calculation of the emitted metrics which are now calculated based on percentage instead of nanoseconds (#838).    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-03-11
+Valid as Of: 2024-03-26
+Version: Cloud
+
+--- Record 3226 ---
+Component: SAP Alert Notification Service
+Environment: Other
+Title: New SAP HANA Cloud Service Database Event
+Description: You can now use the newly supported Data Lake HDB Compatibility event.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-03-26
+Valid as Of: 2024-03-26
+Version: Cloud
+
+--- Record 3227 ---
+Component: SAP Alert Notification Service
+Environment: Other
+Title: SAP Build Code
+Description: You can use the SAP Alert Notification service as part of SAP Build Code now.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-03-26
+Valid as Of: 2024-03-26
+Version: Cloud
+
+--- Record 3228 ---
+Component: SAP Alert Notification Service
+Environment: Cloud Foundry
+Title: Update in HDB Out Of Memory event type
+Description: The property host is now available under resouce.tags in HDB Out Of Memory event type
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-03-26
+Valid as Of: 2024-03-26
+Version: Cloud
+
+--- Record 3229 ---
+Component: SAP HANA Cloud
+Environment: Cloud Foundry,Kyma,Other
+Title: New component version available
+Description: A new component version is available for the following SAP HANA Cloud components:   2024.02 (QRC 1/2024) for SAP HANA Cloud, SAP HANA database  2024.1.4051 (QRC 1/2024) for SAP HANA Cloud, data lake      See What's New in SAP HANA Cloud.  Action: To use the new component version, you must upgrade your instance. See Managing SAP HANA Cloud Instances.
+Action: Recommended
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-03-25
+Valid as Of: 2024-03-25
+Version: Cloud
+
+--- Record 3230 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: New SAP BTP regions in Google Cloud
+Description: We support two new SAP BTP regions in the Google Cloud (gcp) plan:    asia-northeast2 (Japan, Osaka)      me-central2 (KSA, Damman)      For details on all available regions, check Regions for the Kyma Environment or Provisioning and Updating Parameters in the Kyma Environment.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-03-25
+Valid as Of: 2024-03-25
+Version: Cloud
+

@@ -1,0 +1,130 @@
+--- Record 931 ---
+Component: Identity Provisioning
+Environment: Neo
+Title: SAP ODM User Schema Support
+Description: The default read and proxy read transformations in Identity Authentication support the urn:ietf:params:scim:schemas:extension:sap.odm:2.0:User schema. This custom SCIM schema extension is defined by SAP’s Organizational Data Model (ODM) and is used to enrich the standard SCIM User resource with SAP-specific attributes such as workAssignment, jobDetails, plant, and others.  For more information, see Identity Authentication.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-05-08
+Valid as Of: 2025-05-08
+Version: Cloud
+
+--- Record 932 ---
+Component: Identity Provisioning
+Environment: Neo
+Title: SAP Sales Cloud and SAP Service Cloud - new version
+Description: A new connector version for SAP Sales Cloud and SAP Service Cloud is introduced. It is applicable for SAP Sales Cloud Version 2 and SAP Service Cloud Version 2 and supports certificate-based authentication, patch operations, delta read of entities, cursor-based pagination and more.  For more information, see      SAP Sales Cloud and SAP Service Cloud (Source)      SAP Sales Cloud and SAP Service Cloud (Target)      SAP Sales Cloud and SAP Service Cloud (Proxy)    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-05-08
+Valid as Of: 2025-05-08
+Version: Cloud
+
+--- Record 933 ---
+Component: Identity Provisioning
+Environment: Neo
+Title: Support for SAP extension schema for groups
+Description: The default transformations of the following connectors support attributes from the SAP extension schema for groups, including application ID, type, and supported operations.  For more information, see      SAP Central Business Configuration      SAP Build Work Zone, advanced edition      SAP BTP ABAP environment      SAP Commerce Cloud      SAP Advanced Financial Closing    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-05-08
+Valid as Of: 2025-05-08
+Version: Cloud
+
+--- Record 934 ---
+Component: SAP BTP Administrator's Guide
+Environment: ABAP,Cloud Foundry,Kyma,Other
+Title: Various Minor Enhancements
+Description:   Added guidance about SAP BTP ABAP environment in Data Backups Managed by SAP.  Updated SAP Job Scheduling Service.  Terminology updates for Building Teams, Creating an Onboarding Process for Development Projects, and Subaccounts or Spaces/Namespaces?  
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2025-05-08
+Valid as Of: 2025-05-08
+Version: Cloud
+
+--- Record 935 ---
+Component: SAP Omnichannel Promotion Pricing
+Environment: Cloud Foundry
+Title: New Tutorials for Coupon Management Service
+Description: We have published three new tutorials that guide you through the steps of creating a single-code coupon, associating the coupon with a promotion, and redeeming the coupon using the SAP Omnichannel Promotion Pricing services and apps on SAP BTP trial.   For more information, see Create and Manage Coupons with SAP Omnichannel Promotion Pricing.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-05-08
+Valid as Of: 2025-05-08
+Version: Cloud
+
+--- Record 936 ---
+Component: SAP S/⁠4HANA Cloud for Credit Integration
+Environment: Cloud Foundry
+Title: For SAP S/4HANA Cloud: New integration of SAP Cloud Application Event Hub
+Description: You can now use SAP Cloud Application Event Hub to enable the communication between your SAP S/4HANA Cloud system and the credit integration solution, which is necessary for running the mass import of external credit integration. We recommend using this new option instead of the previously available option of integrating with SAP Event Mesh.   More information:  Steps for Integration with SAP Cloud Application Event Hub (Optional)    (Log on with your SAP ID to access this document.)  Product Page: SAP Cloud Application Event Hub
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Finance
+Latest Revision: 2025-05-08
+Valid as Of: 2025-05-08
+Version: Cloud
+
+--- Record 937 ---
+Component: Pricing Service
+Environment: Cloud Foundry
+Title: Pre-Production - Document Pricing – Closing of Pricing Session
+Description: The endpoint POST /closeSession used to be used to remove pricing documents from the HTTP session. This is no longer required because of improved resource management. The endpoint will be removed with release 2605.  Action: If called from your application, remove that call before release the May release in 2026.  See  API Definition and Development Guide for SAP Variant Configuration and Pricing - Pre-Production.
+Action: Required
+Lifecycle: Deprecated
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-04-16
+Valid as Of: 2025-05-07
+Version: Cloud
+
+--- Record 938 ---
+Component: Variant Configuration
+Environment: Cloud Foundry
+Title: Pre-Production - Configurations API – Closing of Configuration Session
+Description: The endpoint POST /closeSession  Action: If called from your application, remove that call before the May release in 2026.  See  API Definition and Development Guide for SAP Variant Configuration and Pricing - Pre-Production.
+Action: Required
+Lifecycle: Deprecated
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-04-15
+Valid as Of: 2025-05-07
+Version: Cloud
+
+--- Record 939 ---
+Component: Variant Configuration
+Environment: Cloud Foundry
+Title: Pre-Production – Configurations API – Limit the Number of Conflicts
+Description: There is a new query parameter called conflictsTop for endpoints like GET /configurations/{configurationId}. Use this new query parameter to specify the maximum number of conflicts that should be calculated and returned.  Action: Set conflictsTop=0 to suppress conflict calculation and improve performance if conflicts are of no interest for the consuming application.  See  API Definition and Development Guide for SAP Variant Configuration and Pricing - Pre-Production.
+Action: Recommended
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-04-15
+Valid as Of: 2025-05-07
+Version: Cloud
+
+--- Record 940 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Landscape Portal: Monitoring customers and products
+Description: The new Customer Overview app in the Landscape Portal enables partners to keep track of their customers and products. See Customer Overview.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-02-10
+Valid as Of: 2025-05-07
+Version: ABAP Environment 2505
+

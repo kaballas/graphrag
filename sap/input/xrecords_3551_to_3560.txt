@@ -1,0 +1,130 @@
+--- Record 3551 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: Extraction of Descriptions from Columns
+Description: We’ve fixed an issue with extracting description values from columns.  SAP Document AI now extracts the complete content of large column cells containing descriptions of numbers or quantities, for example.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Intelligent Technologies
+Latest Revision: 2024-02-05
+Valid as Of: 2024-02-05
+Version: Cloud
+
+--- Record 3552 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: Extraction of Line Items
+Description: We’ve fixed an issue with extracting line items.  If the template returns the extraction result invalid, but the AI returns the extraction result valid for the same line item, the final result is now valid when SAP Document AI merges the two results.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Intelligent Technologies
+Latest Revision: 2024-02-05
+Valid as Of: 2024-02-05
+Version: Cloud
+
+--- Record 3553 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: Get Templates Endpoint
+Description: The limit parameter of the Get Templates endpoint is now independent of the order parameter.   To apply the limit parameter, you no longer need to specify a value for order.  See Get Template.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Intelligent Technologies
+Latest Revision: 2024-02-05
+Valid as Of: 2024-02-05
+Version: Cloud
+
+--- Record 3554 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: Model Used for Extraction
+Description: The Document API now includes information about the model used for extraction. As a result, you can see whether SAP Document AI used a template or AI to extract information from a particular field.  See Get Result.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Intelligent Technologies
+Latest Revision: 2024-02-05
+Valid as Of: 2024-02-05
+Version: Cloud
+
+--- Record 3555 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: New Location for Schema Configuration Feature on UI
+Description: You now call up the Schema Configuration feature of the SAP Document AI basic UI directly from the navigation bar on the left of the screen.  See Create Schema.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Intelligent Technologies
+Latest Revision: 2024-02-05
+Valid as Of: 2024-02-05
+Version: Cloud
+
+--- Record 3556 ---
+Component: SAP Task Center
+Environment: Cloud Foundry
+Title: Support for New Actions - Claim, Release, Forward
+Description: Claim, Release and Forward are now available for SAP S/4HANA, SAP S/4HANA Cloud Public Edition and SAP S/4HANA Cloud Private Edition tasks.  For more information, see Inline Decision Options and Predefined Decision Reasons.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-02-05
+Valid as Of: 2024-02-05
+Version: Cloud
+
+--- Record 3557 ---
+Component: Cloud Application Programming Model
+Environment: Cloud Foundry
+Title: January Release
+Description: The January release of the SAP Cloud Application Programming Model is now available.   Highlights:    Open Telemetry Plugin  Programmatic Outboxing of Services  Support for Spring Boot 3.2  … and much more.  See January 2024 release for the CAP framework.   Action: We recommend to adapt the new versions as soon as possible, see Managing Dependencies.
+Action: Recommended
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2024-02-02
+Version: Cloud
+
+--- Record 3558 ---
+Component: Data Quality Services
+Environment: Cloud Foundry,Neo
+Title: Enhancements
+Description: The microservice now supports address validation in Paraguay and Venezuela to the house number level. See Country Coverage for more information.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2024-02-02
+Version: Cloud
+
+--- Record 3559 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Actions - Flattening Object Structure
+Description: You can now use the new flattening feature, allowing you to streamline complex API responses by condensing them into a single-level structure. This feature enhances readability and simplifies data processing for a more efficient and intuitive user experience.  See:   
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-02-02
+Valid as Of: 2024-02-02
+Version: Cloud
+
+--- Record 3560 ---
+Component: SAP S/⁠4HANA Cloud for Credit Integration
+Environment: Cloud Foundry
+Title: For SAP S/4HANA: BC Set for credit agency Creditreform CH
+Description: For the credit agency Creditreform CH a BC set is now available:   3413168 : BC Set for Creditreform CH  The BC set for Creditreform CH contains only rating procedures for Business products. For Consumer products, you have to maintain your own rating procedures.  More information: Configure Rating Procedures  (Log on with your SAP ID to access this document.)
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Finance
+Latest Revision: 2024-02-02
+Valid as Of: 2024-02-02
+Version: Cloud
+

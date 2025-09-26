@@ -1,0 +1,130 @@
+--- Record 2511 ---
+Component: Integration Advisor
+Environment: Cloud Foundry,Neo
+Title: Custom Codelists
+Description: You can now copy code values from existing codelists and add them to your custom codelists.  See: Adding a Custom Codelist
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-08-04
+Valid as Of: 2024-08-04
+Version: 2406
+
+--- Record 2512 ---
+Component: Integration Advisor
+Environment: Cloud Foundry,Neo
+Title: Software Version Update
+Description:   SAP Integration Advisor: 1.89.*    Increment: 2406    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-08-04
+Valid as Of: 2024-08-04
+Version: 2406
+
+--- Record 2513 ---
+Component: Integration Advisor
+Environment: Cloud Foundry,Neo
+Title: Support of EDI Flat file payload
+Description: You can now upload EDI flat files directly when creating MIGs, as well as during the simulation of MIGs and MAGs.  See:     Creating a Message Implementation Guideline    Simulating a Message Implementation Guideline  Simulating a Mapping Guideline  
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-08-04
+Valid as Of: 2024-08-04
+Version: 2406
+
+--- Record 2514 ---
+Component: Integration Assessment
+Environment: Cloud Foundry
+Title: Software Version Update
+Description:     Integration Assessment: 1.30.*      Increment: 2406    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-08-04
+Valid as Of: 2024-08-04
+Version: 2406
+
+--- Record 2515 ---
+Component: Migration Assessment
+Environment: Cloud Foundry
+Title: Software Version Update
+Description:     Migration Assessment: 1.30.*      Increment: 2406    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-08-04
+Valid as Of: 2024-08-04
+Version: 2406
+
+--- Record 2516 ---
+Component: Trading Partner Management
+Environment: Cloud Foundry
+Title: Software Version Update
+Description:   SAP Cloud Integration: 6.55.*  Increment: 2406  
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-08-04
+Valid as Of: 2024-08-04
+Version: 2406
+
+--- Record 2517 ---
+Component: Trading Partner Management
+Environment: Cloud Foundry
+Title: Target Decimal Character for Sender Interchange
+Description: You can now configure the target decimal character for sender interchanges in UN/EDIFACT-based agreements.  See: Creating a Trading Partner Agreement
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-08-04
+Valid as Of: 2024-08-04
+Version: 2406
+
+--- Record 2518 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Telemetry module: Update to version 1.20.0
+Description: The new version brings the following improvements:      Metrics: You can choose if you want to collect "container" and/or "pod" metrics: In the runtime input of your MetricPipeline, disable or enable the desired metric groups (#1183).      Traces and Logs: The Telemetry module now supports Istio v1 stable APIs (#1210).      Traces and Metrics: Update to OTel Collector 0.104.0 (#1207).    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-07-31
+Valid as Of: 2024-08-02
+Version: Cloud
+
+--- Record 2519 ---
+Component: SAP BTP Developer's Guide
+Environment: Cloud Foundry,Kyma
+Title: New Graphic Showing the Order of the Tutorials and Missions for CAP
+Description: You can now use an interactive graphic to follow the tutorials and missions related to the SAP Cloud Application Programming Model (CAP) and based on the Incident Management sample application.   See Tutorials for SAP Cloud Application Programming Model.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-08-02
+Valid as Of: 2024-08-02
+Version: Cloud
+
+--- Record 2520 ---
+Component: SAP BTP Developer's Guide
+Environment: Cloud Foundry
+Title: Tutorials for Consuming Remote Services Moved to Tutorial Navigator
+Description: The tutorials that show how to integrate the SAP S/4HANA Cloud Business Partner API to the Incident Management application are now moved to the Tutorial Navigator. There are two main groups depending on whether you have an SAP S/4HANA Cloud tenant, or you use a mock server:      Consume Remote Services from S/4HANA Cloud in Your Full-Stack CAP Application Following the SAP BTP Developer's Guide and Deploy in SAP BTP, Cloud Foundry Runtime      Consume Remote Services from a Mock Server in Your Full-Stack CAP Application Following the SAP BTP Developer's Guide and Deploy in SAP BTP, Cloud Foundry Runtime    
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-08-01
+Valid as Of: 2024-08-01
+Version: Cloud
+

@@ -1,0 +1,130 @@
+--- Record 1241 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: SAML 2.0 Configuration
+Description: The SAML 2.0 configuration page on application level has been refactored. Now you can separately configure the metadata and certificates setting. See Configure SAML 2.0 Service Provider.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-03-11
+Valid as Of: 2025-03-11
+Version: 27566
+
+--- Record 1242 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Support for externalId in UUID format
+Description: When provisioning users to SAP Build Work Zone, standard edition, the externalId must be in UUID format.  See SAP Build Work Zone, standard edition.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-03-11
+Valid as Of: 2025-03-11
+Version: 27566
+
+--- Record 1243 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: User Attributes
+Description: Cloud Identity Services now supports a new local user attribute - Application Groups to list the application-specific groups to which the user is assigned to. See Configuring User Attributes from the Identity Directory.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-03-11
+Valid as Of: 2025-03-11
+Version: 27566
+
+--- Record 1244 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: User Attributes
+Description: The name of the Groups user attribute is renamed to All Groups. See Configuring User Attributes from the Identity Directory.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-03-11
+Valid as Of: 2025-03-11
+Version: 27566
+
+--- Record 1245 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Warning of unsupported entity
+Description: A warning message alerts you when adding an unsupported entity - such as a user, group, or role - in the transformations. While the entity will be accepted, it will not be applied.  See Manage Transformations.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-03-11
+Valid as Of: 2025-03-11
+Version: 27566
+
+--- Record 1246 ---
+Component: Cloud Integration
+Environment: Cloud Foundry
+Title: New LeanIX Adapter Available
+Description: LeanIX Receiver adapter is available now.  See: LeanIX Adapter
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-03-11
+Valid as Of: 2025-03-11
+Version: 2501
+
+--- Record 1247 ---
+Component: Identity Provisioning
+Environment: Neo
+Title: No restart for failed job
+Description: If a provisioning job from a source system to multiple target systems stops due to an error in one of the targets, it will not resume for that specific target upon restart. Previously, the job would continue after a restart.  For more information, see: Monitor Provisioning Job Logs
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-03-11
+Valid as Of: 2025-03-11
+Version: Cloud
+
+--- Record 1248 ---
+Component: Identity Provisioning
+Environment: Neo
+Title: Support for externalId in UUID format
+Description: When provisioning users to SAP Build Work Zone, standard edition, the externalId must be in UUID format.  For more information, see: SAP Build Work Zone, standard edition
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-03-11
+Valid as Of: 2025-03-11
+Version: Cloud
+
+--- Record 1249 ---
+Component: Identity Provisioning
+Environment: Neo
+Title: Warning of unsupported entity
+Description: A warning message alerts you when adding an unsupported entity - such as a user, group, or role - in the transformations. While the entity will be accepted, it will not be applied.  For more information, see: Manage Transformations.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-03-11
+Valid as Of: 2025-03-11
+Version: Cloud
+
+--- Record 1250 ---
+Component: Integration Advisor
+Environment: Cloud Foundry,Neo
+Title: Overlay Mapping Guidelines
+Description: You can now create overlay Mapping Guidelines allowing you to customize and extend base Mapping Guidelines. See Creating an Overlay Mapping Guideline.  As Cloud Integration (standalone) customer, see Creating an Overlay Mapping Guideline
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-03-11
+Valid as Of: 2025-03-11
+Version: 2501
+

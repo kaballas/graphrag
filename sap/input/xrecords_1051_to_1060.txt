@@ -1,0 +1,130 @@
+--- Record 1051 ---
+Component: SAP AI Launchpad
+Environment: Cloud Foundry
+Title: Generative AI hub
+Description: You can view the list of available prompt templates from the prompt repository.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2025-04-14
+Valid as Of: 2025-04-14
+Version: Cloud
+
+--- Record 1052 ---
+Component: SAP AI Launchpad
+Environment: Cloud Foundry
+Title: Generative AI hub
+Description: Responses in markdown format from chat will be rendered in the response window, where supported by the chosen model.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2025-04-14
+Valid as Of: 2025-04-14
+Version: Cloud
+
+--- Record 1053 ---
+Component: SAP AI Launchpad
+Environment: Cloud Foundry
+Title: Generative AI hub
+Description: New models are supported, including Anthropic Claude 3.7 sonnet, GCP Vertex AI Gemini 2.0-flash and flash-lite, NVIDIA Llama 3.2 nv embedqa 1b, and OpenAI GPT 4o version 2024-11-20.For more information, see SAP Note 3437766 .
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2025-04-14
+Valid as Of: 2025-04-14
+Version: Cloud
+
+--- Record 1054 ---
+Component: SAP AI Launchpad
+Environment: Cloud Foundry
+Title: SAP AI Launchpad
+Description: We'd like to know what you think of the SAP AI Launchpad interface. To leave your feedback, select the   (Feedback) icon.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2025-04-14
+Valid as Of: 2025-04-14
+Version: Cloud
+
+--- Record 1055 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: Swagger UI Access
+Description: The way you access the Swagger UI for SAP Document AI has changed. Find all the details in API Reference.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Intelligent Technologies
+Latest Revision: 2025-04-14
+Valid as Of: 2025-04-14
+Version: Cloud
+
+--- Record 1056 ---
+Component: SAP Build
+Environment: Cloud Foundry
+Title: Actions - BAPI Action Auto Commit Support
+Description: Auto-commit support for BAPI actions is now available to ensure your changes are effectively processed. In Actions, a new option allows you to designate your BAPI as either Read-Only RFC or Modify RFC, preventing changes from being discarded due to session inconsistencies. This update helps optimize performance by accurately distinguishing between types of operations.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-04-11
+Valid as Of: 2025-04-11
+Version: Cloud
+
+--- Record 1057 ---
+Component: SAP Build
+Environment: Cloud Foundry
+Title: Actions - Introducing Test Variants
+Description: Test variants are now available to simplify your action testing process. You can create, save, and reuse test data, eliminating the need to manually input data every time you modify an action or reload a project.   This feature helps you avoid repetitive tasks and ensures a smoother, quicker validation of your actions. Make your testing process more efficient with easy management of your Test variants.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-04-11
+Valid as Of: 2025-04-11
+Version: Cloud
+
+--- Record 1058 ---
+Component: SAP Build Apps
+Environment: Cloud Foundry
+Title: Web & Mobile
+Description: You can now create a new app or page variable by copying an existing schema from another variable, action, data entity, or a process. For example, to create a page variable go to Variables  PAGE VARIABLES and choose Add app variable  From existing schema.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-04-11
+Valid as Of: 2025-04-11
+Version: Cloud
+
+--- Record 1059 ---
+Component: SAP HANA Spatial Services
+Environment: Cloud Foundry,Kyma
+Title: nan
+Description:     Enhancements: Mapping API      Fixed issues with PTV health check.      Fixed an issue, which could result in uncompressed Esri vector tiles, even if compression was requested.      Mapping API      Enhancements: Routing API      For provider PTV, traffic now can be set to false explicitly in MatrixRouting.      Routing API      Bug Fix: Mapping API, Routing API, Geocoding API      Security updates have been implemented.      Mapping API  Routing API  Geocoding API    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2025-04-11
+Version: Cloud
+
+--- Record 1060 ---
+Component: Data Space Integration
+Environment: Cloud Foundry
+Title: General Availability
+Description: Data Space Integration is now generally available.   For more information on regional availability, see SAP Note 3518230.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-04-10
+Valid as Of: 2025-04-10
+Version: 2502
+

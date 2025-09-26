@@ -1,0 +1,130 @@
+--- Record 4041 ---
+Component: SAP Start
+Environment: Cloud Foundry
+Title: Availability of foundation service plan
+Description: The foundation service plan for SAP Build Work Zone, standard edition is now available. The foundation service plan extends the availability of SAP Start to all customers who have subscribed at least one of the integrated SAP Cloud business solutions.  This enables using SAP Start for free up to a predefined limit of Active Users, as specified in the SAP BTP Service Description Guide.  For more information, see Commercialization Aspects.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-10-19
+Valid as Of: 2023-10-19
+Version: Cloud
+
+--- Record 4042 ---
+Component: SAP Start
+Environment: Cloud Foundry
+Title: Availability of setup booster that subscribes to the foundation service plan
+Description: Customers who do not have a subscription to SAP Build Work Zone, standard edition, can now use a booster to set up SAP Start and subscribe to the foundation service plan, instead of the standard service plan.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2023-10-19
+Valid as Of: 2023-10-19
+Version: Cloud
+
+--- Record 4043 ---
+Component: Mobile Services
+Environment: Cloud Foundry
+Title: Supported versions for Cloud Build Service
+Description: We've updated the supported versions for the Cloud Build service:    October 2023 - Mobile Development Kit SDK version, Android and iOS versions, and notes      September 2023 - Mobile Development Kit SDK version, Android and iOS versions, and notes      August 2023      Mobile Development Kit SDK version, iOS version, and notes      SAP Asset Manager SDK version, Android and iOS versions, and notes          See Supported Build Types, Client Types, Packaging Details, and Build Options  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2023-10-18
+Version: Cloud
+
+--- Record 4044 ---
+Component: Mobile Services
+Environment: Neo
+Title: Supported versions for Cloud Build Service
+Description: We've updated the supported versions for the Cloud Build service:    October 2023 (2305 PL06)    Fiori Packaged UI5 version and iOS version      Custom Fiori Client iOS version      Mobile Development Kit SDK version, iOS versions and notes          September 2023 (2305 PL05)    Fiori Packaged SDK version and iOS version      Custom Fiori Client SDK version and iOS version      Mobile Development Kit SDK version and notes          August 2023 (2305 PL04): Mobile Development Kit SDK version, iOS version, and notes      See Supported Build Types, Client Types, Packaging Details, and Build Options  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2023-10-18
+Version: Cloud
+
+--- Record 4045 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Change Agent Groups to the Any Type
+Description: You can change agent groups from type Login or Machine to type Any to make their content easier to manage.  See Change Agent Groups to the Any Type.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2023-10-17
+Valid as Of: 2023-10-17
+Version: Cloud
+
+--- Record 4046 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Change Language and Theme in Desktop Agent 3
+Description: You can now change the language and theme in desktop agent 3 under System /Settings. You can also rearrange the columns in the trace viewer by right-clicking on the respective column.  See Accessibility Features for Desktop Agent 3.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2023-10-17
+Valid as Of: 2023-10-17
+Version: Cloud
+
+--- Record 4047 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Without Excel Application Activities
+Description: Without Excel application activities are a subset of activities inside MS Excel SDK. You can now use these activities even if you don't have the MS Excel application. See Without Excel Application Activities.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-10-17
+Valid as Of: 2023-10-17
+Version: Cloud
+
+--- Record 4048 ---
+Component: SAP Intelligent Robotic Process Automation
+Environment: Cloud Foundry
+Title: Configuring Web Browsers
+Description: Our mutation observer is now improved to detect webpage unloads in the Chrome or Edge browser. See Configuring Web Browsers.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2023-10-17
+Valid as Of: 2023-10-17
+Version: Cloud
+
+--- Record 4049 ---
+Component: SAP Intelligent Robotic Process Automation
+Environment: Cloud Foundry
+Title: Without Excel Application Activities
+Description: Without Excel application activities are a subset of activities inside MS Excel SDK. You can now use these activities even if you don't have the MS Excel application. See Without Excel Application Activities.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-10-17
+Valid as Of: 2023-10-17
+Version: Cloud
+
+--- Record 4050 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: New SAP Fiori UI5 Theme: Horizon
+Description: With this release, only the following themes are supported in SAP Build Process Automation for Lobby, Store, Monitor, and Settings:    Morning Horizon    Evening Horizon  Horizon High Contrast White  Horizon High Contrast Black   
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-10-16
+Valid as Of: 2023-10-16
+Version: Cloud
+

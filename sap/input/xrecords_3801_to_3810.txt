@@ -1,0 +1,130 @@
+--- Record 3801 ---
+Component: Mobile Services
+Environment: Cloud Foundry
+Title: Lock & Wipe policy
+Description: (Version 2311) New validation rules have been implemented for the Mobile Settings Exchange locking and wiping policy feature. The validation rules cover several use cases. such as requirements for when both locking and wiping are enabled, and when only one or the other is enabled. The User Registration tab now includes a Wipe Status filter, enabling you to filter user registrations by whether they have been wiped or not wiped.  See:    Defining Lock and Wipe Policy      Managing Registered Users    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2023-11-30
+Version: Cloud
+
+--- Record 3802 ---
+Component: Mobile Services
+Environment: Cloud Foundry
+Title: New security policies
+Description: (Version 2311) Two new security policies have been added to the Mobile Settings Exchange page. The new policies apply to iOS apps: Restrict Print Data and Restrict Opening URLs.  A new section called Application Management Policies has been added to Mobile Settings Exchange that describes the new options and the current device and clipboard options. This reorganization enables you to manage several app-related policies from one location.  See:    Defining Application Management Policies (formerly called "Defining Clipboard Protection Policy")      Defining Device Compliance Policy (formerly called "Defining Compliance Policy")    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2023-11-30
+Version: Cloud
+
+--- Record 3803 ---
+Component: Mobile Services
+Environment: Cloud Foundry
+Title: Offline Defining Requests - Token Lifetime
+Description: (Version 2311) The default Token Lifetime expiration value has been changed from 72000 minutes (about 50 days) to 21600 minutes (about 15 days). This value controls how long the oldest change log data are retained. The current value is not changed if you explicitly set it, but the new default appears when you add a new defining request. This change improves database usage and performance of the mobile service.  See Editing the Application Configuration File
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2023-11-30
+Version: Cloud
+
+--- Record 3804 ---
+Component: Mobile Services
+Environment: Cloud Foundry
+Title: Passcode screen
+Description: (Version 2311) When configuring Cross Context SSO from the Mobile Services cockpit, user experience is now improved for the SSO Onboarding URL property. When the Temporary Authentication Code screen appears, you can select the copy icon  to copy the authentication code. Previously it was not always clear what action to take.  See Configuring Cross Context SSO
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2023-11-30
+Version: Cloud
+
+--- Record 3805 ---
+Component: SAP BTP, Cloud Foundry Runtime
+Environment: Cloud Foundry
+Title: Version 33.4.0
+Description: Cloud Foundry has been updated from version 32.17.0 to 33.4.0.      https://github.com/cloudfoundry/cf-deployment/releases/tag/v33.4.0  https://github.com/cloudfoundry/cf-deployment/releases/tag/v33.3.0  https://github.com/cloudfoundry/cf-deployment/releases/tag/v33.2.0  https://github.com/cloudfoundry/cf-deployment/releases/tag/v33.1.0  https://github.com/cloudfoundry/cf-deployment/releases/tag/v33.0.0    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-11-30
+Valid as Of: 2023-11-30
+Version: Cloud
+
+--- Record 3806 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Commenting Feature
+Description: Use the new commenting feature to improve the documentation.  See Creating Better Documentation Together: SAP Help Portal’s new approach to Collaboration and Feedback.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-11-30
+Valid as Of: 2023-11-30
+Version: Cloud
+
+--- Record 3807 ---
+Component: SAP Build Work Zone, advanced edition
+Environment: Cloud Foundry
+Title: Number of Views of Overview Pages
+Description: The following issue has been fixed: Number of views is missing for overview pages restored from trash.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2023-11-23
+Valid as Of: 2023-11-30
+Version: Cloud
+
+--- Record 3808 ---
+Component: SAP Build Work Zone, advanced edition
+Environment: Cloud Foundry
+Title: Private Folders Available for Selection
+Description: Private folders are available for selection in the following widgets: Content, Image, Slideshow, Multimedia, Rotating Banner.   Only users who have access to a private folder can access the widgets that include a private folder.  This feature is already available on preview systems.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-11-23
+Valid as Of: 2023-11-30
+Version: Cloud
+
+--- Record 3809 ---
+Component: SAP Build Work Zone, standard edition
+Environment: Cloud Foundry
+Title: Updated SAP Companion content for runtime
+Description: The SAP Companion content for the runtime time has been updated. To view the updated in-app help content, you need to update some of the SAP Companion parameters in the Site Settings. For more information, see Activating SAP Companion Content.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2023-11-30
+Valid as Of: 2023-11-30
+Version: Cloud
+
+--- Record 3810 ---
+Component: SAP Java Buildpack
+Environment: Cloud Foundry
+Title: Version 1.81.0
+Description: SAP Java Buildpack has been updated from version 1.80.0 to 1.81.0        com.sap.cloud.security.xsuaa is updated from version 2.14.2 to 2.16.0      SAP BTP Environment Variable Access (com.sap.cloud.environment.servicebinding) is updated from version 0.9.0 to 0.10.1       otel-agent is updated from version 1.30.0 to 1.31.0      otel-agent-ext-java is updated from version 1.5.5 to 1.5.6    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2023-11-20
+Valid as Of: 2023-11-30
+Version: Cloud
+

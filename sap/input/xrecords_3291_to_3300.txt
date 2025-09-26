@@ -1,0 +1,130 @@
+--- Record 3291 ---
+Component: SAP Build
+Environment: Cloud Foundry
+Title: Lobby - All Resources Option
+Description: SAP Build now offers the     Resources feature. Use the new resources icon, to navigate through essential tools such as the road map, learning journeys, missions, and more.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-03-15
+Valid as Of: 2024-03-15
+Version: Cloud
+
+--- Record 3292 ---
+Component: SAP Build
+Environment: Cloud Foundry
+Title: Lobby - Enhanced the Last Accessed Column Details
+Description: Now, alongside the date, you can also find the year displayed. This improvement ensures easier tracking and management of accessed projects, allowing for better organization and decision-making in the lobby.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-03-15
+Valid as Of: 2024-03-15
+Version: Cloud
+
+--- Record 3293 ---
+Component: SAP Build
+Environment: Cloud Foundry
+Title: Lobby - UI Improvements in Import Project
+Description: We've introduced an enhancement to the     Import feature: the Import in Progress tag. This tag now provides a clear indication of when your project import is underway. This feature enhances transparency throughout the import process, providing timely updates and ensuring a smooth import experience.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-03-15
+Valid as Of: 2024-03-15
+Version: Cloud
+
+--- Record 3294 ---
+Component: SAP Build
+Environment: Cloud Foundry
+Title: Store - Introducing Deprecated Tags for Store Packages
+Description: We've introduced a Deprecated tag in this release. This tag helps to streamline your experience by identifying packages that are no longer receiving updates and are added for removal. If you're currently using any of these packages, we recommend reviewing your packages and taking any necessary actions to ensure the continued success of your projects.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-03-15
+Valid as Of: 2024-03-15
+Version: Cloud
+
+--- Record 3295 ---
+Component: Intelligent Situation Automation
+Environment: Cloud Foundry
+Title: Support for REST API based custom action
+Description: We now support custom situation actions based on REST API. With this, we will be deprecating CUSTOM_ACTION in next 2 months. We recommend using REST API for custom situation actions. See Manage Situation Actions.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-03-18
+Valid as Of: 2024-03-13
+Version: Cloud
+
+--- Record 3296 ---
+Component: Mobile Services
+Environment: Neo
+Title: Supported versions for Cloud Build Service
+Description: We've updated the supported versions for the Cloud Build service:    March 2024 (2305 PL14)       Fiori Packaged Kapsel and iOS versions      Custom Fiori Client Kapsel and iOS versions          February 2024 (2305 PL12) SAP Asset Manager SDK version, iOS version, and notes      January 2024 (2305 PL11) Mobile Development Kit SDK version, iOS version, and notes      See Supported Build Types, Client Types, Packaging Details, and Build Options. 
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2024-03-13
+Version: Cloud
+
+--- Record 3297 ---
+Component: SAP Omnichannel Promotion Pricing
+Environment: Cloud Foundry
+Title: Enhancements to Configure Omnichannel Promotion Pricing app
+Description: The following changes and enhancements are now available in the Configure Omnichannel Promotion Pricing app:      Renaming of the Padding Configurations section to Identifier Formats.      Removal of the Padding Character field in the Identifier Formats section.      You can now maintain Additional Settings in the Identifier Formats section to enable a conversion of a field ID between its application-internal representation and the external format seen on the user interface, and vice versa.      For more information about Identifier Format configurations, see Creating Identifier Format Configurations.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2022-01-01
+Valid as Of: 2024-03-13
+Version: Cloud
+
+--- Record 3298 ---
+Component: SAP Omnichannel Promotion Pricing
+Environment: Cloud Foundry
+Title: Reusing a Merchandise Set
+Description: If you wish to reuse a merchandise set that exists in another promotion to a new or existing promotion, you can create a merchandise set with reference.  For more information, see Reusing a Merchandise Set.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2022-01-01
+Valid as Of: 2024-03-13
+Version: Cloud
+
+--- Record 3299 ---
+Component: SAP Omnichannel Promotion Pricing
+Environment: Cloud Foundry
+Title: Security Recommendation on Extensibility
+Description: You can now learn about our security recommendation on extensibility.  For more information, see Security Recommendations.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2022-01-01
+Valid as Of: 2024-03-13
+Version: Cloud
+
+--- Record 3300 ---
+Component: UI Theme Designer
+Environment: Cloud Foundry,Neo
+Title: Base Theming Content for CF and Neo.
+Description: The base theming content is updated to version 11.13.0. Review the changes at https://github.com/SAP/theming-base-content/releases.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2024-03-13
+Version: Cloud
+

@@ -1,0 +1,130 @@
+--- Record 801 ---
+Component: Pricing Service
+Environment: Cloud Foundry
+Title: Production – Currency Conversion – Read Currency Settings
+Description: There is a new endpoint called GET /currencyConversion/currencies to read settings of currency codes, like ISO code, SAP-internal code, language-dependent description, number of decimals, etc.  See  API Definition and Development Guide for SAP Variant Configuration and Pricing - Pre-Production.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-04-16
+Valid as Of: 2025-05-21
+Version: Cloud
+
+--- Record 802 ---
+Component: Pricing Service
+Environment: Cloud Foundry
+Title: Production – Determination – Return Used Pricing Attribute Values Condition
+Description: Enhancement of stateless pricing and document pricing endpoints: In the pricing results, the new response structure successfulAccess will return for an item condition with values of which pricing attributes were used to find the condition record.  See  API Definition and Development Guide for SAP Variant Configuration and Pricing - Production.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-04-16
+Valid as Of: 2025-05-21
+Version: Cloud
+
+--- Record 803 ---
+Component: Pricing Service
+Environment: Cloud Foundry
+Title: Production – Extensions Concept – WHERE LIKE Database Access
+Description: There is a new API sap.db() to read table content from Local Extensions. It will support wildcards with LIKE operator in WHERE clauses of SELECT statements.   See Extension Guide for SAP Variant Configuration and Pricing - Production.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-04-16
+Valid as Of: 2025-05-21
+Version: Cloud
+
+--- Record 804 ---
+Component: Pricing Service
+Environment: Cloud Foundry
+Title: Production- Document Pricing – Lock Against Changes
+Description: There is a new endpoint called PATCH /pricing/documents/{documentId}/lock to flag a pricing document as locked or not locked. The default setting is not locked. If a pricing document is locked, it cannot be deleted and cannot be changed. For example, adding or removing an item or adding or removing a manual condition is not possible.  The existing endpoint GET /pricing/documents/{documentId} will be enhanced to return the locked flag for a document.   The existing endpoint GET /pricing/documents will be enhanced to allow searching for locked documents.   See  API Definition and Development Guide for SAP Variant Configuration and Pricing - Production.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-04-16
+Valid as Of: 2025-05-21
+Version: Cloud
+
+--- Record 805 ---
+Component: SAP Build
+Environment: Cloud Foundry
+Title: Governance for Project Management
+Description: The Governance feature helps you to establish rules for project creation and content transport, streamlining project management processes. This feature is beneficial for maintaining consistency and control over project workflows.  For more information, see Governance.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-05-21
+Valid as Of: 2025-05-21
+Version: Cloud
+
+--- Record 806 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Planned Substitutions Supported in SAP Task Center
+Description: Substitution management for SAP Build Process Automation tasks is supported in SAP Task Center. For more information, see Supported Features and Substitution Management.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-05-21
+Valid as Of: 2025-05-21
+Version: Cloud
+
+--- Record 807 ---
+Component: SAP Task Center
+Environment: Cloud Foundry
+Title: Service Plan Migration Guide Available
+Description: To learn how to migrate between SAP Task Center service plans, follow the migration guide at Service Plans and Metering.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-05-21
+Valid as Of: 2025-05-21
+Version: Cloud
+
+--- Record 808 ---
+Component: SAP Task Center
+Environment: Cloud Foundry
+Title: Substitution Management for End-Users Available for SAP Build Process Automation
+Description: You can now create substitution rules for your SAP Build Process Automation tasks.   For more information, see Substitution Management.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-05-21
+Valid as Of: 2025-05-21
+Version: Cloud
+
+--- Record 809 ---
+Component: Variant Configuration
+Environment: Cloud Foundry
+Title: Extensions Concept – Disable Buffering of Local Extension Calls
+Description: In remote extension implementations, you can return response header Cache-Control: no-store to disable the call buffering of a custom pricing routine. Now it is also possible to disable the call buffering for local extensions by listing the JavaScript function name with the parameter caching: false in a manifest file.  See: Extension Guide for SAP Variant Configuration and Pricing.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-05-21
+Valid as Of: 2025-05-21
+Version: Cloud
+
+--- Record 810 ---
+Component: Variant Configuration
+Environment: Cloud Foundry
+Title: Production - Configurations API - Correct Response Status For Locking Configurations
+Description: The endpoint PATCH /configurations/lock used to respond with success status code 200 instead of 204. This issue has been corrected.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-05-13
+Valid as Of: 2025-05-21
+Version: Cloud
+

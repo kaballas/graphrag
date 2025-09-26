@@ -1,0 +1,130 @@
+--- Record 3491 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Monitoring Tenant Workload
+Description: With the new filter for tenants, you can now also use System Workload to display the workload of tenants. System Workload now comprises all features in one place that you previously had with Tenant Workload. Therefore, Tenant Workload is now retired, and the corresponding tile removed from the SAP Fiori launchpad.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-02-18
+Valid as Of: 2024-02-16
+Version: Cloud
+
+--- Record 3492 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Outbound HTTP: Define Additional OAuth Scopes in Communication Arrangements
+Description: We enable the specification of additional OAuth scopes in communication arrangements for outbound communication using OAuth 2.0. Some OAuth authorization servers require that customized OAuth scopes are Creating a CDS Aspectused when requesting OAuth access tokens. Such customized scopes are not known during development time. Now, it's possible to define them when configuring a communication arrangement.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-02-18
+Valid as Of: 2024-02-16
+Version: ABAP Environment 2402
+
+--- Record 3493 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Outbound HTTP: Define Additional OAuth Scopes in Communication Arrangements
+Description: We enable the specification of additional OAuth scopes in communication arrangements for outbound communication using OAuth 2.0. Some OAuth authorization servers require that customized OAuth scopes are Creating a CDS Aspectused when requesting OAuth access tokens. Such customized scopes are not known during development time. Now, it's possible to define them when configuring a communication arrangement.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-02-18
+Valid as Of: 2024-02-16
+Version: Cloud
+
+--- Record 3494 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Reminder: Removed Outbound NAT IP Addresses
+Description: Due to infrastructure changes, the following outbound NAT IP addresses are no longer used. End of 2023, these IP addresses were freed up and given back to the IP pool. They shouldn't be used for IP filtering anymore. List of IP addresses: 18.184.119.149 18.184.95.49 34.226.95.216 52.5.218.33 13.112.212.221 3.115.119.177  For more information, see Regions and API Endpoints for the ABAP Environment.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-02-18
+Valid as Of: 2024-02-16
+Version: ABAP Environment 2402
+
+--- Record 3495 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Reminder: Removed Outbound NAT IP Addresses
+Description: Due to infrastructure changes, the following outbound NAT IP addresses are no longer used. End of 2023, these IP addresses were freed up and given back to the IP pool. They shouldn't be used for IP filtering anymore. List of IP addresses: 18.184.119.149 18.184.95.49 34.226.95.216 52.5.218.33 13.112.212.221 3.115.119.177  For more information, see Regions and API Endpoints for the ABAP Environment.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-02-18
+Valid as Of: 2024-02-16
+Version: Cloud
+
+--- Record 3496 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Sampled Work Process Data
+Description: For the monitoring screens for sampled work process data, you now get an enhanced user interface where you can filter for workload management process classes and tenant IDs. In addition, you can drill down based on selected workload classifiers, such as transaction code, workload management process class, tenant ID, or request entry type and name.   See Sampled Work Process Data: ABAP CPU Time.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-02-18
+Valid as Of: 2024-02-16
+Version: ABAP Environment 2402
+
+--- Record 3497 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Sampled Work Process Data
+Description: For the monitoring screens for sampled work process data, you now get an enhanced user interface where you can filter for workload management process classes and tenant IDs. In addition, you can drill down based on selected workload classifiers, such as transaction code, workload management process class, tenant ID, or request entry type and name.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-02-18
+Valid as Of: 2024-02-16
+Version: Cloud
+
+--- Record 3498 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: SAP Fiori Launchpad - Pages and Spaces
+Description: The SAP Fiori launchpad now offers merging of spaces or pages. Administrators can define spaces that should be merged in the Manage Launchpad Spaces app, or pages that should be merged in the Manage Launchpad Pages app. Merging spaces or pages can be used for example to reduce the number of duplicate apps, pages or spaces for users. It can also be helpful if you want to enrich SAP-delivered spaces or pages with customer-defined content.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-02-18
+Valid as Of: 2024-02-16
+Version: ABAP Environment 2402
+
+--- Record 3499 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: SAP Fiori Launchpad - Pages and Spaces
+Description: The SAP Fiori launchpad now offers merging of spaces or pages. Administrators can define spaces that should be merged in the Manage Launchpad Spaces app, or pages that should be merged in the Manage Launchpad Pages app. Merging spaces or pages can be used for example to reduce the number of duplicate apps, pages or spaces for users. It can also be helpful if you want to enrich SAP-delivered spaces or pages with customer-defined content.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-02-18
+Valid as Of: 2024-02-16
+Version: Cloud
+
+--- Record 3500 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: UI Development
+Description: For UI development with Visual Studio Code Extensions, the update to the new extension version is required. Please refer to note 3425883  for more information.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-02-18
+Valid as Of: 2024-02-16
+Version: ABAP Environment 2402
+

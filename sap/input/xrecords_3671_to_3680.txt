@@ -1,0 +1,130 @@
+--- Record 3671 ---
+Component: HTML5 Applications
+Environment: Cloud Foundry,Kyma
+Title: Security Recommendations
+Description: Security recommendations for the SAP HTML5 Application Repository service have been published.   See SAP BTP Security Recommendations.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-11
+Valid as Of: 2024-01-11
+Version: Cloud
+
+--- Record 3672 ---
+Component: Process Visibility Capability
+Environment: Cloud Foundry
+Title: Step Configuration in an Observed Process
+Description: You can now configure an Icon and Color for a step in an Observed Process.  See Add Observed Process.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-11
+Valid as Of: 2024-01-11
+Version: Cloud
+
+--- Record 3673 ---
+Component: SAP BTP, Cloud Foundry Runtime
+Environment: Cloud Foundry
+Title: Version 34.1.0
+Description: Cloud Foundry has been updated from version 33.8.0 to 34.1.0.      https://github.com/cloudfoundry/cf-deployment/releases/tag/v34.1.0  https://github.com/cloudfoundry/cf-deployment/releases/tag/v34.0.0  https://github.com/cloudfoundry/cf-deployment/releases/tag/v33.12.0  https://github.com/cloudfoundry/cf-deployment/releases/tag/v33.11.0  https://github.com/cloudfoundry/cf-deployment/releases/tag/v33.10.0  https://github.com/cloudfoundry/cf-deployment/releases/tag/v33.9.0    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-11
+Valid as Of: 2024-01-11
+Version: Cloud
+
+--- Record 3674 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Process Visibility - Step Configuration in an Observed Process
+Description: You can now configure an Icon and Color for a step in an Observed Process.  See Add Observed Process.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-11
+Valid as Of: 2024-01-11
+Version: Cloud
+
+--- Record 3675 ---
+Component: SAP HANA Service
+Environment: Neo
+Title: Revision 2.00.059.11
+Description: You can now update to SAP HANA revision 2.00.059.11. See 3376718 - SAP HANA 2 SPS05 Revision 059.11.  Note  If you are still on SAP HANA 1.0, upgrade to the latest version of SAP HANA 2.0 as SAP HANA 1.0 has reached the end of mainstream maintenance in June 2021. See 2946614 - End-of-Maintenance of SAP HANA 1.0 in the SAP BTP, Neo Environment.  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-11
+Valid as Of: 2024-01-11
+Version: Cloud
+
+--- Record 3676 ---
+Component: SAP Java Buildpack
+Environment: Cloud Foundry
+Title: Version 1.85.0
+Description: SAP Java Buildpack 1 has been updated from version 1.82.0 to 1.85.0. Updated components:      com.sap.cloud.security.xsuaa is updated from version 2.17.0 to 2.17.2      PostgreSQL JDBC Driver (postgresql.version) is updated from 42.7.0 to 42.7.1      SAP HANA Driver (hana.driver.2.X.X) is updated from version 2.18.16 to 2.19.11      Apache TomEE 7 is updated from version 7.0.9.sap-37 to 7.0.9.sap-38      Container Security Provider is added in SAP Java Buildpack. This component supports trust for custom certificates.    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2023-12-20
+Valid as Of: 2024-01-11
+Version: Cloud
+
+--- Record 3677 ---
+Component: Object Store
+Environment: Cloud Foundry,Kyma
+Title: Changes in instance deletion behaviour
+Description: Even after instance is deleted, the corresponding resource will be retained for 14 days, before being permanently deleted.  Action: See Recover data after accidental instance deletion section in the Backup and Restore for details.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-10
+Valid as Of: 2024-01-10
+Version: Cloud
+
+--- Record 3678 ---
+Component: Object Store
+Environment: Cloud Foundry,Kyma
+Title: AWS: S3 specific permissions for versioning and expiration rules configurations to be revoked.
+Description: AWS: S3 specific permissions for versioning and expiration rules configurations have been revoked.  Action: To continue to use these capabilities, switch to alternate approach involving instance update. See Object Versioning and Object Expiration Rules for details.
+Action: Required
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-01-09
+Valid as Of: 2024-01-09
+Version: Cloud
+
+--- Record 3679 ---
+Component: SAP Datasphere
+Environment: Cloud Foundry
+Title: Features for Version 2024.1
+Description: New and changed features are available for administration, data integration, and data modeling.  For more information, see What's New in SAP Datasphere 2024.1. 
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-09
+Valid as Of: 2024-01-09
+Version: Cloud
+
+--- Record 3680 ---
+Component: SAP Task Center
+Environment: Cloud Foundry
+Title: Restart Notifications
+Description: A change in the setup of the notifications has been introduced and requires your action.   If you have already set up notifications for SAP Task Center, please set the tc.notifications.enabled property from every task provider destination to false, wait for a few minutes and set it back to true.   For more information on the task provider destinations, see Destinations.
+Action: Required
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-01-08
+Valid as Of: 2024-01-08
+Version: Cloud
+

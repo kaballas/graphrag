@@ -1,0 +1,130 @@
+--- Record 3121 ---
+Component: SAP Private Link
+Environment: Cloud Foundry
+Title: Additional Azure service available on SAP BTP Cloud Foundry regions
+Description: The SAP Private Link service now also supports Azure IoT Hub on SAP BTP Cloud Foundry regions running on Azure.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-04-18
+Valid as Of: 2024-04-18
+Version: Cloud
+
+--- Record 3122 ---
+Component: SAP Start
+Environment: Cloud Foundry
+Title: Enable Additional Languages
+Description: English is the default language for SAP Start.   Now it’s possible to enable more languages by clicking the Site Settings icon on the SAP Start tile and selecting the language you want to use.  This setting is relevant for all new and existing sites.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-04-11
+Valid as Of: 2024-04-18
+Version: Cloud
+
+--- Record 3123 ---
+Component: SAPUI5
+Environment: ABAP,Cloud Foundry,Kyma,Neo,Other
+Title: SAPUI5 Distribution 1.123
+Description: SAPUI5 version 1.123 has been released for UI development and can now be consumed by SAP BTP services. It’s up to the services to determine when they start using the new version.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-04-17
+Valid as Of: 2024-04-18
+Version: Cloud
+
+--- Record 3124 ---
+Component: UI5 Flexibility for Key Users
+Environment: Cloud Foundry
+Title: Use of Comments for Documentation Feedback
+Description: You can now add comments to provide feedback directly on SAP Help Portal for the UI5 Flexibility for Key Users documentation.  See Giving Feedback on SAP Documentation and Creating Better Documentation Together: SAP Help Portal’s new approach to Collaboration and Feedback.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-04-18
+Valid as Of: 2024-04-18
+Version: Cloud
+
+--- Record 3125 ---
+Component: Edge Integration Cell
+Environment: Cloud Foundry
+Title: API Artifact
+Description: When deploying an API artifact, the default selection for the Edge Integration Cell runtime will be the one you chose during the creation of the API artifact. However, you have the option to choose a different Edge Integration Cell runtime profile from the dropdown menu during the deployment process.  See: Deploying an API Artifact
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-04-17
+Valid as Of: 2024-04-17
+Version: 2402
+
+--- Record 3126 ---
+Component: Edge Integration Cell
+Environment: Cloud Foundry
+Title: Software Version Update
+Description:     Edge Integration Cell: 8.15.*      Increment: 2402    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-04-17
+Valid as Of: 2024-04-17
+Version: 2402
+
+--- Record 3127 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Free service plan limited to 30 days
+Description: The duration of the free service plan in the Kyma environment is limited to 30 days. Starting from April 17th, 2024, all free Kyma instances that exceed 30 days are expired and will be gradually deprovisioned.  For more information on the free service plan, go to Available Plans in the Kyma Environment.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-04-17
+Valid as Of: 2024-04-17
+Version: Cloud
+
+--- Record 3128 ---
+Component: Process Visibility Capability
+Environment: Cloud Foundry
+Title: Number of Steps Within a Visibility Scenario
+Description: The maximum number of steps within a visibility scenario is now 100. See Conventions, Restrictions, and Limits.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-04-17
+Valid as Of: 2024-04-17
+Version: Cloud
+
+--- Record 3129 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Number of Steps Within a Visibility Scenario
+Description: The maximum number of steps within a visibility scenario is now 100. See Quotas, Restrictions, and Limits.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-04-17
+Valid as Of: 2024-04-17
+Version: Cloud
+
+--- Record 3130 ---
+Component: Joule
+Environment: Cloud Foundry
+Title: Migration of Joule Application to IAS based Multitenancy
+Description: Joule application has been migrated to SAP Identity Authentication (IAS) and supports IAS multi-tenancy in addition to XSUAA. Joule now requires a trust configuration of type OpenID Connect with your Identity Authentication tenant. SAML-trusted IdPs for Joule will be supported for a short period after which the trust configuration of type OpenID Connect will be required.  If you are using SAML-trusted IdPs for Joule, you need to change the SAML trust configuration to an OIDC configuration. For more information, see Migration from SAML Trust to OpenID Connect Trust with Identity Authentication.   Ensure that you have configured the trusted domains in Identity Authentication as described in Configure Trusted Domains in Identity Authentication.Note  No action is needed if you are using OIDC trust set up for Joule.
+Action: Required
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-04-16
+Valid as Of: 2024-04-16
+Version: Cloud
+

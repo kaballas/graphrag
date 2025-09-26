@@ -1,0 +1,130 @@
+--- Record 701 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Changed behavior of logging and tracing properties
+Description: The behavior of the properties that enable logging and tracing for personal and sensitive data (ips.trace.*.entity.content) is changed.  Setting the property to true is valid only for the next provisioning job execution. After the job has finished, Identity Provisioning sets the property automatically to false.  Previously, the value set for the tracing property remained valid until it was manually changed.  See List of Properties.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-06-04
+Valid as Of: 2025-06-04
+Version: 27915
+
+--- Record 702 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Regular Upgrade
+Description: Cloud Identity Services have been upgraded.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-06-04
+Valid as Of: 2025-06-04
+Version: 27915
+
+--- Record 703 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: REST API
+Description: The Identity Directory API now supports new attribute activationUrl located in the user extension schema urn:ietf:params:scim:schemas:extension:sap:2.0:User. The activationUrl is a read-only attribute and it returns the activation link for the user account. It is returned only at the creation of the user. See Identity Directory API.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-06-04
+Valid as Of: 2025-06-04
+Version: 27915
+
+--- Record 704 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: SAP Analytics Cloud and SCIM System - new properties
+Description: New system-specific properties are introduced for SAP Analytics Cloud and SCIM System to hold the path appended to the URL to retrieve the CSRF token.  Previously, this path could be set for these systems via the property csrf.token.path.  See List of Properties → sac.csrf.token.path and scim.csrf.token.path.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-06-04
+Valid as Of: 2025-06-04
+Version: 27915
+
+--- Record 705 ---
+Component: Identity Provisioning
+Environment: Neo
+Title: SAP Analytics Cloud and SCIM System - new properties
+Description: New system-specific properties are introduced for SAP Analytics Cloud and SCIM System to hold the path appended to the URL to retrieve the CSRF token.  Previously, this path could be set for these systems via the property csrf.token.path.  For more information, see List of Properties → sac.csrf.token.path and scim.csrf.token.path.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-06-04
+Valid as Of: 2025-06-04
+Version: Cloud
+
+--- Record 706 ---
+Component: Pricing Service
+Environment: Cloud Foundry
+Title: Document Pricing - Duplication of Structure Conditions
+Description: An issue caused incorrect duplication of conditions in documents with multiple item hierarchy levels when they were loaded directly from the database. Such documents could also lead to exceptions during recalculation. This issue had to be fixed and can lead to unexpected pricing results if the issue was unnoticed before.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-06-02
+Valid as Of: 2025-06-04
+Version: Cloud
+
+--- Record 707 ---
+Component: SAP AI Core
+Environment: Cloud Foundry
+Title: Generative AI hub
+Description: GPT-4 versions 0613 and turbo-2024-04-09 and gpt-4-32k version 0613 have been deprecated.  It's recommended that users of these models migrate to GPT-4.1 as a replacement. For more information, see SAP Note 3437766 .
+Action: Info only
+Lifecycle: Deprecated
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2025-06-02
+Valid as Of: 2025-06-02
+Version: Cloud
+
+--- Record 708 ---
+Component: SAP AI Core
+Environment: Cloud Foundry
+Title: Generative AI hub
+Description: Gemini-1.5-pro and gemini-1.5-flash have been deprecated.    It's recommended that users of these models migrate to gemini-2.0-flash, or gemini-2.0-flash-lite as replacements.   For more information, see SAP Note 3437766 .
+Action: Info only
+Lifecycle: Deprecated
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2025-06-02
+Valid as Of: 2025-06-02
+Version: Cloud
+
+--- Record 709 ---
+Component: SAP AI Core
+Environment: Cloud Foundry
+Title: Generative AI hub
+Description: Mistralai--mixtral08x7b-v01 has been deprecated.   It's recommended that users of this model migrate to mistralai--mistral-small-instruct as a replacement.   For more information, see SAP Note 3437766 .
+Action: Info only
+Lifecycle: Deprecated
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2025-06-02
+Valid as Of: 2025-06-02
+Version: Cloud
+
+--- Record 710 ---
+Component: SAP AI Launchpad
+Environment: Cloud Foundry
+Title: Generative AI hub
+Description: Prompt shields are available as part of input filtering with Azure Content Safety. Prompt shields detect and mitigate prompt attacks, such as prompts designed to bypass safety mechanisms or override previous instruction.   For more information, see Harm categories in Azure AI Content Safety and .
+Action: Info only
+Lifecycle: Deprecated
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2025-06-02
+Valid as Of: 2025-06-02
+Version: Cloud
+

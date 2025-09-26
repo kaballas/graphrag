@@ -1,0 +1,130 @@
+--- Record 2681 ---
+Component: Cloud Management Tools,SAP BTP Cockpit
+Environment: ABAP,Cloud Foundry,Kyma,Neo,Other
+Title: Create Subaccounts Based on an Existing Subaccount
+Description: In the Account Explorer  page in SAP BTP cockpit, we've added a new option that allows you to quickly create a new subaccount based on an existing one, instead of creating it from scratch. The properties, labels, and service plan assignments can be copied from the existing subaccount to the new subaccount, after which you can continue to set up your new subaccount as needed.  You can access this feature from either the main Create   Create from Existing Subaccount button or the Create as New Subaccount option in the    (Actions) context menu of any listed subaccount.  This new option is available only on the AWS, Azure, or GCP region.  See Create a Subaccount from an Existing Subaccount [Feature Set B].
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-06-27
+Valid as Of: 2024-06-27
+Version: Cloud
+
+--- Record 2682 ---
+Component: Cloud Management Tools,SAP BTP Cockpit
+Environment: ABAP,Cloud Foundry,Kyma,Neo,Other
+Title: Custom Export of Filtered Usage and Costs Data
+Description: We've enhanced the spreadsheet data export feature in the Costs and Usage page in the cockpit. Now, you can choose to export only the data that is currently filtered in the main table, and to export data for just the current month.   In addition, you can choose any label names (keys) to be added as dedicated columns to the Subaccount Costs by Service and Actual Usage tabs in the spreadsheet.  To use these enhancements, look for the new Export  Custom option.  See Exporting Usage and Cost Data Information.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-06-27
+Valid as Of: 2024-06-27
+Version: Cloud
+
+--- Record 2683 ---
+Component: Cloud Management Tools,SAP BTP Cockpit
+Environment: ABAP,Cloud Foundry,Kyma,Neo,Other
+Title: Renamed Default Account Entity in Costs and Usage Page
+Description: Some SAP BTP services report their billing and usage at the global account level, not at the subaccount level. Until now, such services were listed in the Costs and Usage page in SAP BTP cockpit under a designated account entity named DEFAULT_SA. Following your feedback, we’ve improved the clarity by renaming it to REPORTED-AT-GLOBAL-ACCOUNT-LEVEL.  Note  The subaccount ID remains unchanged (DEFAULT_SA) so that your existing scripts using the exported Microsoft Excel document remain compatible and won't require an update.  See Monitoring Usage and Consumption Costs in Your Global Account.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-06-27
+Valid as Of: 2024-06-27
+Version: Cloud
+
+--- Record 2684 ---
+Component: Connectivity
+Environment: Cloud Foundry
+Title: Cloud Connector - SAP BTP Cockpit - Download Authentication Data
+Description: You can now download an authentication data file from your subaccount in the SAP BTP cockpit (Connectivity   Cloud Connectors   Download Authentication Data) to simplify subaccount configuration in the Cloud Connector administration UI.  For more information, see also Set up Connection Parameters and HTTPS Proxy (steps 2 + 4: file-based subaccount configuration). 
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-06-27
+Valid as Of: 2024-06-27
+Version: Cloud
+
+--- Record 2685 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Bigger Machine Type in the free, trial, and Azure Lite plans
+Description: In the free and trial plans, we have changed the size of nodes to 4 virtual CPUs and 16 GB of RAM.  We have also increased the default node size to 4 virtual CPUs and 16 GB of RAM in the Azure Lite plan. See Provisioning and Updating Parameters in the Kyma Environment.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-06-27
+Valid as Of: 2024-06-27
+Version: Cloud
+
+--- Record 2686 ---
+Component: SAP BTP Cockpit
+Environment: Cloud Foundry
+Title: Space Members Page Redesign and Updates in Feature Set B
+Description: The updates in the redesigned Space Members page include the following user experience and functional improvements:        Updated page layout      Additional details provided when editing a space member      Paginated results      New and improved feedback messages on success and failure      Improved error and empty states        These improvements provide you with the following key benefits:        A more informative and user-friendly page      Quicker access to desired information      
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-06-27
+Valid as Of: 2024-06-27
+Version: Cloud
+
+--- Record 2687 ---
+Component: SAP Build Apps
+Environment: Cloud Foundry
+Title: Web & Mobile
+Description:     We have enhanced the OData Configuration tab to support defining additional URL parameters for all CRUD operations. You can now use the Query Parameters parameter in the Data flow functions such as Get records, Get record collection, or Create record to provide values for those parameters.      We have added a new Fields parameter to the Get records or Get record collection  flow functions, to allow you to specify which fields to be returned in the response.    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-06-27
+Valid as Of: 2024-06-27
+Version: Cloud
+
+--- Record 2688 ---
+Component: SAP Java Buildpack
+Environment: Cloud Foundry
+Title: Version 1.97.0
+Description: SAP Java Buildpack 1 has been updated from version 1.96.0 to 1.97.0. Updated components:      commons-compress is updated from version 1.26.1 to 1.26.2      commons-io is updated from version 2.15.1 to 2.16.1      otel-agent-ext-java is updated from version 1.5.13 to 1.5.14    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-06-19
+Valid as Of: 2024-06-27
+Version: Cloud
+
+--- Record 2689 ---
+Component: SAP Java Buildpack
+Environment: Cloud Foundry
+Title: Version 2.11.0
+Description: SAP Java Buildpack 2 has been updated from version 2.10.0 to 2.11.0. Updated components:      commons-compress is updated from version 1.26.1 to 1.26.2      commons-io is updated from version 2.15.1 to 2.16.1      otel-agent-ext-java is updated from version 1.5.13 to 1.5.14      The SLF4J component (org.slf4j) is updated from version 2.0.7 to 2.0.13      logback is updated from version 1.4.14 to 1.5.6      logback-access version 2.0.1 is added to SAP Java Buildpack 2      Bugfix: Unnecessary info message is now removed during staging for applications that don't use Dynatrace service.      Bugfix: A race condition issue with gorouter is now fixed.    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-06-19
+Valid as Of: 2024-06-27
+Version: Cloud
+
+--- Record 2690 ---
+Component: Document Management Service
+Environment: Cloud Foundry
+Title: CAP Plugin Support
+Description: The new @cap-js/sdm CAP plugin is now available for SAP Document Management Service. This plugin is designed to simplify the integration of SAP Document Management Service into any CAP application, significantly reducing the amount of required coding.   See CAP plugin for SAP Document Management Service.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-06-28
+Valid as Of: 2024-06-26
+Version: Cloud
+

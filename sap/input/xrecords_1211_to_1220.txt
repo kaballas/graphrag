@@ -1,0 +1,130 @@
+--- Record 1211 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: New Google Cloud Region
+Description: SAP Document AI is now available in the Google Cloud region sa30 - KSA (Dammam).Caution  For now, the large language models (LLMs) used by SAP Document AI are deployed outside of the Google Cloud sa30 region.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Intelligent Technologies
+Latest Revision: 2025-03-18
+Valid as Of: 2025-03-18
+Version: Cloud
+
+--- Record 1212 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: New Improved ML Models for Invoice and Purchase Order
+Description: We’ve improved the machine learning models for the document types invoice and purchase order.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Intelligent Technologies
+Latest Revision: 2025-03-18
+Valid as Of: 2025-03-18
+Version: Cloud
+
+--- Record 1213 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: Support for New Excel File Formats (Premium Edition)
+Description: SAP Document AI now supports businessCard, invoice, purchaseOrder, and custom documents in the following file types:  CSV  NUMBERS  ODS  TSV  XLAM  XLS  XLSB  XLSM  XLSX  XLT  XLTM  XLTX  XML    As already announced, paymentAdvice documents in XLS and XLSX file types are also supported.  See Supported File Types (Embedded Edition and Premium Edition).
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Intelligent Technologies
+Latest Revision: 2025-03-18
+Valid as Of: 2025-03-18
+Version: Cloud
+
+--- Record 1214 ---
+Component: Application for Data Replication and Administration
+Environment: Cloud Foundry
+Title: Wrong Valid-from date for Knowledge Bases
+Description: A wrong date is shown in the UI Configuration  Replication when a knowledge base has a valid-from date on a Sunday during a daylight-saving time change. This issue has been corrected.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-03-17
+Valid as Of: 2025-03-17
+Version: Cloud
+
+--- Record 1215 ---
+Component: SAP S/⁠4HANA Cloud for Credit Integration
+Environment: Cloud Foundry
+Title: For SAP S/4HANA and SAP ERP: New BC set available for TEIKOKU DATABANK
+Description: The following new BC set is now available:   3580991 : BC Set for TEIKOKU DATABANK  More information: Configure Rating Procedures  (Log on with your SAP ID to access this document.)
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Finance
+Latest Revision: 2025-03-17
+Valid as Of: 2025-03-17
+Version: Cloud
+
+--- Record 1216 ---
+Component: Cloud Integration
+Environment: Cloud Foundry,Neo
+Title: CSV Header Improvements
+Description: While using XML to CSV converter, you can now include the field names as headers in the converted CSV file.  For more information, see Configure XML to CSV Converter  SAP Cloud Integration customers, see Configure XML to CSV Converter
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-03-16
+Valid as Of: 2025-03-16
+Version: 2501
+
+--- Record 1217 ---
+Component: Cloud Integration
+Environment: Cloud Foundry,Neo
+Title: Customizable Proxy Settings Enabled for Edge Integration Cell Runtime
+Description: You can now set the proxy type settings if you have Edge Integration Cell runtime activated.  For more information, see   Configure the AS2 Sender Adapter  Configure the AS2 Receiver Adapter      SAP Cloud Integration customers, see   Configure the AS2 Sender Adapter  Configure the AS2 Receiver Adapter  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-03-16
+Valid as Of: 2025-03-16
+Version: 2501
+
+--- Record 1218 ---
+Component: Cloud Integration
+Environment: Cloud Foundry,Neo
+Title: Enhanced AS4 Response Handling and Streamlined Push Operations
+Description: You can now   Choose to add an attachment to the payload of AS4 message. For more information, see Configure Receiver Channel with ebMS3 PushSAP Cloud Integration customers, see Configure Receiver Channel with ebMS3 Push  Decide how to handle the response type, as user message or receipt message. For more information, see Configure Receiver Channel with ebMS3 PushSAP Cloud Integration customers, see Configure Receiver Channel with ebMS3 Push  Choose the two way sync communication pattern as the response type. For more information, see Configure the Sender Channel with ebMS3 PushSAP Cloud Integration customers, Configure the Sender Channel with ebMS3 Push  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-03-16
+Valid as Of: 2025-03-16
+Version: 2501
+
+--- Record 1219 ---
+Component: Cloud Integration
+Environment: Cloud Foundry,Neo
+Title: New Access Type Option for the JMS Adapter
+Description: You can now configure your queues to either exclusive or non-exclusive access types. With the non-exclusive access type, messages are processed concurrently by multiple worker nodes, offering higher throughput. While with exclusive acces type messages are processed messages are processed sequentially by a single consumer, maintaining the order in which messages are received, which is essential for scenarios requiring strict sequencing. For more information on these configuration options, see: Configure the JMS Sender Adapter, and Configure the JMS Receiver Adapter.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-03-16
+Valid as Of: 2025-03-16
+Version: 2501
+
+--- Record 1220 ---
+Component: Cloud Integration
+Environment: Cloud Foundry
+Title: New Message Size Chart in Data Store
+Description:   A chart for message sizes is added to Data Store in the Inspect feature.  The Top Data Stores heatmaps now display top data stores by usage and message size.    See: Inspect Data Store Usage  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-03-16
+Valid as Of: 2025-03-16
+Version: 2501
+

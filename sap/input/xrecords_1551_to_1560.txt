@@ -1,0 +1,130 @@
+--- Record 1551 ---
+Component: Cloud Portal Service
+Environment: Cloud Foundry
+Title: SAP SuccessFactors
+Description: SAP SuccessFactors has been removed from the list of supported content providers in SAP Help Portal, as it was added accidentally.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-01-23
+Valid as Of: 2025-01-23
+Version: 2413B
+
+--- Record 1552 ---
+Component: Cloud Portal Service
+Environment: Cloud Foundry
+Title: Tracking Imports in the Transport Manager 
+Description: A new screen has been added to the Site Manager – the Transport Manager.   Administrators can use the Transport Manager, accessed from the side panel, to track the progress of an import process. As a result, this process no longer takes control of the Site Manager, allowing administrators to continue working during the import. 
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-01-15
+Valid as Of: 2025-01-23
+Version: 2413B
+
+--- Record 1553 ---
+Component: Cloud Transport Management
+Environment: Cloud Foundry
+Title: Introduction of tags in SAP Cloud Transport Management
+Description: You can now tag transport nodes, allowing you to group them based on the assigned tags. You can use tags to add additional information, such as project details, or system characteristics. The tags appear as labels on the Transport Nodes screen, providing more information at a glance beyond just the description field.  See:   Create Transport Nodes  
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Application Development and Integration
+Latest Revision: 2025-01-23
+Valid as Of: 2025-01-23
+Version: 2413b
+
+--- Record 1554 ---
+Component: Cloud Transport Management
+Environment: Cloud Foundry
+Title: Option to download MTA operation logs directly from the Log of Transport Request
+Description: For MTA deployment on Cloud Foundry, the log of the transport request now contains additional information about how to download the corresponding MTA operation logs, and includes a link to download the logs of the deploy operation directly from the SAP Cloud Transport Management user interface. Like this, you can obtain the MTA logs without using the Cloud Foundry command- line interface (cf cli).   See:   Options to Display Information about Transport Requests  
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Application Development and Integration
+Latest Revision: 2025-01-23
+Valid as Of: 2025-01-23
+Version: 2413b
+
+--- Record 1555 ---
+Component: Cloud Transport Management
+Environment: Cloud Foundry
+Title: Option to download transport action logs in a .csv file format.
+Description: You can now download transport action logs as .csv files, either individually or all at once. This structured format simplifies data analysis and enhances audit compliance.  See:   Transport Action Logs  
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Application Development and Integration
+Latest Revision: 2025-01-23
+Valid as Of: 2025-01-23
+Version: 2413b
+
+--- Record 1556 ---
+Component: Connectivity
+Environment: Cloud Foundry
+Title: Destination Service - New Features
+Description:   When calling the Destination service, you can now provide a previously generated and signed SAML assertion when fetching an OAuth2SAMLBearerAssertion destination. This SAML assertion will be exchanged for a token with the configured token service, instead of the Destination service generating one based on a provided user token.  A new Destinations UI for managing destination configuration objects is now available as a BETA version in the SAP BTP cockpit, side-by-side with the current UI. It is not yet at feature parity with the current UI, but feel free to try it out and send us your feedback.  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-01-23
+Valid as Of: 2025-01-23
+Version: Cloud
+
+--- Record 1557 ---
+Component: Extensions
+Environment: Cloud Foundry,Kyma
+Title: Use a New Formation of Type Integration with Joule
+Description: You can use Joule in SAP systems. To do that, you have to integrate these systems with Joule by including them in a formation of type Integration with Joule. The integration is between the Joule system and every SAP system in the formation, but not between each and every SAP system.  See Enabling Joule.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2025-01-23
+Valid as Of: 2025-01-23
+Version: Cloud
+
+--- Record 1558 ---
+Component: Extensions
+Environment: Cloud Foundry,Kyma
+Title: Use a New Formation of Type Integration with SAP Advanced Financial Closing
+Description: You can configure the connectivity between an SAP S/4HANA Cloud system and an SAP Advanced Financial Closing system using the new formation type Integration with SAP Advanced Financial Closing.  See Automating Integrations with SAP Advanced Financial Closing.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2025-01-23
+Valid as Of: 2025-01-23
+Version: Cloud
+
+--- Record 1559 ---
+Component: Extensions
+Environment: Cloud Foundry,Kyma
+Title: Use a New Formation of Type Integration with SAP Ariba Central Invoice Management
+Description: You can configure the connectivity between an SAP S/4HANA Cloud system and an SAP Ariba Central Invoice Management system using the new formation type Integration with SAP Ariba Central Invoice Management.  See Automating Integrations with SAP Ariba Central Invoice Management.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2025-01-23
+Valid as Of: 2025-01-23
+Version: Cloud
+
+--- Record 1560 ---
+Component: Extensions
+Environment: Cloud Foundry,Kyma
+Title: Use a New Formation of Type Integration with SAP Collaboration Manager
+Description: You can configure the connectivity between an SAP S/4HANA Cloud system and an SAP Collaboration Manager system using the new formation type Integration with SAP Collaboration Manager.  See Automating Integrations with SAP Collaboration Manager.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2025-01-23
+Valid as Of: 2025-01-23
+Version: Cloud
+

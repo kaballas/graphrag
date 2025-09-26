@@ -1,0 +1,130 @@
+--- Record 3441 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: ABAP Development Tools for Eclipse: Displaying System Client in Editor Tab
+Description: In the Preferences view, you can now specify if the system client is displayed in the editor tabs.  See Displaying System Client in Editor Tab.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-02-18
+Valid as Of: 2024-02-16
+Version: ABAP Environment 2402
+
+--- Record 3442 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: ABAP Development Tools for Eclipse: Displaying System Client in Editor Tab
+Description: In the Preferences view, you can now specify if the system client is displayed in the editor tabs.  See Displaying System Client in Editor Tab.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-02-18
+Valid as Of: 2024-02-16
+Version: Cloud
+
+--- Record 3443 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: ABAP Development Tools for Eclipse: Refactoring ABAP Classes and Interfaces
+Description: Refactoring support for renaming classes or interfaces was improved in activating renaming changes, validating new names and displaying long texts.  See Refactoring ABAP Classes and Interfaces.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-02-18
+Valid as Of: 2024-02-16
+Version: ABAP Environment 2402
+
+--- Record 3444 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: ABAP Development Tools for Eclipse: Refactoring ABAP Classes and Interfaces
+Description: Refactoring support for renaming classes or interfaces was improved in activating renaming changes, validating new names and displaying long texts.  See Refactoring ABAP Classes and Interfaces.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-02-18
+Valid as Of: 2024-02-16
+Version: Cloud
+
+--- Record 3445 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: ABAP Development Tools for Eclipse: Using CDS Aspects in ABAP CDS Syntax
+Description: You can now use CDS aspects to store field definitions and calculations, such as CDS expressions in order to reuse them in other data definitions.  Restriction  Currently, CDS aspects are provided by SAP only.You, as an SAP customer, cannot create nor edit them, but you can use them in ABAP CDS syntax.  See Creating CDS Aspects.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-02-18
+Valid as Of: 2024-02-16
+Version: Cloud
+
+--- Record 3446 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: ABAP Runtime Errors
+Description: With the new ABAP Runtime Errors app, you can display and analyze the ABAP runtime errors that have occurred in your current tenant. From the runtime error details, you can navigate to the ABAP source code location where the error occurred (in your browser or in the ABAP Development Tools (ADT)).
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-25
+Valid as Of: 2024-02-16
+Version: nan
+
+--- Record 3447 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: ABAP Runtime Errors
+Description: With the new ABAP Runtime Errors app, you can display and analyze the ABAP runtime errors that have occurred in your current tenant. From the runtime error details, you can navigate to the ABAP source code location where the error occurred (in your browser or in the ABAP development tools for Eclipse (ADT)).  See Displaying and Analyzing ABAP Runtime Errors.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-02-18
+Valid as Of: 2024-02-16
+Version: ABAP Environment 2402
+
+--- Record 3448 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: ABAP Runtime Errors
+Description: With the new ABAP Runtime Errors app, you can display and analyze the ABAP runtime errors that have occurred in your current tenant. From the runtime error details, you can navigate to the ABAP source code location where the error occurred (in your browser or in the ABAP development tools for Eclipse (ADT)).  See Displaying and Analyzing ABAP Runtime Errors.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-02-18
+Valid as Of: 2024-02-16
+Version: Cloud
+
+--- Record 3449 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: ABAP Test Cockpit
+Description: Some ATC checks now call a new function module RS_ABAP_GET_NAMETAB_INFOS_E, which comes with new versions of the source code extractor notes bundled in SAP Note 2270689. If you use a SAP BTP system as a central ATC check system, you should install the new version of these notes in your satellite systems and add this function module to any relevant allow lists (for example in cloud connectors).
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-02-18
+Valid as Of: 2024-02-16
+Version: ABAP Environment 2402
+
+--- Record 3450 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: ABAP Test Cockpit
+Description: Some ATC checks now call a new function module RS_ABAP_GET_NAMETAB_INFOS_E, which comes with new versions of the source code extractor notes bundled in SAP Note 2270689. If you use a SAP BTP system as a central ATC check system, you should install the new version of these notes in your satellite systems and add this function module to any relevant allow lists (for example in cloud connectors).
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-02-18
+Valid as Of: 2024-02-16
+Version: Cloud
+

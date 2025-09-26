@@ -1,0 +1,130 @@
+--- Record 3931 ---
+Component: Mobile Services
+Environment: Cloud Foundry
+Title: App deployment option (import/export)
+Description: (Version 2310) SAP Mobile Services is now integrated with the SAP Content Agent service, which introduces a new option for exporting and importing application configurations from one environment to another (such as exporting from the testing environment and importing to the production environment).  This option enables you to export all or parts of the mobile app configuration, create the mobile app configuration on the target environment, create missing features, and merge the exported configuration. SAP Content Agent service is also integrated with the SAP Cloud Transport Management service, which provides the underlying transport service. The SAP Mobile Services export/import feature remains as an alternative option for copying the entire mobile app configuration from one environment with limitations.  See:     Exporting and Importing Application Configurations      SAP Content Agent Service Integration    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2023-11-07
+Version: Cloud
+
+--- Record 3932 ---
+Component: Mobile Services
+Environment: Cloud Foundry
+Title: Built-in support
+Description: (Version 2310) You can now get support for Mobile Services without leaving the cockpit. Through built-in support you have access to blogs, articles, videos, and tutorials, use Expert Chat and create support tickets if authorized. Previously you needed to access these resources outside of the cockpit.  See:    User Interface      Getting Support From the Cockpit    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2023-11-07
+Version: Cloud
+
+--- Record 3933 ---
+Component: Mobile Services
+Environment: Cloud Foundry
+Title: Doc Update: SSO Mechanism
+Description: (Version 2310) A new overview has been added to step 8 (which starts with "On Destination Configuration") that describes each of the SSO Mechanism options that are available. You can use the information to decide when to use each option.  See Creating a Destination
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2023-11-07
+Version: Cloud
+
+--- Record 3934 ---
+Component: Mobile Services
+Environment: Cloud Foundry
+Title: Dynamic variable for offline parameters
+Description: (Version 2310) You can now set a dynamic variable on the before_function and after_function offline parameters from the Mobile Services cockpit. For example, implement the '{syncType}' parameter in the destination URL to specify different actions for an initial sync and a delta sync. Previously only hard-coded values were supported.  See Editing the Application Configuration File
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2023-11-07
+Version: Cloud
+
+--- Record 3935 ---
+Component: Mobile Services
+Environment: Cloud Foundry
+Title: Offline parameters
+Description: (Version 2310) Additional offline parameters now appear in the Mobile Services cockpit, which enable you to specify the 2013 or 2020 specification for sending repeatable requests:    send_original_repeatability      send_standard_repeatability      See Editing the Application Configuration File
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2023-11-07
+Version: Cloud
+
+--- Record 3936 ---
+Component: Mobile Services
+Environment: Cloud Foundry
+Title: Trial experience
+Description: (Version 2310) Messages, notifications, and indicators have been added to the Mobile Services cockpit to assist Trial users. For example, you are alerted if a limit for your service plan has been reached or if you should check the log files for information.  See:    Creating an Application      Creating a Destination      User Interface      Service Plans    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2023-11-07
+Version: Cloud
+
+--- Record 3937 ---
+Component: Mobile Services
+Environment: Cloud Foundry
+Title: Updates to the destination overview page
+Description: (Version 2310) When you create a new destination, action icons now appear on the overview page for the selected application. Previously the action items only appeared at the application list level.  See Creating a Destination
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2023-11-07
+Version: Cloud
+
+--- Record 3938 ---
+Component: Application Autoscaler
+Environment: Cloud Foundry
+Title: Increase of Maximum cpu Threshold
+Description: In the SAP BTP, Cloud Foundry environment, applications get a guaranteed CPU share of ¼ core per GB instance memory. As the maximum instance memory per application is 8 GBm this allows for vertical scaling up to 2 CPUs. See SAP BTP-Specific Configurations.  To support this, the maximum value that can be set for the threshold parameter when writing a dynamic scaling rule with the metric type cpu is now 200.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2023-11-06
+Valid as Of: 2023-11-06
+Version: Cloud
+
+--- Record 3939 ---
+Component: Credential Store
+Environment: Cloud Foundry,Kyma
+Title: Data Recovery
+Description: SAP Credential Store provides now possibility to restore credentials from a backup in case you have accidentally deleted a single or multiple credentials from your service instance. To learn how, see: Restore Credentials from Backup
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-10-30
+Valid as Of: 2023-11-06
+Version: Cloud
+
+--- Record 3940 ---
+Component: Credential Store
+Environment: Cloud Foundry,Kyma
+Title: SAP Alert Notification Events
+Description: You can now receive notifications for SAP Credential Store service instances for the following additional events:       Maximum Number of Credential Bindings      Maximum Number of Credentials      Maximum Used Storage (in MB)    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2023-10-30
+Valid as Of: 2023-11-06
+Version: Cloud
+

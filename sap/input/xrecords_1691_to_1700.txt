@@ -1,0 +1,130 @@
+--- Record 1691 ---
+Component: SAP Build Work Zone, advanced edition
+Environment: Cloud Foundry
+Title: Managing Access to Workpages in the Navigation Bar
+Description: You can manage access to a workpage located in the workspace navigation bar as follows:      On the workspace navigation bar, click the cog button to open the Manage Tabs dialog box, and select Access Control. The options are:    Specific users or user lists      Specific roles (only visible if the user is a company admin)      All workspace internal users      All workspace external users      All workspace users      Note  The Workspace member setting is no longer available. It will still be supported for existing workpages until the workpage is opened for editing.      In the Content folder, click the  … next to the workpage and open the Edit Permissions dialog box. The default setting for a workpage that was added to the workspace navigation bar is Hidden, which means that this item is only visible to the workspace admins. For workpages that were not added to the navigation bar, the default setting remains Limited.     
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-12-26
+Valid as Of: 2024-12-26
+Version: 2412B
+
+--- Record 1692 ---
+Component: SAP Build Work Zone, advanced edition
+Environment: Cloud Foundry
+Title: Support Admin Capabilities
+Description: The support admin can no longer enable content administration. When content administration is enabled, it is possible to view, edit, and delete any workspace or content item within an administrative area or the entire company.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-12-26
+Valid as Of: 2024-12-26
+Version: 2412B
+
+--- Record 1693 ---
+Component: SAP Build Work Zone, standard edition
+Environment: Cloud Foundry
+Title: Language Support
+Description: A new language is now available for selection in the Site Settings – Welsh (cy).
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-12-26
+Valid as Of: 2024-12-26
+Version: 2412B
+
+--- Record 1694 ---
+Component: SAP HANA Cloud
+Environment: Cloud Foundry,Kyma,Other
+Title: New component version available
+Description: A new component version is available for the following SAP HANA Cloud components:   2024.40 (QRC 4/2024) for SAP HANA Cloud, SAP HANA database  2024.4.5103 (QRC 4/2024) for SAP HANA Cloud, data lake      See What's New in SAP HANA Cloud.  Action: To use the new component version, you must upgrade your instance. See Managing SAP HANA Cloud Instances.
+Action: Recommended
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-01-08
+Valid as Of: 2024-12-23
+Version: Cloud
+
+--- Record 1695 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Default CIDR range for Nodes changed
+Description: We have changed the default CIDR range for Nodes to 10.250.0.0/16.  See Provisioning and Updating Parameters in the Kyma Environment.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-12-23
+Valid as Of: 2024-12-23
+Version: Cloud
+
+--- Record 1696 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Region: US West (Oregon)
+Description: US West (Oregon) (us-west-2) is now available as a new region for use with enterprise accounts running on Amazon Web Services.  See Regions for the Kyma Environment and Provisioning and Updating Parameters in the Kyma Environment.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-12-23
+Valid as Of: 2024-12-23
+Version: Cloud
+
+--- Record 1697 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Advanced Functions for Decisions
+Description: You can now use two new functions, MINVALUE and MAXVALUE in your decisions. For more information, see Functions.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-12-23
+Valid as Of: 2024-12-23
+Version: Cloud
+
+--- Record 1698 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: Premium Edition Supported Languages
+Description: SAP Document AI now supports additional languages.  See Supported Languages (Embedded Edition and Premium Edition).
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Intelligent Technologies
+Latest Revision: 2024-12-23
+Valid as Of: 2024-12-23
+Version: Cloud
+
+--- Record 1699 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: Support for Payment Advice Documents in XLS and XLSX Format
+Description: SAP Document AI now supports paymentAdvice documents in XLS and XLSX file types.  See Supported File Types (Base Edition) and Supported File Types (Embedded Edition and Premium Edition).
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Intelligent Technologies
+Latest Revision: 2024-12-23
+Valid as Of: 2024-12-23
+Version: Cloud
+
+--- Record 1700 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: Supported Languages for Extraction Using Template
+Description: SAP Document AI now supports additional languages for extraction using template.  See Supported Languages.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Intelligent Technologies
+Latest Revision: 2024-12-23
+Valid as Of: 2024-12-23
+Version: Cloud
+

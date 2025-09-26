@@ -1,0 +1,130 @@
+--- Record 1441 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Regular Upgrade
+Description: Cloud Identity Services have been upgraded.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-02-11
+Valid as Of: 2025-02-11
+Version: 27419
+
+--- Record 1442 ---
+Component: Continuous Integration & Delivery
+Environment: Cloud Foundry
+Title: New Regions
+Description: SAP Continuous Integration and Delivery can now also be consumed in the Amazon Web Services region Canada (Montreal) as well as in the Microsoft Azure regions Australia (Sydney), Japan (Tokyo), and Singapore.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-02-11
+Valid as Of: 2025-02-11
+Version: Cloud
+
+--- Record 1443 ---
+Component: Identity Provisioning
+Environment: Neo
+Title: Group mapping changes
+Description: The default transformations of SAP Ariba Central Invoice Management, SAP Sales Cloud and SAP Service Cloud, Microsoft Entra ID, and SAP Application Server ABAP are changed to support the provisioning of application-specific groups.  For more information, refer to the relevant connector documentation under Supported Systems.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-02-11
+Valid as Of: 2025-02-11
+Version: Cloud
+
+--- Record 1444 ---
+Component: Identity Provisioning
+Environment: Neo
+Title: New conditional function implemented
+Description: The conditional function isRegularGroup is implemented to verify whether a given group is a regular user group. It checks consecutively the values of the group attributes supportedOperations and applicationId and returns a Boolean result.  For more information, see Transformation Functions.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-02-11
+Valid as Of: 2025-02-11
+Version: Cloud
+
+--- Record 1445 ---
+Component: Identity Provisioning
+Environment: Neo
+Title: Provisioning sub-attributes of emails attribute
+Description: Changes in the proxy read transformations of Identity Authentication (version 1 and 2) ensure that Identity Provisioning now reads all sub-attributes of the emails attribute as defined in the SCIM core schema (that is, value, type, primary, display).  For more information, see Identity Authentication (Proxy).
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-02-11
+Valid as Of: 2025-02-11
+Version: Cloud
+
+--- Record 1446 ---
+Component: SAP Task Center
+Environment: Cloud Foundry
+Title: SAP Task Center Improvements
+Description: Improvement in error messaging in the SAP Task Center Web app and the SAP Task Center Administration app.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2025-02-11
+Valid as Of: 2025-02-11
+Version: Cloud
+
+--- Record 1447 ---
+Component: Cloud Integration for Data Services
+Environment: Neo
+Title: Documentation update only: Log Retention Limit at the Job Level
+Description: In the Help Center topic Troubleshooting During Task or Process Development, information about the log retention limit at the job level has been added.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Database and Data Management
+Latest Revision: 2025-02-10
+Valid as Of: 2025-02-10
+Version: 1.0.11.55
+
+--- Record 1448 ---
+Component: Joule
+Environment: Cloud Foundry
+Title: Document Grounding Capability - Support for Documents in JPEG, JPG, PNG, and TIFF File Formats
+Description: The document grounding capability now supports documents in the following file formats:  JPEG  JPEG  JPG  TIFF    See Set Up Document Grounding.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-02-10
+Valid as Of: 2025-02-10
+Version: Cloud
+
+--- Record 1449 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: API Gateway module: Update to version 2.10.4
+Description: We have fixed issue #1632 where a workload exposed via a v2alpha1 APIRule was not accessible from within the cluster.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-02-10
+Valid as Of: 2025-02-10
+Version: Cloud
+
+--- Record 1450 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: SAP Build Process Automation, Foundation Add-On by UiPath
+Description: You can now configure and test your UiPath automations in UiPath Studio Web directly within SAP Build Process Automation, without switching browser tabs. You no longer need to publish your automations in UiPath Studio Web but can make changes to your automation in UiPath Studio Web and then release your project in SAP Build Process Automation.See Install UiPath Studio and SAP Build Process Automation, foundation add-on by UiPath.For more information about the solution extension SAP Build Process Automation, foundation add-on by UiPath, contact your local sales representative.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-02-10
+Valid as Of: 2025-02-10
+Version: Cloud
+

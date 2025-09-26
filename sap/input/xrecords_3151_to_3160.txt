@@ -1,0 +1,130 @@
+--- Record 3151 ---
+Component: Mobile Services
+Environment: Cloud Foundry
+Title: "kernel-service" license type
+Description: (Version 2403) A new license type is now used for an application that is managed in a single-app cockpit (Software as a Service, SaaS). The license type is read-only and cannot be selected or edited in the cockpit.   See:    Service Plans      Application Administration      Creating an Application      Changing Service Plans at the App Level    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-03-25
+Valid as Of: 2024-04-09
+Version: Cloud
+
+--- Record 3152 ---
+Component: Mobile Services
+Environment: Cloud Foundry
+Title: Label changes for Restrict Print Data and Restrict Opening URLs
+Description: (Version: 2403) You can now restrict printing and access to URLs for device users other than iOS users. Previously, only iOS users could be restricted. The mobile services cockpit labels no longer specify iOS users, in Mobile Settings Exchange   Client Configuration to reflect the change.  See Defining Application Management Policies
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2024-04-09
+Version: Cloud
+
+--- Record 3153 ---
+Component: Mobile Services
+Environment: Cloud Foundry
+Title: Sample back-end version
+Description: (Version: 2403) The OData sample back end default has been changed to Version 4 (Version 2 is still available from Mobile Services cockpit). Previously, the default was Version 2. The sample OData back-end service is available for developers to use during development and testing, and to evaluate how delta tokens are handled in test applications.   See Using the Mobile Sample OData ESPM
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-03-25
+Valid as Of: 2024-04-09
+Version: Cloud
+
+--- Record 3154 ---
+Component: Mobile Services
+Environment: Cloud Foundry
+Title: Test back-end connectivity (Allowed Paths)
+Description: (Version: 2403) You can now test back-end connectivity more easily when Allowed Paths is configured for a destination. When configured, and you select Testing an OData Destination or  Testing Destinations in a Browser, you are prompted to select the path. For example, a path for Version 2 and one for Version 4. If Allowed Paths is not configured for the destination, you are not prompted. Previously, you needed to enter the specific path manually when tested connectivity.  See:    Testing OData Destinations      Testing Destinations in a Browser    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2024-04-09
+Version: Cloud
+
+--- Record 3155 ---
+Component: Mobile Services
+Environment: Cloud Foundry
+Title: Web application option removed
+Description: (Version: 2403) The Web application option has been removed from the Create New App and New dialogs. The Web app template was used for applications that run in a Web browser. Existing Web apps continue to be supported, and other development options are now available for Web apps.  See Creating an Application
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-03-25
+Valid as Of: 2024-04-09
+Version: Cloud
+
+--- Record 3156 ---
+Component: SAP Build Apps
+Environment: Cloud Foundry
+Title: Web & Mobile
+Description:   Accessibility improvements to the UI elements.  
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-04-09
+Valid as Of: 2024-04-09
+Version: Cloud
+
+--- Record 3157 ---
+Component: SAP AI Core
+Environment: Cloud Foundry
+Title: Generative AI hub
+Description: Selected models from GCP Vertex AI are supported.  For more information, see SAP Note 3437766 .
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-04-08
+Valid as Of: 2024-04-08
+Version: Cloud
+
+--- Record 3158 ---
+Component: SAP AI Launchpad
+Environment: Cloud Foundry
+Title: Generative AI hub
+Description: Selected models from GCP Vertex AI are supported.  For more information, see Models and Scenarios in the Generative AI Hub.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-04-08
+Valid as Of: 2024-04-08
+Version: Cloud
+
+--- Record 3159 ---
+Component: SAP AI Launchpad
+Environment: Cloud Foundry
+Title: Generative AI hub
+Description: For generative models that support it, a 32k context window is available.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-04-08
+Valid as Of: 2024-04-08
+Version: Cloud
+
+--- Record 3160 ---
+Component: SAP AI Launchpad
+Environment: Cloud Foundry
+Title: Workspaces
+Description: Connection creation in Workspaces through x.509 certificates is supported.  For more information, see Create a Service Key in SAP AI Core and Add Connection to SAP AI Core.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-04-08
+Valid as Of: 2024-04-08
+Version: Cloud
+

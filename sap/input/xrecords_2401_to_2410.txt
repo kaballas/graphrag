@@ -1,0 +1,130 @@
+--- Record 2401 ---
+Component: SAP Advanced Financial Closing
+Environment: Cloud Foundry
+Title: Copy Tasks
+Description: You can now copy existing tasks to create new ones. This action offers an alternative to creating new tasks either from a model or manually.  More information:  How to Copy Tasks  App affected:  Manage Closing Task Lists
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Finance
+Latest Revision: 2024-08-02
+Valid as Of: 2024-08-18
+Version: Cloud
+
+--- Record 2402 ---
+Component: SAP Advanced Financial Closing
+Environment: Cloud Foundry
+Title: Country/Region Assignments Displayed in Add Organizational Units Dialog
+Description: You can now find the country/region assignment information in the Add Organizational Units dialog.  App affected:  Manage Closing Task Lists
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Finance
+Latest Revision: 2024-08-02
+Valid as Of: 2024-08-18
+Version: Cloud
+
+--- Record 2403 ---
+Component: SAP Advanced Financial Closing
+Environment: Cloud Foundry
+Title: Editable Columns on Folder Level
+Description: In the Tasks table on folder level, the columns for the different task attributes are now editable except for the Task Type column.  For user assignments, you can find additional columns. The combined columns for user and user group remain read-only. However, the new columns are individual columns for the user or user group respectively. In these columns, you can change the user assignments for the specific task without navigating to the task.  App affected:  Manage Closing Task Lists
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Finance
+Latest Revision: 2024-08-02
+Valid as Of: 2024-08-18
+Version: Cloud
+
+--- Record 2404 ---
+Component: SAP Advanced Financial Closing
+Environment: Cloud Foundry
+Title: Metric Adjusted
+Description: The metric used to count the number of company codes used has now been adjusted so that archived task lists are no longer considered.  More information:  SAP Advanced Financial Closing
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Finance
+Latest Revision: 2024-08-02
+Valid as Of: 2024-08-18
+Version: Cloud
+
+--- Record 2405 ---
+Component: SAP Advanced Financial Closing
+Environment: Cloud Foundry
+Title: Read Authorization Added Automatically from the Beginning
+Description: When a new user role is created, Read authorization is now added automatically from the beginning, since this is the minimum authorization required for a user role.  More information: See the underlying pages of Task List Creation Scope and Task Processing Scope.  App affected:  Manage User Roles
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Finance
+Latest Revision: 2024-08-02
+Valid as Of: 2024-08-18
+Version: Cloud
+
+--- Record 2406 ---
+Component: SAP Advanced Financial Closing
+Environment: Cloud Foundry
+Title: Table in Create Task from Model Dialog Improved
+Description: In the Create Task from Model dialog, you can now find several additional columns providing more information. You can adjust the table using the Settings icon .  Additionally, you can now select several task models and this way create several tasks at once.  More information:  How to Create Tasks  App affected:  Manage Closing Task Lists
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Finance
+Latest Revision: 2024-08-02
+Valid as Of: 2024-08-18
+Version: Cloud
+
+--- Record 2407 ---
+Component: SAP Advanced Financial Closing
+Environment: Cloud Foundry
+Title: Tables in Task Lists Adjusted
+Description: The tables showing task lists in the Manage Closing Task Lists app have been adjusted to provide a better user experience. The Closing Type column isn't required for task lists and has been removed from the corresponding tables.  App affected:  Manage Closing Task Lists
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Finance
+Latest Revision: 2024-08-02
+Valid as Of: 2024-08-18
+Version: Cloud
+
+--- Record 2408 ---
+Component: SAP Advanced Financial Closing
+Environment: Cloud Foundry
+Title: Task Deactivation Action in Task Details
+Description: You can now also deactivate or reactivate a task directly in the task details.  More information:  How to Deactivate and Activate Tasks  App affected:  Manage Closing Task Lists
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Finance
+Latest Revision: 2024-08-02
+Valid as Of: 2024-08-18
+Version: Cloud
+
+--- Record 2409 ---
+Component: SAP Advanced Financial Closing
+Environment: Cloud Foundry
+Title: Use of Comments for Documentation Feedback
+Description: You can now add comments directly on SAP Help Portal to provide feedback about the documentation of SAP Advanced Financial Closing.  More information:  Giving Documentation Feedback on SAP Help Portal  Creating Better Documentation Together: SAP Help Portal’s New Approach to Collaboration and Feedback    Documentation affected: All guides except for the Administration Guide
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Finance
+Latest Revision: 2024-08-02
+Valid as Of: 2024-08-18
+Version: Cloud
+
+--- Record 2410 ---
+Component: SAP Advanced Financial Closing
+Environment: Cloud Foundry
+Title: User Role Details Page Updated
+Description: The appearance of the user role details page in the Manage User Roles app has been changed to make it more intuitive:  Some information has been relocated within the page.  The Edit button has been moved to the General Information section and renamed as Edit General Information.  Administrative information has been moved to the General Information section.    App affected:  Manage User Roles
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Finance
+Latest Revision: 2024-08-02
+Valid as Of: 2024-08-18
+Version: Cloud
+

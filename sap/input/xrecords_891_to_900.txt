@@ -1,0 +1,130 @@
+--- Record 891 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Telemetry module: Update to version 1.39.0
+Description: The new version brings the following improvements:       Metrics: For better container health monitoring, the k8s.container.restarts metric is now available as part of the MetricPipeline runtime input (#1882).      Logs: Fixed false positive log health status for LogPipelines (#1157).      Traces and Metrics: Update to OTel Collector 1.24.0 (#2064).      Logs: Update to Fluent Bit 4.0.1 (#2078).    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-04-30
+Valid as Of: 2025-05-14
+Version: Cloud
+
+--- Record 892 ---
+Component: SAP Build Work Zone, advanced edition
+Environment: Cloud Foundry
+Title: External Workspace Reports
+Description: When creating a Workspace Administrators Report in the Admin Console  Analytics  Reports, administrators can now select workspaces that include external users access to them.   For public workspaces with non member access, a new column named Visibility/Non Member Access Policy is added to the reports, to indicate the access policy.   In addition, external user access is now reflected in the Admin Console  Dashboard, in the Workspacessection. The following workspace types are now displayed: Public Internal, Public External, Private Internal, Private External 
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-05-15
+Valid as Of: 2025-05-14
+Version: 2504B
+
+--- Record 893 ---
+Component: Variant Configuration
+Environment: Cloud Foundry
+Title: Pre-Production - Configurations API - Correct Response Status For Locking Configurations
+Description: The endpoint PATCH /configurations/lock used to respond with success status code 200 instead of 204. This issue has been corrected.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-05-13
+Valid as Of: 2025-05-14
+Version: Cloud
+
+--- Record 894 ---
+Component: Continuous Integration & Delivery
+Environment: Cloud Foundry
+Title: New Region
+Description: SAP Continuous Integration and Delivery can now also be consumed in the Amazon Web Services region US West (Oregon). See Regional Availability.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-05-13
+Valid as Of: 2025-05-13
+Version: Cloud
+
+--- Record 895 ---
+Component: SAP Datasphere
+Environment: Cloud Foundry
+Title: Features for Version 2025.10
+Description: New and changed features are available for data cataloging, data integration, data marketplace, and data modeling.  For more information, see What's New in SAP Datasphere 2025.10. 
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-05-13
+Valid as Of: 2025-05-13
+Version: Cloud
+
+--- Record 896 ---
+Component: SAP Build
+Environment: Cloud Foundry
+Title: Source Node Support in Transport
+Description: You can now select source node options in the Transport Project feature. This enhancement allows you to choose a source node for transporting project versions. All options connect to the same system but use different routes, improving flexibility in managing your transport processes.  For more information, see Transport a Project.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-05-12
+Valid as Of: 2025-05-12
+Version: Cloud
+
+--- Record 897 ---
+Component: API Management
+Environment: Cloud Foundry
+Title: Displaying Security Definitions from OpenAPI Specifications on the API References Page
+Description: In the Developer Hub, security definitions defined in the OpenAPI Specifications can now be rendered on the API references page. This enhancement not only streamlines API documentation but also makes it easier for developers to understand and integrate APIs into their applications. For more details, see Consume APIs.  SAP API Management customers choose: Consume APIs
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-05-11
+Valid as Of: 2025-05-11
+Version: 2503
+
+--- Record 898 ---
+Component: Cloud Integration
+Environment: Cloud Foundry
+Title: AS2/AS2 MDN Sender Adapter HeaderSuppression
+Description: The AS2/AS2 MDN Sender Adapter adapter response includes the header X-content-type-options, which is not compliant with the AS2 protocol. It will be suppressed from all versions of the AS2/AS2 MDN sender adapter.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-05-11
+Valid as Of: 2025-05-11
+Version: 2503
+
+--- Record 899 ---
+Component: Cloud Integration
+Environment: Cloud Foundry,Neo
+Title: Configuring Namespace and Prefix for Externally Referenced Schemas in Message Mapping
+Description: You can now configure the namespace and prefixes for externally referenced schema in the External Namespace Handling.  See Creating Message Mapping as a Flow Step   SAP Cloud Integration customers, see Creating Message Mapping as a Flow Step
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-05-11
+Valid as Of: 2025-05-11
+Version: 2503
+
+--- Record 900 ---
+Component: Cloud Integration
+Environment: Cloud Foundry
+Title: Enabling Generative AI in Integration settings
+Description: You can now enable Generative AI features such as integration flow generation and script optimisation from the new Artificial Intelligence sub-menu under Settings. This content was previously available under Settings → Integrations → Generative AI.  See Artificial Intelligence
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-05-11
+Valid as Of: 2025-05-11
+Version: 2503
+

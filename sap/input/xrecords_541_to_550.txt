@@ -1,0 +1,130 @@
+--- Record 541 ---
+Component: Cloud Transport Management
+Environment: Cloud Foundry
+Title: New build-runtime application service plan available.
+Description: You can use the build-runtime service plan when you use SAP Cloud Transport Management as part of a service from the SAP Build ecosystem.  See:   Subscribing to Cloud Transport Management  Updating the Service Plan  
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Application Development and Integration
+Latest Revision: 2025-07-02
+Valid as Of: 2025-07-02
+Version: 2506a
+
+--- Record 542 ---
+Component: Pricing Service
+Environment: Cloud Foundry
+Title: Document Pricing - Clearing of Persisted Error Messages
+Description: The persistent item-level messages used to be kept after item updates or repricing, resulting in incorrect calculation status. This issue has been corrected.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-07-02
+Valid as Of: 2025-07-02
+Version: Cloud
+
+--- Record 543 ---
+Component: Pricing Service
+Environment: Cloud Foundry
+Title: Ignore Inconsistent Condition Types During Condition Exclusion
+Description: The condition exclusion based on the exclusion procedure was not functioning as expected when the condition types of an exclusion group were missing or inconsistent. The issue has been corrected.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-06-27
+Valid as Of: 2025-07-02
+Version: Cloud
+
+--- Record 544 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Regular Upgrade
+Description: Cloud Identity Services have been upgraded.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-07-01
+Valid as Of: 2025-07-01
+Version: 28019
+
+--- Record 545 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Support for SAP extension schema for groups
+Description: The default transformations of the following connectors support attributes from the SAP extension schema for groups, including application ID, type, and supported operations.  For more information, see  SAP Marketing Cloud  SAP Market Communication for Utilities  
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-07-01
+Valid as Of: 2025-07-01
+Version: 28019
+
+--- Record 546 ---
+Component: Cloud Integration
+Environment: Cloud Foundry
+Title: IBM MQ Adapter Supports New Version
+Description: A new variant (JMS Subscribe) for the IBM MQ Sender adapter (1.2.0) is available now.  See: IBM MQ Sender Adapter
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-07-01
+Valid as Of: 2025-07-01
+Version: Cloud
+
+--- Record 547 ---
+Component: Identity Provisioning
+Environment: Neo
+Title: Support for SAP extension schema for groups
+Description: The default transformations of the following connectors support attributes from the SAP extension schema for groups, including application ID, type, and supported operations.  For more information, see:    SAP Marketing Cloud  SAP Market Communication for Utilities  
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-07-01
+Valid as Of: 2025-07-01
+Version: Cloud
+
+--- Record 548 ---
+Component: SAP Task Center
+Environment: Cloud Foundry
+Title: Deep Links Support for Completed Tasks
+Description: You can now open completed tasks directly using deep links.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-07-01
+Valid as Of: 2025-07-01
+Version: Cloud
+
+--- Record 549 ---
+Component: SAP Task Center
+Environment: Cloud Foundry
+Title: Extended Service Plan Migration Guide
+Description: The service plan migration guide was extended with details on how to migrate to a lower-ranking service plan and additional steps you might need to consider when updating to another service plan. For more information, see Migrating to a Different SAP Task Center Service Plan.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-07-01
+Valid as Of: 2025-07-01
+Version: Cloud
+
+--- Record 550 ---
+Component: SAP BTP Command Line Interface
+Environment: ABAP,Cloud Foundry,Kyma,Neo,Other
+Title: Discontinuation of Pre-2.61 Client Versions
+Description: As announced on November 28th, 2024, we have now discontinued client versions older than version 2.61.  Action: If you are using a btp CLI client older than version 2.61, please update to the latest btp CLI client. Older versions can no longer be used.  To learn how to update your client, see Get Updates.
+Action: Required
+Lifecycle: Deleted
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2025-06-26
+Valid as Of: 2025-06-30
+Version: Cloud
+

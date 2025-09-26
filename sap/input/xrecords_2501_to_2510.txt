@@ -1,0 +1,130 @@
+--- Record 2501 ---
+Component: SAPUI5
+Environment: ABAP,Cloud Foundry,Kyma,Neo,Other
+Title: SAPUI5 Distribution 1.127
+Description: SAPUI5 version 1.127 has been released for UI development and can now be consumed by SAP BTP services. It’s up to the services to determine when they start using the new version.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-08-07
+Valid as Of: 2024-08-08
+Version: Cloud
+
+--- Record 2502 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Migration of AWS Kyma runtime workers to IMDSv2 access method
+Description: What do you need to know?  Following the updated security policy, the Kyma service is obliged to disable the IMDSv1 access method on all existing and new AWS Kyma runtimes and enable IMDSv2 as the only access method instead.  The change schedule:    2024.08.07: Enable the IMDSv2 access method on new AWS Kyma runtimes      2024.08.10-11 Major Upgrade Window: Migrate existing AWS Kyma runtimes to the IMDSv2 access method      As part of the migration, new workers are created with the IMDSv2 access method only, and the existing worker nodes are drained (application Pods are evicted) and removed. To minimize disruption to your workloads, we recommend you ensure availability by running multiple replicas across different Availability Zones and configuring Pod Disruption Budgets.  What do you need to do?  Most Kyma users should not be affected by this change as your workloads do not directly integrate with the EC2 IMDSv1 API. However, you are affected if you access EC2 IMDSv1 API from your Kyma workload(s) without a token. In such a case, you must change your workloads to use the IMDSv2 access method before the scheduled changes.  See the official AWS documentation for more details.
+Action: Required
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-04-19
+Valid as Of: 2024-08-07
+Version: Cloud
+
+--- Record 2503 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: API Gateway module: Update to version 2.4.1
+Description: The release 2.4.1 of the API Gateway module introduces the new, entirely Istio-based v2alpha1 version of the APIRule CustomResourceDefinition (CRD) and custom resource (CR). The new version of the APIRule CRD is a significant step towards a stable API Gateway API.   Version v2alpha1 includes the following changes:  The APIRule authorization policy is now based solely on Istio and the APIRule CRD no longer supports the Ory Oathkeeper authorization policy.  Access strategies are now limited to jwt and noAuth, with plans to support extAuth in the future. You can find more information about the strategies in the access strategies documentation and the ADR for the extAuth access strategy.    Now, both versions of APIRule custom resources are supported. The APIRule CR in version v1beta1 will become deprecated in 2024 once we finish extending its configuration. Currently, we’re working on adding the extAuth access strategy, which might be a migration path for oauth2 handlers based on Ory Oathkeeper. When the time comes and we announce the deprecation, you'll see a What's New note with a detailed migration procedure. For now, we encourage you to learn more about the new version and follow the APIRule tutorials.  The new version is not backward compatible with v1beta1.  Besides that, this release includes the following changes:  Ory Oathkeeper's scaling is now based only on CPU utilization. This adjustment ensures that the scaling is more responsive to traffic changes, as Oathkeeper memory utilization is not a good indicator of the traffic load.  We've fixed rendering of APIRule list when multiple APIRule CRs exist.  
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-07-23
+Valid as Of: 2024-08-06
+Version: Cloud
+
+--- Record 2504 ---
+Component: SAP Build Apps
+Environment: Cloud Foundry
+Title: Web & Mobile
+Description: You can see if the selected component has logic by the dot in the tool bar. You can also see the logic indicator in the tree next to the element.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-08-06
+Valid as Of: 2024-08-06
+Version: Cloud
+
+--- Record 2505 ---
+Component: SAP Build Apps
+Environment: Cloud Foundry
+Title: Web & Mobile
+Description: You can change the layout direction of a container in the toolbar by choosing the vertical or horizontal arrow.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-08-06
+Valid as Of: 2024-08-06
+Version: Cloud
+
+--- Record 2506 ---
+Component: Data Attribute Recommendation
+Environment: Cloud Foundry
+Title: Sales Order Completion (SOC) Business Blueprint Improvements
+Description: The preprocessing of the Sales Order Completion (SOC) business blueprint has been improved.  See Upload Dataset and Business Blueprints.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-08-05
+Valid as Of: 2024-08-05
+Version: Cloud
+
+--- Record 2507 ---
+Component: Data Attribute Recommendation
+Environment: Cloud Foundry
+Title: Technical Constraints
+Description: The maximum length for dataset schema array labels has been increased to 30 items in the labels list.  See Technical Constraints.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-08-05
+Valid as Of: 2024-08-05
+Version: Cloud
+
+--- Record 2508 ---
+Component: SAP AI Core
+Environment: Cloud Foundry
+Title: Generative AI hub
+Description: Orchestration combines content generation with a set of functions that are often required in business AI scenarios.  Functions include templating, which lets you compose a prompt with placeholders that are filled during inference, and content filtering, which lets you restrict the type of content that is passed to and received from a generative AI model.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-08-05
+Valid as Of: 2024-08-05
+Version: Cloud
+
+--- Record 2509 ---
+Component: SAP AI Launchpad
+Environment: Cloud Foundry
+Title: Generative AI hub
+Description: Orchestration combines content generation with a set of functions that are often required in business AI scenarios.  Functions include templating, which lets you compose a prompt with placeholders that are filled during inference, and content filtering, which lets you restrict the type of content that is passed to and received from a generative AI model.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-08-05
+Valid as Of: 2024-08-05
+Version: Cloud
+
+--- Record 2510 ---
+Component: Edge Integration Cell
+Environment: Cloud Foundry
+Title: Software Version Update
+Description:     Edge Integration Cell: 8.19.*    Increment: 2406  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-08-04
+Valid as Of: 2024-08-04
+Version: 2406
+

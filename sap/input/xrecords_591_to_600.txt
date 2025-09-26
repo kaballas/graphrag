@@ -1,0 +1,130 @@
+--- Record 591 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: New Improved ML Model for Purchase Order
+Description: We’ve improved the machine learning model for purchase order documents.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Intelligent Technologies
+Latest Revision: 2025-06-27
+Valid as Of: 2025-06-24
+Version: Cloud
+
+--- Record 592 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: Overall Improvements
+Description: There have been several code and stability improvements.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Intelligent Technologies
+Latest Revision: 2025-06-27
+Valid as Of: 2025-06-24
+Version: Cloud
+
+--- Record 593 ---
+Component: SAP HANA Cloud
+Environment: Cloud Foundry,Kyma,Other
+Title: New component version available
+Description: A new component version is available for the following SAP HANA Cloud components:   2025.14 (QRC 2/2025) for SAP HANA Cloud, SAP HANA database  2025.2.5816 (QRC 2/2025) for SAP HANA Cloud, data lake      See What's New in SAP HANA Cloud.  Action: To use the new component version, you must upgrade your instance. See Managing SAP HANA Cloud Instances.
+Action: Recommended
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-06-23
+Valid as Of: 2025-06-23
+Version: Cloud
+
+--- Record 594 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Off-Cycle Upgrade
+Description: Cloud Identity Services have been upgraded.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-06-23
+Valid as Of: 2025-06-23
+Version: 27990
+
+--- Record 595 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Signing Certificates
+Description: As of June 23, 2025 the version of the newly created signing certificates is v3. See Tenant SAML 2.0 Configurations.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2025-06-23
+Valid as Of: 2025-06-23
+Version: 27990
+
+--- Record 596 ---
+Component: Process Visibility Capability
+Environment: Cloud Foundry
+Title: Configure Navigation Link on Steps
+Description: You can now configure navigation link on steps to navigate to specific pages for additional details.  See Configure Step Navigation Link.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-06-23
+Valid as Of: 2025-06-23
+Version: Cloud
+
+--- Record 597 ---
+Component: SAP AI Core
+Environment: Cloud Foundry
+Title: Generative AI hub
+Description: Prompt shields are available as part of input filtering with Azure Content Safety. Prompt shields detect and mitigate prompt attacks, such as prompts designed to bypass safety mechanisms or override previous instruction. For more information, see Harm categories in Azure AI Content Safety and Input Filtering.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2025-06-23
+Valid as Of: 2025-06-23
+Version: Cloud
+
+--- Record 598 ---
+Component: SAP AI Core
+Environment: Cloud Foundry
+Title: Generative AI hub
+Description: We now support the Anthropic models Claude Opus 4 and Claude Sonnet 4.  For more information, see SAP Note 3437766 .
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2025-06-23
+Valid as Of: 2025-06-23
+Version: Cloud
+
+--- Record 599 ---
+Component: SAP AI Launchpad
+Environment: Cloud Foundry
+Title: Generative AI hub
+Description: We now support the Anthropic models Claude Opus 4 and Claude Sonnet 4.  For more information, see SAP Note 3437766 .
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2025-06-23
+Valid as Of: 2025-06-23
+Version: Cloud
+
+--- Record 600 ---
+Component: SAP Build
+Environment: Cloud Foundry
+Title: New Copy Feature for Actions Project
+Description: You can now duplicate and reuse actions within your project using the new Copy feature. This helps you save time and maintain consistency across similar projects.  See Copy Actions.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-06-23
+Valid as Of: 2025-06-23
+Version: Cloud
+

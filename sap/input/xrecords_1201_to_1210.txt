@@ -1,0 +1,130 @@
+--- Record 1201 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Additional Amazon Web Services Region
+Description: You can choose from an additional Amazon Web Services region for the SAP BTP ABAP environment: US West (Oregon).  For more information, see Regions and API Endpoints for the ABAP Environment .
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-03-17
+Valid as Of: 2025-03-19
+Version: ABAP Environment 2505
+
+--- Record 1202 ---
+Component: SAP Digital Payments Add-On
+Environment: Cloud Foundry
+Title: New SAP Help Portal product page
+Description: The product page for the SAP digital payments add-on now provides new guidance and information including links to consumer applications and the SAP Business Accelerator Hub.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Finance
+Latest Revision: 2024-01-01
+Valid as Of: 2025-03-19
+Version: Cloud
+
+--- Record 1203 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Deprecation of the annotation telemetry.kyma-project.io/internal-metrics-compatibility-mode.
+Description: The annotation telemetry.kyma-project.io/internal-metrics-compatibility-mode is scheduled to be deleted with Telemetry module version 1.41 or later.  Required Action: If you are accessing the internal OTel metrics with the annotation telemetry.kyma-project.io/internal-metrics-compatibility-mode, adapt your approach according to Telemetry CRD: Annotations.
+Action: Info only
+Lifecycle: Deprecated
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2025-03-05
+Valid as Of: 2025-03-18
+Version: Cloud
+
+--- Record 1204 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Telemetry module: Update to version 1.35.0
+Description: The new version brings the following improvements:      Traces and Metrics: Update to OTel Collector 0.120.0 (#1873).  With this update, the internal metrics of the collector have been aligned with the Prometheus conventions: The naming of the metrics was adjusted with suffixes and units, and instrumentation scopes have been added. This change does not have any impact on the health monitoring of the Telemetry module.  Recommended Action: If you are accessing the internal metrics endpoints directly, you must adapt your approach. If you cannot adapt right away, use the temporary annotation telemetry.kyma-project.io/internal-metrics-compatibility-mode: true - for details, see Telemetry CRD: Annotations.      Logs: Update to Fluent Bit 3.2.7 (#1876).    
+Action: Recommended
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-03-05
+Valid as Of: 2025-03-18
+Version: Cloud
+
+--- Record 1205 ---
+Component: Mobile Services
+Environment: Cloud Foundry
+Title: Client Log Upload Limitations
+Description: (Version 2502 PL01) Each mobile application has a limit of one million rows for client log uploads at error or fatal levels. If this limit is exceeded, the mobile application cannot upload more logs until expired logs are purged from the database.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-02-26
+Valid as Of: 2025-03-18
+Version: Cloud
+
+--- Record 1206 ---
+Component: Mobile Services
+Environment: Cloud Foundry
+Title: Support of New Authentication Type
+Description: (Version 2502 PL01) We have introduced new field labeled as OAuth2 SAML Authentication Type, which offers two options: Default Settings or IAS Settings  For more information, see Creating a Destination
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-02-26
+Valid as Of: 2025-03-18
+Version: Cloud
+
+--- Record 1207 ---
+Component: SAP Build
+Environment: Cloud Foundry
+Title: Generative AI
+Description: You can now enable Generative AI within the Control Tower of SAP Build, which allows for automatic creation and summarize processes. Additionally, this feature enables you to generate customized forms and receive UI suggestions, all designed to enhance your app development experience. With these improvements, your workflows can become more efficient, helping you reduce manual tasks and increase productivity.  See Enabling Generative AI.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-03-18
+Valid as Of: 2025-03-18
+Version: Cloud
+
+--- Record 1208 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Use Generative AI
+Description: You can now use generative artifical intelligence in SAP Build Process Automation to generate and edit business processes, generate business rules, generate new code in a scipt task, and generate certain artifacts. You can use generative AI to do the following:  Generate a business process, a data type, or a form from the Overview screen of your project. See Generate a Data Type and Generate a Form.  Edit or add steps to a process. See Generate a Process.  Generate new code in a script task. See Generate a Script Using Generative AI in a Script Task  Explain a decision or generate business rules. See Use Generative AI in a Decision.  To use these features you need to enable generative AI for your tenant. See Generative AI.The generative AI features are only supported on the following data centers:  Americas - US10, US30  EMEA - EU10, EU11, EU20  Asia and Australia - AP10  Note that some restrictions and limitations apply. See Quotas, Restrictions, and Limits and Known Limitations for Generative AI .
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-03-18
+Valid as Of: 2025-03-18
+Version: Cloud
+
+--- Record 1209 ---
+Component: SAP Datasphere
+Environment: Cloud Foundry
+Title: Features for Version 2025.6
+Description: New and changed features are available for data integration, data modeling, and data privacy and protection.  For more information, see What's New in SAP Datasphere 2025.6. 
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-03-18
+Valid as Of: 2025-03-18
+Version: Cloud
+
+--- Record 1210 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: More Meaningful Extraction Confidence Ranges for Custom Fields Extracted Using Generative AI (Premium Edition)
+Description: SAP Document AI now provides more meaningful extraction confidence ranges for custom header fields for which extraction is handled by generative AI.  Formerly, if you extracted information from custom header fields with the setup type auto and no default extractor, SAP Document AI displayed a moderate extraction confidence range until you entered feedback on the results.  Now, the service determines the extraction confidence for such fields more accurately by checking whether the data type of the extracted information matches the data type for the respective field in the schema.  See View and Edit Extraction Results.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Intelligent Technologies
+Latest Revision: 2025-03-18
+Valid as Of: 2025-03-18
+Version: Cloud
+

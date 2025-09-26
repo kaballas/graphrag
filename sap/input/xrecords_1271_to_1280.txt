@@ -1,0 +1,130 @@
+--- Record 1271 ---
+Component: SAP Business Application Studio
+Environment: Cloud Foundry
+Title: Calculation Views
+Description: In the calculation view editor, you can now use the VECTOR_EMBEDDING function in SQL expressions. See Vector Functions.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-03-18
+Valid as Of: 2025-03-09
+Version: T2502a
+
+--- Record 1272 ---
+Component: Cloud Application Programming Model
+Environment: Cloud Foundry
+Title: February Release
+Description: The February release of the SAP Cloud Application Programming Model is now available.   Highlights:    Enums like constants  New package for cds.test  UI5 state messages for drafts  Attachments plugin supports multitenancy  … and much more.  See February 2025 release for the CAP framework.   Action: We recommend to adapt the new versions as soon as possible, see Managing Dependencies.
+Action: Recommended
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2025-03-07
+Version: Cloud
+
+--- Record 1273 ---
+Component: Cloud Transport Management
+Environment: Cloud Foundry
+Title: Option to download only the selected (filtered) transport action logs.
+Description: You can now download only selected (filtered) transport action logs as .csv or plain text (.txt) files. Previously, the downloaded .zip file contained all transport actions, regardless of the filters.  See:   Transport Action Logs  
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Application Development and Integration
+Latest Revision: 2025-03-07
+Valid as Of: 2025-03-07
+Version: 2502a
+
+--- Record 1274 ---
+Component: Cloud Transport Management
+Environment: Cloud Foundry
+Title: SAP Cloud Transport Management service available on new data centers.
+Description: SAP Cloud Transport Management service is now also available in the following regions:  Google Cloud in the KSA (Dammam) region  Google Cloud in the Japan (Tokyo) region    See:   SAP Cloud Transport Management in SAP Discovery Center  Regions and API Endpoints Available for the Cloud Foundry Environment  
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Application Development and Integration
+Latest Revision: 2025-04-03
+Valid as Of: 2025-03-07
+Version: 2502a
+
+--- Record 1275 ---
+Component: Multitarget Applications for Cloud Foundry
+Environment: Cloud Foundry
+Title: Deprecation of several module hooks
+Description: The following module hooks are deprecated and will be removed in March 2025:   application.before-stop.live  application.before-stop.idle  application.after-stop.live  application.after-stop.idle  application.before-unmap-routes    Action: Use the new module hooks as outlined below:  for regular deployment:  Replace application.before-stop.live with deploy.application.before-stop.  application.before-stop.idle is no longer applicable.  Replace application.after-stop.live with deploy.application.after-stop.  application.after-stop.idle is no longer applicable.  application.before-unmap-routes is no longer applicable.    for blue-green deployment:  Replace application.before-stop.live with blue-green.application.before-stop.live.  Replace application.before-stop.idle with blue-green.application.before-stop.idle.  Replace application.after-stop.live with blue-green.application.after-stop.live.  Replace application.after-stop.idle with blue-green.application.after-stop.idle.  Replace application.before-unmap-routes with blue-green.application.before-unmap-routes.live.      For more information about the available module hooks, see Module Hooks.
+Action: Required
+Lifecycle: Deprecated
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-03-06
+Valid as Of: 2025-03-06
+Version: Cloud
+
+--- Record 1276 ---
+Component: Availability Service
+Environment: Cloud Foundry
+Title: Changes to Accounts APIs (Breaking)
+Description: If you're using the accounts APIs to automatically manage your accounts, you need to switch to the new dedicated accounts APIs v3 as documented in our interactive Swagger API Reference. To access Swagger API Reference, open the dropdown of your user-name in AvS and chooseAPI Document.
+Action: Required
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-03-06
+Valid as Of: 2025-03-06
+Version: Cloud
+
+--- Record 1277 ---
+Component: SAP BTP Command Line Interface
+Environment: ABAP,Cloud Foundry,Kyma,Neo,Other
+Title: New btp CLI Client Version 2.83.0 Available
+Description: With client version 2.83.0, we've added the following improvements to the btp CLI:  Suggestions for mistyped or partial commands  Improved handling of authorization for directory admins  Improved error messages for connection issues during login (wrong URL, proxy, missing TLS certificate)  Fixes for autocomplete installation    The quickest way to update to version 2.83.0 is by (re)-running the installation script for your operating system. Alternatively, you can manually download install the new client from SAP Development Tools.
+Action: Recommended
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-03-06
+Valid as Of: 2025-03-06
+Version: Cloud
+
+--- Record 1278 ---
+Component: Authorization and Trust Management Service
+Environment: ABAP,Cloud Foundry,Kyma,Neo,Other
+Title: Existing Custom Trusts for Business Users Changed to Token-Based Authentication
+Description: With this release, existing OpenID Connect (OIDC) trust configurations between your SAP BTP subaccounts and custom identity providers are configured to use token-based authentication instead of password-based. We've taken this step to improve security and compliance with the OIDC standard. We don't expect any impact for our customers.   For more information, see Establish Trust and Federation Between SAP Authorization and Trust Management Service and SAP Cloud Identity Services.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-02-11
+Valid as Of: 2025-03-06
+Version: 2502a
+
+--- Record 1279 ---
+Component: Availability Service
+Environment: Cloud Foundry
+Title: Obtaining Site24x7 Refresh Token Made Easy
+Description: The new way of obtaining Site24x7 refresh tokens simplifies the process and improves your overall experience. For more information, see Site24x7 Tester Accounts section in  ?sap-ot O2O class="- topic/xref " href="643030f616404d21babdd9a12e1911b5.xml" text="" desc="" xtrc="xref:3" xtrf="file:/home/builder/src/dita-all/yoe1460360436347/loio922bf2dbe0b646aaaa8cb5e077cfd799_en-US/src/content/localization/en-us/6da9927f396a47609f58c262831b0d9e.xml" output-class="xref" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.sap.prd.dita.html5/xsl/sap-html5/sap-html5-table-json.xsl" ?
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2025-03-06
+Valid as Of: 2025-03-06
+Version: Cloud
+
+--- Record 1280 ---
+Component: Cloud Logging
+Environment: Cloud Foundry
+Title: Cloud Logging service is available on US11
+Description: The Cloud Logging service is now available on US11
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2025-02-26
+Valid as Of: 2025-03-06
+Version: Cloud
+

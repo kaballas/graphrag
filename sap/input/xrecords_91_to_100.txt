@@ -1,0 +1,130 @@
+--- Record 91 ---
+Component: Connectivity
+Environment: Cloud Foundry
+Title: Destination Service - REST API
+Description:   Added support for referencing resources from multiple isolation levels via a single call to the Destination service API (for example, having a destination on subaccount level and extending it with a fragment on the instance level). For more information, see Referring Resources Using the REST API.  Added a field in the publicKeys endpoint of the certificate retrieval APIs, containing the subject DN of the leaf certificate.  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-09-18
+Valid as Of: 2025-09-18
+Version: Cloud
+
+--- Record 92 ---
+Component: Multitarget Applications for Cloud Foundry
+Environment: Cloud Foundry
+Title: Introduction of a new top-level parameter region-domain
+Description: A new top-level parameter region-domain is introduced. It is resolved to the domain of the current region. (See the Domain column in Regions and API Endpoints Available for the Cloud Foundry Environment). When a region has multiple CF API endpoints, the parameter will point to the domain of the respective endpoint used for the deployment. The parameter is different from the existing parameters default-domain and region-primary-domain:      The parameter default-domain usually depends on the current organization setup and the existing shared domains for it. It is not reliable for regions without shared domains, for example regions China (Shanghai) and China (North 3). On the other hand, the region-domain parameter is more sustainable and does not depend on the current organization setup.  The parameters region-primary-domain and region-domain are equal when used in most of the regions. They are different when MTA deployments are done in target org/space in different CF APIs in one region.      Examples:  If the MTA deployment is done in a target org/space with CF API endpoint that is equal to api.eu10.hana.ondemand.com, the value of the domain would be:    default-domain: cfapps.eu10.hana.ondemand.com      region-domain: eu10.hana.ondemand.com      region-primary-domain: eu10.hana.ondemand.com      If the MTA deployment is done in a target org/space with CF API endpoint that is equal to api.eu10-004.hana.ondemand.com, the value of the domain would be:    default-domain: cfapps.eu10-004.hana.ondemand.com      region-domain: eu10-004.hana.ondemand.com      region-primary-domain: eu10.hana.ondemand.com      See Parameters and Properties.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-09-18
+Valid as Of: 2025-09-18
+Version: 2509a
+
+--- Record 93 ---
+Component: SAP BTP Cockpit
+Environment: Cloud Foundry
+Title: Events Page at Application Level: Improvements
+Description: The updated Events page at the application level in the cockpit provides the following improvements:    Events page renamed to Application Events for improved clarity      Target column added to the page. It shows for which application the event is triggered.      Searching by actor or target      More Details button in the Description column in case of long event descriptions      Faster page loading    Note  Not all search results are loaded immediately. To add more results to your search, choose Load More. Each Load More action adds up to 200 application events to your search.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-09-15
+Valid as Of: 2025-09-18
+Version: Cloud
+
+--- Record 94 ---
+Component: SAP BTP Cockpit
+Environment: Cloud Foundry
+Title: Personalized Cockpit Navigation with Favorites & Recent
+Description: We have introduced two new enhancements to navigation within SAP BTP Cockpit: Favorites & Recent, allowing you to immediately access your most important resources in the cockpit.     Favorites lets you bookmark your most important resources, saving time and effort. Nearly all pages have a favorites button on the upper right side of the page. Select the star icon to a page to your favorites.  Recent automatically adds the resources you have most recently interacted with so you can pick up where you left off.    Find all your favorites and recently visited pages by navigating to the Favorites & Recent entry in the left-side navigation panel.  For more information, check out:: Introducing Favorites and Recent in SAP BTP Cockpit - A Personalized Navigation Experience
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-09-17
+Valid as Of: 2025-09-18
+Version: Cloud
+
+--- Record 95 ---
+Component: SAP BTP Command Line Interface
+Environment: ABAP,Cloud Foundry,Kubernetes,Kyma,Neo,Other
+Title: Display of User Group and Attributes Mappings for Role Collections
+Description: We extended the SAP BTP CLI command btp get security/role-collection by adding the --show-attribute-mappings option. When you use this option, you can display the user group and attribute mappings related to the identity providers.  For more information, see Managing Users and Their Authorizations Using the btp CLI.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-09-18
+Valid as Of: 2025-09-18
+Version: 2509a
+
+--- Record 96 ---
+Component: SAP BTP, Cloud Foundry Runtime
+Environment: Cloud Foundry
+Title: Version 51.5.0
+Description: Cloud Foundry has been updated from 51.2.0 to 51.5.0.    https://github.com/cloudfoundry/cf-deployment/releases/tag/v51.5.0  https://github.com/cloudfoundry/cf-deployment/releases/tag/v51.4.0  https://github.com/cloudfoundry/cf-deployment/releases/tag/v51.3.0  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-09-24
+Valid as Of: 2025-09-18
+Version: 2509a
+
+--- Record 97 ---
+Component: SAP HANA Service
+Environment: Neo
+Title: Revision 2.00.079.06
+Description: You can now update to SAP HANA revision 2.00.079.05. See 3614625 - SAP HANA 2 SPS07 Revision 079.06.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-09-18
+Valid as Of: 2025-09-18
+Version: Cloud
+
+--- Record 98 ---
+Component: SAP Java Buildpack
+Environment: Cloud Foundry
+Title: Version 2.39.0
+Description: SAP Java Buildpack 2 has been updated from version 2.38.0 to 2.39.0. Updated components:       TomEE 10 is updated from version 10.1.0 to 10.1.1      SAP HANA Driver (hana.driver.2.X.X) is updated from version 2.25.10 to 2.25.12      com.fasterxml.jackson is updated from version 2.19.0 to 2.19.2      commons-lang3 is updated from version 3.17.0 to 3.18.0      commons-codec is updated from version 1.18.0 to 1.19.0    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-09-05
+Valid as Of: 2025-09-18
+Version: Cloud
+
+--- Record 99 ---
+Component: Data Attribute Recommendation
+Environment: Cloud Foundry
+Title: Model Manager Stability Improvements
+Description: There have been several stability improvements related to the model manager of the Data Attribute Recommendation service.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-09-23
+Valid as Of: 2025-09-17
+Version: Cloud
+
+--- Record 100 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Telemetry module: Update to version 1.47.0
+Description: The new version brings the following improvements:      Logs, Metrics, and Traces: Improved API documentation and in-app help for Kyma dashboard (#2737).      Logs: Adjusted OTLP log agent behaviour to match legacy Fluent Bit-based setup (#2337).      Logs, Metrics, and Traces: Update to OTel Collector 0.133.0 (#2449).      Logs: Update to Fluent Bit 4.0.8 (#2427).    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-09-03
+Valid as Of: 2025-09-17
+Version: Cloud
+

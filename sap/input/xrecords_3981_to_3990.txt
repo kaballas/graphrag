@@ -1,0 +1,130 @@
+--- Record 3981 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: XCO Library
+Description: The XCO XLSX module has been extended and now allows to add new worksheets to existing workbooks.
+Action: Required
+Lifecycle: Restricted Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-02-16
+Valid as Of: 2023-11-01
+Version: ABAP Environment 2402
+
+--- Record 3982 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: XCO Library
+Description: The XCO XLSX module has been extended and now allows to add new worksheets to existing workbooks.
+Action: Required
+Lifecycle: Restricted Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-02-16
+Valid as Of: 2023-11-01
+Version: Cloud
+
+--- Record 3983 ---
+Component: Continuous Integration & Delivery
+Environment: Cloud Foundry
+Title: Deprecation of Native Blue-Green Deployment
+Description: The native (that is, non-MTA and Cloud Foundry) blue-green deployment is deprecated and will be removed after October 31st, 2023.  Action: For jobs using the build tool node or maven, please choose the deploy type standard for any deployment to Cloud Foundry in the Acceptance and Release stages.
+Action: Required
+Lifecycle: Deprecated
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2023-10-31
+Valid as Of: 2023-10-31
+Version: Cloud
+
+--- Record 3984 ---
+Component: Continuous Integration & Delivery
+Environment: Cloud Foundry
+Title: Deprectation of Node 14 and Node 16 Build Tool Versions
+Description: The Node 14 and Node 16 build tool versions are deprecated and will be removed after October 31st, 2023.   Action: Please update your configurations for jobs that contain the following build tool versions, and choose versions containing Node 18, instead:    N14 (Node 14)    N16 (Node 16)  MBTJ8N14 (MBT with Java 8 and Node 14)  MBTJ8N16 (MBT with Java 8 and Node 16)  MBTJ11N14 (MBT with Java 11 and Node 14)  MBTJ11N16 (MBT with Java 11 and Node 16)  MBTJ17N16 (MBT with Java 17 and Node 16)  MBTJ19N16 (MBT with Java 19 and Node 16)    For more information, see Supported Build Tools.
+Action: Required
+Lifecycle: Deprecated
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2023-10-31
+Valid as Of: 2023-10-31
+Version: Cloud
+
+--- Record 3985 ---
+Component: SAP Datasphere
+Environment: Cloud Foundry
+Title: Features for Version 2023.23
+Description: New and changed features are available for administration.  For more information, see What's New in SAP Datasphere 2023.23. 
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-10-31
+Valid as Of: 2023-10-31
+Version: Cloud
+
+--- Record 3986 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Deprecation of the serverless-registry-config Secret handling
+Description: We have now moved the possibility of defining the custom Docker registry using the auto-detected serverless-registry-config Secret to a dedicated configuration option in Serverless CR.  Serverless will still recognize the serverless-registry-config custom Secrets created before, so they will work until the end of the depreciation period (April 1st, 2024). See Serverless configuration to learn how to configure the Docker registry.
+Action: Recommended
+Lifecycle: Deprecated
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2023-10-30
+Valid as Of: 2023-10-30
+Version: Cloud
+
+--- Record 3987 ---
+Component: Integration Suite General Features
+Environment: Cloud Foundry
+Title: Changes in the User Interface
+Description: The following changes can be seen:  Edge Integration Cell is now generally available.   The Integrations tab under the Design, Monitoring, and  Settings sections in the left navigation pane has been renamed to Integrations and APIs to encompass the fact that APIs specific to Edge Integration Cell can now be added as artifacts when creating integration packages.   An Engage section is now available in the left navigation panel and contains content pertaining to products and applications associated with API proxies.   The API tab is no longer available under the Design section, the content of this section dealing with API Management has been moved under the Configure and Engage sections.  If you’ve chosen to activate the Edge Integration Cell, then:    An Operations section is available in the left navigation panel.   A Runtime tab is now available in the Settings section.  See What Is Edge Integration Cell.  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-10-28
+Valid as Of: 2023-10-28
+Version: 2309
+
+--- Record 3988 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Release of the Application Connector module
+Description: As we continue on our path to modularization, we’d like to inform you that Application Connector is now a module!  This module lets you easily and securely manage the connection between external systems and Kyma.  All the existing clusters have the module enabled by default. In the new clusters, you will have to enable it manually. To do that, check the Enable and Disable a Kyma Module tutorial.  New versions of the Application Connector module, with new features, bug fixes, or security patches, will be distributed to your Kyma runtimes using the release channels.  For more information on the Application Connector module, check the Application Connector module documentation.  We invite you to leave feedback in the Application Connector Manager GitHub Repository.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-10-27
+Valid as Of: 2023-10-27
+Version: Cloud
+
+--- Record 3989 ---
+Component: Personalized Recommendation
+Environment: Cloud Foundry
+Title: Overall Improvements
+Description: There have been several code and stability improvements.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2023-10-27
+Valid as Of: 2023-10-27
+Version: Cloud
+
+--- Record 3990 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Lobby UI Update: Transition to Vertical View with Side Navigation
+Description: We have made an update to the lobby user interface to enhance your experience and make it more efficient. As part of our efforts to improve our platform, we have changed the view from a horizontal to a vertical layout with side navigation options.  The addition of side navigation allows convenient access to features and options. Now you can easily use the different capabilities without having to navigate through multiple menus.  We have replaced the following terms on the UI with new ones:    Old Term  New Term        Monitor  Monitoring      Settings  Control Tower    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2023-10-27
+Valid as Of: 2023-10-27
+Version: Cloud
+

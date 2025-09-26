@@ -1,0 +1,130 @@
+--- Record 1631 ---
+Component: Joule
+Environment: Cloud Foundry
+Title: Document Grounding Capability - Support to Destination Configuration with OAuth2ClientCredentials Authentication
+Description: The document grounding capability now supports OAuth2ClientCredentials authentication when you create a destination configuration in the SAP BTP cockpit.  See Configure Access from SAP BTP.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-01-15
+Valid as Of: 2025-01-13
+Version: Cloud
+
+--- Record 1632 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Istio module: Update to version 1.12.0
+Description: Now, you can configure Istio Egress Gateway in the Istio custom resource. Using Istio Egress Gateways allows you to specify exit points from the Istio service mesh and apply a range of Istio features, like monitoring and routing policies, to your outbound traffic. To learn more, see Egress Gateways.  This version of the Istio module includes Istio 1.24.1 and Envoy 1.32.2.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-12-30
+Valid as Of: 2025-01-13
+Version: Cloud
+
+--- Record 1633 ---
+Component: Pricing Service
+Environment: Cloud Foundry
+Title: Zero Maintenance Downtime
+Description: The weekly maintenance windows have been eliminated. Major upgrade windows have been shortened from 8 hours to 4 hours, and start times aligned with BTP and HANA Cloud.   See Service Level Agreement.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-01-17
+Valid as Of: 2025-01-13
+Version: Cloud
+
+--- Record 1634 ---
+Component: Variant Configuration
+Environment: Cloud Foundry
+Title: Zero Maintenance Downtime
+Description: The weekly maintenance windows have been eliminated. Major upgrade windows have been shortened from 8 hours to 4 hours, and start times aligned with BTP and HANA Cloud.   See Service Level Agreement.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-01-17
+Valid as Of: 2025-01-13
+Version: Cloud
+
+--- Record 1635 ---
+Component: SAP Business Application Studio
+Environment: Cloud Foundry
+Title: Development Experience
+Description: When working in a Full-Stack Application Using Productivity Tools dev space, the Project Overview is now displayed when you first open the workspace. The Project Overview includes all the functionality of the Project Explorer as well as additional features that will enhance your development experience. See Project Overview.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-01-12
+Valid as Of: 2025-01-12
+Version: T2412b
+
+--- Record 1636 ---
+Component: SAP Business Application Studio
+Environment: Cloud Foundry
+Title: SAP Build Code
+Description: If you are using SAP Build Code, you can now use Joule to create your application logic.   Please note that the template based visual design is no longer supported. Changes to dependency libraries may cause existing application logic to stop working. In such cases, users should use version 1.2.4 of the @sap/low-code-event-handler instead of the latest version. See Customize Service Behavior.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-01-12
+Valid as Of: 2025-01-12
+Version: T2412b
+
+--- Record 1637 ---
+Component: Data Space Integration
+Environment: Cloud Foundry
+Title: Software Version Update
+Description: The following are the latest versions in Data Space Integration:      Data Space Integration: 1.4.*      Increment: 2412      Tractus-X Eclipse Dataspace Connector: 0.7.6      FOSS Eclipse Dataspace Components: 0.7.2      See also the Release Notes of Catena-X. 
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-01-11
+Valid as Of: 2025-01-11
+Version: 2412
+
+--- Record 1638 ---
+Component: Edge Integration Cell
+Environment: Cloud Foundry
+Title: Edge Local Authentication and Authorization support for External Certificate pinning
+Description: You can now use Edge Integration Cell to disable certificate pinning. However, it is important to note that when pinning is disabled, both the current certificates and any previously used ones (with older issue dates) can authenticate successfully. For more information, see Edge Local Authentication and Authorization.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-01-11
+Valid as Of: 2025-01-11
+Version: 2412
+
+--- Record 1639 ---
+Component: Edge Integration Cell
+Environment: Cloud Foundry
+Title: New Artifact Diagnostic Task
+Description: You can now diagnose issues within the artifact lifecycle, such as deployment, undeployment, and component restart. This also includes the calculation of the artifact state or simulations.  See: Diagnostics
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-01-11
+Valid as Of: 2025-01-11
+Version: 2412
+
+--- Record 1640 ---
+Component: Edge Integration Cell
+Environment: Cloud Foundry
+Title: New Component in Diagnostics
+Description: You can now select Worker from the list of components when creating a diagnostic task.  See: Diagnostics
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-01-11
+Valid as Of: 2025-01-11
+Version: 2412
+

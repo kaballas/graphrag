@@ -1,0 +1,130 @@
+--- Record 3001 ---
+Component: Pricing Service
+Environment: Cloud Foundry
+Title: Extension Concept - Provide More Data to Requirement Implementations
+Description: The pricing engine used to only pass parameters attributes and exclusioIndicator as input data to requirement implementations.  This is still the default behavior, but through a projection on fields of structure itemInput in COLLECT ATTRIBUTES' response via extendedInput>documentInput>itemInput>projection it is now also possible to request the item quantity and other conditions information for a requirement formula.  For a requirement formula, it is only possible to retrieve a subset of the conditions field for the already determined pricing conditions:    stepNumber      counter      conditionType      conditionRate      conditionUnit      scale      See API Definition and Extension Guide for SAP Variant Configuration and Pricing.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-03-25
+Valid as Of: 2024-05-02
+Version: Cloud
+
+--- Record 3002 ---
+Component: Pricing Service
+Environment: Cloud Foundry
+Title: Pricing Engine Trace - Log Inactivity Because of a Missing Routine Implementation
+Description: When a pricing implementation is missing, the condition type will be marked as inactive in the pricing results. But in the calculation trace, the reason for the inactivity used to be missing. This issue has been corrected.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-03-25
+Valid as Of: 2024-05-02
+Version: Cloud
+
+--- Record 3003 ---
+Component: Pricing Service
+Environment: Cloud Foundry
+Title: SAP Cloud ALM Integration for Performance Monitoring
+Description: The Real User Monitoring start page, which should provide an overview of all service requests, was hard to read because a very large number of individual requests was listed. This happened due to some IDs in the paths of the requests that could not be aggregated at the endpoint level. This issue has been corrected by replacing such IDs with an asterisk. With that, now you see aggregations such as /api/v1/pricing/documents/*/conditions/* or /api/v1/pricing/documents/*/items/* instead of individual requests per document id, item id, or condition id.  See Administration Guide for SAP Variant Configuration and Pricing.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-04-15
+Valid as Of: 2024-05-02
+Version: Cloud
+
+--- Record 3004 ---
+Component: Pricing Service
+Environment: Cloud Foundry
+Title: Stateless Pricing - Enable SAP CPQ to Work With Alternative Units of Measure
+Description: In pricing results, the condition rates are returned as maintained. Only condition values are returned in the target document currency based on the item’s target quantity and unit of measure. To help SAP CPQ to cope with condition rates that use alternative units of measure, the item condition details of endpoint POST /api/v1/statelesspricing is enhanced with a new field conditionRateNormalized, which also considers the target currency and the sales unit of measure.   This field is for use in SAP CPQ only and may change becoming incompatible at any time when requested by SAP CPQ. Do not use this field in any other integrations.  See API Definition and Development Guide for SAP Variant Configuration and Pricing.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-03-25
+Valid as Of: 2024-05-02
+Version: Cloud
+
+--- Record 3005 ---
+Component: Pricing Service
+Environment: Cloud Foundry
+Title: Support Custom Subtotal Flags
+Description: Custom subtotal flags in a pricing procedure used to cause an error. This issue has been corrected.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-03-25
+Valid as Of: 2024-05-02
+Version: Cloud
+
+--- Record 3006 ---
+Component: Pricing Service
+Environment: Cloud Foundry
+Title: Support Data Determination Access Type C - KOMPAZAD
+Description: Data determination at condition access level was previously not supported by the Pricing service. This also meant that the Pricing service did not consider condition record fields with access type C Data Field from Condition Table  This gap has been closed. The Pricing service supports the determination of fields in the structure KOMPAZD in an access and their use for the condition determination in a subsequent access.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-03-25
+Valid as Of: 2024-05-02
+Version: Cloud
+
+--- Record 3007 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Manage and Monitor your Events
+Description: You can now connect your events at one place, to manage, monitor, and to ensure they run smoothly.For more information, see Connect with SAP Integration Suite, Advanced Event Mesh.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-05-02
+Valid as Of: 2024-05-02
+Version: Cloud
+
+--- Record 3008 ---
+Component: SAP HANA Service
+Environment: Neo
+Title: Monitoring of SAP HANA Tenant Databases Unused Memory
+Description: On the Monitoring view of your database systems, you can now view the HANA Tenant Databases Unused Memory metric to monitor the unused memory. See View Memory Usage for an SAP HANA Database System.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-05-02
+Valid as Of: 2024-05-02
+Version: Cloud
+
+--- Record 3009 ---
+Component: Data Quality Services
+Environment: Cloud Foundry,Neo
+Title: Enhancements
+Description:   The microservice now supports address validation in Bolivia to the street level and sometimes to the house number level. See Country Coverage for more information.   Improvements were made to type ahead suggestions when entering a United Kingdom postcode.   Migration from the Neo environment to Cloud Foundry is now available. For more information, see Migrating Data Quality Services from Neo to Cloud Foundry Environment.  Note  The Neo environment will be deprecated December 31, 2028.    
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2024-05-01
+Version: Cloud
+
+--- Record 3010 ---
+Component: Mobile Services
+Environment: Cloud Foundry
+Title: Additional user interface languages
+Description: (Version: 2404) The Mobile Services cockpit is now available in Serbian (Cyrillic), Serbian (Latin), Montenegrin, and Macedonian.Note  The documentation is still translated only in Simplified Chinese and Japanese.  See User Interface
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-04-16
+Valid as Of: 2024-05-01
+Version: Cloud
+

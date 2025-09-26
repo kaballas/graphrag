@@ -1,0 +1,130 @@
+--- Record 1541 ---
+Component: SAP Business Application Studio
+Environment: Cloud Foundry
+Title: Development Experience
+Description: When working on full-stack Java projects, You can now create run configurations using the wizard-based runner. See Using the Wizard-Based Runner.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-01-26
+Valid as Of: 2025-01-26
+Version: T2413b
+
+--- Record 1542 ---
+Component: SAP Business Application Studio
+Environment: Cloud Foundry
+Title: Development Experience
+Description: When running your Full-Stack Application Using Productivity Tools project (using the Run Configurations tool), you can now view and edit the destination with which you want to run external resources of type RFC.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-01-26
+Valid as Of: 2025-01-26
+Version: T2413b
+
+--- Record 1543 ---
+Component: SAP Business Application Studio
+Environment: Cloud Foundry
+Title: Service Center
+Description: You can now explore SAP S/4HANA Cloud products created in the Developer Hub directly from the Service Center and consume their services (APIs) in CAP or HTML5 applications. See Developer Hub Service Provider.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-01-26
+Valid as Of: 2025-01-26
+Version: T2413b
+
+--- Record 1544 ---
+Component: SAP S/⁠4HANA Cloud for Credit Integration
+Environment: Cloud Foundry
+Title: Change of product name of SAP S/4HANA Cloud Public Edition
+Description: The integrated product SAP S/4HANA Cloud was renamed to SAP S/4HANA Cloud Public Edition. The references in the documentation of SAP S/4HANA Cloud for credit integration have been updated.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Finance
+Latest Revision: 2025-01-24
+Valid as Of: 2025-01-24
+Version: Cloud
+
+--- Record 1545 ---
+Component: Multitarget Applications for Cloud Foundry
+Environment: Cloud Foundry
+Title: Removal of MTA module types business-logging and com.sap.business-logging.content
+Description: The MTA module types business-logging and com.sap.business-logging.content are officially removed.  If you continue using these module types in your MTA, the deployments will fail with a similar error message: Error merging descriptors: Unsupported module type "business-logging" for platform type "CLOUD-FOUNDRY".   Action: Migrate to other module types depending on your needs. If you require support, report an incident to component BC-CP-CF-DS.
+Action: Required
+Lifecycle: Deleted
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-01-09
+Valid as Of: 2025-01-23
+Version: Cloud
+
+--- Record 1546 ---
+Component: Automation Pilot
+Environment: Cloud Foundry
+Title: ForEach and SensitiveForEach Commands
+Description: Both ForEach (Version 1) and SensitiveForEach (Version 1) commands are now deprecated. You can use their respective Version 2 commands instead.  See ForEach Version 2 Command and SensitiveForEach Version 2 Command.
+Action: Info only
+Lifecycle: Deprecated
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-01-23
+Valid as Of: 2025-01-23
+Version: Cloud
+
+--- Record 1547 ---
+Component: PostgreSQL, Hyperscaler Option
+Environment: Cloud Foundry
+Title: V12 instance upgrade for Azure regions
+Description: End of life of version 12 for PostgreSQL, Hyperscaler Option on Azure.  We highly recommend upgrading v12 databases to major version 15.   For more information, see End of Life of Version 12 for PostgreSQL, Hyperscaler Option on Azure.   Any remaining v12 Postgres Hyperscaler Azure instances will be force upgraded to higher version in the timeframe from February 8 to February 23, 2025.
+Action: Info only
+Lifecycle: Deprecated
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-01-23
+Valid as Of: 2025-01-23
+Version: Cloud
+
+--- Record 1548 ---
+Component: Java Server
+Environment: Neo
+Title: Tomcat version for Java Web Tomcat 10
+Description: Java Web Tomcat 10 (runtime version 5.14) has been updated to Tomcat version 10.1.34.  See the Changelog and Security Fixes.  Recommended action: Update your applications to the latest runtime version. See Keeping Your Application Runtimes Up-to-date.
+Action: Recommended
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-01-23
+Valid as Of: 2025-01-23
+Version: Cloud
+
+--- Record 1549 ---
+Component: Java Server
+Environment: Neo
+Title: Tomcat version for Java Web Tomcat 9 and Java EE 7 Web Profile TomEE 7
+Description: Java Web Tomcat 9 (runtime version 4.94) and Java EE 7 Web Profile TomEE 7 (runtime version 1.192) have been updated to Tomcat version 9.0.98.  See the Changelog and Security Fixes.  Recommended action: Update your applications to the latest runtime version. See Keeping Your Application Runtimes Up-to-date.
+Action: Recommended
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-01-23
+Valid as Of: 2025-01-23
+Version: Cloud
+
+--- Record 1550 ---
+Component: Authorization and Trust Management Service
+Environment: ABAP,Cloud Foundry,Kyma,Other
+Title: Delay Between Operations for Token Signing Keys Increased
+Description: The service enforces a minimum delay between the following operations on signing keys for access tokens:      Creation and activation      Activation and deletion      The delay between these operations is increased from 1-hour to 12-hours. The delay helps ensure that all necessary artifacts are replicated across the entire landscape.  For more information, see Rotate Signing Keys of Access Tokens.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-01-09
+Valid as Of: 2025-01-23
+Version: 2413b
+

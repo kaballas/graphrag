@@ -1,0 +1,130 @@
+--- Record 3011 ---
+Component: Mobile Services
+Environment: Cloud Foundry
+Title: Cloud Build removed for SAP Mobile Cards
+Description: (Version: 2404) Mobile Cloud Build has been removed from the Mobile Card Kit (MCK), and therefore removed form the SAP Mobile Cards user interface and documentation.  See:    Configuring and Building Apps      Supported Build Types, Client Types, Packaging Details, and Build Options      Creating a Build Job    
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-04-16
+Valid as Of: 2024-05-01
+Version: Cloud
+
+--- Record 3012 ---
+Component: Mobile Services
+Environment: Cloud Foundry
+Title: Doc Update: Offline user interface improvements
+Description: (Version: 2404) Additional information has been provided about using the check_repeatable_requests and also using any of the send_standard_repeatability or  send_origin_repeatability properties. When the check_repeatable_requests property is enabled, both the send_origin_repeatability and the send_standard_repeatability properties are ineffective and should be disabled.   See Editing the Application Configuration File
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-04-16
+Valid as Of: 2024-05-01
+Version: Cloud
+
+--- Record 3013 ---
+Component: Mobile Services
+Environment: Cloud Foundry
+Title: New property added for httpauth
+Description: (Version: 2404) The Enable User Attribute property has been added to the Security tab for HTTP settings. Roles can be derived from httpauth, similar to the way roles can be derived from SAML attributes.   See Configuring App Security
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-04-16
+Valid as Of: 2024-05-01
+Version: Cloud
+
+--- Record 3014 ---
+Component: Mobile Services
+Environment: Cloud Foundry
+Title: OData destination quality check
+Description: (Version: 2404) You can now test the quality of an OData destination connection. The test provides information that can help you improve the back-end connection during development. The Offline feature must be enabled for the application.   See:    Creating a Destination      Testing OData Destination Quality      Editing the Application Configuration File    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-04-16
+Valid as Of: 2024-05-01
+Version: Cloud
+
+--- Record 3015 ---
+Component: SAP Alert Notification Service
+Environment: Cloud Foundry
+Title: New SAP HANA Cloud Service Database Event
+Description: You can now use the newly supported HDB Instance Move Pending event.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-04-30
+Valid as Of: 2024-04-30
+Version: Cloud
+
+--- Record 3016 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Document Extraction and Information Processing
+Description: If you are using a document template to extract data, you can now export the document template as a.zip file, which can then be added as an attachment to support tickets, for example. See Process Documents Using Templates.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-04-30
+Valid as Of: 2024-04-30
+Version: Cloud
+
+--- Record 3017 ---
+Component: SAP Intelligent Robotic Process Automation
+Environment: Cloud Foundry
+Title: Migrating to SAP Build Process Automation
+Description: You can now migrate your projects from SAP Intelligent Robotic Process Automation to SAP Build Process Automation on your tenant in one go, without having to move or duplicate the content. All of your historical job information is also kept. See Migrating to SAP Build Process Automation and SAP Note 3334979 .
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-04-30
+Valid as Of: 2024-04-30
+Version: Cloud
+
+--- Record 3018 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Istio module: Deprecation of Kyma Referer
+Description: With the release 1.5 of the Istio module, we plan to update Istio to version 1.21 and discontinue supporting Kyma Referer. The rollout of version 1.5 is scheduled for April 8th in the fast channel and April 29th in the regular channel.Kyma Referer, introduced in Kyma 2.16.1, allowed you to use intent-based navigation fragments preceded with the # symbol. The feature becomes deprecated in order to enhance security and align with Envoy's approach. Action: Update the headers in your configuration so that they no longer include userinfo or fragment components.
+Action: Required
+Lifecycle: Deprecated
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-04-10
+Valid as Of: 2024-04-29
+Version: Cloud
+
+--- Record 3019 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Application Connector module: Update to version 1.1.0
+Description: The new release of the Application Connector module contains a new service, Compass Runtime Agent, which was previously installed with Kyma runtime. From now on, it will be fully modularized and loaded on demand with the other Application Connector module components, allowing you to save computing resources.  This change is aligned with the new control plane architecture where Kyma runtime is registered in Compass only when the Application Connector module is added.  This release also contains multiple security updates.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-04-25
+Valid as Of: 2024-04-29
+Version: Cloud
+
+--- Record 3020 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Istio module: Update to version 1.5.0
+Description: The release 1.5.0 of the Istio module contains Istio updated to version 1.21. We have also removed Kyma Referer, as announced in the deprecation note.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-04-10
+Valid as Of: 2024-04-29
+Version: Cloud
+

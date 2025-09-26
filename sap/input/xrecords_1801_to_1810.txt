@@ -1,0 +1,130 @@
+--- Record 1801 ---
+Component: OData Provisioning
+Environment: Cloud Foundry
+Title: The OData Provisioning capability is now generally available.
+Description: OData Provisioning helps you explore SAP Gateway services from SAP Business Suite systems and publish them as OData end-points. This eliminates the need for an on-premise SAP Gateway server and enables you to run user-centric applications. See OData Provisioning.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-12-07
+Valid as Of: 2024-12-07
+Version: 2410
+
+--- Record 1802 ---
+Component: Trading Partner Management
+Environment: Cloud Foundry
+Title: Resend/Retry Interchanges
+Description: You can now resend or retry failed interchanges.  See: Resend/Retry Interchanges
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-12-07
+Valid as Of: 2024-12-07
+Version: 2410
+
+--- Record 1803 ---
+Component: Trading Partner Management
+Environment: Cloud Foundry
+Title: Software Version Update
+Description:   SAP Cloud Integration: 6.59.*  Increment: 2410  
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-12-07
+Valid as Of: 2024-12-07
+Version: 2410
+
+--- Record 1804 ---
+Component: Event Mesh
+Environment: Cloud Foundry
+Title: Support for HTTP Protocol
+Description: You can now publish and consume messages using HTTP protocol with the help of REST APIs.See: Publish and Consume Events
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-12-06
+Valid as Of: 2024-12-06
+Version: 2410
+
+--- Record 1805 ---
+Component: Joule
+Environment: Cloud Foundry
+Title: Joule Now Available in SAP S/4HANA Cloud Public Edition.
+Description: Joule is now available in SAP S/4HANA Cloud Public Edition for the following use cases:      Navigation to a selection of apps in Sourcing and Procurement, Finance, Sales, Professional Services, and Public Sector industry.      Viewing business data of the following objects:    Purchase orders and purchase requisitions  Outbound deliveries and sales orders        Information retrieval for all business areas.      Note  To access Joule within SAP S/4HANA Cloud Public Edition, an additional entitlement and authorization may be required. Please consult your account executive for more information.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-12-06
+Valid as Of: 2024-12-06
+Version: Cloud
+
+--- Record 1806 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: List feature for Decision Variables
+Description: You can now create a decision variable which is collection of a specific data by checking the List checkbox. SeeCreate a Decision.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-12-06
+Valid as Of: 2024-12-06
+Version: Cloud
+
+--- Record 1807 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Same Input as Output for Decisions
+Description: You can now set an input parameter as the output by enabling the Same as Input switch. See Create a Decision.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-12-06
+Valid as Of: 2024-12-06
+Version: Cloud
+
+--- Record 1808 ---
+Component: Document Management Service
+Environment: Cloud Foundry
+Title: Java Plugin Support
+Description: The new CAP plugin for SAP Document Management Service is now available in Java. This plugin is designed to simplify the integration of SAP Document Management Service into any CAP application, significantly reducing the amount of required coding.  See CAP Plugin for Java.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-12-05
+Valid as Of: 2024-12-05
+Version: Cloud
+
+--- Record 1809 ---
+Component: SAP BTP Administrator's Guide
+Environment: ABAP,Cloud Foundry,Kyma,Other
+Title: New and improved content
+Description:   Get guidance on how to manage and monitor cost with the new topic: Managing Cost.  The backup documentation has seen major improvements: See SAP BTP Service Configuration Backups Managed by Customers and Data Backups Managed by SAP.  We've improved Involve Local SAP BTP Tools for Operations, section "Monitoring Platform and Service Availability".  We've updated Building Teams.  
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-12-05
+Valid as Of: 2024-12-05
+Version: Cloud
+
+--- Record 1810 ---
+Component: SAP Build Apps
+Environment: Cloud Foundry
+Title: Web & Mobile
+Description:   The iOS builds now support only devices with software versions iOS 16 and higher. To learn more, see iOS Builds.  We have added support for all types of processes from SAP Build Process Automation (API Trigger, Form Trigger, and Event Trigger). However, the Trigger process and the Get process attributes flow functions support only processes of API Trigger type.  
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-12-05
+Valid as Of: 2024-12-05
+Version: Cloud
+

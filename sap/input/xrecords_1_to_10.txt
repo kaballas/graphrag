@@ -1,0 +1,130 @@
+--- Record 1 ---
+Component: Platform Domains
+Environment: Neo
+Title: Root Certificate Replacement
+Description: To remain compliant with modern security standards while maintaining continuous compatibility with all major browsers and platforms, the SAP BTP Neo environment will switch to the G3 ICA and deploy certificates signed by the new CA for all platform domains. This means that the DigiCert Root CA platform domain certificate will be signed by DigiCert Global Root G3 instead of DigiCert Global Root G2.   The switch will happen in individual regions starting as of April 2026.  The following platform domains are affected:    *.<Region.Domain>      *.dispatcher.<Region.Domain>      *.cert.<Region.Domain>      *.static.<Region.Domain>      *.vms.<Region.Domain>      *.netweaver.ondemand.com      connectivitynotification.<Region.Domain>      connectivitytunnel.<Region.Domain>      If you control the trust stores of your client, you must ensure that the new root CA is added to the certificate trust store. The client must include the old and the new root CA.   For an overview of all region domains, see: Regions and Hosts Available for the Neo Environment    Action: It is possible that older clients or operating systems do not trust the new root CA, which can cause certificate validation or handshake errors. Within the transition period, it is recommended that you verify that your clients are trusting DigiCert Global Root G3.
+Action: Recommended
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-09-18
+Valid as Of: 2026-04-01
+Version: Cloud
+
+--- Record 2 ---
+Component: Authorization and Trust Management Service
+Environment: ABAP,Cloud Foundry,Kyma,Neo,Other
+Title: Automatic Signing Key Rotation for Access Tokens as Default
+Description: Automatic rotation of the signing key for access tokens is enabled for new subaccounts by default. SAP BTP rotates the signing key periodically.    Note  Customers can still enable or disable automatic signing key rotation.    Action  If you plan on deploying custom applications to these new subaccounts, make sure they don't rely on a manually configured token signing key or the signing key from the binding or service key. To test an application, enable automatic key rotation in an existing subaccount. The first key rotation should occur in within 48 hours.  See Rotate Signing Keys of Access Tokens.
+Action: Required
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2025-08-07
+Valid as Of: 2026-01-19
+Version: 2513b
+
+--- Record 3 ---
+Component: Authorization and Trust Management Service
+Environment: ABAP,Cloud Foundry,Kyma,Neo,Other
+Title: End-of-Life for Instance Secret Credential Type
+Description: The credential type instance-secret has reached end-of-life. You are affected by this change in the following cases:      You have explicitly configured the credential type instance-secret in your security descriptor.      Your service instance was created before 12 November 2024 without the explicit configuration of credential types in your security descriptor.      This change has the following impact:        Creating or updating service instances with the credential type instance-secret in the security descriptor fail.      Creating bindings or service keys with the credential type instance-secret fail.      Existing instance secrets are removed or rejected if they haven't been used for more than 3 months.      For service instances created before 12 November 2024 without the explicit configuration of credential types in your security descriptor, the service instance update changes the default binding type from instance-secret to binding-secret.      New bindings or service keys for other BTP services can't contain instance secrets.        Action  Instead of using the instance-secret credential type, applications and services use the binding-secret credential type (see Migrate from Instance Secrets to Binding Secrets) or x509 (see Retrieving Access Tokens with Mutual Transport Layer Security (mTLS)).  To test your application with these credential types, update your security descriptor to set the credential type to ["binding-secret", "x509"].  For more information on the security descriptor, see Application Security Descriptor Configuration Syntax.
+Action: Required
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2025-08-07
+Valid as Of: 2026-01-19
+Version: 2513b
+
+--- Record 4 ---
+Component: Authorization and Trust Management Service
+Environment: ABAP,Cloud Foundry,Kyma,Neo,Other
+Title: End-of-Life for Service Plans
+Description: The following service plans have reached end-of-life:        space      default      devuser        Your existing service instances continue to function. You can't update existing instances or create new instances with these plans.  Action  Instead of using these deprecated plans, we recommend that developers use the application plan. For more information, see Service plans of the SAP Authorization and Trust Management service.
+Action: Required
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2025-08-07
+Valid as Of: 2026-01-19
+Version: 2513b
+
+--- Record 5 ---
+Component: Authorization and Trust Management Service
+Environment: ABAP,Cloud Foundry,Kyma,Neo,Other
+Title: End-of-Life for Synchronous Creation or Update of Service Instances
+Description: The synchronous creation or update of service instances has reached end-of-life. You are affected by this change if you explicitly use the xsenableasyncservice property in your security descriptor and it is set to false.  If you use the xsenableasyncservice property with the value false, update and creation of service instances fails.  Action  If you're affected, ensure that your application works with asynchronous service instance creation and update before the end-of-life date.  To test, remove xsenableasyncservice from the security descriptor prior to the change. If you use the element with the value true, you can remove it without any impact.  In addition, consider adapting any Cloud Foundry CLI commands in your scripts so that they wait for processing to complete:    cf create-service xsuaa application xsuaa-app -c security.json --wait  cf update-service xsuaa-app -c security.json --wait    Note  Cloud Foundry CLI version 8 and later supports the --wait option.  Ensure that your application or service works with asynchronous service instance creations and updates.  For more information, see Application Security Descriptor Configuration Syntax.
+Action: Required
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2025-08-07
+Valid as Of: 2026-01-19
+Version: 2513b
+
+--- Record 6 ---
+Component: SAP Java Buildpack
+Environment: Cloud Foundry
+Title: Last call for users of SAP Java Buildpack 1
+Description: We want to remind you that SAP Java Buildpack 1 has been deprecated and is going to be removed from SAP BTP, Cloud Foundry environment. To learn more, see: Removal of SAP Java Buildpack 1    Unfortunately, there are still applications depending on it. To prevent disruptions and support business continuity as much as possible, we're postponing its removal to December 31, 2025. That's your last chance, there are going to be no more extensions.   Caution      Effective October 1, we're renaming the buildpack to sap_java_buildpack_to_be_removed.       The old name, sap_java_buildpack, will stay for a while but then we'll gradually remove it from our Cloud Foundry environment.       Both buidlpack names point to the same version (currently, 1.115.0).      Action:  If you have applications still running on sap_java_buildpack, you have two options:     [RECOMMENDED] Migrate them to sap_java_buildpack_jakarta as soon as possible! To learn how, see: Migrate your Applications to SAP Java Buildpack 2  [WORKAROUND] To keep using SAP Java Buildpack 1 till the end of 2025, open your manifest.yml or mtad.yaml files, replace sap_java_buildpack with sap_java_buildpack_to_be_removed, and then restage or redeploy your applications. This is just a temporary solution – please migrate to SAP Java Buildpack 2 as soon as you can!  
+Action: Required
+Lifecycle: Deprecated
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2025-09-08
+Valid as Of: 2025-12-31
+Version: Cloud
+
+--- Record 7 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Approve ATC Exemptions App: Receive E-Mail Notifications
+Description: You can now subscribe to receive e-mail notifications when an ATC exemption request was approved.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: nan
+Latest Revision: 2025-11-15
+Valid as Of: 2025-11-15
+Version: ABAP Environment 2511
+
+--- Record 8 ---
+Component: Pricing Service
+Environment: Cloud Foundry
+Title: Production – On-Request Tracing
+Description: Additionally to the existing trace settings ON and OFF, a new setting ON_REQUEST was introduced to collect traces only for a subset of requests. To determine for which requests the traces will be collected, the header parameter x-cps-trace needs to be set. The relevant trace type must be set as a parameter value: CONDITION_DETERMINATION, CONDITION_CALCULATION, EXTENSION, or TAXES_US.  See: API Definition, Development Guide for SAP Variant Configuration and Pricing, and Administration Guide for SAP Variant Configuration and Pricing.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-09-19
+Valid as Of: 2025-11-12
+Version: Cloud
+
+--- Record 9 ---
+Component: Pricing Service
+Environment: Cloud Foundry
+Title: Production – Stateless Pricing – Condition Supplements in Price Agreements
+Description: Condition supplements, such as related surcharges or discounts, that are linked to a primary condition, can now be processed alongside the primary conditions in stateless price agreement scenarios. This ensures that all dependent pricing elements are considered during price calculation.  See: API Definition, and Development Guide for SAP Variant Configuration and Pricing.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-09-19
+Valid as Of: 2025-11-12
+Version: Cloud
+
+--- Record 10 ---
+Component: Pricing Service
+Environment: Cloud Foundry
+Title: Production – Stateless Pricing – Dynamic Scale Base Types in Price Agreements
+Description: Price agreements in stateless pricing now support dynamic scale base types as part of the pricing input. Consuming applications can specify the scale base type at runtime. For example, quantity, value, weight, volume. This allows the correct evaluation of scale conditions based on the input during runtime rather than relying only on predefined customizing.  See: API Definition, and Development Guide for SAP Variant Configuration and Pricing.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-09-19
+Valid as Of: 2025-11-12
+Version: Cloud
+

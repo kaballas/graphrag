@@ -1,0 +1,130 @@
+--- Record 1261 ---
+Component: Edge Integration Cell
+Environment: Cloud Foundry
+Title: Customizable proxy settings enabled for the AS2 sender adapter
+Description: You can now set the proxy type settings if you have Edge Integration Cell runtime activated.  For more information, see   Configure the AS2 Sender Adapter  Configure the AS2 Receiver Adapter      SAP Cloud Integration customers, see   Configure the AS2 Sender Adapter  Configure the AS2 Receiver Adapter  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-03-09
+Valid as Of: 2025-03-09
+Version: 2501
+
+--- Record 1262 ---
+Component: Edge Integration Cell
+Environment: Cloud Foundry
+Title: Enhancements in the Diagnostics Tasks table
+Description: New enhancements in the Diagnostic Tasks table include:  The new Table Settings allows you to show or hide additional columns and change their order in the table.  An additional column Component is available.  The overflow button contains the option Details, which opens a dialog showing details about the task.    See: Diagnostics
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-03-09
+Valid as Of: 2025-03-09
+Version: 2501
+
+--- Record 1263 ---
+Component: Edge Integration Cell
+Environment: Cloud Foundry
+Title: Kubernetes (K8s) 1.31. is now supported
+Description: Edge Integration Cell now supports Kubernetes (K8s) 1.31.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-03-09
+Valid as Of: 2025-03-09
+Version: 2501
+
+--- Record 1264 ---
+Component: Edge Integration Cell
+Environment: Cloud Foundry
+Title: Software Version Update
+Description:     Edge Integration Cell: 8.27.*    Increment: 2501  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-03-09
+Valid as Of: 2025-03-09
+Version: 2501
+
+--- Record 1265 ---
+Component: Edge Integration Cell
+Environment: Cloud Foundry
+Title: Updates on Heap Dump Diagnostic Tasks
+Description: New updates on the Heap Dump Diagnostic Task include:    You can now analyze heap dumps and download the analysis results instead of the raw heap dumps.   New statuses and actions are available.    See: Heap Dumps
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-03-09
+Valid as Of: 2025-03-09
+Version: 2501
+
+--- Record 1266 ---
+Component: Event Mesh
+Environment: Cloud Foundry
+Title: Specify parameters in JSON file when configuring a message client.
+Description: You can specify parameters like namespace and connection rules for a messaging client. See Configure a Message Client.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-03-09
+Valid as Of: 2025-03-09
+Version: 2501
+
+--- Record 1267 ---
+Component: Integration Assessment
+Environment: Cloud Foundry
+Title: Software Version Update
+Description:     Integration Assessment: 1.37.*      Increment: 2501    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-03-09
+Valid as Of: 2025-03-09
+Version: 2501
+
+--- Record 1268 ---
+Component: Migration Assessment
+Environment: Cloud Foundry
+Title: Extended Evaluation of XSLT Mappings
+Description: Rules have been added for analyzing usage of Java extensions and the number of dependencies in XLST mappings. This allows a more accurate estimate of the migration effort.  The additional information is reported in the full evaluation result spreadsheet. Please note that to view this new information, you will need to perform a new data extraction. For more details on how to extract the your data, visit Create a Data Extraction Request.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-03-09
+Valid as Of: 2025-03-09
+Version: 2501
+
+--- Record 1269 ---
+Component: Migration Assessment
+Environment: Cloud Foundry
+Title: Software Version Update
+Description:     Migration Assessment: 1.37.*      Increment: 2501    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-03-09
+Valid as Of: 2025-03-09
+Version: 2501
+
+--- Record 1270 ---
+Component: SAP Business Application Studio
+Environment: Cloud Foundry
+Title: Calculation Views
+Description: In the calculation view editor, an execution hint is now available that lets you control the automatic removal of duplicate edges in hierarchies. This option can be accessed from the Select Execution Hint from List dialog.  See Supported Execution Hints.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-03-18
+Valid as Of: 2025-03-09
+Version: T2502a
+

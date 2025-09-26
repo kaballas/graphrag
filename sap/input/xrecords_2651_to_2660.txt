@@ -1,0 +1,130 @@
+--- Record 2651 ---
+Component: Decentralized Identity Verification
+Environment: Cloud Foundry
+Title: Adding the New Revocation Type - BitstringStatusList
+Description: Revocation lists can be created with the new BitstringStatusList revocation list type.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2024-07-03
+Version: 3.0
+
+--- Record 2652 ---
+Component: Decentralized Identity Verification
+Environment: Cloud Foundry
+Title: Supporting Additional Signing Algorithms
+Description: You can now select the following signing algorithms: ES256K, ES256, ES384, Ed25519, PS256
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2024-07-03
+Version: 3.0
+
+--- Record 2653 ---
+Component: Java Library
+Environment: Cloud Foundry
+Title: Supporting Trust Lists
+Description: The Java library allows you to create, delete, and update trust lists.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2024-07-03
+Version: 3.0
+
+--- Record 2654 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Telemetry module: Update to version 1.17
+Description: Version 1.17.0 brings the following improvements:      Telemetry Manager now checks the health of the data flow in agents and gateways, and reports it to the pipeline resources under the new status condition TelemetryFlowHealthy. With this, you can easily detect if there are problems with the data flow for logs, traces, and metrics; for example, caused by unavailability of backends (#425).      For better usability and consistency, we've extended the reasons and messages for status conditions (#1023).      Metrics: Metrics provided using a MetricPipeline input now have a well-defined OTEL instrumentationScope version attribute defined to identify the Telemetry module's version as origin of the metric (#1000).      Metrics, Traces: Update to OTel Collector version 0.100.0 (#1085).      Version 1.17.1 brings the following improvements:      The new version addresses vulnerability CVE-2024-36129 by updating OTel Collector to version 0.102.1 (#1158).    We fixed a bug that prevented accessing the Telemetry module configuration in the Kyma dashboard (#1140).  
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-07-11
+Valid as Of: 2024-07-03
+Version: Cloud
+
+--- Record 2655 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Telemetry module: Update to version 1.18.0
+Description: The new version brings the following improvements:      Logs, Metrics, and Traces: The pipeline status shows whether the certificate is invalid or expired, based on the ca field in a pipeline TLS section (#1065).      Logs: Update to Fluent Bit 3.0.7 (#1169).    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-06-18
+Valid as Of: 2024-07-03
+Version: Cloud
+
+--- Record 2656 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: BAPI Overview and BAPI Action Group Overview
+Description: The BAPI method is now available for use in an automation for Agent 3 x64bit. See BAPI Overview.  The BAPI Action Group for Agent 3 x64bit is now available for use. See BAPI Action Group Overview.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-07-03
+Valid as Of: 2024-07-03
+Version: Cloud
+
+--- Record 2657 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: The SAP GUI Technology
+Description: The Recorder with Desktop Agent x64 can now automate both 32-bit and 64-bit versions of SAPWinGUI. See The SAP GUI Technology.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-07-03
+Valid as Of: 2024-07-03
+Version: Cloud
+
+--- Record 2658 ---
+Component: SAP Datasphere
+Environment: Cloud Foundry
+Title: Features for Version 2024.14
+Description: New and changed features are available for administration, data integration, data modeling, and space management.  For more information, see What's New in SAP Datasphere 2024.14. 
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-07-03
+Valid as Of: 2024-07-03
+Version: Cloud
+
+--- Record 2659 ---
+Component: SAP Omnichannel Promotion Pricing
+Environment: Cloud Foundry
+Title: Mass Deletion of Objects in Maintain Promotions App
+Description: You can now trigger mass deletion of entities like products, merchandise hierarchy nodes and generic attributes within a merchandise set in the Maintain Promotions app using the Delete All button.  For more information, see Merchandise Sets.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2022-01-01
+Valid as Of: 2024-07-03
+Version: Cloud
+
+--- Record 2660 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Regional Availability
+Description: Cloud Identity Services now operates with additional IPs in the data center in India. See Regional Availability.  Action:  We recommend you to add the following IPs to your allowed IP list:    LB IP - 43.204.242.5, 13.234.128.163, 13.202.113.251  NAT IP - 3.108.210.169/32, 13.127.105.96/32, 13.232.175.70/32, 3.7.5.154/32, 43.205.169.10/32, 65.2.62.24/32  
+Action: Recommended
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-07-02
+Valid as Of: 2024-07-02
+Version: 26327
+

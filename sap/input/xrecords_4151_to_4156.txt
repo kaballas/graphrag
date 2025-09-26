@@ -1,0 +1,78 @@
+--- Record 4151 ---
+Component: Mobile Services
+Environment: Neo
+Title: Supported versions for Cloud Build Service
+Description: We've updated the supported versions for the Cloud Build service:    September 2023 (2305 PL05)    Fiori Packaged SDK version and iOS version      Custom Fiori Client SDK version and iOS version      Mobile Development Kit SDK version and notes          August 2023 (2305 PL04): Mobile Development Kit SDK version, iOS version, and notes      July 2023    (Version: 2305 PL03) Mobile Development Kit SDK version, iOS version, and notes      (Version: 2305 PL02) Fiori Packaged SDK version and iOS version      (Version: 2305 PL02) Custom Fiori Client SDK version and iOS version      (Version: 2305 PL02) SAP Asset Manager SDK version and notes          See Supported Build Types, Client Types, Packaging Details, and Build Options  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2023-09-27
+Version: Cloud
+
+--- Record 4152 ---
+Component: SAP BTP Cockpit
+Environment: Cloud Foundry
+Title: Space Quotas Page Redesign and Updates in Feature Set B
+Description: The updates in the redesigned Space Quotas page include:     Two separate tabs for ease of use:    Space Quotas      Quota Assignments          Paginated results in both tabs      Redesigned space quota tiles      New feedback messages on success and failure when creating and assigning space quotas      Enhanced input field validations and label display      Enhanced error and empty states    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2023-09-27
+Valid as Of: 2023-09-27
+Version: Cloud
+
+--- Record 4153 ---
+Component: SAP BTP, Cloud Foundry Runtime
+Environment: Cloud Foundry
+Title: Version 32.3.0
+Description: Cloud Foundry has been updated from version 32.0.0 to 32.3.0.      https://github.com/cloudfoundry/cf-deployment/releases/tag/v32.3.0  https://github.com/cloudfoundry/cf-deployment/releases/tag/v32.2.0  https://github.com/cloudfoundry/cf-deployment/releases/tag/v32.1.0    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-09-27
+Valid as Of: 2023-09-27
+Version: Cloud
+
+--- Record 4154 ---
+Component: SAP Java Buildpack
+Environment: Cloud Foundry
+Title: Version 1.77.0
+Description: SAP Java Buildpack has been updated from version 1.76.0 to 1.77.0      SnakeYAML is updated from version 2.0 to 2.1      com.sap.cp.auditlog.audit-java-client is updated from version 2.6.2 to 2.6.4      Java EE API is updated from version 7.0.1.sap-05 to 7.0.1.sap-07      Apache TomEE 7 is updated from version 7.0.9.sap-30 to 7.0.9.sap-33      Apache Tomcat 9 is updated from version 9.0.78 to 9.0.80      org.eclipse.jetty is updated from version 9.4.51.v20230217 to 9.4.52.v20230823      com.sap.hcp.cf.logging is updated from 3.7.0 to 3.7.1      xs-user-holder is updated to version 1.47.0. With this change, a new com.sap.xs.security.UserData interface is added due to deprecation of com.sap.xsa.security.container.XSUserInfo.    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2023-09-15
+Valid as Of: 2023-09-27
+Version: Cloud
+
+--- Record 4155 ---
+Component: Continuous Integration & Delivery
+Environment: Cloud Foundry
+Title: Chromium Update
+Description: Chromium version 114 is now available. WebdriverIO tests that use ChromeDriver 108 will continue to work, but we recommend to switch to chromedriver 114 in the corresponding package.json file.
+Action: Recommended
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-09-26
+Valid as Of: 2023-09-26
+Version: Cloud
+
+--- Record 4156 ---
+Component: SAP Omnichannel Promotion Pricing
+Environment: Cloud Foundry
+Title: Security Recommendations
+Description: Security recommendations for SAP Omnichannel Promotion Pricing are now available.  For more information, see Security Recommendations.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2022-01-01
+Valid as Of: 2023-09-26
+Version: Cloud
+

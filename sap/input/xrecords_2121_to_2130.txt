@@ -1,0 +1,130 @@
+--- Record 2121 ---
+Component: SAP BTP Developer's Guide
+Environment: Cloud Foundry,Kyma
+Title: Get to Know the Architecting Multi-Region Resiliency for SAP BTP Use Cases Reference Architecture
+Description: A link to the Architecting Multi-Region Resiliency for SAP BTP Use Cases reference architecture has been added to the SAP BTP Developer's Guide. It shows the multi-region high availability architecture for SAP BTP services and the applications built on SAP BTP.  See Developing Resilient Applications.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-10-15
+Valid as Of: 2024-10-15
+Version: Cloud
+
+--- Record 2122 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Install Desktop Agent 3 for MacOS
+Description: The latest version of the MacOS Agent is now available on the SBPA platform, delivering improved quality and performance to enhance your experience.  See    and Install Desktop Agent 3 for MacOS.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-10-15
+Valid as Of: 2024-10-15
+Version: Cloud
+
+--- Record 2123 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Microsoft 365 Cloud SDK - Teams
+Description: You can now use the Send Channel Message activity to allow a registered user in Microsoft Teams to send a new post to a specified channel within a team. See Teams - Send Channel Message.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-10-15
+Valid as Of: 2024-10-15
+Version: Cloud
+
+--- Record 2124 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Release a Project
+Description: When you release a project, the project version is now available in read-only mode during the release process. If necessary, you can now cancel the release process and return to the editable version.  For more information, see Release a Project.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-10-15
+Valid as Of: 2024-10-15
+Version: Cloud
+
+--- Record 2125 ---
+Component: SAP Intelligent Robotic Process Automation
+Environment: Cloud Foundry
+Title: Microsoft 365 Cloud SDK - Teams
+Description: You can now use the Send Channel Message activity to allow a registered user in Microsoft Teams to send a new post to a specified channel within a team. See Teams - Send Channel Message.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-10-15
+Valid as Of: 2024-10-15
+Version: Cloud
+
+--- Record 2126 ---
+Component: SAP Task Center
+Environment: Cloud Foundry
+Title: UiPath Supported as Task Provider 
+Description: You can now connect UiPath as task provider to SAP Task Center. For more information, see Connect UiPath and SAP Task Center.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-10-15
+Valid as Of: 2024-10-15
+Version: Cloud
+
+--- Record 2127 ---
+Component: Connectivity
+Environment: Cloud Foundry
+Title: Cloud Connector - IP Addresses
+Description: Additional IP addresses will be added to all SAP BTP regions running on Amazon Web Services (AWS) and Microsoft Azure.  Action:  If you restrict system access by allowlisting IPs in firewall rules, make sure you update your configuration as soon as possible. The additional IP addresses will be used after January 19, 2025.     Note  Current IP addresses will continue to function (and therefore must not be removed) for some time after that date. A follow-up announcement will be provided once the old IPs can be removed safely.    For more information, see Cloud Connector: Prerequisites.  In case of questions please contact SAP Support.
+Action: Required
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-10-14
+Valid as Of: 2024-10-14
+Version: Cloud
+
+--- Record 2128 ---
+Component: Joule
+Environment: Cloud Foundry
+Title: Joule Now Available in SAP S/4HANA Cloud Private Edition
+Description: Joule is now available in SAP S/4HANA Cloud Private Edition for navigational use cases. You can type in your request in natural language and Joule can help you complete your goals by navigating you to the relevant SAP Fiori apps, where you can take advantage of all features.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-06-10
+Valid as Of: 2024-10-14
+Version: Cloud
+
+--- Record 2129 ---
+Component: Joule
+Environment: Cloud Foundry
+Title: New Use Cases Now Supported for Finance in SAP S/4HANA Cloud Private Edition
+Description: The following transactional use cases are now supported in Finance for SAP S/4HANA Cloud Private Edition.    Display G/L account balances      Display G/L account line items    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-09-26
+Valid as Of: 2024-10-14
+Version: Cloud
+
+--- Record 2130 ---
+Component: Joule
+Environment: Cloud Foundry
+Title: New Use Cases Now Supported for Procurement in SAP S/4HANA Cloud Private Edition
+Description: The following transactional use cases are now supported in Procurement for SAP S/4HANA Cloud Private Edition (Operational Purchaser).    Fetch details of purchase orders       Fetch details of purchase requisitions      Navigate to the respective app    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-10-10
+Valid as Of: 2024-10-14
+Version: Cloud
+

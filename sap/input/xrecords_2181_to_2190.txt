@@ -1,0 +1,130 @@
+--- Record 2181 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Additional Property Required for Using SAP Task Center
+Description: If you are using SAP Task Center together with SAP Build Process Automation, you must set an additional property in your Identity_Authentication_Connectivity_IDS destination as follows:    If SAP Build Process Automation and SAP Task Center are in the same subaccount, set the wfs.tc.local property to true.      If SAP Build Process Automation and SAP Task Center are in different subaccounts, set the wfs.tc.local property to false.      For more information, see SAP Note 3522594 .  If you don’t set this property, the end users might be able to access their SAP Build Process Automation tasks, but some actions might not be available in the Web app of SAP Task Center.
+Action: Required
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-10-02
+Valid as Of: 2024-10-02
+Version: Cloud
+
+--- Record 2182 ---
+Component: SAP Task Center
+Environment: Cloud Foundry
+Title: Additional Property Required for SAP Build Process Automation
+Description: If you are using SAP Build Process Automation as task provider, you must set up an additional property in your SAP Build Process Automation  Identity_Authentication_Connectivity_IDS destination, as follows:       If SAP Build Process Automation and SAP Task Center are in the same subaccount, set the wfs.tc.local property to true.      If SAP Build Process Automation and SAP Task Center are in different subaccounts, set the wfs.tc.local property to false.      For more information, see SAP Note 3522594 .  If you don’t set this property, the end users might be able to access their SAP Build Process Automation tasks, but some actions might not be available in the Web app.
+Action: Required
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-10-02
+Valid as Of: 2024-10-02
+Version: Cloud
+
+--- Record 2183 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Off-Cycle Upgrade
+Description: Cloud Identity Services have been upgraded.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-09-25
+Valid as Of: 2024-10-02
+Version: 26738
+
+--- Record 2184 ---
+Component: Continuous Integration & Delivery
+Environment: Cloud Foundry
+Title: Bugfix regarding ABAP Application Names
+Description: An issue was resolved that caused failures of SAP Fiori for the ABAP Platform jobs due to application names with blank values. Now, only application names that adhere to the specification can be added.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-10-02
+Valid as Of: 2024-10-02
+Version: Cloud
+
+--- Record 2185 ---
+Component: Inbound Nota Fiscal
+Environment: Cloud Foundry
+Title: Support to Simplified CT-e
+Description: CT-e Basic Process and CT-e Flex Process have been changed to support Simplified CT-e, according to SEFAZ Technical Note 2024.002 1.01 Version.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-10-03
+Valid as Of: 2024-10-02
+Version: Cloud
+
+--- Record 2186 ---
+Component: Pricing Service
+Environment: Cloud Foundry
+Title: Return Condition Rate in Document Currency for Group Conditions
+Description: To return the condition rate converted into the document currency the structure conditionRateConverted was added to conditions response of stateless pricing and rateConverted was added to the conditions response of document pricing. A null value used to be returned for group conditions with group key routines. This issue has been corrected.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-10-01
+Valid as Of: 2024-10-02
+Version: Cloud
+
+--- Record 2187 ---
+Component: SAP Task Center
+Environment: Cloud Foundry
+Title: SAP Task Center Improvements
+Description: Notifications are now displayed consistently for all supported task providers without being deleted every 24 hours.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-10-02
+Valid as Of: 2024-10-02
+Version: Cloud
+
+--- Record 2188 ---
+Component: SAP Task Center
+Environment: Cloud Foundry
+Title: Substitution Management for Business Administrators Enabled in the Task Center Administration App
+Description: In the Task Center Administration app business administrators can create substitution rules on behalf of end users, and manage existing substitution rules, created by end users.  For more information, see Using Substitution Management for Business Administrators.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-10-02
+Valid as Of: 2024-10-02
+Version: Cloud
+
+--- Record 2189 ---
+Component: Personalized Recommendation
+Environment: Cloud Foundry
+Title: Overall Improvements
+Description: There have been several code and performance improvements.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-10-01
+Valid as Of: 2024-10-01
+Version: Cloud
+
+--- Record 2190 ---
+Component: SAP BTP Best Practices
+Environment: ABAP,Cloud Foundry,Kyma,Neo,Other
+Title: Best Practices Guide becomes SAP BTP Administrator's Guide
+Description: In alignment with the SAP BTP Developer’s Guide, the SAP BTP Best Practices Guide is getting a tighter scope:  Our recommendations about developing applications will be consolidated in the SAP BTP Developer’s Guide, and this guide will focus on the administrators' needs.  Consequently, this guide is going to become the SAP BTP Administrator's Guide.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-09-30
+Valid as Of: 2024-10-01
+Version: Cloud
+

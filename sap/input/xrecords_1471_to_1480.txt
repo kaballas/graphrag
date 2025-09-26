@@ -1,0 +1,130 @@
+--- Record 1471 ---
+Component: Mobile Services
+Environment: Cloud Foundry
+Title: Update: Feature Flags
+Description: (Version 2501) For applications created with the Type of Application as SAP Application, Mobile Development Kit, or Native, feature flags aren't added by default. However, applications created with the Type of Application as Hybrid has all feature flags added by default.  For more information, see Defining Feature Restriction Policy.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-02-06
+Valid as Of: 2025-02-06
+Version: Cloud
+
+--- Record 1472 ---
+Component: Mobile Services
+Environment: Cloud Foundry
+Title: Update: SAP Cloud ALM Configuration
+Description: (Version 2501) Integration and Exception Monitoring configuration won't be available on SAP Mobile Services soon. Configure it in SAP Cloud ALM.  For more information, see Configuring SAP Cloud ALM and  Monitoring Content.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-02-06
+Valid as Of: 2025-02-06
+Version: Cloud
+
+--- Record 1473 ---
+Component: SAP Alert Notification Service
+Environment: Cloud Foundry
+Title: New SAP HANA Cloud Service Database event.
+Description: You can now use the newly supported SAP HANA Cloud Service Database event - HDB Instance Cloning. For more information, see SAP HANA Cloud Service Database Events section page.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-02-06
+Valid as Of: 2025-02-06
+Version: Cloud
+
+--- Record 1474 ---
+Component: SAP BTP, Cloud Foundry Runtime
+Environment: Cloud Foundry
+Title: Version 46.5.0
+Description: Cloud Foundry has been updated from 46.1.0 to 46.5.0.      https://github.com/cloudfoundry/cf-deployment/releases/tag/v46.5.0  https://github.com/cloudfoundry/cf-deployment/releases/tag/v46.4.0  https://github.com/cloudfoundry/cf-deployment/releases/tag/v46.3.0  https://github.com/cloudfoundry/cf-deployment/releases/tag/v46.2.0    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-02-06
+Valid as Of: 2025-02-06
+Version: Cloud
+
+--- Record 1475 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Create a Wait for an API Call Trigger
+Description: You can now create a wait for an API call trigger to pause a process until it receives an API call from an external system. See Create a Wait for an API Call Trigger.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-02-06
+Valid as Of: 2025-02-06
+Version: Cloud
+
+--- Record 1476 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: New Survey Аvailable for My Inbox
+Description: A survey is available for SAP Build Process Automation customers who use My Inbox. You can rate your satisfaction with My Inbox features and share any challenges you encounter when using them.See: My Inbox Features Satisfaction Survey.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-02-06
+Valid as Of: 2025-02-06
+Version: Cloud
+
+--- Record 1477 ---
+Component: SAP Build Work Zone, standard edition
+Environment: Cloud Foundry
+Title: Group – Catalog – Role Relationship in New Experience View Mode
+Description: The following issues have been resolved when using the Spaces and Pages – New Experience view mode:  When creating a content provider, the toggle Include group and catalog assignments to role works as expected:  Disabling the toggle includes all groups and catalogs in this site, without considering their assignment to roles.  Enabling the toggle includes only groups and catalogs in this site, that have been directly assigned to roles.    The new App Finder UI is now showing the correct relationship between catalogs and roles.  
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-01-30
+Valid as Of: 2025-02-06
+Version: 2501A
+
+--- Record 1478 ---
+Component: SAP Build Work Zone, standard edition
+Environment: Cloud Foundry
+Title: HTML5 Business Solutions
+Description: The following enhancements were made regarding integrating HTML5 business solutions:      Automatic updates of an HTML5 business solution in the Channel Manager occur each time the solution is deployed.  For more information, see Manage Content Providers (HTML5 Business Solutions).      It is possible to define a site in the CDM file.  For more information, see About the Common Data Model.    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-02-06
+Valid as Of: 2025-02-06
+Version: 2501A
+
+--- Record 1479 ---
+Component: SAP HANA Service
+Environment: Neo
+Title: Revision 2.00.059.16
+Description: You can now update to SAP HANA revision 2.00.059.16. See 3531893 - SAP HANA 2 SPS05 Revision 059.16.  If you are still on SAP HANA 1.0, upgrade to the latest version of SAP HANA 2.0 as SAP HANA 1.0 has reached the end of mainstream maintenance in June 2021. See 2946614 - End-of-Maintenance of SAP HANA 1.0 in the SAP BTP, Neo Environment.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-02-06
+Valid as Of: 2025-02-06
+Version: Cloud
+
+--- Record 1480 ---
+Component: SAP HANA Service
+Environment: Neo
+Title: Revision 2.00.079.02
+Description: You can now update to SAP HANA revision 2.00.079.02. See 3523457 - SAP HANA 2 SPS07 Revision 079.02.  Note  If you are still on SAP HANA 1.0, upgrade to the latest version of SAP HANA 2.0 as SAP HANA 1.0 has reached the end of mainstream maintenance in June 2021. See 2946614 - End-of-Maintenance of SAP HANA 1.0 in the SAP BTP, Neo Environment.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-02-06
+Valid as Of: 2025-02-06
+Version: Cloud
+

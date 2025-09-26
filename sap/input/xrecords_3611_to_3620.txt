@@ -1,0 +1,130 @@
+--- Record 3611 ---
+Component: SAP BTP Command Line Interface
+Environment: ABAP,Cloud Foundry,Kyma,Other
+Title: Management of API Credentials for Calling REST APIs of SAP Authorization and Trust Management Service
+Description: We’ve added commands to manage API credentials, which enable developers to access the REST APIs of the SAP Authorization and Trust Management service for all account types. Using btp create security/api-credential, you can create API credentials. It is also possible to list the available API credentials, display their details, and delete them. See Managing API Credentials for Calling REST APIs of SAP Authorization and Trust Management Service.  Action: To use these new features, you need to use version 2.38 of the btp CLI client (see SAP Development Tools).
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-11
+Valid as Of: 2024-01-25
+Version: Cloud
+
+--- Record 3612 ---
+Component: SAP BTP, Cloud Foundry Runtime
+Environment: Cloud Foundry
+Title: Version 35.1.0
+Description: Cloud Foundry has been updated from version 34.1.0 to 35.1.0.      https://github.com/cloudfoundry/cf-deployment/releases/tag/v35.1.0  https://github.com/cloudfoundry/cf-deployment/releases/tag/v35.0.0  https://github.com/cloudfoundry/cf-deployment/releases/tag/v34.2.0    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-25
+Valid as Of: 2024-01-25
+Version: Cloud
+
+--- Record 3613 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Control Tower - Environments
+Description: The new Environment view in the Control Tower lists SAP Build Process Automation projects by environment and allows you to view and make settings for triggers, agent assignment, variables, API keys, and alert handlers. See Environments.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-25
+Valid as Of: 2024-01-25
+Version: Cloud
+
+--- Record 3614 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Deploying a Project
+Description: When you deploy a project in the project overview, you can now select the environment in which to deploy the project.  You can also upgrade or downgrade to different project versions in a shared environment and deploy the same project in different shared environments. See Deploy a Project and Environments.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-25
+Valid as Of: 2024-01-25
+Version: Cloud
+
+--- Record 3615 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Environments
+Description: You can now create environments in which you can deploy and run your projects.  You can create different shared environments to improve security by restricting access to projects and monitoring, or for enabling the deployment of different project versions in different configurations.  The public environment contains all your existing SAP Build Process Automation projects.  See SAP Note 3394899  and Environments, Create an Environment, and Share an Environment. 
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-25
+Valid as Of: 2024-01-25
+Version: Cloud
+
+--- Record 3616 ---
+Component: SAP Build Work Zone, advanced edition
+Environment: Cloud Foundry
+Title: Enhanced Email Notification Domain
+Description: Notification emails now use the SAP Build Work Zone runtime domain, making it possible to launch hyperlinks in the notification emails to open directly in the native SAP Build Work Zone Advanced mobile app.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-18
+Valid as Of: 2024-01-25
+Version: Cloud
+
+--- Record 3617 ---
+Component: SAP Build Work Zone, advanced edition
+Environment: Cloud Foundry
+Title: New Wizard Layout in Workspaces
+Description: Workspace administrators can create wizard-like predefined processes, to help users complete complex business flows. The wizards can include multiple stages and steps, and cards and widgets can be added to them.   Card developers can interact with the wizard to leverage wizard events and context updates. For more information and sample cards, see Wizard Developer Guide (Github).
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-18
+Valid as Of: 2024-01-25
+Version: Cloud
+
+--- Record 3618 ---
+Component: SAP Build Work Zone, advanced edition
+Environment: Cloud Foundry
+Title: Public Workspace: Access Levels for Non-Members
+Description: Workspace administrators can define specific users lists and users who can access the workspace as non-members.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-18
+Valid as Of: 2024-01-25
+Version: Cloud
+
+--- Record 3619 ---
+Component: SAP Build Work Zone, advanced edition
+Environment: Cloud Foundry
+Title: Public Workspace: Search Results for Non-Members
+Description: Previously, all public workspaces were visible to non-members when viewing the workspaces list in Workspaces  View All Workspaces. With the new visibility policy in place, non-members that don't have the required permissions, won't see public workspaces that have restricted visibility in the View All Workspaces list.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-01-18
+Valid as Of: 2024-01-25
+Version: Cloud
+
+--- Record 3620 ---
+Component: SAP Build Work Zone, standard edition
+Environment: Cloud Foundry
+Title: Translation of Spaces and Pages
+Description: The Translation tab was added to the Space and Page editors to enable translating their title and description texts, as well as the section titles of pages.   The Translation tab of the other editors (App, Role, Catalog, Group) was also enhanced to be aligned with the new design.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-18
+Valid as Of: 2024-01-25
+Version: Cloud
+

@@ -1,0 +1,130 @@
+--- Record 3821 ---
+Component: Peppol Exchange
+Environment: Neo
+Title: Enhancement to the service
+Description: The following enhancements have already been updated in the test environment:      The schematron files have been updated for the following standards:      Peppol BIS 3.0 is updated to version 3.0.11.      XRechnung is updated to version 2.0.1. This version is compatible with XRechnung 3.0.X.      PINT is updated to version 1.01.      PINT Japan is updated to version 1.01.          For Japan only: The template for displaying PINT documents in HTML format has been updated.      This change will be active in the production environment on the next deployment planned to take place on December 4, 2023.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2023-11-27
+Version: Cloud
+
+--- Record 3822 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: Better Model for the Extraction of invoice Documents
+Description: The machine learning model for the extraction of invoice documents has been improved. The improvements include better extraction results for currency, country and date fields. Additionally, now the service supports the following countries/regions for invoice documents (and their corresponding languages):    Hungary (Hungarian)      Romania (Romanian)      Türkiye (Turkish)      See Supported Languages.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2023-11-27
+Valid as Of: 2023-11-27
+Version: Cloud
+
+--- Record 3823 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: Better Model for the Extraction of paymentAdvice Documents
+Description: The machine learning model for the extraction of paymentAdvice documents has been improved. The improvements include better extraction results for currency and country fields.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2023-11-27
+Valid as Of: 2023-11-27
+Version: Cloud
+
+--- Record 3824 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: Better Model for the Extraction of purchaseOrder Documents
+Description: The machine learning model for the extraction of purchaseOrder documents has been improved. The improvements include better extraction results for currency, country and date fields. Additionally, the service now supports the extraction of quantities with multipliers, for example, "2x5".
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2023-11-27
+Valid as Of: 2023-11-27
+Version: Cloud
+
+--- Record 3825 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: Configuration API and Notifications
+Description: In addition to the already available instance and tenant scopes, you can now also use the activateDocumentNotifications configuration key on client scope level to enable the Notifications functionality and get notifications about the status of your processed documents.  See Configuration Keys.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-01-08
+Valid as Of: 2023-11-27
+Version: Cloud
+
+--- Record 3826 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: Machine Translation available for the SAP Document AI SAP Help Portal Documentation
+Description: For your convenience, machine translation from the original and official English language is now available for the SAP Document AI documentation on SAP Help Portal in the following languages:    Chinese Simplified      French      German      Italian      Japanese      Korean      Portuguese      Spanish    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-11-27
+Valid as Of: 2023-11-27
+Version: Cloud
+
+--- Record 3827 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: Template API
+Description: The Template API is now generally available. You can now use the Template API endpoints to create, reuse, edit, and delete templates based on schemas and document types.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-11-27
+Valid as Of: 2023-11-27
+Version: Cloud
+
+--- Record 3828 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Referenced SAPUI5 Version
+Description: As part of hotfix collection 4, SAPUI5 version 1.117.4 is used for the administrator’s SAP Fiori launchpad, SAP-delivered Fiori apps, and the custom-built SAP Fiori apps, which are deployed to the ABAP system.  See SAP BTP ABAP Environment – Maintenance Windows and Major Upgrade Windows in 2023 and SAP UI5
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-11-25
+Valid as Of: 2023-11-25
+Version: ABAP Environment 2311
+
+--- Record 3829 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Referenced SAPUI5 Version
+Description: As part of hotfix collection 4, SAPUI5 version 1.117.4 is used for the administrator’s SAP Fiori launchpad, SAP-delivered Fiori apps, and the custom-built SAP Fiori apps, which are deployed to the ABAP system.  See SAP BTP ABAP Environment – Maintenance Windows and Major Upgrade Windows in 2023 and SAP UI5
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-11-25
+Valid as Of: 2023-11-25
+Version: Cloud
+
+--- Record 3830 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Lobby - Share the Project with Members and Groups
+Description:  You can use the new User Group type to share a project with a specific group of users. You can select a group of users and grant them access to your project, making collaboration easier and more efficient.  See Manage Project Members.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-11-24
+Valid as Of: 2023-11-24
+Version: Cloud
+

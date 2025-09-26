@@ -1,0 +1,130 @@
+--- Record 1351 ---
+Component: Cloud Management Tools,SAP BTP Cockpit
+Environment: ABAP,Cloud Foundry,Kyma,Neo,Other
+Title: Added Monthly Service Plan Cost Distribution for Cloud Foundry Spaces (Beta)
+Description: In the Costs and Usage page in SAP BTP cockpit, we've added a new option that allows you to export the monthly cost distribution of your service plans across the Cloud Foundry spaces in your global account to the exported spreadsheet. This information is added to a new tab, CF Space Costs by Service, in the exported spreadsheet.   To add this information to the spreadsheet, choose the new Export cost distribution by Cloud Foundry spaces option in the Custom Export dialog box.  Note  This feature is currently released as a beta feature. Beta features aren't part of the officially delivered scope that SAP guarantees for future releases.   See Monitoring Usage and Consumption Costs in Your Global Account.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-02-20
+Valid as Of: 2025-02-20
+Version: Cloud
+
+--- Record 1352 ---
+Component: Connectivity
+Environment: Cloud Foundry,Kyma
+Title: Transparent Proxy for Kubernetes - Bug Fixes
+Description: Transparent Proxy version 1.7.0 provides the following bug fixes:    Fixed a connection issue affecting internal components that occurred after a restart.  Fixed multiple Golang vulnerabilities by upgrading dependencies to a newer version.  
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-02-20
+Valid as Of: 2025-02-20
+Version: Cloud
+
+--- Record 1353 ---
+Component: Connectivity
+Environment: Cloud Foundry,Kyma
+Title: Transparent Proxy for Kubernetes - Enhancements
+Description: Transparent Proxy version 1.7.0 provides the following enhancements:    Improved the Sizing Recommendations guide to offer clearer insights into CPU and memory usage, and how we recommend configuring them. For more information, see Sizing Recommendations.  The Transparent Proxy now provides a single proxy instance to handle all non-HTTP destinations, optimizing the setup footprint and simplifying non-HTTP connection handling.  The Transparent Proxy now integrates a watch mechanism for destination custom resources, ensuring they are handled immediately after creation or update. This enhancement enables immediate connection to target systems, streamlining user workflows.  The Transparent Proxy now supports dynamic configuration changes without requiring a restart of the proxy instances. This enhancement allows seamless updates and minimizes downtime during reconfigurations.  
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-02-20
+Valid as Of: 2025-02-20
+Version: Cloud
+
+--- Record 1354 ---
+Component: Connectivity
+Environment: Cloud Foundry,Kyma
+Title: Transparent Proxy for Kubernetes - New Features
+Description: Transparent Proxy version 1.7.0 provides the following new features:    Improved user experience for lifecycle operations of Transparent Proxy with Operator in regular Kubernetes clusters. For more information, see Installation with Operator.  The Transparent Proxy now exposes various component-specific Prometheus metrics. For more information, see Monitoring.  The Transparent Proxy now adds IPv6 support, allowing it to proxy incoming and outgoing IPv6 traffic.  The Transparent Proxy now allows setting a trust store it should trust in addition to the default certificate authorities for requests to SAP Authorization and Trust Management service (XSUAA) and Destination service. For more information, see Configuration.  The Transparent Proxy now supports the OAuth2TokenExchange destination authentication type, making it easier to integrate and use in various user scenarios.For more information, see OAuth Token Exchange Authentication.  The Transparent Proxy now allows users to set the scope for specific destination custom resources, providing enhanced granularity in cluster configuration. This improvement enables more precise and tailored management of access to target systems. For more information, see Restrict Access Using Scoping.  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-02-20
+Valid as Of: 2025-02-20
+Version: Cloud
+
+--- Record 1355 ---
+Component: Continuous Integration & Delivery
+Environment: Cloud Foundry
+Title: Enhanced Connectivity Configuration for On-Premises Systems
+Description: You can now configure connectivity to your on-premises systems in multiple stages. This includes connecting to internal repositories such as Artifactory or Nexus during the build process. For more information, please refer to the following blog post: New Use Cases for SAP Connectivity in SAP Continuous Integration and Delivery.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-02-20
+Valid as Of: 2025-02-20
+Version: Cloud
+
+--- Record 1356 ---
+Component: Continuous Integration & Delivery
+Environment: Cloud Foundry
+Title: New Build Tool Versions Supported
+Description: New build tool versions are available for the MTA and npm build tools:  Java 17 Node 22  Java 21 Node 22  Node 22    For more information, see Supported Build Tools.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-02-20
+Valid as Of: 2025-02-20
+Version: Cloud
+
+--- Record 1357 ---
+Component: SAP BTP, Cloud Foundry Runtime
+Environment: Cloud Foundry
+Title: Changes to Response Header Behavior
+Description: Requests with too many response headers will now fail clearly with a 502 Bad Gateway error and a descriptive x-cf-routererror header. Previously the response would seemingly succeed but intransparently fail at a later stage.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-02-20
+Valid as Of: 2025-02-20
+Version: Cloud
+
+--- Record 1358 ---
+Component: SAP BTP, Cloud Foundry Runtime
+Environment: Cloud Foundry
+Title: Version 47.0.0
+Description: Cloud Foundry has been updated from 46.5.0 to 47.0.0.      https://github.com/cloudfoundry/cf-deployment/releases/tag/v47.0.0  https://github.com/cloudfoundry/cf-deployment/releases/tag/v46.7.0  https://github.com/cloudfoundry/cf-deployment/releases/tag/v46.6.0    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-02-20
+Valid as Of: 2025-02-20
+Version: Cloud
+
+--- Record 1359 ---
+Component: SAP Build Work Zone, advanced edition
+Environment: Cloud Foundry
+Title: Role Assignment to Sites
+Description: In the new Role Assignments screen, you can:    View all the roles assigned to the site.  Assign/unassign single roles (local and remote) that were added to the subaccount.  Assign/unassign content channels. This will result in assigning/unassigning all the roles from a given content channel. This is a new functionality that allows bulk assignment of roles instead of manually assigning them one by one.    Note    When assigning a channel, it’s not possible to select only part of the content channel roles.   Once a content channel is assigned, any change to its roles will automatically be applied to the site assignment.   You can only assign content channels that are set to automatic content addition.   
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-02-20
+Valid as Of: 2025-02-20
+Version: 2501B
+
+--- Record 1360 ---
+Component: SAP Build Work Zone, advanced edition
+Environment: Cloud Foundry
+Title: SAP Task Center Tasks
+Description: SAP Task Center tasks are now included with your SAP Build Work Zone, advanced edition license. Up to 20 tasks stored in the SAP Task Center task cache for each active user, and for each block of 100 connections on the global account level, are now included.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-02-20
+Valid as Of: 2025-02-20
+Version: 2501B
+

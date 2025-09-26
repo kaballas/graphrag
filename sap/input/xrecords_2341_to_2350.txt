@@ -1,0 +1,130 @@
+--- Record 2341 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Landscape Portal Booster
+Description: The new Landscape Portal for SAP BTP ABAP Environment booster automatically sets up access to the Landscape Portal including all configurations required to build and deploy products. Upon execution, three subaccounts will be created: One subaccount will contain Landscape Portal and CI/CD subscriptions, while the other two can be used during the assembly and test installation stages of the product build process. See Booster for Landscape Portal.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-08-26
+Valid as Of: 2024-08-26
+Version: ABAP Environment 2408
+
+--- Record 2342 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Landscape Portal Booster (Free-Tier)
+Description: The new Landscape Portal for SAP BTP ABAP Environment (Free-Tier) booster automatically sets up access to the Landscape Portal for use with free-tier systems. When the booster is executed, a new subaccount with a Landscape Portal subscription is created, and the Landscape Portal Admin role collection is assigned to all specified users. See Accessing the Landscape Portal.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-08-26
+Valid as Of: 2024-08-26
+Version: ABAP Environment 2408
+
+--- Record 2343 ---
+Component: SAP Build Apps
+Environment: Cloud Foundry
+Title: SAP Build Apps
+Description: You can use the updated Build service, which comes with a better look and feel, and an improved user experience. See SAP Build Work Zone Builds.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-08-26
+Valid as Of: 2024-08-26
+Version: Cloud
+
+--- Record 2344 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Microsoft 365 Cloud SDK - OneNote
+Description: Various Microsoft OneNote activities are added to enhance the Microsoft 365 SDK. You can now use the Get Notebook List activity to retrieve the list of a notebook of the current authenticated user, the Create Notebook activity to create a notebook, the Delete Notebook activity to delete a notebook, the Get Section List activity to retrieve a list of sections of a notebook, the Create Section activity to create the section of a notebook, the Get Page List activity to retrieve the list of pages of a section, the Get Page Content activity to retrieve the content of a page, the Create Page activity to create a page inside the section of a notebook, the Update Page activity to update a page inside the section of a notebook, the Delete Page activity delete a page inside the section of a notebook. See Microsoft 365 Cloud SDK - OneNote.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-08-26
+Valid as Of: 2024-08-26
+Version: Cloud
+
+--- Record 2345 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: New API Scopes for Shared Environment
+Description: New API scopes have been added for your shared environment. Navigate to Control Tower  Others  API Keys to view. You can use shared environment scopes to generate API keys only in the shared environment.  See API Keys.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-08-26
+Valid as Of: 2024-08-26
+Version: Cloud
+
+--- Record 2346 ---
+Component: SAP HANA Spatial Services
+Environment: Cloud Foundry,Kyma
+Title: nan
+Description:     Enhancements: Mapping API, Routing API, Geocoding API  Security updates have been implemented.    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2024-08-26
+Version: Cloud
+
+--- Record 2347 ---
+Component: SAP Intelligent Robotic Process Automation
+Environment: Cloud Foundry
+Title: Microsoft 365 Cloud SDK - OneNote
+Description: Various Microsoft OneNote activities are added to enhance the Microsoft 365 SDK. You can now use the Get Notebook List activity to retrieve the list of a notebook of the current authenticated user, the Create Notebook activity to create a notebook, the Delete Notebook activity to delete a notebook, the Get Section List activity to retrieve a list of sections of a notebook, the Create Section activity to create the section of a notebook, the Get Page List activity to retrieve the list of pages of a section, the Get Page Content activity to retrieve the content of a page, the Create Page activity to create a page inside the section of a notebook, the Update Page activity to update a page inside the section of a notebook, the Delete Page activity delete a page inside the section of a notebook. See Microsoft 365 Cloud SDK - OneNote.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-08-26
+Valid as Of: 2024-08-26
+Version: Cloud
+
+--- Record 2348 ---
+Component: Edge Integration Cell
+Environment: Cloud Foundry
+Title: New Diagnostics Feature
+Description: You can run diagnostic tasks and collect the necessary information for troubleshooting your Edge Integration Cell.  See: Diagnostics
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-08-24
+Valid as Of: 2024-08-24
+Version: 2407
+
+--- Record 2349 ---
+Component: Edge Integration Cell
+Environment: Cloud Foundry
+Title: Software Version Update
+Description:     Edge Integration Cell: 8.20.*    Increment: 2407  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-08-24
+Valid as Of: 2024-08-24
+Version: 2407
+
+--- Record 2350 ---
+Component: Integration Advisor
+Environment: Cloud Foundry,Neo
+Title: Envelopes in MIGs
+Description: You can now include envelopes when creating a Message Implementation Guideline(MIG). This applies to ASC X12, UN/EDIFACT and Odette. Note  Envelopes will only be visible in the MIG creation wizard after relevant content has been added to your system. The content will be released gradually over the next few days/weeks, starting with UN/EDIFACT and ASC X12, followed by Edifact subsets and Odette.  See: Creating a Message Implementation Guideline
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-08-24
+Valid as Of: 2024-08-24
+Version: 2407
+

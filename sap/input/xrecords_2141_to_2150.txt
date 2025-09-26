@@ -1,0 +1,130 @@
+--- Record 2141 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Regular Upgrade
+Description: Cloud Identity Services have been upgraded.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-10-08
+Valid as Of: 2024-10-08
+Version: 26753
+
+--- Record 2142 ---
+Component: Continuous Integration & Delivery
+Environment: Cloud Foundry
+Title: New Regions
+Description: SAP Continuous Integration and Delivery can now also be consumed in the US Central (IA) and Asia Pacific (Singapore) regions. See Regional Availability.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-10-08
+Valid as Of: 2024-10-08
+Version: Cloud
+
+--- Record 2143 ---
+Component: SAP BTP Administrator's Guide
+Environment: ABAP,Cloud Foundry,Kyma,Neo,Other
+Title: Introducing the SAP BTP Administrator's Guide
+Description: We’ve improved the documentation structure to more effectively meet the needs of our users:   What was formerly known as “Best Practices for SAP BTP” is now targeted towards administrative tasks and best practices, providing a more streamlined resource for administrators. It has therefore been renamed to SAP BTP Administrator's Guide.  All our recommendations about developing applications, some of which used to be part of the Best Practices as well, have been consolidated in the SAP BTP Developer’s Guide.   This restructuring aims to ensure that both developers and administrators can easily find relevant and specialized guidance.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-10-07
+Valid as Of: 2024-10-08
+Version: Cloud
+
+--- Record 2144 ---
+Component: SAP Datasphere
+Environment: Cloud Foundry
+Title: Features for Version 2024.21
+Description: New and changed features are available for administration, data cataloging, data integration, data modeling, and space management.  For more information, see What's New in SAP Datasphere 2024.21. 
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-10-08
+Valid as Of: 2024-10-08
+Version: Cloud
+
+--- Record 2145 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: Changes to the SAP Document AI Basic UI
+Description: We’ve made a number of enhancements to the SAP Document AI basic UI.       When you upload a document and choose it on the Documents screen, you now see the extraction results for header fields and line items alongside the document preview, without first having to click Extraction Results.      In the extraction results, you can now use the filters at the top of the Edit pane to set which extraction confidence ranges to display. You can select either a single range or all of them.      When using the Template feature, you can now edit and confirm extraction results for the associated document by choosing it on the details page for the template you've created.      Also on the Template details page, you can now set an extraction method for individual fields or for all fields your template. The available methods are Template and AI.      See View and Edit Extraction Results, Add Documents and Activate/Deactivate Template, and Add Template.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Intelligent Technologies
+Latest Revision: 2024-10-08
+Valid as Of: 2024-10-08
+Version: Cloud
+
+--- Record 2146 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: Factur-X and ZUGFeRD Standards - Support for Version 2.3
+Description: SAP Document AI now supports the version 2.3 of e-invoice document files in Factur-X and ZUGFeRD standards.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Intelligent Technologies
+Latest Revision: 2024-10-08
+Valid as Of: 2024-10-08
+Version: Cloud
+
+--- Record 2147 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: New Instant Learning for Information Extraction Using Generative AI (Premium Edition)
+Description: SAP Document AI now allows you to enhance extraction with generative AI by using your edited extraction results to enrich the prompt to large language models (LLMs) with user feedback.  If you use an appropriately configured schema, SAP Document AI learns from your feedback as soon you commit documents with edited extraction results. As a result, information extraction is improved for relevant fields in all subsequent documents.  To use this feature, you must first activate it using the configuration key enableInstantLearning.  See Instant Learning (Premium Edition) and Configuration Keys.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Intelligent Technologies
+Latest Revision: 2024-10-22
+Valid as Of: 2024-10-08
+Version: Cloud
+
+--- Record 2148 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: New List of Values Data Type for Schemas (Premium Edition)
+Description: With SAP Document AI you can now use the data type list of values to extract header or line item fields with the setup type auto.  The new data type allows you to define multiple values for fields. For example, if your company handles three different types of invoice, you can define these as list values. As a result, only these values are extracted for Invoice Type fields in your documents.  See List of Values Data Type (Premium Edition).
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Intelligent Technologies
+Latest Revision: 2024-10-08
+Valid as Of: 2024-10-08
+Version: Cloud
+
+--- Record 2149 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: New Schema Import and Schema Export Endpoints
+Description: You can now import and export schemas using the following new Schema API endpoints:    Import Schema      Export Schema    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Intelligent Technologies
+Latest Revision: 2024-10-08
+Valid as Of: 2024-10-08
+Version: Cloud
+
+--- Record 2150 ---
+Component: Cloud Portal Service
+Environment: Cloud Foundry
+Title: Collecting Data and Performance Metrics
+Description: Performance and usage metrics of applications deployed on SAP BTP can be measured using the Front-End Statistical Records (FESR) tool. The results of these metrics, called performance artifacts, are collected, and transferred to SAP Cloud ALM (CALM) service that sends the data to cloud reporting.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-09-30
+Valid as Of: 2024-10-07
+Version: 2409B
+

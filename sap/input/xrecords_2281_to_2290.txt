@@ -1,0 +1,130 @@
+--- Record 2281 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: Payment Advice Documents in Excel Format
+Description: You can now directly use the Document API to process paymentAdvice documents in Excel format. You can optionally use the preconfigured SAP schema SAP_paymentAdvice_schema or your own custom schema for paymentAdvice documents when you Upload Document.Caution  From now, you can't use the Identifier API (Decommissioned) to process paymentAdvice documents in Excel format.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Intelligent Technologies
+Latest Revision: 2024-09-16
+Valid as Of: 2024-09-16
+Version: Cloud
+
+--- Record 2282 ---
+Component: SAP Task Center
+Environment: Cloud Foundry
+Title: Notifications Via Email Enabled
+Description: Administrators can now set up an email server to enable email notifications for end users. For more information on how to set up the email server, see Enable Notifications for End Users.   Note  After administrators have set up the email server, they should inform the end users about the new functionality and how to enable it.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-09-16
+Valid as Of: 2024-09-16
+Version: Cloud
+
+--- Record 2283 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Istio module: Deprecation of the annotation disable-external-name-alias
+Description: The annotation disable-external-name-alias becomes deprecated and is scheduled to be deleted on 04.11 in the fast channel and on 18.11 in the regular channel. The Istio module introduced the annotation to prevent Istio from treating a Service of type ExternalName as an alias of the Service that it points to. Required action: If you are using the annotation, follow themigration guide and adjust your resources’ configuration to align with Istio’s behavior.
+Action: Required
+Lifecycle: Deprecated
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-09-13
+Valid as Of: 2024-09-13
+Version: Cloud
+
+--- Record 2284 ---
+Component: Continuous Integration & Delivery
+Environment: Cloud Foundry
+Title: Blue-Green Deployment Issue Fixed
+Description: An issue was resolved that caused the deployment in the Cloud Foundry pipeline to be always executed as standard, even if the blue-green option had been configured in the job editor.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-09-13
+Valid as Of: 2024-09-13
+Version: Cloud
+
+--- Record 2285 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Off-Cycle Upgrade
+Description: Cloud Identity Services have been upgraded.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-09-11
+Valid as Of: 2024-09-11
+Version: 26638
+
+--- Record 2286 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Telemetry module: Update to version 1.22.0
+Description: The new version brings the following improvements:      Logs, Metrics, and Traces: Improved validation of URLs in outputs (#1270).      Logs, Metrics, and Traces: Improved reliability of pipeline status conditions regarding the gateway and agent health (#1236).      Metrics: Improved the MetricPipeline  runtime input with additional metrics about CPU/memory request and limits for containers, as well as the Pod phase (#1184).      Traces and Metrics: Update to OTel Collector 0.107.0 (#1362).      Logs: Update to Fluent Bit 3.1.6 (#1364).    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-08-28
+Valid as Of: 2024-09-11
+Version: Cloud
+
+--- Record 2287 ---
+Component: SAP Omnichannel Promotion Pricing
+Environment: Cloud Foundry
+Title: Changed Validation in Data Upload Service
+Description: The validation functionality in the Data Upload service has been changed with regards to the validation of loyalty points promotions. From now on, only promotions can be uploaded that also allow for the calculation of loyalty points (simple offers including Buy N, Get M and manual promotions).
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2022-01-01
+Valid as Of: 2024-09-11
+Version: Cloud
+
+--- Record 2288 ---
+Component: SAP Omnichannel Promotion Pricing
+Environment: Cloud Foundry
+Title: Extend Reservation API for Coupon Management Service
+Description: You can now use the Extend Reservation API for Coupon Management service to extend the validity of reservation of the coupon code.  For more information, see Extend Reservation of a Coupon Code.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2022-01-01
+Valid as Of: 2024-09-11
+Version: Cloud
+
+--- Record 2289 ---
+Component: SAP Omnichannel Promotion Pricing
+Environment: Cloud Foundry
+Title: Loyalty Points Type
+Description: You can now maintain the field Loyalty Points Type on the Promotional Rules detail page in the Maintain Promotions app. This field allows you to specify the loyalty program to which the awarded loyalty points belong. This is relevant if you support multiple loyalty points programs. For instance, your customers might be collecting points for both Loyalty Program A and Loyalty Program B.  The maintenance of this field does not affect the existing calculation of loyalty points. This enhancement is available as of Client API version 15.0.  For more information, see Granting Loyalty Points.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2022-01-01
+Valid as Of: 2024-09-11
+Version: Cloud
+
+--- Record 2290 ---
+Component: SAP Omnichannel Promotion Pricing
+Environment: Cloud Foundry
+Title: New Roles and Authorizations in Maintain Promotions App
+Description: You can now maintain new roles and authorizations to manage promotions in the Maintain Promotions app. You must then assign the relevant roles to the users to be able to use them.  For more information, see Roles and Authorizations in Maintain Promotions App.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2022-01-01
+Valid as Of: 2024-09-11
+Version: Cloud
+

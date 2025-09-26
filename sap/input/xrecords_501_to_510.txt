@@ -1,0 +1,130 @@
+--- Record 501 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: CAPTCHA Protection
+Description: Tenant administrator can enable CAPTCHA protection for the phone verification pages of the application. See Enable Google reCAPTCHA for Application Forms and Enable MTCaptcha for Application Forms.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-07-09
+Valid as Of: 2025-07-09
+Version: 28039
+
+--- Record 502 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Off-Cycle Upgrade
+Description: Cloud Identity Services have been upgraded.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-07-09
+Valid as Of: 2025-07-09
+Version: 28039
+
+--- Record 503 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Telemetry module: Update to version 1.43.1
+Description: The new version brings the following improvements:      Logs: Besides FluentBit, you can now also use OTLP as output for you LogPipeline resources. Based on an OTel Collector, you can tail logs from stdout/stderr, as well as push logs from applications. The gateway enriches your log data in the same way as for traces and metrics. For details, see Application Logs (#556).      Logs, Metrics, and Traces: For all your pipelines using an OTLP output, you can centrally configure enriching the data with Pod labels, so that the data gets k8s.pod.label.label attributes. For details, see Data Enrichment (#2195).      Traces and Metrics: Update to OTel Collector 0.128.0 (#2221).    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-06-25
+Valid as Of: 2025-07-09
+Version: Cloud
+
+--- Record 504 ---
+Component: Pricing Service
+Environment: Cloud Foundry
+Title: Pricing – Corrected Condition Base Calculation for Conditions with Multiple Counters
+Description: When a condition had multiple counters and the step number was set to zero for that condition, the condition base incorrectly included results from subsequent steps. This issue has been corrected.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-07-08
+Valid as Of: 2025-07-09
+Version: Cloud
+
+--- Record 505 ---
+Component: Pricing Service
+Environment: Cloud Foundry
+Title: Pricing – Validation Fix for Zero-Value Conditions in Price Agreement
+Description: When a condition was passed with a value of 0.000 and the plus/minus flag was set to negative in the condition type customizing, it incorrectly triggered a validation error in the Price agreement scenario. This issue has been corrected.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-07-08
+Valid as Of: 2025-07-09
+Version: Cloud
+
+--- Record 506 ---
+Component: Personalized Recommendation
+Environment: Cloud Foundry
+Title: Overall Improvements
+Description: There have been several code, stability, and performance improvements.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-07-08
+Valid as Of: 2025-07-08
+Version: Cloud
+
+--- Record 507 ---
+Component: SAP Datasphere
+Environment: Cloud Foundry
+Title: Features for Version 2025.14
+Description: New and changed features are available for administration, data cataloging, data integration, data marketplace, data modeling, data privacy and protection, and space management.  For more information, see What's New in SAP Datasphere 2025.14. 
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-07-08
+Valid as Of: 2025-07-08
+Version: Cloud
+
+--- Record 508 ---
+Component: Responsibility Management Service
+Environment: Cloud Foundry
+Title: New Data Centers
+Description: The Responsibility Management Service is now also available in the following regions:  AWS: EU12 - Europe (Frankfurt)  Google Cloud Platform: US30 - US Central (IA)  Google Cloud Platform: EU30 - Europe (Frankfurt)  See Pricing and Regions Information.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-07-14
+Valid as Of: 2025-07-07
+Version: Cloud
+
+--- Record 509 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Advanced Functions for Decisions
+Description: You can now use a new function, TRUNC in your decisions. See Functions.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-07-07
+Valid as Of: 2025-07-07
+Version: Cloud
+
+--- Record 510 ---
+Component: API Management
+Environment: Cloud Foundry
+Title: Availibility of the Externalization feature on Edge Integration Cell
+Description: You can now use the externalization feature to define API policies that can retrieve externalized configuration values during runtime. These parameters can be utilized later without modifying the standard API artifact. For more information, see Externalize Parameter for API Artifact.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2025-07-06
+Valid as Of: 2025-07-06
+Version: 2505
+

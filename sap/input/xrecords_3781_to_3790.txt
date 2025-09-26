@@ -1,0 +1,130 @@
+--- Record 3781 ---
+Component: UI Theme Designer
+Environment: Cloud Foundry,Neo
+Title: Base Theming Content for CF and Neo.
+Description: The base theming content is updated to version 11.9.1. Review the changes at https://github.com/SAP/theming-base-content/releases.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2023-12-06
+Version: Cloud
+
+--- Record 3782 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Telemetry module: Update to version 1.4.0
+Description: The new version brings the following improvements:      Fixed the crashing module manager when too many Secrets are present in a cluster (#464).      Update to OTel Collector 0.88.0 (#512).    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2023-11-21
+Valid as Of: 2023-12-05
+Version: Cloud
+
+--- Record 3783 ---
+Component: SAP Java Buildpack
+Environment: Cloud Foundry
+Title: Version 1.81.1
+Description: SAP Java Buildpack has been updated from version 1.81.0 to 1.81.1        com.sap.cloud.security.xsuaa is updated from version 2.16.0 to 2.17.0    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2023-12-04
+Valid as Of: 2023-12-05
+Version: Cloud
+
+--- Record 3784 ---
+Component: Application Logging Service
+Environment: Cloud Foundry
+Title: New SAP Cloud Logging service
+Description: Discover SAP Cloud Logging, the successor to SAP Application Logging Service, to benefit from additional features.
+Action: Recommended
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-12-04
+Valid as Of: 2023-12-04
+Version: Cloud
+
+--- Record 3785 ---
+Component: Cloud Logging
+Environment: Cloud Foundry
+Title: New service
+Description: SAP Cloud Logging service is an instance-based observability service that builds upon OpenSearch to store, visualize, and analyze application logs, metrics, and traces from SAP BTP Cloud Foundry, Kyma, Kubernetes and other runtime environments. For Cloud Foundry and Kyma, it offers an easy integration by providing predefined contents to investigate load, latency, and error rates of the observed applications based on their requests and correlate them with additional data.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-12-04
+Valid as Of: 2023-12-04
+Version: Cloud
+
+--- Record 3786 ---
+Component: Integration Assessment
+Environment: Cloud Foundry
+Title: Software Version Update
+Description:     Integration Assessment: 1.21.*    Increment: 2310  
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2023-12-04
+Valid as Of: 2023-12-04
+Version: 2310
+
+--- Record 3787 ---
+Component: Migration Assessment
+Environment: Cloud Foundry
+Title: Software Version Update
+Description:     Migration Assessment: 1.22.*      Increment: 2310    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-12-04
+Valid as Of: 2023-12-04
+Version: 2310
+
+--- Record 3788 ---
+Component: SAP Build Apps
+Environment: Cloud Foundry
+Title: Backend
+Description:   Added "Pause" and "Delete" deployment to Visual cloud functions.  Enabled the use of Visual cloud functions in applications deployed to SAP Build Workzone. More information  
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2023-12-04
+Version: Cloud
+
+--- Record 3789 ---
+Component: Trading Partner Management
+Environment: Cloud Foundry
+Title: Maximum Retry Count for Integration Flows
+Description: You can now define the maximum number of retries for failed integration flows in the Configuration Manager.  See: Configuration Manager
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2023-12-04
+Valid as Of: 2023-12-04
+Version: 2310
+
+--- Record 3790 ---
+Component: Trading Partner Management
+Environment: Cloud Foundry
+Title: New Agreement Template
+Description: The format of the Agreement Template has been updated with more configurable fields.  See: Creating an Agreement Template
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2023-12-04
+Valid as Of: 2023-12-04
+Version: 2310
+

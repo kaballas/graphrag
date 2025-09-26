@@ -1,0 +1,130 @@
+--- Record 2411 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: ABAP Development Tools for Eclipse: Deprecated Business Catalog for Analytical Queries
+Description: The business catalog SAP_A4C_BC_DEV_PC used for the preview of analytical queries will be removed. Please use its successor BC SAP_A4C_BC_DEV_DAT_PRV_PC instead. Both business catalogs require the Developer business role.
+Action: Info only
+Lifecycle: Deprecated
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-08-16
+Valid as Of: 2024-08-16
+Version: ABAP Environment 2408
+
+--- Record 2412 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Custom Business Configurations: Recreation of Variants Needed
+Description: You need to recreate variants for the list report of the Fiori app Custom Business Configurations due to a change in the persistence key.  For more information, see SAP note: 3486327 .
+Action: Recommended
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-08-16
+Valid as Of: 2024-08-16
+Version: ABAP Environment 2408
+
+--- Record 2413 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: ABAP Development Tools for Eclipse: ABAP Debugger: Variables with Hidden Values
+Description: In the ABAP Debugger, the variable values with a type that is based on the domains XUBCODE, RSECDATA or DISPLAY_PROTECTED_STRING/DISPLAY_PROTECTED_XSTRING, are now hidden in the Variables view and in the ABAP Internal Table (Debugger) view. The values, for example of passwords or other sensitive data, will then be displayed as ******** or DEADDA7A.  See Symbols with Hidden Content.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-08-16
+Valid as Of: 2024-08-16
+Version: ABAP Environment 2408
+
+--- Record 2414 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: ABAP Development Tools for Eclipse: Assigning Fiori Space Templates to Business Role Templates
+Description: You can now assign Fiori Space templates to business role templates. When a business role is created from a business role template, the related Fiori Spaces are assigned.  See Working with Business Role Template Launchpad Space Template Assignments.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-08-16
+Valid as Of: 2024-08-16
+Version: ABAP Environment 2408
+
+--- Record 2415 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: ABAP Development Tools for Eclipse: ATC Checks now Support List of Classic APIs
+Description: Should released APIs for ABAP Cloud be missing, the ABAP Extensibility Guide recommends creating a custom API wrapper. The ATC checks “Usage of Released APIs” and “Usage of Released APIs (Cloudification Repository)”, which are classic APIs that are recommended to be used in a wrapper, were adjusted. If you're using a SAP BTP ABAP environment system as your central ATC check system, no ATC error is shown in case an API classified as classic is used in custom code. Instead, you’ll only receive a warning.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-08-16
+Valid as Of: 2024-08-16
+Version: ABAP Environment 2408
+
+--- Record 2416 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: ABAP Development Tools for Eclipse: Browser for Cloudification Repository Content
+Description: You can now browse through the content of the Cloudification Repository on GitHub.  See Cloudification Repository Viewer.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-08-16
+Valid as Of: 2024-08-16
+Version: ABAP Environment 2408
+
+--- Record 2417 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: ABAP Development Tools for Eclipse: Communication Targets for HTTP Outbound Communication
+Description: The usage of the new application destinations via outbound services of type communication target is recommended when developing a new application with HTTP outbound communication. This enables developers to define and control which applications can use a particular application destination.  See Working with Communication Targets.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-08-16
+Valid as Of: 2024-08-16
+Version: ABAP Environment 2408
+
+--- Record 2418 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: ABAP Development Tools for Eclipse: Creating API Package Assignments
+Description: You can now assign APIs to API packages. An API package assignment is a container that defines the assignment between the API package and the corresponding API object.  See Working with API Package Assignments.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-08-16
+Valid as Of: 2024-08-16
+Version: ABAP Environment 2408
+
+--- Record 2419 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: ABAP Development Tools for Eclipse: Creating API Packages
+Description: You can now create API packages. An API package is a container that can hold different types of APIs.  See Working with API Packages.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-08-16
+Valid as Of: 2024-08-16
+Version: ABAP Environment 2408
+
+--- Record 2420 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: ABAP Development Tools for Eclipse: Creating Background Processing Contexts
+Description: You can now create your own background processing contexts. A background processing context allows asynchronous processing.  See Working with Background Queue Contexts.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-08-16
+Valid as Of: 2024-08-16
+Version: ABAP Environment 2408
+

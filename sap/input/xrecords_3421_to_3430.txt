@@ -1,0 +1,130 @@
+--- Record 3421 ---
+Component: SAP Advanced Financial Closing
+Environment: Cloud Foundry
+Title: New Reporting Apps
+Description: Four new apps have been released to support you in your reporting activities. These four apps consist of the following two sets of apps:  Two apps offering a task view:  Financial Close Overview - Task View  Closing Task Completion - Task View    Two apps offering an organizational unit view:  Financial Close Overview - Organizational Unit View  Closing Task Completion - Organizational Unit View      Task view apps offer reporting based on the task overall status, while organizational unit view apps offer reporting based on the task execution status of each organizational unit. Additionally, organizational unit apps allow you to perform reporting based on company code groups, independently of country/region assignments.  Note  For these new apps, new static role templates are available that need to be assigned to users, so they can access the new apps.  Caution  The new reporting apps display data from task lists generated after the release of these apps only. Data from previous closing cycles can be viewed in the predecessor apps Financial Close Overview (Deprecated) and Closing Task Completion (Deprecated).  More information:  Reporting on Task Execution and Task Overall Level  In-app help  Guided tours accessible through the in-app help  Explanatory videos integrated into the documentation and in-app help    Apps affected:  Financial Close Overview - Task View  Closing Task Completion - Task View  Financial Close Overview - Organizational Unit View  Closing Task Completion - Organizational Unit View    Action: Familiarize yourself with the information available to learn about these new apps and, if required, set up your reporting for these apps as described in these materials.
+Action: Required
+Lifecycle: General Availability
+Type: New
+Line of Business: Finance
+Latest Revision: 2024-02-21
+Valid as Of: 2024-02-18
+Version: Cloud
+
+--- Record 3422 ---
+Component: Integration Advisor
+Environment: Cloud Foundry,Neo
+Title: Duplicate Target Nodes
+Description: You can now duplicate target nodes in the mapping editor of a Mapping Guideline.  See: Mapping the Source and Target Nodes
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-02-18
+Valid as Of: 2024-02-18
+Version: 2313
+
+--- Record 3423 ---
+Component: Integration Advisor
+Environment: Cloud Foundry,Neo
+Title: Global Code Value Mapping
+Description:     You can now create a global code value mapping with multiple source code lists and one target code list (N:1 cardinality).  See: Global Code Value Mapping    You can now map multiple code values with a target code value in a global code value mapping in the mapping editor of a MAG.See: Code Value Mapping  
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-02-18
+Valid as Of: 2024-02-18
+Version: 2313
+
+--- Record 3424 ---
+Component: Integration Advisor
+Environment: Cloud Foundry,Neo
+Title: Software Version Update
+Description:   SAP Integration Advisor: 1.83.*    Increment: 2313    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-02-18
+Valid as Of: 2024-02-18
+Version: 2313
+
+--- Record 3425 ---
+Component: Integration Assessment
+Environment: Cloud Foundry
+Title: Software Version Update
+Description:     Integration Assessment: 1.24.*      Increment: 2313    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-02-18
+Valid as Of: 2024-02-18
+Version: 2313
+
+--- Record 3426 ---
+Component: Migration Assessment
+Environment: Cloud Foundry
+Title: New Rules Added
+Description: The following rules have been added for Migration Assessment:      OMUsageDoNotResolveXOPIncludes: Check if Do Not Resolve XOP Includes is enabled in operation mapping.      SenderRESTURLPattern: Evaluate the parameters configured in the URL.    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-02-18
+Valid as Of: 2024-02-18
+Version: 2313
+
+--- Record 3427 ---
+Component: Migration Assessment
+Environment: Cloud Foundry
+Title: No Extraction Limit for Integration Scenarios
+Description: The extraction limit for integration scenarios no longer applies. You can now extract any number of integration scenarios from your SAP Process Orchestration System.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-02-18
+Valid as Of: 2024-02-18
+Version: 2313
+
+--- Record 3428 ---
+Component: Migration Assessment
+Environment: Cloud Foundry
+Title: Software Version Update
+Description:     Migration Assessment: 1.24.*      Increment: 2313    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-02-18
+Valid as Of: 2024-02-18
+Version: 2313
+
+--- Record 3429 ---
+Component: SAP AI Core
+Environment: Cloud Foundry
+Title: Authentication
+Description: Authentication through X.509 certificates is supported.  For more information, see Create a Service Key and Use a Service Key.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-02-18
+Valid as Of: 2024-02-18
+Version: Cloud
+
+--- Record 3430 ---
+Component: SAP AI Core
+Environment: Cloud Foundry
+Title: generative AI hub SDK
+Description: The generative AI hub SDK is now available.  For more information, see generative AI hub SDK.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-02-18
+Valid as Of: 2024-02-18
+Version: Cloud
+

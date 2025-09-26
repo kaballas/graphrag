@@ -1,0 +1,130 @@
+--- Record 1321 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Intelligent Opportunity Analyzer connector
+Description: Identity Provisioning supports the Intelligent Opportunity Analyzer connector. You can configure it as source, target, and proxy system for your provisioning scenarios. See:  Intelligent Opportunity Analyzer (Source)  Intelligent Opportunity Analyzer (Target)  Intelligent Opportunity Analyzer (Proxy)  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-02-25
+Valid as Of: 2025-02-25
+Version: 27494
+
+--- Record 1322 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Provisioning sub-attributes of emails attribute
+Description: Changes in proxy write transformations of SAP Ariba Category Management and SAP Ariba Central Invoice Management ensure that users with multiple email addresses are provisioned with the correct primary email.  For more information, see SAP Ariba Category Management and SAP Ariba Central Invoice Management.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-02-25
+Valid as Of: 2025-02-25
+Version: 27494
+
+--- Record 1323 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Regular Upgrade
+Description: Cloud Identity Services have been upgraded.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-02-25
+Valid as Of: 2025-02-25
+Version: 27494
+
+--- Record 1324 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: SAP Cloud Identity Services - Identity Authentication integration with SAP Cloud ALM
+Description: SAP Cloud Identity Services - Identity Authentication is now integrated with SAP Cloud ALM and you can use the Configuration & Security Analysis app. See Monitoring with SAP Cloud ALM.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-02-25
+Valid as Of: 2025-02-25
+Version: 27494
+
+--- Record 1325 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Troubleshooting entity deletion
+Description: Documentation for troubleshooting the most frequent reasons for deletion of entities from a target system by the Identity Provisioning is now available. For more information, see Entity Deletion Issues.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-02-25
+Valid as Of: 2025-02-25
+Version: 27494
+
+--- Record 1326 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: User Management
+Description: Cloud Identity Services now supports a new user type - Alumni for users that were once employed by the company but now they are no more part of it. See Users.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-02-25
+Valid as Of: 2025-02-25
+Version: 27494
+
+--- Record 1327 ---
+Component: Graph
+Environment: Cloud Foundry
+Title: Modify Business Data Graph in JSON format
+Description: You can edit your business data graph in JSON format on the UI.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Intelligent Technologies
+Latest Revision: 2025-02-25
+Valid as Of: 2025-02-25
+Version: Cloud
+
+--- Record 1328 ---
+Component: Identity Provisioning
+Environment: Neo
+Title: Group mapping changes
+Description: The default transformations of SAP S/4 HANA Cloud are changed to support the provisioning of application-specific groups.  For more information, see:  SAP S/4 HANA Cloud (Source)  SAP S/4 HANA Cloud (Target)  SAP S/4 HANA Cloud (Proxy)  
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-02-25
+Valid as Of: 2025-02-25
+Version: Cloud
+
+--- Record 1329 ---
+Component: Identity Provisioning
+Environment: Neo
+Title: Intelligent Opportunity Analyzer connector
+Description: Identity Provisioning supports the Intelligent Opportunity Analyzer connector. You can configure it as source, target, and proxy system for your provisioning scenarios. For more information, see:  Intelligent Opportunity Analyzer (Source)  Intelligent Opportunity Analyzer (Target)  Intelligent Opportunity Analyzer (Proxy)  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-02-25
+Valid as Of: 2025-02-25
+Version: Cloud
+
+--- Record 1330 ---
+Component: Identity Provisioning
+Environment: Neo
+Title: Provisioning sub-attributes of emails attribute
+Description: Changes in proxy write transformations of SAP Ariba Category Management and SAP Ariba Central Invoice Management ensure that users with multiple email addresses are provisioned with the correct primary email.  For more information, see: SAP Ariba Category Management and SAP Ariba Central Invoice Management.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-02-25
+Valid as Of: 2025-02-25
+Version: Cloud
+

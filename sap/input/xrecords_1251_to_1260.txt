@@ -1,0 +1,130 @@
+--- Record 1251 ---
+Component: Integration Advisor
+Environment: Cloud Foundry,Neo
+Title: Software Version Update
+Description:   SAP Integration Advisor: 1.97.*    Increment: 2501    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-03-11
+Valid as Of: 2025-03-11
+Version: 2501
+
+--- Record 1252 ---
+Component: SAP Task Center
+Environment: Cloud Foundry
+Title: Boosters Set Up SAP Task Center with the all-tasks Service Plan
+Description: The SAP Task Center boosters have been updated to set up SAP Task Center with the all-tasks service plan.   For more information on the service plans, see Service Plans and Metering.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-03-11
+Valid as Of: 2025-03-11
+Version: Cloud
+
+--- Record 1253 ---
+Component: UI Theme Designer
+Environment: Cloud Foundry,Neo
+Title: Theming Base Content for CF and Neo.
+Description: The base theming content is updated to version 11.27.1. Review the changes at https://github.com/SAP/theming-base-content/releases.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2025-03-11
+Version: Cloud
+
+--- Record 1254 ---
+Component: SAP Business Application Studio
+Environment: Cloud Foundry
+Title: Development Experience
+Description: You can now use the Runtime Capabilities editor to add Audit Logging to your full stack project. See Runtime Capabilities Editor.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-03-10
+Valid as Of: 2025-03-10
+Version: T2502a
+
+--- Record 1255 ---
+Component: SAP Business Application Studio
+Environment: Cloud Foundry
+Title: Development Experience
+Description: When creating a new MDK project, you can now use capital letters in the project name.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-03-10
+Valid as Of: 2025-03-10
+Version: T2502a
+
+--- Record 1256 ---
+Component: SAP Business Application Studio
+Environment: Cloud Foundry
+Title: Development Experience
+Description: You can now run your CAP Java application using a run configuration and configure how you want to run with remote OData services. See Creating Run Configurations for Java CAP Applications..
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-03-10
+Valid as Of: 2025-03-10
+Version: T2502a
+
+--- Record 1257 ---
+Component: API Management
+Environment: Cloud Foundry
+Title: Supported AsyncAPI Versions
+Description: You can now import events more efficiently with enhanced support for AsyncAPI versions 2.5.0 and 2.6.0. For more information, see Import Events as AsyncAPI on Developer Hub.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-03-09
+Valid as Of: 2025-03-09
+Version: 2501
+
+--- Record 1258 ---
+Component: Data Space Integration
+Environment: Cloud Foundry
+Title: Consuming Azure Assets
+Description: You can now consume assets of type Azure. Before you can consume Azure assets, you must create credentials using your Azure account.   For more details and Azure-specific payload examples, see Consuming S3 and Azure Assets and the Transfer Process API on SAP Business Accelerator Hub.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-03-09
+Valid as Of: 2025-03-09
+Version: 2501
+
+--- Record 1259 ---
+Component: Data Space Integration
+Environment: Cloud Foundry
+Title: Software Version Update
+Description: The following are the latest versions in Data Space Integration:      Data Space Integration: 1.6.*      Increment: 2501      Tractus-X Eclipse Dataspace Connector: 0.7.6      FOSS Eclipse Dataspace Components: 0.7.2      See also the Release Notes of Catena-X. 
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-03-09
+Valid as Of: 2025-03-09
+Version: 2501
+
+--- Record 1260 ---
+Component: Edge Integration Cell
+Environment: Cloud Foundry
+Title: Additional Request Reply Step for API Artifact
+Description: You can now add multiple request-reply steps to an API artifact, allowing for seamless integration with multiple target endpoints or service callouts.  See: Creating Additional Request Reply Step for API Artifact
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-03-09
+Valid as Of: 2025-03-09
+Version: 2501
+

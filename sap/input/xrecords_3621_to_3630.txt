@@ -1,0 +1,130 @@
+--- Record 3621 ---
+Component: SAP Java Buildpack
+Environment: Cloud Foundry
+Title: Version 1.86.0
+Description: SAP Java Buildpack 1 has been updated from version 1.85.0 to 1.86.0. Updated components:      logback is updated from version 1.2.11 to 1.2.12      otel-agent is updated from version 1.31.0 to 1.32.0      otel-agent-ext-java is updated from version 1.5.6 to 1.5.8      com.fasterxml.jackson is updated from version 2.16.0 to 2.16.1      com.faster.jackson.databind is updated from version 2.16.0 to 2.16.1      com.sap.xs.onpremise.runtime is updated from version 1.1.6 to 1.1.7      Apache Tomcat 9 is updated from version 9.0.83 to 9.0.84      SAP HANA Driver (hana.driver.2.X.X) is updated from version 2.19.11 to 2.19.16    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-01-15
+Valid as Of: 2024-01-25
+Version: Cloud
+
+--- Record 3622 ---
+Component: SAP S/⁠4HANA Cloud for Credit Integration
+Environment: Cloud Foundry
+Title: Rating procedures for Coface available in SAP S/4HANA Cloud 2402
+Description: More information:   New Rating Procedures for Coface (SAP S/4HANA Cloud Documentation)
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Finance
+Latest Revision: 2024-01-25
+Valid as Of: 2024-01-25
+Version: Cloud
+
+--- Record 3623 ---
+Component: UI5 Flexibility for Key Users
+Environment: Cloud Foundry
+Title: Customer-Controlled Encryption Keys
+Description: Your organization can control the encryption keys for data stored in this service using SAP Data Custodian Key Management Service. The UI5 flexibility service for key users requires a new account in the us10 data center to work with a customer-controlled encryption key.  See Customer-Managed Keys.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-25
+Valid as Of: 2024-01-25
+Version: Cloud
+
+--- Record 3624 ---
+Component: Virtual Machine Service
+Environment: Neo
+Title: New OS Image
+Description: SUSE Linux Enterprise Server (SLES) 15 SP5 is the new supported OS image. All virtual machines created from now on are going to start with this image version.  See Manage Virtual Machines.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-01-25
+Valid as Of: 2024-01-25
+Version: Cloud
+
+--- Record 3625 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Off-Cycle Upgrade
+Description: Identity Authentication has been upgraded.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-24
+Valid as Of: 2024-01-24
+Version: 25529
+
+--- Record 3626 ---
+Component: Edge Integration Cell
+Environment: Cloud Foundry
+Title: API Artifact
+Description: You can now view the Virtual Host URL for the selected Runtime Profile from the Create API wizard.   See: Create an API Artifact Using URLand Create an API Using an Imported API Definition
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-01-23
+Valid as Of: 2024-01-23
+Version: 2312
+
+--- Record 3627 ---
+Component: Edge Integration Cell
+Environment: Cloud Foundry
+Title: Software Version Update
+Description:     Edge Integration Cell: 8.12.*      Increment: 2312    
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-01-23
+Valid as Of: 2024-01-23
+Version: 2312
+
+--- Record 3628 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Process Visibility - Archiving Data
+Description: You can now archive Completed and Abruptly Ended visibility scenario instances. You can download the archived data for further analysis.  See Download Archived Data.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-23
+Valid as Of: 2024-01-23
+Version: Cloud
+
+--- Record 3629 ---
+Component: Intelligent Situation Automation
+Environment: Cloud Foundry
+Title: Support for OData V4 services
+Description: We now support OData V4 services for custom situation actions.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-10
+Valid as Of: 2024-01-22
+Version: Cloud
+
+--- Record 3630 ---
+Component: SAP Advanced Financial Closing
+Environment: Cloud Foundry
+Title: Closing Structure Table Change in Upcoming Release
+Description: With the release planned to be made available in February, a second tab will be added to the Closing Structure table. While the Hierarchy tab will display the closing structure as a hierarchy (that is, the way you already know it), the new List tab will show the folders in a list.  This change will affect the personalized views (formerly known as view variants) that you have created for the Closing Structure table. Due to this change, the existing views will be lost with the February release and will need to be recreated afterwards if still required.  Note  Views will be managed separately on both tabs. This means that you will be able to create views specific to one of the tabs without the view appearing in your view management on the other tab.  App affected:  Manage Closing Task Lists  Action: Take note of the views you're currently using. Once the release planned for February is available, go to the Closing Structure table in the Manage Closing Task Lists app and recreate and save the views if they are still required.
+Action: Required
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Finance
+Latest Revision: 2024-01-19
+Valid as Of: 2024-01-21
+Version: Cloud
+

@@ -1,0 +1,130 @@
+--- Record 4061 ---
+Component: Process Visibility Capability
+Environment: Cloud Foundry
+Title: Configure Sub-status
+Description: You can now choose to re-evaluate the sub-status defined with the expression type Event A occurred and not Event B in a Timeframe based on the Event B occurrence. See Configure Status.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2023-10-13
+Valid as Of: 2023-10-13
+Version: Cloud
+
+--- Record 4062 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Create an Action Project by Consuming APIs from the SAP System
+Description: You can now consume APIs from various SAP systems. Use the SAP System option when creating an Action project.   See   .
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-10-13
+Valid as Of: 2023-10-13
+Version: Cloud
+
+--- Record 4063 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Lobby - The Icon for Showing Tenant Details Changed
+Description: In the Lobby, the tenant details icon has been changed from a    layers icon to an    information icon.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2023-10-13
+Valid as Of: 2023-10-13
+Version: Cloud
+
+--- Record 4064 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Process Visibility - Configure Sub-status
+Description: You can now choose to re-evaluate the sub-status defined with the expression type Event A occurred and not Event B in a Timeframe based on the Event B occurrence. See Configure Status.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2023-10-13
+Valid as Of: 2023-10-13
+Version: Cloud
+
+--- Record 4065 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Translation of Visibility Scenarios in Live Process Projects
+Description: In live process projects, you can now translate the user-defined texts in visibility scenarios. With this, the content appears in the user's locale language within the Process Workspace app. See Translate User-Defined Texts in a Visibility Scenario.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-10-13
+Valid as Of: 2023-10-13
+Version: Cloud
+
+--- Record 4066 ---
+Component: Intelligent Situation Automation
+Environment: Cloud Foundry
+Title: Service Domain Updated
+Description: We have updated the service domains for Intelligent Situation Automation. Once you log in with the old URL, you are automatically redirected to the new domain.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-10-03
+Valid as Of: 2023-10-12
+Version: Cloud
+
+--- Record 4067 ---
+Component: SAP Build Work Zone, advanced edition
+Environment: Cloud Foundry
+Title: Video Player Displays When Video Format is Supported by Browser
+Description: Videos can be played either via the built-in SAP Build Work Zone, advanced edition native player or, if a format is not supported, the video will play using the browser-based player.  This feature is already available on preview systems.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-10-12
+Valid as Of: 2023-10-12
+Version: Cloud
+
+--- Record 4068 ---
+Component: UI Theme Designer
+Environment: Cloud Foundry,Neo
+Title: Base Theming Content for CF and Neo.
+Description: The base theming content is updated to version 11.7.0. Review the changes at https://github.com/SAP/theming-base-content/releases.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2023-10-12
+Version: Cloud
+
+--- Record 4069 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Authorizations Based on Policies
+Description: The user.excludedAttributes attribute is deprecated. See Configure Authorizations Based on Policies.  Action:  If you have a policy configured with the user.excludedAttributes attribute exchange the user.excludedAttributes with the user.attributes attribute in combination with the "NOT IN" operator.  If the policy is configured with the user.аttributes attribute used with the "=" operator, it supports only one attribute. For more attributes, use the "IN" operator adding each attribute separately.
+Action: Required
+Lifecycle: Deprecated
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2023-10-11
+Valid as Of: 2023-10-11
+Version: Cloud
+
+--- Record 4070 ---
+Component: Identity Provisioning
+Environment: Neo
+Title: Identity Provisioning is not bundled with SAP Landscape Management Cloud
+Description: Identity Provisioning no longer bundles with SAP Landscape Management Cloud because the solution is no longer dependent on SAP Analytics Cloud, embedded edition. Previously, the service was involved in provisioning of users and groups from Identity Authentication source system to SAP Analytics Cloud target system.  As of now, SAP Landscape Management Cloud bundles with Identity Authentication only.
+Action: Info only
+Lifecycle: Deprecated
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2023-12-06
+Valid as Of: 2023-10-11
+Version: Cloud
+

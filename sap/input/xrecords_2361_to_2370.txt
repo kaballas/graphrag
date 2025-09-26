@@ -1,0 +1,130 @@
+--- Record 2361 ---
+Component: Peppol Exchange
+Environment: Neo
+Title: Enhancement to the service
+Description: In the test environment, the schematron files have been updated for the following standards:      A-NZ Peppol BIS Billing: Updated to version 1.0.11      XRechnung: Updated to version 2.1.0      SI-UBL 2.0: Updated to version 2.0 May release 2024      This update will be active in the production environment as of August 24, 2024.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2024-08-23
+Version: Cloud
+
+--- Record 2362 ---
+Component: Peppol Exchange
+Environment: Neo
+Title: Enhancement to the service for Finland
+Description: In the test environment, the options to create participants with FI:OVT and FI:VAT Party ID have been removed from the Master Data Management app.  Sending and receiving electronic invoices between participants that are registered in the Peppol network using the deprecated party ID types will discontinue to work in future.  If you have existing Peppol participants using the deprecated FI:OVT or FI:VAT as party ID type, you must delete those participants and create them again with the new FI:OVT2 party ID type. See:    Removing the Registration of your Company from the Peppol Network  Enabling Your Company to Send Electronic Documents in the Peppol Network  Enabling Your Company to Receive Electronic Documents in the Peppol Network    This update will be active in the production environment as of August 24, 2024.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2024-08-23
+Version: Cloud
+
+--- Record 2363 ---
+Component: SAP Digital Payments Add-On
+Environment: Cloud Foundry
+Title: Payment cards or bank accounts that have been registered previously outside the SAP digital payments add-on can be used
+Description: You can now use payment cards or bank accounts that have been registered previously and are provided by the PSP or the consumer application.  For more information, see Using Pre-Registered Payment Cards or Bank Accounts.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Finance
+Latest Revision: 2024-01-01
+Valid as Of: 2024-08-23
+Version: Cloud
+
+--- Record 2364 ---
+Component: SAP Digital Payments Add-On
+Environment: Cloud Foundry
+Title: Payment type icon URLs can be used in payment page
+Description: A payment page can use icon URLs for payment types if these are provided by the relevant PSP.  For more information, see Payment Process Integration.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Finance
+Latest Revision: 2024-01-01
+Valid as Of: 2024-08-23
+Version: Cloud
+
+--- Record 2365 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: More Accurate Identification of Date Format in Template-Based Extraction
+Description: Date formatting during template-based extraction now relies on the date in the associated document to accurately identify the date format.  To enable SAP Document AI to extract dates correctly, and to prevent confusion between month and day, ensure that the date in documents associated with templates is greater than the 12th of the month.  See Add Documents and Activate/Deactivate Template
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Intelligent Technologies
+Latest Revision: 2024-08-23
+Valid as Of: 2024-08-23
+Version: Cloud
+
+--- Record 2366 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: New Improved ML Models for Invoice, Purchase Order, and Payment Advice
+Description: We’ve improved the machine learning models for the document types invoice, purchase order, and payment advice.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Intelligent Technologies
+Latest Revision: 2024-08-23
+Valid as Of: 2024-08-23
+Version: Cloud
+
+--- Record 2367 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: SAP Document AI Basic UI Document Feature Enhancements
+Description: We’ve made a number of enhancements to the Document feature of the SAP Document AI basic UI.       When you view extraction results for a document, the colors of bounding boxes in the page preview now match the colors of the extraction confidence ranges.      The tooltip displayed when you hover over a bounding box now shows the field name and field value separated by a horizontal line.      The Assign Field dialog now includes a toggle switch that allows you to quickly and easily select either Header or Line Item as the field type.      See View and Edit Extraction Results.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Intelligent Technologies
+Latest Revision: 2024-09-09
+Valid as Of: 2024-08-23
+Version: Cloud
+
+--- Record 2368 ---
+Component: SAP Java Buildpack
+Environment: Cloud Foundry
+Title: Deprecation of SAP Java Buildpack 1
+Description: Please be aware that SAP Java Buildpack 1 has been deprecated and is going to be removed from SAP BTP, Cloud Foundry environment in June 2025.  Background and Motivation:  SAP Java Buildpack 2 is generally available (GA) since early March 2024 and provides support for the latest and greatest versions of Java (17 and 21) and Tomcat (10.1). We also plan to support TomEE 10 as soon as it goes GA.  SAP Java Buildpack 1, on the other hand, supports older versions of Java (8, 11), Tomcat 9, and an SAP-patched version of TomEE 7 (which reached EoL in March 2021). SapMachine 11 will also reach EoL soon – in December 2024.  Our goal is to focus our efforts on delivering highly-requested new features, reducing technical debt, and boosting product quality and security.  As a result, SAP Java Buildpack 1 has been deprecated and technical support for it will be provided until June 30, 2025.   Action:    If you have applications running on sap_java_buildpack, you need to migrate them to sap_java_buildpack_jakarta as soon as possible.   Note  If your applications depend on TomEE 7, don’t start the migration yet but wait until we announce the availability of TomEE 10 in SJB 2.  Migration:      If your applications are compiled with Java 8, they should run successfully on any later version as Java versions are backward compatible. The only exception would be if your apps are using internal or undocumented Java APIs that have been removed or changed. Otherwise, your applications should be running fine and no extra effort from your side is required. Still, we recommend that you thoroughly test your application scenarios with the new Java version (17 or 21).    If your application or its dependencies are using former Java EE javax.* packages, you need to migrate them to Jakarta EE jakarta.* ones. You can do that by using any of the community tools available to run the migration. For example:      https://github.com/apache/tomcat-jakartaee-migration      https://tomee.apache.org/javax-to-jakarta.html          If you have multi-target applications (MTA), you need to adjust all modules with the following types:      java      java.tomcat      java.tomee      Since MTA deployment descriptors currently use sap_java_buildpack as a default buildpack, you need to set the buildpack module parameter to sap_java_buildpack_jakarta. For example:  modules:   - name: myapp       type: java.tomcat       parameters:           buildpack: sap_java_buildpack_jakarta  For more information, see MTA Module Types and Module-Specific Parameters.      Timeline:  We plan to support SAP Java Buildpack 1 until June 30, 2025 when it will be removed from SAP BTP, Cloud Foundry environment. Applications that haven’t been migrated to SAP Java Buildpack 2 by then might continue to run but will get an error when being restaged or redeployed.  In Q4 of 2024, we'll stop adding new features to SAP Java Buildpack 1, and will only provide security updates and bug fixes.   In H1 of 2025, new releases for SAP Java Buildpack 1 will be made only for critical security updates and bug fixes.
+Action: Required
+Lifecycle: Deprecated
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-08-16
+Valid as Of: 2024-08-22
+Version: Cloud
+
+--- Record 2369 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: API Gateway module: Update to version 2.5.0
+Description: This release includes the following changes:      We’ve added support for request modifiers in the v2alpha1 APIRule custom resource (CR). For more information, see APIRule CR Specification.  We’ve added Istio Gateway validation in APIRule CR. Now, the spec.gateway field must specify an actual Istio Gateway in the namespace/gateway format. The namespace and gateway names must not exceed 63 characters each.    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-08-08
+Valid as Of: 2024-08-22
+Version: Cloud
+
+--- Record 2370 ---
+Component: Object Store
+Environment: Cloud Foundry,Kyma
+Title: Support for blob index match in expiration rules on Azure
+Description: Object Store now supports blob index match on Azure. For details, see Auto Expiration of Blobs and Blob Versions.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-08-22
+Valid as Of: 2024-08-22
+Version: Cloud
+

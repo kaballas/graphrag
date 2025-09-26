@@ -1,0 +1,130 @@
+--- Record 3281 ---
+Component: SAP Advanced Financial Closing
+Environment: Cloud Foundry
+Title: Folder Description Handling Fixed
+Description: If you don't maintain a translation for the folder description directly in the folder in SAP Advanced Financial Closing but a translated description is available in the model the folder was created from, the translated description from the model is now displayed in SAP Advanced Financial Closing.  Apps affected:    Manage Closing Task Lists  Process Closing Tasks  
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Finance
+Latest Revision: 2024-03-01
+Valid as Of: 2024-03-17
+Version: Cloud
+
+--- Record 3282 ---
+Component: SAP Advanced Financial Closing
+Environment: Cloud Foundry
+Title: General User Interface and Behavior Changes
+Description: Some user interface and behavior changes have now been released. Aside from smaller improvements, the following two changes have been implemented:  Filter and sorting settings in tables have been enhanced:When you click on one of the columns, you now see a pop-over screen allowing you to easily define whether to sort a column in ascending or descending order, and to group the table by the column you've selected. Additionally, you can quickly access further sorting, filter, grouping, and column settings directly from this pop-over.  A change has been made to when field values you enter are validated:Field validation now takes place only once you either hit Enter or choose Save. This allows you to finalize your entries and only then get them validated and receive corresponding messages.    Apps affected: All apps
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Finance
+Latest Revision: 2024-03-01
+Valid as Of: 2024-03-17
+Version: Cloud
+
+--- Record 3283 ---
+Component: SAP Advanced Financial Closing
+Environment: Cloud Foundry
+Title: Handling of Drafts in Table Sorting
+Description: The sorting settings for all tables showing drafts have changed. As of now, you no longer see your own drafts at the top of the list. Instead, they are now included at the respective position of the actual sorting order.Tip  To show your own drafts, you can filter for the specific entries using the Editing Status column.  Apps affected: All apps using drafts
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Finance
+Latest Revision: 2024-03-07
+Valid as Of: 2024-03-17
+Version: Cloud
+
+--- Record 3284 ---
+Component: SAP Advanced Financial Closing
+Environment: Cloud Foundry
+Title: Search and Filter for Task Description Fixed
+Description: The search for task descriptions has been fixed. While previously the search and filtering function for task descriptions looked at the values maintained under Task Default Description, you can now also search and filter for values maintained under Task Description.  Apps affected: All apps
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Finance
+Latest Revision: 2024-03-01
+Valid as Of: 2024-03-17
+Version: Cloud
+
+--- Record 3285 ---
+Component: Edge Integration Cell
+Environment: Cloud Foundry
+Title: API Artifact
+Description: You now have the option to select the Edge Integration Cell runtime profile when creating an API artifact. This profile determines the specific Edge Integration Cell node where you can create and process your API artifact.  See: Create an API Artifact Using URL
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-03-16
+Valid as Of: 2024-03-16
+Version: 2401
+
+--- Record 3286 ---
+Component: Edge Integration Cell
+Environment: Cloud Foundry
+Title: API Artifact
+Description: You can now create a duplicate of an API artifact by copying it within the same package or in a different integration package within the same Integration Suite subscription.  See: Copy an API Artifact  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-03-16
+Valid as Of: 2024-03-16
+Version: 2401
+
+--- Record 3287 ---
+Component: Edge Integration Cell
+Environment: Cloud Foundry
+Title: Solace Monitor for Operations Cockpit
+Description: You can now monitor Solace Message Broker metrics, keep track of resource utilization, and access information about message VPNs, queues, and clients  See: Message Service Monitor
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-03-16
+Valid as Of: 2024-03-16
+Version: 2401
+
+--- Record 3288 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Istio and API Gateway modules: temporary downtime in the regular channel
+Description: During the maintenance window on March 16th - 17th, 2024, we plan to eliminate technical debt in the Istio and API Gateway modules on the default Kyma domain in the regular channel. This might result in a temporary downtime lasting several minutes.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-03-06
+Valid as Of: 2024-03-16
+Version: Cloud
+
+--- Record 3289 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Off-Cycle Upgrade
+Description: Identity Authentication has been upgraded.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-03-15
+Valid as Of: 2024-03-15
+Version: 25801
+
+--- Record 3290 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Off-Cycle Upgrade
+Description: Identity Authentication has been upgraded.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-03-15
+Valid as Of: 2024-03-15
+Version: 25801
+

@@ -1,0 +1,130 @@
+--- Record 621 ---
+Component: Continuous Integration & Delivery
+Environment: Cloud Foundry
+Title: Discontinuation of OAuth Credential Type
+Description: The OAuth credential type is now obsolete and can no longer be created. All existing OAuth credentials have been migrated to the Secret Text credential type. For more information, see Creating Credentials.
+Action: Info only
+Lifecycle: Deleted
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-06-18
+Valid as Of: 2025-06-18
+Version: Cloud
+
+--- Record 622 ---
+Component: Continuous Integration & Delivery
+Environment: Cloud Foundry
+Title: Discontinuation of the SAP Fiori for the Neo Environment Pipeline
+Description: The SAP Fiori for the Neo Environment pipeline has been deleted. Existing jobs will no longer function, but you can still download their configuration. See Export Job Configuration Data.
+Action: Info only
+Lifecycle: Deleted
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-06-18
+Valid as Of: 2025-06-18
+Version: Cloud
+
+--- Record 623 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Identity Federation
+Description: We have extended the identity federation for an application and on tenant level. Now, you can restrict the logon to users with certain email domains. See Configure Identity Federation for Applications and Configure Identity Federation.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2025-06-18
+Valid as Of: 2025-06-18
+Version: 27972
+
+--- Record 624 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Job Execution Outcome introduced
+Description: The Job Execution Outcome is now displayed on the Job Execution Details screen and included in the job notifications. It appears when delta-read jobs and jobs that fail to read entities from the source system affect the deletion of entities in the target system.  For more information, see Monitor Provisioning Job Logs
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-06-18
+Valid as Of: 2025-06-18
+Version: 27972
+
+--- Record 625 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Regular Upgrade
+Description: Cloud Identity Services have been upgraded.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-06-18
+Valid as Of: 2025-06-18
+Version: 27972
+
+--- Record 626 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: SAP Revenue Growth Management connector
+Description: Identity Provisioning supports the SAP Revenue Growth Management connector. You can configure it as source, target, and proxy system for your provisioning scenarios.  For more information, see    SAP Revenue Growth Management (Source)  SAP Revenue Growth Management (Target)  SAP Revenue Growth Management (Proxy)  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-06-18
+Valid as Of: 2025-06-18
+Version: 27972
+
+--- Record 627 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Support for extension enterprise schema for users
+Description: The extension enterprise schema has been defined in the default write and proxy write transformations of SAP Concur.  For more information, see SAP Concur
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-06-18
+Valid as Of: 2025-06-18
+Version: 27972
+
+--- Record 628 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Support for SAP extension schema for groups
+Description: The default transformations of the following connectors support attributes from the SAP extension schema for groups, including application ID, type, and supported operations.  For more information, see    SAP Integrated Business Planning  SAP Intelligent Agriculture  SAP Jam Collaboration  
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-06-18
+Valid as Of: 2025-06-18
+Version: 27972
+
+--- Record 629 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: System reset confirmation message extended
+Description: The UI message prompting confirmation for system reset has been expanded to include typical cases when a reset is necessary.  For more information, see Reset Identity Provisioning System
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-06-18
+Valid as Of: 2025-06-18
+Version: 27972
+
+--- Record 630 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: User Attributes
+Description: Cloud Identity Services now supports a new local user attribute - License Groups to list the license groups that give access to the premium Joule scenarios. See Configuring User Attributes from the Identity Directory.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-06-18
+Valid as Of: 2025-06-18
+Version: 27972
+

@@ -1,0 +1,130 @@
+--- Record 2031 ---
+Component: Connectivity
+Environment: Cloud Foundry
+Title: Cloud Connector - New Regions
+Description: Additional regions were added to SAP BTP:    ap30: Australia (Sydney) - Google Cloud  br20: Brazil (São Paulo) - Azure  sa30: KSA (Dammam) - Google Cloud    For more information, see Cloud Connector: Prerequisites.  In case of questions please contact SAP Support.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-10-28
+Valid as Of: 2024-10-28
+Version: Cloud
+
+--- Record 2032 ---
+Component: Continuous Integration & Delivery
+Environment: Cloud Foundry
+Title: Bug Fix for Application Name in the SAP Fiori for ABAP Platform Pipeline
+Description: In the release stage of the SAP Fiori for ABAP Platform pipeline, the namespace prefixes are available again.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-10-28
+Valid as Of: 2024-10-28
+Version: Cloud
+
+--- Record 2033 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: API Gateway module: Update to verison 2.7.0
+Description: This release contains the following changes:     We've added support for short host name in version v2alpha1 of APIRule. If you only provide the leftmost label in the spec.hosts field of an APIRule custom resource (CR), it uses the domain name from the referenced Gateway, expanding the host to <label>.<gateway domain>. See Sample Custom Resources.      We've fixed the wildcard path format and the validation of the rule path in an APIRule.      Release 2.7 of the API Gateway module includes the fully functional version of APIRule v2alpha1 with noAuth, jwt, and extAuth access strategies. Version v2alpha1 is not meant for use in a production environment but for testing purposes only. After the rollout to the regular channel on October 28, 2024, you’ll be required to start testing the migration procedure. To learn more, see the APIRule migration blog post. It provides the timeline for deletion of APIRule v1beta1 and covers the following migration scenarios:  From the noop, allow, or no_authhandler in version v1beta1 to the noAuth handler in version v2alpha1  From the jwt handler in version v1beta1 to the new configuration of the jwt handler in version v2alpha1    The migration procedure from OAuth2 handlers based on Ory Oathkeeper to the new extAuth handler will be published in the next blog post. For now, see the tutorial Exposing a Workload with extAuth.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-10-03
+Valid as Of: 2024-10-28
+Version: Cloud
+
+--- Record 2034 ---
+Component: Region
+Environment: Cloud Foundry
+Title: Australia (Sydney)
+Description: Australia (Sydney) (cf-ap30) is available as a new region running on Google Cloud for use with enterprise accounts. See Regions and API Endpoints Available for the Cloud Foundry Environment.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-10-28
+Valid as Of: 2024-10-28
+Version: Cloud
+
+--- Record 2035 ---
+Component: Region
+Environment: Cloud Foundry
+Title: Brazil (São Paulo)
+Description: Brazil (São Paulo) (cf-br20) is available as a new region running on Azure for use with enterprise accounts. See Regions and API Endpoints Available for the Cloud Foundry Environment.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-10-28
+Valid as Of: 2024-10-28
+Version: Cloud
+
+--- Record 2036 ---
+Component: SAP Task Center
+Environment: Cloud Foundry
+Title: SAP Task Center Improvements
+Description: The following improvements are introduced for the SAP Task Center Web app:    Handling of attachments with IDs that include special characters      Support for opening task directly via deep links    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-10-28
+Valid as Of: 2024-10-28
+Version: Cloud
+
+--- Record 2037 ---
+Component: Data Space Integration
+Environment: Cloud Foundry
+Title: Software Version Update
+Description: The following are the latest versions in Data Space Integration:      Data Space Integration: 1.1.*      Increment: 2409      Tractus-X Eclipse Dataspace Connector: 0.7.4      FOSS Eclipse Dataspace Components: 0.7.1      See also the Release Notesof Catena-X. 
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-10-26
+Valid as Of: 2024-10-26
+Version: 2409
+
+--- Record 2038 ---
+Component: Edge Integration Cell
+Environment: Cloud Foundry
+Title: New Actions in Component Monitor
+Description: You can now perform the following actions on components that support Diagnostics:    Create Heap Dump Diagnostic Task    Create Thread Dump Diagnostic Task  Choose the overflow menu to see all the available actions for the selected component.  See: Component Monitor
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-10-26
+Valid as Of: 2024-10-26
+Version: 2409
+
+--- Record 2039 ---
+Component: Edge Integration Cell
+Environment: Cloud Foundry
+Title: New Actions Menu in Component Monitor
+Description: The View Runtime Parameters and View Pod Events buttons have moved to the overflow menu.  See: Component Monitor
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-10-26
+Valid as Of: 2024-10-26
+Version: 2409
+
+--- Record 2040 ---
+Component: Edge Integration Cell
+Environment: Cloud Foundry
+Title: New Cleanup Diagnostics Data Action in Job Management
+Description: A new action, Cleanup Diagnostic Data, is now available in Job Management. You can create jobs with this action to delete manually created diagnostic tasks and automatically generated heap dumps. It also deletes empty working directories created by the Worker component on the shared file system that are no longer in use.  See: Job Management  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-10-26
+Valid as Of: 2024-10-26
+Version: 2409
+

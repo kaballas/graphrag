@@ -1,0 +1,130 @@
+--- Record 1611 ---
+Component: Process Visibility Capability
+Environment: Cloud Foundry
+Title: Enhanced Step Processor for Calculated Attributes
+Description: The Step Information expression with Step Processor entity type for calculated attributes now includes an option to view a comprehensive list of all processors involved in the execution of the step.  See Add Calculated Attributes.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-01-21
+Valid as Of: 2025-01-21
+Version: Cloud
+
+--- Record 1612 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Enhanced Step Processor for Calculated Attributes
+Description: The Step Information expression with Step Processor entity type for calculated attributes now includes an option to view a comprehensive list of all processors involved in the execution of the step.See Add Calculated Attributes.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-01-21
+Valid as Of: 2025-01-21
+Version: Cloud
+
+--- Record 1613 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Monitoring Automations
+Description: On the new Quota Management tile you can check the quota of attended and unattended automations that are permitted for your SAP Build Process Automation tenant and see when this quota assignment was last changed.Choose Monitoring  Automation Concurrent Quota Usage Today to open the Simultaneous Quota Usage for Automation view.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-01-21
+Valid as Of: 2025-01-21
+Version: Cloud
+
+--- Record 1614 ---
+Component: SAP Datasphere
+Environment: Cloud Foundry
+Title: Features for Version 2025.2
+Description: New and changed features are available for administration, data cataloging, and data integration.  For more information, see What's New in SAP Datasphere 2025.2. 
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-01-21
+Valid as Of: 2025-01-21
+Version: Cloud
+
+--- Record 1615 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Bigger machine type available in the Amazon Web Services and Google Cloud plans
+Description: We have added the following machine types:  m6i.16xlarge and m5.16xlarge in the Amazon Web Services (aws) plan.  n2-standard-64 in the Google Cloud (gcp) plan.  Now, machine types offering 64 virtual CPUs and 256 GB of RAM are available in all the standard plans. For more information, see Provisioning and Updating Parameters in the Kyma Environment.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-01-17
+Valid as Of: 2025-01-20
+Version: Cloud
+
+--- Record 1616 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: SAP BTP Operator module: Update to version 1.1.20
+Description: With this release, we have updated the SAP BTP service operator resources to version 0.7.1.  We have introduced a new field in the ServiceInstance resource: watchParametersFromChanges. You can use it to trigger an automatic update of the ServiceInstance resource with the changes to the Secret values listed in the parametersFrom field.  For more information, see Passing Parameters.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-01-17
+Valid as Of: 2025-01-20
+Version: Cloud
+
+--- Record 1617 ---
+Component: SAP AI Core
+Environment: Cloud Foundry
+Title: Generative AI hub
+Description: You can now configure your orchestration workflow so that Llama Guard 3 filters input and output content. Llama Guard 3 provides several content categories for filtering content.  Azure Content Safety is still supported.  For more information, see Input Filtering and Output Filtering.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2025-01-19
+Valid as Of: 2025-01-19
+Version: Cloud
+
+--- Record 1618 ---
+Component: Service Manager
+Environment: Other
+Title: Automated Service Instance Updates for Enhanced Configuration Management
+Description: We've introduced automatic updates for service instance managed by the BTP service operator, ensuring configurations stay current and aligned with referenced secrets in the parametersFrom field.   Now, any changes to Secret values used in this field of a ServiceInstance resource will automatically trigger an update request.  This enhancement optimizes configuration management by eliminating the need for manual updates to the ServiceInstance resource every time a referenced Secret value changes.   Developers and operators benefit from increased efficiency and reduced risk of configuration drift, as service instances are automatically kept in sync with the latest parameter values.  See Passing Parameters.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-01-17
+Valid as Of: 2025-01-17
+Version: Cloud
+
+--- Record 1619 ---
+Component: API Management
+Environment: Cloud Foundry
+Title: Developer Hub
+Description: As a content administrator, you can import events using an AsyncAPI specification, add them to products, and make them publicly available by publishing the associated products in the catalog.  See: Import Events as AsyncAPI Specification on Developer Hub
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-01-16
+Valid as Of: 2025-01-16
+Version: 2412
+
+--- Record 1620 ---
+Component: SAP Task Center
+Environment: Cloud Foundry
+Title: New Property to Optimize Search Performance
+Description: A new property tc.pp.active_users_only can be set up to optimize the performance of the people search engine for very large user groups.  For more information, see Identity Directory Connectivity. 
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-01-16
+Valid as Of: 2025-01-16
+Version: Cloud
+

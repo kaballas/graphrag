@@ -1,0 +1,130 @@
+--- Record 1401 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: ABAP Development Tools for Eclipse: Develop Custom Actions with the IDE Action Framework and Enhance Them with Server-Driven UI
+Description: The IDE Action framework allows you to extend the ABAP development tools for Eclipse with custom actions. You can create and run IDE Actions, which are additional functionalities implemented completely in the backend. On top of that, you have the option to use server-driven UI APIs to build UIs, add parameters and additional configurations to your actions, such as side effects and custom value helps.  See IDE Actions and Working with Server-Driven UIs.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-02-14
+Valid as Of: 2025-02-14
+Version: ABAP Environment 2502
+
+--- Record 1402 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: ABAP Development Tools for Eclipse: Update Accessible Resources in Cloud Connector
+Description: The accessible resources for the Custom Code Migration app have been extended with function module RS_ABAP_INFRA_VERSION_E. The accessible resources need to be updated in the Cloud Connector after the upgrade.  See 2861842 .
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-02-14
+Valid as Of: 2025-02-14
+Version: ABAP Environment 2502
+
+--- Record 1403 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: ABAP Development Tools for Eclipse: Updated ATC Check "Allowed Object Types in Cloud"
+Description: The ATC check "Allowed Object Types in Cloud" now only reports findings if the ABAP language version of the object is set to "Standard". It no longer reports findings for objects that have already been specified for usage in cloud and their ABAP language version has been set to "ABAP Cloud Development" or "Key User".
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-02-14
+Valid as Of: 2025-02-14
+Version: ABAP Environment 2502
+
+--- Record 1404 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: ABAP Development Tools for Eclipse: Working with Intelligent Scenarios and Intelligent Scenario Models
+Description: You can now work with Intelligent Scenarios and Intelligent Scenario Models in ABAP development tools for Eclipse in addition to the corresponding apps on the Fiori launchpad.  SeeWorking with Intelligent Scenarios and Working with Intelligent Scenario Models.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-02-14
+Valid as Of: 2025-02-14
+Version: ABAP Environment 2502
+
+--- Record 1405 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: ABAP SQL Service - (read-only) Database Procedures
+Description: Have you already used the ABAP SQL Service / ODBC Driver for ABAP to expose ABAP-based business data via SQL-APIs to external SQL consumers? We are now increasing the feature scope for those scenarios. Besides exposing CDS view entities for read-only scenarios, it will be possible to also expose "read-only" AMDP-based database procedures to be used by external ODBC clients. By doing so, you can both expose SQL and SQLScript-based business logic to external ODBC clients.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-11-15
+Valid as Of: 2025-02-14
+Version: ABAP Environment 2502
+
+--- Record 1406 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: CDS Table Entities
+Description: A new type of CDS entity is available: the CDS table entity. A CDS table entity defines a database table in ABAP CDS as an ABAP-managed database object. Table entities provide a persistence layer for ABAP applications that allows you to define and manage SAP HANA database tables as native CDS repository objects. The initial shipment of table entities supports CDS associations, CDS annotations, and typing with both CDS simple types and CDS enumerated types.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-11-15
+Valid as Of: 2025-02-14
+Version: ABAP Environment 2502
+
+--- Record 1407 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: CDS Updatable View Entities
+Description: With CDS Writeable View Entities, you can wrap existing DDIC Tables (or CDS Table Entities) and expose a native CDS signature that you can use with ABAP SQL (SELECT, INSERT, UPDATE, DELETE) in combination with DCL-based access control. CDS Writeable View Entities are projections based on the underlying DDIC Table / CDS Table Entity.  CDS Writeable View Entities will allow the following scenarios:  Enabling of "Cloud-ready" READ/WRITE AMDPs, as they ensure "client safe" native HANA SQLScript coding by preventing cross-client access  Exposure of a stable CDS signature for full SQL DML access but still allowing changes to the underlying persistence model  Enabling the usage of Dynamic View Caches based on released SAP content  Enabling of WRITE scenarios via the ABAP SQL Service / ABAP ODBC Driver  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-11-15
+Valid as Of: 2025-02-14
+Version: ABAP Environment 2502
+
+--- Record 1408 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Changing the HTTP Redirect Behavior
+Description: You can now change and the redirect behavior or retrieve the current redirect policy of an HTTP call using the SET_REDIRECT_POLICY and GET_REDIRECT_POLICY methods of the CL_WEB_HTTP_CLIENT_MANAGER class.  For more information, see Changing the HTTP Redirect Behavior.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-02-14
+Valid as Of: 2025-02-14
+Version: ABAP Environment 2502
+
+--- Record 1409 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Cipher Suites
+Description: You can now specify cipher suites in the Communication Systems app to define a set of encryption mechanisms you want to use as a basis for your communication.  See How to Create Communication Systems.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-02-14
+Valid as Of: 2025-02-14
+Version: ABAP Environment 2502
+
+--- Record 1410 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Client Safety of CDS and AMDP
+Description: To support client safe implementation please read Client Handling in ABAP - SAP Community for an overview.  Technical background is provided in 3472859 .  Please adopt these recommendations. 
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-11-15
+Valid as Of: 2025-02-14
+Version: Cloud
+

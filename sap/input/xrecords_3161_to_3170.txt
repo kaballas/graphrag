@@ -1,0 +1,130 @@
+--- Record 3161 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Process Visibility - Data Archiving
+Description: You can now configure Data Archiving Limits for your visibility scenario.  See Download Archived Data.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-04-08
+Valid as Of: 2024-04-08
+Version: Cloud
+
+--- Record 3162 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Store - New Content Packages
+Description: A set of 10 content packages (8 business, 2 learning) were added to the store in February and March 2024..  These content packages are tailored to different lines of business such as Procurement, SAP SuccessFactors, and SAP IBP.      Extend Purchase Contracts  Process Step Completion Approval for SAP IBP for Supply Chain  Mass Change Of Bill Of Materials  Manage Employee Central Stalled Workflows  Manage Safety Stock - Slow Or Non-Moving Materials  Mass Creation of Business Solution Orders (6O3)  Mass Change of Project Roles for Enterprise Projects(49B)  Mass Maintenance of Enterprise Projects(4JA)      Learning Content  Sales Order Management (MI08)  Connect BAPI using Action Group    SAP S/4HANA  Updated UI packages for the following content      Mass Processing of Planned Orders  Mass Creation of Measuring Documents  Mass Completion of Supplier Quotations & Request for Quotations  Mass Fixed Asset Acquisition  Mass Maintenance of Purchasing Info Records  Automate Posting of Goods Receipt  Mass Clearing of GL, Customer and Supplier Open Items  Mass Maintenance of Cost Centers  Non-Repairable Part Auto Recording with Goods Movement  Mass Purchase Order Confirmations  Mass Fixed Asset Acquisition  Mass Maintenance of Scheduling Agreements  Mass Maintenance of Purchase Contracts  Mass Creation of Maintenance Service Orders  Adhoc Subcontracting Purchase Requisition Creation      Bug Fixes      Mass Purchase Orders Closure  Posting Asset Acquisition for Fixed Asset      SAP SuccessFactors  Create Permission Group  Contract Employee End Date Extension    Other Packages  Process Actions
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-04-08
+Valid as Of: 2024-04-08
+Version: Cloud
+
+--- Record 3163 ---
+Component: SAP Translation Hub
+Environment: Cloud Foundry
+Title:   ABAP short text object types for table entries supported   
+Description:    You can now translate ABAP short text object types in group A6 "Table Entries" with the ABAP integration option. This applies to all object types in the group like TADC, TADW and others.  
+Action: Info only
+Lifecycle: Restricted Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-04-08
+Valid as Of: 2024-04-08
+Version: Cloud
+
+--- Record 3164 ---
+Component: SAP Translation Hub
+Environment: Cloud Foundry
+Title:   Company MLTR options now available in Software Translation drop-down  
+Description:   You can now access the Company MLTR options from the drop-down menu in the Software Translation projects list. Company MLTR currently supports file uploads in XLIFF 1.2 format.  
+Action: Info only
+Lifecycle: Restricted Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-04-08
+Valid as Of: 2024-04-08
+Version: Cloud
+
+--- Record 3165 ---
+Component: SAP Translation Hub
+Environment: Cloud Foundry
+Title:   Service option for Software Translation now accessible from dropdown in Documentation Translation  
+Description:    You can now access the software translation options from the Document Translation drop-down menu  
+Action: Info only
+Lifecycle: Restricted Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-04-08
+Valid as Of: 2024-04-08
+Version: Cloud
+
+--- Record 3166 ---
+Component: Integration Advisor
+Environment: Cloud Foundry,Neo
+Title: Disabling Proposal Service
+Description: You can now choose to opt out of the Proposal service that is used to collect data and provide proposals when working with a MIG/MAG.  See: MIGs and MAGs
+Action: Required
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-04-06
+Valid as Of: 2024-04-06
+Version: 2402
+
+--- Record 3167 ---
+Component: Integration Advisor
+Environment: Cloud Foundry,Neo
+Title: Filter Code Values in MIG
+Description: The code values of a node in MIG editor can now be filtered using multiple options.  See: Assigning Codelists to Leaf Nodes
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-04-06
+Valid as Of: 2024-04-06
+Version: 2402
+
+--- Record 3168 ---
+Component: Integration Advisor
+Environment: Cloud Foundry,Neo
+Title: Redesign of the Mapping List
+Description: The Mapping List of a MAG now displays more information about the source and target nodes such as constants and global parameters.  See:Working with Mapping Guidelines (MAGs)  
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-04-06
+Valid as Of: 2024-04-06
+Version: 2402
+
+--- Record 3169 ---
+Component: Integration Advisor
+Environment: Cloud Foundry,Neo
+Title: Software Version Update
+Description:   SAP Integration Advisor: 1.85.*    Increment: 2402    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-04-06
+Valid as Of: 2024-04-06
+Version: 2402
+
+--- Record 3170 ---
+Component: Integration Advisor
+Environment: Cloud Foundry,Neo
+Title: XPath Expressions for MIGs
+Description: The MIG editor now displays two versions of XPath expressions which can be used before and after the preprocessing of the message.  See: Working with a Node
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-04-06
+Valid as Of: 2024-04-06
+Version: 2402
+

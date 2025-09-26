@@ -1,0 +1,130 @@
+--- Record 581 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Off-Cycle Upgrade
+Description: Cloud Identity Services have been upgraded.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-06-25
+Valid as Of: 2025-06-25
+Version: 28001
+
+--- Record 582 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Override Conditional Authentication with URL Parameter
+Description: We have added an option to the idp parameter for application which allows logon with OpenID Connect (OIDC). Use the value local to override the conditional authentication configuration and log on with Identity Authentication instead.  For more information, see Configure IdP-Initiated SSO or Configure the Client to Call Identity Authentication Authorize Endpoint for Authorization Code Flow.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-06-25
+Valid as Of: 2025-06-25
+Version: 28001
+
+--- Record 583 ---
+Component: Joule
+Environment: Cloud Foundry
+Title: New Use Cases for SAP SuccessFactors Available in Joule - June 2025
+Description: The following Joule use cases are now available in SAP SuccessFactors:      Fix login issues      View company      For more information, refer to New Use Cases Available in Joule - June 2025.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-06-24
+Valid as Of: 2025-06-25
+Version: Cloud
+
+--- Record 584 ---
+Component: Joule
+Environment: Cloud Foundry
+Title: New Use Cases Now Supported in SAP S/4HANA Cloud Public Edition
+Description: Joule now enables you to view business data of the following objects in SAP S/4HANA Cloud Public Edition:  Process Order    For a list of the supported business objects, their details, and sample requests, see Viewing Business Data.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-06-24
+Valid as Of: 2025-06-25
+Version: Cloud
+
+--- Record 585 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Telemetry module: Update to version 1.42.0
+Description: The new version brings the following improvements:      Traces and Metrics: Update to OTel Collector 0.127.0 (#2192).      Logs: Update to Fluent Bit 4.0.3 (#2188).    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-06-11
+Valid as Of: 2025-06-25
+Version: Cloud
+
+--- Record 586 ---
+Component: Cloud Integration
+Environment: Cloud Foundry
+Title: Docusign Receiver Adapter Available
+Description: Docusign Receiver adapter is available now.  See: Docusign Receiver Adapter
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-06-24
+Valid as Of: 2025-06-24
+Version: 2504
+
+--- Record 587 ---
+Component: Cloud Integration
+Environment: Cloud Foundry
+Title: Google BigQuery Receiver Adapter Available
+Description: Google BigQuery adapter is available now.  See: Google BigQuery Receiver Adapter
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-06-24
+Valid as Of: 2025-06-24
+Version: 2504
+
+--- Record 588 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Istio module: Update to version 1.18.1
+Description: With this release, we've fixed an issue where defining multiple external authorizers in the Istio custom resource resulted in only the last one being configured in the Istio installation configuration.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-06-23
+Valid as Of: 2025-06-24
+Version: Cloud
+
+--- Record 589 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Add a Placeholder to a Process
+Description: You can now add a placeholder to a process to replace it later with any appropriate activity. See   Add a Placeholder to a Process  Guidelines for Using a Placeholder  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-06-24
+Valid as Of: 2025-06-24
+Version: Cloud
+
+--- Record 590 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Import a BPMN Process
+Description: You can now import a Business Process Model and Notation (BPMN) process from other tools to SAP Build Process Automation. See   Import a BPMN Process  Activity Mappings for BPMN Models  Event Mappings for BPMN Models  Gateway Mappings for BPMN Models  Variable Mappings for BPMN Models  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-06-24
+Valid as Of: 2025-06-24
+Version: Cloud
+

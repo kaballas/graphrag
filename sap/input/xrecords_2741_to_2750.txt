@@ -1,0 +1,130 @@
+--- Record 2741 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: SAP Ariba Category Management connector
+Description: Identity Provisioning supports the SAP Ariba Category Management connector. You can configure it as source, target, and proxy system for your provisioning scenarios. See:    SAP Ariba Category Management (Source)      SAP Ariba Category Management (Target)      SAP Ariba Category Management (Proxy)    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-06-20
+Valid as Of: 2024-06-20
+Version: 26260
+
+--- Record 2742 ---
+Component: Identity Provisioning
+Environment: Neo
+Title: SAP Ariba Category Management connector
+Description: Identity Provisioning supports the SAP Ariba Category Management connector. You can configure it as source, target and proxy system for your provisioning scenarios. For more information, see:    SAP Ariba Category Management      SAP Ariba Category Management      SAP Ariba Category Management    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-06-20
+Valid as Of: 2024-06-20
+Version: Cloud
+
+--- Record 2743 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: New provisioning parameters in the Networking object
+Description: We have added two new optional nested parameters to the Networking object:     CIDR range for Pods - defines a custom IP range for Pods.      CIDR range for Services - defines a custom IP range for Services.      See Provisioning and Updating Parameters in the Kyma Environment.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-06-20
+Valid as Of: 2024-06-20
+Version: Cloud
+
+--- Record 2744 ---
+Component: SAP Build Apps
+Environment: Cloud Foundry
+Title: Web & Mobile
+Description: You can edit texts on the UI canvas directly by double clicking on it.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-06-20
+Valid as Of: 2024-06-20
+Version: Cloud
+
+--- Record 2745 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Region: Israel (Tel Aviv)
+Description: Israel (Tel Aviv) (me-west1) is now available as a new region running on Google Cloud.  See Regions for the Kyma Environment and Provisioning and Updating Parameters in the Kyma Environment.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-06-19
+Valid as Of: 2024-06-19
+Version: Cloud
+
+--- Record 2746 ---
+Component: Pricing Service
+Environment: Cloud Foundry
+Title: Write Engine Traces Properly
+Description: Engine traces used not to be shown for some tenants, because they were not written to the database. This issue has been corrected.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-06-07
+Valid as Of: 2024-06-19
+Version: Cloud
+
+--- Record 2747 ---
+Component: Pricing Service
+Environment: Cloud Foundry
+Title: Write Proper Engine Traces
+Description: An unintended extra quotation mark and absence of space used to make the calculation trace an invalid XML. This issue has been corrected.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-06-18
+Valid as Of: 2024-06-19
+Version: Cloud
+
+--- Record 2748 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Update Existing SAPUI5 Form
+Description: You want to replace the existing version of your SAPUI5 form in your process.  See Update an SAPUI5 Form.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-06-19
+Valid as Of: 2024-06-19
+Version: Cloud
+
+--- Record 2749 ---
+Component: Process Visibility Capability
+Environment: Cloud Foundry
+Title: Authorization
+Description: You can define granular access by configuring data-level authorization to filter scenario instances based on the logged-in user. This enables users to view and track instances that are specific to their responsibilities. See Track Processes Based on User Responsibility and Create Custom Roles.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-06-18
+Valid as Of: 2024-06-18
+Version: Cloud
+
+--- Record 2750 ---
+Component: Process Visibility Capability
+Environment: Cloud Foundry
+Title: Configure Step Target
+Description: You can now set the target for a specific step associated with a process to monitor step progress. See Configure a Step Target.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-06-18
+Valid as Of: 2024-06-18
+Version: Cloud
+

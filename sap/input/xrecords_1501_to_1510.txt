@@ -1,0 +1,130 @@
+--- Record 1501 ---
+Component: Variant Configuration
+Environment: Cloud Foundry
+Title: Production - Configurations API – Raise Conflict for Non-Unique Inferences from Multiple Rows of a Variant Table
+Description: When a characteristic value could not be set because a selection on a variant table resulted in more than one row, an exception used to be raised and the configuration service endpoint prompted an error. This behavior has been changed by not raising an exception anymore but signaling a conflict in the configuration results in the same way as LO-VC does it.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-12-17
+Valid as Of: 2025-02-05
+Version: Cloud
+
+--- Record 1502 ---
+Component: Variant Configuration
+Environment: Cloud Foundry
+Title: Production – Configurations API – AVC Forwarding – Ensure Sort Order Remains Stable Between Requests
+Description: The order of existing possible values could have changed after a PATCH request, that is, setting a value during the configuration while using AVC forwarding. This issue has been corrected.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-12-17
+Valid as Of: 2025-02-05
+Version: Cloud
+
+--- Record 1503 ---
+Component: Variant Configuration
+Environment: Cloud Foundry
+Title: Production – Configurations API – AVC Forwarding – Possible Values: Include pre-defined characteristic values
+Description: Valid pre-defined characteristic values used to be omitted from the returned list of possible values of date and numeric characteristics if a restricted dynamic domain was returned by AVC. This issue has been corrected.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-12-17
+Valid as Of: 2025-02-05
+Version: Cloud
+
+--- Record 1504 ---
+Component: Variant Configuration
+Environment: Cloud Foundry
+Title: Production – Configurations API –Exclude Globally Assigned Characteristics from Configuration Results
+Description: In certain scenarios, characteristics are assigned to classes and products only for internal purposes, for example, if they are used in object dependencies but not assigned to a class of the product. These so-called globally assigned characteristics are now filtered out in the service responses and are not persisted anymore with the configuration results. They can still show up in the configuration engine trace.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-12-17
+Valid as Of: 2025-02-05
+Version: Cloud
+
+--- Record 1505 ---
+Component: Variant Configuration
+Environment: Cloud Foundry
+Title: Production – Knowledgebases API – New Filter to Read Variant Table Content
+Description: There is an enhancement of endpoint GET /api/v2/knowledgebases/{kbId}/variantTables/{variantTableId} that allows to read the content of a variant table: new IN operator for the parameter $filter allows more advanced table selects in the form of $filter=<characteristic name> IN (<list of characteristic values>).   See: API Definition and Development Guide for SAP Variant Configuration and Pricing.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-12-17
+Valid as Of: 2025-02-05
+Version: Cloud
+
+--- Record 1506 ---
+Component: SAP Datasphere
+Environment: Cloud Foundry
+Title: Features for Version 2025.3
+Description: New and changed features are available for administration and data modeling.  For more information, see What's New in SAP Datasphere 2025.3. 
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-02-04
+Valid as Of: 2025-02-04
+Version: Cloud
+
+--- Record 1507 ---
+Component: SAP AI Core
+Environment: Cloud Foundry
+Title: Generative AI hub
+Description: More endpoints have been added to the Pipeline API, so you can retrieve information about the documents within a pipeline, including processing status.  For more information, see Data Pipelines.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2025-02-03
+Valid as Of: 2025-02-03
+Version: Cloud
+
+--- Record 1508 ---
+Component: SAP AI Core
+Environment: Cloud Foundry
+Title: Generative AI hub
+Description: Selected models from Aleph Alpha are supported.For more information, see SAP Note 3437766 .
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2025-02-03
+Valid as Of: 2025-02-03
+Version: Cloud
+
+--- Record 1509 ---
+Component: SAP AI Launchpad
+Environment: Cloud Foundry
+Title: Generative AI hub
+Description: An additional selected model from Aleph Alpha is supported in orchestration.  For more information, see SAP Note 3437766 .
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2025-02-03
+Valid as Of: 2025-02-03
+Version: Cloud
+
+--- Record 1510 ---
+Component: SAP AI Launchpad
+Environment: Cloud Foundry
+Title: Generative AI hub
+Description: The grounding management app lets you manage the lifecycle of your data pipelines.  For more information, see Grounding Management.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2025-02-03
+Valid as Of: 2025-02-03
+Version: Cloud
+

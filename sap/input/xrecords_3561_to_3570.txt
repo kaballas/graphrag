@@ -1,0 +1,130 @@
+--- Record 3561 ---
+Component: Cloud Logging
+Environment: Cloud Foundry
+Title: Several changes to make Cloud Logging more efficient
+Description: Improve OpenTelemetry ingest stability for standard and dev plan. Improve OTEL trace ingest performance for large plan by at least 25%  Change build-code plan from standard to dev  Update OpenSearch and OpenSearch Dashboards to 1.3.14
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-02-01
+Valid as Of: 2024-02-01
+Version: Cloud
+
+--- Record 3562 ---
+Component: HTML5 Applications
+Environment: Cloud Foundry,Kyma
+Title: Rate Limits for Design time and Runtime of the SAP HTML5 Application Repository Service
+Description: For the SAP HTML5 Application Repository service, rate limits for design time and runtime are introduced on February 1, 2024:     For design time, the rate limit is 50 deployments per minute per SAP BTP subaccount.      For runtime, the rate limit is 300 requests per second per SAP BTP subaccount.    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-11-30
+Valid as Of: 2024-02-01
+Version: Cloud
+
+--- Record 3563 ---
+Component: Mobile Services
+Environment: Cloud Foundry
+Title: SAP Mobile Services integration with SAP Cloud ALM
+Description: (Version 2401 PL01) SAP Mobile Services security recommendation data has been integrated with the Configuration & Change Database (CCDB). The data is stored in a container, called a Config Store. The data is available to SAP Cloud ALM, a solution tool for application lifecycle management.  See Configuration & Security Analysis
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-01-31
+Valid as Of: 2024-02-01
+Version: Cloud
+
+--- Record 3564 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Help us Improve the SAP Build Process Automation Documentation
+Description: We're currently engaged in a focused research aimed at enhancing your SAP Build Process Automation experience.   We aim to make meaningful improvements by identifying pitfalls in our SAP Help Portal documents and other help deliverables. Your valuable insights in this short survey will play a crucial role in shaping the future of the service.   Please take a moment to participate in our short survey and share your thoughts about the app and the support deliverables. This survey takes only about 5 minutes of your time. See SAP Build Process Automation - Documentation Survey.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-02-01
+Valid as Of: 2024-02-01
+Version: Cloud
+
+--- Record 3565 ---
+Component: SAP Datasphere
+Environment: Cloud Foundry
+Title: Features for Version 2024.3
+Description: New and changed features are available for data cataloging, data integration, and data modeling.  For more information, see What's New in SAP Datasphere 2024.3. 
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-02-01
+Valid as Of: 2024-02-01
+Version: Cloud
+
+--- Record 3566 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Eventing: Deprecation of Subscription CR v1alpha1
+Description: After introducing the Subscription CR v1alpha2 (see the blog post from March 2023), version v1alpha1 has been deprecated. The removal is planned for January 2024.  Once v1alpha1 is removed, you can only use v1alpha2 to create new subscriptions for events in Kyma Eventing. All existing v1alpha1 have already automatically been updated to the new version.  Read more about the Kyma Eventing Subscription CR.
+Action: Info only
+Lifecycle: Deprecated
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2023-08-14
+Valid as Of: 2024-01-31
+Version: Cloud
+
+--- Record 3567 ---
+Component: Cloud Logging
+Environment: Cloud Foundry
+Title: OpenSearch has been updated
+Description: We've updated OpenSearch and OpenSearch Dashboards to version 1.3.14.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-01-31
+Valid as Of: 2024-01-31
+Version: Cloud
+
+--- Record 3568 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Serverless module: Update to version 1.3.0
+Description: We are excited to announce the release of the Serverless module 1.3.0. This version includes improved resiliency and introduces a fully declarative mode for defining Functions by removing the Serverless admission webhook workload and embedding the x-kubernetes-validations rules into the Function Custom Resource Definition. We have also fixed a bug causing out-of-memory errors during the creation of large Functions and prevented caching of arbitrary Secrets & ConfigMaps to avoid controller crashes. In addition, trace span names are now preserved for the same Function's generations to ensure easy observability.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-18
+Valid as Of: 2024-01-31
+Version: Cloud
+
+--- Record 3569 ---
+Component: Mobile Services
+Environment: Cloud Foundry
+Title: Admin UI design changes
+Description: (Version 2401) The Mobile Services cockpit user interface has been changed slightly to be more consistent with the SAP BTP user interface. Colors have been refreshed for dark and light modes.  See User Interface  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-17
+Valid as Of: 2024-01-31
+Version: Cloud
+
+--- Record 3570 ---
+Component: Mobile Services
+Environment: Cloud Foundry
+Title: Delete extension bundles from subscribers
+Description: (Version 2401) You can now delete extension bundles from Mobile Services for subscriber accounts as well as provider accounts. Previously this was only available for provider accounts.  See Uploading and Deploying Apps
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-17
+Valid as Of: 2024-01-31
+Version: Cloud
+

@@ -1,0 +1,130 @@
+--- Record 2111 ---
+Component: SAP Java Buildpack
+Environment: Cloud Foundry
+Title: Version 2.19.0
+Description: SAP Java Buildpack 2 has been updated from version 2.18.0 to 2.19.0. Updated components:      Apache Tomcat 10 is updated from version 10.1.29 to 10.1.30      SAP HANA Driver (hana.driver.2.X.X) is updated from version 2.21.11 to 2.22.11      com.sap.cloud.connectivity.apiext is updated from version 3.38.0 to 3.39.0      logback is updated from version 1.5.7 to 1.5.8      otel-agent is updated from version 2.5.0 to 2.6.0      otel-agent-ext-java is updated from version 1.5.16 to 1.5.18      org.apache.httpcomponents.client5.httpclient5 is updated from version 5.3.1 to 5.4      org.apache.httpcomponents.core5.httpcore5 is updated from version 5.2.4 to 5.3      org.apache.httpcomponents.core5.httpcore5-h2 is updated from version 5.2.4 to 5.3    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-10-01
+Valid as Of: 2024-10-17
+Version: Cloud
+
+--- Record 2112 ---
+Component: SAP Task Center
+Environment: Cloud Foundry
+Title: Claim, Release, and Forward Now Available for SAP Build Process Automation Tasks
+Description: Claim, Release, and Forward can now be performed, and are available as inline actions on SAP Build Process Automation tasks. For more information on the supported features, see Supported Features.  Additional configuration is required for the cases when SAP Build Process Automation and SAP Task Center are in different subaccounts. For more information, see SAP Note 3522594 .
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-10-17
+Valid as Of: 2024-10-17
+Version: Cloud
+
+--- Record 2113 ---
+Component: UI5 Flexibility for Key Users
+Environment: Cloud Foundry
+Title: Harmonized Context Menu in Key User Adaptation
+Description: The context menu is now consistent when you select elements. It no longer depends on how you select an element, such as using the left or right mouse button. The familiar right-click context menu now also appears when you left-click an element.  This feature requires SAPUI5 version 1.129 or higher.  See Making UI Changes.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-10-17
+Valid as Of: 2024-10-17
+Version: 2410a
+
+--- Record 2114 ---
+Component: UI5 Flexibility for Key Users
+Environment: Cloud Foundry
+Title: What's New Dialog in Key User Adaptation
+Description: The What's New dialog keeps you informed about the latest updates, features, and improvements in key user adaptation.  After an upgrade, the dialog automatically shows the new features introduced with the new version. If you're interested in features from previous versions, you can find an overview in the    (More Actions) menu in the toolbar.  This feature requires SAPUI5 version 1.129 or higher.  See Adapting the UI.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-10-17
+Valid as Of: 2024-10-17
+Version: 2410a
+
+--- Record 2115 ---
+Component: Workflow Capability
+Environment: Cloud Foundry,Neo
+Title: Improvements in My Inbox
+Description: Improved error message when login expires.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-10-17
+Valid as Of: 2024-10-17
+Version: Cloud
+
+--- Record 2116 ---
+Component: SAP Task Center
+Environment: Cloud Foundry
+Title: No Additional Subscriptions for Central Point of Entry for Accessing Applications Are Required for SAP Build Process Automation Tasks
+Description: A new property tc.task.ui.url allows you to access tasks without the need of an additional central point of entry for accessing application for SAP Build Process Automation.  For more information, see Work with SAP Build Process Automation Tasks from the Same Subaccount or Work with SAP Build Process Automation Tasks from a Different Subaccount.
+Action: Required
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-10-15
+Valid as Of: 2024-10-15
+Version: Cloud
+
+--- Record 2117 ---
+Component: Multitarget Applications for Cloud Foundry
+Environment: Cloud Foundry
+Title: New restriction regarding namespace length
+Description: Namespace length is now limited to a maximum of 36 characters. This change will become effective on October 15, 2024.  Action: Review your current namespaces and ensure they comply with the new 36-character limit.  Note  The namespace feature is still experimental. It is normal to expect backward incompatible changes affecting the stability and the usability of the feature.  For more information about this feature, see (Experimental) Namespaces.
+Action: Recommended
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-10-04
+Valid as Of: 2024-10-15
+Version: Cloud
+
+--- Record 2118 ---
+Component: Integration Suite General Features
+Environment: Cloud Foundry
+Title: Introducing SAP Integration Suite, starter edition
+Description: You can now subscribe to the new SAP Integration Suite, starter edition. With this new edition, you get the Cloud Integration capability with full access to all prepackaged standard content, create unlimited extension integration scenarios, and deploy a limited set of custom integration flows.  For the detailed scope of the edition, see SAP Note 2903776.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-10-15
+Valid as Of: 2024-10-15
+Version: 2408
+
+--- Record 2119 ---
+Component: Joule
+Environment: Cloud Foundry
+Title: Conversational Search Filter capability now supported for SAP S/4HANA Cloud Private Edition
+Description: Conversational Search Filter capability, which is an Informational use case is now supported for SAP S/4HANA Cloud Private Edition.  With Joule, you now have conversational access to the product documentation on SAP Help Portal. Just enter your query or question in plain natural language and wait for Joule to check whether your question activates a built-in business functionality to start a transaction or a navigation. If there's none, Joule searches SAP Help Portal to find an answer for you. Joule uses a large language model to summarize the search results in the background. This summarization is then displayed to you as Joule's answer to your question, along with the top three search results. If you select the title link of a result, you'll be taken directly to the relevant topic on SAP Help Portal.   Note  Joule is an addition to in-app help content, guided tours, embedded learning content, and customer-specific enablement content in SAP Companion.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-10-10
+Valid as Of: 2024-10-15
+Version: Cloud
+
+--- Record 2120 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Keda module: Update to version 1.3.0
+Description: In this release, we have updated the KEDA version to 2.15.1, which supports new scalers and introduces bug fixes.  Additionally, we have made Istio sidecar injection for KEDA workloads configurable. This allows you to include or exclude them from the Istio service mesh.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-10-02
+Valid as Of: 2024-10-15
+Version: Cloud
+

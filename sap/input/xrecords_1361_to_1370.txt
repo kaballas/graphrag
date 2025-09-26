@@ -1,0 +1,130 @@
+--- Record 1361 ---
+Component: SAP Build Work Zone, advanced edition
+Environment: Cloud Foundry
+Title: Site Studio
+Description: In the Site Directory, clicking the    (site settings) icon on a site tile, which previously opened the Site Settings screen, now opens the Site Studio. The Site Studio consists of a Site Settings screen and a Role Assignments screen. Role assignment to a site has moved from the Site Settings, side panel to the new Role Assignments screen.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-02-20
+Valid as Of: 2025-02-20
+Version: 2501B
+
+--- Record 1362 ---
+Component: SAP Build Work Zone, standard edition
+Environment: Cloud Foundry
+Title: Role Assignment to Sites
+Description: In the new Role Assignments screen, you can:    View all the roles assigned to the site.  Assign/unassign single roles (local and remote) that were added to the subaccount.  Assign/unassign content channels. This will result in assigning/unassigning all the roles from a given content channel. This is a new functionality that allows bulk assignment of roles instead of manually assigning them one by one.    Note    When assigning a channel, it’s not possible to select only part of the content channel roles.   Once a content channel is assigned, any change to its roles will automatically be applied to the site assignment.   You can only assign content channels that are set to automatic content addition.   
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-02-20
+Valid as Of: 2025-02-20
+Version: 2501B
+
+--- Record 1363 ---
+Component: SAP Build Work Zone, standard edition
+Environment: Cloud Foundry
+Title: SAP Task Center Tasks
+Description: SAP Task Center tasks are now included with your SAP Build Work Zone, standard edition license. Up to 20 tasks stored in the SAP Task Center task cache for each active user, and for each block of 100 connections on the global account level, are now included.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-02-20
+Valid as Of: 2025-02-20
+Version: 2501B
+
+--- Record 1364 ---
+Component: SAP Build Work Zone, standard edition
+Environment: Cloud Foundry
+Title: Site Studio
+Description: In the Site Directory, clicking the    (site settings) icon on a site tile, which previously opened the Site Settings screen, now opens the Site Studio. The Site Studio consists of a Site Settings screen and a Role Assignments screen. Role assignment to a site has moved from the Site Settings, side panel to the new Role Assignments screen.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-02-20
+Valid as Of: 2025-02-20
+Version: 2501B
+
+--- Record 1365 ---
+Component: SAP Build Work Zone, standard edition
+Environment: Cloud Foundry
+Title: Themes: Automatic Theme Detection in the Site Manager and in the Runtime Site
+Description: It is now possible to automatically detect the theme of the operating system and display the Site Manager and the runtime site with the corresponding theme.  To enable this, a new option, Automatic (based on your operating system settings), was added to:    Site Manager - under User Settings  Theme  Runtime site - under Settings  Appearance  Theme    The automatic theme detection is available for all theme sets (such as the SAP Quartz and the SAP Horizon sets) where there is more than one theme available in the set.   Automatic theme detection is not supported for custom theme sets.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-02-20
+Valid as Of: 2025-02-20
+Version: 2501B
+
+--- Record 1366 ---
+Component: SAP Build Work Zone, standard edition
+Environment: Cloud Foundry
+Title: Themes: SAP Horizon Theme Set in the Site Manager
+Description: The SAP Horizon theme set has been added to the Site Manager, and SAP Morning Horizon will be the new default theme in the Site Manager.  For existing admins, their selected theme will not change, but for new admins the default will be SAP Morning Horizon.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-02-20
+Valid as Of: 2025-02-20
+Version: 2501B
+
+--- Record 1367 ---
+Component: SAP Build Work Zone, standard edition
+Environment: Cloud Foundry
+Title: Themes: Themes Are Arranged in Categories
+Description: The themes are now arranged according to the following categories:    SAP Quartz (Set)  SAP Horizon (Set)  Individual Themes    This is visible in:    Site Manager - under User Settings  Theme  Runtime site - under Settings  Appearance  Theme  
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-02-20
+Valid as Of: 2025-02-20
+Version: 2501B
+
+--- Record 1368 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: New Invoice Header Fields
+Description: The following invoice header fields are now available for extraction:  receiverCity  receiverCountryCode  receiverDistrict  receiverExtraAddressPart  receiverHouseNumber  receiverPostalCode  receiverState  receiverStreet  senderCity  senderCountryCode  senderDistrict  senderExtraAddressPart  senderHouseNumber  senderPostalCode  senderState  senderStreet    See Extracted Header Fields (Base Edition and Premium Edition).
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Intelligent Technologies
+Latest Revision: 2025-02-20
+Valid as Of: 2025-02-20
+Version: Cloud
+
+--- Record 1369 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: Support for SAP Schemas with Instant Learning (Premium Edition)
+Description: We’ve enhanced instant learning to support SAP schemas for standard document types.  If you activate instant learning in SAP Document AI the service can now use your feedback about extraction results to select the best model for individual fields in preconfigured SAP schemas for the following standard document types: invoices, payment advices, and purchase orders.  See Instant Learning (Premium Edition) and Instant Learning (Premium Edition): Best Practices.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Intelligent Technologies
+Latest Revision: 2025-02-20
+Valid as Of: 2025-02-20
+Version: Cloud
+
+--- Record 1370 ---
+Component: SAP Java Buildpack
+Environment: Cloud Foundry
+Title: Version 1.110.0
+Description: SAP Java Buildpack 1 has been updated from version 1.109.0 to 1.110.0. Updated components:      SapMachine 11 is updated from version 11.0.25 to 11.0.26      SapMachine 17 is updated from version 17.0.13 to 17.0.14      SAP JVM is updated from version 81.102.102 to 81.103.103      otel-agent is updated from version 2.10.0 to 2.11.0      otel-agent-ext-java is updated from version 1.5.21 to 1.5.22      jdkext is updated from version 81.102.102 to 81.103.103      com.sap.core.connectivity.jco is updated from version 3.4.8 to 3.4.9    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-02-05
+Valid as Of: 2025-02-20
+Version: Cloud
+

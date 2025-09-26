@@ -1,0 +1,130 @@
+--- Record 2951 ---
+Component: Process Visibility Capability
+Environment: Cloud Foundry
+Title: Configure Sub-Status
+Description: You can categorize scenario instances based on step information by configuring sub-status using the Step Information expression.  See Configure Status.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-05-15
+Valid as Of: 2024-05-15
+Version: Cloud
+
+--- Record 2952 ---
+Component: Process Visibility Capability
+Environment: Cloud Foundry
+Title: Current Step Attributes
+Description: You can now define calculated attributes to retrieve processor and recipients for active steps.  See Attributes.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-05-15
+Valid as Of: 2024-05-15
+Version: Cloud
+
+--- Record 2953 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Process Visibility - Configure Sub-Status
+Description: You can categorize scenario instances based on step information by configuring sub-status using the Step Information expression.See Configure Status.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-05-15
+Valid as Of: 2024-05-15
+Version: Cloud
+
+--- Record 2954 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Process Visibility - Current Step Attributes
+Description: You can now define calculated attributes to retrieve processor and recipients for active steps.See Attributes.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-05-15
+Valid as Of: 2024-05-15
+Version: Cloud
+
+--- Record 2955 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Process Visibility - Trigger Process Action
+Description: You can configure Trigger Process action in the visibility scenario to handle escalations flows.  See Trigger Process Action.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-05-15
+Valid as Of: 2024-05-15
+Version: Cloud
+
+--- Record 2956 ---
+Component: SAP Digital Payments Add-On
+Environment: Cloud Foundry
+Title: SAP Help Portal content available in additional languages
+Description: The SAP Help Portal content is now available in the following languages:      English      French      German    Japanese  Portuguese (Brazil)    Russian    Simplified Chinese  Spanish  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Finance
+Latest Revision: 2024-01-01
+Valid as Of: 2024-05-15
+Version: Cloud
+
+--- Record 2957 ---
+Component: SAP Task Center
+Environment: Cloud Foundry
+Title: Labels Claim, Release, Forward Are Now Consistent for All Task Providers
+Description: The labels for the actions Claim, Release, and Forward are now defined by the SAP Task Center Web app and are consistent for all task providers. For more informaiton, see Working with the Task List > Inline Decision Options and Predefined Decision Reasons.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-05-14
+Valid as Of: 2024-05-14
+Version: Cloud
+
+--- Record 2958 ---
+Component: SAP Task Center
+Environment: Other
+Title: Updated Icons for SAP Concur and SAP Fieldglass
+Description: The icons for SAP Concur and SAP Fieldglass in the filter tabs of the SAP Task Center Web app are now updated. For more information, see Configure Filter Tabs in the SAP Task Center Web App.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-05-14
+Valid as Of: 2024-05-14
+Version: Cloud
+
+--- Record 2959 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: Enrichment Data API - Deprecation of the Endpoint: Delete Enrichment Data (Synchronous)
+Description: The Enrichment Data API endpoint Delete Enrichment Data (Synchronous) is now deprecated and scheduled for decommissioning in February 2025. Following that date, the endpoint will no longer be available.  Please use the endpoint Delete Enrichment Data to delete data records.
+Action: Recommended
+Lifecycle: Deprecated
+Type: Changed
+Line of Business: Intelligent Technologies
+Latest Revision: 2024-11-14
+Valid as Of: 2024-05-13
+Version: Cloud
+
+--- Record 2960 ---
+Component: Edge Integration Cell
+Environment: Cloud Foundry
+Title: Edge Integration Cell is now supported on Google Cloud Platform
+Description: You can now activate the Edge Integration Cell runtime within your SAP Integration Suite tenant on Google Cloud Platform.  See: Activate Edge Integration Cell
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-05-13
+Valid as Of: 2024-05-13
+Version: 2403
+

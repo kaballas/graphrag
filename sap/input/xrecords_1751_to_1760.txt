@@ -1,0 +1,130 @@
+--- Record 1751 ---
+Component: Joule
+Environment: Cloud Foundry
+Title: New Use Cases Now Supported for Procurement and Finance in SAP S/4HANA Cloud Private Edition
+Description: The following transactional use cases are now supported in Procurement and Finance for SAP S/4HANA Cloud Private Edition:    Create Purchase Requisitions:      Create purchase requisitions with or without material or service items      Show a list of materials      Show a list of source of suppliers          Change Purchase Orders:      Update the delivery date for all schedule line items in one or more purchase orders      Show the details of purchase order items      Show workflow approver emails          Process Invoice Reminders:      Show invoices      Show journal entry line items      Show supplier details      Show workflow approver emails      Remove payment blocks        
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-12-13
+Valid as Of: 2024-12-13
+Version: Cloud
+
+--- Record 1752 ---
+Component: Joule
+Environment: Cloud Foundry
+Title: New Use Cases Now Supported for Product Lifecycle Management in SAP S/4HANA Cloud Private Edition
+Description: The following transactional use cases are now supported in Product Lifecycle Management for SAP S/4HANA Cloud Private Edition:    Bill of Material:    Fetch details of bills of material      Navigate to the Maintain Bill of Material app          Change Record:      Fetch details of change records        
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-11-28
+Valid as Of: 2024-12-13
+Version: Cloud
+
+--- Record 1753 ---
+Component: Joule
+Environment: Cloud Foundry
+Title: New Use Cases Now Supported in Enterprise Portfolio and Project Management for SAP S/4HANA Cloud Private Edition
+Description: The following transactional use cases are now supported in Enterprise Portfolio and Project Management for SAP S/4HANA Cloud Private Edition:    Display or change a Project in Project Builder or show in Project Definition App using Project ID or Description      Display or change WBS Element in Project Builder or show in WBS Element App using WBS Element ID or Description      Display or change Network in Project Builder or show in Network App using Network ID or Description    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-11-26
+Valid as Of: 2024-12-13
+Version: Cloud
+
+--- Record 1754 ---
+Component: Joule
+Environment: Cloud Foundry
+Title: New Use Cases Now Supported in Service for SAP S/4HANA Cloud Private Edition
+Description: The following transactional use cases are now supported in Service for SAP S/4HANA Cloud Private Edition:    Fetch service confirmation details  Fetch reference objects  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-02-14
+Valid as Of: 2024-12-13
+Version: Cloud
+
+--- Record 1755 ---
+Component: Joule
+Environment: Cloud Foundry
+Title: Use Cases Now Supported in Asset Management for SAP S/4HANA Cloud Private Edition
+Description: The following transactional use cases are now supported in Asset Management for SAP S/4HANA Cloud Private Edition:    Display Maintenance Orders  Display Maintenance Notifications  Display Maintenance Jobs and Perform Activities on Jobs  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Asset Management
+Latest Revision: 2024-12-11
+Valid as Of: 2024-12-13
+Version: Cloud
+
+--- Record 1756 ---
+Component: Joule
+Environment: Cloud Foundry
+Title: Use Cases Now Supported in Revenue Accounting and Reporting in SAP S/4HANA Cloud Private Edition
+Description: The following navigational capabilities are now supported in Revenue Accounting and Reporting in SAP S/4HANA Cloud Private Edition    Manage revenue accounting items      Manage revenue contracts      Revenue contract schedule      Combine revenue contracts      Reconcile revenue contracts    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-12-13
+Valid as Of: 2024-12-13
+Version: Cloud
+
+--- Record 1757 ---
+Component: SAP Digital Payments Add-On
+Environment: Cloud Foundry
+Title: Multi-captures enabled
+Description: A single authorization can be captured in several parts. This makes it possible to provide partial deliveries without having to get separate authorizations for each part.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Finance
+Latest Revision: 2024-01-01
+Valid as Of: 2024-12-13
+Version: Cloud
+
+--- Record 1758 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: Availability in Google Cloud Regions
+Description: SAP Document AI is now available in the following Google Cloud regions:    eu30 - Europe (Frankfurt)      us30 - US Central (IA)    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Intelligent Technologies
+Latest Revision: 2024-12-13
+Valid as Of: 2024-12-13
+Version: Cloud
+
+--- Record 1759 ---
+Component: SAP Omnichannel Promotion Pricing
+Environment: Cloud Foundry
+Title: Deletion of Promotions
+Description: You can now delete all promotions by using the parameter cleanUpAll together with currentTimestamp.  For more information, see Administration and Deleting Regular Prices and Promotions.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2022-01-01
+Valid as Of: 2024-12-13
+Version: Cloud
+
+--- Record 1760 ---
+Component: SAP Omnichannel Promotion Pricing
+Environment: Cloud Foundry
+Title: Size of a Request to the Data Upload Service
+Description: The maximum size for a request to the Data Upload service has been increased to 12 million bytes in exceptional cases. Previously, the limit was set at 6 million bytes. For a request size between 6 million (soft limit) and 12 million bytes (hard limit), rate limiting is applied to control the amount of large requests. In these cases, the number of allowed requests can be as few as 1 request per tenant per minute.  For more information, see Security and Data Upload.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2022-01-01
+Valid as Of: 2024-12-13
+Version: Cloud
+

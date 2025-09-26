@@ -1,0 +1,130 @@
+--- Record 3521 ---
+Component: Responsibility Management Service
+Environment: Cloud Foundry
+Title: Replace a Team Member
+Description: Using the Manage Teams and Responsibilities app, you can now replace a team member with another team member within a team or across multiple teams. SeeReplace a Team Member.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-02-01
+Valid as Of: 2024-02-12
+Version: Cloud
+
+--- Record 3522 ---
+Component: Workflow Management
+Environment: Cloud Foundry
+Title: Asynchronous Module Loading for Monitor Workflows Apps
+Description: When configuring an SAP Build Work Zone site, you can now enable Asynchronous Module Loading for Monitor Workflows applications.   See,  Site Settings- SAP Build Work Zone, standard edition  Site Settings - SAP Build Workzone, advanced edition  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-02-09
+Valid as Of: 2024-02-09
+Version: Cloud
+
+--- Record 3523 ---
+Component: Java Server
+Environment: Neo
+Title: Java Web Tomcat 8 is deprecated
+Description: [Periodic reminder] We have stopped the support of Java Web Tomcat 8 runtime following the official announcement of Apache Tomcat 8.5 end of life.   Required Action: If you have Java applications running on that runtime, migrate to Java Web Tomcat 9 immediately. See Migrating from Java Web Tomcat 8 to Java Web Tomcat 9.
+Action: Required
+Lifecycle: Deprecated
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-02-08
+Valid as Of: 2024-02-08
+Version: Cloud
+
+--- Record 3524 ---
+Component: Connectivity
+Environment: Cloud Foundry,Kyma
+Title: Transparent Proxy for Kubernetes - Hotfix
+Description: Transparent Proxy version 1.4.3 provides the following hotfix:  An issue was fixed that could potentially cause misconfiguration of the Transparent Proxy upon restart, and could result in failing requests.  We strongly recommend that you pull the new version and upgrade as soon as possible.
+Action: Recommended
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2024-02-08
+Version: Cloud
+
+--- Record 3525 ---
+Component: Custom Domain Service
+Environment: Neo
+Title: New Console Client Commands
+Description: Three new console client commands are now available for managing a third-party cookie deprecation (TPCD) trial token:      set-custom-domain-trial-token      display-custom-domain-trial-token      remove-custom-domain-trial-token      Action: Set this trial token as a temporary solution. However, consider migrating to a sustainable solution.
+Action: Recommended
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-02-08
+Valid as Of: 2024-02-08
+Version: Cloud
+
+--- Record 3526 ---
+Component: Java Server
+Environment: Neo
+Title: Tomcat version for Java Web Tomcat 9 and Java EE 7 Web Profile TomEE 7
+Description: Java Web Tomcat 9 (runtime version 4.69) and Java EE 7 Web Profile TomEE 7 (runtime version 1.167) have been updated to Tomcat version 9.0.85.  See the Changelog.  Recommended action: Update your applications to the latest runtime version.
+Action: Recommended
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-02-08
+Valid as Of: 2024-02-08
+Version: Cloud
+
+--- Record 3527 ---
+Component: Connectivity
+Environment: Cloud Foundry,Neo
+Title: Cloud Connector 2.16.2 - Bug Fixes
+Description: Release of Cloud Connector version 2.16.2 provides the following bug fixes:    Multiple issues were fixed for configuring certificate-based authentication:  Authentication was no longer working after an upgrade from 2.16.0 to 2.16.1, because the configuration was modified wrongly during the upgrade.  Authentication was no longer working after changing LDAP settings, because the configuration was modified wrongly when persisting the LDAP changes.  The list of trusted certificates could not be adjusted anymore after activating certificate-based authentication.    Compatibility mode in bgRFC for sending units to old SAP NetWeaver 7.01 systems contains dummy RFC_PING invocations to reflect some constraints in such a scenario. The Cloud Connector, however, required RFC_PING to be part of the access control list and hence did not automatically allow it, like it should be for such infrastructure-related, remote-enabled functions. This issue could occur in IBP integration scenarios.  The proxy check could wrongly indicate that the HTTPS proxy is not reachable.  A vulnerability could occur in the Cloud Connector due to improper checking of certificates.For more information, see SAP security note 3424610 .     These issues have been fixed.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2024-02-08
+Version: Cloud
+
+--- Record 3528 ---
+Component: Connectivity
+Environment: Cloud Foundry,Neo
+Title: Cloud Connector 2.16.2 - Enhancements
+Description: Release of Cloud Connector version 2.16.2 provides the following enhancements:    The Cloud Connector now supports clients that use a SAProuter string in their configuration in order to connect to an SNC-protected service channel to an ABAP Cloud system.  The Cloud Connector now provides a changeRole script that allows to switch the high availability role from master to shadow and vice versa.  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2024-02-08
+Version: Cloud
+
+--- Record 3529 ---
+Component: Multitarget Applications for Cloud Foundry
+Environment: Cloud Foundry
+Title: Bug fixes and improvements
+Description:     The deployment failure of MTAs has been fixed in scenarios where a Cloud Foundry application was continuing to use the deprecated 'None' health-check type.    The failure of MTA operations due to errors during the update of optional services has been fixed.  The traceability of extension descriptors utilized during deployment has been improved.  
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-01-29
+Valid as Of: 2024-02-08
+Version: Cloud
+
+--- Record 3530 ---
+Component: SAP Alert Notification Service
+Environment: Other
+Title: New information about environments
+Description: New information about Kyma and Other environments has been added. See Initial Setup.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-02-14
+Valid as Of: 2024-02-08
+Version: Cloud
+

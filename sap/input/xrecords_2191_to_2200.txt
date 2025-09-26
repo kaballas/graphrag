@@ -1,0 +1,130 @@
+--- Record 2191 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Deploy All Artifacts in Shared and Public Environments
+Description: You can now deploy projects containing all types of artifacts, including processes and forms, to both shared and public environments. To create processes and forms you must have ProcessAutomationAdmin and ProcessAutomationDeveloper roles assigned.  For more information, see SAP Note 3394899 .
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-10-01
+Valid as Of: 2024-10-01
+Version: Cloud
+
+--- Record 2192 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Script Task in Process Editor
+Description: A script task helps you to create an executable code in JavaScript within the process editor. It leverages pro-code capabilities for fusion development of enterprise automation scenarios and enables the execution of complex data transformations and additional operations on the process context.  For more information, see Create and Configure a Script Task.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-10-01
+Valid as Of: 2024-10-01
+Version: Cloud
+
+--- Record 2193 ---
+Component: Continuous Integration & Delivery
+Environment: Cloud Foundry
+Title: Deprecation of MTA Build Tool Version Java 8 Node 18
+Description: The MTA build tool version Java 8 Node 18 is deprecated and will be removed soon.  Action: Please upgrade Cloud Foundry Environment and SAP Fiori in the Neo Environment jobs that contain Java 8 Note 18 to newer build tool versions.
+Action: Required
+Lifecycle: Deprecated
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-09-30
+Valid as Of: 2024-09-30
+Version: Cloud
+
+--- Record 2194 ---
+Component: Data Attribute Recommendation
+Environment: Cloud Foundry
+Title: Batch Inference Configuration
+Description: We've fixed an issue with batch inference configuration that was limiting the size of uploaded files.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-09-30
+Valid as Of: 2024-09-30
+Version: Cloud
+
+--- Record 2195 ---
+Component: Joule
+Environment: Cloud Foundry
+Title: Document Grounding Capability
+Description: The document grounding capability is now available for Joule integrations. You can now add context to Joule using information gathered from documents you upload to the service. See Set Up Document Grounding.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-09-30
+Valid as Of: 2024-09-30
+Version: Cloud
+
+--- Record 2196 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: API Gateway module: Update to version 2.6.0
+Description: The new version brings the following improvements:    We’ve introduced support for the extAuth access strategy in the APIRule custom resource (CR). This access strategy allows you to define custom authentication and authorization logic. See Configuration of the extAuth Access Strategy.  Now, Kyma dashboard UI displays a warning if an APIRule CR specifies a Gateway that is not in the correct format. See Specification of APIRule v2alpha1 Custom Resource.  
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-09-16
+Valid as Of: 2024-09-30
+Version: Cloud
+
+--- Record 2197 ---
+Component: Region
+Environment: Cloud Foundry
+Title: KSA (Dammam)
+Description: KSA (Dammam) (cf-sa30) is available as a new region running on Google Cloud for use with enterprise accounts. See Regions and API Endpoints Available for the Cloud Foundry Environment.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-09-30
+Valid as Of: 2024-09-30
+Version: Cloud
+
+--- Record 2198 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Map Custom Variables
+Description: To enable mapping of output variables of a trigger form to the custom variables of the process, the Initial Value column was added in the Configure Custom Variables dialog. You can select the output variable from the Process Content list.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-09-30
+Valid as Of: 2024-09-30
+Version: Cloud
+
+--- Record 2199 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Map Optional List Parameters
+Description: Up to now, you could only map list parameters to required fields of a process step if the list itself was marked as required. This restriction was removed to allow for custom variables and optional list parameters form external systems.For more information, see Ensure Availability of Optional List Input Parameters.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-09-30
+Valid as Of: 2024-09-30
+Version: Cloud
+
+--- Record 2200 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: More Options for Waits in a Process
+Description: To determine how long the live process waits (or pauses) before continuing, you always could define static durations. With the enhanced feature, you can also use dynamic durations and waits based on a reference date.For more information, see Add Wait for Duration to a Process.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-09-30
+Valid as Of: 2024-09-30
+Version: Cloud
+

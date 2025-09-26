@@ -1,0 +1,130 @@
+--- Record 241 ---
+Component: Responsibility Management Service
+Environment: Cloud Foundry
+Title: Migrate Personal Data Management to Data Privacy Integration NextGen
+Description: Data Privacy Integration NextGen (DPI NextGen) service is the natural unified successor of Personal Data Manager (Information Reporting of personal data), Data Retention Manager (Blocking and Deletion of personal data), Consent Repository services and the existing DPI Kernel Service. The service offers a unified data privacy experience by bringing all DPP capabilities into one single service that is capable of being hosted on both CF and Kyma runtimes. For more information, see Data Privacy Integration NextGen.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-08-18
+Valid as Of: 2025-08-18
+Version: Cloud
+
+--- Record 242 ---
+Component: SAP AI Core
+Environment: Cloud Foundry
+Title: Generative AI hub
+Description: New models are supported, including GPT 5, GPT 5 Mini, and GPT 5 Nano.For more information, see SAP Note 3437766 .
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2025-08-18
+Valid as Of: 2025-08-18
+Version: Cloud
+
+--- Record 243 ---
+Component: SAP AI Launchpad
+Environment: Cloud Foundry
+Title: Generative AI hub
+Description: New models are supported, including GPT 5, GPT 5 Mini, and GPT 5 Nano.For more information, see SAP Note 3437766 .
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2025-08-18
+Valid as Of: 2025-08-18
+Version: Cloud
+
+--- Record 244 ---
+Component: SAP Build
+Environment: Cloud Foundry
+Title: Create Full-Stack ABAP Projects
+Description: The following options are available:     You can now create full-stack ABAP projects using the ABAP development tools. This allows you to build complete applications based on the ABAP Cloud development model. For more information, see Full-Stack ABAP Project Creation Using Development Tools.      You can now create full-stack ABAP projects using the Business Application Studio. This allows you to develop remote applications for modeling business objects using the ABAP Cloud development model. For more information, see Full-Stack ABAP Project Creation Using SAP Business Application Studio. For more information, see Full-Stack ABAP Project Creation Using SAP Business Application Studio.    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-08-19
+Valid as Of: 2025-08-18
+Version: Cloud
+
+--- Record 245 ---
+Component: SAP Business Application Studio
+Environment: Cloud Foundry
+Title: Development Experience
+Description: You can now develop a full-stack ABAP application in SAP Business Application Studio by creating a Full-Stack ABAP Cloud project, model the application with the CDS Graphical Modeler, generate ABAP CDS artifacts, and develop a user interface. See Develop a Full-Stack ABAP Application in SAP Business Application Studio.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-08-18
+Valid as Of: 2025-08-18
+Version: T2507b
+
+--- Record 246 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Manage Security Audit Log (F6996A) (Deprecated)
+Description: The Manage Security Audit Log app (App ID: F6996) is now deprecated and will be removed from the SAP Fiori launchpad in an upcoming release.  This app has been replaced by its successor, Manage Security Audit Log (App ID: F6996A), which offers improved functionality and aligns with the latest SAP Fiori design standards.  See Manage Security Audit Log (Deprecated).
+Action: Info only
+Lifecycle: Deprecated
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2025-08-15
+Valid as Of: 2025-08-15
+Version: ABAP Environment 2508
+
+--- Record 247 ---
+Component: Joule
+Environment: Cloud Foundry
+Title: Enhanced Intelligent Scenarios in Sales for SAP S/4HANA Cloud Private Edition
+Description: You can activate the deployment of the intelligent scenarios to consume the inference in your business application, using the following:     2023: SD_INT_AI_GEMINI, SD_INT_AI_GPT. When more than one scenario is active, the system prioritizes the SD_INT_AI_GPT scenario for consumption.    For more information, see Activate and Deactivate and Perform Sales Order Field Changes and Resolve Fulfillment Issues.
+Action: Required
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-08-11
+Valid as Of: 2025-08-15
+Version: Cloud
+
+--- Record 248 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: ABAP Development Tools for Eclipse: ADT Debugger Comparison Tool for Internal Tables
+Description: With the table comparison tool within the ADT debugger, you can now compare internal tables in ABAP Development Tools for Eclipse.  See Comparing Internal Tables.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: nan
+Latest Revision: 2025-08-15
+Valid as Of: 2025-08-15
+Version: ABAP Environment 2508
+
+--- Record 249 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: ABAP Development Tools for Eclipse: Creation of Behavior Definition for CDS Table Entities
+Description: You can now create behavior definitions for CDS table entities. CDS table entities describe physical database tables in the SAP HANA database that is connected to the current AS ABAP.  See Table Entities and Creating Data Definitions.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: nan
+Latest Revision: 2025-08-15
+Valid as Of: 2025-08-15
+Version: ABAP Environment 2508
+
+--- Record 250 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: ABAP Development Tools for Eclipse: Display of Copyright Statement for ABAP Development Objects in Properties View
+Description: You can now see the copyright statement for ABAP development objects in the Properties view.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: nan
+Latest Revision: 2025-08-15
+Valid as Of: 2025-08-15
+Version: ABAP Environment 2508
+

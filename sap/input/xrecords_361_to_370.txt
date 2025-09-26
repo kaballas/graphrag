@@ -1,0 +1,130 @@
+--- Record 361 ---
+Component: Data Attribute Recommendation
+Environment: Cloud Foundry
+Title: AutoML Model Template Scenario
+Description: The machine learning engine behind the AutoML model template scenario has been updated. It includes now important security patches that ensure the future maintenance of this scenario.  You can still use existing AutoML deployments, but AutoML models trained before August 4, 2025 can no longer be deployed. Please retrain your AutoML models to be able to deploy and use them. We apologize for the inconvenience.
+Action: Required
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-08-04
+Valid as Of: 2025-08-04
+Version: Cloud
+
+--- Record 362 ---
+Component: Cloud Integration
+Environment: Cloud Foundry
+Title: AI Receiver Adapter Available
+Description: AI Adapter is available now.  See: AI Receiver Adapter
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-08-04
+Valid as Of: 2025-08-04
+Version: 2505
+
+--- Record 363 ---
+Component: SAP Cloud Application Event Hub
+Environment: Other
+Title: Support for routing events from SAP cloud applications to their SAP Integration Suite, advanced event mesh (AEM) system
+Description: Configure and connect SAP Integration Suite, advanced event mesh to SAP Cloud Application Event Hub to consume business events from supported SAP cloud applications. See SAP Integration Suite, Advanced Event Mesh as a Consumer.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-08-04
+Valid as Of: 2025-08-04
+Version: Cloud
+
+--- Record 364 ---
+Component: Joule
+Environment: Cloud Foundry
+Title: Document Grounding Capability - Pipeline Processing Statuses for Documents
+Description: Additional attributes are now available to identify details and pipeline processing statuses for documents in the response of the following Pipeline API endpoints of the document grounding capability:    GET <url>/pipeline/api/v1/pipeline/{pipelineId}/executions/{executionId}/documents      GET <url>/pipeline/api/v1/pipeline/{pipelineId}/executions/{executionId}/documents/{documentId}      GET <url>/pipeline/api/v1/pipeline/{pipelineId}/documents      GET <url>/pipeline/api/v1/pipeline/{pipelineId}/documents/{documentId}      The following endpoints include now pagination support:    GET <url>/pipeline/api/v1/pipeline/{pipelineId}/executions/{executionId}/documents      GET <url>/pipeline/api/v1/pipeline/{pipelineId}/documents      See Get Pipeline Status.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-08-01
+Valid as Of: 2025-08-01
+Version: Cloud
+
+--- Record 365 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Process and Workflow Instances
+Description: The following enhancements have been made:  You can now use the Copy button to copy the entire context to your clipboard.  You can now view the Context larger than 100 KB.  See Process and Workflow Instances.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-08-01
+Valid as Of: 2025-08-01
+Version: Cloud
+
+--- Record 366 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Off-Cycle Upgrade
+Description: Cloud Identity Services have been upgraded.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-07-31
+Valid as Of: 2025-07-31
+Version: 28127
+
+--- Record 367 ---
+Component: Process Visibility Capability
+Environment: Cloud Foundry
+Title: New Attribute in Process Visibility
+Description: You can now use the default attribute Last Updated Time to view when a scenario instance was last updated.  See Attributes.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-07-31
+Valid as Of: 2025-07-31
+Version: Cloud
+
+--- Record 368 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: New Attribute in Process Visibility
+Description: You can now use the default attribute Last Updated Time to view when a scenario instance was last updated.See Attributes.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-07-31
+Valid as Of: 2025-07-31
+Version: Cloud
+
+--- Record 369 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: Integration of SAP Document AI (Embedded Edition) with SAP S/4HANA Cloud Public Edition
+Description: You can now integrate SAP Document AI with SAP S/4HANA Cloud Public Edition. The integration supports automated extraction of information from incoming documents.  See Integrating SAP Document AI With Your SAP Solution (Embedded Edition and Premium Edition).
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Intelligent Technologies
+Latest Revision: 2025-09-04
+Valid as Of: 2025-07-31
+Version: Cloud
+
+--- Record 370 ---
+Component: Joule,SAP BTP Cockpit
+Environment: Cloud Foundry
+Title: New Navigational Use Cases Added to Joule in SAP BTP Cockpit
+Description: Within a Cloud Foundry space, Joule in the cockpit can now take you to the following pages:    Applications  Events    Joule can now also take you to a HANA Cloud instance in a subaccount.  For more information, check out Supported Administrative Tasks Using Joule in the Cockpit.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-07-30
+Valid as Of: 2025-07-30
+Version: Cloud
+

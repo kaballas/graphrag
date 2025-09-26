@@ -1,0 +1,130 @@
+--- Record 1931 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Technical Monitoring: HANA Memory Analysis
+Description: With the new HANA Memory Analysis app, you can get an overview of the memory consumption of the HANA memory components over time. This helps you to identify bottlenecks in your HANA memory.  See   
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-09-13
+Valid as Of: 2024-11-15
+Version: ABAP Environment 2411
+
+--- Record 1932 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Technical Monitoring: HANA Table Analysis
+Description: With the new Column Loads and Column Unloads screens in the HANA Table Analysis app, you can check how many columns of the tables in your HANA database have been loaded to or unloaded from the main storage. This helps you to identify bottlenecks in your main storage  See HANA Table Analysis
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-09-13
+Valid as Of: 2024-11-15
+Version: ABAP Environment 2411
+
+--- Record 1933 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Transport Layer Security (TLS 1.3)
+Description: We now support transport layer security 1.3 for outbound HTTP, WebSocket RFC, and SMTP protocols. You can define for each target host, whether you want to use transport layer security 1.3.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-11-15
+Valid as Of: 2024-11-15
+Version: ABAP Environment 2411
+
+--- Record 1934 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: XCO Library
+Description:     XCO XSLX: You can now style the cells of an Excel worksheet. You can also modify existing documents.      XCO CDS: You can now generate CDS external entities and logical external schemas.  You can now add comments and arithmetic expressions to CDS views.      For more information, see XCO Library.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-10-09
+Valid as Of: 2024-11-15
+Version: ABAP Environment 2411
+
+--- Record 1935 ---
+Component: Joule
+Environment: Cloud Foundry
+Title: New Conversational Experience and Use Cases in Joule
+Description: A new conversational experience featuring improved adaptive conversations and dialog management has been introduced. We’ve developed new use cases and have been upgrading the existing ones to take advantage of this new experience. For more details, refer to New Conversational Experience and Use Cases in Joule.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Human Resources
+Latest Revision: 2024-11-15
+Valid as Of: 2024-11-15
+Version: Cloud
+
+--- Record 1936 ---
+Component: SAP BTP Developer's Guide
+Environment: Cloud Foundry,Kyma
+Title: New Command That Simplifies Deployment Configuration
+Description: Deployment configuration steps are now simpler. There's a new command that does multiple configuration steps automatically so that you do not have to do them manually. As a result, tutorials are now easier to follow. Depending on the runtime you're using, check the following tutorials:    For SAP BTP, Cloud Foundy runtime, see Deploy in SAP BTP, Cloud Foundry Runtime and Integrate Your Application with SAP Build Work Zone, Standard Edition.      For SAP BTP, Kyma runtime, see Deploy in SAP BTP, Kyma Runtime and Integrate Your Application Deployed in SAP BTP, Kyma Runtime with SAP Build Work Zone, Standard Edition.    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-11-15
+Valid as Of: 2024-11-15
+Version: Cloud
+
+--- Record 1937 ---
+Component: SAP Build Apps
+Environment: Cloud Foundry
+Title: Web & Mobile
+Description: The release versions list now also shows the release notes for each version. To learn more, see Create a Project Release Version.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-11-15
+Valid as Of: 2024-11-15
+Version: Cloud
+
+--- Record 1938 ---
+Component: Application Autoscaler
+Environment: Cloud Foundry
+Title: Additional functionality for using custom metrics was added
+Description: By using custom metrics, it's now possible that one application sends custom metrics to scale another application.  For more information, see Defining a Custom Metric.
+Action: Recommended
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-11-14
+Valid as Of: 2024-11-14
+Version: Cloud
+
+--- Record 1939 ---
+Component: Cloud Integration for Data Services
+Environment: Neo
+Title: Documentation update only: Administrators in Sub-orgs Can Promote to Parent Orgs
+Description: The Help Center topics Working in Multiple Environments and User Roles have been updated with a clarification that a user with the Administrator role in a sub-org and either the Administrator or Developer role in its parent org can promote tasks from the sub-org to the parent org.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Database and Data Management
+Latest Revision: 2024-11-14
+Valid as Of: 2024-11-14
+Version: 1.0.11.55
+
+--- Record 1940 ---
+Component: Cloud Integration for Data Services
+Environment: Neo
+Title: OData Adapter Option 'Use Audit' Set to False By Default
+Description: The option Use Audit is now set to false (unchecked) by default when creating a data flow with an OData adapter target object. Be aware that setting this option to true ignores task errors, so the execution status is always successful. For more information, see OData Adapter Options.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Database and Data Management
+Latest Revision: 2024-11-14
+Valid as Of: 2024-11-14
+Version: 1.0.11.55
+

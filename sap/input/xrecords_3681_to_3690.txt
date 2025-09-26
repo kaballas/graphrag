@@ -1,0 +1,130 @@
+--- Record 3681 ---
+Component: SAP Excise Tax Management
+Environment: Other
+Title: Inventory Settlement Report
+Description: The Inventory Settlement report for alcohol (DEALC_1279_SAP) has been updated to include a new filter Tax-Dependent Material Group. Once the report has been generated, you can use this filter in the report to view the data for specific tax-dependent material groups.  Note  In order for this feature to work correctly, you must perform the following actions:    Maintain the tax-dependent material groups for your master data in the Edit Excise Tax Material Master Data app.      Import the latest SAP Analytics Cloud content for the standard reports from the content network into your SAP Analytics Cloud tenant. For more information, see Importing SAP Analytics Cloud Content for Legal Reports.      Update custom reports (if you have any) with the new changes seen in the standard reports. We recommend that you implement your customizations again on top of the latest SAP Analytics Cloud content for the standard reports.    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2024-01-07
+Version: Cloud
+
+--- Record 3682 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Vertical Layout in Process Editor
+Description: The vertical layout is available in the following regions:      Australia (Sydney)(cf-ap10)      US Central (IA) (cf-us30)      Europe (Frankfurt) (cf-eu11)      Japan (Tokyo) (cf-jp10)      See the documentation marked as early adopter version at: Business Process Projects.  These are some of the advantages that the new layout offers you:      To move process steps that have already been connected to the process, you simply select the step and drag and drop them.      You can access embedded help using the question mark button (?). In the Help Panel, you can navigate between the help for UI elements, the embedded What's New, and the Guided Tours.      If, for example, the outcome of an approval step in your process is “reject”, you can insert a go-to step and send users back to a previous step asking them to rework their entries.  See Use Cases for Custom Variables.      The side panel is wider and easier to work with. You can close it to save space. To display process information again, use the toggle button in the side panel.      You can select the next step to insert in your process from the smart menu.  See step 6 in Create a Business Process.      Steps with more than one flow are visualized as a group. You can collapse groups to get a better overview of the whole process.      The process is always valid, there are no more dangling ends. If you add a new step, for example, an approval form, all output paths are connected. You do not have to connect, for example, the Reject outcome to the process anymore.    
+Action: Info only
+Lifecycle: Restricted Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2023-12-21
+Valid as Of: 2024-01-07
+Version: Cloud
+
+--- Record 3683 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Breaking change - cluster region mandatory for enabling Kyma runtime
+Description: As we announced in this release note, the Region parameter is mandatory for provisioning Kyma runtime in your cluster. The change affects all the available plans in the Kyma environment except for the Trial plan. When you enable your Kyma runtime, choose the region from the menu list in the SAP BTP cockpit or provide a cluster region name in the SAP BTP command line interface.  For more information, read the Region input parameter required for provisioning SAP BTP, Kyma runtime in your cluster blog post.
+Action: Required
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2023-12-21
+Valid as Of: 2024-01-06
+Version: Cloud
+
+--- Record 3684 ---
+Component: Document Management Service
+Environment: Cloud Foundry
+Title: Integrating SAP S/4HANA with Google Workspace Using SAP Document Management Service
+Description: With this release, we've changed the destination configuration. The following properties have been replaced:    Old Property  New Property        Authentication: NoAuthentication  OAuth2ClientCredentials      Additional Property: google.client_id    Standard Configuration: Client ID      Additional Property:google.private_key  Standard Configuration: Client Secret      Additional Property:google.token_uri   Standard Configuration: Token Service URL    Action: If you're an existing user,, it's required to migrate your settings to the new setup. The updates are designed to enhance the experience for new implementations, ensuring a seamless and optimized setup.  For more information about creating destinations, see Creating HTTP Destinations.
+Action: Required
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-01-04
+Valid as Of: 2024-01-04
+Version: Cloud
+
+--- Record 3685 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Regular Upgrade
+Description: Identity Authentication has been upgraded.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-04
+Valid as Of: 2024-01-04
+Version: 25446
+
+--- Record 3686 ---
+Component: Documentation
+Environment: ABAP,Cloud Foundry,Kyma,Neo,Other
+Title: Use of Comments for Feedback
+Description: You can now add comments to provide feedback directly on SAP Help Portal for the SAP Business Technology Platform and SAP BTP, Neo Environment documentation. See Giving Feedback on SAP Documentation and Creating Better Documentation Together: SAP Help Portal’s new approach to Collaboration and Feedback.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-04
+Valid as Of: 2024-01-04
+Version: Cloud
+
+--- Record 3687 ---
+Component: Responsibility Management Service
+Environment: Cloud Foundry
+Title: Import Teams
+Description: You can now import teams from SAP S/4HANA Cloud to the Manage Teams and Responsibilities app. For more information, seeImport Teams.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2024-01-04
+Version: Cloud
+
+--- Record 3688 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: SAP BTP Operator module: Update to version 1.1.0
+Description: With this release, we have updated the SAP BTP service operator resources to version 0.5.6. We have introduced a new feature that allows you to create a Service Instance with a custom Secret. For more details and instructions, go to Use BTP Manager to Manage SAP BTP Service Operator.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-12-20
+Valid as Of: 2024-01-03
+Version: Cloud
+
+--- Record 3689 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Store - New Content Packages
+Description: A new set of 19 content packages - 12 Business Content and 7 Learning Content - were added to the Store during December 2023. We have also made some fixes to the existing content packages.  These content packages are tailored to different lines of business such as IT, Sales, Services, Sourcing, Finance, and Procurement.  SAP S/4HANA Business Content:  Automatic Sales Order Creation via Email using Excel.  Mass Fixed Asset Acquisition.  Inactive Vendor Mark for Blockage or Deletion.  Creation of Supplier Invoice by Reference Invoice.  Duplicate Supplier Request Rejection.  Create Customer Material Info Records.  Mass Maintenance of Purchasing Info Records.  Mass Completion of Supplier Quotations & Request for Quotations.  Mass Creation of Bank Master.  Mass Purchase Orders Closure.  Mass Creation of Measuring Documents.  Mass Processing of Planned Orders.    Learning Content:  Sales Order Management (MI01).  Sales Order Management (MI02).  Sales Order Management (MI03).  Sales Order Management (MI04).  Sales Order Management (MI05).  Sales Order Management (MI06).  Sales Order Management (MI07).    Updated Content:  Activation Accelerators - In-App Configuration for SAP S4HANA Cloud Scope item J59 (6PS) (SAP S/4HANA).  Automated Purchase Order Upload (2R2) (SAP Business By Design).  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2024-01-01
+Version: Cloud
+
+--- Record 3690 ---
+Component: SAP Conversational AI
+Environment: Cloud Foundry
+Title: SAP Conversational AI Community Edition
+Description: SAP Conversational AI community edition will no longer be available after December 31, 2023. Licensed users can migrate productive bots to the enterprise edition of the platform to ensure un-interrupted conversation experience for your users. See Import your Bots from the Community Tenant.
+Action: Required
+Lifecycle: Deprecated
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2023-07-05
+Valid as Of: 2023-12-31
+Version: Cloud
+

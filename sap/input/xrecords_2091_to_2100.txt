@@ -1,0 +1,130 @@
+--- Record 2091 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Authenticate SMTP Destination with OAuth2ClientCredentials.
+Description: SMTP destination authentication now includes OAuth2ClientCredentials. To configure, your mail server must support the SASL XOAUTH2 mechanism, and the authentication server must support the OAuth2ClientCredentials flow for the mailbox. For more information, see Configure an SMTP Mail Destination.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-10-18
+Valid as Of: 2024-10-18
+Version: Cloud
+
+--- Record 2092 ---
+Component: Java Server
+Environment: Neo
+Title: Java Web Tomcat 8 is deprecated
+Description: [Periodic reminder] We have stopped the support of Java Web Tomcat 8 runtime following the official announcement of Apache Tomcat 8.5 end of life.   Required Action: If you have Java applications running on that runtime, migrate to Java Web Tomcat 9 immediately. See Migrating from Java Web Tomcat 8 to Java Web Tomcat 9.
+Action: Required
+Lifecycle: Deprecated
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-10-17
+Valid as Of: 2024-10-17
+Version: Cloud
+
+--- Record 2093 ---
+Component: Multitarget Applications for Cloud Foundry
+Environment: Cloud Foundry
+Title: MTA deployments will start to fail if service instance update fails
+Description: The default behavior of MTA deployment will be changed when there is a failure during service instance update. The change is planned to be done in October 2024.  Currently, the service update is fail-safe, and even in the event of a failure, MTA deployment will proceed successfully. This behavior, however, is problematic as it conceals issues that may arise during MTA deployment, which are only detected at a later stage or even during runtime.  The behavior will be changed and MTA deployments will start to fail in case of service instance update failure.  Action:If a certain service instance should not impact the whole MTA deployment there are two options to proceed. Choose one depending on your needs:    Declare the MTA resource as optional – when making an MTA resource optional all operations related to it are fail-safe. It includes not only the service instance update but also service binding, unbinding, etc. The option is valuable for service instances that are optional during the runtime of your application;      Avoid service instance updates by providing parameter skip-service-updates – the option could be interpreted as “create-only” for the service instance. It is useful when a service instance needs to be created in the initial MTA deployment and not altered afterwards. The parameter skip-service-updates defines the different parts of the service instance that are to be omitted during update. See the example for skipping service updates.    
+Action: Required
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-07-15
+Valid as Of: 2024-10-17
+Version: Cloud
+
+--- Record 2094 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Additional Property Required for Using SAP Task Center
+Description: If you are using SAP Task Center together with SAP Build Process Automation in different subaccounts and if your security protocol is SAML 2.0, you must set an additional property in your Identity_Authentication_Connectivity_IDS destination. Add the wfs.tc.sec.prot.rel property and set it to true.  For more information, see SAP Note 3522594 .  If you don’t set this property, the end users might be able to access their SAP Build Process Automation tasks, but some actions might not be available in the Web app of SAP Task Center.  If you have already set the property wfs.tc.local, please remove it from your Identity_Authentication_Connectivity_IDS destination.
+Action: Required
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-10-17
+Valid as Of: 2024-10-17
+Version: Cloud
+
+--- Record 2095 ---
+Component: SAP Task Center
+Environment: Cloud Foundry
+Title: Additional Property Required for SAP Build Process Automation
+Description: If you are:    using SAP Build Process Automation as task provider,      SAP Build Process Automation and SAP Task Center are in different subaccounts,      the established trust with Identity Authentication is SAML 2.0 (see Establish Trust with Identity Authentication),    then make sure you add the wfs.tc.sec.prot.rel property in your SAP Build Process Automation Identity_Authentication_Connectivity_IDS destination and set its value to true.  For more information, see SAP Note 3522594 .  Note      If you don’t set this property, the end users might be able to access their SAP Build Process Automation tasks, but some actions might not be available in the Web app.      If you have already set up the property wfs.tc.local, please remove it from your SAP Build Process Automation  Identity_Authentication_Connectivity_IDS destination, regardless of whether your SAP Build Process Automation and SAP Task Center are in the same or different subaccounts.    
+Action: Required
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-10-17
+Valid as Of: 2024-10-17
+Version: Cloud
+
+--- Record 2096 ---
+Component: Java Server
+Environment: Neo
+Title: Tomcat version for Java Web Tomcat 9 and Java EE 7 Web Profile TomEE 7
+Description: Java Web Tomcat 9 (runtime version 4.88) and Java EE 7 Web Profile TomEE 7 (runtime version 1.186) have been updated to Tomcat version 9.0.95.  See the Changelog.  Recommended action: Update your applications to the latest runtime version.
+Action: Recommended
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-10-17
+Valid as Of: 2024-10-17
+Version: Cloud
+
+--- Record 2097 ---
+Component: Connectivity
+Environment: Cloud Foundry,Kyma
+Title: Connectivity Proxy for Kubernetes - New Features
+Description: Connectivity Proxy version 2.13.0 provides the following new features:    The Connectivity Proxy now exposes various JVM and component-specific Prometheus metrics.  [Helm] You can now configure the topology key for the pod anti-affinity of each pod related to the Connectivity Proxy. This gives you more control over pod scheduling.  [Helm] You can now configure the request and limit resource constraints for the Region Configuration Controller micro-service of the Connectivity Proxy.  Support for custom PKI (public key infrastructure): The Connectivity Proxy now provides a list of certificate authorities which it should trust in addition to the default ones when performing outbound HTTPS calls is now supported.  
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-10-17
+Valid as Of: 2024-10-17
+Version: Cloud
+
+--- Record 2098 ---
+Component: Connectivity
+Environment: Cloud Foundry,Kyma
+Title: Connectivity Proxy for Kubernetes - Security Fixes
+Description: Connectivity Proxy version 2.13.0 provides the following security fixes:      Multiple OS vulnerabilities by removing or upgrading packages on the image were fixed.      Multiple Java vulnerabilities by upgrading dependencies to a newer version were fixed.    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-10-17
+Valid as Of: 2024-10-17
+Version: Cloud
+
+--- Record 2099 ---
+Component: Credential Store
+Environment: Cloud Foundry,Kyma
+Title: CMK Encryption Details
+Description: You can now easily set alert notifications on service instance level from the SAP Credential Store user interface, tab Settings. See:       Multiple Expiring Credential Bindings      Maximum Number of Credential Bindings      Maximum Number of Credentials      Maximum Number of Requests      Maximum Used Storage (in MB)    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-10-08
+Valid as Of: 2024-10-17
+Version: Cloud
+
+--- Record 2100 ---
+Component: Data Quality Services
+Environment: Cloud Foundry,Neo
+Title: Enhancements
+Description:   Improvements were made to support validation of rural addresses in Chechia that consist of a house number on an unnamed road.   The microservice now returns the two numbers in street addresses in Chechia and Slovakia in the following output field properties. It returns the first number (registration number) in std_addr_building_name, the second number (orientation number) in std_addr_prim_number, and both numbers separated by a slash in std_addr_prim_number_full. See House Number for more information.  
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2024-10-17
+Version: Cloud
+

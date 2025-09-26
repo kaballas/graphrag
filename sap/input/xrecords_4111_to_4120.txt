@@ -1,0 +1,130 @@
+--- Record 4111 ---
+Component: Workflow Capability
+Environment: Cloud Foundry
+Title: Documentation Update
+Description: We added a warning that script task implementations should not rely on unsupported data types and representations.See Creating and Reading Workflow Context Structures.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2023-10-05
+Valid as Of: 2023-10-05
+Version: Cloud
+
+--- Record 4112 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: Use Generative AI to Extract Information from Standard and Custom Document Types
+Description: You now have the option of using generative AI to extract information from standard and custom document types.   To use generative AI, select the setup type auto without a default extractor when adding data fields to a schema for a standard or custom document type.  Restriction  This option is currently available in SAP BTP trial accounts only.  If you don’t want to use generative AI with standard or custom document types, select the setup type manual when adding fields to schemas. With standard document types, you can also avoid using generative AI by selecting auto with a suitable default extractor.  See Add Fields to Schema Version and Setup Types.
+Action: Info only
+Lifecycle: Restricted Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-11-10
+Valid as Of: 2023-10-05
+Version: Cloud
+
+--- Record 4113 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Static Upscaling of SAP HANA Cloud Instances
+Description: It's now possible to scale up the SAP HANA Cloud instance of an SAP BTP ABAP Environment system via the SAP BTP Cockpit and via API calls. The related settings are size_of_persistence for compute power or main memory and size_of_persistence_disk for the disk size of the SAP HANA Cloud instance of the system. Updates are carried out without a restart of the HANA Cloud instance by using a temporary replica database followed by a takeover to this database as the new database. The takeover requires a reconnect of the ABAP application servers to the new database, terminating all ABAP applications running at that specific point in time.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-10-04
+Valid as Of: 2023-10-04
+Version: ABAP Environment 2311
+
+--- Record 4114 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Static Upscaling of SAP HANA Cloud Instances
+Description: It's now possible to scale up the SAP HANA Cloud instance of an SAP BTP ABAP Environment system via the SAP BTP Cockpit and via API calls. The related settings are size_of_persistence for compute power or main memory and size_of_persistence_disk for the disk size of the SAP HANA Cloud instance of the system. Updates are carried out without a restart of the HANA Cloud instance by using a temporary replica database followed by a takeover to this database as the new database. The takeover requires a reconnect of the ABAP application servers to the new database, terminating all ABAP applications running at that specific point in time.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-10-04
+Valid as Of: 2023-10-04
+Version: Cloud
+
+--- Record 4115 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Scheduled Triggers
+Description: Minor updates and bugfixes.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2023-10-04
+Valid as Of: 2023-10-04
+Version: Cloud
+
+--- Record 4116 ---
+Component: SAP Datasphere
+Environment: Cloud Foundry
+Title: Features for Version 2023.21
+Description: New and changed features are available for administration, data modeling, space management, and others.  For more information, see What's New in SAP Datasphere 2023.21. 
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-10-04
+Valid as Of: 2023-10-04
+Version: Cloud
+
+--- Record 4117 ---
+Component: Documentation
+Environment: ABAP,Cloud Foundry,Kyma,Neo,Other
+Title: Use of Human-Readable URLs
+Description: We've introduced human-readable URLs for most SAP Business Technology Platform services.  The old technical URLs still work. They just redirect to the new ones.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-10-03
+Valid as Of: 2023-10-03
+Version: Cloud
+
+--- Record 4118 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Action Project - Customize Response Status Codes in the Output Section
+Description: You can now create and modify the output HTTP response status code according to your requirements especially if the specification doesn’t have a code that is supported by the API for the execution of its corresponding use case. 
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-10-03
+Valid as Of: 2023-10-03
+Version: Cloud
+
+--- Record 4119 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Create an Action Project Using Programming Models Driven by Destinations
+Description: You can now use the SAP Cloud Application Programming Model (CAP), ABAP RESTful Application Programming Model (RAP), and any SAP BTP destination when creating Action Projects. This new feature adds to the various supported sources for the creation of Actions, while making it easier to consume APIs following a destination-driven approach. Additionally, support for programming models enhances the consumption of API for different use cases leveraging the latest features and capabilities.  For more information, see    and   .
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-10-03
+Valid as Of: 2023-10-03
+Version: Cloud
+
+--- Record 4120 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Lobby - UI Improvements
+Description: You can now see a   Published to Library icon for every published version of the project in the version drop-down menu.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-10-03
+Valid as Of: 2023-10-03
+Version: Cloud
+

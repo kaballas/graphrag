@@ -1,0 +1,130 @@
+--- Record 861 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: SAP Fiori Launchpad: Avatars for Themes in the User Settings
+Description: Avatars for SAP and custom theme sets are now displayed in the user settings. Thumbnail previews have been added to the appearance settings to make it easier for you to choose the one you want.  For more information, see User Menu.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-05-16
+Valid as Of: 2025-05-16
+Version: ABAP Environment 2505
+
+--- Record 862 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: SAP Fiori Launchpad: Extend the Sort Priority Field in the Manage Launchpad Spaces App
+Description: In the Manage Launchpad Spaces app on the General Data tab, you can now extend the sort priority field to +/- 9999.99999.  For more information, see Sorting Spaces.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-05-14
+Valid as Of: 2025-05-16
+Version: ABAP Environment 2505
+
+--- Record 863 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Technical Monitoring: Capture and Download of PLV Files in ABAP Cross Trace for SQL Statement Execution Analysis
+Description: In ABAP development tools for Eclipse (ADT), you can now capture PlanViz (PLV) files for SQL statement executions in the ABAP cross trace and download and view them in the SQL analyzer tool for SAP HANA.  See Capturing and Downloading PLV Files in the ABAP Cross Trace in ADT.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-03-19
+Valid as Of: 2025-05-16
+Version: ABAP Environment 2505
+
+--- Record 864 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Units of Measurement (UoM)
+Description: You can now retrieve the standard units of measurement and dimensions delivered by SAP using released ABAP Cloud APIs (CL_UOM*).  See Units of Measurement.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-03-18
+Valid as Of: 2025-05-16
+Version: ABAP Environment 2505
+
+--- Record 865 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: What's New for SAP Joule for Developers, ABAP AI Capabilities
+Description: You can find the What's New for SAP Joule for developers, ABAP AI capabilities here: What's New for Joule for Developers, ABAP AI Capabilities.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-05-16
+Valid as Of: 2025-05-16
+Version: ABAP Environment 2505
+
+--- Record 866 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: XCO Library
+Description: XCO XSLX: You can now style the fonts of a cell of an Excel worksheet.  For more information, see XCO Library.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-05-16
+Valid as Of: 2025-05-16
+Version: ABAP Environment 2505
+
+--- Record 867 ---
+Component: Cloud Transport Management
+Environment: Cloud Foundry
+Title: New feedback button is available in the title bar of SAP Cloud Transport Management
+Description: Use the feedback button to share anonymous feedback about SAP Cloud Transport Management.See:   SAP Cloud Transport Management Home Screen  
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Application Development and Integration
+Latest Revision: 2025-05-16
+Valid as Of: 2025-05-16
+Version: 2504b
+
+--- Record 868 ---
+Component: Cloud Transport Management
+Environment: Cloud Foundry
+Title: SAP Cloud Transport Management service available on new data centers.
+Description: SAP Cloud Transport Management service is now also available in the following regions:  Amazon Web Services in the US West (Oregon) region   Azure in the Canada Central (Toronto) region   See:   SAP Cloud Transport Management in SAP Discovery Center  Regions and API Endpoints Available for the Cloud Foundry Environment  
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Application Development and Integration
+Latest Revision: 2025-05-16
+Valid as Of: 2025-05-16
+Version: Cloud
+
+--- Record 869 ---
+Component: Joule,SAP BTP Cockpit
+Environment: Cloud Foundry
+Title: UX Improvements to Joule in SAP BTP Cockpit
+Description: Scenario flows and texts have been optimized for Joule interactions.  Joule in the cockpit now supports multiple attributes when selecting entities. For example, you can select a subaccount by entering the subaccount display name, subaccount ID, and/or subdomain name. Joule validates the name you enter and provides suggestions should it not recognize your entry.  Entities and attributes:  Cloud Foundry Space: ID name, space name  Global Account: subdomain, display name  User: email address  Role Collection: name  Region: region (technical name), display name  Subaccount: ID, display name, subdomain  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-05-16
+Valid as Of: 2025-05-16
+Version: Cloud
+
+--- Record 870 ---
+Component: Multitarget Applications for Cloud Foundry
+Environment: Cloud Foundry
+Title: Removal of SAP Java Buildpack 1
+Description: SAP Java Buildpack 1 has been deprecated and will be removed from SAP BTP, Cloud Foundry environment on June 30, 2025. As a consequence, deployments of MTAs containing modules of type java, java.tomcat, and java.tomee might start to fail, as the buildpack used by default is SAP Java Buildpack 1.   To ensure compliance with this change, starting from the beginning of July, the MTA deployment will switch the default value for the buildpack parameter from sap_java_buildpack (SAP Java Buildpack 1) to sap_java_buildpack_jakarta (SAP Java Buildpack 2).  Action:  Plan and migrate your applications to SAP Java Buildpack 2 ahead of the scheduled change. In your deployment descriptors, you need to explicitly set one of the parameters buildpack or buildpacks of the java, java.tomcat, and java.tomee modules to sap_java_buildpack_jakarta. Note that this transition involves more than just configuration updates and may require code modifications.  See:  Migrate your Applications to SAP Java Buildpack 2  SAP Java Buildpack 2: Jakarta-Based, Fresh and New!  TomEE 10 has landed in SAP Java Buildpack 2!  
+Action: Required
+Lifecycle: Deprecated
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-05-15
+Valid as Of: 2025-05-15
+Version: Cloud
+

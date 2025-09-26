@@ -1,0 +1,130 @@
+--- Record 3241 ---
+Component: Availability Service
+Environment: Cloud Foundry
+Title: Rescoped Visibility of Tag Classes
+Description: The option to switch the visibility of existing tag classes to public is disabled for non SysAdmins.  The option to create new tag classes with the public visibility is disabled for non SysAdmins.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-03-21
+Valid as Of: 2024-03-21
+Version: Cloud
+
+--- Record 3242 ---
+Component: Cloud Management Tools,SAP BTP Cockpit
+Environment: ABAP,Cloud Foundry,Kyma,Neo,Other
+Title: Easier Identification of Free Services in SAP BTP Cockpit
+Description: To help you easily identify service plans that are free of charge, we've made the following enhancements in the SAP BTP cockpit:      We've added a new Show only free tier checkbox option in the Service  Service Marketplace page. With this checkbox, you can now filter and display only the services that offer free tier plans. This option is available if your subaccount has at least one service with a free tier plan.      We've also added the Free Tier, Always Free, and Beta labels to applicable service plans in the Service  Service Marketplace and Service  Instances and Subscriptions pages.       In the Create/New Instance or Subscription dialog box in the Service  Service Marketplace and Service  Instances and Subscriptions pages, the Plan dropdown list now includes the Free Tier, Always Free, and Beta labels for applicable service plans. You can see these labels on the right-hand side of the list.    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-03-21
+Valid as Of: 2024-03-21
+Version: Cloud
+
+--- Record 3243 ---
+Component: Connectivity
+Environment: Cloud Foundry,Kyma
+Title: Connectivity Proxy for Kubernetes 2.12.1 - Bug Fixes
+Description: Release of Connectivity Proxy version 2.12.1 provides the following bug fixes:    [Helm] Changes in the port of the business data tunnel were not properly taken into account, resulting in inconsistent configurations.  [Helm] Changes in the Istio gateway selector were not properly taken into account, resulting in inconsistent configurations.  Multiple OS vulnerabilities by removing or upgrading packages on the image were detected.  Multiple Java vulnerabilities by upgrading dependencies to a newer version were detected.    These issues haave been fixed.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2024-03-21
+Version: Cloud
+
+--- Record 3244 ---
+Component: Connectivity
+Environment: Cloud Foundry,Kyma
+Title: Connectivity Proxy for Kubernetes 2.12.1 - Enhancements
+Description: Release of Connectivity Proxy version 2.12.1 provides the following enhancement:You can now configure a nodeSelector section for each pod related to the Connectivity Proxy. As an operator, this lets you control on which worker nodes these pods will be scheduled.For more information, see Configuration Guide.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2024-03-21
+Version: Cloud
+
+--- Record 3245 ---
+Component: Connectivity
+Environment: Cloud Foundry
+Title: Destination Service - Enhancement
+Description: The automatic token retrieval functionality of the "find destination" API now supports MAIL destinations with authentication BasicAuthentication and all available types of OAuth authentication.  For more information, see Create Mail Destinations.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2024-03-21
+Version: Cloud
+
+--- Record 3246 ---
+Component: Data Quality Services
+Environment: Cloud Foundry,Neo
+Title: Enhancements
+Description: The microservice now supports generating time zone. In the addressCleanse endpoint, see Geo-Location Coordinates to see the new output field properties, and see Billing and Usage Information (Per API Call) to see how time zone is billed like geo-location coordinates latitude and longitude. In the reverseGeo endpoint, see Reverse Geocoding Output Field Properties to see the new output field properties, and there is no additional charge for time zone in reverse geocoding.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2024-03-21
+Version: Cloud
+
+--- Record 3247 ---
+Component: SAP BTP Developer's Guide
+Environment: ABAP,Cloud Foundry,Kyma
+Title: Build Your Application from Concept to Code
+Description: The SAP BTP Developer's Guide now provides insights on how to deliver a cloud application from concept to a final product. The section From Concept to Code outlines a progressive approach that includes the following steps:    Identify the business problem      Deliver a cloud application from concept to a final product      Understand modularization in general      Understand modularization in the context of microservice-based architecture      Learn why the domain-driven design is an adequate approach      Learn about the domain-driven design starter modeling process      Check how complex your scenario is     For more information, see From Concept to Code.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-03-21
+Valid as Of: 2024-03-21
+Version: Cloud
+
+--- Record 3248 ---
+Component: SAP BTP, Cloud Foundry Runtime
+Environment: Cloud Foundry
+Title: Version 39.0.0
+Description: Cloud Foundry has been updated from 37.5.0 to 39.0.0.      https://github.com/cloudfoundry/cf-deployment/releases/tag/v39.0.0  https://github.com/cloudfoundry/cf-deployment/releases/tag/v38.1.0  https://github.com/cloudfoundry/cf-deployment/releases/tag/v38.0.0    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-03-21
+Valid as Of: 2024-03-21
+Version: Cloud
+
+--- Record 3249 ---
+Component: SAP Build Work Zone, advanced edition
+Environment: Cloud Foundry
+Title: Add to Favorites by Non-Members
+Description: Non-members can pin a public workspace to their favorites list.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-03-21
+Valid as Of: 2024-03-21
+Version: Cloud
+
+--- Record 3250 ---
+Component: SAP Build Work Zone, advanced edition
+Environment: Cloud Foundry
+Title: Wizard Layout Enhancements
+Description: The following enhancements have been added to the wizard layout:   Support for wizard versioning.  Start over: the wizard creator can decide if users will be forced to start over when a new version of the wizard is available. If the users are not forced to start over, they can proceed from their current step.  Ability to skip steps and navigate back and forth between steps.  
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-03-21
+Valid as Of: 2024-03-21
+Version: Cloud
+

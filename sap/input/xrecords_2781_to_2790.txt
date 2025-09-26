@@ -1,0 +1,130 @@
+--- Record 2781 ---
+Component: SAP Task Center
+Environment: Cloud Foundry
+Title: Minor Updates
+Description: The following improvements have been made:     In the communication between the SAP Task Center Web app and the iFrame embedded UI;      In the handling of custom attributes, attachment counts and the description shown in the Additional Information tab of the standard task UI;      In the loading of views with expired filter criteria;      In the task count for tasks, processed on behalf of another user;    
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-06-12
+Valid as Of: 2024-06-12
+Version: Cloud
+
+--- Record 2782 ---
+Component: Data Quality Services
+Environment: Cloud Foundry,Neo
+Title: Enhancements
+Description: A new professional service plan is available. See Service Plans for more information.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2024-06-11
+Version: Cloud
+
+--- Record 2783 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Telemetry module: Update to version 1.16.2
+Description:     The new version addresses vulnerability CVE-2024-36129 by updating OTel Collector to version 0.102.1 (#1158).  All SAP BTP, Kyma runtime clusters are updated automatically; no customer action required.       We fixed a bug that prevented accessing the Telemetry module configuration in the Kyma dashboard (#1140).    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-06-10
+Valid as Of: 2024-06-11
+Version: Cloud
+
+--- Record 2784 ---
+Component: Event Mesh
+Environment: Cloud Foundry
+Title: Event Mesh Capability is Now Generally Available
+Description: Event Mesh is available as a new capability in SAP Integration Suite.See:   Understanding Event Driven Architecture  Configure Event Mesh    
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-06-08
+Valid as Of: 2024-06-08
+Version: 2404
+
+--- Record 2785 ---
+Component: Integration Advisor
+Environment: Cloud Foundry,Neo
+Title: Disabling the Proposal Service
+Description: To avoid data collection for proposal service, customers can now opt out of proposal service completely. In the next release, an extension to the data collection feature is planned where all Integration Advisor artifacts (MIGs, MAGs, etc.) are automatically collected. If you don’t want to use the proposal service and don’t want your content to be collected, you need to opt out of the proposal before this new feature gets released before 28th June, 2024.   See: MIGs and MAGs
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-06-08
+Valid as Of: 2024-06-08
+Version: 2404
+
+--- Record 2786 ---
+Component: Integration Advisor
+Environment: Cloud Foundry,Neo
+Title: Global Custom Codelists
+Description: You can now create custom codelists and use them across all artifacts.  See: Custom Type Systems
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-06-08
+Valid as Of: 2024-06-08
+Version: 2404
+
+--- Record 2787 ---
+Component: Integration Advisor
+Environment: Cloud Foundry,Neo
+Title: Software Version Update
+Description:   SAP Integration Advisor: 1.87.*    Increment: 2404    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-06-08
+Valid as Of: 2024-06-08
+Version: 2404
+
+--- Record 2788 ---
+Component: Integration Assessment
+Environment: Cloud Foundry
+Title: Software Version Update
+Description:     Integration Assessment: 1.28.*      Increment: 2404    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-06-08
+Valid as Of: 2024-06-08
+Version: 2404
+
+--- Record 2789 ---
+Component: Integration Suite General Features
+Environment: Cloud Foundry
+Title: New theme for the user interface.
+Description: Our user interface nows follows a new Horizon theme. You will find some changes in the way the icons, buttons, and texts look. There is no change in the functionality of the various features.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-06-08
+Valid as Of: 2024-06-08
+Version: 2404
+
+--- Record 2790 ---
+Component: Migration Assessment
+Environment: Cloud Foundry
+Title: Modernization Recommendations for Extracted Integration Scenarios
+Description: You can now receive modernization recommendations for integration scenarios you extracted. You can find the recommendations in the report and dashboard available after you execute a scenario evaluation. See Create a Scenario Evaluation Request.The aim of the recommendations is to improve your integration practices and often include transitioning from legacy content to predelivered packages and modern integration styles, as well as standardized protocols like SOAP, REST, and OData. For detailed descriptions of all recommendations, see Modernization Recommendations in the migration guide for SAP Process Orchestration.  Note  Depending on your integration scenarios and the current ruleset of Migration Assessment, you might not receive any modernization recommendations.  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-06-08
+Valid as Of: 2024-06-08
+Version: 2404
+

@@ -1,0 +1,130 @@
+--- Record 3311 ---
+Component: SAP Datasphere
+Environment: Cloud Foundry
+Title: Features for Version 2024.6
+Description: New and changed features are available for data integration, data modeling, and SAP BW bridge.  For more information, see What's New in SAP Datasphere 2024.6. 
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-03-12
+Valid as Of: 2024-03-12
+Version: Cloud
+
+--- Record 3312 ---
+Component: SAP Build Apps
+Environment: Cloud Foundry
+Title: Mobile
+Description:   Improved user experience of the SAP Mobile Services feature:  The system now automatically checks if the connected destinations are compatible with the Mobile Services.  Building your app is no longer possible if Mobile Services are not configured, but required.    
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-03-11
+Valid as Of: 2024-03-11
+Version: Cloud
+
+--- Record 3313 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: Better Models for the Extraction of Standard Document Types
+Description: The machine learning models for the extraction of invoice, paymentAdvice, and purchaseOrder documents have been improved.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-03-11
+Valid as Of: 2024-03-11
+Version: Cloud
+
+--- Record 3314 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: Configuration API
+Description: You can now use the client scope configuration for the dataFeedbackCollection configuration key.  See Configuration Keys.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Intelligent Technologies
+Latest Revision: 2024-03-11
+Valid as Of: 2024-03-11
+Version: Cloud
+
+--- Record 3315 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: Extracted Line Items
+Description: You can now extract purchase order numbers that are available on line-item field level from invoice documents.  See Extracted Line Items (Base Edition and Premium Edition).
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Intelligent Technologies
+Latest Revision: 2024-03-11
+Valid as Of: 2024-03-11
+Version: Cloud
+
+--- Record 3316 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: New Invoice Supported Language - Japanese
+Description: SAP Document AI now supports the Japanese language for invoice documents.  See Supported Languages.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Intelligent Technologies
+Latest Revision: 2024-03-11
+Valid as Of: 2024-03-11
+Version: Cloud
+
+--- Record 3317 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: Post Catalog
+Description: You can now filter documents based on schemaId.  See Post Catalog.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Intelligent Technologies
+Latest Revision: 2024-03-11
+Valid as Of: 2024-03-11
+Version: Cloud
+
+--- Record 3318 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: End of Maintenance - Desktop Agent 2
+Description: End of mainstream maintenance: On June 30 2024, mainstream maintenance ends for desktop agent 2 on SAP Build Process Automation. See Best Practices when Migrating from Desktop Agent 2 to Desktop Agent 3 and 3440715 .
+Action: Required
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-03-08
+Valid as Of: 2024-03-08
+Version: Cloud
+
+--- Record 3319 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Google Cloud Platform Support
+Description: You can choose Google Cloud Platform as an infrastructure provider for the SAP BTP ABAP environment. The supported regions are US Central (Iowa), Frankfurt (Germany), and Mumbai (India).
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-03-01
+Valid as Of: 2024-03-08
+Version: ABAP Environment 2402
+
+--- Record 3320 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Google Cloud Platform Support
+Description: You can choose Google Cloud Platform as an infrastructure provider for the SAP BTP ABAP environment. The supported regions are US Central (Iowa), Frankfurt (Germany), and Mumbai (India).
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-03-01
+Valid as Of: 2024-03-08
+Version: Cloud
+

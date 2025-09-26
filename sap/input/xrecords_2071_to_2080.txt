@@ -1,0 +1,130 @@
+--- Record 2071 ---
+Component: SAP S/⁠4HANA Cloud for Credit Integration
+Environment: Cloud Foundry
+Title: Displaying financial statement data
+Description:     Credit agencies can send financial statement data as additional data in their credit reports. These data can be displayed in the Credit Reports tables in SAP S/⁠4HANA Cloud for credit integration.    Note  Financial statement data are only available for newly ordered credit reports. Currently, this feature is only available for Cerved Group S.p.A..    More information:   Displaying Financial Statement Data  Available Features per Credit Agency      Only for SAP S/4HANA Releases 2022 and higher:  By implementing a BAdI, you can make the financial statement data available in the Manage Credit Accounts app.   More information:   Implement BAdI (Optional)  (Log on with your SAP ID to access this document.)    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Finance
+Latest Revision: 2024-10-23
+Valid as Of: 2024-10-23
+Version: Cloud
+
+--- Record 2072 ---
+Component: SAP S/⁠4HANA Cloud for Credit Integration
+Environment: Cloud Foundry
+Title: Documentation update: Updating Credit Report Data Manually
+Description: The following documentation was added to the user guide:   Updating Credit Report Data Manually
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Finance
+Latest Revision: 2024-10-23
+Valid as Of: 2024-10-23
+Version: Cloud
+
+--- Record 2073 ---
+Component: UI Theme Designer
+Environment: Cloud Foundry,Neo
+Title: Base Theming Content for CF and Neo.
+Description: The base theming content is updated to version 11.20.0. Review the changes at https://github.com/SAP/theming-base-content/releases.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2024-10-23
+Version: Cloud
+
+--- Record 2074 ---
+Component: UI Theme Designer
+Environment: Cloud Foundry
+Title: Theme Illustrated Messages in UI theme designer
+Description: The new preview page for illustrated messages allows you to see the changes made to parameters in the sapContent_Illustrative namespace (e.g. sapContent_Illustrative_Color1). You find the preview page in UI theme designer under SAPUI5 Controls  Illustrated Message. To customize illustrated messages, navigate to Expert Theming and search for parameters sapContent_Illustrative.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2024-10-23
+Version: Cloud
+
+--- Record 2075 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Regular Upgrade
+Description: Cloud Identity Services have been upgraded.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-10-22
+Valid as Of: 2024-10-22
+Version: 26835
+
+--- Record 2076 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: SAP Ariba Applications extended schemas and attributes
+Description: The default transformations of SAP Ariba Applications are extended to support the urn:ietf:params:scim:schemas:extension:sap:ariba:2.0:User and urn:ietf:params:scim:schemas:extension:sap:odm:2.0:User schemas. These schemas include specific attributes, such as: purchasingOrganization, plant, currency, and others.  See: SAP Ariba Applications
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-10-22
+Valid as Of: 2024-10-22
+Version: 26835
+
+--- Record 2077 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: SAP Enable Now connector
+Description: Identity Provisioning supports the SAP Enable Now connector. You can configure it as source, target, and proxy system for your provisioning scenarios. See:      SAP Enable Now (Source)      SAP Enable Now (Target)      SAP Enable Now (Proxy)    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-10-22
+Valid as Of: 2024-10-22
+Version: 26835
+
+--- Record 2078 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Support for OAuth authentication
+Description: You can now call the Real-Time Provisioning API, Proxy System API, and Tenant Admin API using OAuth authentication when your tenant is running on SAP Cloud Identity Services infrastructure.  See: Proxy Systems
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-10-22
+Valid as Of: 2024-10-22
+Version: 26835
+
+--- Record 2079 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: User Management
+Description: The User Details tab in the administration console is now called Details. See List and Edit User Details.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-10-22
+Valid as Of: 2024-10-22
+Version: 26835
+
+--- Record 2080 ---
+Component: Joule
+Environment: Cloud Foundry
+Title: Authentication of Requests; Single Logout
+Description: You can configure single logout (SLO) for Joule. This means if the user logs out from the parent application (for example, SAP SuccessFactors), SLO automatically logs out the user from Joule in all the applications where a Joule session is created. For more information, see Authentication of Requests
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-10-22
+Valid as Of: 2024-10-22
+Version: Cloud
+

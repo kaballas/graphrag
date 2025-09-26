@@ -1,0 +1,130 @@
+--- Record 2041 ---
+Component: Edge Integration Cell
+Environment: Cloud Foundry
+Title: New Component in Diagnostics
+Description: You can now select Monitoring Data Consumer from the list of components when creating a diagnostic task.  See: Diagnostics
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-10-26
+Valid as Of: 2024-10-26
+Version: 2409
+
+--- Record 2042 ---
+Component: Edge Integration Cell
+Environment: Cloud Foundry
+Title: New Message Processing Log (MPL) Diagnostic Task
+Description: You can now diagnose problems related to the storage and access of message processing logs in Diagnostics.  See: Diagnostics
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-10-26
+Valid as Of: 2024-10-26
+Version: 2409
+
+--- Record 2043 ---
+Component: Edge Integration Cell
+Environment: Cloud Foundry
+Title: Software Version Update
+Description:     Edge Integration Cell: 8.22.*    Increment: 2409  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-10-26
+Valid as Of: 2024-10-26
+Version: 2409
+
+--- Record 2044 ---
+Component: Event Mesh
+Environment: Cloud Foundry
+Title: Creating Webhook Subscriptions
+Description: You can now create webhook subscriptions to deliver messages from a queue to REST-based consumers.See: Webhook Subscriptions and Create a Webhook Subscription.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-10-26
+Valid as Of: 2024-10-26
+Version: 2409
+
+--- Record 2045 ---
+Component: Event Mesh
+Environment: Cloud Foundry
+Title: View Message Clients in Integration Suite UI
+Description: You can now view the message clients in the Integration Suite UI. Earlier, you could view them only in the SAP BTP cockpit.See: Configure A Message Client.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-10-26
+Valid as Of: 2024-10-26
+Version: 2409
+
+--- Record 2046 ---
+Component: Integration Advisor
+Environment: Cloud Foundry
+Title: Inject Cloud Integration Flow Resources
+Description: Cloud Integration Flow Resources can now be directly injected into a Cloud Integration tenant (within the same Integration Suite subscription) without requiring manual destination configuration in your BTP subaccount.  See: Inject Mapping Artifacts to SAP Cloud Integration
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-10-26
+Valid as Of: 2024-10-26
+Version: 2409
+
+--- Record 2047 ---
+Component: Integration Advisor
+Environment: Cloud Foundry,Neo
+Title: Software Version Update
+Description:   SAP Integration Advisor: 1.92.*    Increment: 2409    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-10-26
+Valid as Of: 2024-10-26
+Version: 2409
+
+--- Record 2048 ---
+Component: Integration Advisor
+Environment: Cloud Foundry,Neo
+Title: Versioning a Global Code Value Mapping
+Description: Global Code Value mappings can now be activated providing consistency and standardized code-value associations.  See: Global Code Value Mapping
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-10-26
+Valid as Of: 2024-10-26
+Version: 2409
+
+--- Record 2049 ---
+Component: Integration Assessment
+Environment: Cloud Foundry
+Title: Software Version Update
+Description:     Integration Assessment: 1.33.*      Increment: 2409    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-10-26
+Valid as Of: 2024-10-26
+Version: 2409
+
+--- Record 2050 ---
+Component: Integration Suite General Features
+Environment: Cloud Foundry
+Title: Improved Scope for SAP Integration Suite, starter edition
+Description: The edition now supports the usage of OEM adapters from SAP Business Accelerator Hub.  For the detailed scope of the edition, see SAP Note 2903776.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-10-26
+Valid as Of: 2024-10-26
+Version: 2409
+

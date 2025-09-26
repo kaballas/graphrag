@@ -1,0 +1,130 @@
+--- Record 3881 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Approve ATC Exemptions
+Description: With this app, you can process ATC exemptions. That is, approve or reject exemption requests, and provide an assessment elaborating on your decision. This information is relevant for all customers using the ATC Developer Scenario.  For more information, see Approve ATC Exemptions.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-11-10
+Valid as Of: 2023-11-10
+Version: ABAP Environment 2311
+
+--- Record 3882 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Approve ATC Exemptions
+Description: With this app, you can process ATC exemptions. That is, approve or reject exemption requests, and provide an assessment elaborating on your decision. This information is relevant for all customers using the ATC Developer Scenario.  For more information, see Approve ATC Exemptions.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-11-10
+Valid as Of: 2023-11-10
+Version: Cloud
+
+--- Record 3883 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: ATC Developer Scenario
+Description: You can now use a system in SAP BTP, ABAP Environment as a central check system to run ATC checks from an on-premise system against this system (ATC Developer Scenario). See Using an SAP BTP System as ATC Central Check System.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-11-10
+Valid as Of: 2023-11-10
+Version: ABAP Environment 2311
+
+--- Record 3884 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: ATC Developer Scenario
+Description: You can now use a system in SAP BTP, ABAP Environment as a central check system to run ATC checks from an on-premise system against this system (ATC Developer Scenario). See Using an SAP BTP System as ATC Central Check System.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-11-10
+Valid as Of: 2023-11-10
+Version: Cloud
+
+--- Record 3885 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Automatic Reprocessing Extension
+Description: Use the new Message Monitoring app Automatic Reprocessing Extension to configure reprocessing settings for a specific combination of log message and interface. Define a maximum number of reprocessing attempts that are executed for the failed log messages, the minimum waiting time that must elapse before another attempt is started, and the intermediate status the log message should have while waiting.  See Automatic Reprocessing.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-11-10
+Valid as Of: 2023-11-10
+Version: ABAP Environment 2311
+
+--- Record 3886 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Automatic Reprocessing Extension
+Description: Use the new Message Monitoring app Automatic Reprocessing Extension to configure reprocessing settings for a specific combination of log message and interface. Define a maximum number of reprocessing attempts that are executed for the failed log messages, the minimum waiting time that must elapse before another attempt is started, and the intermediate status the log message should have while waiting.  See Automatic Reprocessing.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-11-10
+Valid as Of: 2023-11-10
+Version: Cloud
+
+--- Record 3887 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: CDS Simple Types
+Description: Simple types can be used for data typing on CDS level.  See Implementing Actions for the Travel Entity.  See Consuming Simple Types in CDS.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-11-10
+Valid as Of: 2023-11-10
+Version: ABAP Environment 2402
+
+--- Record 3888 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Changed Runtime Behavior for Determinations and Validations
+Description: For performance reasons, determinations and validations that are assigned to a determine action (including prepare) are skipped during this determine action, if these determinations and validations have already been executed as part of a previous determine action, that has been executed on the same instance (draft or active) in the same transaction.Determinations and validations are skipped in the save sequence, if these determinations and validations have already been executed as part of a previous determine action that has been executed on the active instance in the same transaction.The performance optimizations outlined above are not applied in the following cases:    A modification performed after the first determine action triggers a determination/validation.      A validation in the first determine action reports a failed key.      A determination/validation has been assigned using the addition always.    Ensure that the determinations and validations of your business object follow the respective guidelines described in Determination and Validation Modelling. Neglecting these guidelines can impair the runtime behavior.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-11-10
+Valid as Of: 2023-11-10
+Version: ABAP Environment 2402
+
+--- Record 3889 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Custom Business Configurations
+Description: You can now create the ADT wizard to create a business configuration application consisting of multiple tables. Previously, only one table and its text table could be processed.   See Generating a Business Configuration Maintenance Object with the Generate ABAP Repository Objects Wizard.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-11-10
+Valid as Of: 2023-11-10
+Version: ABAP Environment 2311
+
+--- Record 3890 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Custom Business Configurations
+Description: You can now create the ADT wizard to create a business configuration application consisting of multiple tables. Previously, only one table and its text table could be processed.   See Generating a Business Configuration Maintenance Object with the Generate ABAP Repository Objects Wizard.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-11-10
+Valid as Of: 2023-11-10
+Version: Cloud
+

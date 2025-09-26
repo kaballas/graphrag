@@ -1,0 +1,130 @@
+--- Record 2661 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Regional Availability
+Description: Cloud Identity Services now operates with only two IPs in the data center in Switzerland. See Regional Availability.  Action:  We recommend you to add the following IPs to your allowed IP list:    LB IP - 20.250.104.188, 20.250.104.193  NAT IP - 4.226.38.130/32, 4.226.41.61/32  
+Action: Recommended
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-07-02
+Valid as Of: 2024-07-02
+Version: 26327
+
+--- Record 2662 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Regular Upgrade
+Description: Cloud Identity Services have been upgraded.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-07-02
+Valid as Of: 2024-07-02
+Version: 26327
+
+--- Record 2663 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Security recommendations for SAP Cloud Identity Services - Identity Provisioning
+Description: Security recommendations for SAP Cloud Identity Services - Identity Provisioning are now available to help you secure its configuration and operation in your landscape.  See Security Information. 
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-07-02
+Valid as Of: 2024-07-02
+Version: 26327
+
+--- Record 2664 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: skipOperations create is enhanced in SAP Analytics Cloud version 1 target systems
+Description: The skipOperations create is enhanced and works properly for SAP Analytics Cloud version 1 target systems. When Identity Provisioning tries to provision a user that already exists in the target system, the service resolves the ID of the user and can now add it to the request body of the PUT update request.  See SAP Analytics Cloud.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-07-02
+Valid as Of: 2024-07-02
+Version: 26327
+
+--- Record 2665 ---
+Component: Continuous Integration & Delivery
+Environment: Cloud Foundry
+Title: Build Customization in Cloud Foundry Environment Jobs
+Description: If you define a script named build in the scripts section of your package.json file, it will be automatically executed during the Build stage of your Cloud Foundry Environment job when using the npm build tool.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-07-02
+Valid as Of: 2024-07-02
+Version: Cloud
+
+--- Record 2666 ---
+Component: Graph
+Environment: Cloud Foundry
+Title: Add comments to Graph documentation using GitHub
+Description: Customer feedback has always been important to us. We love hearing from you because it gives us insight into how you use our products and if our documentation is helping you achieve your goals.  Now, with the introduction of the Open Documentation Initiative, we offer a unique collaboration channel that enables you to actively participate, provide feedback, and even make edits to our documentation via GitHub, ensuring that we address your specific needs.  We look forward to hearing from you. For more information on how to collaborate, see Collaborate with Us – Open Documentation Initiative for Graph.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Intelligent Technologies
+Latest Revision: 2024-07-02
+Valid as Of: 2024-07-02
+Version: Cloud
+
+--- Record 2667 ---
+Component: Graph
+Environment: Cloud Foundry
+Title: Graph documentation available in SAP Integration Suite documentation
+Description: Graph documentation is now available in the following sections of the SAP Integration Suite documentation:    Capabilities of SAP Integration Suite      Design      Monitoring and Troubleshooting for Graph    
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Intelligent Technologies
+Latest Revision: 2024-07-02
+Valid as Of: 2024-07-02
+Version: Cloud
+
+--- Record 2668 ---
+Component: Graph
+Environment: Cloud Foundry
+Title: New features on Graph UI for business data graph configuration
+Description: Graph now displays the details of a business data graph on SAP Integration Suite. This includes listing all entities with their configured locating rules exposed by a business data graph. Listing all entities was previously only available on the Graph Navigator in SAP API Business Hub Enterprise.  In addition, the details of the cues and key mappings are displayed if they are available for your business data graph.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Intelligent Technologies
+Latest Revision: 2024-07-02
+Valid as Of: 2024-07-02
+Version: Cloud
+
+--- Record 2669 ---
+Component: Identity Provisioning
+Environment: Neo
+Title: Security recommendations for SAP Cloud Identity Services - Identity Provisioning
+Description: Security recommendations for SAP Cloud Identity Services - Identity Provisioning are now available to help you secure its configuration and operation in your landscape.  For more information, see: Communication Security.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-07-02
+Valid as Of: 2024-07-02
+Version: Cloud
+
+--- Record 2670 ---
+Component: Identity Provisioning
+Environment: Neo
+Title: skipOperations create is enhanced in SAP Analytics Cloud version 1 target systems
+Description: The skipOperations create is enhanced and works properly for SAP Analytics Cloud version 1 target systems. When Identity Provisioning tries to provision a user that already exists in the target system, the service resolves the ID of the user and can now add it to the request body of the PUT update request.  For more information, see: SAP Analytics Cloud.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-07-02
+Valid as Of: 2024-07-02
+Version: Cloud
+

@@ -1,0 +1,130 @@
+--- Record 681 ---
+Component: Cloud Integration
+Environment: Cloud Foundry
+Title: Migration Tooling Limitations
+Description: Now, extensions are imported automatically during the migration of integration objects from your on-premise system to SAP Integration Suite.  See Known Limitations of Migration Tooling
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-06-07
+Valid as Of: 2025-06-07
+Version: 2504
+
+--- Record 682 ---
+Component: Cloud Integration
+Environment: Cloud Foundry
+Title: Optimize feature for Script Collection
+Description: You can enhance the Groovy scripts of your script collections using Generative AI.See: Creating Scripts in a Script Collection.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-06-07
+Valid as Of: 2025-06-07
+Version: 2504
+
+--- Record 683 ---
+Component: Cloud Integration
+Environment: Cloud Foundry
+Title: Software Version Update
+Description:   SAP Cloud Integration: 8.30.*    Increment: 2504    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-06-07
+Valid as Of: 2025-06-07
+Version: 2504
+
+--- Record 684 ---
+Component: Cloud Integration
+Environment: Cloud Foundry
+Title: Software Version Update
+Description:   SAP Cloud Integration: 6.66.*    Increment: 2504    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-06-07
+Valid as Of: 2025-06-07
+Version: 2504
+
+--- Record 685 ---
+Component: Cloud Integration
+Environment: Neo
+Title: Software Version Update
+Description:   SAP Cloud Integration: 5.74.*    Adapter Development Kit for SAP Cloud Integration: 2.53.*      Increment: 2504    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-06-07
+Valid as Of: 2025-06-07
+Version: 2504
+
+--- Record 686 ---
+Component: Cloud Integration
+Environment: Neo
+Title: Software Version Update
+Description:   SAP Cloud Integration: 7.39.*    Adapter Development Kit for SAP Cloud Integration: 2.53.*      Increment: 2504      The software version 7.39.* is being rolled out in a phased approach. All tenants running on software version 5.74.* would be automatically moved to 7.39.* or a higher version available at that point of time, in the near future.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-06-07
+Valid as Of: 2025-06-07
+Version: 2504
+
+--- Record 687 ---
+Component: Edge Integration Cell
+Environment: Cloud Foundry
+Title: Access Policies for Edge Integration Cell
+Description: You can define access policies for Edge Integration Cell runtimes.  See: Manage Access Policies for Edge Integration Cell
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-06-07
+Valid as Of: 2025-06-07
+Version: 2504
+
+--- Record 688 ---
+Component: Edge Integration Cell
+Environment: Cloud Foundry
+Title: Software Version Update
+Description:     Edge Integration Cell: 8.30.*    Increment: 2504  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-06-07
+Valid as Of: 2025-06-07
+Version: 2504
+
+--- Record 689 ---
+Component: SAP BTP
+Environment: Cloud Foundry
+Title: Runtime Selection for Access Policies
+Description:   You can now choose the specific runtime where you want to define access policies.  You can copy existing access policies into Edge Integration Cell runtimes.    See: Defining Access Policies  Manage Access Policies for Edge Integration Cell.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-06-07
+Valid as Of: 2025-06-07
+Version: 2504
+
+--- Record 690 ---
+Component: Cloud Transport Management
+Environment: Cloud Foundry
+Title: New tutorial available about transporting Mobile Development Kit apps using SAP Content Agent UI and SAP Cloud Transport Management
+Description: See:   Link to tutorial in Integrating SAP Cloud Transport Management with Other SAP Cloud Solutions  Tutorial: Transport Mobile Development Kit (MDK) apps using SAP Content Agent UI  
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Application Development and Integration
+Latest Revision: 2025-06-06
+Valid as Of: 2025-06-06
+Version: Cloud
+

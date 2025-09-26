@@ -1,0 +1,130 @@
+--- Record 3811 ---
+Component: SAP S/⁠4HANA Cloud for Credit Integration
+Environment: Cloud Foundry
+Title: Integration with new credit agency: Rubix Data Sciences
+Description: The credit agency Rubix Data Sciences is now connected to SAP S/⁠4HANA Cloud for credit integration.  More information:    Available Credit Agency Products and Features      Your Tasks for Integrating a New Credit Agency    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Finance
+Latest Revision: 2023-11-30
+Valid as Of: 2023-11-30
+Version: Cloud
+
+--- Record 3812 ---
+Component: SAP BTP, Cloud Foundry Runtime
+Environment: Cloud Foundry
+Title: Deprecation of Weak Client Certificate Chains
+Description: As originally announced on May 18, 2023 and November 2, 2023, weak client certificate chains have been deprecated for the region br10 in order to harden security standards.   Accordingly, the OpenSSL security has been raised to level 2, resulting in weak certificates or certificate chains no longer being accepted by the platform. For more information and a full definition of security level 2, see https://www.openssl.org/docs/man3.0/man3/SSL_CTX_set_security_level.html#DEFAULT-CALLBACK-BEHAVIOUR.   Note that this change only affects client certificates. If you do not use client certificates or mTLS to authenticate with the platform, you are not affected.   For more details on the command, see 3333978 .
+Action: Info only
+Lifecycle: Deprecated
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2023-11-29
+Valid as Of: 2023-11-29
+Version: Cloud
+
+--- Record 3813 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Kyma dashboard has a new look!
+Description: We are proud to announce that since recently Kyma dashboard has followed the New Horizon theme, which is the same as in other BTP products. Now, it's fresh and modern. Stay tuned, as in the coming months you may expect a constant flow of new features that will greatly improve the Kyma dashboard usability.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-11-27
+Valid as Of: 2023-11-29
+Version: Cloud
+
+--- Record 3814 ---
+Component: SAP Datasphere
+Environment: Cloud Foundry
+Title: Features for Version 2023.25
+Description: New and changed features are available for administration, data cataloging, data integration, data modeling, and SAP BW bridge.  For more information, see What's New in SAP Datasphere 2023.25. 
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-11-28
+Valid as Of: 2023-11-28
+Version: Cloud
+
+--- Record 3815 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: Enrichment Data API
+Description: The orderby parameter was replaced by order in December 2022.  The legacy orderby parameter is now deprecated and no longer available.  See List Data-Persistence Jobs.
+Action: Info only
+Lifecycle: Deprecated
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2023-11-27
+Valid as Of: 2023-11-27
+Version: Cloud
+
+--- Record 3816 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Regional Availability
+Description: Identity Authentication is now available with a new data center for the SAP infrastructure in North America East. The data center is located in Colorado (United States).  Action: We recommend you to add the following IPs to your allowed IP list:  LB IP - 130.214.207.198  NAT IP - 130.214.242.32/27
+Action: Recommended
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-11-28
+Valid as Of: 2023-11-27
+Version: Cloud
+
+--- Record 3817 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Regular Upgrade
+Description: Identity Authentication has been upgraded.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-11-28
+Valid as Of: 2023-11-27
+Version: Cloud
+
+--- Record 3818 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Tenant Texts
+Description: Tenant administrators change the configuration of tenant texts in the administration console for SAP Cloud Identity Services via Edit mode. SeeChange Tenant Texts Via Administration Console .
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2023-11-28
+Valid as Of: 2023-11-27
+Version: Cloud
+
+--- Record 3819 ---
+Component: Identity Provisioning
+Environment: Neo
+Title: Manage transformations history
+Description: Manage transformations history  You can now manage the history of transformations, review and restore them to a previous version, as well as download a specific one. This way you will no longer need to copy, save and manage modified transformations in your own archive. Previously, you were able to only restore a transformation to its initial state.  Managing transformations history is supported for Identity Provisioning tenants running on SAP Cloud Identity infrastructure. Customers with tenants running on SAP BTP, Neo environment can only reset modified transformations to their initial state.  For more information, see:    Manage Transformations History      Reset Transformations    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-12-06
+Valid as Of: 2023-11-27
+Version: Cloud
+
+--- Record 3820 ---
+Component: Identity Provisioning
+Environment: Neo
+Title: Re-entering credentials required when changing URL or host
+Description: As of November 27, 2023, whenever you update the URL or the host name of а provisioning system, you must re-enter the values of the credential properties, such as Password, ariba.applications.api.key and others. The only exception to this are the credential properties of systems that are created with a connectivity destination.  For more information, see: Manage Properties
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2023-12-06
+Valid as Of: 2023-11-27
+Version: Cloud
+

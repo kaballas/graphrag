@@ -1,0 +1,130 @@
+--- Record 1151 ---
+Component: Variant Configuration
+Environment: Cloud Foundry
+Title: Correct Reporting of Service Usage
+Description: The service usage used to be reported incorrectly if knowledgebase metrics, translations, or variant table details were requested for an uploaded knowledgebase. This issue has been corrected.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-03-13
+Valid as Of: 2025-03-26
+Version: Cloud
+
+--- Record 1152 ---
+Component: Variant Configuration
+Environment: Cloud Foundry
+Title: Extension Concept - Properly Write Extension Traces For Wrong Responses
+Description: An erroneous response of an extension implementation, for example a response with a missing characteristic id, used to cause an error without writing an entry to the extension trace. This issue has been corrected.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-03-13
+Valid as Of: 2025-03-26
+Version: Cloud
+
+--- Record 1153 ---
+Component: Variant Configuration
+Environment: Cloud Foundry
+Title: Knowledgebases API – Increase Limits of Variant Table API
+Description: The $skip parameter of the API endpoint to read variant tables used to have a maximum length of 4 digits, that is, the maximum value used to be 9999. This limit has been increased to 6 digits, which corresponds to a maximum value of 999.999.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-03-27
+Valid as Of: 2025-03-26
+Version: Cloud
+
+--- Record 1154 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Bundle options documentation
+Description: Documentation for SAP Field Service Management and SAP Cloud ALM bundle options is now available.  For more information, see SAP Field Service Management Bundle and SAP Cloud ALM Bundle.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-03-25
+Valid as Of: 2025-03-25
+Version: 27643
+
+--- Record 1155 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Central store logs display source entity ID
+Description: The central store logs display the source entity ID, which represents the group ID in the Identity Directory.  For more information, see Monitor Central Store Logs.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-03-25
+Valid as Of: 2025-03-25
+Version: 27643
+
+--- Record 1156 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Download all updated entities for a provisioning job
+Description: You can now download and view the details of all updated entities by a provisioning job. To enable this, set the properties ips.trace.updated.entity and ips.trace.updated.entity.content to true.  For more information, see Manage Provisioning Job Logs and List of Properties.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-03-25
+Valid as Of: 2025-03-25
+Version: 27643
+
+--- Record 1157 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: OAuth Client Authentication
+Description: The Add JSON Web Token UI has bee changed. Now you can manually configure the issuer or choose from OpenID Connect compliant corporate identity providers. See Configure JWT for OAuth Client Authentication.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-03-25
+Valid as Of: 2025-03-25
+Version: 27643
+
+--- Record 1158 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Regular Upgrade
+Description: Cloud Identity Services have been upgraded.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-03-25
+Valid as Of: 2025-03-25
+Version: 27643
+
+--- Record 1159 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: SAP Ariba Applications - default transformations changes
+Description: The default transformations of SAP Ariba Applications are enhanced with the expression preserveArrayWithSingleElement set to true. The transformation mappings for the attribute plant are excluded from the default write and proxy write transformations, since the attribute's value cannot be created with POST and PUT or PATCH request anymore.  For more information, see:     SAP Ariba Applications (Source)  SAP Ariba Applications (Target)  SAP Ariba Applications (Proxy)  
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-03-25
+Valid as Of: 2025-03-25
+Version: 27643
+
+--- Record 1160 ---
+Component: Identity Provisioning
+Environment: Neo
+Title: SAP Ariba Applications - default transformations changes
+Description: The default transformations of SAP Ariba Applications are now enhanced with the expression preserveArrayWithSingleElement set to true. The transformation mappings for the attribute plant are excluded from the default write and proxy write transformations, since the attribute's value cannot be created with POST and PUT or PATCH request anymore.  For more information, see:     SAP Ariba Applications (Source)  SAP Ariba Applications (Target)  SAP Ariba Applications (Proxy)  
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-03-25
+Valid as Of: 2025-03-25
+Version: Cloud
+

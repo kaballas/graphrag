@@ -1,0 +1,130 @@
+--- Record 1381 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: API Gateway module: Update to version 2.10.5
+Description: We have reverted the previously released fix for issue #1632 because it added an additional AuthorizationPolicy with action ALLOW, which was difficult to override.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-02-18
+Valid as Of: 2025-02-18
+Version: Cloud
+
+--- Record 1382 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Using Data Sources in Form Input Fields
+Description: You can now use actions with inputs as a data source for dropdown fields in forms. Inputs of the type Number and String are supported. You can map fields of these types to action inputs. If the inputs are mandatory, a message is displayed to the process participant to first fill in the corresponding fields.See Add and Use Data Sources in Form Input Fields.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-02-18
+Valid as Of: 2025-02-18
+Version: Cloud
+
+--- Record 1383 ---
+Component: SAP Advanced Financial Closing
+Environment: Cloud Foundry
+Title: Deletion of the Monitor Business Logs App
+Description: As scheduled and previously announced, the Monitor Business Logs app has now been deleted from SAP Advanced Financial Closing. Its successor app Monitor Business Logs - V2 was already released with the previous release and will now completely replace the previous version. Compared to the previous version of the app, the successor app offers additional features, such as new filter fields, new filter functions (for example, a date picker), and separate tabs for messages and records.  The successor app covers all business logs: those that were already created before its release and those that have been created since then or will be created in the future.  Note  Any views that you had saved in the Monitor Business Logs app couldn't be taken over to the Monitor Business Logs - V2 app.  App affected:  Monitor Business Logs  Action: Start using the new app Monitor Business Logs - V2 instead of the previous version. Additionally, in the Monitor Business Logs - V2 app, recreate the views that you were using in the previous version of the app. For more information about how to do this, see How to Manage Views.
+Action: Required
+Lifecycle: Deleted
+Type: Changed
+Line of Business: Finance
+Latest Revision: 2025-02-03
+Valid as Of: 2025-02-16
+Version: Cloud
+
+--- Record 1384 ---
+Component: SAP Advanced Financial Closing
+Environment: Cloud Foundry
+Title: New Folder Type Introduced
+Description: The new folder type Communication System has been introduced and set automatically for communication system folders in the closing structure. In the closing structure table, you can filter for this value in the Folder Type column.  App affected:  Manage Closing Task Lists  Action: If you had previously performed user interface adaptations regarding the Folder Type field in the folder details, you need to review and possibly reimplement the changes. For more information, see Adapting the UI in the SAP Fiori Launchpad documentation.
+Action: Recommended
+Lifecycle: General Availability
+Type: New
+Line of Business: Finance
+Latest Revision: 2025-02-03
+Valid as Of: 2025-02-16
+Version: Cloud
+
+--- Record 1385 ---
+Component: SAP Advanced Financial Closing
+Environment: Cloud Foundry
+Title: Check for Consistency and Completeness of Parameters Introduced
+Description: You can now run a check on the parameters of a task to verify that the parameters are consistent and correctly maintained, especially after edits. This ensures tasks run smoothly and reduces errors.  More information:  How to Process Tasks  How to Edit Task Parameters    App affected:  Process Closing Tasks
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Finance
+Latest Revision: 2025-02-03
+Valid as Of: 2025-02-16
+Version: Cloud
+
+--- Record 1386 ---
+Component: SAP Advanced Financial Closing
+Environment: Cloud Foundry
+Title: Direct Link to Workflow in SAP Build Process Automation
+Description: In the task status information of tasks of the type Workflow, you can now find a direct link to the workflow in SAP Build Process Automation.  More information:      Area affected: Integration with SAP Build Process Automation
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Finance
+Latest Revision: 2025-02-03
+Valid as Of: 2025-02-16
+Version: Cloud
+
+--- Record 1387 ---
+Component: SAP Advanced Financial Closing
+Environment: Cloud Foundry
+Title: Enhanced Read Authorization for Task Processing Scope
+Description: A user with Read authorization in the Task Processing scope can now download attachments, providing greater access and flexibility. This feature enhances the user experience by making it easier for users to retrieve the documents they need.  Area affected: User role authorizations
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Finance
+Latest Revision: 2025-02-03
+Valid as Of: 2025-02-16
+Version: Cloud
+
+--- Record 1388 ---
+Component: SAP Advanced Financial Closing
+Environment: Cloud Foundry
+Title: Invalidation of Successor Tasks
+Description: If you need to manually set the task status Completed with Errors for a task that was previously processed successfully, you may want its successor tasks to be invalidated to avoid inconsistencies in your financial close. You can now do this by activating the invalidation of successor tasks. This way, you can ensure that successor tasks need to be reprocessed as well.  More information:  How to Manage General Settings  Apps affected:  Manage General Settings  Process Closing Tasks  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Finance
+Latest Revision: 2025-02-03
+Valid as Of: 2025-02-16
+Version: Cloud
+
+--- Record 1389 ---
+Component: SAP Advanced Financial Closing
+Environment: Cloud Foundry
+Title: Parameter Information of Tasks of the Type Workflow
+Description: In the task status information of tasks of the type Workflow, you can now find the Workflow Custom Output menu that provides an easy overview of the output parameters. This information was previously only available in JSON format within message logs.  More information:      Area affected: Integration with SAP Build Process Automation
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Finance
+Latest Revision: 2025-02-03
+Valid as Of: 2025-02-16
+Version: Cloud
+
+--- Record 1390 ---
+Component: SAP Advanced Financial Closing
+Environment: Cloud Foundry
+Title: Table Columns for Number of Attachments
+Description: In the Tasks table of a task list, you can now find two new columns that provide information about the number of attachments a task has. One column provides the number of attachments added during the planning stage of a task list, meaning that these attachments have been uploaded in the Manage Closing Task Lists app. The second column provides the number of attachments added during the processing of a task, meaning that those attachments have been uploaded in the Process Closing Tasks app.  App affected:  Process Closing Tasks
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Finance
+Latest Revision: 2025-02-03
+Valid as Of: 2025-02-16
+Version: Cloud
+

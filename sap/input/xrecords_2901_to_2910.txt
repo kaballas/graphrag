@@ -1,0 +1,130 @@
+--- Record 2901 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: ABAP Development Tools for Eclipse: New Property ABAP Language Version
+Description: You can now use the new property abaplv to filter your object searches with the ABAP language version.  See Property Filter.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-05-17
+Valid as Of: 2024-05-17
+Version: ABAP Environment 2405
+
+--- Record 2902 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: ABAP Development Tools for Eclipse: Scheduling of Custom Code Migration Projects via Application Jobs
+Description: Through the Schedule Custom Code Analysis app, you can now schedule projects created in the Custom Code Migration app as application jobs. With this functionality, their analyses can be performed periodically. The Schedule Custom Code Analysis app is available to all users that have access to the Custom Code Migration app.For more information, see Custom Code Analysis.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-04-08
+Valid as Of: 2024-05-17
+Version: ABAP Environment 2405
+
+--- Record 2903 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: ABAP Development Tools for Eclipse: Software Component Relations Editor
+Description: You can now use the software component relations editor to create software component relations that define access permissions and dependencies between productive custom development software components.  See Working with Software Component Relations.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-05-17
+Valid as Of: 2024-05-17
+Version: ABAP Environment 2405
+
+--- Record 2904 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: ABAP Development Tools for Eclipse: Template Contexts When Creating Metadata Extensions
+Description: The former template context for metadata extensions has been replaced with the two new contexts Annotate Entity (creation) and Annotate View (creation).  See Creating Metadata Extensions.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-05-17
+Valid as Of: 2024-05-17
+Version: ABAP Environment 2405
+
+--- Record 2905 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: ABAP Development Tools for Eclipse: Test Code Highlighting for Method Calls
+Description: You can now use test code highlighting to get a quick visual overview of method calls that are used in unit test classes. Different colors are used to distinguish between various method contexts.  See Test Code Highlighting.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-05-17
+Valid as Of: 2024-05-17
+Version: ABAP Environment 2405
+
+--- Record 2906 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: ABAP Development Tools for Eclipse: Toggling The Step Size in The ABAP Debugger
+Description: While running the ABAP Debugger, you can now switch between the following two step modes:      Step Size: 'Line' to step from one line to the next.  Note  This is the default mode.      Step Size: 'Expression' changes the behavior for:      more than one statement in a single line.      conditional expressions and expressions.          See Toggling the Step Size.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-05-17
+Valid as Of: 2024-05-17
+Version: ABAP Environment 2405
+
+--- Record 2907 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: ABAP Development Tools for Eclipse: Tool Bridges Between ABAP Development Tools for Eclipse and VSCode/BAS
+Description: It's now possible to provide tool bridges that streamline the UI development flow between backend ABAP service development in ADT and frontend SAPUI5/Fiori Elements development in BAS/VSCode.  See Creating a Fiori Project.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-05-16
+Valid as Of: 2024-05-17
+Version: ABAP Environment 2405
+
+--- Record 2908 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: ABAP Development Tools for Eclipse: Using Quick Actions to Insert ABAP Unit Test Class Templates
+Description: You can now use quick actions to insert templates for ABAP Unit test classes with just a single mouse click.  See How to Write ABAP Unit Test Classes.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-05-17
+Valid as Of: 2024-05-17
+Version: ABAP Environment 2405
+
+--- Record 2909 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Entity Assignment of RAP Business Events
+Description: You can now assign RAP business events to entities that are not defined as root entity.  For more information on business events, see RAP Business Events.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-05-17
+Valid as Of: 2024-05-17
+Version: ABAP Environment 2405
+
+--- Record 2910 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Factory Calendar Pull Integration
+Description: You can now integrate the S/4HANA Cloud data from your factory calendar into the SAP BTP, ABAP environment to keep them in sync. A pull integration is available that pulls the data from the SAP S/4HANA system and inserts it in the SAP BTP, ABAP environment. Doing this, you can avoid double maintenance, and factory calendar calculations can still be done locally for optimal performance.  For more information, see Integrating Factory Calendar.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-05-17
+Valid as Of: 2024-05-17
+Version: ABAP Environment 2405
+

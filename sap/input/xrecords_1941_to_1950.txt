@@ -1,0 +1,130 @@
+--- Record 1941 ---
+Component: Documentation
+Environment: Cloud Foundry,Kyma
+Title: Updated Comparison: SAP BTP, Kyma Runtime and SAP BTP, Cloud Foundry Runtime
+Description: Based on customer feedback, we've updated Comparison: SAP BTP, Kyma Runtime and SAP BTP, Cloud Foundry Runtime:  The navigation is simpler and the page titles are more descriptive. Some entries moved to other pages; for example, release frequency is now under Offerings by the Runtime Service. Furthermore, the Observability information saw substancial enhancements.  Stay tuned for further improvements, and don't hesitate to use the Feedback options if there's anything you'd like us to improve.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-11-13
+Valid as Of: 2024-11-14
+Version: Cloud
+
+--- Record 1942 ---
+Component: Job Scheduling Service
+Environment: Cloud Foundry
+Title: Updated Procedure for Creating a Service Instance
+Description: You no longer need to specify the enable-xsuaa-support: true property when creating a service instance using the SAP BTP cockpit or the CF CLI. It is now set by default.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-11-14
+Valid as Of: 2024-11-14
+Version: Cloud
+
+--- Record 1943 ---
+Component: SAP Alert Notification Service
+Environment: Cloud Foundry
+Title: New SAP Variant Configuration and Pricing event
+Description: You can now use the newly supported SAP Variant Configuration and Pricing event - Delta Replication Check Status
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-11-14
+Valid as Of: 2024-11-14
+Version: Cloud
+
+--- Record 1944 ---
+Component: SAP BTP, Cloud Foundry Runtime
+Environment: Cloud Foundry
+Title: Version 44.3.0
+Description: Cloud Foundry has been updated from 44.0.0 to 44.3.0.      https://github.com/cloudfoundry/cf-deployment/releases/tag/v44.3.0  https://github.com/cloudfoundry/cf-deployment/releases/tag/v44.2.0  https://github.com/cloudfoundry/cf-deployment/releases/tag/v44.1.0    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-11-14
+Valid as Of: 2024-11-14
+Version: Cloud
+
+--- Record 1945 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Update Task Attributes in Batch
+Description: You can update the task attributes for multiple task instances in a single request.For more information, see API Documentation.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-11-14
+Valid as Of: 2024-11-14
+Version: Cloud
+
+--- Record 1946 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Update the User Interface of Task Instances
+Description: You can update the user interface of task instances enabling migration from Standalone App Router to Managed App Router.For more information, see Modify Existing Task Instances.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-11-14
+Valid as Of: 2024-11-14
+Version: Cloud
+
+--- Record 1947 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: New Improved ML Models for Invoice, Purchase Order, and Payment Advice
+Description: We’ve improved the machine learning models for the document types invoice, purchase order, and payment advice.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Intelligent Technologies
+Latest Revision: 2024-11-14
+Valid as Of: 2024-11-14
+Version: Cloud
+
+--- Record 1948 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: Sort and Filter Extraction Fields for Templates
+Description: You can now sort and filter the names of header and line item fields on the Extraction Fields tab for templates. As a result, you can list field names in ascending or descending order and use the filter to display only specific fields.  See Add Template.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Intelligent Technologies
+Latest Revision: 2024-11-14
+Valid as Of: 2024-11-14
+Version: Cloud
+
+--- Record 1949 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: Use Setup Types auto and manual with Copies of SAP Schemas and Old Custom Schemas
+Description: If you copy SAP schemas or old custom schemas that include fields with the setup type default, the copied fields and any new fields that you add now also support the setup types auto and manual.   If you use the service plan premium edition, you can therefore include data fields that use generative AI as extraction method in copies of these kinds of schema.  See Setup Types.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Intelligent Technologies
+Latest Revision: 2024-11-14
+Valid as Of: 2024-11-14
+Version: Cloud
+
+--- Record 1950 ---
+Component: SAP HANA Service
+Environment: Neo
+Title: Revision 2.00.059.15
+Description: You can now update to SAP HANA revision 2.00.059.15. See 3501358 - SAP HANA 2 SPS05 Revision 059.15.    Note  If you are still on SAP HANA 1.0, upgrade to the latest version of SAP HANA 2.0 as SAP HANA 1.0 has reached the end of mainstream maintenance in June 2021. See 2946614 - End-of-Maintenance of SAP HANA 1.0 in the SAP BTP, Neo Environment.  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-11-14
+Valid as Of: 2024-11-14
+Version: Cloud
+

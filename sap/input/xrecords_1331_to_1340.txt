@@ -1,0 +1,130 @@
+--- Record 1331 ---
+Component: Identity Provisioning
+Environment: Neo
+Title: Troubleshooting entity deletion
+Description: Documentation for troubleshooting the most frequent reasons for deletion of entities from a target system by the Identity Provisioning is now available. For more information, see Entity Deletion Issues.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-02-25
+Valid as Of: 2025-02-25
+Version: Cloud
+
+--- Record 1332 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: API Gateway module: Update to version 2.11.1
+Description: This version brings the following changes:  We've introduced Istio-based local rate limiting, which you can configure using the new RateLimit custom resource. For more information, see RateLimit Custom Resource and Local Rate Limiting Configuration.  We've fixed the issue where a workload exposed via a v2alpha1 APIRule was not accessible from within the cluster.  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-02-11
+Valid as Of: 2025-02-25
+Version: Cloud
+
+--- Record 1333 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: API Gateway module: Update to version 2.11.2
+Description: We have reverted the previously released fix for issue #1632 because it added an additional AuthorizationPolicy with action ALLOW, which was difficult to override.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-02-18
+Valid as Of: 2025-02-25
+Version: Cloud
+
+--- Record 1334 ---
+Component: SAP Build Apps
+Environment: Cloud Foundry
+Title: Web & Mobile
+Description:   We've added Undo and Redo buttons to the global toolbar. These buttons enable you to reverse up to 100 previous changes in the app. Each undo or redo action is shown in its respective canvas.    We have decommissioned the system variables systemVars.releaseEnv and systemVars.env, as they're no longer in use.    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-02-25
+Valid as Of: 2025-02-25
+Version: Cloud
+
+--- Record 1335 ---
+Component: SAP Omnichannel Promotion Pricing
+Environment: Cloud Foundry
+Title: Reserved Until for Reservation and Extend Reservation Requests in Coupon Management Service
+Description: You now have the Reserved Until parameter available for reservation and extend reservation requests in the Coupon Management service.   It indicates the time till which the coupon is reserved in a transaction.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-02-25
+Valid as Of: 2025-02-25
+Version: Cloud
+
+--- Record 1336 ---
+Component: SAP Task Center
+Environment: Cloud Foundry
+Title: Improved Onboarding for SAP S/4HANA Cloud Private Edition with all-tasks Service Plan
+Description: If you are setting up SAP S/4HANA Cloud Private Edition with the all-tasks service plan, you don't need to create an additional ticket to enable the destination anymore. This step is now automated. For more information, see Connect SAP S/4HANA Cloud Private Edition and SAP Task Center.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2025-02-25
+Valid as Of: 2025-02-25
+Version: Cloud
+
+--- Record 1337 ---
+Component: UI Theme Designer
+Environment: Cloud Foundry
+Title: Belize theme disabled as base for new themes.
+Description: The Belize theme is disabled as a base for creating new themes. If you are using a theme based on Belize, please note that the Belize theme has been deprecated for theming since August 28, 2024. UI frameworks like SAPUI5 and Unified Rendering no longer support Belize themes in their latest versions. It is recommended to migrate your theme to a Horizon or Quartz theme. You can find a how-to guide at Migrating Themes.
+Action: Recommended
+Lifecycle: Deprecated
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2025-02-24
+Version: Cloud
+
+--- Record 1338 ---
+Component: Document Management Service
+Environment: Cloud Foundry
+Title: Change Log Duration Parameter for Repository Onboarding and Updates
+Description: We have introduced the changeLogDuration parameter as an optional setting in Document Management Service, Integration Option, allowing you to choose how much historical change log data they retrieve, which helps you to reduce errors related to outdated tokens and improves usability by setting the maximum duration to 2160 hours.  See Internal Repository.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-02-24
+Valid as Of: 2025-02-24
+Version: Cloud
+
+--- Record 1339 ---
+Component: Document Management Service
+Environment: Cloud Foundry
+Title: Owner Visibility in Key Properties
+Description: The Document Management Service, Application Option now displays the owner of the document under the Key Properties tab instead of labeling them as Administrator in the Access Control tab. This update helps you add or update the owner’s name as an Access Control List (ACL), which then propagates to subfolders and documents.   Previously, the owner appeared as an ACL principal in the application UI, which confused users regarding the difference between the owner and the ACL. By relocating the owner details to the Key Properties tab, we enhance clarity around the object owner and the associated ACLs, thereby improving the overall user experience. 
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-02-24
+Valid as Of: 2025-02-24
+Version: Cloud
+
+--- Record 1340 ---
+Component: Document Management Service
+Environment: Cloud Foundry
+Title: Thumbnail Generation Enhancement for Document Updates
+Description: Thumbnail generation has been enhanced to support document update scenarios, allowing for the automatic creation of a thumbnail whenever a document is updated with a new version, thereby providing you with a visual representation of the latest content, which was previously unsupported.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-02-24
+Valid as Of: 2025-02-24
+Version: Cloud
+

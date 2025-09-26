@@ -1,0 +1,130 @@
+--- Record 2871 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Regular Upgrade
+Description: Cloud Identity Services have been upgraded.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-05-22
+Valid as Of: 2024-05-22
+Version: 26120
+
+--- Record 2872 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: SAP SuccessFactors Employee Central Payroll connector
+Description: Identity Provisioning supports the SAP SuccessFactors Employee Central Payroll connector. You can configure it as source, target, and proxy system for your provisioning scenarios. See:    SAP SuccessFactors Employee Central Payroll (Source)      SAP SuccessFactors Employee Central Payroll (Target)      SAP SuccessFactors Employee Central Payroll (Proxy)    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-05-22
+Valid as Of: 2024-05-22
+Version: 26120
+
+--- Record 2873 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: User Details
+Description: Attributes from the customs schema that are complex multivalued can now be edited via the administration console. See List and Edit User Details.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-05-22
+Valid as Of: 2024-05-22
+Version: 26120
+
+--- Record 2874 ---
+Component: Identity Provisioning
+Environment: Neo
+Title: Handling rate limits for Microsoft Entra ID read operations
+Description: Microsoft Entra ID source and proxy provisioning systems are now enhanced to support retry for a failed operation due to occurred exception 'Too many requests (429)'.   Previously, this option was possible only for the Microsoft Entra ID target system.  For more information, see Handle Rate Limits.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-05-22
+Valid as Of: 2024-05-22
+Version: Cloud
+
+--- Record 2875 ---
+Component: Identity Provisioning
+Environment: Neo
+Title: SAP SuccessFactors Employee Central Payroll connector
+Description: Identity Provisioning supports the SAP SuccessFactors Employee Central Payroll connector. You can configure it as source, target and proxy system for your provisioning scenarios. For more information, see:    SAP SuccessFactors Employee Central Payroll (Source)      SAP SuccessFactors Employee Central Payroll (Target)      SAP SuccessFactors Employee Central Payroll (Proxy)    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-05-22
+Valid as Of: 2024-05-22
+Version: Cloud
+
+--- Record 2876 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: NATS module: Update to version 1.2.1
+Description: The new version brings the following improvements:      The NATS custom resources (CR) use the Warning state when the NATS cluster is not spread across at least three Availability Zones (#359).      The NATS servers run as non-root user (#319).     
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-05-21
+Valid as Of: 2024-05-22
+Version: Cloud
+
+--- Record 2877 ---
+Component: SAP Datasphere
+Environment: Cloud Foundry
+Title: Features for Version 2024.11
+Description: New and changed features are available for administration, data integration, data marketplace, data modeling, data privacy and protection, and SAP BW Bridge.  For more information, see What's New in SAP Datasphere 2024.11. 
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-05-22
+Valid as Of: 2024-05-22
+Version: Cloud
+
+--- Record 2878 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Kyma CLI purpose revisited
+Description: After introducing the modular architecture in Kyma, we had to revisit the purpose of its CLI.  We noticed that many v2 commands are not helpful in the modular Kyma setup. Additionally, some v2 commands targeted module developers but did not target the actual Kyma users. That's why we decided to revisit the strategy for Kyma CLI.  We have released the last patch for the v2 version and deprecated all Kyma CLI v2 commands.  A new version (v3) with a whole new set of commands (targeting users of both open source and managed Kyma) will be developed and first introduced within an alpha command group.
+Action: Info only
+Lifecycle: Deprecated
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-05-21
+Valid as Of: 2024-05-21
+Version: Cloud
+
+--- Record 2879 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Telemetry module: Update to version 1.15.0
+Description: The new version brings the following improvements:      Logs, Traces, and Metrics: All pipeline types verify if the configured TLS client certificate matches the configured TLS private key. If it does not match, it reports an error in the pipeline status (#1018).      Metrics, Traces: Update to OTel Collector 0.99.0 (#1016).     
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-05-07
+Valid as Of: 2024-05-21
+Version: Cloud
+
+--- Record 2880 ---
+Component: SAP S/⁠4HANA Cloud for Credit Integration
+Environment: Cloud Foundry
+Title: For SAP S/4HANA 2022 and 2023: Integration via OAuth 2.0 Client possible
+Description: You have now the option to integrate your SAP Credit Management system with SAP S/⁠4HANA Cloud for credit integration via an OAuth 2.0 Client instead of via eventing.   More information: Integration via OAuth 2.0 Client  (Log on with your SAP ID to access this document.)
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Finance
+Latest Revision: 2024-05-21
+Valid as Of: 2024-05-21
+Version: Cloud
+

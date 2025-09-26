@@ -1,0 +1,130 @@
+--- Record 1141 ---
+Component: SAP Build Apps
+Environment: Cloud Foundry
+Title: Web & Mobile
+Description: We've introduced a new Date field with input component. You can use it to provide date-picking functionality, allowing users to either manually type a date or select it from a calendar. To use the new component, first install it from the Marketplace.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-03-27
+Valid as Of: 2025-03-27
+Version: Cloud
+
+--- Record 1142 ---
+Component: SAP Task Center
+Environment: Cloud Foundry
+Title: New Guided Tour on Getting Started in SAP Companion
+Description: A new guided tour Getting Started with SAP Task Center is now available in the Guided Tour section of SAP Companion in the SAP Task Center Web app.  For more information about SAP Companion, see Working with the Task List.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-03-27
+Valid as Of: 2025-03-27
+Version: Cloud
+
+--- Record 1143 ---
+Component: SAP Task Center
+Environment: Cloud Foundry
+Title: New Property for Extending the Maximum Pull Period
+Description: The new property tc.inbox.pull.days, available for the all-tasks service plan, allows administrators to extend the maximum pull period of the initial pull job per task provider to up to 180 days. For more information, see Conventions and Technical Restrictions and the respective task provider destinations.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2025-03-27
+Valid as Of: 2025-03-27
+Version: Cloud
+
+--- Record 1144 ---
+Component: SAP Task Center
+Environment: Cloud Foundry
+Title: Release Notes Available in the SAP Task Center Administration App
+Description: Release notes for SAP Task Center are now available also in the SAP Task Center Administration app. Starting now, the release notes are separated between both SAP Task Center applications, depending on their target group.  For more information on the SAP Task Center Administration app, see Create a Task Center Administration Tile.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-03-27
+Valid as Of: 2025-03-27
+Version: Cloud
+
+--- Record 1145 ---
+Component: Joule
+Environment: Cloud Foundry
+Title: Creating Insights Cards with Joule in SAP S/4HANA Cloud Public Edition
+Description: Joule now enables you to create a list or table insights card from within an app and add it to your My Home page. For more information, see Creating Insights Cards.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-03-26
+Valid as Of: 2025-03-26
+Version: Cloud
+
+--- Record 1146 ---
+Component: Joule
+Environment: Cloud Foundry
+Title: New Use Cases Now Supported in SAP S/4HANA Cloud Public Edition
+Description: Joule now enables you to view business data of the following objects in SAP S/4HANA Cloud Public Edition:    Inspection Method      Master Inspection Characteristic      Enterprise Project      Process Order Confirmation      Solution Order      Service Contract      For a list of the supported business objects, their details, and sample requests, see Viewing Business Data.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-03-26
+Valid as Of: 2025-03-26
+Version: Cloud
+
+--- Record 1147 ---
+Component: Joule
+Environment: Cloud Foundry
+Title: New Use Cases Now Supported in SAP SuccessFactors
+Description: The following Joule use cases are now available in SAP SuccessFactors:    Change "To Be Hired" Status of Position      Change Working Time for Position      For more information, refer to New Use Cases Available in Joule - March 2025.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-03-26
+Valid as Of: 2025-03-26
+Version: Cloud
+
+--- Record 1148 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Istio module: Update to version 1.15.0
+Description: To collect custom metrics from a workload that exposes its metrics endpoint on the same port as its business API, you must use mTLS for scraping. While Kyma Telemetry supports this scenario, other observability tools rely on the prometheusMerge feature of Istio. Now, you can enable this feature by setting the config.telemetry.metrics.prometheusMerge field in the Istio custom resource (CR).  When enabled, the Istio sidecar running with an application exposes an additional port 15020. This port exposes both the workload’s Istio metrics and the custom metrics, as specified by prometheus.io annotations. Istio automatically rewrites the annotations to direct to the new port, allowing metric collection without mTLS.  To disable this feature for a specific workload, you can use the prometheus.istio.io/merge-metrics: "false" annotation.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-03-12
+Valid as Of: 2025-03-26
+Version: Cloud
+
+--- Record 1149 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: New Amazon Web Services Region
+Description: SAP Document AI is now available in the Amazon Web Services region br10 - Brazil (São Paulo).
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Intelligent Technologies
+Latest Revision: 2025-05-15
+Valid as Of: 2025-03-26
+Version: Cloud
+
+--- Record 1150 ---
+Component: SAP Omnichannel Promotion Pricing
+Environment: Cloud Foundry
+Title: Prevent Itemization of Merchandise Sets for Promotion Recommendations Flag in Maintain Promotions App
+Description: You can now use the Prevent Itemization of Merchandise Sets for Promotion Recommendations flag in the Maintain Promotions app. This flag allows you to control whether individual nodes of merchandise sets should be listed in the calculation response. By default, the flag is set to false.  For more information, see:   Applying Promotion Recommendations  Promotional Rule Settings    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-03-26
+Valid as Of: 2025-03-26
+Version: Cloud
+

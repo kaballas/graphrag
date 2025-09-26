@@ -1,0 +1,130 @@
+--- Record 1301 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Microsoft 365 Cloud SDK
+Description: Various Microsoft Excel Online activities are added to enhance the Microsoft 365 SDK.You can now use the Get UsedRange Row activity to retrieve the row index of the used range in an active excel worksheet and the Get UsedRange Column activity to retrieve the column index or name of the used range in the active excel worksheet.See Microsoft 365 Cloud SDK.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-03-03
+Valid as Of: 2025-03-03
+Version: Cloud
+
+--- Record 1302 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Run in parallel
+Description: You can now enable Run in parallel feature to run multiple parallel instances for each item in the list.See Run in Parallel.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-03-03
+Valid as Of: 2025-03-03
+Version: Cloud
+
+--- Record 1303 ---
+Component: SAP Intelligent Robotic Process Automation
+Environment: Cloud Foundry
+Title: Best Practices for Outlook Activities
+Description: You can now send emails on behalf of someone in Outlook.  See Send Emails on Behalf of Someone in Outlook.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-03-03
+Valid as Of: 2025-03-03
+Version: Cloud
+
+--- Record 1304 ---
+Component: SAP Intelligent Robotic Process Automation
+Environment: Cloud Foundry
+Title: Excel SDK
+Description: Various Microsoft Excel activities are added to enhance the Microsoft Excel SDK.  You can now use the Get Sensitivity Label ID activity to retrieve the sensitivity label ID of the current workbook, the Set Sensitivity activity to set a sensitivity to the current workbook, the Get UsedRange Row (from file) to retrieve the row index of the used range in the active worksheet, the Get UsedRange Column (from file) to retrieve the column index of the used range in the active worksheet and the Get Table Range Definition to retrieve the range definition of a named table in the active worksheet.  See Excel SDK and Best Practices for Excel Activities - Get Sensitivity Label ID.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-03-03
+Valid as Of: 2025-03-03
+Version: Cloud
+
+--- Record 1305 ---
+Component: SAP Intelligent Robotic Process Automation
+Environment: Cloud Foundry
+Title: Microsoft 365 Cloud SDK
+Description: Various Microsoft Excel Online activities are added to enhance the Microsoft 365 SDK.  You can now use the Get UsedRange Row activity to retrieve the row index of the used range in an active excel worksheet and the Get UsedRange Column activity to retrieve the column index or name of the used range in the active excel worksheet.  See Microsoft 365 Cloud SDK.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-03-03
+Valid as Of: 2025-03-03
+Version: Cloud
+
+--- Record 1306 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: SAP BTP Operator module: Update to version 1.2.0
+Description: With this version, we have enabled customization of the sap-btp-manager Secret. Now, you can manage your own SAP BTP Operator's default configuration.  For more information, see Customizing the Default Credentials and Access.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-02-14
+Valid as Of: 2025-02-28
+Version: Cloud
+
+--- Record 1307 ---
+Component: Region
+Environment: Cloud Foundry
+Title: US West (Oregon)
+Description: US West (Oregon) (cf-us11) is available as a new region running on Amazon Web Services for use with enterprise accounts. See Regions and API Endpoints Available for the Cloud Foundry Environment.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-02-28
+Valid as Of: 2025-02-28
+Version: Cloud
+
+--- Record 1308 ---
+Component: SAP Translation Hub
+Environment: Cloud Foundry
+Title:   Support for video subtitle formats .srt and .vtt  
+Description:   Document Translation now supports two of the most common text formats used for subtitles or closed captions: SRT (or .srt), also known as SubRip files, and VTT (or .vtt), known as Web Video Text Track (WebVTT) files. Users can get translations via the Document Translation user interface or use the APIs.   
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-03-28
+Valid as Of: 2025-02-28
+Version: Cloud
+
+--- Record 1309 ---
+Component: Decentralized Identity Verification
+Environment: Cloud Foundry
+Title: Support of Verifiable Presentations to Include Verifiable Credentials with Embedded Proofs
+Description: Now, you can create a verifiable presentation with verifiable credentials that have an embedded proof.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2025-02-27
+Version: 3.7
+
+--- Record 1310 ---
+Component: Forms Service by Adobe
+Environment: Cloud Foundry
+Title: Availability - New Regions
+Description: The SAP Forms service is now available in the following additional regions (data centers):    cf-us20 (US West (WA)/Azure)  cf-ap20 (Australia (Sydney)/Azure)  cf-sa30 (KSA (Dammam)/Google Cloud)    For more information, see Regions and API Endpoints Available for the Cloud Foundry Environment.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2025-02-27
+Version: Cloud
+

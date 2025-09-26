@@ -1,0 +1,130 @@
+--- Record 2101 ---
+Component: Java ALM
+Environment: Neo
+Title: Downloading Binaries of a Java Application
+Description: You can now download the latest deployed content of an application as a ZIP file. See Download Application Binaries.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-10-17
+Valid as Of: 2024-10-17
+Version: Cloud
+
+--- Record 2102 ---
+Component: SAP Alert Notification Service
+Environment: Cloud Foundry
+Title: New Edge Lifecycle Management section and events
+Description: You can now use the newly supported Edge Lifecycle Management events - Node Not Ready, Pod Evicted Status Reason, Pod Failed Status Reason, Pod Failed Scheduling Status, Pod Failed Status Phase and Pod Node Lost Status Reason. For more information, see Edge Lifecycle Management Events section page.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-10-17
+Valid as Of: 2024-10-17
+Version: Cloud
+
+--- Record 2103 ---
+Component: SAP Alert Notification Service
+Environment: Cloud Foundry
+Title: New SAP Entitlement Management section and event
+Description: You can now use the newly supported SAP Entitlement Management event - Failed Lifecycle Management Operation. For more information, see SAP Entitlement Management Events section page.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-10-17
+Valid as Of: 2024-10-17
+Version: Cloud
+
+--- Record 2104 ---
+Component: SAP BTP Developer's Guide
+Environment: Cloud Foundry,Kyma
+Title: New Mission: Develop a Multitenant CAP Application
+Description: You can now develop multitenant CAP applications and deploy them in SAP BTP. The Develop a Multitenant CAP Application Following the SAP BTP Developer’s Guide mission includes enabling multitenancy, deploying the application in the SAP BTP, Cloud Foundry runtime and SAP BTP, Kyma runtime, and subscribing to the multitenant application.  See Develop a Multitenant CAP Application Following the SAP BTP Developer's Guide.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-10-17
+Valid as Of: 2024-10-17
+Version: Cloud
+
+--- Record 2105 ---
+Component: SAP BTP, Cloud Foundry Runtime
+Environment: Cloud Foundry
+Title: Version 43.6.0
+Description: Cloud Foundry has been updated from 43.3.0 to 43.6.0.    https://github.com/cloudfoundry/cf-deployment/releases/tag/v43.6.0  https://github.com/cloudfoundry/cf-deployment/releases/tag/v43.5.0  https://github.com/cloudfoundry/cf-deployment/releases/tag/v43.4.0  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-10-17
+Valid as Of: 2024-10-17
+Version: Cloud
+
+--- Record 2106 ---
+Component: SAP Build
+Environment: Cloud Foundry
+Title: Lobby - Add Projects from the Dev Space
+Description: You can now use the Add from Dev Space feature to easily migrate your projects from SAP Business Application Studio Dev Space Manager to the SAP Build Code tenant.  See Add Projects From Dev Space.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-10-17
+Valid as Of: 2024-10-17
+Version: Cloud
+
+--- Record 2107 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Claim, Release, and Forward for Tasks in SAP Task Center
+Description: Claim, Release, and Forward are available as inline actions on tasks in SAP Task Center.  Additional configuration is required for cases where SAP Build Process Automation and SAP Task Center are in different subaccounts. For more information, see SAP Note 3522594 .
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-10-17
+Valid as Of: 2024-10-17
+Version: Cloud
+
+--- Record 2108 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Improvements in My Inbox
+Description: Improved error message when login expires.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-10-17
+Valid as Of: 2024-10-17
+Version: Cloud
+
+--- Record 2109 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Translation Support for Visibility Scenarios
+Description: You can now have your visibility scenarios translated into relevant languages in SAP Build Process Automation.  See Translate User-Defined Texts in a Visibility Scenario.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-10-17
+Valid as Of: 2024-10-17
+Version: Cloud
+
+--- Record 2110 ---
+Component: SAP Java Buildpack
+Environment: Cloud Foundry
+Title: Version 1.105.0
+Description: SAP Java Buildpack 1 has been updated from version 1.104.0 to 1.105.0. Updated components:      Apache Tomcat 9 is updated from version 9.0.94 to 9.0.95      SAP HANA Driver (hana.driver.2.X.X) is updated from version 2.21.11 to 2.22.11      com.sap.cloud.connectivity.apiext is updated from version 3.38.0 to 3.39.0      otel-agent is updated from version 2.5.0 to 2.6.0      otel-agent-ext-java is updated from version 1.5.16 to 1.5.18      org.apache.httpcomponents.client5.httpclient5 is updated from version 5.3.1 to 5.4    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-10-01
+Valid as Of: 2024-10-17
+Version: Cloud
+

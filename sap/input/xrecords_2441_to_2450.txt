@@ -1,0 +1,130 @@
+--- Record 2441 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Direct Push-Based Integration
+Description: With direct push-based integration, you can connect neighboring ABAP Systems with each other. In this scenario, the connected systems exchange data (like business events) by calling each other directly via RFC.  See Direct Push-Based Integration.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-08-16
+Valid as Of: 2024-08-16
+Version: ABAP Environment 2408
+
+--- Record 2442 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Display IAM Apps
+Description: With this feature you can display IAM apps of all supported types. This helps you to keep an overview of the assigned business roles. For external apps, you can view the related authorizations including authorization objects, authorization instances and authorization fields.  For more information, see Display IAM Apps.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-07-09
+Valid as Of: 2024-08-16
+Version: ABAP Environment 2408
+
+--- Record 2443 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Exposing APIs via UCL
+Description: You can now expose APIs via UCL (Unified Customer Landscape) for the usage in BAS (SAP Business Application Studio) and SAP Build. You can do this by creating packages and assigning them to the required APIs in ABAP development tools for Eclipse.  For more information, see Working with API Packages.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-07-09
+Valid as Of: 2024-08-16
+Version: ABAP Environment 2408
+
+--- Record 2444 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Improved CDS Buffering - Buffer Propagation
+Description: Extend the reach of the CDS/ABAP buffering approach and optimize the memory consumption with buffer propagation to enable the ASQL runtime to read denormalized elements within CDS view entities directly from the ABAP buffer instead of pushing the joins to the database.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-08-16
+Valid as Of: 2024-08-16
+Version: ABAP Environment 2408
+
+--- Record 2445 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Maintain Business Roles
+Description: The Mass Change Wizard has been expanded so that you can also use it for derived business roles.  For more information, see Maintain Business Roles.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-07-09
+Valid as Of: 2024-08-16
+Version: ABAP Environment 2408
+
+--- Record 2446 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: OData API: Support User - Read Integration
+Description: The following API is now available to retrieve support user data:  Support User – Read Integration  The following corresponding communication scenario is available:  Support User Request Log Integration (SAP_COM_0347)   For more information, see Support User - Read Integration.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-07-09
+Valid as Of: 2024-08-16
+Version: ABAP Environment 2408
+
+--- Record 2447 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: OData APIs for Communication Management
+Description: The following APIs are now available for Communication Management data:      Communication Arrangement - Read and Write Integration      Communication System - Read and Write Integration      Communication User - Read and Write Integration      The following corresponding communication scenario is available:    Communication Management Integration scenario (SAP_COM_0A48)      For more information, see Integrating Communication Management Data (Read and Write)
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-07-09
+Valid as Of: 2024-08-16
+Version: ABAP Environment 2408
+
+--- Record 2448 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Outbound Emails
+Description: This feature enables you to monitor the status of asynchronous emails using the interface IF_BCS_MAIL_STATUS_MONITOR. The released API CL_BCS_MAIL_MESSAGE that is used for sending emails provides the option to send emails asynchronously. To monitor the status of the emails a released API is required.  For more information, see   .
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-08-16
+Valid as Of: 2024-08-16
+Version: ABAP Environment 2408
+
+--- Record 2449 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Outbound SQL Using CDS External Entities
+Description: With ABAP SQL as outbound service type, you can now access external databases using ABAP CDS and ABAP SQL. This feature is integrated into ABAP Cloud concepts, including CDS modeling of the external data sources, and natively uses SAP HANA federation capabilities (taking advantage of SAP HANA Smart Data Access). In this new dynamic access, you can model external data sources using the new CDS external entities and the new logical external schemas. The CDS external entities can be consumed using ABAP SQL. Dynamic external entities are the replacement of secondary database connections in ABAP Cloud. The available set of remote source types depends on the system type.  For more information, see CDS External Entities. 
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-07-08
+Valid as Of: 2024-08-16
+Version: ABAP Environment 2408
+
+--- Record 2450 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: RAP Data Services for Print Forms
+Description: With this feature, you can add a new parameter to modify parameters that are not exposed by default but created during runtime. An example are RAP entities implementing draft functionality. For this, an additional import parameter was added.  For more information, see RAP Data Services for Print Forms.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-08-16
+Valid as Of: 2024-08-16
+Version: ABAP Environment 2408
+

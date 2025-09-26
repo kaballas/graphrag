@@ -1,0 +1,130 @@
+--- Record 1861 ---
+Component: SAP BTP Command Line Interface
+Environment: ABAP,Cloud Foundry,Kyma,Neo,Other
+Title: Deprecation of btp CLI Client Versions 2.54 through 2.61
+Description: All client versions up until and including 2.61 have been deprecated. These versions will no longer work after June 30, 2025.  Action: If you're still using one of these versions, you need to update to the latest btp CLI client version. See Download and Start Using the btp CLI Client.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-11-26
+Valid as Of: 2024-11-28
+Version: Cloud
+
+--- Record 1862 ---
+Component: SAP BTP Command Line Interface
+Environment: ABAP,Cloud Foundry,Kyma,Neo,Other
+Title: Expansion of the btp CLI Command Autocompletion Feature
+Description: The btp CLI command autocompletion feature has been expanded to include client commands (such as login and target), as well as command options. See Enable Command Autocompletion.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-11-26
+Valid as Of: 2024-11-28
+Version: Cloud
+
+--- Record 1863 ---
+Component: SAP BTP, Cloud Foundry Runtime
+Environment: Cloud Foundry
+Title: Version 44.5.0
+Description: Cloud Foundry has been updated from 44.3.0 to 44.5.0.      https://github.com/cloudfoundry/cf-deployment/releases/tag/v44.5.0  https://github.com/cloudfoundry/cf-deployment/releases/tag/v44.4.0    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-11-28
+Valid as Of: 2024-11-28
+Version: Cloud
+
+--- Record 1864 ---
+Component: SAP Build Apps
+Environment: Cloud Foundry
+Title: Web & Mobile
+Description: To improve the user experience, we have updated the navigation menu in the global toolbar. App developers now have access to the Variables directly from the menu. The previous UI Canvas and Data tabs are now renamed respectively to User Interface and Integrations. To save space, the less frequently used Theme, Navigation, Authentication and Help options are now grouped under the App Settings drop-down menu. In the upper right corner, you can access the Preview button. Next to it is the Publish button, which enables you either to Create a Release Version or to Build and Deploy.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-11-28
+Valid as Of: 2024-11-28
+Version: Cloud
+
+--- Record 1865 ---
+Component: SAP Secure Login Service
+Environment: Cloud Foundry
+Title: sncForceLogin Parameter
+Description: You can now enforce a reauthentication whenever the end user opens a SAP GUI connection. You can configure this by setting the sncForceLogin parameter, which is a local policy property. For more information, see Profile Settings.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-11-28
+Valid as Of: 2024-11-28
+Version: Cloud
+
+--- Record 1866 ---
+Component: SAPUI5
+Environment: ABAP,Cloud Foundry,Kyma,Neo,Other
+Title: SAPUI5 Distribution 1.131
+Description: SAPUI5 version 1.131 has been released for UI development and can now be consumed by SAP BTP services. It’s up to the services to determine when they start using the new version.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-11-27
+Valid as Of: 2024-11-28
+Version: Cloud
+
+--- Record 1867 ---
+Component: Service Manager
+Environment: ABAP,Cloud Foundry,Kyma,Other
+Title: REST API
+Description: We've added "Created By" and "Modified By" fields to the Service Manager APIs for service instances and service binding GET responses. See Service Manager API.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-11-19
+Valid as Of: 2024-11-28
+Version: Cloud
+
+--- Record 1868 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: API Gateway module: Update to version 2.9.0
+Description: This release introduces support for the path operators {*} and {**} in the APIRule v2alpha1 custom resource. The {*} operator (for example, /foo/{*} or /foo/{*}/bar) matches any request with exactly one path segment in the operator’s place. The {**} operator (for example, /foo/{**}  or /foo/{**}/bar) matches any request with zero or more path segments in the operator’s place. {**} must be the last operator in the path. For more information, see APIRule v2alpha1 Specification.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-11-13
+Valid as Of: 2024-11-27
+Version: Cloud
+
+--- Record 1869 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Kyma service binding
+Description: We are excited to introduce a new feature, Kyma service binding, which enables automatic management of a Kyma instance. With this feature, you can access a Kyma cluster, deploy applications, run tests, and delete resources in a fully automated manner.  For more information, see Managing Kyma Runtime Using the Provisioning Service API.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-11-28
+Valid as Of: 2024-11-27
+Version: Cloud
+
+--- Record 1870 ---
+Component: Multitarget Applications for Cloud Foundry
+Environment: Cloud Foundry
+Title: New restriction regarding the size of deployments in transport scenarios via cTMS or CTS+
+Description: The maximum size of deployments which use multiple MTA archives should be no more than 20GB. This restriction is applicable only in transport scenarios via cTMS or CTS+, where one transport request with multiple MTAs results in a single deployment process in SAP Cloud Deployment service.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-11-18
+Valid as Of: 2024-11-27
+Version: Cloud
+

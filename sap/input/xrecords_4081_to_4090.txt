@@ -1,0 +1,130 @@
+--- Record 4081 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Release of the Telemetry module 1.1.0 in the fast channel
+Description: The new version brings the following improvements:  Telemetry Manager:    The Telemetry status API now shows whether a module deletion is blocked. (#381)      Logs:    The HTTP output of LogPipeline now supports mTLS (#366).      Update to Fluent Bit 2.1.9 (#422).      Traces:    The OTel Collector logs in JSON format (#442).      Update to OTel Collector 0.86.0 (#434).      Improved resource settings for the trace gateway (#409).    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-10-09
+Valid as Of: 2023-10-10
+Version: Cloud
+
+--- Record 4082 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: Role Collections
+Description: The role collection Document_Information_Extraction_UI_Admin_User has been deprecated.  To create or delete schemas and templates, use the role collection Document_Information_Extraction_UI_Templates_Admin.  See Role Collections.
+Action: Info only
+Lifecycle: Deprecated
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2023-10-09
+Valid as Of: 2023-10-09
+Version: Cloud
+
+--- Record 4083 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: Associated Confirmed Documents with Templates
+Description: You can now associate documents that have the status “CONFIRMED” with templates.   If you edit the extraction results for a document and then confirm the document, you can use the Add to Document feature to associate the document with a template.  See Add Documents and Activate/Deactivate Template.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2023-10-09
+Valid as Of: 2023-10-09
+Version: Cloud
+
+--- Record 4084 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: Better Model for the Extraction of purchaseOrder Documents
+Description: The machine learning model for the extraction of purchaseOrder documents has been improved. The improvements include better extraction results for date fields and better formatting of amounts.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2023-10-09
+Valid as Of: 2023-10-09
+Version: Cloud
+
+--- Record 4085 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: Built-In Support
+Description: You can now use the integrated Built-In Support tool to quickly find answers to your support-related questions.  Built-In Support is an embedded digital assistant that allows you to search for support-related information without leaving the UI.   If you have an s-user ID and the associated authorizations, Built-In Support also allows you to report issues, review cases, and chat with an expert or a chatbot.  See Built-In Support.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-10-09
+Valid as Of: 2023-10-09
+Version: Cloud
+
+--- Record 4086 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: Configuration API
+Description: The enrichmentConfidenceThreshold configuration key is now available. You can now adjust the similarity confidence threshold for the enrichment.  See Create Configuration, Configuration Keys, and Enrichment Data API.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-10-09
+Valid as Of: 2023-10-09
+Version: Cloud
+
+--- Record 4087 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: New Autosave Feature for Editing Extraction Results
+Description: You can now have the SAP Document AI basic UI save your edits to extraction results.  When you choose Autosave on the Edit pane in the Document feature, the service saves your work automatically at 10-second intervals.  See View and Edit Extraction Results.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-10-09
+Valid as Of: 2023-10-09
+Version: Cloud
+
+--- Record 4088 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: New Schema Field Setup Types
+Description: The setup types auto and manual are now available when you add data fields to new schemas.  See Add Fields to Schema Version and Add Data Fields.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-10-09
+Valid as Of: 2023-10-09
+Version: Cloud
+
+--- Record 4089 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: Technical Constraints
+Description: You can now associate a maximum of 5 documents with a template.  See Technical Constraints, Free Tier Option and Trial Account Technical Constraints and Add Documents and Activate/Deactivate Template.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-10-09
+Valid as Of: 2023-10-09
+Version: Cloud
+
+--- Record 4090 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Telemetry module: Deprecation of LogParser API
+Description: With the update of the Telemetry module to version 1.1.0, the LogParser API is deprecated (#435). Instead, use JSON-based logging.
+Action: Required
+Lifecycle: Deprecated
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-01-11
+Valid as Of: 2023-10-06
+Version: Cloud
+

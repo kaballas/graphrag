@@ -1,0 +1,130 @@
+--- Record 3841 ---
+Component: SAP BTP, Cloud Foundry Runtime
+Environment: Cloud Foundry
+Title: TLS 1.2 Cipher-Block-Chaining Ciphers Deleted
+Description: As announced on October 19, 2023, the following TLS 1.2 Cipher-Block-Chaining (CBC) Ciphers have been removed from the SAP BTP, Cloud Foundry environment for the region eu20:        TLS_DHE_RSA_WITH_AES_128_CBC_SHA256    TLS_DHE_RSA_WITH_AES_256_CBC_SHA256  TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256  TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384      Note that TLS 1.3 Cipher Suites are not affected by this change.  Action:  Older clients might be affected by this change. To maintain connectivity, please check and ensure that your clients are supporting one of the following TLS 1.2 ciphers that are still supported:     TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256      TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384      TLS_DHE_RSA_WITH_AES_128_GCM_SHA256      TLS_DHE_RSA_WITH_AES_256_GCM_SHA384      After the deletion of the deprecated ciphers, requests from older HTTP client libraries that do not include any of the supported ciphers will fail during the TLS handshake. To verify that your client can connect without CBC ciphers, you can connect it to the following test application. If the client can establish a connection to the endpoint, the server returns the message ok along with a status code 200.  Endpoint with CBC disabled: https://tls12-no-cbc.ciphers.cfapps.eu12.hana.ondemand.com
+Action: Required
+Lifecycle: Deleted
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2023-11-16
+Valid as Of: 2023-11-16
+Version: Cloud
+
+--- Record 3842 ---
+Component: Connectivity
+Environment: Cloud Foundry
+Title: Cloud Connector - IP Addresses
+Description: Additional IP addresses were added to SAP BTP regions running on Amazon Web Services (AWS). The following regions are affected by this change:      br10 – Brazil (São Paulo)      jp10 – Japan (Tokyo)      ap10 – Australia (Sydney)      ap11 – Asia Pacific (Singapore)      ap12 – Asia Pacific (Seoul)      ca10 – Canada (Montreal)      eu10 – Europe (Frankfurt)      eu11 – Europe (Frankfurt)      us10 – US East (VA)      Action:  If you restrict system access by allowlisting IPs in firewall rules, make sure you update your configuration as soon as possible. The new IP addresses may be used as of late Q1, 2024.  For more information, see Cloud Connector: Prerequisites.  In case of questions please contact SAP Support.
+Action: Required
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2023-11-16
+Version: Cloud
+
+--- Record 3843 ---
+Component: Connectivity
+Environment: Cloud Foundry,Neo
+Title: Cloud Connector 2.16.1 - Bug Fixes
+Description: Release of Cloud Connector version 2.16.1 provides the following bug fixes:    LDAP role names were wrongly displayed in the administration UI. Actually, the position was shifted by one. Note  The runtime was not affected.This was a regression in version 2.16.0.The issue has been fixed.  Passwords with leading or trailing spaces did not work neither in the logon screen nor in the LDAP test UI. When creating a backup in the administration UI with a password containing special characters, it could not be restored. This was a regression introduced with version 2.15.1.The issue has been fixed.Note  Creating backups with the REST API was not affected.    Selecting a subaccount in the administration UI might have failed. This happened if there are more than 100 subaccounts hosted on the Cloud Connector instance and when filtering the subaccount list. In this case, a completely different one was selected when choosing the subaccount. This was a regression in version 2.16.0.The issue has been fixed.  During an upgrade via RPM it could happen that the UI after the initial login screen was not loading. In the traces of the Cloud Connector, you could see many messages telling that a JAR file could not be found that was existing only before the upgrade. This could be resolved by a restart of the daemon only. The issue was caused by another issue in upgrade processing, which has been improved to avoid the erroneous situation.  Avoid a NullPointerException when receiving a close request in RFC protocol processing. This could lead to wrong values for the connection monitor for RFC connections. The call stack of the exception started with java.lang.NullPointerException: while trying to invoke the method com.sap.core.connectivity.spi.processing.TargetHost.connectionProtocol() of a null object loaded from local variable 'target' at com.sap.scc.metering.backend.BackendCallStatisticsCollector.updateNonRequestBased(BackendCallStatisticsCollector.java:109) at com.sap.scc.metering.backend.BackendCallStatisticsCollector.reportCloseConnection(BackendCallStatisticsCollector.java:96)  Corrupted subaccounts could not be loaded properly. As a consequence, it was impossible to delete them from the administration UI. In some cases, they even did not appear in the list of subaccounts, but were existing, so trying to add such a subaccount would fail.This issue has been fixed.      Self-signed system certificates containing SANs need to have all CA attributes, which is not desired for the system certificate, and hence it does not have them. As a consequence, such a certificate cannot be added to the trust store of a server, which is needed to establish trust. By not allowing to add SAN elements to self-signed system certificates, this problem can no longer occur.      A denial of service vulnerability in the Cloud Connector was fixed.For more information, see security note https://me.sap.com/notes/3362463.    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2023-11-16
+Version: Cloud
+
+--- Record 3844 ---
+Component: Connectivity
+Environment: Cloud Foundry,Neo
+Title: Cloud Connector 2.16.1 - Enhancements
+Description: Release of Cloud Connector version 2.16.1 provides the following enhancement:  The subaccount dashboard now allows to sort the entries based on the display name.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2023-11-16
+Version: Cloud
+
+--- Record 3845 ---
+Component: Multitarget Applications for Cloud Foundry
+Environment: Cloud Foundry
+Title: Bug fixes and improvements
+Description:   Add MTA metadata attributes to user-provided service instances. This will improve MTA discovery of org.cloudfoundry.user-provided-service type of resources.  You can now preserve app environment after blue-green deployment with MTA Module parameter keep-existing and its option env. For more information see CF-MTA-Examples.  
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2023-11-06
+Valid as Of: 2023-11-16
+Version: Cloud
+
+--- Record 3846 ---
+Component: Multitarget Applications for Cloud Foundry
+Environment: Cloud Foundry
+Title: Features and improvements
+Description:     Improved performance and usability of deployment with MTA archive URL. In order to use the latest improvements it is necessary for you to update your multiapps plugin to the latest 3.3.1 version.       Improved user experience when sharing your service instances using the Service Manager functionality and consuming it afterwards by resolving ${service-guid} as a cross mta configuration.      Large MTA archive processing on GCP environments is enabled. The limit on MTA archives has been expanded from 1GB to 4GBs.    
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2023-11-06
+Valid as Of: 2023-11-16
+Version: Cloud
+
+--- Record 3847 ---
+Component: SAP Alert Notification Service
+Environment: Other
+Title: A new section has been added
+Description: You can now find information about the Security Recommendations related to the SAP Alert Notification service.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-11-22
+Valid as Of: 2023-11-16
+Version: Cloud
+
+--- Record 3848 ---
+Component: SAP Alert Notification Service
+Environment: Cloud Foundry
+Title: New SAP HANA Cloud Service Database Events
+Description: You can now use the newly supported HDB Last Infrastructure Operation and HDB Template Recovery events.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-11-22
+Valid as Of: 2023-11-16
+Version: Cloud
+
+--- Record 3849 ---
+Component: SAP BTP, Cloud Foundry Runtime
+Environment: Cloud Foundry
+Title: Change to Cloud Foundry API Rate Limit Reset Interval
+Description: The Cloud Foundry API rate limit configuration has been changed from about 40.000 requests per user per hour to a new limit of around 20.000 requests per user per 30 minutes.   This change is made to prevent the CF API peak load from having a negative impact on the availability of the CF API.   The overall CF API rate limits have not been changed.   Please note that the CF API rate limit reset interval is planned to be further reduced in the future.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2023-11-16
+Valid as Of: 2023-11-16
+Version: Cloud
+
+--- Record 3850 ---
+Component: SAP BTP, Cloud Foundry Runtime
+Environment: Cloud Foundry
+Title: Version 32.17.0
+Description: Cloud Foundry has been updated from version 32.13.0 to 32.17.0.      https://github.com/cloudfoundry/cf-deployment/releases/tag/v32.17.0  https://github.com/cloudfoundry/cf-deployment/releases/tag/v32.16.0  https://github.com/cloudfoundry/cf-deployment/releases/tag/v32.15.0  https://github.com/cloudfoundry/cf-deployment/releases/tag/v32.14.0    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-11-16
+Valid as Of: 2023-11-16
+Version: Cloud
+

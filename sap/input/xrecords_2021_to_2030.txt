@@ -1,0 +1,130 @@
+--- Record 2021 ---
+Component: SAP Java Buildpack
+Environment: Cloud Foundry
+Title: Version 1.106.0
+Description: SAP Java Buildpack 1 has been updated from version 1.105.0 to 1.106.0. Updated components:      Apache Tomcat 9 is updated from version 9.0.95 to 9.0.96      SAP HANA Driver (hana.driver.2.X.X) is updated from version 2.22.11 to 2.22.12      com.fasterxml.jackson is updated from version 2.17.2 to 2.18.0      com.faster.jackson.databind is updated from version 2.17.2 to 2.18.0    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-10-15
+Valid as Of: 2024-10-31
+Version: Cloud
+
+--- Record 2022 ---
+Component: SAP Java Buildpack
+Environment: Cloud Foundry
+Title: Version 2.20.0
+Description: SAP Java Buildpack 2 has been updated from version 2.19.0 to 2.20.0. Updated components:      Apache Tomcat 10 is updated from version 10.1.30 to 10.1.31      SAP HANA Driver (hana.driver.2.X.X) is updated from version 2.22.11 to 2.22.12      com.fasterxml.jackson is updated from version 2.17.2 to 2.18.0      com.faster.jackson.databind is updated from version 2.17.2 to 2.18.0    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-10-15
+Valid as Of: 2024-10-31
+Version: Cloud
+
+--- Record 2023 ---
+Component: SAPUI5
+Environment: ABAP,Cloud Foundry,Kyma,Neo,Other
+Title: SAPUI5 Distribution 1.130
+Description: SAPUI5 version 1.130 has been released for UI development and can now be consumed by SAP BTP services. It’s up to the services to determine when they start using the new version.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-10-30
+Valid as Of: 2024-10-31
+Version: Cloud
+
+--- Record 2024 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Regional Availability
+Description: Cloud Identity Services now operates with new NAT IPs in the data centers in Australia (Sydney), Switzerland (Zürich), Canada (Toronto), West US 2, (Trial) East US:  Action:  You must add the following IPs to your allowed NAT IP list:    Australia (Sydney) - 13.70.93.153/32  Switzerland (Zürich) - 172.161.63.46/32, 172.161.59.62/32  Canada (Toronto) - 4.206.67.217/32, 4.205.230.84/32  West US 2 - 4.246.74.117/32, 13.66.186.117/32  (Trial) East US - 172.171.209.145/32, 172.190.167.36/32    The following NAT IPs are no longer in use:   Australia (Sydney) - 20.227.66.135/32, 20.227.66.154/32  Switzerland (Zürich) - 4.226.38.130/32, 4.226.41.61/32, 4.226.38.140/32, 4.226.41.79/32  Canada (Toronto) - 4.174.217.56/32, 4.174.217.58/32, 4.174.177.186/32, 4.174.177.194/32  West US 2 - 52.137.107.38/32, 52.137.108.207/32, 4.155.183.68/32, 4.155.183.41/32  (Trial) East US - 20.62.179.159/32, 20.62.181.214/32, 20.62.180.136/32  See Regional Availability.
+Action: Required
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-10-30
+Valid as Of: 2024-10-30
+Version: 26835
+
+--- Record 2025 ---
+Component: Pricing Service
+Environment: Cloud Foundry
+Title: Document Pricing - Return Updated Condition Rate in Document Currency for Group Conditions
+Description: When the condition rate was manually changed for a group condition with a group key routine, the new value was applied in calculations, but the returned condition rate converted into the document currency used to be incorrect. This issue has been corrected.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-10-25
+Valid as Of: 2024-10-30
+Version: Cloud
+
+--- Record 2026 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Advanced Functions for Decisions
+Description: You can now use two new functions, ISLOWERCASE and ISUPPERCASE, in your decisions. See Functions.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-10-30
+Valid as Of: 2024-10-30
+Version: Cloud
+
+--- Record 2027 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: Create and Manage Schema Versions on the SAP Document AI Basic UI
+Description: You can now use the SAP Document AI basic UI to create and manage versions of schemas.  Using schema versions means that you no longer have to copy or adapt existing schemas for broadly similar use cases that differ only slightly in terms of the data fields involved and the associated settings.   After configuring, saving, and activating a new schema, you can create additional versions by adding and removing fields and changing settings, as needed. These changes don’t affect the original schema, which remains as version 1.  See Use Schema Versions.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Intelligent Technologies
+Latest Revision: 2024-10-30
+Valid as Of: 2024-10-30
+Version: Cloud
+
+--- Record 2028 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: Improved Underlying Infrastructure for LLM-usage (Premium Edition)
+Description: The underlying infrastructure for LLM-usage in SAP Document AI has been improved for better service performance.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Intelligent Technologies
+Latest Revision: 2024-11-05
+Valid as Of: 2024-10-30
+Version: Cloud
+
+--- Record 2029 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: Select Schema Version When Adding Documents or Creating Templates on the SAP Document AI Basic UI
+Description: When you add a document or create a template on the SAP Document AI basic UI, you now have the option of selecting a version of the schema.  See Add Document and Add Template.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Intelligent Technologies
+Latest Revision: 2024-10-30
+Valid as Of: 2024-10-30
+Version: Cloud
+
+--- Record 2030 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: API Gateway module: Deprecation of APIRule v1beta1
+Description: To improve and optimize our services, the APIRule CustomResourceDefinition version v1beta1 will be gradually phased out. The deprecation phase will start on October 28, 2024. APIRule v1beta1 version will be deleted on May 12, 2025. To make sure you can smoothly migrate your APIRule custom resources (CRs) to the stable version v2, you can start testing version v2alpha1 and provide feedback before the migration window opens. Version v2alpha1 is intended for testing purposes only, helping you evaluate the new version’s compatibility and functionality. It is not recommended for use in production environments. By testing APIRule v2alpha1 in advance and providing feedback, you can help us further refine this version, ensuring that the formal upgrade will have minimal impact on your operations. The migration process does not disturb any existing applications.   We expect version v2alpha1 to be promoted to version v2 without significant changes. The release of version v2 is planned for April 15, 2025. After that, you will be required to complete the migration from version v1beta1 to version v2 by May 12, 2025.  Recommended action: We strongly recommend that you test the migration process in a non-production environment using version v2alpha1. This will not only help you familiarize yourself with the new features but also allow us to optimize the migration experience and apply your feedback.  Required action: During the migration window lasting from April 15, 2025 until May 12, 2025, you must migrate your production APIRule CRs to version v2.   For detailed migration steps and timelines, see the blog posts on the APIRule migration for the noAuth and jwt handlers and APIRule migration for the ORY Oathkeeper-based OAuth2 handlers. 
+Action: Required
+Lifecycle: Deprecated
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-10-21
+Valid as Of: 2024-10-28
+Version: Cloud
+

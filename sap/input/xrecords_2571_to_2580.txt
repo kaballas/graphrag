@@ -1,0 +1,130 @@
+--- Record 2571 ---
+Component: SAP Task Center
+Environment: Cloud Foundry
+Title: Improvements
+Description: Improvements in the SAP Task Center Web App:     Improvements in the translation handling of the attachments and comments area.      Improvements in the error handling in the Web app by creating human-readable messages.     
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-07-22
+Valid as Of: 2024-07-22
+Version: Cloud
+
+--- Record 2572 ---
+Component: SAP Task Center
+Environment: Cloud Foundry
+Title: New Destination Status in the SAP Task Center Administration App
+Description: A new connector status PAUSED is introduced in the SAP Task Center Administration app. For more information, see Working with the Task Center Administration App.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-07-22
+Valid as Of: 2024-07-22
+Version: Cloud
+
+--- Record 2573 ---
+Component: SAP Task Center
+Environment: Cloud Foundry
+Title: Updated Documentation for Creating a Tile
+Description: The topics describing how to create the SAP Task Center tiles have now been updated to point to the documentation of the central point of entry for accessing applications. For more information, see Create a Task Center Tile and Create a Task Center Administration Tile.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-07-22
+Valid as Of: 2024-07-22
+Version: Cloud
+
+--- Record 2574 ---
+Component: SAP Advanced Financial Closing
+Environment: Cloud Foundry
+Title: Additional Synchronization Status Introduced
+Description: A new status has now been introduced for the synchronization of communication systems. A synchronization run can now result in the status Completed with Warnings. More information about the warnings can then be found in the synchronization logs.  More information:  Synchronization of Communication Systems  App affected:  Monitor Communication Systems
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Finance
+Latest Revision: 2024-07-05
+Valid as Of: 2024-07-21
+Version: Cloud
+
+--- Record 2575 ---
+Component: SAP Advanced Financial Closing
+Environment: Cloud Foundry
+Title: Issue with SOX Compliance Check Fixed
+Description: An issue with the check for SOX compliance has been fixed. Previously, the check upon approval compared the user stored in the Last Changed By field against the approving user. However, if a technical user was used for a successful job, this check would always be passed successfully. Now the check for SOX compliance compares the following information:  If the task status was changed manually, the approving user is compared against the user stored in the Last Changed By field.  If the task status was not changed manually, the approving user is compared against the user stored in the Triggered By field.    App affected:  Approve Closing Tasks
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Finance
+Latest Revision: 2024-07-05
+Valid as Of: 2024-07-21
+Version: Cloud
+
+--- Record 2576 ---
+Component: SAP Advanced Financial Closing
+Environment: Cloud Foundry
+Title: Quick Filters to Look for Tasks by Activation Status
+Description: In task list templates, you can now use quick filters on folder level to filter for tasks based on their activation status. The following quick filters are available:  All Tasks  Active Tasks  Inactive Tasks      App affected:  Manage Closing Task Lists
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Finance
+Latest Revision: 2024-07-05
+Valid as Of: 2024-07-21
+Version: Cloud
+
+--- Record 2577 ---
+Component: SAP Advanced Financial Closing
+Environment: Cloud Foundry
+Title: Task Deactivation in Folder Details
+Description: You can now change the task activation status of several tasks in the same folder on the Tasks tab of the folder details page.  More information:  How to Deactivate and Activate Tasks  App affected:  Manage Closing Task Lists
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Finance
+Latest Revision: 2024-07-05
+Valid as Of: 2024-07-21
+Version: Cloud
+
+--- Record 2578 ---
+Component: SAP Advanced Financial Closing
+Environment: Cloud Foundry
+Title: UI Theme Designer Integration
+Description: You can now use the UI theme designer to customize the theme for your SAP Advanced Financial Closing launchpad.  More information:  Theme Customization  Apps affected: All apps
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Finance
+Latest Revision: 2024-07-05
+Valid as Of: 2024-07-21
+Version: Cloud
+
+--- Record 2579 ---
+Component: Data Quality Services
+Environment: Cloud Foundry,Neo
+Title: Enhancements
+Description:   Improvements were made to validate addresses in Ireland when sending only a postcode.   The microservice now supports validation of addresses in Latvia that consist of a building name without a street.   Improvements were made to type ahead suggestions when entering a postcode in Brazil, Ireland, Netherlands, and Singapore.   
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2024-07-18
+Version: Cloud
+
+--- Record 2580 ---
+Component: Personalized Recommendation
+Environment: Cloud Foundry
+Title: Offline (Scenario) Recommendations
+Description: You can now use a model that has already been trained successfully to get offline personalized recommendations without the need to deploy an online serving instance.  See Scenario Configurations and Data and Offline (Scenario) Recommendations.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-07-18
+Valid as Of: 2024-07-18
+Version: Cloud
+

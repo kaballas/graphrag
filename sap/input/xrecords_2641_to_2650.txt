@@ -1,0 +1,130 @@
+--- Record 2641 ---
+Component: Forms Service by Adobe
+Environment: Cloud Foundry
+Title: Availability - Additional Regions
+Description: The SAP Forms service is now available in the following additional regions (Azure):    Europe - Netherleands (cf-eu20-001)  Switzerland - Zurich (cf-ch20 - EU access)    For more information, see also SAP Discovery Center.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2024-07-09
+Version: Cloud
+
+--- Record 2642 ---
+Component: Forms Service by Adobe
+Environment: Cloud Foundry
+Title: New Features
+Description: The SAP Forms service provides the following new features:     A new landing page lets you access the Forms service tools and UIs easily.For more information, see Forms Service Landing Page.  You can now create a Forms service template store repository manually.For more information, see Create a Template Store Repository.  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2024-07-09
+Version: Cloud
+
+--- Record 2643 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Keda module: Update to version 1.2.0
+Description: In this release, we have updated the KEDA version to 2.14.0.  Additionally, we have introduced a dedicated priority class for the managed KEDA workloads, which prevents the eviction of the KEDA Pods in the resource-congested clusters.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-06-28
+Valid as Of: 2024-07-09
+Version: Cloud
+
+--- Record 2644 ---
+Component: SAP Task Center
+Environment: Cloud Foundry
+Title: Minor Improvements
+Description: For enhanced performance, the removal of unused API has been finalized.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-07-09
+Valid as Of: 2024-07-09
+Version: Cloud
+
+--- Record 2645 ---
+Component: SAP AI Core
+Environment: Cloud Foundry
+Title: Generative AI hub
+Description: Additional selected models from GCP Vertex AI are supported.  For more information, see SAP Note 3437766 .
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-07-08
+Valid as Of: 2024-07-08
+Version: Cloud
+
+--- Record 2646 ---
+Component: SAP AI Launchpad
+Environment: Cloud Foundry
+Title: Generative AI hub
+Description: Additional selected models from GCP Vertex AI are supported.For more information, see Models and Scenarios in the Generative AI Hub.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-07-08
+Valid as Of: 2024-07-08
+Version: Cloud
+
+--- Record 2647 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: Improved Extraction of Line Items Directly above Document Footers
+Description: We’ve fixed an issue with the extraction of line items. If the line spacing between the final line item and the document footer is the same as the line spacing in the line items, SAP Document AI no longer extracts the footer text as part of the final line item.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Intelligent Technologies
+Latest Revision: 2024-07-08
+Valid as Of: 2024-07-08
+Version: Cloud
+
+--- Record 2648 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: Schema Description and Schema Field Description
+Description: We’ve increased the maximum length of the following strings to 500 characters:  schemaDescription  schema field description    See Create Schema and Add Fields to Schema Version.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Intelligent Technologies
+Latest Revision: 2024-07-08
+Valid as Of: 2024-07-08
+Version: Cloud
+
+--- Record 2649 ---
+Component: Credential Store
+Environment: Cloud Foundry,Kyma
+Title: CMK Encryption Details
+Description: You can now view the encryption details of your customer-managed keys (CMK) in the SAP Credential Store user interface See:       Customer-Managed Keys (CMK)      View CMK Encryption Details    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-06-28
+Valid as Of: 2024-07-05
+Version: Cloud
+
+--- Record 2650 ---
+Component: Object Store
+Environment: Cloud Foundry,Kyma
+Title: Role-based service bindings on AWS
+Description: Object Store Service now supports read and write role based service binding credentials. Please refer the section Role-based Bindings and Service-keys for more details.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-07-04
+Valid as Of: 2024-07-04
+Version: Cloud
+

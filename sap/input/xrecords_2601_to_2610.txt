@@ -1,0 +1,130 @@
+--- Record 2601 ---
+Component: SAP Datasphere
+Environment: Cloud Foundry
+Title: Features for Version 2024.15
+Description: New and changed features are available for administration, data cataloging, data integration, data modeling, data privacy and protection, and space management.  For more information, see What's New in SAP Datasphere 2024.15. 
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-07-16
+Valid as Of: 2024-07-16
+Version: Cloud
+
+--- Record 2602 ---
+Component: UI Theme Designer
+Environment: Cloud Foundry,Neo
+Title: Base Theming Content for CF and Neo.
+Description: The base theming content is updated to version 11.17.1. Review the changes at https://github.com/SAP/theming-base-content/releases.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2024-07-16
+Version: Cloud
+
+--- Record 2603 ---
+Component: UI Theme Designer
+Environment: Cloud Foundry
+Title: Feedback Button
+Description: A feedback button is added to UI theme designer. We are happy to get your feedback about UI theme designer.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2024-07-16
+Version: Cloud
+
+--- Record 2604 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Add Scheduled Trigger to a Process
+Description: You can now add scheduled triggers for your running process in a project.In the Triggers screen, of your environment, choose Add Trigger.See: Add Scheduled Triggers to a Process.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-07-15
+Valid as Of: 2024-07-15
+Version: Cloud
+
+--- Record 2605 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: New Panels for Creating, Viewing, Editing, and Deleting Data Fields in Schemas
+Description: When you create data fields for schemas, you now make your entries on a panel. This panel replaces the dialog used to date.   The Field Name entries under Header Fields and Line Item Fields are now links. To view the details of a field, simply click on the link. A panel appears, where you can also edit or delete the field by choosing the respective button.  See Add Data Fields.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Intelligent Technologies
+Latest Revision: 2024-07-15
+Valid as Of: 2024-07-15
+Version: Cloud
+
+--- Record 2606 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: Schema Description in the Prompt for Document Processing with LLMs (Premium Edition)
+Description: You can now use the schema description value to get better results for extractions with generative AI. The schema description value is now used in the prompt for document processing with large language models (LLMs).    Restriction  This option is available for schemas with the service plan premium edition  only. See Service Plans and Metering and Pricing.    See Create Schema (API documentation), Create Schema (UI documentation), and Extraction Using Generative AI (Premium Edition): Best Practices.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Intelligent Technologies
+Latest Revision: 2024-07-15
+Valid as Of: 2024-07-15
+Version: Cloud
+
+--- Record 2607 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: Schema Field Categories
+Description: You can now create categories, which you can use to group data fields in schemas.  If your schemas include many data fields, using categories helps avoid long lists of field names, making it easier to find specific fields.  To use the Schema Field Categories feature, you must first enable it under UI Settings.  See Use Schema Field Categories and Activate Features.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Intelligent Technologies
+Latest Revision: 2024-07-15
+Valid as Of: 2024-07-15
+Version: Cloud
+
+--- Record 2608 ---
+Component: Edge Integration Cell
+Environment: Cloud Foundry
+Title: Edge Local Authentication and Authorization is now supported
+Description: You can now perform client certificate authentication and authorization for integration flow processing and API artifacts, removing the real-time dependency on SAP Business Technology Platform.  See: Edge Local Authentication and Authorization
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-07-14
+Valid as Of: 2024-07-14
+Version: 2405
+
+--- Record 2609 ---
+Component: Edge Integration Cell
+Environment: Cloud Foundry
+Title: Sizing Recommendations for Asynchronous Messaging
+Description: The sizing guide for Edge Integration Cell now includes sizing recommendation for hardware resources in asynchronous messaging scenarios.  See: Sizing Guide for Edge Integration Cell.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-07-14
+Valid as Of: 2024-07-14
+Version: 2405
+
+--- Record 2610 ---
+Component: Edge Integration Cell
+Environment: Cloud Foundry
+Title: Software Version Update
+Description:     Edge Integration Cell: 8.18.*    Increment: 2405  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-07-14
+Valid as Of: 2024-07-14
+Version: 2405
+

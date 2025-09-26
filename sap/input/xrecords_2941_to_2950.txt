@@ -1,0 +1,130 @@
+--- Record 2941 ---
+Component: SAP Build Apps
+Environment: Cloud Foundry
+Title: Web & Mobile
+Description: The AppGyver Community Edition has been officially renamed as SAP Build Apps, free edition and the AppGyver branding has been retired. The free edition experience remains the same and is a separate offering from the BTP Free Tier version. For more information, see the SAP Build Apps commercial update and free edition blog post.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-05-16
+Valid as Of: 2024-05-16
+Version: Cloud
+
+--- Record 2942 ---
+Component: SAP Build Work Zone, standard edition
+Environment: Cloud Foundry
+Title: Sort Order of Federated Pages
+Description: In sites that are using Spaces and Pages – New Experience display mode, pages within federated spaces are sorted at runtime as follows:  Content Providers: pages are sorted according to their order in the source system.  Content Packages: pages are sorted according to their order in the ZIP file.   Note  This functionality is currently not applicable to existing content channels, locally created pages, and federated/local spaces.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-05-16
+Valid as Of: 2024-05-16
+Version: Cloud
+
+--- Record 2943 ---
+Component: SAP Health Data Services for FHIR
+Environment: Cloud Foundry
+Title: SAP Health Data Services for FHIR REST APIs are published to SAP Business Accelerator Hub
+Description: SAP Health Data Services for FHIR REST APIs are published to SAP Business Accelerator Hub, you can try out the APIs to understand the supported capabilities and features of SAP Health Data Services for FHIR.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-05-16
+Valid as Of: 2024-05-16
+Version: Cloud
+
+--- Record 2944 ---
+Component: SAP Java Buildpack
+Environment: Cloud Foundry
+Title: Maven Libraries
+Description: Changelogs for the following SAP Java Buildpack libraries are now provided on SAP Help Portal:      XS Env      XS Java Parent      XS User Holder      XS HDB Conn Options      XS JDBC Routing Datasource      For more information, see: SAP Java Buildpack Libraries
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-05-13
+Valid as Of: 2024-05-16
+Version: Cloud
+
+--- Record 2945 ---
+Component: SAP Java Buildpack
+Environment: Cloud Foundry
+Title: Version 1.94.0
+Description: SAP Java Buildpack 1 has been updated from version 1.93.0 to 1.94.0. Updated components:      Bugfix: When using Dynatrace, the following error used to be thrown during application staging: "Failed to compress build artifacts: exit status 2". This issue is now fixed which leads to successful application deployment.      SAP Java Buildpack 1 now provides a customized SapMachine JRE 17 that contains a jdk.compiler module. To learn more, see SapMachine      SAP HANA Driver (hana.driver.2.X.X) is updated from version 2.20.11 to 2.20.17      otel-agent is updated from version 2.1.0 to 2.2.0      otel-agent-ext-java is updated from version 1.5.11 to 1.5.12      com.sap.cloud.connectivity.apiext is updated from version 3.33.0 to 3.34.0      com.sap.xs.onpremise.runtime is updated from version 1.2.0 to 1.2.1    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-04-19
+Valid as Of: 2024-05-16
+Version: Cloud
+
+--- Record 2946 ---
+Component: SAP Java Buildpack
+Environment: Cloud Foundry
+Title: Version 2.7.0
+Description: SAP Java Buildpack 2 has been updated from version 2.6.0 to 2.7.0. Updated components:      Bugfix: When using Dynatrace, the following error used to be thrown during application staging: "Failed to compress build artifacts: exit status 2". This issue is now fixed which leads to successful application deployment.      SAP Java Buildpack 2 now provides a customized SapMachine JRE (17 and 21) that contains a jdk.compiler module. To learn more, see SapMachine      SAP HANA Driver (hana.driver.2.X.X) is updated from version 2.20.11 to 2.20.17      otel-agent is updated from version 2.1.0 to 2.2.0      otel-agent-ext-java is updated from version 1.5.11 to 1.5.12      com.sap.cloud.connectivity.apiext is updated from version 3.33.0 to 3.34.0      com.sap.xs.onpremise.runtime is updated from version 1.2.0 to 1.2.1    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-04-19
+Valid as Of: 2024-05-16
+Version: Cloud
+
+--- Record 2947 ---
+Component: SAP Start
+Environment: Cloud Foundry
+Title: Integration with SAP Fieldglass
+Description: In addition to showing SAP Fieldglass tasks in the To-Dos section, the integration now enables:      Access to SAP Fieldglass business content via cards in the Insights section      Search capabilities:      Launch SAP Fieldglass product page      Search for and launch SAP Fieldglass apps      Trigger searches within SAP Fieldglass        
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-05-16
+Valid as Of: 2024-05-16
+Version: Cloud
+
+--- Record 2948 ---
+Component: SAPUI5
+Environment: ABAP,Cloud Foundry,Kyma,Neo,Other
+Title: SAPUI5 Distribution 1.124
+Description: SAPUI5 version 1.124 has been released for UI development and can now be consumed by SAP BTP services. It’s up to the services to determine when they start using the new version.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-05-15
+Valid as Of: 2024-05-16
+Version: Cloud
+
+--- Record 2949 ---
+Component: UI5 Flexibility for Key Users
+Environment: Cloud Foundry
+Title: Embedding Content
+Description: When you embed content from external applications or websites into your app, you can now change the sandbox settings for the iFrame that displays the embedded content. This allows you to loosen the default restrictions for individual use cases.  This feature requires SAPUI5 version 1.124 or higher.  See Embedding Content.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-06-27
+Valid as Of: 2024-05-16
+Version: 2404b
+
+--- Record 2950 ---
+Component: Continuous Integration & Delivery
+Environment: Cloud Foundry
+Title: Deprecation of the SAP Fiori in the Cloud Foundry Environment Pipeline
+Description: The SAP Fiori in the Cloud Foundry Environment pipeline has been replaced with the Cloud Foundry Environment pipeline. Therefore, it will be discontinued after May 15, 2024. Existing jobs will be automatically migrated to the Cloud Foundry Environment pipeline.
+Action: Info only
+Lifecycle: Deprecated
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-05-15
+Valid as Of: 2024-05-15
+Version: Cloud
+

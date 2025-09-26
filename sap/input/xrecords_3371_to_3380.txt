@@ -1,0 +1,130 @@
+--- Record 3371 ---
+Component: UI Theme Designer
+Environment: Cloud Foundry,Neo
+Title: Base Theming Content for CF and Neo.
+Description: The base theming content is updated to version 11.12.1. Review the changes at https://github.com/SAP/theming-base-content/releases.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2024-02-28
+Version: Cloud
+
+--- Record 3372 ---
+Component: UI Theme Designer
+Environment: Cloud Foundry
+Title: Theme Preview as Cards
+Description: The welcome page of UI theme designer shows cards with a theme preview for the existing themes. If you prefer the list view, you can always switch back to the list view.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2024-02-28
+Version: Cloud
+
+--- Record 3373 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Telemetry module: Update to version 1.9.0
+Description: The new version brings the following improvements:  Logs:      Now, you can explicitly include and exclude system namespaces for log collection in LogPipelines (#778) .      Traces and Metrics:      Update to OTel Collector 0.93.0 (#771).    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-02-13
+Valid as Of: 2024-02-27
+Version: Cloud
+
+--- Record 3374 ---
+Component: SAP Datasphere
+Environment: Cloud Foundry
+Title: Features for Version 2024.5
+Description: New and changed features are available for administration and SAP BW bridge.  For more information, see What's New in SAP Datasphere 2024.5. 
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-02-27
+Valid as Of: 2024-02-27
+Version: Cloud
+
+--- Record 3375 ---
+Component: Connectivity
+Environment: Cloud Foundry,Kyma
+Title: Connectivity Proxy for Kubernetes - Announcement
+Description: The Connectivity Proxy in the Kyma runtime will be converted to a standard Kyma third party module.   All existing instances of the Connectivity Proxy must be converted to the new module-based solution. The migration is automated and happens upon enabling the Connectivity Proxy module. After the migration, the Connectivity Proxy will be consumable in the same way as before.   The migration has two stages.   As of March 2, 2024, the module will be available via the 'fast' channel. All customers can then enable it and make the switch (it will also be available for new installations).   Then, on March 16, 2024, during a maintenance window, all remaining connectivity proxies provisioned via the old approach will automatically be migrated to the module by SAP.   While the migration results in a backward-compatible deployment of the Connectivity Proxy, the process involves a downtime of around 2 minutes (depending on cluster load and other factors).   In case of questions or issues, please raise a support ticket on the BC-CP-CON-K8S-PROXY component.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2024-02-26
+Version: Cloud
+
+--- Record 3376 ---
+Component: Forms Service by Adobe
+Environment: Cloud Foundry
+Title: Customer-Managed Keys
+Description: The SAP Forms service now provides the following new feature:If you are a new subscriber to the SAP Forms service, your template store data (templates, schemas), credentials, certificates, certificate revocation lists (CRLs), and passwords are encrypted by the customer-managed keys (CMK) feature by default.For more information, see Customer-Managed Keys.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2024-02-26
+Version: Cloud
+
+--- Record 3377 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: NATS module: Update to version 1.1.0
+Description: The new version brings the following improvements:      nats-server upgrade to version 2.10.7      prometheus-nats-exporter upgrade to version 0.14.0      nats-config-reloader upgrade to version 0.14.1    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-02-26
+Valid as Of: 2024-02-26
+Version: Cloud
+
+--- Record 3378 ---
+Component: Document Management Service
+Environment: Cloud Foundry
+Title: Update - Reuse UI
+Description: The pagination configuration for the Reuse UI has been deprecated and is no longer available.  For more information about supported configurations, see Configurations for Reuse UI.
+Action: Info only
+Lifecycle: Deprecated
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-02-23
+Valid as Of: 2024-02-23
+Version: Cloud
+
+--- Record 3379 ---
+Component: Document Management Service
+Environment: Cloud Foundry
+Title: Integrating SAP S/4HANA with Google Workspace Using SAP Document Management Service
+Description: With this release we have the following updates:      You can now establish a trust configuration between SAP S/4HANA On-Premise and SAP BTP.   See Establishing Trust Configuration Between SAP S/4HANA On-Premise And SAP BTP.      By using the Secure File Share Configuration app, you can now configure the File Shares to ensure that they function correctly to complete file sharing operations effectively.    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-02-23
+Valid as Of: 2024-02-23
+Version: Cloud
+
+--- Record 3380 ---
+Component: Document Management Service
+Environment: Cloud Foundry
+Title: UI Improvements: Pagination
+Description: Instead of a toggle switch, you can now find a More option at the bottom of the page to support pagination in Document Management Service, Application Option. It automatically loads 100 documents at a time.  See Using Pagination.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-02-23
+Valid as Of: 2024-02-23
+Version: Cloud
+

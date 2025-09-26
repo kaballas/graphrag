@@ -1,0 +1,130 @@
+--- Record 2001 ---
+Component: Availability Service
+Environment: Cloud Foundry
+Title: New Unified View
+Description: Try out the new unified view that is replacing the explore and manage views on your AvS instance. To access the unified view, append /evaluations to the link of your AvS instance.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-10-31
+Valid as Of: 2024-10-31
+Version: Cloud
+
+--- Record 2002 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: SAP BTP Platform Members (Cloud Foundry) connector
+Description: Identity Provisioning supports the SAP BTP Platform Members (Cloud Foundry) connector. You can configure it as source, target, and proxy system for your provisioning scenarios. See:    SAP BTP Platform Members (Cloud Foundry) (Source)      SAP BTP Platform Members (Cloud Foundry) (Target)      SAP BTP Platform Members (Cloud Foundry) (Proxy)    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-10-31
+Valid as Of: 2024-10-31
+Version: 26835
+
+--- Record 2003 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Support for OAuth certificate authentication
+Description: SAP Build Work Zone, advanced edition supports OAuth certificate authentication.  For more information, see SAP Build Work Zone, advanced edition.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-10-31
+Valid as Of: 2024-10-31
+Version: 26835
+
+--- Record 2004 ---
+Component: Cloud Management Tools,SAP BTP Command Line Interface
+Environment: ABAP,Cloud Foundry,Kyma,Neo,Other
+Title: New Parameter in btp CLI for Listing Only Authorized Subaccounts
+Description: We've added a new --authorized parameter to the btp list accounts/subaccounts command in btp CLI, which allows you to filter only the subaccounts that you have access to. If you omit this parameter, the command prints all the subaccounts in the global account.  See https://help.sap.com/docs/btp/btp-cli-command-reference/btp-list-accounts-subaccount.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-10-31
+Valid as Of: 2024-10-31
+Version: Cloud
+
+--- Record 2005 ---
+Component: Connectivity
+Environment: Cloud Foundry,Neo
+Title: Cloud Connector 2.17.2 - Bug Fixes
+Description: Release of Cloud Connector version 2.17.2 provides the following bug fixes:    The connection check for access control entries could fail even if the connection would work fine in productive usages. This was caused by a changed default value introduced in Tomcat 9.0.90. With the upgrade to Tomcat 9.0.95, the problem has been solved. This was a regression in 2.17.1.  When upgrading a shadow instance, the master high availability (HA) port got lost during the upgrade. This was a regression in 2.17.1.  Pressing CapsLock when entering a password into Cloud Connector's login screen deleted the password characters that were entered so far. This was caused by a regression in UI5 Core 1.108.30 that was used in 2.17.1.  In the connection monitor details view the active requests were not showing the user that is invoking the service, even if the user is actually known. This was a regression introduced in 2.16.0.  Due to a faulty consistency check, the custom regions list contained all the known regions that were in use on the Cloud Connector. This illegal state has been corrected.  When using a dedicated HA port and resetting the HA settings on a shadow, the shadow's UI port within the HA information was wrongly set to the HA port. As a consequence, after connecting again to a master, it was not possible to open the shadow UI using the button in the master UI in the High Availability screen.  
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-10-31
+Valid as Of: 2024-10-31
+Version: Cloud
+
+--- Record 2006 ---
+Component: Connectivity
+Environment: Cloud Foundry,Neo
+Title: Cloud Connector 2.17.2 - Enhancements
+Description: Release of Cloud Connector version 2.17.2 provides the following enhancements:    Introduced a CapsLock warning on all password input fields. Previously, such a warning was only shown on the login screen.  Cloud Connector does no longer allow to upload UI certificates from a P12 file that include the KeyUsage certsigning. Such certificates are not accepted by all browsers for identifying a server.  The connection check for access control entries is now allowed for all authenticated users.  When opening TCP connections successfully, an audit log entry is written that access to the system has been allowed.  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-10-31
+Valid as Of: 2024-10-31
+Version: Cloud
+
+--- Record 2007 ---
+Component: Connectivity
+Environment: Cloud Foundry
+Title: Destination Service - REST API
+Description: The "Get All Destinations" endpoint of the service's REST API now supports suffix-based (endsWith) filtering on the Name property.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-10-28
+Valid as Of: 2024-10-31
+Version: Cloud
+
+--- Record 2008 ---
+Component: Identity Provisioning
+Environment: Neo
+Title: SAP BTP Platform Members (Cloud Foundry) connector
+Description: Identity Provisioning supports the SAP BTP Platform Members (Cloud Foundry) connector. You can configure it as source, target, and proxy system for your provisioning scenarios. See:    SAP BTP Platform Members (Cloud Foundry) (Source)      SAP BTP Platform Members (Cloud Foundry) (Target)      SAP BTP Platform Members (Cloud Foundry) (Proxy)    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-10-31
+Valid as Of: 2024-10-31
+Version: Cloud
+
+--- Record 2009 ---
+Component: Identity Provisioning
+Environment: Neo
+Title: Support for OAuth certificate authentication
+Description: SAP Build Work Zone, advanced edition supports OAuth certificate authentication.  For more information, see SAP Build Work Zone, advanced edition.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-10-31
+Valid as Of: 2024-10-31
+Version: Cloud
+
+--- Record 2010 ---
+Component: Joule
+Environment: Cloud Foundry
+Title: Joule Conversational Search Now Supported in SAP Integrated Business Planning for Supply Chain
+Description: Joule is now available in SAP Integrated Business Planning for Supply Chain (SAP IBP) for informational use cases. This means, you have conversational access to the product documentation for SAP IBP. Just enter your query or question in plain natural language, and Joule searches the product documentation to find the answer. Joule summarizes the search results in the background. This summarization is then displayed to you as the answer to your question, along with the top search results. If you select the title link of a result, you're taken directly to the relevant topic on SAP Help Portal.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-10-18
+Valid as Of: 2024-10-31
+Version: Cloud
+

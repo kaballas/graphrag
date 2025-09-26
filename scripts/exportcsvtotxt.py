@@ -17,7 +17,7 @@ def export_csv_to_txt():
         end = start + records_per_file
         chunk = df.iloc[start:end]
 
-        txt_filename = f'records_{start + 1}_to_{min(end, total_records)}.txt'
+        txt_filename = f'xrecords_{start + 1}_to_{min(end, total_records)}.txt'
         txt_file_path = os.path.join(output_dir, txt_filename)
 
         with open(txt_file_path, 'w', encoding='utf-8') as txtfile:

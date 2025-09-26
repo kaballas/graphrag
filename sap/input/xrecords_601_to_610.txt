@@ -1,0 +1,130 @@
+--- Record 601 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Configure Navigation Link on Steps
+Description: You can now configure navigation link on steps to navigate to specific pages for additional details.See Configure Step Navigation Link.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-06-23
+Valid as Of: 2025-06-23
+Version: Cloud
+
+--- Record 602 ---
+Component: SAP Business Application Studio
+Environment: Cloud Foundry
+Title: SAP HANA Development Tooling
+Description: In the SAP HANA Native Application dev space of SAP Business Application Studio, the database module generator now supports binding new database modules to SAP HANA Cloud multi-tenant HDI container services.   See Create a New Business Application Project. 
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-06-23
+Valid as Of: 2025-06-23
+Version: T2506a
+
+--- Record 603 ---
+Component: SAP Business Application Studio
+Environment: Cloud Foundry
+Title: SAP HANA Development Tooling
+Description: In the SAP HANA Native Application dev space of SAP Business Application Studio, additional SQL Console settings are now available to customize command separation, date and decimal formats, NULL display, result formatting, fractional digits, and the result set limit.  See User Preferences for SAP HANA Native Application Development Tools. 
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-06-23
+Valid as Of: 2025-06-23
+Version: T2506a
+
+--- Record 604 ---
+Component: SAP Business Application Studio
+Environment: Cloud Foundry
+Title: SAP HANA Development Tooling
+Description: In the SAP HANA Native Application dev space of SAP Business Application Studio, the database module generator now includes an Advanced Settings option to configure deployment parameters such as stop on error, warning handling, and tracing. The selected options are written to the module’s package.json, enabling easier control of deployment behavior.  See Create a New Business Application Project. 
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-06-23
+Valid as Of: 2025-06-23
+Version: T2506a
+
+--- Record 605 ---
+Component: SAP Business Application Studio
+Environment: Cloud Foundry
+Title: SAP HANA Development Tooling
+Description: In the SAP HANA Native Application dev space for SAP Business Application Studio, the Dependency Viewer now allows you to perform the following new actions:    Expand or collapse all schemas in the dependency graph  Locate and focus on objects with the predictive search box    See View Database Objects with the Database Explorer. 
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-06-23
+Valid as Of: 2025-06-23
+Version: T2506a
+
+--- Record 606 ---
+Component: SAP Business Application Studio
+Environment: Cloud Foundry
+Title: SAP HANA Development Tooling
+Description: In the SAP HANA Native Application dev space for SAP Business Application Studio, the Explain Plan option in the SQL Console now shows data from both EXPLAIN_PLAN_TABLE and EXPLAIN_CALL_PLANS, providing a more complete view for SELECT statements that internally call procedures or calculation views.  See Use the SQL Console for SAP HANA to Query the Database. 
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-06-23
+Valid as Of: 2025-06-23
+Version: T2506a
+
+--- Record 607 ---
+Component: SAP Business Application Studio
+Environment: Cloud Foundry
+Title: SAP HANA Development Tooling
+Description: In the SAP HANA Native Application dev space for SAP Build Code, you can now generate realistic sample data for existing database tables using Generative AI.  See Generate Sample Data for Tables Using Generative AI. 
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-06-23
+Valid as Of: 2025-06-23
+Version: T2506a
+
+--- Record 608 ---
+Component: SAP Task Center
+Environment: Cloud Foundry
+Title: Pushing UiPath Tasks Enabled
+Description: You can now enable task updates to be pushed from UiPath. For more information, see step 1, 2, and the tc.clientId property in Connect UiPath and SAP Task Center.   End users can access tasks through the SAP Task Center Web app directly for review and approval of processed documents. 
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-06-23
+Valid as Of: 2025-06-23
+Version: Cloud
+
+--- Record 609 ---
+Component: SAP Advanced Financial Closing
+Environment: Cloud Foundry
+Title: Consistency Check Adjustment
+Description: As of now, the consistency check confirms whether a user group assigned in the task list template contains any users. If a user group is empty, the consistency check issues a warning message for now, allowing you to continue with task list generations.  However, as of the release planned to be released in July, the consistency check will issue an error message if it detects an empty user group in the template. This error will then prevent you from generating task lists.  More information:  How to Perform Checks on Templates  App affected:  Manage Closing Task Lists  Action: Ensure that you don't have empty user groups. Pay special attention to the warning messages raised for empty user groups and address the changes required.  For information about how to run a consistency check, see How to Perform Checks on Templates.
+Action: Required
+Lifecycle: General Availability
+Type: New
+Line of Business: Finance
+Latest Revision: 2025-06-09
+Valid as Of: 2025-06-22
+Version: Cloud
+
+--- Record 610 ---
+Component: SAP Advanced Financial Closing
+Environment: Cloud Foundry
+Title: Overview of Task List Generations
+Description: You can now find an overview of ongoing and finished task list generations on the new tab Task List Generations in the task list details. This tab offers the following details about the task list generations:  Information about the generation status:This is helpful because, as of now, task list generations run in the background once you initiate them.  Detailed error messages created during the generation:Unlike before - where messages would disappear after you had closed the corresponding pop-up window - these messages now remain available if a task list generation fails. They'll be available until a successful task list generation for the same fiscal year and period has run.    Note  The Task List Generations tab displays task list generations that have run since the release of this feature in June 2025.  More information:  How to Generate and Release Task Lists  App affected:  Manage Closing Task Lists
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Finance
+Latest Revision: 2025-06-09
+Valid as Of: 2025-06-22
+Version: Cloud
+

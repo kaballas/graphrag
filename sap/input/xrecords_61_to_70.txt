@@ -1,0 +1,130 @@
+--- Record 61 ---
+Component: Pricing Service
+Environment: Cloud Foundry
+Title: Extension Concept – Missing Check for Condition Unit in Extended Input
+Description: A missing check for the condition unit in extended input caused the process formula not to be executed. This issue has been corrected.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-09-24
+Valid as Of: 2025-09-24
+Version: Cloud
+
+--- Record 62 ---
+Component: Joule
+Environment: Cloud Foundry
+Title: Enhanced Use Cases for Product Lifecycle Management in SAP S/4HANA Cloud Private Edition
+Description: The following transactional use cases were enhanced in Product Lifecycle Management for SAP S/4HANA Cloud Private Edition.    Change Record      Find change records based on related products and a combination of attributes      Summarize change records, including their description, type, status, responsible, and last changed on, and number of item types      Navigate to selected change records directly in the Manage Change Records app        
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2026-09-17
+Valid as Of: 2025-09-23
+Version: Cloud
+
+--- Record 63 ---
+Component: Joule
+Environment: Cloud Foundry
+Title: Enhancement to View Leave Balance - September 2025
+Description: SAP SuccessFactors has made an enhancement to the View leave balance use case.  For more information, refer to Enhancement to View Leave Balance - September 2025
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-09-22
+Valid as Of: 2025-09-23
+Version: Cloud
+
+--- Record 64 ---
+Component: Joule
+Environment: Cloud Foundry
+Title: Joule Available for SAP Logistics Management
+Description: In SAP Logistics Management, you can now use Joule for several transactional, navigational, and informational use cases.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-09-22
+Valid as Of: 2025-09-23
+Version: Cloud
+
+--- Record 65 ---
+Component: Joule
+Environment: Cloud Foundry
+Title: Manage business partner certificates in SAP S/4HANA Cloud Private Edition
+Description: The following transactional and read use cases are now supported to manage business partner certificate data in SAP S/4HANA Cloud Private Edition:  Show the business partner certificates configured for a country.  Show the business partner certificates maintained for a business partner for a country.  Show the certificates that are missing for a business partner for a country/region.  List the business partners who don't have mandatory certificates required for a country.  List the business partners based on different certificate details, such as certificate ID or certificate validity and expiry dates.   Exempt a business partner from holding a mandatory certificate.   Extend the validity of a business partner's certificate.    For more information, refer to Managing Business Partner Certificates.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-09-22
+Valid as Of: 2025-09-23
+Version: Cloud
+
+--- Record 66 ---
+Component: Joule
+Environment: Cloud Foundry
+Title: Managing Supplier Invoices in SAP S/4HANA Cloud Public Edition
+Description: You can now use Joule to release supplier invoices in SAP S/4HANA Cloud Public Edition. You can ask Joule to release a supplier invoice that is blocked for payment.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Sourcing and Procurement
+Latest Revision: 2025-09-22
+Valid as Of: 2025-09-23
+Version: Cloud
+
+--- Record 67 ---
+Component: Joule
+Environment: Cloud Foundry
+Title: New Use Cases Now Supported for Cash and Liquidity Management in SAP S/4HANA Cloud Public Edition
+Description: The following use case are now supported in Cash and Liquidity Management for SAP S/4HANA Cloud Public Edition:  Displaying Cash Positions  Making Bank Transfers  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-09-22
+Valid as Of: 2025-09-23
+Version: Cloud
+
+--- Record 68 ---
+Component: Joule
+Environment: Cloud Foundry
+Title: New Use Cases Now Supported in Sales for SAP S/4HANA Cloud Private Edition
+Description: The following transactional Joule capabilities are now supported in SAP S/4HANA Cloud Private Edition 2023 FPS01 release onwards:      Perform Release and Acceptance of Solution Quotations: Joule allows you to release, accept, or perform both actions together on solution quotations.      Fetch Solution Quotation Information: Joule enables you to fetch information about solution quotations based on the input criteria provided.      For more information, refer to  and , respectively.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-10-20
+Valid as Of: 2025-09-23
+Version: Cloud
+
+--- Record 69 ---
+Component: Joule
+Environment: Cloud Foundry
+Title: New Use Cases Now Supported in SAP S/4HANA Cloud Public Edition
+Description: Joule now enables you to view business data of the following objects in SAP S/4HANA Cloud Public Edition:  Condition Records for Pricing in Sales    For a list of the supported business objects, their details, and sample requests, see Viewing Business Data.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-09-19
+Valid as Of: 2025-09-23
+Version: Cloud
+
+--- Record 70 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Istio module: Update to version 1.21.0
+Description: We've updated the Istio version to 1.27.1. To learn about new features, bug fixes, and changes in this release, read the Istio 1.27 release announcement and Upgrade Notes.Caution  Since version 1.27, Istio injects the Istio proxy as an init container by default. In this release, the Istio module's operator disables this behavior to maintain compatibility. Disabling this behavior is a temporary measure and will be removed with Istio module 1.22. After this, sidecar proxies will be injected as init containers by default. For more information, see Istio Proxy as Native Sidecar Container.  The Istio module now supports installation with Istio images injected into the installer from environment variables. This allows for more flexible deployments, especially in environments where images are not available in a public registry. See issue #1519.  Additionally, this release contains the following bug fixes:  We've fixed a bug where the proxy-protocol EnvoyFilter applied by the Istio module on AWS clusters with ELB load balancers was incorrectly detected as a user resource. This resulted in the Istio custom resource being set to the Warning state. See issue #1491.  We've fixed a bug where labels of the Istio managed resources were not correctly reconciled. See issue #1523.  We've fixed a bug where the app.kubernetes.io/version label was not set to the proper version in the managed resources. See issue #1523.  We've fixed a bug where Istio sidecar injected as initContainer was not removed during Istio uninstallation. See issue #1555.  
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-09-08
+Valid as Of: 2025-09-22
+Version: Cloud
+

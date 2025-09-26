@@ -1,0 +1,130 @@
+--- Record 3791 ---
+Component: Trading Partner Management
+Environment: Cloud Foundry
+Title: Number Ranges in Company/Trading Partner Profile
+Description: You can now configure Number Ranges in a company/trading partner profile.  See:     Creating a Company Profile and a Subsidiary    Creating a Trading Partner Profile  
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2023-12-04
+Valid as Of: 2023-12-04
+Version: 2310
+
+--- Record 3792 ---
+Component: Trading Partner Management
+Environment: Cloud Foundry
+Title: Software Version Update
+Description:   SAP Cloud Integration: 6.43.*  Increment: 2310  
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2023-12-04
+Valid as Of: 2023-12-04
+Version: 2310
+
+--- Record 3793 ---
+Component: Trading Partner Management
+Environment: Cloud Foundry
+Title: Tradacoms Type System
+Description: You can now use Tradacoms type system in your B2B scenarios.  See:     Creating a Company Profile and a Subsidiary    Creating a Trading Partner Profile  Trading Partner Agreement    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2023-12-04
+Valid as Of: 2023-12-04
+Version: 2310
+
+--- Record 3794 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Forms and Approvals
+Description: You can select whether form or approval recipients can forward the task to another user. For more information, see Configure a Form to Start a Process.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2023-12-01
+Valid as Of: 2023-12-01
+Version: Cloud
+
+--- Record 3795 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Store - New Content Packages
+Description: A new set of 23 content packages, 12 Business Content and 11 Learning Content have been added to the Store during Nov-Dec 2023. We have also made some fixes in the existing content packages.  These content packages are tailored to different lines of business such as IT, Sales, Services, Sourcing, Finance, and Procurement.  SAP S/4HANA Business Content:  Mass Purchase Order Confirmations.  Contract Employee End Date Extension.  Mass Automation of Accrual Posting.  Mass Maintenance of Source Lists (4TK).  Mass Maintenance of Cost Centers.  https://api.sap.com/package/eu10.storecontentdevacc.nonrepairablepartautorecordingwithgoodsmovement/overview.  Automate Mass Upload of GL Journal Entries.  Automatic Picking of Outbound Deliveries.  Automate Posting of Goods Receipt.  Mass Clearing of GL, Customer and Supplier Open Items.    SAP S/4HANA Learning Content:  In-App Configuration for SAP S/4HANA Cloud Scope Item J58 (6PR).  In-App Configuration for SAP S/4HANA Cloud Scope Items J45 and 18J (6PQ).  In-App Configuration for SAP S/4HANA Cloud Scope Items J60 and 1NT (6PT).  In-App Configuration for SAP S4HANA Cloud Scope item J59 (6PS).  In-App Configuration for SAP S/4HANA Cloud Scope Items 1LQ (6PP).  In-App Configuration for SAP S4HANA Cloud Scope Item 1F1 2LH 2V7 BD9 (6PE).  Mass Upload of Business Configuration for SAP S/4HANA Cloud (6PX).    Other Learning Contents:  Automate Microsoft Office 365 applications.  Manage calendar events with Microsoft Office 365.  Innovation Idea Process.    Updated Content:  Ariba Purchase Requisition Approval.  Documents Centric Approvals Process.  Note  The old version of the Document-Centric Approval Process has been deprecated. The new version has been released with a name change, as indicated in the Updated Content section.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-12-05
+Valid as Of: 2023-12-01
+Version: Cloud
+
+--- Record 3796 ---
+Component: Authorization and Trust Management Service
+Environment: Neo
+Title: OpenID Connect Authentication
+Description: OpenID Connect (OIDC) authentication with an Identity Authentication tenant is now available as a Beta feature for your applications in the Neo environment.   See OpenID Connect (OIDC) Authentication.
+Action: Info only
+Lifecycle: Beta
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-11-30
+Valid as Of: 2023-11-30
+Version: Cloud
+
+--- Record 3797 ---
+Component: SAP BTP, Cloud Foundry Runtime
+Environment: Cloud Foundry
+Title: Deprecation of Weak Client Certificate Chains
+Description: As originally announced on May 18, 2023 and November 2, 2023, weak client certificate chains have been deprecated for the region eu20 in order to harden security standards.   Accordingly, the OpenSSL security has been raised to level 2, resulting in weak certificates or certificate chains no longer being accepted by the platform. For more information and a full definition of security level 2, see https://www.openssl.org/docs/man3.0/man3/SSL_CTX_set_security_level.html#DEFAULT-CALLBACK-BEHAVIOUR.   Note that this change only affects client certificates. If you do not use client certificates or mTLS to authenticate with the platform, you are not affected.   For more details on the command, see 3333978 .
+Action: Info only
+Lifecycle: Deprecated
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2023-11-30
+Valid as Of: 2023-11-30
+Version: Cloud
+
+--- Record 3798 ---
+Component: Automation Pilot
+Environment: Cloud Foundry
+Title: New Command Line Tools
+Description: You can now have access to the following command line tools: make and helm to execute scripts in a fully isolated Linux environment. See ExecuteScript Version 1 and ExecuteScript Version 2.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-11-30
+Valid as Of: 2023-11-30
+Version: Cloud
+
+--- Record 3799 ---
+Component: Custom Domain Service
+Environment: Cloud Foundry
+Title: Alert Notifications
+Description: You can now receive alert notifications if there are critical issues in your custom domains, such as expiring certificates or deprecated cipher suites. For more information, see Alert Notifications.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-11-30
+Valid as Of: 2023-11-30
+Version: Cloud
+
+--- Record 3800 ---
+Component: Document Management Service
+Environment: Cloud Foundry
+Title: New SAP Fiori UI5 Theme: Horizon
+Description: With this release, the following themes are supported in the Document Management Service, Application Option.    Morning Horizon    Evening Horizon  Horizon High Contrast White  Horizon High Contrast Black    To activate the theme, go to your user profile and choose Settings. Then, select Appearance and choose your preferred theme from the options available.  For more information about managing your settings, see Personalize the Settings.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-11-30
+Valid as Of: 2023-11-30
+Version: Cloud
+

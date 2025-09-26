@@ -1,0 +1,130 @@
+--- Record 4121 ---
+Component: Integration Assessment
+Environment: Cloud Foundry
+Title: Software Version Update
+Description:     Integration Assessment: 1.19.*    Increment: 2308  
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2023-10-01
+Valid as Of: 2023-10-01
+Version: 2308
+
+--- Record 4122 ---
+Component: Migration Assessment
+Environment: Cloud Foundry
+Title: New Rules Added
+Description: The following rule has been added for Migration Assessment:    SenderMAILDuplicateDetection: Check if this feature is enabled in the Mail adapter in SAP Process Orchestration.    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-10-01
+Valid as Of: 2023-10-01
+Version: 2308
+
+--- Record 4123 ---
+Component: Migration Assessment
+Environment: Cloud Foundry
+Title: Software Version Update
+Description:     Migration Assessment: 1.20.*      Increment: 2308    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-10-01
+Valid as Of: 2023-10-01
+Version: 2308
+
+--- Record 4124 ---
+Component: Migration Assessment
+Environment: Cloud Foundry
+Title: Support of Older Versions of SAP Process Orchestration
+Description: Migration AssessmentMigration Assessment now supports the following versions of SAP Process Orchestration:      7.31 SP28 and above      7.40 SP23 and above      7.50 SP06 and above    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-10-01
+Valid as Of: 2023-10-01
+Version: 2308
+
+--- Record 4125 ---
+Component: SAPUI5
+Environment: ABAP,Cloud Foundry,Kyma,Neo,Other
+Title: End of Cloud Provisioning for SAPUI5 Versions (Q3/2023)
+Description: The following SAPUI5 versions will be removed from the SAPUI5 Content Delivery Network (CDN) after the end of Q3/2023.  Minor Versions Reaching Their End of Cloud Provisioning  The following versions including all patches will be removed entirely:  1.103  1.104  Action: Upgrade to a version that’s still in maintenance.  Patch Versions Reaching Their End of Cloud Provisioning  The following patches will be removed:  Long-term maintenance versions:  1.38.57  1.71.49 to 1.71.50  1.84.26 to 1.84.28  1.96.10 to 1.96.13  Action: Upgrade to the latest available patch for the respective SAPUI5 version.  Other versions  1.102.1 to 1.102.7  1.105.0 to 1.105.1  1.106.0  Action: Upgrade to a version that’s still in maintenance.    For more information, see UI5 Releases Ending Service in 2023 and Version Overview.
+Action: Required
+Lifecycle: Deleted
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2023-09-06
+Valid as Of: 2023-09-30
+Version: Cloud
+
+--- Record 4126 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Best Practices for Automating the SAP ByDesign Application
+Description: Know more best practices while automating the SAP ByDesign application. See Best Practices for Automating the SAP ByDesign Application.
+Action: Recommended
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2023-09-30
+Valid as Of: 2023-09-30
+Version: Cloud
+
+--- Record 4127 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Best Practices for Establishing Recognition Criteria for Web Applications
+Description: Know more best practices while establishing recognition criteria for Web applications. See Best Practices for Establishing Recognition Criteria for Web Applications.
+Action: Recommended
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2023-09-30
+Valid as Of: 2023-09-30
+Version: Cloud
+
+--- Record 4128 ---
+Component: SAP Intelligent Robotic Process Automation
+Environment: Cloud Foundry
+Title: Best Practices for Automating the SAP ByDesign Application
+Description: Know more best practices while automating the SAP ByDesign application. See Best Practices for Automating the SAP ByDesign Application.
+Action: Recommended
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2023-09-30
+Valid as Of: 2023-09-30
+Version: Cloud
+
+--- Record 4129 ---
+Component: SAP Intelligent Robotic Process Automation
+Environment: Cloud Foundry
+Title: Best Practices for Establishing Recognition Criteria for Web Applications
+Description: Know more best practices while establishing recognition criteria for Web applications. See Best Practices for Establishing Recognition Criteria for Web Applications.
+Action: Recommended
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2023-09-30
+Valid as Of: 2023-09-30
+Version: Cloud
+
+--- Record 4130 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Referenced SAPUI5 Version
+Description: As part of hotfix collection 6, SAPUI5 version 1.114.7 is used for the administrator’s SAP Fiori launchpad, SAP-delivered Fiori apps, and the custom-built SAP Fiori apps, which are deployed to the ABAP system.  See SAP BTP ABAP Environment – Maintenance Windows and Major Upgrade Windows in 2023 and SAP UI5
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-09-30
+Valid as Of: 2023-09-30
+Version: ABAP Environment 2308
+

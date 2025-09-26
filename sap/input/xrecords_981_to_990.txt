@@ -1,0 +1,130 @@
+--- Record 981 ---
+Component: Inbound Nota Fiscal
+Environment: Cloud Foundry
+Title: Certificate Path Updated
+Description: The /nfe-certificate-store/v1/certificate path has been replaced by /nfe-certificate-store/v2/certificates for CERTIFDEL, CERTIFGET, and CERTIFPST service actions.  See Setting Up the Connection to SAP Business Technology Platform.  For more information about APIs, access SAP Business Accelerator Hub.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2025-04-29
+Valid as Of: 2025-04-30
+Version: Cloud
+
+--- Record 982 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Telemetry module: Update to version 1.38.0
+Description: The new version brings the following improvements:      Logs and Metrics: Now, we support collection of logs and metrics also for tainted worker pool nodes (#1962).      Logs: To assure stable log order in SAP Cloud Logging, we populate the @timestamp attribute (#1904). For details, see Log Record Processing.      Traces and Metrics: Update to OTel Collector 0.123.0 (#2038).    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-04-16
+Valid as Of: 2025-04-30
+Version: Cloud
+
+--- Record 983 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Advanced Functions for Decisions
+Description: You can now use a new function, SUBSTRINGCOUNT in your decisions. See Functions.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-04-30
+Valid as Of: 2025-04-30
+Version: Cloud
+
+--- Record 984 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: Overall Improvements
+Description: There have been several code and stability improvements.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Intelligent Technologies
+Latest Revision: 2025-04-30
+Valid as Of: 2025-04-30
+Version: Cloud
+
+--- Record 985 ---
+Component: SAP HANA Service
+Environment: Neo
+Title: Revision 2.00.059.17
+Description: You can now update to SAP HANA revision 2.00.059.17. See 3557163 - SAP HANA 2 SPS05 Revision 059.17.  If you are still on SAP HANA 1.0, upgrade to the latest version of SAP HANA 2.0 as SAP HANA 1.0 has reached the end of mainstream maintenance in June 2021. See 2946614 - End-of-Maintenance of SAP HANA 1.0 in the SAP BTP, Neo Environment.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-04-17
+Valid as Of: 2025-04-30
+Version: Cloud
+
+--- Record 986 ---
+Component: Cloud Integration
+Environment: Cloud Foundry
+Title: Microsoft Teams Receiver Adapter Available
+Description: Microsoft Teams Receiver adapter is available now.  See: Microsoft Teams Adapter
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-04-29
+Valid as Of: 2025-04-29
+Version: 2502
+
+--- Record 987 ---
+Component: Joule
+Environment: Cloud Foundry
+Title: Multi Conversation
+Description: The Multi Conversation feature allows you to execute long running queries or asynchronous queries, or start conversations with Joule on multiple topics in parallel. This allows you to start multiple conversations in parallel on different topics. Conversation Threads also allows you to delete selected threads, rename threads, and access conversation history. With this feature, the idle timeout for a conversation thread expiry has been increased from 15 minutes to 8 hours.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-04-24
+Valid as Of: 2025-04-29
+Version: Cloud
+
+--- Record 988 ---
+Component: Joule
+Environment: Cloud Foundry
+Title: User Feedback
+Description: Each Joule response now features Thumbs ups and Thumbs down icons that can be used to record user feedback. Users can click the thumbs up icon to indicate that they have liked the response. Alternatively, if a user finds a response unsatisfactory, clicking the thumbs down button will open a list of options from which the most appropriate reason for the negative feedback can be selected.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-04-24
+Valid as Of: 2025-04-29
+Version: Cloud
+
+--- Record 989 ---
+Component: Master Data Integration
+Environment: Cloud Foundry
+Title: About This Service
+Description: Additional information related to Master Data Integration such as, links to service roadmap,technology blogs, customer stories etc, can be found in the newly renamed topic Learning Journey.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-04-25
+Valid as Of: 2025-04-29
+Version: Cloud
+
+--- Record 990 ---
+Component: Cloud Integration
+Environment: Cloud Foundry
+Title: Google Cloud Storage Adapter Supports New Version
+Description: The new version 1.1.0 supporting Workload Identity Federation authentication and On-Premise Connectivity is available now.  See: Google Cloud Storage Adapter
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-04-28
+Valid as Of: 2025-04-28
+Version: 2502
+

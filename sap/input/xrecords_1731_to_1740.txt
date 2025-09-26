@@ -1,0 +1,130 @@
+--- Record 1731 ---
+Component: SAP AI Launchpad
+Environment: Cloud Foundry
+Title: Generative AI hub
+Description: Model library  Explore models available in generative AI hub and their metadata, using the catalog mode.   Inform your decision making using benchmarking data, using the leaderboard mode.   View detailed information for a single model such as data input types, cost information and metrics where available on its model card.  For more information, see Model Library.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-12-16
+Valid as Of: 2024-12-16
+Version: Cloud
+
+--- Record 1732 ---
+Component: SAP AI Launchpad
+Environment: Cloud Foundry
+Title: Generative AI hub
+Description: Additional selected models and model versions from AWS Bedrock are supported.For more information, see SAP Note 3437766 .
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-12-16
+Valid as Of: 2024-12-16
+Version: Cloud
+
+--- Record 1733 ---
+Component: SAP BTP Developer's Guide
+Environment: Kyma
+Title: Tutorials for Consuming Remote Services and Deploying in SAP BTP, Kyma Runtime Moved to Tutorial Navigator
+Description: The tutorials that show how to integrate the SAP S/4HANA Cloud Business Partner API to the Incident Management application are now moved to the Tutorial Navigator. There are two main groups depending on whether you have an SAP S/4HANA Cloud tenant, or you use a mock server:       Consume Remote Services from S/4HANA Cloud in Your Full-Stack CAP Application Following the SAP BTP Developer's Guide and Deploy in SAP BTP, Kyma Runtime      Consume Remote Services from a Mock Server in Your Full-Stack CAP Application Following the SAP BTP Developer's Guide and Deploy in SAP BTP, Kyma Runtime    
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-12-16
+Valid as Of: 2024-12-16
+Version: Cloud
+
+--- Record 1734 ---
+Component: SAP Build Work Zone, standard edition
+Environment: Cloud Foundry
+Title: Enhancements to Page Editor
+Description: When using the Spaces and Pages - New Experience view mode, the following enhancements to the page editor are available:  New buttons on the right side of a section to easily move the sections up and down.   Show/Hide section header.  Context menu for tiles allowing the user to change the size of a tile.  Note  These enhancements are only applicable when creating local pages using the new experience (CDM 3.2 content). 
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-12-16
+Valid as Of: 2024-12-16
+Version: 2412A
+
+--- Record 1735 ---
+Component: UI Theme Designer
+Environment: Cloud Foundry,Neo
+Title: Base Theming Content for CF and Neo.
+Description: The base theming content is updated to version 11.24.0. Review the changes at https://github.com/SAP/theming-base-content/releases.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2024-12-16
+Version: Cloud
+
+--- Record 1736 ---
+Component: UI Theme Designer
+Environment: Cloud Foundry
+Title: New Appearance dialog
+Description: Assign themes and theme sets to the UI theme designer using the new Appearance dialog. To access it, go to the user menu and select Appearance.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2024-12-16
+Version: Cloud
+
+--- Record 1737 ---
+Component: SAP Advanced Financial Closing
+Environment: Cloud Foundry
+Title: Booster to Set Up SAP Advanced Financial Closing More Easily
+Description: A booster for the setup of SAP Advanced Financial Closing is now available in the SAP BTP cockpit. By automating several steps, this booster supports you in setting up SAP Advanced Financial Closing and establishing the connection to an SAP S/4HANA Cloud system.  More information:  Automated Setup  Area affected: Solution setup
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Finance
+Latest Revision: 2024-12-02
+Valid as Of: 2024-12-15
+Version: Cloud
+
+--- Record 1738 ---
+Component: SAP Advanced Financial Closing
+Environment: Cloud Foundry
+Title: Deletion of Change Logs Upon Task List Deletion
+Description: As previously announced, a new system behavior has been implemented for the case of task list template or task list deletion. For compliance reasons, change logs relating to a task list template or task list that is being deleted, are now deleted as well.  Additionally, for change logs relating to task list templates and task lists that had already been removed, a cleanup has taken place to ensure that these change logs are deleted.  More information:  How to Delete Task List Templates and Task Lists  App affected:  Manage Closing Task Lists  Change Log  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Finance
+Latest Revision: 2024-12-02
+Valid as Of: 2024-12-15
+Version: Cloud
+
+--- Record 1739 ---
+Component: SAP Advanced Financial Closing
+Environment: Cloud Foundry
+Title: Deletion of Communication Systems
+Description: You can now delete communication systems in SAP Advanced Financial Closing even if they have been synchronized before. The prerequisite for the deletion is that the communication system isn't referenced by any task list template, task list, user role, or company code group.  Corresponding audit and business logs are written upon the deletion.  More information:  How to Delete the Connection to a Communication System  Audit Log Integration    App affected:  Specify Communication Systems
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Finance
+Latest Revision: 2024-12-02
+Valid as Of: 2024-12-15
+Version: Cloud
+
+--- Record 1740 ---
+Component: SAP Advanced Financial Closing
+Environment: Cloud Foundry
+Title: Editable Columns to Change Task Duration
+Description: In the Tasks table on folder level, the following three columns have now been introduced:  Duration in Days  Duration in Hours  Duration in Minutes    If the folder is in edit mode, you can edit these values directly in the Tasks table without having to access the task details.  App affected:  Manage Closing Task Lists
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Finance
+Latest Revision: 2024-12-02
+Valid as Of: 2024-12-15
+Version: Cloud
+

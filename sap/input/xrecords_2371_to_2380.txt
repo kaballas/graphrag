@@ -1,0 +1,130 @@
+--- Record 2371 ---
+Component: SAP Audit Log
+Environment: Cloud Foundry
+Title: Filter data by message category in Audit Log Viewer
+Description: You can now quickly find and view relevant data in the Audit Log Viewer by filtering your audit data based on message category.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-08-18
+Valid as Of: 2024-08-22
+Version: Cloud
+
+--- Record 2372 ---
+Component: SAP BTP Developer's Guide
+Environment: ABAP,Cloud Foundry,Kyma
+Title: Information About Third-Party Cookies
+Description: There is now information about the usage of third-party cookies.   See Development Guidance.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-08-22
+Valid as Of: 2024-08-22
+Version: Cloud
+
+--- Record 2373 ---
+Component: SAP Build Work Zone, standard edition
+Environment: Cloud Foundry
+Title: What's New Information Added to SAP Companion
+Description: To display What's New information in the in-app help of a site, you need to change the value of the version parameter from CLOUD to latest in the SAP Companion configuration in the Site Settings.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-08-22
+Valid as Of: 2024-08-22
+Version: 2408A
+
+--- Record 2374 ---
+Component: SAP Cloud Application Event Hub
+Environment: Other
+Title: Automatic registration with SAP Cloud ALM
+Description: Register with SAP Cloud ALM automatically to monitor business events passed between SAP cloud applications. This registration happens when you subscribe to the SAP Cloud Application Event Hub standard application plan. See Registering SAP Cloud Application Event Hub with SAP Cloud ALM.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-08-22
+Valid as Of: 2024-08-22
+Version: Cloud
+
+--- Record 2375 ---
+Component: SAP HANA Service
+Environment: Neo
+Title: Revision 2.00.059.14
+Description: You can now update to SAP HANA revision 2.00.059.14. See 3465826 - SAP HANA 2 SPS05 Revision 059.14.    Note  If you are still on SAP HANA 1.0, upgrade to the latest version of SAP HANA 2.0 as SAP HANA 1.0 has reached the end of mainstream maintenance in June 2021. See 2946614 - End-of-Maintenance of SAP HANA 1.0 in the SAP BTP, Neo Environment.  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-08-23
+Valid as Of: 2024-08-22
+Version: Cloud
+
+--- Record 2376 ---
+Component: SAP Secure Login Service
+Environment: Cloud Foundry
+Title: Custom Group Names
+Description: In addition to the static and default groups (SecureLoginServiceViewer and SecureLoginServiceAdministrator), you can now define one additional name for the viewer group and role and one for the administrator group and role. Members of these groups will then have the respective access in the administration console. For more information, see Additional Group Names.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-08-22
+Valid as Of: 2024-08-22
+Version: Cloud
+
+--- Record 2377 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Regional Availability
+Description: Cloud Identity Services now operates with two new IPs in the data center in the United Arab Emirates:  Action:  We recommend you to add the following IPs to your allowed IP list:    LB IP - 130.214.250.103, 130.214.250.118   NAT IP - 130.214.80.0/26, 130.214.250.32/27     The following IPs are no longer in use:   LB IP - 20.196.2.107, 40.123.196.103, 40.123.215.159   NAT IP - 20.196.2.107/32, 40.123.196.103/32, 40.123.215.159/32  See Regional Availability.
+Action: Recommended
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-08-21
+Valid as Of: 2024-08-21
+Version: 26537
+
+--- Record 2378 ---
+Component: Pricing Service
+Environment: Cloud Foundry
+Title: Extensions Concept - Log Local Extensions Database Access Errors with Higher Level of Detail
+Description: Errors occurring when using the database access API of local extensions used to be logged with insufficient level of detail. This issue has been corrected by providing a more detailed error message in the extension trace.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-08-26
+Valid as Of: 2024-08-21
+Version: Cloud
+
+--- Record 2379 ---
+Component: SAP Task Center
+Environment: Cloud Foundry
+Title: Improvements
+Description: The following improvements are made in the SAP Task Center Web app:      Attachments and comments related to a task are now persistently displayed when switching between tasks.      The Enter Full-Screen Mode and Close Column buttons are now consistently visible, regardless of screen size.      A visual separator has been added between the Open in App and the option to enter full-screen mode, making it easier to distinguish and select the desired action.    
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-08-21
+Valid as Of: 2024-08-21
+Version: Cloud
+
+--- Record 2380 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Administrators
+Description: The Client ID is now generated automatically with the creation of a system as administrator. See Add System as Administrator.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-08-20
+Valid as Of: 2024-08-20
+Version: 26537
+

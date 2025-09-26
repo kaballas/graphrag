@@ -1,0 +1,130 @@
+--- Record 1921 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Custom Code Migration App: Changes in Scope Calculation Automation
+Description: You now need to initiate scope calculation manually after project creation. Scope calculation no longer starts automatically at project creation.  See Dependency Analysis.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-11-15
+Valid as Of: 2024-11-15
+Version: ABAP Environment 2411
+
+--- Record 1922 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Custom Code Migration App: Include ADT-Links in SAP S/4HANA Readiness Check Export
+Description: The export of ATC results for the SAP S/4HANA Readiness Check now includes HTTP(S) links, which enables you to navigate to the source code of example code in ABAP development tools for Eclipse. This new functionality is available in the Custom Code Migration app only.  See Enable Usage of the Custom Code Migration App.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-11-15
+Valid as Of: 2024-11-15
+Version: ABAP Environment 2411
+
+--- Record 1923 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Custom Code Migration App: Start Analysis After Project Creation
+Description: You can now choose whether you'd like to start the custom code analysis run automatically at project creation or whether you'd like to schedule it manually after project creation.  See Creating a Custom Code Analysis Project.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-11-15
+Valid as Of: 2024-11-15
+Version: ABAP Environment 2411
+
+--- Record 1924 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Display Business Event Logs
+Description: The app is part of Business Event Logging. It provides an overview of logged business events for different objects and event types. You can explore the details of the event with this app.  For more information, see Display Business Event Logs.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-10-10
+Valid as Of: 2024-11-15
+Version: ABAP Environment 2411
+
+--- Record 1925 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Display Business Events by Objects
+Description: The app is part of Business Event Logging. It groups business events by instances of objects and object components. You can discover the processing sequences with this app.   For more information, see Display Business Events by Objects.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-10-10
+Valid as Of: 2024-11-15
+Version: ABAP Environment 2411
+
+--- Record 1926 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Display Changes to Objects
+Description: The app is part of Business Event Logging. You can see the changes for your objects on a field level as recorded in business event logging.  For more information, see Display Changes to Objects.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-10-10
+Valid as Of: 2024-11-15
+Version: ABAP Environment 2411
+
+--- Record 1927 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: New Parameters To Request Cloning A BYOG Repository
+Description: When cloning a software component, you can now optionally use the newly added parameters to request cloning a Bring Your Own Git (BYOG) repository.  For more information, see Bring Your Own Git.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-10-15
+Valid as Of: 2024-11-15
+Version: ABAP Environment 2411
+
+--- Record 1928 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Referenced SAPUI5 Version
+Description: As part of hotfix collection 3, SAPUI5 version 1.127.5 is used for the administrator’s SAP Fiori launchpad, SAP-delivered Fiori apps, and the custom-built SAP Fiori apps, which are deployed to the ABAP system.  See SAP BTP ABAP Environment – Maintenance Windows and Major Upgrade Windows in 2024 and SAP UI5
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-08-06
+Valid as Of: 2024-11-15
+Version: ABAP Environment 2411
+
+--- Record 1929 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Security Incident and Event Management API for Read Access Logs
+Description: The communication scenario SAP_COM_0915 provides access to APIs to read the Read Access Logs from the system. The API can for instance be leveraged by a Security Incident and Event Management (SIEM) system.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-11-15
+Valid as Of: 2024-11-15
+Version: ABAP Environment 2411
+
+--- Record 1930 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Support of Launchpad App Descriptor Items in ABAP Development Tools for Eclipse
+Description: You can now create and maintain launchpad app descriptor items in ABAP development tools for Eclipse. These items describe how an application is started and consist of a target mapping and one or more tiles.  For more information, see SAP Fiori Applications in the ABAP Environment and Working with Launchpad App Descriptor Items.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-10-15
+Valid as Of: 2024-11-15
+Version: ABAP Environment 2411
+

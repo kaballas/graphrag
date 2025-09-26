@@ -1,0 +1,130 @@
+--- Record 551 ---
+Component: Cloud Logging
+Environment: Cloud Foundry,Kyma,Other
+Title: New regions available
+Description: SAP Cloud Logging service is now available on regions: cf-jp31, cf-eu31, cf-ca20, cf-ap31. For more information, see Regions for the Kyma Environment and Regions and API Endpoints Available for the Cloud Foundry Environment
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2025-06-30
+Valid as Of: 2025-06-30
+Version: Cloud
+
+--- Record 552 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: SAP Build Process Automation, Foundation Add-On by UiPath 2.0
+Description: SAP Build Process Automation, Foundation Add-On by UiPath 2.0 offers the following enhancements:  You can now share your feedback and complete a survey while using UiPath automations.  You can now enable task updates to be pushed from UiPath. See step 1 and 2, and the tc.clientId property in Connect UiPath and SAP Task Center.  Improved automation support for SAP applications and enhanced out-of-band logging capabilities for SAP SuccessFactors and SAP Ariba applications.  Improved user session management when using the UiPath Add-on. See SAP Note 3615220     For more information about the solution extension SAP Build Process Automation, Foundation Add-On by UiPath 2.0, contact your local sales representative.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-06-30
+Valid as Of: 2025-06-30
+Version: Cloud
+
+--- Record 553 ---
+Component: Variant Configuration
+Environment: Cloud Foundry
+Title: Configurations API – Prevent Stack Overflow During Size Calculation
+Description: The size calculation for the cache handling may use deeply recursive calls for the size calculation of a knowledge-base runtime version. For some modeling approaches like very long procedures this sometimes used to cause stack overflow errors. This issue has been corrected.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-07-08
+Valid as Of: 2025-06-30
+Version: Cloud
+
+--- Record 554 ---
+Component: API Management
+Environment: Cloud Foundry
+Title: Tenant Cloning Tool version 2.0.1
+Description: The 2.0.1 version of the Tenant Cloning Tool is now available.   See: Tenant Cloning Tool Behavior    Clone API Management Content (Neo to Cloud Foundry)      Clone API Management Content between Cloud Foundry Environments      SAP API Management customers choose: Tenant Cloning Tool Behavior    Clone API Management Content (Neo to Cloud Foundry)    Clone API Management Content between Cloud Foundry Environments  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-06-29
+Valid as Of: 2025-06-29
+Version: 2505
+
+--- Record 555 ---
+Component: Connectivity
+Environment: Cloud Foundry,Neo
+Title: Cloud Connector 2.18.1.2 - Hotfix
+Description: Release of Cloud Connector version 2.18.1.2 provides the following bug fix:  This hotfix for Cloud Connector fixes an upgrade issue in 2.18.1 that could cause the following problem, which can be seen in the upgrade output:  (Switching TLS email configuration to dedicated trust store configuration in scc_config.ini.  Exception in thread "main" java.lang.NoClassDefFoundError: com/sap/scc/servlets/TrustStoreConfiguration$TrustOption  In addition, memory leaks in the following contexts were fixed:    RFC usage statistics  RFC processing: As heap consumption increased over time, the Cloud Connector could get slower due to many garbage collections after running for a while, depending on the load that was processed.    Recommended action:  Please use the hotfix version 2.18.1.2 for an upgrade instead of 2.18.1 to avoid these issues.
+Action: Recommended
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-09-08
+Valid as Of: 2025-06-27
+Version: Cloud
+
+--- Record 556 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Landscape Portal: Creating Multiple Plans
+Description: The Maintain Solution app in the Landscape Portal is now draft-enabled and allows you to create multiple plans for the same solution. See Maintain Solution. .
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-08-05
+Valid as Of: 2025-06-27
+Version: ABAP Environment 2505
+
+--- Record 557 ---
+Component: Cloud Integration for Data Services
+Environment: Neo
+Title: Support for Microsoft Managed Identities
+Description: SAP Cloud Integration for data services now supports Azure user-assigned and system-assigned managed identities as an authentication method for connecting to Microsoft SQL Server databases hosted as PaaS (Platform-as-a-Service) on Azure and to Gen 2 Azure Data Lake Storage file locations. For more information, see the following topics:  Setting Up Your Environment for Microsoft Managed Identities  Microsoft SQL Server  Create a File Location Object  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Database and Data Management
+Latest Revision: 2025-05-20
+Valid as Of: 2025-06-27
+Version: 1.0.11.57
+
+--- Record 558 ---
+Component: Connectivity
+Environment: Cloud Foundry
+Title: Java Connector - Stateful Sessions
+Description: The built-in Java Connector (JCo) for SAP BTP now supports stateful sessions across multiple HTTP requests.  For more information, see Invoking ABAP Function Modules via RFC.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-06-27
+Valid as Of: 2025-06-27
+Version: Cloud
+
+--- Record 559 ---
+Component: Region
+Environment: Cloud Foundry
+Title: Additional NAT IP Range Added to Amazon Web Services Region us10
+Description: An additional NAT IP address range was added for the following SAP BTP region running on AWS:  us10 – US East (VA)    The additional IP address range will start to be used after October 2025.  Action:  If your Cloud Foundry applications connect to systems which restrict access by allowlisting IPs in firewall rules, make sure to adopt your configuration before October, 2025.  You can find the list of IPs in Regions and API Endpoints for the Cloud Foundry Environment.
+Action: Required
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2025-06-24
+Valid as Of: 2025-06-26
+Version: Cloud
+
+--- Record 560 ---
+Component: Java Server
+Environment: Neo
+Title: Tomcat version for Java Web Tomcat 10
+Description: Java Web Tomcat 10 (runtime version 5.25) has been updated to Tomcat version 10.1.41.  See the Changelog and Security Fixes.  Recommended action: Update your applications to the latest runtime version. See Keeping Your Application Runtimes Up-to-date.
+Action: Recommended
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-06-26
+Valid as Of: 2025-06-26
+Version: Cloud
+

@@ -1,0 +1,130 @@
+--- Record 3071 ---
+Component: SAP Data Intelligence
+Environment: Cloud Foundry
+Title: Deprecation/Decommissioning of Machine Learning Operators and Image Tags
+Description: The SAP Data Intelligence Machine Learning Guide now includes a section that provides updates about the Machine Learning components. In this section, you can find information about deprecated operators, image tags, and applications. The section includes the timeline for the complete removal of the components with appropriate replacements.  For more information, see Deprecation of Machine Learning Components and SAP Note 2958072 .
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2022-01-01
+Valid as Of: 2024-04-20
+Version: Cloud
+
+--- Record 3072 ---
+Component: SAP Data Intelligence
+Environment: Cloud Foundry
+Title: End of SAP Data Intelligence Cloud Maintenance
+Description: To enable secure planning and to support a sufficient transition phase from SAP Data Intelligence Cloud to SAP Datasphere, SAP provides maintenance for SAP Data Intelligence Cloud until December 31, 2028.  For more information, see 3423165  and https://community.sap.com/t5/technology-blogs-by-sap/sap-datasphere-and-sap-data-intelligence-cloud-what-does-this-mean-for-me/ba-p/13603947 on the SAP Community website.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2022-01-01
+Valid as Of: 2024-04-20
+Version: Cloud
+
+--- Record 3073 ---
+Component: SAP Data Intelligence
+Environment: Cloud Foundry
+Title: Google BigQuery Table Loader Operator Deprecated
+Description: The Google BigQuery Table Loader operator (com.sap.dh.ds.gbq.producer) is deprecated. Upgrade to Generation 2 Cloud Table Producer (com.sap.cloud.table.producer) operator.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2022-01-01
+Valid as Of: 2024-04-20
+Version: Cloud
+
+--- Record 3074 ---
+Component: SAP Data Intelligence
+Environment: Cloud Foundry
+Title: Kafka Operators Support for Embedded Credentials
+Description: Kafka operators now support new fields available in the Kafka connection for embedded credentials.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2022-01-01
+Valid as Of: 2024-04-20
+Version: Cloud
+
+--- Record 3075 ---
+Component: SAP Data Intelligence
+Environment: Cloud Foundry
+Title: Microsoft SQL Server 2022 Support
+Description: You can now create MSSQL connections with the version "Microsoft SQL Server 2022" to connect to databases with this version.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2022-01-01
+Valid as Of: 2024-04-20
+Version: Cloud
+
+--- Record 3076 ---
+Component: SAP Data Intelligence
+Environment: Cloud Foundry
+Title: Pipeline Engine Runtime API Support for Tenant-Wide Requests
+Description: Monitoring and administrative users can now get tenant-wide graph runtime data.  For more information, see SAP Business Accelerator Hub.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2022-01-01
+Valid as Of: 2024-04-20
+Version: Cloud
+
+--- Record 3077 ---
+Component: SAP Data Intelligence
+Environment: Cloud Foundry
+Title: Python Updated to 3.9
+Description: The Python environment in the Machine Learning tools for SAP Data Intelligence has been updated to Python 3.9. This change provides a more updated and standardized environment. The JupyterLab version has also been increased.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2022-01-01
+Valid as Of: 2024-04-20
+Version: Cloud
+
+--- Record 3078 ---
+Component: SAP Data Intelligence
+Environment: Cloud Foundry
+Title: Reduce Duplicate Records During Initial Load
+Description: Duplicate part files in the target object store have been frequently observed after the RMS worker graph crashed. This update tries to minimize the creation of duplicate part files when performing replications of initial load type into object store target.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2022-01-01
+Valid as Of: 2024-04-20
+Version: Cloud
+
+--- Record 3079 ---
+Component: SAP Data Intelligence
+Environment: Cloud Foundry
+Title: SAP Cloud Connector and SFTP Connections
+Description: The SFTP (SSH File Transfer Protocol) connection type now supports connecting to on-premise sources with the SAP Cloud Connector.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2022-01-01
+Valid as Of: 2024-04-20
+Version: Cloud
+
+--- Record 3080 ---
+Component: SAP Data Intelligence
+Environment: Cloud Foundry
+Title: Send Email operator (Generation 2) Available
+Description: The Send Email operator is now available in Generation 2.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2022-01-01
+Valid as Of: 2024-04-20
+Version: Cloud
+

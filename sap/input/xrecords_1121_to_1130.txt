@@ -1,0 +1,130 @@
+--- Record 1121 ---
+Component: SAP Java Buildpack
+Environment: Cloud Foundry
+Title: Version 2.27.0
+Description: SAP Java Buildpack 2 has been updated from version 2.26.0 to 2.27.0. Updated components:      For Spring Boot applications, JDBC drivers are now loaded from the BOOT-INF/lib directory. See: Application-Provided Library Components        Tomcat 10 is updated from version 10.1.36 to 10.1.39      otel-agent is updated from version 2.12.0 to 2.13.1      otel-agent-ext-java is updated from version 1.5.23 to 1.5.24      com.fasterxml.jackson is updated from version 2.18.2 to 2.18.3      com.sap.cloud.connectivity.apiext is updated from version 3.39.0 to 3.43.0    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-03-21
+Valid as Of: 2025-04-03
+Version: Cloud
+
+--- Record 1122 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Kyma CLI version 3.0.0 released
+Description: We're excited to introduce a new, redesigned version of Kyma CLI for SAP, BTP Kyma runtime!  Version 3.0.0 is the first milestone in transforming Kyma CLI into a tool for application developers who use the SAP, BTP Kyma runtime as their Kubernetes-based runtime.  We introduced a completely new set of commands that are more oriented toward simplifying and automating the steps required in the application development process in Kyma. After we receive your feedback, we will fine-tune the final API of the alpha command group.  The new feature highlights are the following:      The code-to-app capability of the app push command. It automates the process of getting a running app from your source code.      Hands-on interaction with the API of Kyma and its modules (Function CR and ServiceInstance/Binding CRs as first ones).      Enabling easy automation for some common tasks developers usually do on Kubernetes clusters (for example, generating new access for service accounts).      SAP BTP Platform-specific commands allowing binding remote service instances.      For more information about the tool, check out the Kyma CLI documentation.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2025-04-02
+Valid as Of: 2025-04-02
+Version: Cloud
+
+--- Record 1123 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Telemetry module: Update to version 1.36.0
+Description: The new version brings the following improvements:      Support for Elliptic Curve-based private keys (#1906).      Logs: Update to Fluent Bit 3.2.8 (#1934).    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-03-19
+Valid as Of: 2025-04-02
+Version: Cloud
+
+--- Record 1124 ---
+Component: Variant Configuration
+Environment: Cloud Foundry
+Title: Faster Loading of Knowledge Bases with Many Classes
+Description: Loading a large knowledge base with many materials, classes, and complex class hierarchies used to be too slow. This issue has been corrected.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-03-31
+Valid as Of: 2025-04-02
+Version: Cloud
+
+--- Record 1125 ---
+Component: Data Attribute Recommendation
+Environment: Cloud Foundry
+Title: Overall Improvements
+Description: There have been several code and stability improvements.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-04-01
+Valid as Of: 2025-04-01
+Version: Cloud
+
+--- Record 1126 ---
+Component: SAP AI Launchpad
+Environment: Cloud Foundry
+Title: Generative AI hub
+Description: Additional selected models and model versions from Open AI are supported.  For more information, see 3437766 .
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2025-04-01
+Valid as Of: 2025-04-01
+Version: Cloud
+
+--- Record 1127 ---
+Component: Continuous Integration & Delivery
+Environment: Cloud Foundry
+Title: Deprecation of the SAP Fiori for the Neo Environment Pipeline
+Description: Due to the legacy Neo environment sunset on December 31, 2028, the SAP Fiori in the Neo Environment pipeline has been deprecated and is no longer available for new jobs. Existing jobs will continue to work until March 31st, 2025.
+Action: Info only
+Lifecycle: Deleted
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-12-13
+Valid as Of: 2025-03-31
+Version: Cloud
+
+--- Record 1128 ---
+Component: Business Entity Recognition
+Environment: Cloud Foundry
+Title: Service Removal
+Description: Business Entity Recognition is scheduled to be removed from the list of Eligible Cloud Services as of March 31, 2025. The service will be available until the end of the current subscription term. It will not be available for renewal terms that begin after the removal date.  Users are going to be able to consume the capabilities of the Business Entity Recognition service via the SAP Document AI service. For more information, see the blog post: [sunset] Business Entity Recognition is getting deprecated 02/25.
+Action: Info only
+Lifecycle: Deprecated
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-04-04
+Valid as Of: 2025-03-31
+Version: Cloud
+
+--- Record 1129 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Additional Google Cloud Platform Regions
+Description: You can choose from additional Google Cloud Platform regions for the SAP BTP ABAP environment: Brazil (São Paulo) and Japan (Osaka).  For more information, see Regions and API Endpoints for the ABAP Environment.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-04-14
+Valid as Of: 2025-03-31
+Version: ABAP Environment 2505
+
+--- Record 1130 ---
+Component: Cloud Logging
+Environment: Cloud Foundry
+Title: Cloud Logging service is available on sa31
+Description: New: Cloud Logging service is available on sa31.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2025-03-31
+Valid as Of: 2025-03-31
+Version: Cloud
+

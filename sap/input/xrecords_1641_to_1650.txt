@@ -1,0 +1,130 @@
+--- Record 1641 ---
+Component: Edge Integration Cell
+Environment: Cloud Foundry
+Title: New PGP View
+Description: The new PGP view is now available for Edge Integration Cell, allowing you to manage Public and Secret Keyrings. For more information, see: Manage PGP Keyrings for Edge Integration Cell.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-01-11
+Valid as Of: 2025-01-11
+Version: 2412
+
+--- Record 1642 ---
+Component: Edge Integration Cell
+Environment: Cloud Foundry
+Title: Software Version Update
+Description:     Edge Integration Cell: 8.25.*    Increment: 2412  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-01-11
+Valid as Of: 2025-01-11
+Version: 2412
+
+--- Record 1643 ---
+Component: Integration Advisor
+Environment: Cloud Foundry,Neo
+Title: Creating a Custom IDoc
+Description: When creating a custom IDoc, you can now define a naming convention in the format Message Type.IDoc Type.Extension Type.  See: Adding a Custom Message
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-01-11
+Valid as Of: 2025-01-11
+Version: 2412
+
+--- Record 1644 ---
+Component: Integration Advisor
+Environment: Cloud Foundry,Neo
+Title: Creating a MIG
+Description: When creating a MIG from a payload, you can now select specific nodes for qualification.  See: Creating a Message Implementation Guideline
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-01-11
+Valid as Of: 2025-01-11
+Version: 2412
+
+--- Record 1645 ---
+Component: Integration Advisor
+Environment: Cloud Foundry,Neo
+Title: Improved Mapping Proposal
+Description: To enhance the Proposal feature's capabilities, Draft MIGs and MAGs will now be published to the knowledge base, in addition to active ones. You can opt-in/opt-out of this feature in the settings.  See: Settings 
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-01-11
+Valid as Of: 2025-01-11
+Version: 2412
+
+--- Record 1646 ---
+Component: Integration Advisor
+Environment: Cloud Foundry,Neo
+Title: Simulating a MAG
+Description: Simulation errors in the MAG editor now displays the specific nodes and corresponding links for easy identification.  See: Simulating a Mapping Guideline
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-01-11
+Valid as Of: 2025-01-11
+Version: 2412
+
+--- Record 1647 ---
+Component: Integration Advisor
+Environment: Cloud Foundry,Neo
+Title: Software Version Update
+Description:   SAP Integration Advisor: 1.95.*    Increment: 2412    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-01-11
+Valid as Of: 2025-01-11
+Version: 2412
+
+--- Record 1648 ---
+Component: Integration Advisor
+Environment: Cloud Foundry,Neo
+Title: Validating a XSLT Snippet
+Description: You can now validate XSLT code for a function directly in the MAG editor at compile time. This feature displays detailed error messages, including line numbers for quick resolution:  See: Using Functions
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-01-11
+Valid as Of: 2025-01-11
+Version: 2412
+
+--- Record 1649 ---
+Component: Integration Assessment
+Environment: Cloud Foundry
+Title: Get Detailed Descritpions in Questionnaires
+Description: You will now find a   Hint icon next to select answer options in Integration Assessment questionnaires. You can select these icons to see a detailed description of the option.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-01-11
+Valid as Of: 2025-01-11
+Version: 2412
+
+--- Record 1650 ---
+Component: Integration Assessment
+Environment: Cloud Foundry
+Title: Software Version Update
+Description:     Integration Assessment: 1.35.*      Increment: 2412    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-01-11
+Valid as Of: 2025-01-11
+Version: 2412
+

@@ -1,0 +1,130 @@
+--- Record 2481 ---
+Component: SAP Java Buildpack
+Environment: Cloud Foundry
+Title: Version 2.16.0
+Description: SAP Java Buildpack 2 has been updated from version 2.14.0 to 2.16.0. Updated components:      com.sap.cloud.connectivity.apiext is updated from version 3.37.0 to 3.38.0      com.sap.core.connectivity.jco is updated from version 3.4.7 to 3.4.8      com.sap.hcp.cf.logging is updated from 3.8.3 to 3.8.4      otel-agent is updated from version 2.4.0 to 2.5.0      otel-agent-ext-java is updated from version 1.5.15 to 1.5.16    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-08-08
+Valid as Of: 2024-08-09
+Version: Cloud
+
+--- Record 2482 ---
+Component: Document Management Service
+Environment: Cloud Foundry
+Title: Deprecation of None Option for Onboarding Internal Repository with Hash Algorithms
+Description: The None option has been deprecated from the selection of hashing algorithms in both Document Management Service, Integration Option and Document Management Service, Application Option.  See:    Onboard Repository in Document Management Service, Integration Option.      Onboarding Internal Repository in Document Management Service, Application Option.    
+Action: Info only
+Lifecycle: Deprecated
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-08-08
+Valid as Of: 2024-08-08
+Version: Cloud
+
+--- Record 2483 ---
+Component: Cloud Logging
+Environment: Cloud Foundry
+Title: Dev Plan update
+Description: We have enabled storing audit logs for dev plan instances
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-08-08
+Valid as Of: 2024-08-08
+Version: Cloud
+
+--- Record 2484 ---
+Component: Cloud Management Tools,SAP BTP Cockpit,Usage Data Management
+Environment: ABAP,Cloud Foundry,Kyma,Neo,Other
+Title: Application Details Added to Monthly Usage Report API and Costs and Usage Spreadsheet
+Description: We've added an application's details per usage record to the response field application in the GET /reports/v1/monthlyUsage API of the SAP Usage Data Management Service for SAP BTP.   We've also included the application's details to the exportable spreadsheet from the Costs and Usage page in the SAP BTP cockpit. You can find this in the Application Details column (O) in the Actual Usage tab. See Monitoring Usage and Consumption Costs in Your Global Account.  Note that this API field and spreadsheet column will be empty for services that don't report this information.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-07-29
+Valid as Of: 2024-08-08
+Version: Cloud
+
+--- Record 2485 ---
+Component: Connectivity
+Environment: Cloud Foundry,Neo
+Title: Cloud Connector 2.17.1 - Bug Fixes
+Description: Release of Cloud Connector version 2.17.1 provides the following bug fixes:      The subaccount authentication data expiration was not calculated correctly and reported as expired, even if still valid.      Regressions in 2.17.0:        LDAP secure host flags (Secure Host and Secure Alternate Host) were neither stored in the LDAP draft configuration nor in the final configuration when pressing the Save Draft or Activate button.      On the subaccount overview page, the region host could have been shown as not reachable with message Proxy could not be reached, even though the subaccount is shown as connected and there is no proxy in use. Productive connections were not affected.       Adding a subaccount was not possible, if BTP is reached only via a proxy and the proxy returns an unexpected status code on check.       CPIC trace files were neither shown nor downloadable from the UI.       The Open Shadow button at the top of the High Availability screen did not result in any action.       If adding an RFC SNC access control entry without load balancing logon, the virtual port had an additional 's' at the end. Such an entry could not be used from the cloud side.         These issues have been fixed.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-08-08
+Valid as Of: 2024-08-08
+Version: Cloud
+
+--- Record 2486 ---
+Component: Connectivity
+Environment: Cloud Foundry,Neo
+Title: Cloud Connector 2.17.1 - Enhancements
+Description: Release of Cloud Connector version 2.17.1 provides the following enhancement:    Additional filters were added in the access control table in which the mappings of virtual to internal systems are listed.  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-08-08
+Valid as Of: 2024-08-08
+Version: Cloud
+
+--- Record 2487 ---
+Component: Connectivity
+Environment: Cloud Foundry,Neo
+Title: Cloud Connector 2.18.0 - OS Versions
+Description: With the next planned feature release of the Cloud Connector (2.18.0), we will discontinue support of the following OS versions:     Windows 7, 8.1  Windows Server 2012, 2012 R2  SUSE Linux Enterprise Server 12  Red Hat Enterprise Linux 7  macOS 10.14,10.15, 11 (x86_64)    The following OS versions do no longer work for existing releases already:    SUSE Linux Enterprise Server 11  Red Hat Enterprise Linux 6  macOS 10.7-10.13 (x86_64)  
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-08-08
+Valid as Of: 2024-08-08
+Version: Cloud
+
+--- Record 2488 ---
+Component: Document Management Service
+Environment: Cloud Foundry
+Title: Availability in Additional Regions
+Description: Document Management Service, Integration Option and Document Management Service, Application Option are now available in:  Israel (Tel Aviv) - (cf-il30), Google Cloud  Japan (Osaka) - (cf-jp30), Google Cloud  KSA (Dammam) - (cf-sa30), Google Cloud    See information available on the  SAP Discovery Center.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-08-08
+Valid as Of: 2024-08-08
+Version: Cloud
+
+--- Record 2489 ---
+Component: Document Management Service
+Environment: Cloud Foundry
+Title: Content Cache
+Description: The content caching feature can now be enabled when onboarding an internal repository.  See the respective options mentioned in the following topics:    Onboard Repository in Document Management Service, Integration Option.      Onboarding Internal Repository in Document Management Service, Application Option.    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-08-08
+Valid as Of: 2024-08-08
+Version: Cloud
+
+--- Record 2490 ---
+Component: Document Management Service
+Environment: Cloud Foundry
+Title: Enhanced Validation Checks for Repository Access
+Description: Repositories associated with a service instance are accessible only through that service instance and cannot be accessed through any other service instance.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-08-08
+Valid as Of: 2024-08-08
+Version: Cloud
+

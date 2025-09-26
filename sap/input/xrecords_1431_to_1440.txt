@@ -1,0 +1,130 @@
+--- Record 1431 ---
+Component: SAP Build Apps
+Environment: Cloud Foundry
+Title: Mobile
+Description:   Depending on your development environment, you might have an additional option to build your iOS project using your Team ID and then perform code-signing on your macOS device. For more information, see iOS Builds  The iOS builds now support only devices with software versions iOS 17 and higher. To learn more, see iOS Builds.  
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-02-12
+Valid as Of: 2025-02-12
+Version: Cloud
+
+--- Record 1432 ---
+Component: Variant Configuration
+Environment: Cloud Foundry
+Title: Configurations API –Exclude Globally Assigned Characteristics Properly from Configuration Results
+Description: For a few scenarios in which the characteristics are assigned at different levels in the class hierarchy, and overwritten at more special levels, the response filtered those characteristics although they were assigned to classes. This issue has been corrected.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-02-10
+Valid as Of: 2025-02-12
+Version: Cloud
+
+--- Record 1433 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Authorizations Based оn Policies
+Description: As of February 11, 2025, the MANAGE_USERS policy will no longer contain the read applications permission.  Action: If your scenario requires this permission, you must add the READ_APPLICATIONS policy to the user or users that need it. See how to do this at Configure Application Authorizations | SAP Help Portal.
+Action: Required
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2025-01-14
+Valid as Of: 2025-02-11
+Version: 27268
+
+--- Record 1434 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Authorizations Based оn Policies
+Description: As of February 11, 2025, the MANAGE_USERS policy no longer contains the read applications permission.  Action: If your scenario requires this permission, you must add the READ_APPLICATIONS policy to the user or users that need it. See how to do this at Configure Application Authorizations | SAP Help Portal.
+Action: Required
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2025-02-11
+Valid as Of: 2025-02-11
+Version: 27419
+
+--- Record 1435 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Central store logs
+Description: Central store logs are introduced to provide information about the application-specific groups provisioned from the Identity Directory to target systems.  For more information, see Monitor Central Store Logs.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-02-11
+Valid as Of: 2025-02-11
+Version: 27419
+
+--- Record 1436 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Disabling ID Token Hints for Corporate Identity Providers During Logout
+Description: Corporate identity providers sometimes have trouble when the ID token is included as a URL parameter in logout requests. With this release, you can disable the inclusion of the URL parameter.  For more information, see Disable ID Token Hints for Corporate Identity Providers.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-02-11
+Valid as Of: 2025-02-11
+Version: 27419
+
+--- Record 1437 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Enforce Nonces for Authentication Requests to Corporate Identity Providers
+Description: Some corporate identity providers require that applications send nonces in their authentication requests. You can enable the service to generate nonces if applications don't provide them.  For more information, Enforce Nonces for Corporate Identity Providers.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-02-11
+Valid as Of: 2025-02-11
+Version: 27419
+
+--- Record 1438 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Group mapping changes
+Description: The default transformations of SAP Ariba Central Invoice Management, SAP Sales Cloud and SAP Service Cloud, Microsoft Entra ID, and SAP Application Server ABAP are changed to support the provisioning of application-specific groups.  For more information, refer to the relevant connector documentation under Supported Systems.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-02-11
+Valid as Of: 2025-02-11
+Version: 27419
+
+--- Record 1439 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: New conditional function implemented
+Description: The conditional function isRegularGroup is implemented to verify whether a given group is a regular user group. It checks consecutively the values of the group attributes supportedOperations and applicationId and returns a Boolean result.  For more information, see Transformation Functions.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-02-11
+Valid as Of: 2025-02-11
+Version: 27419
+
+--- Record 1440 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Provisioning sub-attributes of emails attribute
+Description: Changes in the proxy read transformations of Identity Authentication (version 1 and 2) and Local Identity Directory ensure that Identity Provisioning now reads all sub-attributes of the emails attribute as defined in the SCIM core schema (that is, value, type, primary, display).  For more information, see Identity Authentication (Proxy) and Local Identity Directory (Proxy).
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-02-11
+Valid as Of: 2025-02-11
+Version: 27419
+

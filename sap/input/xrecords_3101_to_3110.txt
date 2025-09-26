@@ -1,0 +1,130 @@
+--- Record 3101 ---
+Component: Content Agent Service
+Environment: Cloud Foundry
+Title: Integration with UI Theme Designer
+Description: You can now use the Content Agent UI to transport custom themes created in UI Theme Designer.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2024-04-18
+Version: Cloud
+
+--- Record 3102 ---
+Component: SAP BTP Cockpit,SAP SaaS Provisioning Service
+Environment: Cloud Foundry
+Title: View Existing Instance Configuration Parameters for SaaS Provisioning Service
+Description: You can now view existing SaaS Provisioning service instance configuration parameters within the Update Service Instance wizard in the SAP BTP cockpit. This provides a clearer picture of your current configuration, allowing you to make informed updating decisions.  See Updating Service Instances.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-04-08
+Valid as Of: 2024-04-18
+Version: Cloud
+
+--- Record 3103 ---
+Component: SAP BTP Cockpit,Service Manager
+Environment: Cloud Foundry,Other
+Title: Enhanced Filtering Options for Service Keys and Bindings
+Description: On the Instances and Subscriptions page in the SAP BTP Cockpit, you can now view creation and modification timestamps for your service keys and bindings. We've also added sorting options to the Credentials column, allowing you to sort by name, creation date, modified date, and status.  See Service Bindings.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-04-08
+Valid as Of: 2024-04-18
+Version: Cloud
+
+--- Record 3104 ---
+Component: SAP BTP Developer's Guide
+Environment: ABAP
+Title: Explore the Develop a Full-Stack RAP Application Following the SAP BTP Developer’s Guide Mission
+Description: There is a new mission published that is part of the hands-on materials for ABAP Cloud: Develop a Full-Stack RAP Application Following the SAP BTP Developer’s Guide. It is based on the Travel sample application of the Flight Reference Scenario that is the best practice example for developing, deploying, and operating a full-stack application using ABAP RESTful Application Programming Model (RAP) and SAP Fiori.  See Tutorials for ABAP Cloud.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-04-18
+Valid as Of: 2024-04-18
+Version: Cloud
+
+--- Record 3105 ---
+Component: SAP BTP Service Operator,Service Manager
+Environment: Kubernetes
+Title: Custom Formats for Service Binding Secrets
+Description: You can now use custom templates to model your service binding Secret according to your needs.   See Custom Formats.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-04-08
+Valid as Of: 2024-04-18
+Version: Cloud
+
+--- Record 3106 ---
+Component: SAP BTP, Cloud Foundry Runtime
+Environment: Cloud Foundry
+Title: Version 39.8.0
+Description: Cloud Foundry has been updated from 39.3.0 to 39.8.0.    https://github.com/cloudfoundry/cf-deployment/releases/tag/v39.8.0  https://github.com/cloudfoundry/cf-deployment/releases/tag/v39.7.0  https://github.com/cloudfoundry/cf-deployment/releases/tag/v39.6.0  https://github.com/cloudfoundry/cf-deployment/releases/tag/v39.5.0  https://github.com/cloudfoundry/cf-deployment/releases/tag/v39.4.0  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-04-18
+Valid as Of: 2024-04-18
+Version: Cloud
+
+--- Record 3107 ---
+Component: SAP Build Apps
+Environment: Cloud Foundry
+Title: Web & Mobile
+Description:   Released the SAP Build Library integration feature, enabling the native use of Processes in SAP Build Apps.  
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-04-18
+Valid as Of: 2024-04-18
+Version: Cloud
+
+--- Record 3108 ---
+Component: SAP Build Work Zone, advanced edition
+Environment: Cloud Foundry
+Title: Content Manager UI Enhancements
+Description: The Content Manager UI was enhanced, including changing the Assignments UI in the editors from a panel to a dedicated tab.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-04-18
+Valid as Of: 2024-04-18
+Version: Cloud
+
+--- Record 3109 ---
+Component: SAP Build Work Zone, advanced edition
+Environment: Cloud Foundry
+Title: CSRF Protection for Dynamic Destinations
+Description: Today our approuters do not provide CSRF protection for dynamic destinations. It’s assumed that backends behind the destinations, handle CSRF protection on their own.   New security measures have been introduced to enable CSRF protection by the approuter. This is done by setting the CEP.EnableCsrfProtection property to true for all dynamic destinations where their respective backend doesn’t handle CSRF protection.  If your backend is already protected, there’s no need to add this property. 
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-04-18
+Valid as Of: 2024-04-18
+Version: Cloud
+
+--- Record 3110 ---
+Component: SAP Build Work Zone, advanced edition
+Environment: Cloud Foundry
+Title: Exporting Workspaces with Images
+Description: The following issue has been fixed: when exporting a workspace that contains workpages with embedded images, those workpages will be lost when the workspace is imported. This issue has been fixed and all embedded images can be found under /content/workpage_xxx/images/.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-04-18
+Valid as Of: 2024-04-18
+Version: Cloud
+

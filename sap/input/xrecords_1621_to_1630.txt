@@ -1,0 +1,130 @@
+--- Record 1621 ---
+Component: SAP Task Center
+Environment: Cloud Foundry
+Title: Real User Monitoring Available for SAP Task Center
+Description: You can now use the integration of SAP Task Center with SAP Cloud ALM to monitor application usage and performance with Real User Monitoring.  For more information, see Integration with SAP Cloud ALM.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-01-16
+Valid as Of: 2025-01-16
+Version: Cloud
+
+--- Record 1622 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Identity Directory API
+Description: As of January 14, 2025, to filter for attributes or excludedAttributes via the Identity Directory API, the filtered attributes or excludedAttributes in the request must be in the format schemaName:attributeName. For example: attributes=urn:ietf:params:scim:schemas:extension:sap:2.0:User:userUuid  See Identity Directory API Reference.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-12-09
+Valid as Of: 2025-01-14
+Version: 2413b
+
+--- Record 1623 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Regular Upgrade
+Description: Cloud Identity Services have been upgraded.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-01-14
+Valid as Of: 2025-01-14
+Version: 27268
+
+--- Record 1624 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: SAP Build Work Zone, advanced edition - userType provisioning
+Description: The condition for user.groups[] attributes in the write transformation of SAP Build Work Zone, advanced edition is enhanced to support the provisioning of users with their userType based on the names of the groups that are assigned to them. The change is valid for scenarios in which the name of the group matches its displayName.For more information, see SAP Build Work Zone, advanced edition.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-01-14
+Valid as Of: 2025-01-14
+Version: 27268
+
+--- Record 1625 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Tenant Reset renamed to Reset Provisioning Settings
+Description: The Tenant Reset option, which enables you to delete all provisioning systems configured for your tenant, along with scheduled jobs, subscriptions, and logs, has been renamed to Reset Provisioning Settings.  For more information, see Reset Identity Provisioning Settings.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-01-14
+Valid as Of: 2025-01-14
+Version: 27268
+
+--- Record 1626 ---
+Component: Identity Provisioning
+Environment: Neo
+Title: SAP Build Work Zone, advanced edition - userType provisioning
+Description: The condition for user.groups[] attributes in the write transformation of SAP Build Work Zone, advanced edition is enhanced to support the provisioning of users with their userType based on the names of the groups that are assigned to them. The change is valid for scenarios in which the name of the group matches its displayName. For more information, see SAP Build Work Zone, advanced edition.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-01-14
+Valid as Of: 2025-01-14
+Version: Cloud
+
+--- Record 1627 ---
+Component: Identity Provisioning
+Environment: Neo
+Title: Tenant Reset renamed to Reset Provisioning Settings
+Description: The Tenant Reset option, which enables you to delete all provisioning systems configured for your tenant, along with scheduled jobs, subscriptions, and logs, has been renamed to Reset Provisioning Settings.  For more information, see Reset Identity Provisioning Settings.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-01-14
+Valid as Of: 2025-01-14
+Version: Cloud
+
+--- Record 1628 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Serverless module: Update to version 1.6.0
+Description: With this release, we removed Node.js v18 and Python 3.9 runtimes, deprecated with the 1.4.0 version, and added support for Node.js v22.  In addition, we improved memory management by limiting Secret caching by label.  We also deprecated the Function attributes related to the Function build, as we plan to remove this stage of Function processing in the future.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-01-08
+Valid as Of: 2025-01-14
+Version: Cloud
+
+--- Record 1629 ---
+Component: SAP Digital Payments Add-On
+Environment: Cloud Foundry
+Title: Retrieval of transaction details enabled
+Description: You can now retrieve transaction details for direct capture transactions using the SAP digital payments add-on consumer application API.  For more information, see Consumer Application API. 
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Finance
+Latest Revision: 2024-01-01
+Valid as Of: 2025-01-14
+Version: Cloud
+
+--- Record 1630 ---
+Component: Application for Data Replication and Administration
+Environment: Cloud Foundry
+Title: Zero Maintenance Downtime
+Description: The weekly maintenance windows have been eliminated. Major upgrade windows have been shortened from 8 hours to 4 hours, and start times aligned with BTP and HANA Cloud.   See Service Level Agreement.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-01-17
+Valid as Of: 2025-01-13
+Version: Cloud
+

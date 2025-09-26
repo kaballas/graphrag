@@ -1,0 +1,130 @@
+--- Record 3771 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: Template API
+Description: From now, you can't download documents that are part of the template export package but haven't been malware-scanned during upload. You can download malware-scanned documents only.  See Export Template.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2023-12-11
+Valid as Of: 2023-12-11
+Version: Cloud
+
+--- Record 3772 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Enable Customer-Managed Key (CMK) Using SAP Data Custodian Keys
+Description: Some customers have the option to manage their own keys in the Cloud Foundry environment, rather than have SAP manage them.  For more information, see SAP Key Management Service Integration (Restricted Availability).
+Action: Info only
+Lifecycle: Restricted Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-12-10
+Valid as Of: 2023-12-10
+Version: Cloud
+
+--- Record 3773 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Referenced SAPUI5 Version
+Description: As part of hotfix collection 5, SAPUI5 version 1.117.5 is used for the administrator’s SAP Fiori launchpad, SAP-delivered Fiori apps, and the custom-built SAP Fiori apps, which are deployed to the ABAP system.  See SAP BTP ABAP Environment – Maintenance Windows and Major Upgrade Windows in 2023 and SAP UI5
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-12-09
+Valid as Of: 2023-12-09
+Version: ABAP Environment 2311
+
+--- Record 3774 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Referenced SAPUI5 Version
+Description: As part of hotfix collection 5, SAPUI5 version 1.117.5 is used for the administrator’s SAP Fiori launchpad, SAP-delivered Fiori apps, and the custom-built SAP Fiori apps, which are deployed to the ABAP system.  See SAP BTP ABAP Environment – Maintenance Windows and Major Upgrade Windows in 2023 and SAP UI5
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-12-09
+Valid as Of: 2023-12-09
+Version: Cloud
+
+--- Record 3775 ---
+Component: SAP Digital Payments Add-On
+Environment: Cloud Foundry
+Title: Additional inbound IP addresses may be used
+Description: Additional inbound IP addresses (for communication from any IP address to SAP digital payments add-on) may be used in the EU10 region as of early 2024.   Action: If you manage your firewall using an allowlist, you should ensure that these new addresses are included in your allowlist. For the full current list, see Regions and API Endpoints Available for the Cloud Foundry Environment. In the table Regions for Enterprise Accounts, filter in the column Technical Key for cf-eu10. You will find the relevant IP addresses in the column LB IPs. Note that the SAP digital payments add-on does not use the extensions cf-eu10-002, cf-eu10-003, or cf-eu10-004 so you can omit the IP addresses mentioned there.
+Action: Recommended
+Lifecycle: General Availability
+Type: New
+Line of Business: Finance
+Latest Revision: 2024-01-01
+Valid as Of: 2023-12-08
+Version: Cloud
+
+--- Record 3776 ---
+Component: SAP HANA Cloud
+Environment: Cloud Foundry
+Title: New component version available
+Description: A new component version is now available for the following SAP HANA Cloud components:   2023.40 (QRC 4/2023) for SAP HANA Cloud, SAP HANA database  2023.4.3626 (QRC 4/2023) for SAP HANA Cloud, data lake      See What's New in SAP HANA Cloud.  Action: To use the new component version, you must upgrade your instance. See Managing SAP HANA Cloud Instances.
+Action: Recommended
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-12-07
+Valid as Of: 2023-12-07
+Version: Cloud
+
+--- Record 3777 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Regular Upgrade
+Description: Identity Authentication has been upgraded.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-12-06
+Valid as Of: 2023-12-06
+Version: Cloud
+
+--- Record 3778 ---
+Component: Identity Provisioning
+Environment: Neo
+Title: Automatic regeneration of outbound certificates
+Description: You can automatically regenerate and activate an outbound certificate within 14 days prior to its expiration. This way you will no longer need to periodically check your certificate validity and manually handle its renewal.  The functionality is available for customers with tenants running on SAP Cloud Identity Services infrastructure.  For more information, see: Generate and Manage Certificates for Outbound Connection
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2023-12-06
+Valid as Of: 2023-12-06
+Version: Cloud
+
+--- Record 3779 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Release of the Istio module
+Description: The Istio module is scheduled to be released to production on December 6. The module provides a stable and reliable method for installing Istio and configuring it using the Istio custom resource.Istio is a service mesh that helps manage, connect, and secure microservices. To learn more about the module’s capabilities, read the documentation.The Istio module is enabled by default in all new and existing clusters.We encourage you to learn more about Kyma’s modular approach, test the Istio module, and share your feedback in the Istio GitHub repository.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-12-29
+Valid as Of: 2023-12-06
+Version: Cloud
+
+--- Record 3780 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: New Service Plan: Premium Edition
+Description: The service plan premium edition is now generally available.  The new service plan allows you to use generative AI to automate use cases for business document processing with large language models (LLMs). Use generative AI to process business documents in more than 40 languages, and implement new business document use cases with shorter time to value.  You can also use an SAP BTP trial account to try out the document information extraction using generative AI. Follow the tutorial: Use Trial to Extract Information from Custom Documents with Generative AI and SAP Document AI.  See Service Plans and Metering and Pricing.  See also Supported Languages (Embedded Edition and Premium Edition), Add Fields to Schema Version, Setup Types, and Extraction Using Generative AI (Premium Edition): Best Practices.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-12-06
+Valid as Of: 2023-12-06
+Version: Cloud
+

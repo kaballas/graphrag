@@ -1,0 +1,130 @@
+--- Record 3041 ---
+Component: SAP Omnichannel Promotion Pricing
+Environment: Cloud Foundry
+Title: Handling of Missing and Overlapping Prices with Enable Tolerant Price Handling Flag in Configure Omnichannel Promotion Pricing App
+Description: You can now use a new flag Enable Tolerant Price Handling in the Configure Omnichannel Promotion Pricing application to facilitate the handling of missing and overlapping prices for calculation in the line item mode.  For more information, see Enabling Tolerant Price Handling in Line Item Mode.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2022-01-01
+Valid as Of: 2024-04-24
+Version: Cloud
+
+--- Record 3042 ---
+Component: SAP Omnichannel Promotion Pricing
+Environment: Cloud Foundry
+Title: Handling of Sales and Returns without the Original Transaction
+Description: The Handling of Sales and Returns without the Original Transaction has been enhanced. You can now maintain the field Calculation Base Type on the Promotional Rules detail page in the Maintain Promotions app. Additionally, the new transaction type ReturnTransaction has been added and is available as of Client API version 14.0.  For more information, see Handling of Sales and Returns without the Original Transaction.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2022-01-01
+Valid as Of: 2024-04-24
+Version: Cloud
+
+--- Record 3043 ---
+Component: SAP Omnichannel Promotion Pricing
+Environment: Cloud Foundry
+Title: Increasing of Maximum Number of Generic Attributes in Calculation Request
+Description: The maximum number of generic attributes (generic transaction attribute and generic line item attribute) allowed in a calculation request has been increased from 10 to 20. For more information, see Security.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2022-01-01
+Valid as Of: 2024-04-24
+Version: Cloud
+
+--- Record 3044 ---
+Component: SAP Omnichannel Promotion Pricing
+Environment: Cloud Foundry
+Title: Sunset of Industry Cloud Enterprise Agreement (ICEA)
+Description: Provisioning via Industry Cloud Enterprise Agreement (ICEA) is no longer possible.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2022-01-01
+Valid as Of: 2024-04-24
+Version: Cloud
+
+--- Record 3045 ---
+Component: SAP Omnichannel Promotion Pricing
+Environment: Cloud Foundry
+Title: Support of X.509 Certificates to Call Extension Implementations
+Description: You can also configure a destination with X.509 certificates to call your extension implementations. In this way, services are secured with mutual Transport Layer Security (mTLS). For more information, see Creating Destinations.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2022-01-01
+Valid as Of: 2024-04-24
+Version: Cloud
+
+--- Record 3046 ---
+Component: Java Server
+Environment: Neo
+Title: Java Web Tomcat 8 is deprecated
+Description: [Periodic reminder] We have stopped the support of Java Web Tomcat 8 runtime following the official announcement of Apache Tomcat 8.5 end of life.   Required Action: If you have Java applications running on that runtime, migrate to Java Web Tomcat 9 immediately. See Migrating from Java Web Tomcat 8 to Java Web Tomcat 9.
+Action: Required
+Lifecycle: Deprecated
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-04-23
+Valid as Of: 2024-04-23
+Version: Cloud
+
+--- Record 3047 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: New subaccount region available for Kyma
+Description: You can now create a Kyma subaccount in yet another BTP region: Australia (Sydney), cf-ap20, on Microsoft Azure. The australiaeast cluster region is available in the Microsoft Azure and Azure Lite plans.  For more information, see Regions for the Kyma Environment.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-04-23
+Valid as Of: 2024-04-23
+Version: Cloud
+
+--- Record 3048 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Telemetry module: Update to version 1.13.0
+Description: The new version brings the following improvements:  Logs:      You can now easily detect whether there is an invalid or expired client certificate, because the LogPipeline status shows what's wrong (#653).      Traces and Metrics:    Update to OTel Collector 0.97.0 (#923)  
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-04-09
+Valid as Of: 2024-04-23
+Version: Cloud
+
+--- Record 3049 ---
+Component: SAP Datasphere
+Environment: Cloud Foundry
+Title: Features for Version 2024.9
+Description: New and changed features are available for administration, data cataloging, data integration, and data modeling.  For more information, see What's New in SAP Datasphere 2024.9. 
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-04-23
+Valid as Of: 2024-04-23
+Version: Cloud
+
+--- Record 3050 ---
+Component: Mobile Services
+Environment: Cloud Foundry
+Title: Supported versions for Cloud Build Service
+Description: We've updated the supported versions for the Cloud Build service:    April 2024    Mobile Development Kit SDK Build Type (removed Customized Mobile Development Kit), SDK version, Android and iOS versions, and notes      SAP Asset Manager SDK version, Android and iOS versions, and notes          March 2024 - Mobile Development Kit SDK version, iOS version, and notes      February 2024    Mobile Development Kit SDK version, Android and iOS versions, and notes      SAP Asset Manager SDK version, Android and iOS versions, and notes          See Supported Build Types, Client Types, Packaging Details, and Build Options. 
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2024-04-22
+Version: Cloud
+

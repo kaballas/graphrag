@@ -1,0 +1,130 @@
+--- Record 4001 ---
+Component: Responsibility Management Service
+Environment: Cloud Foundry
+Title: Service Domains updated
+Description: We have updated Responsibility Management Service domains. Once you log in with the old URL, you are automatically redirected to the new domain.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-10-03
+Valid as Of: 2023-10-24
+Version: Cloud
+
+--- Record 4002 ---
+Component: SAP HANA Spatial Services
+Environment: Cloud Foundry,Kyma
+Title: nan
+Description:     Enhancements: Mapping API, Routing API, Geocoding API  Security updates have been implemented.      Bug Fix: Routing API  In Single Routing, the various property would not be correctly applied to single-routing requests for provider Trimble.  In Single Routing, the returned route geometries consisted of improper linestrings for provider Trimble.      Decommissioning: Routing API, Geocoding API  Parameters app_id and app_code for provider Here have been decommissioned. Now, only the parameter api_key is supported.  Routing API  Geocoding API    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2023-10-24
+Version: Cloud
+
+--- Record 4003 ---
+Component: Continuous Integration & Delivery
+Environment: Cloud Foundry
+Title: Automatic Login with WebdriverIO Tests
+Description: You can now use the automatic login feature from SAPUI5 when running WebdriverIO tests. See Authentication.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-10-23
+Valid as Of: 2023-10-23
+Version: Cloud
+
+--- Record 4004 ---
+Component: Continuous Integration & Delivery
+Environment: Cloud Foundry
+Title: Failing Job in Case of an Invalid package.json File
+Description: For a smooth Chromedriver update period, SAP Continuous Integration and Delivery tries to fetch the needed Chromedriver version from the package.json files that are part of the project. If one of these files had an invalid syntax, the connected jobs failed during the Init stage and showed a stack trace instead of a readable error message. Now, these jobs don’t stop in the Init phase anymore and report the invalid package.json file as information only.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2023-10-23
+Valid as Of: 2023-10-23
+Version: Cloud
+
+--- Record 4005 ---
+Component: Continuous Integration & Delivery
+Environment: Cloud Foundry
+Title: Information about Credential Usage
+Description: The detail screen of a credential now shows in which jobs or repositories it is being used.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-10-23
+Valid as Of: 2023-10-23
+Version: Cloud
+
+--- Record 4006 ---
+Component: Continuous Integration & Delivery
+Environment: Cloud Foundry
+Title: Transport Request ID in Build Log
+Description: If in the Release stage of your job, the upload to CTS+ is enabled, the ID of the created transport request is now displayed in the build log again.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2023-10-23
+Valid as Of: 2023-10-23
+Version: Cloud
+
+--- Record 4007 ---
+Component: Integration Assessment
+Environment: Cloud Foundry
+Title: Software Version Update
+Description:     Integration Assessment: 1.20.*    Increment: 2309  
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2023-10-23
+Valid as Of: 2023-10-23
+Version: 2309
+
+--- Record 4008 ---
+Component: Migration Assessment
+Environment: Cloud Foundry
+Title: Extraction Status for Data Extractions
+Description: Migration Assessment now displays the extraction status of a data extraction. The extraction status designates if the application encountered any warnings or errors during the extraction that might impact future evaluations of the data. If a data extraction finishes with warnings or errors, some data could not be extracted and might even not be used in the scenario evaluation. In these cases, see the extraction log for details and go back to your SAP Process Orchestration System and fix the issues before starting a new extraction.   Note that extraction status is not available for data extractions made before this software update. If you want to see the extraction status of data that was extracted before the update, you must create a new data extraction with the dataset.  See Concepts and Create a Data Extraction Request.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-10-23
+Valid as Of: 2023-10-23
+Version: 2309
+
+--- Record 4009 ---
+Component: Migration Assessment
+Environment: Cloud Foundry
+Title: New Rules Added
+Description: The following rules have been added for Migration Assessment:        ReceiverJDBCMessageProtocol: Check if native SQL or raw XML are used on the JDBC receiver.      JDBCLookup: Check if JDBC lookups are using supported JDBC drivers.       
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-10-23
+Valid as Of: 2023-10-23
+Version: 2309
+
+--- Record 4010 ---
+Component: Migration Assessment
+Environment: Cloud Foundry
+Title: Software Version Update
+Description:     Migration Assessment: 1.21.*      Increment: 2309    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-10-23
+Valid as Of: 2023-10-23
+Version: 2309
+

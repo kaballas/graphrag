@@ -1,0 +1,130 @@
+--- Record 2391 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Configure Step Outcomes
+Description: You can now configure step outcomes for individual steps of the type user task for an SAP Build Process Automation process.  See Configure Step Outcomes. 
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-08-20
+Valid as Of: 2024-08-20
+Version: Cloud
+
+--- Record 2392 ---
+Component: SAP Print service
+Environment: Cloud Foundry,Other
+Title: Permitted Maximum Size for Single Documents Increased from 1 MB to 5 MB
+Description: The permitted maximum size for a single document is now 5 MB.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-08-20
+Valid as Of: 2024-08-20
+Version: Cloud
+
+--- Record 2393 ---
+Component: Continuous Integration & Delivery
+Environment: Cloud Foundry
+Title: New Region
+Description: SAP Continuous Integration and Delivery can now also be consumed in the Australia (Sydney) region. See Regional Availability.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-08-19
+Valid as Of: 2024-08-19
+Version: Cloud
+
+--- Record 2394 ---
+Component: Continuous Integration & Delivery
+Environment: Cloud Foundry
+Title: Permission Change
+Description: Now, only users who are assigned the CICD Administrator role collection are allowed to view the list of allowed spaces. See Manage Allowed Spaces and Assigning Roles and Permissions.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-08-19
+Valid as Of: 2024-08-19
+Version: Cloud
+
+--- Record 2395 ---
+Component: SAP AI Launchpad
+Environment: Cloud Foundry
+Title: Generative AI hub
+Description: Disclaimers created by administrators now appear in the generative AI hub chat app.  For more information, see Create a Disclaimer.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-08-19
+Valid as Of: 2024-08-19
+Version: Cloud
+
+--- Record 2396 ---
+Component: SAP AI Launchpad
+Environment: Cloud Foundry
+Title: Generative AI hub
+Description: Additional selected models from Anthropic are supported via AWS Bedrock.  For more information, see Models and Scenarios in the Generative AI Hub.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-08-19
+Valid as Of: 2024-08-19
+Version: Cloud
+
+--- Record 2397 ---
+Component: SAP Build
+Environment: Cloud Foundry
+Title: Lobby - Enhanced Actions for Released Versions in Build Apps Project
+Description: You can now View, Transport, Export, Import, and Delete released versions of the Build Apps Project, offering greater flexibility and control over project versions.  See     Release a Project      Manage Existing Projects     .
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-08-19
+Valid as Of: 2024-08-19
+Version: Cloud
+
+--- Record 2398 ---
+Component: SAP Build Apps
+Environment: Cloud Foundry
+Title: Web & Mobile
+Description: You can search each BTP Destinations catalog separately and group the destinations by type of endpoint. See Integration with SAP Systems.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-08-19
+Valid as Of: 2024-08-19
+Version: Cloud
+
+--- Record 2399 ---
+Component: SAP Build Apps
+Environment: Cloud Foundry
+Title: Web & Mobile
+Description: You can create a project version by releasing the project. See Create a Project Release Version.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-08-19
+Valid as Of: 2024-08-19
+Version: Cloud
+
+--- Record 2400 ---
+Component: SAP Advanced Financial Closing
+Environment: Cloud Foundry
+Title: Remaining Start Immediately Columns Removed from Tasks Tables
+Description: As announced in March, the remaining Start Immediately columns have now been removed from all Tasks tables. The Start Immediately attribute was replaced with the Start Mode function in March 2024.  Apps affected: All apps
+Action: Info only
+Lifecycle: Deleted
+Type: Changed
+Line of Business: Finance
+Latest Revision: 2024-08-02
+Valid as Of: 2024-08-18
+Version: Cloud
+

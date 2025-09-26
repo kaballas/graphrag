@@ -1,0 +1,130 @@
+--- Record 521 ---
+Component: Integration Assessment
+Environment: Cloud Foundry
+Title: Export and Import Content Options
+Description: You can now export and import your Integration Assessment data directly from the Content Management page. This functionality supports tenant transfers between data centers, enabling you to maintain continuity in your business operations.  For more information, see: Content Management.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-07-06
+Valid as Of: 2025-07-06
+Version: 2505
+
+--- Record 522 ---
+Component: Integration Assessment
+Environment: Cloud Foundry
+Title: Software Version Update
+Description:     Integration Assessment: 1.41.*      Increment: 2505    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-07-06
+Valid as Of: 2025-07-06
+Version: 2505
+
+--- Record 523 ---
+Component: Migration Assessment
+Environment: Cloud Foundry
+Title: Extended Evaluation of Value Mappings
+Description: New rules have been added that identify which Value Mappings are used within integration scenarios in the Message Mappings for Graphical Mapping. It allows a more accurate estimate of the migration effort and facilitates the implementation of scenarios using Value Mappings during migration.  The additional information is reported in the full evaluation result spreadsheet. Please note that to view this new information, you need to perform a new data extraction. For more details on how to extract your data, visit Create a Data Extraction Request.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-07-06
+Valid as Of: 2025-07-06
+Version: 2505
+
+--- Record 524 ---
+Component: Migration Assessment
+Environment: Cloud Foundry
+Title: Software Version Update
+Description:     Migration Assessment: 1.41.*      Increment: 2505    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-07-06
+Valid as Of: 2025-07-06
+Version: 2505
+
+--- Record 525 ---
+Component: Trading Partner Management
+Environment: Cloud Foundry
+Title: Software Version Update
+Description:   SAP Cloud Integration: 6.67.*  Increment: 2505  
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-07-06
+Valid as Of: 2025-07-06
+Version: 2505
+
+--- Record 526 ---
+Component: Joule
+Environment: Cloud Foundry
+Title: Joule Navigation Now Available in SAP Integrated Business Planning
+Description: You can now use Joule to find and navigate to apps in SAP Integrated Business Planning.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-07-04
+Valid as Of: 2025-07-04
+Version: Cloud
+
+--- Record 527 ---
+Component: Joule,SAP BTP Cockpit
+Environment: Cloud Foundry
+Title: New Administrative Use Cases Added to Joule in the SAP BTP Cockpit
+Description: We've added to the list of administrative tasks that Joule can assist you with in the SAP BTP Cockpit:     Joule can now add new users to an existing subaccount  Select informational use cases now include a navigation option to have Joule take you to the corresponding cockpit page   Navigate to trust configuration in either the global account or a subaccount   Navigate to service instances in a Cloud Foundry space    For more information, check out Supported Administrative Tasks with Joule in the Cockpit
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2025-07-02
+Valid as Of: 2025-07-04
+Version: Cloud
+
+--- Record 528 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: API Gateway module: APIRule migration
+Description: We would like to remind you that APIRule v1beta1 has been deprecated and will be deleted. Therefore, you must migrate all your APIRule custom resources (CRs) v1beta1 to version v2. The exact deletion date is being discussed. However, we strongly advise that you do not delay the migration. By starting the process early, you will have time to identify and address any potential issues that may arise during migration.  Required action: You must migrate all your APIRule CRs v1beta1 to version v2. Follow these steps:  Read Changes Introduced in APIRule v2, which details the updates implemented in the new version of APIRule. If any of these changes affect your setup, you must consider them when migrating to APIRule v2 and make the necessary adjustments.  To retrieve the complete spec with the rules field of an APIRule in version v1beta1, see Retrieving the Complete spec of an APIRule in Version v1beta1.  To migrate an APIRule from version v1beta1 to version v2, follow the relevant guide:  Migrating APIRule v1beta1 of Type jwt to Version v2  Migrating APIRule v1beta1 of Type noop, allow, or no_auth to Version v2  Migrating APIRule v1beta1 of type oauth2_introspection to version v2    For details on APIRule specification, see also APIRule v2 Custom Resource.
+Action: Required
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2025-07-04
+Valid as Of: 2025-07-03
+Version: Cloud
+
+--- Record 529 ---
+Component: Application for Data Replication and Administration
+Environment: Cloud Foundry
+Title: Additional Validation of IP Address Allow List
+Description: It was possible to enter invalid IP addresses which failed to update. An additional validation has been added to check for invalid IP addresses.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-07-03
+Valid as Of: 2025-07-03
+Version: Cloud
+
+--- Record 530 ---
+Component: Application for Data Replication and Administration
+Environment: Cloud Foundry
+Title: Update of IP Address Allow List
+Description: The update of the IP address allow list for the target HANA DB failed in some cases. The newly entered IP address used to vanish in this case. This has been corrected.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-07-03
+Valid as Of: 2025-07-03
+Version: Cloud
+

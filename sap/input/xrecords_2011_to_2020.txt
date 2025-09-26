@@ -1,0 +1,130 @@
+--- Record 2011 ---
+Component: SAP Alert Notification Service
+Environment: Other
+Title: Integrating with OpenSearch Enhanced with OpenSearch Dashboards
+Description: You can now find information about the integration of SAP Alert Notification service with OpenSearch.  [Cloud Foundry] For further details, see Integrating with OpenSearch Enhanced with OpenSearch Dashboards  [Neo] For further details, see Integrating with OpenSearch Enhanced with OpenSearch Dashboards
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-10-31
+Valid as Of: 2024-10-31
+Version: Cloud
+
+--- Record 2012 ---
+Component: SAP Alert Notification Service
+Environment: Other
+Title: Integrating with SAP Cloud Logging service
+Description: You can now find information about the integration of SAP Alert Notification service with SAP Cloud Logging service.   [Cloud Foundry] For further details, see Integrating with SAP Cloud Logging Service  [Neo] For further details, see Integrating with SAP Cloud Logging Service
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-10-31
+Valid as Of: 2024-10-31
+Version: Cloud
+
+--- Record 2013 ---
+Component: SAP BTP, Cloud Foundry Runtime
+Environment: Cloud Foundry
+Title: Version 44.0.0
+Description: Cloud Foundry has been updated from 43.6.0 to 44.0.0.    https://github.com/cloudfoundry/cf-deployment/releases/tag/v44.0.0  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-10-21
+Valid as Of: 2024-10-31
+Version: Cloud
+
+--- Record 2014 ---
+Component: SAP Build Work Zone, advanced edition
+Environment: Cloud Foundry
+Title: App Finder Enhancements
+Description: The App Finder has been enhanced with a new a new design and some additional features, such as displaying the apps in a list view, the possibility to search for catalogs, and the option to hide the catalogs side panel.   For more information, see How to Use the App Finder.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-10-31
+Valid as Of: 2024-10-31
+Version: 2410B
+
+--- Record 2015 ---
+Component: SAP Build Work Zone, advanced edition
+Environment: Cloud Foundry
+Title: Content Export Enhancements
+Description: The export content flow has been enhanced for the following scenarios: workspace export, content files download, and workspace template export.  Following the change, when a user triggers an export, a ZIP file is created in a new My Exports screen under the user profile. From there the user can download the file.  For more information, see Transporting Workspace Content Items.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-10-31
+Valid as Of: 2024-10-31
+Version: 2410B
+
+--- Record 2016 ---
+Component: SAP Build Work Zone, advanced edition
+Environment: Cloud Foundry
+Title: Create a Wizard Based on a SAP Build Process Automation Guided Process
+Description: It’s possible to add to a workpage, a wizard that is based on a guided process template that was created and deployed from SAP Build Process Automation service.  For more information, see How to Create a Wizard.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-10-31
+Valid as Of: 2024-10-31
+Version: 2410B
+
+--- Record 2017 ---
+Component: SAP Build Work Zone, advanced edition
+Environment: Cloud Foundry
+Title: Enhanced Page Builder
+Description: The workpage editor has been enhanced with the following capabilities:    Widget context menu      Ability to move sections up and down    Section configuration menu    Show/hide section header      Accessibility support      For more information, see How to Build and Design a Workpage.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-10-31
+Valid as Of: 2024-10-31
+Version: 2410B
+
+--- Record 2018 ---
+Component: SAP Build Work Zone, advanced edition
+Environment: Cloud Foundry
+Title: Support Passive Certificate
+Description: You can define a passive certificate in the SAML Trusted IDP screen.  The purpose of adding a passive certificate is to have a backup certificate in case the active certificate has expired, and to avoid system downtime.  After adding a passive certificate in the SAP BTP cockpit, administrators must manually copy the certificate into the Administration Console - Authentication & Authorization -  SAML Trusted IDPs.  For more information, see SAML Trusted IDPs.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-10-31
+Valid as Of: 2024-10-31
+Version: 2410B
+
+--- Record 2019 ---
+Component: SAP Build Work Zone, advanced edition
+Environment: Cloud Foundry
+Title: Support X.509-Based Authentication in Identity Provisioning
+Description: An x.509-based authentication is now supported between the Identity Provisioning service and SAP Build Work Zone.   For more information, see Option1: Create a new tenant -step 3.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-10-31
+Valid as Of: 2024-10-31
+Version: 2410B
+
+--- Record 2020 ---
+Component: SAP Build Work Zone, standard edition
+Environment: Cloud Foundry
+Title: App Finder Enhancements
+Description: The App Finder has been enhanced with a new a new design and some additional features, such as displaying the apps in a list view, the possibility to search for catalogs, and the option to hide the catalogs side panel.   For more information, see How to Use the App Finder.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-10-31
+Valid as Of: 2024-10-31
+Version: 2410B
+

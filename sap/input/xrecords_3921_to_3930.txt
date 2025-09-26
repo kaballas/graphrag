@@ -1,0 +1,130 @@
+--- Record 3921 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Regular Upgrade
+Description: Identity Authentication has been upgraded.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-11-08
+Valid as Of: 2023-11-08
+Version: Cloud
+
+--- Record 3922 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Source System, Master Data Texts Configuration
+Description: Tenant administrators change the configuration of source systems and master data texts in the administration console for SAP Cloud Identity Services via Edit mode. See Configuring External Authentication Providers and Configure Master Data Texts Via Administration Console.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2023-11-08
+Valid as Of: 2023-11-08
+Version: Cloud
+
+--- Record 3923 ---
+Component: Identity Provisioning
+Environment: Neo
+Title: Download logs from notification e-mails
+Description: You can now download error logs and skipped entities logs directly from the notification e-mails that provide information about the job execution. Sending navigation links to the download page of failed or skipped entities is supported for tenants running on SAP Cloud Identity Services infrastructure.  For more information, see: Manage Job Notifications
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-12-06
+Valid as Of: 2023-11-08
+Version: Cloud
+
+--- Record 3924 ---
+Component: Identity Provisioning
+Environment: Neo
+Title: SAP Initiated system type introduced
+Description: SAP Initiated system type is introduced to represent provisioning systems that are automatically created and preconfigured in the Identity Provisioning UI. It comes in addition to the Customer Managed type which represents provisioning systems that you as a customer create and configure in the Identity Provisioning UI.  For more information, see: System Types
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-12-06
+Valid as Of: 2023-11-08
+Version: Cloud
+
+--- Record 3925 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Keda module: Update to version 1.0.0
+Description: We are happy to announce the release of version 1.0.0 of the Keda module. This version brings the latest Keda version (v2.12.0) and bug fixes in the area of status handling during the module removal.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-11-07
+Valid as Of: 2023-11-08
+Version: Cloud
+
+--- Record 3926 ---
+Component: UI Theme Designer
+Environment: Cloud Foundry,Neo
+Title: Base Theming Content for CF and Neo.
+Description: The base theming content is updated to version 11.9.0. Review the changes at https://github.com/SAP/theming-base-content/releases.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2023-11-08
+Version: Cloud
+
+--- Record 3927 ---
+Component: Edge Integration Cell
+Environment: Cloud Foundry
+Title: Edge Integration Cell is Now Generally Available.
+Description: Edge Integration Cell is an optional hybrid integration runtime offered as part of SAP Integration Suite, which enables you to manage APIs and run integration scenarios within your private landscape. See What Is Edge Integration Cell for more information. As a next step, Plan Your Setup of Edge Integration Cell.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2023-11-07
+Valid as Of: 2023-11-07
+Version: 2309
+
+--- Record 3928 ---
+Component: Edge Integration Cell
+Environment: Cloud Foundry
+Title: Sizing Guide for Edge Integration Cell
+Description: The sizing guidelines help you to plan the hardware resources for the components that you install on your private landscape. See Sizing Guidelines for more information.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-11-07
+Valid as Of: 2023-11-07
+Version: 2309
+
+--- Record 3929 ---
+Component: Edge Integration Cell
+Environment: Cloud Foundry
+Title: nan
+Description: You can now develop custom sender adapters that are supported to be used on an Edge Integration Cell runtime.  See: Additional Metadata to Support Edge Integration Cell
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2023-11-07
+Valid as Of: 2023-11-07
+Version: 2309
+
+--- Record 3930 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Telemetry module: Update to version 1.2.0
+Description: The new version brings the following improvements:  Logs:      Update to Fluent Bit 2.1.10 (#463)      Traces:      New: Manual scaling of the trace gateway (#430).      Improved system span filtering to reduce span noise caused by Kyma component communication (#468)       Update to OTel Collector 0.87.0 (#463)       Removed Logging Exporter from trace gateway configuration, so that the logs of the gateway are no longer polluted and warnings and errors are easier to detect (#440).    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2023-10-23
+Valid as Of: 2023-11-07
+Version: Cloud
+

@@ -1,0 +1,130 @@
+--- Record 3461 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Communication Systems
+Description: You can now select the Refresh Allowed checkbox and define a Refresh Token Expiry Time in days, months or years if required.   See Communication Systems.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-02-18
+Valid as Of: 2024-02-16
+Version: ABAP Environment 2402
+
+--- Record 3462 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Communication Systems
+Description: You can now select the Refresh Allowed checkbox and define a Refresh Token Expiry Time in days, months or years if required.   See Communication Systems.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-02-18
+Valid as Of: 2024-02-16
+Version: Cloud
+
+--- Record 3463 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Data Replication: ABAP Environment as a Source
+Description: With the ABAP SQL service, you can now also expose ABAP-managed data for replication, using the replication flows provided by SAP Datasphere. This scenario covers both initial load and delta extraction, and you can replicate data from public and from custom CDS view entities.   See   .
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-02-22
+Valid as Of: 2024-02-16
+Version: ABAP Environment 2402
+
+--- Record 3464 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Data Replication: ABAP Environment as a Source
+Description: With the ABAP SQL service, you can now also expose ABAP-managed data for replication, using the replication flows provided by SAP Datasphere. This scenario covers both initial load and delta extraction, and you can replicate data from public and from custom CDS view entities.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-02-22
+Valid as Of: 2024-02-16
+Version: Cloud
+
+--- Record 3465 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Display Communication Scenarios
+Description: You can now display which scope items communication scenarios depend on. You can also check which component you can use to create incidents if required.   See Display Communication Scenarios.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-02-18
+Valid as Of: 2024-02-16
+Version: ABAP Environment 2402
+
+--- Record 3466 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Display Communication Scenarios
+Description: You can now display which scope items communication scenarios depend on. You can also check which component you can use to create incidents if required.   See Display Communication Scenarios.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-02-18
+Valid as Of: 2024-02-16
+Version: Cloud
+
+--- Record 3467 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Display Restriction Types
+Description: With this feature you can display the component to which a restriction type belongs to create an incident if required.   See Display Restriction Types.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-02-18
+Valid as Of: 2024-02-16
+Version: ABAP Environment 2402
+
+--- Record 3468 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Display Restriction Types
+Description: With this feature you can display the component to which a restriction type belongs to create an incident if required.   See Display Restriction Types.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-02-18
+Valid as Of: 2024-02-16
+Version: Cloud
+
+--- Record 3469 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Editor for ILM Objects
+Description: There is now a new server-driven UI editor for ILM objects (ILMB).  For more information, see Working with ILM Objects.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-02-18
+Valid as Of: 2024-02-16
+Version: ABAP Environment 2402
+
+--- Record 3470 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Editor for ILM Objects
+Description: There is now a new server-driven UI editor for ILM objects (ILMB).  For more information, see Working with ILM Objects.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-02-18
+Valid as Of: 2024-02-16
+Version: Cloud
+

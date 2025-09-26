@@ -1,0 +1,130 @@
+--- Record 3951 ---
+Component: SAP BTP, Cloud Foundry Runtime
+Environment: Cloud Foundry
+Title: Deprecation of Weak Client Certificate Chains
+Description: This is a reminder that, as originally announced on May 18, 2023, we plan to harden the security standards on certain properties for client certificates and their certificate chains in November 2023 to further strengthen platform security.   We will do so by raising the OpenSSL security level to 2. This will result in weak certificates or certificate chains no longer being accepted by the platform. For more information and a full definition of security level 2, see https://help.sap.com/docs/link-disclaimer?site=https%3A%2F%2Fwww.openssl.org%2Fdocs%2Fman3.0%2Fman3%2FSSL_CTX_set_security_level.html%23DEFAULT-CALLBACK-BEHAVIOUR  The change will be rolled out gradually, starting with the region br10 on November 29 and the region eu20 on November 30, 2023. All other regions are planned to be updated in January 2024. Further details regarding the timelines for the remaining regions will be announced through this channel in a timely manner.  Note that this change only affects client certificates. If you do not use client certificates / mTLS to authenticate with the platform, you are not affected.  If you are using client certificates / mTLS, you can check your certificate chain using the following command:openssl verify -auth_level=2 -CAfile ./ca.pem -untrusted ./intermediate.pem ./cert.pem  For more details on the command, see SAP Note 3333978 .  Action:  Please contact the issuer of the certificate with the command you executed and the output you got and request a certificate that passes the verification.
+Action: Required
+Lifecycle: Deprecated
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2023-11-02
+Valid as Of: 2023-11-02
+Version: Cloud
+
+--- Record 3952 ---
+Component: SAP BTP, Cloud Foundry Runtime
+Environment: Cloud Foundry
+Title: Removal of .NET, Ruby, and R Buildpacks
+Description: This the final reminder that the .NET, Ruby, and R offline buildpacks have been deprecated and are scheduled to be removed from the SAP BTP, Cloud Foundry environment on November 16, 2023.  If you want to continue using these buildpacks after their removal, you can use the online community buildpacks by specifying their URLs in the code of your applications. For more information, see SAP Note 3364781 
+Action: Recommended
+Lifecycle: Deprecated
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2023-11-02
+Valid as Of: 2023-11-02
+Version: Cloud
+
+--- Record 3953 ---
+Component: Region
+Environment: Cloud Foundry
+Title: Additional NAT and LB IPs Added to Amazon Web Services Regions
+Description: Additional NAT and Load Balancer (LB) IP addresses were added on SAP BTP regions running on Amazon Web Services (AWS). The following regions are affected by this change:        br10 – Brazil (São Paulo)    jp10 – Japan (Tokyo)  ap10 – Australia (Sydney)  ap11 – Asia Pacific (Singapore)  ap12 – Asia Pacific (Seoul)  ca10 – Canada (Montreal)  eu10 – Europe (Frankfurt)  eu11 – Europe (Frankfurt)  us10 – US East (VA)      Action:  If your Cloud Foundry application connects to systems which restrict access by allowlisting IPs in firewall rules, make sure to adopt your configuration accordingly. The new IP addresses may be used at the end of Q1, 2024.   For details, see Regions and API Endpoints for the Cloud Foundry Environment.  In case of questions please contact SAP Support.
+Action: Required
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-11-02
+Valid as Of: 2023-11-02
+Version: Cloud
+
+--- Record 3954 ---
+Component: Service Manager
+Environment: Kubernetes
+Title: SAP BTP Service Operator - Fixed SAP Kubernetes Service Binding Specification
+Description: The Secret created for the service binding contains an instance name key in the service instance info section. This key uses the BTP name of the service binding, which is the value of the external_name property in the service binding spec. The external_instance_name key has been removed from the secret. For more info, see Formats of Secret Objects.
+Action: Required
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2023-10-11
+Valid as Of: 2023-11-02
+Version: Cloud
+
+--- Record 3955 ---
+Component: Java Server
+Environment: Neo
+Title: Tomcat version for Java Web Tomcat 8
+Description: Java Web Tomcat 8 (runtime version 3.190) has been updated to Tomcat version 8.5.95. The new version contains security fixes.   See the Changelog.  Recommended action: Update your applications to the latet runtime version.
+Action: Recommended
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2023-11-02
+Valid as Of: 2023-11-02
+Version: Cloud
+
+--- Record 3956 ---
+Component: Authorization and Trust Management Service
+Environment: Cloud Foundry,Kyma
+Title: Limits for Roles, Role Collections, Trust, and Service Broker Instances
+Description: There are limits that apply when you define roles, role collections, and trust configurations. Furthermore, the number of service broker instances is limited.  For more information, see Limits for Technical Artifacts of the SAP Authorization and Trust Management Service.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2023-10-19
+Valid as Of: 2023-11-02
+Version: Cloud
+
+--- Record 3957 ---
+Component: Automation Pilot
+Environment: Cloud Foundry
+Title: Generative AI Content Assistant (Beta)
+Description: You can now bootstrap your command and generate fully working DevOps and SRE automation flows by using the new generative AI feature integrated into SAP Automation Pilot. This is a beta feature. See Generative AI in SAP Automation Pilot (Beta).
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-11-02
+Valid as Of: 2023-11-02
+Version: Cloud
+
+--- Record 3958 ---
+Component: Automation Pilot
+Environment: Cloud Foundry
+Title: New Expression Functions
+Description: Automation Pilot now supports the jq functions sub and gsub. See Dynamic Expression.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-11-02
+Valid as Of: 2023-11-02
+Version: Cloud
+
+--- Record 3959 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Application Development in Authorization Management
+Description: Developers can use the developer tools of administration management. They build their own applications with authorization policies. Administrators assign authorization policies to users, change the rules and attribute values of existing policies, and create new authorization policies. See Configuring Authorization Policies.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-11-02
+Valid as Of: 2023-11-02
+Version: Cloud
+
+--- Record 3960 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Customer Documents
+Description: Tenant administrator can upload terms of use and privacy policy documents, and e-mail templates in Thai, Malay and Vietnamese. See Configuring Terms of Use, Configuring Privacy Policies, and Configuring Email Templates.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-11-02
+Valid as Of: 2023-11-02
+Version: Cloud
+

@@ -1,0 +1,130 @@
+--- Record 2131 ---
+Component: Joule
+Environment: Cloud Foundry
+Title: New Use Cases Now Supported in Cross Area Capabilities for SAP S/4HANA Cloud Private Edition
+Description: The following transactional use cases are now supported in Cross-Area Capabilities for SAP S/4HANA Cloud Private Edition:      Display Business Partner overview      Display Business Partner basic data      Display Business Partner bank accounts      Display Business Partner identification numbers      Display Business Partner roles      Display Business Partner standard address      Display Business Partner addresses      Display Business Partner payment cards      Display Business Partner industries      Display Business partner relationships      Display Business Partner contact person relationships    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-09-19
+Valid as Of: 2024-10-14
+Version: Cloud
+
+--- Record 2132 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Guided Process in Process Editor
+Description: With this new artifact, you can preconfigure a widget to use in SAP Build Work Zone, advanced edition. In the guided process, you create process stages that contain steps. At runtime, the steps guide the user through the respective stages to complete a workflow.  For more information, see:   Create a Guided Process  Integrate and Connect with Other Services  Audit Logging  Customer Data Export  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-10-14
+Valid as Of: 2024-10-14
+Version: Cloud
+
+--- Record 2133 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: SAP Build Process Automation, Foundation Add-On by UiPath
+Description: SAP Build Process Automation, foundation add-on by UiPath is a solution extension that integrates UiPath automation capabilities in SAP Build Process Automation. The solution extension offers the following new features:     You can create a UiPath automation artifact in a new step in the process editor in SAP Build Process Automation. See Add an Automation.      You can configure your UiPath automation by navigating to UiPath Studio Web, within SAP Build Process Automation. See SAP Build Process Automation, foundation add-on by UiPath.    You can configure start and end events for your UiPath automation using visibility scenarios.    You can monitor your UiPath automation jobs in SAP Build Process Automation in the Process and Workflows view or in the Automation Jobs view in Monitoring. See Automation Jobs.    You can use SAP Task Center to create user tasks for reviewing and correcting documents extracted by UiPath automations.      For more information about the solution extension, contact your local sales representative.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-10-14
+Valid as Of: 2024-10-14
+Version: Cloud
+
+--- Record 2134 ---
+Component: Forms Service by Adobe
+Environment: Cloud Foundry
+Title: Confguration Tool - New Features
+Description: In the SAP Forms service configuration tool, you can now:    Download all versions of the following files:  Fonts files  XDC and XCI files  Job Profiles      Review and download deleted data from a recycle bin.      For more information, see Configuration Tool.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2024-10-11
+Version: Cloud
+
+--- Record 2135 ---
+Component: UI Theme Designer
+Environment: Cloud Foundry,Neo
+Title: Base Theming Content for CF and Neo.
+Description: The base theming content is updated to version 11.19.0. Review the changes at https://github.com/SAP/theming-base-content/releases.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2024-10-11
+Version: Cloud
+
+--- Record 2136 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Regional Availability
+Description: Cloud Identity Services now operates with one deployment and two IPs in the data center in the Australia/Japan region which now is only for Australia.  Action:  You must add the following IPs to your allowed IP list:    LB IP - 157.133.168.73, 4.200.99.225  157.133.168.32/27, 130.214.240.32/27, 20.227.66.135/32, 20.227.66.154/32    The following IPs are no longer in use:   LB IP - 20.227.66.154/32  NAT IP - 157.133.182.32/27, 130.214.244.32/27  See Regional Availability.
+Action: Required
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-10-10
+Valid as Of: 2024-10-10
+Version: 26753
+
+--- Record 2137 ---
+Component: Process Visibility Capability
+Environment: Cloud Foundry
+Title: Updates to Service-Managed SAPUI5 Version
+Description: Updates have been made to the service-managed SAPUI5 version for the following applications:    Process Workspace      Visibility Scenario Instances      Visibility Scenario Dashboard      To ensure a consistent user experience, please update the HTML5 apps content in your SAP Build Work Zone application. For more information, see SAP Note 3527231 .
+Action: Required
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-10-09
+Valid as Of: 2024-10-09
+Version: Cloud
+
+--- Record 2138 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Updates to Service-Managed SAPUI5 Version
+Description: Updates have been made to the service-managed SAPUI5 version for the following applications:    Process Workspace      Visibility Scenario Instances      Visibility Scenario Dashboard      To ensure a consistent user experience, please update the HTML5 apps content in your SAP Build Work Zone application. For more information, see SAP Note 3527231 .
+Action: Required
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-10-09
+Valid as Of: 2024-10-09
+Version: Cloud
+
+--- Record 2139 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Regional Availability
+Description: Cloud Identity Services now operates with two IPs in the data center in the US West region.  Action:  We recommend you to add the following IPs to your allowed IP list:    LB IP - 52.143.72.52, 40.91.81.47  NAT IP - 52.137.107.38/32, 52.137.108.207/32, 4.155.183.41/32, 4.155.183.68/32    The following IPs are no longer in use:   LB IP - 52.143.74.249  NAT IP - 20.51.113.99/32, 20.57.161.219/32, 20.57.185.171/32  See Regional Availability.
+Action: Recommended
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-10-09
+Valid as Of: 2024-10-09
+Version: 26753
+
+--- Record 2140 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Telemetry module: Update to version 1.24.0
+Description: The new version brings the following improvements:      Telemetry Manager: Reduced CPU usage if there's a high amount of Istio resources in the cluster (#1264).      Traces and Metrics: Update to OTel Collector 0.109.0 (#1465).      Logs: Update to Fluent Bit 3.1.8 (#1459).    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-09-25
+Valid as Of: 2024-10-09
+Version: Cloud
+

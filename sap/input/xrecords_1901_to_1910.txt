@@ -1,0 +1,130 @@
+--- Record 1901 ---
+Component: SAP Advanced Financial Closing
+Environment: Cloud Foundry
+Title: Change Planned Start Dialog Adjusted
+Description: The dialog to change the planned start of a task in the Process Closing Tasks app has been adjusted so that it now has the same appearance as the corresponding dialog in the Manage Closing Task Lists app.  App affected:  Process Closing Tasks
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Finance
+Latest Revision: 2024-10-31
+Valid as Of: 2024-11-17
+Version: Cloud
+
+--- Record 1902 ---
+Component: SAP Advanced Financial Closing
+Environment: Cloud Foundry
+Title: SAP Build Process Automation Integration
+Description: SAP Advanced Financial Closing now supports integration with SAP Build Process Automation. This new capability allows you to trigger workflows designed in SAP Build Process Automation directly from the SAP Advanced Financial Closing environment.  Caution  This integration can't be used in parallel to the stand-alone integration described under Process Automation Integration Based on ABAP.  More information:  User guide:  How to Create Tasks  How to Process Tasks  Integration of Tasks of Type Workflow    Administration guide:  SAP Build Process Automation Integration for SAP Advanced Financial Closing      Apps affected:  Manage Closing Task Lists  Process Closing Tasks  Specify Communication Systems  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Finance
+Latest Revision: 2024-10-31
+Valid as Of: 2024-11-17
+Version: Cloud
+
+--- Record 1903 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Business Catalog for Key User Adaptation
+Description: The business catalog SAP_CORE_BC_EXT_FLEX is deprecated. It is replaced by the business catalog SAP_CORE_BC_EXT_FLX_CUS_PC. This business catalog provides permissions that are needed for key user adaptation in SAPUI5 applications. Please update your roles accordingly.  For more information, see Adapting SAP Fiori UIs at Runtime - Key User Adaptation.
+Action: Required
+Lifecycle: Deprecated
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-10-10
+Valid as Of: 2024-11-15
+Version: ABAP Environment 2411
+
+--- Record 1904 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: ABAP Development Tools for Eclipse: ATC Check "Usage of Released APIs" Can Be Run on Key User and ABAP Cloud Objects
+Description: The ATC check "Usage of Released APIs" has been modified. It can now also run on a set of objects containing objects with ABAP Language Version "Key User" and "ABAP for Cloud Development". The check behaves as follows:       For objects with ABAP Language Version "Standard", the check checks the usage of the released APIs for the ABAP language version configured in the check.       For objects with ABAP Language Version "ABAP for Cloud Development", the check checks the usage of released APIs for cloud development.      For objects with ABAP Language Version "Key User", the check checks the usage of released APIs for key user.    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-11-15
+Valid as Of: 2024-11-15
+Version: ABAP Environment 2411
+
+--- Record 1905 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: ABAP Development Tools for Eclipse: Clearing Coverage Results
+Description: You can now clear your coverage results in the ABAP Coverage view.  See Evaluating ABAP Unit Code Coverage Results.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-11-15
+Valid as Of: 2024-11-15
+Version: ABAP Environment 2411
+
+--- Record 1906 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: ABAP Development Tools for Eclipse: Creating an ABAP Cloud Project in the Context of the  SAP BTP ABAP environment
+Description: You no longer need a service key when creating an ABAP cloud project in the context of  SAP BTP ABAP environment. You now need to enter the ABAP service instance URL. The process is now the same as in the context of SAP S/4HANA Cloud ABAP environment.   See Creating an ABAP Cloud Project.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-11-15
+Valid as Of: 2024-11-15
+Version: ABAP Environment 2411
+
+--- Record 1907 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: ABAP Development Tools for Eclipse: Creating Launchpad App Descriptor Items
+Description: You can now create launchpad app descriptor items that are required to call applications from the SAP Fiori launchpad.  See Working with Launchpad App Descriptor Items.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: nan
+Latest Revision: 2024-11-15
+Valid as Of: 2024-11-15
+Version: ABAP Environment 2411
+
+--- Record 1908 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: ABAP Development Tools for Eclipse: Displaying Field Characteristics for RAP Types in the Element Information Popup
+Description: The Element Information popup (F2) for RAP types shows additional field characteristics information such as mandatory:create, mandatory:execute or readonly. The displayed field characteristics vary based on the RAP operation type.  See RAP - FieldCharacteristics.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-11-15
+Valid as Of: 2024-11-15
+Version: ABAP Environment 2411
+
+--- Record 1909 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: ABAP Development Tools for Eclipse: Displaying the Original WSDL in a SOAP Provider Model
+Description: You can now display the original WSDL file that you used to create a SOAP provider model.  See Creating SOAP Service Providers.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: nan
+Latest Revision: 2024-11-15
+Valid as Of: 2024-11-15
+Version: ABAP Environment 2411
+
+--- Record 1910 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: ABAP Development Tools for Eclipse: Multi-Dimensional Analysis App Generator
+Description: You can now use the multi-dimensional analysis app generator wizard to create all ABAP development objects that are needed to build, expose, and deploy a multi-dimensional analysis Fiori app.  See Generating Multi-Dimensional Analysis Applications.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-11-15
+Valid as Of: 2024-11-15
+Version: ABAP Environment 2411
+

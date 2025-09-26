@@ -1,0 +1,130 @@
+--- Record 2801 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Store - New Content Packages
+Description: A set of 7 content packages (6 business, 1 learning) were added to the Store in April and May 2024.      Learning Content:  HR position planning  SAP S/4HANA Cloud, Public Edition:  Mass Creation Of Business Solution Orders(6O3)  Mass Creation Of Business Solution Orders(6O3)  Mass Maintenance of Enterprise Projects(4JA)    SAP Complaint Handling:  Entry Validation Rules for SAP Complaint Handling  SAP Integrated Business Planning for Supply Chain:  Process Step Start Approval for SAP IBP for Supply Chain  SAP Sustainability Control Tower:  SAP Sustainability Control Tower – Data Collection Forms  Updates and Bug Fixes:  Purchase Requisition Header Approval and Release  Journal Entry Posting Approval  Process Order Confirmation (BAPI)  Creation of Goods Receipt (BAPI)  Creation of Business Partner (BAPI)  Creation of Sales Order (BAPI)  Creation of Purchase Requisition (BAPI)  Cost Center Change Multiple (BAPI)    Deprecated Packages:  [DEPRECATED] Document Centric Approval Process  Mass creation of Business Solution Orders (6O3)      
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-06-07
+Valid as Of: 2024-06-07
+Version: Cloud
+
+--- Record 2802 ---
+Component: SAP Translation Hub
+Environment: Cloud Foundry
+Title:   Company MLTR now supports import of ABAP object lists  
+Description:   You can now import your translations from an ABAP object list into your company MLTR in addition to importing XLIFF 1.2 files.  
+Action: Info only
+Lifecycle: Restricted Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-06-07
+Valid as Of: 2024-06-07
+Version: Cloud
+
+--- Record 2803 ---
+Component: SAP Translation Hub
+Environment: Cloud Foundry
+Title:   Translation of ABAP short text objects with source languages other than English (e.g. German)  
+Description:   You can now use the ABAP integration to translate ABAP short texts in source languages other than English, such as for example German.   
+Action: Info only
+Lifecycle: Restricted Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-06-07
+Valid as Of: 2024-06-07
+Version: Cloud
+
+--- Record 2804 ---
+Component: SAP Omnichannel Promotion Pricing
+Environment: Cloud Foundry
+Title: Enhancements to Maintain Promotions app
+Description: The following changes are now available in the Maintain Promotions app:      Renaming of the Verify button to Check Master Data.      Renaming of the Invalidate button to Cancel.    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2022-01-01
+Valid as Of: 2024-06-06
+Version: Cloud
+
+--- Record 2805 ---
+Component: SAP Omnichannel Promotion Pricing
+Environment: Cloud Foundry
+Title: Extension Point for Customized Promotion Master Data Validations
+Description: You can now add custom logic to validate promotion master data.  With the implementation of this extension, you can run your specific promotion master data checks. The extension can be called by using the new Validate button in the Maintain Promotions app.  For more information, see Getting Started with Extensibility for SAP Omnichannel Promotion Pricing and Customized Promotion Master Data Validation.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2022-01-01
+Valid as Of: 2024-06-06
+Version: Cloud
+
+--- Record 2806 ---
+Component: SAP Omnichannel Promotion Pricing
+Environment: Cloud Foundry
+Title: New Attributes for Identifying Last Calculation-Relevant Changes in Regular Prices and Promotions
+Description: You can now use the new attribute lastCalcRelevantChange that is available for both regular prices and promotions. With this attribute that represents a timestamp, you can:     search and select all regular prices with calculation-relevant changes after a specific point in time,       search and select promotions with calculation-relevant changes after a specific point in time.      In the case of regular prices, the attribute is updated when a calculation-relevant change is made using the Data Upload service.  In the case of promotions, the attribute is updated when a calculation-relevant change is made using the Data Upload service or on the Maintain Promotions UI.  For more information about the use cases and examples, see Data Access.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2022-01-01
+Valid as Of: 2024-06-06
+Version: Cloud
+
+--- Record 2807 ---
+Component: SAP Omnichannel Promotion Pricing
+Environment: Cloud Foundry
+Title: Product Experience (PX) Survey for SAP Omnichannel Promotion Pricing
+Description: You can now provide feedback for SAP Omnichannel Promotion Pricing in real-time right from your SAP Fiori Launchpad.  With Product Experience (PX) survey, you can either initiate the feedback process from your end using the icon provided or utilize the application-triggered prompts at regular intervals.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2022-01-01
+Valid as Of: 2024-06-06
+Version: Cloud
+
+--- Record 2808 ---
+Component: UI Theme Designer
+Environment: Cloud Foundry,Neo
+Title: Base Theming Content for CF and Neo.
+Description: The base theming content is updated to version 11.16.0. Review the changes at https://github.com/SAP/theming-base-content/releases.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2024-06-06
+Version: Cloud
+
+--- Record 2809 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Application-Specific Groups
+Description: A new type of group, Application Specific, is available in the administration console for SAP Cloud Identity Services. See Groups.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-06-05
+Valid as Of: 2024-06-05
+Version: 26181
+
+--- Record 2810 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Integration of SAML and OIDC Logout Flows
+Description: The service adds support for OpenID Connect (OIDC) back-channel logout. OIDC back-channel logout is integrated with the existing support for OIDC front-channel logout and Security Assertion Markup Language (SAML) logout.  See Logout URI Rules.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-06-05
+Valid as Of: 2024-06-05
+Version: 26181
+

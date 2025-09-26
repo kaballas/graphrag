@@ -1,0 +1,130 @@
+--- Record 2451 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: SAP Fiori Applications in the ABAP Environment: Scoping Space and Page Templates
+Description: You can now assign space and page templates to a business role template. Furthermore, a default scope for space and page templates is set automatically in test and production systems, depending on the software component.   For more information, see Working with Business Role Template Launchpad Space Template Assignmens and Scoping Space and Page Templates.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-07-16
+Valid as Of: 2024-08-16
+Version: ABAP Environment 2408
+
+--- Record 2452 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: SAP Fiori Launchpad: Define the Home Title in the Shell Bar
+Description: You can now specify an alternative text for the Home text in the shell bar. This is an optional alternative title for the shell and browser tab when navigating to the starting pages. The default value is empty, which means "Home" (or the respective translation) is used.   For more information, see Manage Launchpad Settings.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-08-16
+Valid as Of: 2024-08-16
+Version: ABAP Environment 2408
+
+--- Record 2453 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: SAP Fiori Launchpad: Define the Launchpad Title in the Browser
+Description: In the SAP Fiori launchpad, you can now adjust the title shown as the window, and the tab title in the browser, according to your needs. In the Manage Launchpad Settings app, the new parameter WINDOW_TITLE_EXTENSION was added. With this parameter, administrators can specify an additional text following "Home", or the app title. Text translations can be added if required. The text will also be interpreted by a screenreader to enhance usability and accessibility.  For more information, see Manage Launchpad Settings.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-08-16
+Valid as Of: 2024-08-16
+Version: ABAP Environment 2408
+
+--- Record 2454 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: SAP Fiori Launchpad: Upload and Download Pages
+Description: In the Manage Launchpad Pages app, you can now select and download existing pages or upload pages that were downloaded in another system. This enables you to create backups or exchange pages between different systems when you can't use transports, meaning that you can improve productivity across different systems. This also saves you time and effort because you don't need to recreate everything from scratch.  For more information, see Uploading and Downloading Pages.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-08-16
+Valid as Of: 2024-08-16
+Version: ABAP Environment 2408
+
+--- Record 2455 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Selectable Application Server Sizes
+Description: The selectable application server size feature gives you the possibility to explicitly configure either 0.5 ACUs or 2 ACUs as the size of the application servers. With this feature, it's now possible to configure application servers of size 2 ACUs for an SAP BTP ABAP environment system that uses the elastic scaling feature.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-08-16
+Valid as Of: 2024-08-16
+Version: ABAP Environment 2408
+
+--- Record 2456 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: SQL Service and ODBC Driver
+Description: With the new system views SYS.FUNCTIONS and SYS.FUNCTION_PARAMETERS, you can find automatically exposed CDS SQL-based scalar functions and retrieve their metadata. You can use these CDS SQL-based scalar functions to get ABAP-based data using the SQL service and the ODBC driver.  For more information, see   .
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-07-08
+Valid as Of: 2024-08-16
+Version: ABAP Environment 2408
+
+--- Record 2457 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Technical Monitoring: HANA Thread Samples
+Description: With the new HANA Thread Samples app, you can check how much HANA CPU time your custom applications consume. The app helps you to identify your top workload that consumes most of the HANA CPU time, from where you can drill down to a detailed view of HANA thread samples and the related single SQL statements.  See HANA Thread Samples
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-06-12
+Valid as Of: 2024-08-16
+Version: ABAP Environment 2408
+
+--- Record 2458 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Technical Monitoring: Table Analysis
+Description: The Table Analysis app has been enhanced with more information about top column tables by growth, writes, reads, and writes and about top column indexes by size. The monitoring screens Top Column Tables by Growth, Top Column Tables by Reads, Top Column Tables by Writes, Top Column Indexes by Size, and Top Column Tables by Size are therefore no longer available in the technical monitoring cockpit.   See HANA Table Analysis.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-06-12
+Valid as Of: 2024-08-16
+Version: ABAP Environment 2408
+
+--- Record 2459 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Units of Measurement (UoM)
+Description: You can maintain units and dimensions using released ABAP Cloud APIs (CL_UOM*) now without namespace restriction.  For more information, see Units of Measurement.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-06-19
+Valid as Of: 2024-08-16
+Version: ABAP Environment 2408
+
+--- Record 2460 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Using Dynamic Topics in Advanced Event Mesh
+Description: You can use dynamic topics for routing and filtering outbound events in the Advanced Event Mesh (AEM). Dynamic topics make use of the context attribute annotations to extend the corresponding event topic with further dynamic segments, derived from the corresponding annotated payload field. Dynamic topics enable detailed event filtering and routing, ensuring that events are delivered only to the relevant components, improving efficiency and reducing unnecessary processing.  See Using Dynamic Topics in Advanced Event Mesh.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-08-16
+Valid as Of: 2024-08-16
+Version: ABAP Environment 2408
+

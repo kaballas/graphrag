@@ -1,0 +1,130 @@
+--- Record 2861 ---
+Component: Data Quality Services
+Environment: Cloud Foundry,Neo
+Title: Enhancements
+Description:   The service is now available in the US East region (cf-us10) on Amazon Web Service (AWS).   Improvements were made to geocoding in Japan.   The new DQMMICRO_VIEWER role allows users to view information in the UI but not change it.   
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2024-05-23
+Version: Cloud
+
+--- Record 2862 ---
+Component: SAP Build Work Zone, advanced edition
+Environment: Cloud Foundry
+Title: Unified Access Control Settings
+Description: The access control settings have been aligned across all workspace screens and offer the same access options:  Specific users or user lists.  Specific roles (for site admins).  All internal users.  All external users (when enabled).  All users.  
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-05-16
+Valid as Of: 2024-05-23
+Version: Cloud
+
+--- Record 2863 ---
+Component: SAP Build Work Zone, advanced edition
+Environment: Cloud Foundry
+Title: Workspace Clickable Menu
+Description: For a clickable workspace menu item, the company admin can decide whether to render the workspace with a header or not:  When a workspace header is rendered, workpages in the workspace navigation bar will be expanded as a vertical sub menu (no change).  When a workspace header is not rendered, when clicking the workspace menu item, all workspace navigation bar items will be displayed with an horizontal layout, (similar as 'My Workspace').  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-05-16
+Valid as Of: 2024-05-23
+Version: Cloud
+
+--- Record 2864 ---
+Component: SAP Cloud Application Event Hub
+Environment: Other
+Title: Event Connectivity service plan
+Description: Consume SAP business events published to SAP Event Broker using an SAP Integration Suite tenant with an integration flow that exposes a webhook URL endpoint. See SAP Integration Suite as a Consumer.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-05-23
+Valid as Of: 2024-05-23
+Version: Cloud
+
+--- Record 2865 ---
+Component: SAP S/⁠4HANA Cloud for Credit Integration
+Environment: Cloud Foundry
+Title: Integration with new credit agency: Creditsafe
+Description: The credit agency Creditsafe is now connected to SAP S/⁠4HANA Cloud for credit integration.   More information:  Available Credit Agency Products and Features    Your Tasks for Integrating a New Credit Agency  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Finance
+Latest Revision: 2024-05-23
+Valid as Of: 2024-05-23
+Version: Cloud
+
+--- Record 2866 ---
+Component: SAP S/⁠4HANA Cloud for Credit Integration
+Environment: Cloud Foundry
+Title: New entity available for the Credit Integration Service API
+Description: In our Credit Integration Service API, the new entity Latest Credit Report is available. Use it to receive the latest credit report of a credit agency in XML or JSON format.   More information: Latest Credit Report  (Log on with your SAP ID to access this document.)
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Finance
+Latest Revision: 2024-05-23
+Valid as Of: 2024-05-23
+Version: Cloud
+
+--- Record 2867 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Handling Third-Party Cookies
+Description: Storage Access API is now available for all SAP Cloud Identity Services tenants.  Action: We recommend you to test your application. For more information on Third-Party Cookies Deprecation. See Handling Third Party Cookies Deprecation in Identity Authentication and Testing Your Solution For Breakage.
+Action: Recommended
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-05-22
+Valid as Of: 2024-05-22
+Version: 26120
+
+--- Record 2868 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Handling rate limits for Microsoft Entra ID read operations
+Description: Microsoft Entra ID source and proxy provisioning systems are now enhanced to support retry for a failed operation due to occurred exception 'Too many requests (429)'.   Previously, this option was possible only for the Microsoft Entra ID target system.  See Handle Failed Operations.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-05-22
+Valid as Of: 2024-05-22
+Version: 26120
+
+--- Record 2869 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Logos
+Description: You can use  files for your images in the administration console. See Upload Logo in Administration Console and Configure Tenant Images.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-05-22
+Valid as Of: 2024-05-22
+Version: 26120
+
+--- Record 2870 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Manage Applications
+Description: Administrators with Manage Applications role and users with assigned authorization policies for read applications can see all applications in the tenant regardless of their Organization ID. See Edit Applications.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-05-22
+Valid as Of: 2024-05-22
+Version: 26120
+

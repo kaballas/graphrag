@@ -1,0 +1,130 @@
+--- Record 1961 ---
+Component: Pricing Service
+Environment: Cloud Foundry
+Title: Document Pricing - Determination of condition rate from scales after cache eviction
+Description: An incorrect condition rate was used in price calculations because of condition record scales that used not to be considered while fetching condition records details when the document was loaded from the database and the cache had been evicted. This issue has been corrected.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-11-13
+Valid as Of: 2024-11-13
+Version: Cloud
+
+--- Record 1962 ---
+Component: Pricing Service
+Environment: Cloud Foundry
+Title: Duplication of Structure Conditions for External Conditions
+Description: For condition types like 2DUP (structure condition = A ‘Condition to be duplicated’), if the data source was set to anything other than condition technique and the condition value was sent as external condition, those pricing conditions used not to be duplicated to subitems. This issue has been corrected.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-11-13
+Valid as Of: 2024-11-13
+Version: Cloud
+
+--- Record 1963 ---
+Component: Pricing Service
+Environment: Cloud Foundry
+Title: Extension Concept - Return Custom Routines Correctly as Executable
+Description: The executable flag for local extensions used not to always be returned correctly. This issue has been corrected.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-11-13
+Valid as Of: 2024-11-13
+Version: Cloud
+
+--- Record 1964 ---
+Component: SAP S/⁠4HANA Cloud for Credit Integration
+Environment: Cloud Foundry
+Title: For SAP S/4HANA and SAP ERP: New BC sets available
+Description: The following new BC sets are now available:     3487507 : BC Set for Moody's      3524482 : BC Set for Creditsafe      More information: Configure Rating Procedures  (Log on with your SAP ID to access this document.)
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Finance
+Latest Revision: 2024-11-13
+Valid as Of: 2024-11-13
+Version: Cloud
+
+--- Record 1965 ---
+Component: SAP S/⁠4HANA Cloud for Credit Integration
+Environment: Cloud Foundry
+Title: Integration with new information provider: Allianz Trade
+Description: The information provider Allianz Trade is now connected to SAP S/⁠4HANA Cloud for credit integration.   More information:  Available Credit Agency Products and Features*   Your Tasks for Integrating a New Credit Agency*   Configure Rating Procedures  (Log on with your SAP ID to access this document.)    *Please note that Allianz Trade is an information provider and doesn't have the status of a credit agency. This does not affect the technical integration with the credit integration solution. 
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-11-13
+Valid as Of: 2024-11-13
+Version: Cloud
+
+--- Record 1966 ---
+Component: Authorization and Trust Management Service
+Environment: Cloud Foundry,Other
+Title: Change of Default Credential Type to binding-secret
+Description: We are going to make the following change for security reasons. The target audience of the change are developers.  If no credential types are defined in the application security descriptor, the SAP Authorization and Trust Management service applies a default. This default will be changed to binding-secret (instead of instance-secret).   Action  Check whether you are affected by the change. The change only affects new service instances (including reuse services) if all of the following prerequisites are true:      Allowed credential types are not configured in the security descriptor.      No parameters are passed during the creation of a binding or service key.      If you are affected, ensure that your application works with secrets of the binding-secret credential type before this change is activated. You can easily test the new behavior by specifying the following credential types in the application security descriptor:    [binding-secret", "x509"]    It has the same effect as the planned change.    Recommendation  We strongly recommend to configure binding-secret and x509 as allowed credential types (or x509 alone) in conjunction with a regular credential rotation (see Service Instance Secrets).    For more information, see Application Security Descriptor Configuration Syntax.
+Action: Required
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-10-18
+Valid as Of: 2024-11-12
+Version: 2411b
+
+--- Record 1967 ---
+Component: Authorization and Trust Management Service
+Environment: Cloud Foundry,Other
+Title: Creation and Update of xsuaa Service Instances Becomes Asynchronous by Default
+Description: The target audience of the change are developers.  Currently, if the xsenableasyncservice attribute is not configured in your application security descriptor, the SAP Authorization and Trust Management service creates and updates service instances synchronously. This default changes to asynchronous. The change affects existing as well as new service instances of the SAP Authorization and Trust Management service.  This change conforms with the new defaults of the Cloud Foundry command line interface (see https://docs.cloudfoundry.org/cf-cli/v8.html), which come with cf CLI v8.  Action  Check whether you are affected by the change. The change only affects you if the following prerequisite is true:        The xsenableasyncservice attribute is not configured in the application security descriptor.        If you are affected, ensure that your application works with asynchronous service instance creations and updates. This can easily be done by specifying the following attribute in the security descriptor before the change:  "xsenableasyncservice":"true"  It has the same effect as the planned change. Since asynchronous service instance creations and updates don't wait until the processing is finished, you may want to adapt the CF CLI commands in your deployment scripts so that they wait until completion:        cf create-service xsuaa application <service_instance> -c <security_descriptor_file> --wait      cf update-service <service_instance> -c <security_descriptor_file> --wait          Note  The --wait option is supported by Cloud Foundry CLI version 8 or higher.    For more information, see Application Security Descriptor Configuration Syntax.
+Action: Required
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-10-18
+Valid as Of: 2024-11-12
+Version: 2411b
+
+--- Record 1968 ---
+Component: Authorization and Trust Management Service
+Environment: Cloud Foundry,Other
+Title: No Default Values for Redirect URIs in New Cloud Foundry Landscapes
+Description: We are going to make the following change for security reasons. The target audience of the change are developers.  Currently, if you've deployed custom applications and if you didn't define redirect URIs in the application security descriptor (xs-security.json), the SAP Authorization and Trust Management service applies a default (https://*.cfapps.<landscape domain>). This default is going to be removed so that developers must configure the required redirect URIs in the application security descriptor.  Action  Check whether you are affected by the change. The change only affects new Cloud Foundry landscapes if all of the following prerequisites are true:        You haven't configured any redirect URIs in the application security descriptor of your application.      Your application authenticates users in a web browser.      You deploy your application to a Cloud Foundry landscape that has been made available to customers after the release note.        If you are affected, configure the required redirect URIs in the application security descriptor.  For more information, see Application Security Descriptor Configuration Syntax.
+Action: Required
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-10-18
+Valid as Of: 2024-11-12
+Version: 2411b
+
+--- Record 1969 ---
+Component: Authorization and Trust Management Service
+Environment: ABAP,Cloud Foundry,Kyma,Other
+Title: Changed Behavior When Multitenant Applications Remove Predefined Role Collections
+Description: The target audience of the change are subaccount administrators.  Currently, when the provider of a subscribed application removes a pre-delivered role collection, that role collection is deleted from the provider subaccount and renamed in the subscriber subaccount. This will be changed so that the role collection will also be deleted from the subscriber subaccount.  Action  Be aware of this change.  For more information, see Application Security Descriptor Configuration Syntax.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-10-18
+Valid as Of: 2024-11-12
+Version: 2411b
+
+--- Record 1970 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: API Gateway module: Update to version 2.8.0
+Description: The new version includes the following changes:      The certificate key size of kyma-gateway is increased to 4096.      The Kyma dashboard UI now supports APIRule in version v2alpha1.      We’ve fixed FQDN validation for the hosts field entries in APIRule v2alpha1, allowing for one-character long labels and two-character top-level domains.    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-10-29
+Valid as Of: 2024-11-12
+Version: Cloud
+

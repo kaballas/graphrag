@@ -1,0 +1,130 @@
+--- Record 4131 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Referenced SAPUI5 Version
+Description: As part of hotfix collection 6, SAPUI5 version 1.114.7 is used for the administrator’s SAP Fiori launchpad, SAP-delivered Fiori apps, and the custom-built SAP Fiori apps, which are deployed to the ABAP system.  See SAP BTP ABAP Environment – Maintenance Windows and Major Upgrade Windows in 2023 and SAP UI5
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-09-30
+Valid as Of: 2023-09-30
+Version: Cloud
+
+--- Record 4132 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Kyma 2.18 - Eventing
+Description: Authentication provider has been switched from the internally hosted Ory instance to an SAP provided IAS instance. All existing backend configurations have been updated.  The following NATS Images have been updated:   prometheus-nats-exporter v0.12.0  nats-config-reloader v0.12.0  
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2023-09-30
+Valid as Of: 2023-09-30
+Version: Cloud
+
+--- Record 4133 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Kyma 2.18 - Serverless
+Description: This release brings more observability into Node.js-based Functions. They are now exposing a metrics endpoint containing the following auto-instrumented metrics:   histogram for Function execution duration: function_duration_seconds  number of calls in total: function_calls_total  number of exceptions in total: function_failures_total  
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2023-09-30
+Valid as Of: 2023-09-30
+Version: Cloud
+
+--- Record 4134 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Kyma 2.18 - Telemetry
+Description:     We have fixed the bug that caused problems scraping the metrics of the Fluent Bit component by third-party vendors.      We have added mTLS support for TracePipeline OTLP outputs.      We have also updated the following software stack:   OTel Collector 0.83.0  Fluent Bit 2.1.8      
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2023-09-30
+Valid as Of: 2023-09-30
+Version: Cloud
+
+--- Record 4135 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Automation Launcher for Project Start
+Description: When you create a project launcher, you can now automatically launch automations at project start. You need the latest version of the SDK and the agent 3 and the agent must be in attended mode.  See Create an Automation Launcher.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2023-09-30
+Valid as Of: 2023-09-30
+Version: Cloud
+
+--- Record 4136 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Support Capture on Hover
+Description: The Capture on Hover feature is now added to enhance the Java automation.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-09-30
+Valid as Of: 2023-09-30
+Version: Cloud
+
+--- Record 4137 ---
+Component: Continuous Integration & Delivery
+Environment: Cloud Foundry
+Title: Pipeline Renaming
+Description: The "SAP Cloud Application Programming Model" pipeline will be renamed to "SAP Cloud Foundry Environment" in Q4/2023. All existing jobs will continue to work without any adaptions.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2023-09-29
+Valid as Of: 2023-09-29
+Version: Cloud
+
+--- Record 4138 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Model a Rule in a Decision Table
+Description: You can now provide Labels for your results in the Configure Results screen of the wizard while creating your rules. See Model a Rule in a Decision Table.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-09-29
+Valid as Of: 2023-09-29
+Version: Cloud
+
+--- Record 4139 ---
+Component: SAP BTP, Cloud Foundry Runtime
+Environment: Cloud Foundry
+Title: TLS 1.2 Cipher-Block-Chaining Ciphers Deleted
+Description: As announced on September 21, 2023, the following TLS 1.2 Cipher-Block-Chaining (CBC) Ciphers have been removed from the SAP BTP, Cloud Foundry environment for the region ap11:    TLS_DHE_RSA_WITH_AES_128_CBC_SHA256    TLS_DHE_RSA_WITH_AES_256_CBC_SHA256  TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256  TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384    Note that TLS 1.3 Cipher Suites are not affected by this change.  Action:  Older clients might be affected by this change. To maintain connectivity, please check and ensure that your clients are supporting one of the following TLS 1.2 ciphers that are still supported:     TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256      TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384      TLS_DHE_RSA_WITH_AES_128_GCM_SHA256      TLS_DHE_RSA_WITH_AES_256_GCM_SHA384      After the deletion of the deprecated ciphers, requests from older HTTP client libraries that do not include any of the supported ciphers will fail during the TLS handshake. To verify that your client can connect without CBC ciphers, you can connect it to the following test application. If the client can establish a connection to the endpoint, the server returns the message ok along with a status code 200.  Endpoint with CBC disabled: https://tls12-no-cbc.ciphers.cfapps.eu12.hana.ondemand.com
+Action: Required
+Lifecycle: Deleted
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2023-09-28
+Valid as Of: 2023-09-28
+Version: Cloud
+
+--- Record 4140 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Release of the Serverless module
+Description: Continuing on the path of modularizing Kyma, we are happy to announce that Kyma Serverless is now a module!   All the existing clusters have been migrated to have the module enabled without interruption. In new clusters, Serverless will not be enabled by default. Thus, users must enable it manually. To do that, check the Enable and Disable a Kyma Module tutorial.  The Serverless module features a new API - Serverless custom resource - which you can use to configure Serverless. For more details, see the Serverless configuration guides.  New versions of the Serverless module, with new features, bug fixes, or security patches, will be distributed to your Kyma runtimes using the release channels.  For more information on the Serverless module, check the Serverless module documentation.  We invite you to leave your feedback in the Serverless Manager GitHub repository.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-09-28
+Valid as Of: 2023-09-28
+Version: Cloud
+

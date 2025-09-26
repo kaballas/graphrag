@@ -1,0 +1,130 @@
+--- Record 2591 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Regular Upgrade
+Description: Cloud Identity Services have been upgraded.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-07-17
+Valid as Of: 2024-07-17
+Version: 26387
+
+--- Record 2592 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: SAP Advanced Financial Closing - group mapping
+Description: The default read and proxy read transformations of SAP Advanced Financial Closing provisioning systems are extended to support the provisioning of application-specific groups.  These transformations include type and supportedOperations group attributes.  The read transformation is also extended with a condition. It checks that the ips.application.id property contains a value and is not null.  See:      SAP Advanced Financial Closing      SAP Advanced Financial Closing      List of Properties →ips.application.id    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-07-17
+Valid as Of: 2024-07-17
+Version: 26387
+
+--- Record 2593 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Support for OAuth certificate authentication
+Description: Identity Provisioning supports OAuth certificate authentication for communication with Procurement Data Warehouse and SAP Business Network provisioning systems.  See Configure OAuth Certificate Authentication.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-07-17
+Valid as Of: 2024-07-17
+Version: 26387
+
+--- Record 2594 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: User Management
+Description: As of September 10, 2024, the meta.lastModified attribute will no longer be modified after you sign in. See Identity Directory API.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-07-17
+Valid as Of: 2024-07-17
+Version: 26387
+
+--- Record 2595 ---
+Component: Identity Provisioning
+Environment: Neo
+Title: Procurement Data Warehouse connector
+Description: Identity Provisioning supports the Procurement Data Warehouse connector. You can configure it as source, target, and proxy system for your provisioning scenarios.  For more information, see:      Procurement Data Warehouse (Source)      Procurement Data Warehouse (Target)      Procurement Data Warehouse (Proxy)    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-07-17
+Valid as Of: 2024-07-17
+Version: Cloud
+
+--- Record 2596 ---
+Component: Identity Provisioning
+Environment: Neo
+Title: SAP Business Ecology Management bundle is deprecated
+Description: SAP Cloud Identity Services are no longer bundled with SAP Business Ecology Management. SAP has discontinued offering the cloud solution that previously helped customers analyze their environmental impact.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-07-17
+Valid as Of: 2024-07-17
+Version: Cloud
+
+--- Record 2597 ---
+Component: Identity Provisioning
+Environment: Neo
+Title: Support for OAuth certificate authentication
+Description: Identity Provisioning supports OAuth certificate authentication for communication with Procurement Data Warehouse and SAP Business Network provisioning systems.  For more information, see Configure OAuth Certificate Authentication.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-07-17
+Valid as Of: 2024-07-17
+Version: Cloud
+
+--- Record 2598 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Istio module: Update to version 1.8.1
+Description: This release contains Istio updated to version to 1.22.2. Read Istio 1.22.0 Release Announcement, 1.22.0 Change Notes, 1.22.0 Upgrade Notes, and Istio 1.22.2 Release Announcement. See the changelog.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-07-04
+Valid as Of: 2024-07-17
+Version: Cloud
+
+--- Record 2599 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Telemetry module: Update to version 1.19.0
+Description: The new version brings the following improvements:      Logs, Metrics, and Traces: To save resources and avoid stress on configured backends for invalid setup scenarios, if the gateway or agent configuration for all pipelines of a signal type cannot be generated, no gateway or agent becomes active. For example, when a TLS certificate expires, the related gateway or agent is removed and no data is tried to be pushed to the configured backend (#298).      Logs, Metrics, and Traces: CRD validation checks whether every TLS certificate has the required key (#1205).      Logs: If the unsupported mode isn't active, kubectl list views show it as false (#1179).    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-07-02
+Valid as Of: 2024-07-17
+Version: Cloud
+
+--- Record 2600 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Istio module: Update to version 1.8.0
+Description: This release contains Istio updated to version to 1.22.1. Read Istio 1.22.0 Release Announcement, 1.22.0 Change Notes, 1.22.0 Upgrade Notes, and Istio 1.22.1 Release Announcement. See the changelog.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-07-02
+Valid as Of: 2024-07-16
+Version: Cloud
+

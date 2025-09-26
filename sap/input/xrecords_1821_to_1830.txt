@@ -1,0 +1,130 @@
+--- Record 1821 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Provisioning system buttons relocated
+Description: Buttons used to execute actions related to provisioning systems, like Add, Reset, Delete, Enable and Disable are now located at the top corner of the screen. Entering the Edit mode to reset, delete, enable or disable a system has been removed.  For more information, see Add New Systems.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-12-03
+Valid as Of: 2024-12-03
+Version: 27084
+
+--- Record 1822 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Regular Upgrade
+Description: Cloud Identity Services have been upgraded.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-12-03
+Valid as Of: 2024-12-03
+Version: 27127
+
+--- Record 1823 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: SAP Sales Cloud and SAP Service Cloud - define threshold of group members for patch requests
+Description: The c4c.patch.group.members.above.threshold property which defines the threshold number of group members above which they are provisioned on batches with PATCH requests is supported for SAP Sales Cloud and SAP Service Cloud connector.  For more information, see List of Properties.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-12-03
+Valid as Of: 2024-12-03
+Version: 27084
+
+--- Record 1824 ---
+Component: Continuous Integration & Delivery
+Environment: Cloud Foundry
+Title: New Region
+Description: SAP Continuous Integration and Delivery can now also be consumed in the Amazon Web Services region Asia Pacific (Seoul). See Regional Availability.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-12-03
+Valid as Of: 2024-12-03
+Version: Cloud
+
+--- Record 1825 ---
+Component: Identity Provisioning
+Environment: Neo
+Title: Changed behavior of csrf.token.path for SAP Analytics Cloud
+Description: The csrf.token.path property is automatically added with a default value when an SAP Analytics Cloud system is created using SCIM API version 2.  For more information about the availability and values of this property in both versions 1 and 2, see List of Properties.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-12-03
+Valid as Of: 2024-12-03
+Version: Cloud
+
+--- Record 1826 ---
+Component: Identity Provisioning
+Environment: Neo
+Title: Provisioning system buttons relocated
+Description: Buttons used to execute actions related to provisioning systems, like Add, Reset, Delete, Enable and Disable are now located at the top corner of the screen. Entering the Edit mode to reset, delete, enable or disable a system has been removed.  For more information, see Add New Systems.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-12-03
+Valid as Of: 2024-12-03
+Version: Cloud
+
+--- Record 1827 ---
+Component: Identity Provisioning
+Environment: Neo
+Title: SAP Sales Cloud and SAP Service Cloud - define threshold of group members for patch requests
+Description: The c4c.patch.group.members.above.threshold property which defines the threshold number of group members above which they are provisioned on batches with PATCH requests is supported for SAP Sales Cloud and SAP Service Cloud connector.  For more information, see List of Properties.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-12-03
+Valid as Of: 2024-12-03
+Version: Cloud
+
+--- Record 1828 ---
+Component: Joule
+Environment: Cloud Foundry
+Title: Joule for Mobile Devices Using SAP Mobile Start
+Description: You can use Joule with mobile devices using SAP Mobile Start. If your SAP Solution is available on SAP Start you can integrate SAP Mobile Start with Joule and use the Joule capabilities for your solution on your mobile device. To learn how to integrate SAP Start with Joule, see SAP Start.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-12-03
+Valid as Of: 2024-12-03
+Version: Cloud
+
+--- Record 1829 ---
+Component: Joule
+Environment: Cloud Foundry
+Title: SAP SuccessFactors Use Cases Now Supported in SAP Mobile Start
+Description: Users can now access Joule from SAP Mobile Start to perform SAP SuccessFactors use cases.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Human Resources
+Latest Revision: 2024-12-03
+Valid as Of: 2024-12-03
+Version: Cloud
+
+--- Record 1830 ---
+Component: SAP Datasphere
+Environment: Cloud Foundry
+Title: No New Features for Version 2024.25
+Description: This version contains no new generally available features.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-12-03
+Valid as Of: 2024-12-03
+Version: Cloud
+

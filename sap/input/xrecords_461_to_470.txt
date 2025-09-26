@@ -1,0 +1,130 @@
+--- Record 461 ---
+Component: SAP Business Application Studio
+Environment: Cloud Foundry
+Title: Calculation Views
+Description: In the calculation view editor, you can now refactor a view node into a reusable, standalone calculation view to simplify complex models, promote reuse, and improve maintainability.  See Refactor a View Node into a Standalone Calculation View.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-07-13
+Valid as Of: 2025-07-13
+Version: T2506b
+
+--- Record 462 ---
+Component: SAP Business Application Studio
+Environment: Cloud Foundry
+Title: Calculation Views
+Description: In the calculation view editor, you can now copy and paste one or more hierarchies between different calculation views.  See Reuse Elements in Calculation Views.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-07-13
+Valid as Of: 2025-07-13
+Version: T2506b
+
+--- Record 463 ---
+Component: SAP Business Application Studio
+Environment: Cloud Foundry
+Title: Calculation Views
+Description: In the calculation view editor, you can now copy and paste one or more window functions between different calculation views.  See Reuse Elements in Calculation Views.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-07-13
+Valid as Of: 2025-07-13
+Version: T2506b
+
+--- Record 464 ---
+Component: SAP Business Application Studio
+Environment: Cloud Foundry
+Title: Calculation Views
+Description: The calculation view editor now supports the use of the HALF_VECTOR data type for calculated columns.  See Create Calculated Columns.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-07-13
+Valid as Of: 2025-07-13
+Version: T2506b
+
+--- Record 465 ---
+Component: SAP Business Application Studio
+Environment: Cloud Foundry
+Title: Calculation Views
+Description: In the calculation view editor, some context menu options have been renamed to improve clarity following the addition of the new Analytic Data Preview option. Specifically, Data Preview has been renamed to Graphical SQL Data Preview, and SQL Editor is now called SQL Data Preview.  See Preview Calculation View Output.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-07-13
+Valid as Of: 2025-07-13
+Version: T2506b
+
+--- Record 466 ---
+Component: SAP Business Application Studio
+Environment: Cloud Foundry
+Title: SAP HANA Development Tooling
+Description: In the SAP HANA Native Application dev space, you can now remove remote database connections in the SAP HANA Database Explorer.  See View Database Objects with the Database Explorer. 
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-07-13
+Valid as Of: 2025-07-13
+Version: T2506b
+
+--- Record 467 ---
+Component: Continuous Integration & Delivery
+Environment: Cloud Foundry
+Title: Bitbucket Cloud: Adjust the Event Receiver Configuration
+Description: Bitbucket Cloud now supports authentication for webhooks.  Action: Please update your Bitbucket Cloud event receiver configuration by using a webhook secret instead of the Bitbucket Cloud Repository UUID. The webhook secret must be provided in the Bitbucket webhook configuration. These updates need to be completed by September 30, 2025.
+Action: Required
+Lifecycle: Deprecated
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-07-11
+Valid as Of: 2025-07-11
+Version: Cloud
+
+--- Record 468 ---
+Component: Continuous Integration & Delivery
+Environment: Cloud Foundry
+Title: Changes for Credential Type “Certificate-Based Authentication for Custom IdP”
+Description: As certificates have become obsolete in the SAP custom IdP, the Certificate-Based Authentication for Custom IdP credential no longer displays one. In addition, the subject has been extended to include the user’s email address in the format CN=${mail:user@example.com}.   Action: We highly recommend updating the settings in the custom IdP’s Trusted Certificate Configuration to improve security.
+Action: Recommended
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-07-11
+Valid as Of: 2025-07-11
+Version: Cloud
+
+--- Record 469 ---
+Component: Joule
+Environment: Cloud Foundry
+Title: Document Grounding Capability - Support for Documents in JSON and PPTX File Formats
+Description: The document grounding capability now supports documents in JSON and PPTX file formats for the following providers and regions:  Amazon Web Services eu10 - Europe (Frankfurt), eu11 - Europe (Frankfurt) EU Access, and us10 - US East (VA)  Google Cloud eu30 - Europe (Frankfurt) and us30 - US Central (IA)  Microsoft Azure eu20 - Europe (Netherlands) and us21 - US East (VA)    See Set Up Document Grounding.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-07-11
+Valid as Of: 2025-07-11
+Version: Cloud
+
+--- Record 470 ---
+Component: Joule
+Environment: Cloud Foundry
+Title: Document Grounding Capability - Support for Integration with SAP Build Work Zone
+Description: The document grounding capability now supports the integration with SAP Build Work Zone, advanced edition.  See Set Up Data Repository Integration, Configure Access from SAP BTP, and Set Up Content Ingestion.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-07-11
+Valid as Of: 2025-07-11
+Version: Cloud
+

@@ -1,0 +1,130 @@
+--- Record 1721 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: valueMappings transformation expression is enhanced
+Description: The valueMappings transformation expression now includes enhanced validations in the JSON editor and automatically pre-filled attributes in the graphical editor. The validations help you identify missing or mismatched values and incorrect array formats, while also indicating where these issues occur.  For more information, see Transformation Expressions.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-12-17
+Valid as Of: 2024-12-17
+Version: 27156
+
+--- Record 1722 ---
+Component: Continuous Integration & Delivery
+Environment: Cloud Foundry
+Title: Bug Fix for Application Name in the SAP Fiori for ABAP Platform Pipeline
+Description: For compatibility reasons, application names in ABAP systems can contain up to 30 characters. The service has now been updated to allow these longer application names in the Application Name field in the Release stage of the SAP Fiori for ABAP platform pipeline.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-12-17
+Valid as Of: 2024-12-17
+Version: Cloud
+
+--- Record 1723 ---
+Component: Data Attribute Recommendation
+Environment: Cloud Foundry
+Title: Availability in Google Cloud Regions
+Description: Data Attribute Recommendation is now available in the following Google Cloud regions:    eu30 - Europe (Frankfurt)      us30 - US Central (IA)    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-12-18
+Valid as Of: 2024-12-17
+Version: Cloud
+
+--- Record 1724 ---
+Component: Data Attribute Recommendation
+Environment: Cloud Foundry
+Title: Data Validation for Batch Inference Jobs
+Description: We've fixed an issue related to data validation for batch inference jobs. For business blueprints scenarios, if the inference data didn't contain the respective business blueprint fields, the validation failed even though the fields aren't needed during inference.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-12-18
+Valid as Of: 2024-12-17
+Version: Cloud
+
+--- Record 1725 ---
+Component: Identity Provisioning
+Environment: Neo
+Title: SAP BTP Platform Members (Cloud Foundry) and SAP BTP XS Advanced UAA (Cloud Foundry) - support for active and verified attributes
+Description: The default write transformations of SAP BTP Platform Members (Cloud Foundry) and SAP BTP XS Advanced UAA (Cloud Foundry) are changed to support the active and verified attributes as optional with default value true during update operation for existing users. At user creation, these attributes have hardcoded value true.  For more information, see SAP BTP Platform Members (Cloud Foundry) (Target) and SAP BTP XS Advanced UAA (Cloud Foundry) (Target).
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-12-17
+Valid as Of: 2024-12-17
+Version: Cloud
+
+--- Record 1726 ---
+Component: Identity Provisioning
+Environment: Neo
+Title: valueMappings transformation expression is enhanced
+Description: The valueMappings transformation expression now includes enhanced validations in the JSON editor. The validations help you identify missing or mismatched values and incorrect array formats, while also indicating where these issues occur.  For more information, see Transformation Expressions.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-12-17
+Valid as Of: 2024-12-17
+Version: Cloud
+
+--- Record 1727 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Additional Google Cloud Platform Regions
+Description: You can choose from an additional Google Cloud Platform region for the SAP BTP ABAP environment: Australia (Sydney).  For more information, see Regions and API Endpoints for the ABAP Environment.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-12-09
+Valid as Of: 2024-12-16
+Version: ABAP Environment 2411
+
+--- Record 1728 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Additional Microsoft Azure Regions
+Description: You can choose from an additional Microsoft Azure region for the SAP BTP ABAP environment: Brazil (São Paulo).  For more information, see Regions and API Endpoints for the ABAP Environment.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-12-09
+Valid as Of: 2024-12-16
+Version: ABAP Environment 2411
+
+--- Record 1729 ---
+Component: Continuous Integration & Delivery
+Environment: Cloud Foundry
+Title: New Region
+Description: SAP Continuous Integration and Delivery can now also be consumed in the Microsoft Azure region Brazil (São Paulo). See Regional Availability.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-12-16
+Valid as Of: 2024-12-16
+Version: Cloud
+
+--- Record 1730 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: API Gateway module: Update to version 2.10.1
+Description: The new version introduces the following changes:        We've changed PodDisruptionBudget from minAvailable: 1 to maxUnavailable: 1.    We've added the issuer reference issuerRef: garden to the specification of the certificate kyma-tls-cert .    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-12-11
+Valid as Of: 2024-12-16
+Version: Cloud
+

@@ -1,0 +1,130 @@
+--- Record 1591 ---
+Component: Pricing Service
+Environment: Cloud Foundry
+Title: Pre-Production - Standard Requirement Formula 67
+Description: Support standard requirement formula 67 that always returns true in the context of the Pricing service.  See: Supported Standard Pricing Exits.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-12-10
+Valid as Of: 2025-01-22
+Version: Cloud
+
+--- Record 1592 ---
+Component: Pricing Service
+Environment: Cloud Foundry
+Title: Pre-Production – Access Sales Records in Purchasing Tables
+Description: Only condition tables and condition records with application ‘V’ (Sales) are considered by the Pricing service. For cases where condition records with application ‘V’ were stored in condition tables with application ‘M’ (Purchasing), those tables can now be added to the replication and will also be considered.  See: Development Guide for SAP Variant Configuration and Pricing.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-12-10
+Valid as Of: 2025-01-22
+Version: Cloud
+
+--- Record 1593 ---
+Component: Pricing Service
+Environment: Cloud Foundry
+Title: Pre-Production – Consider Condition Record Descriptions
+Description: For certain back-end releases it is possible to maintain a description on the condition record level that is then displayed in the pricing results instead of the condition type description. This applies only to non-variant conditions. The Pricing service supports the same mechanism. The feature will only be activated on request through a customer ticket on component LOD-CPS-PRC.   See: API Definition and Development Guide for SAP Variant Configuration and Pricing.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-12-10
+Valid as Of: 2025-01-22
+Version: Cloud
+
+--- Record 1594 ---
+Component: Pricing Service
+Environment: Cloud Foundry
+Title: Pre-Production – Correct Exchange Rate Type in Currency Conversion Trace
+Description: The engine trace used to show an exchange rate type different from the one that was used during price calculation. For example, when the local currency is EUR and the document currency is USD, if the exchange rate type passed is M, but an alternative exchange rate type EURX is maintained in the customizing, the exchange rate is determined based on the alternative type. However, the currency conversion trace did not use to reflect this correctly and displayed the originally passed exchange rate type, M. This discrepancy used to cause confusion during the analysis using the trace information. This issue has been corrected.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-12-10
+Valid as Of: 2025-01-22
+Version: Cloud
+
+--- Record 1595 ---
+Component: Pricing Service
+Environment: Cloud Foundry
+Title: Pre-Production – Document Pricing - Change the Source of a Pricing Document
+Description: When creating a new pricing document with endpoint POST /documents, the owner or source of the document can be specified by providing the following data: The source application, the source type; for example quote, and the source id; for example quote number 49709821. That source information is stored with the pricing document.  The source information can be used as a filter criteria in the APIs to manage stored pricing documents.  New: the enhanced endpoint PATCH /documents  allows overwriting the source of a pricing document if needed.   See: API Definition and Development Guide for SAP Variant Configuration and Pricing.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-12-10
+Valid as Of: 2025-01-22
+Version: Cloud
+
+--- Record 1596 ---
+Component: Pricing Service
+Environment: Cloud Foundry
+Title: Pre-Production – Document Pricing – Stable Source Condition IDs When Copying Items
+Description: When copying an item, the condition id of the source item used to be changed because of an unintended re-pricing of the source document. This issue has been corrected.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-12-10
+Valid as Of: 2025-01-22
+Version: Cloud
+
+--- Record 1597 ---
+Component: Pricing Service
+Environment: Cloud Foundry
+Title: Pre-Production – Extension Concept - Custom Implementation of Unsupported Standard Routines
+Description: Not all standard pricing routines that are available in the back end are also available in the Pricing service. If needed, customers can request the implementation of a missing routine, but SAP might reject this, because the routine is not considered as relevant for the use cases that the Pricing service addresses. In such a case, SAP can allow and enable the customer to use the Pricing service’s extension concept to implement the standard pricing routine on a project-basis. The feature will only be activated on request through a customer ticket on component LOD-CPS-PRC.  See: Supported Standard Pricing Exits and Extension Guide for SAP Variant Configuration and Pricing.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-12-10
+Valid as Of: 2025-01-22
+Version: Cloud
+
+--- Record 1598 ---
+Component: Pricing Service
+Environment: Cloud Foundry
+Title: Pre-Production – Return Condition Record Validity
+Description: New response structure validity for item conditions returned by stateless pricing and document pricing, which exposes the start and end dates of the used condition record.  See: API Definition.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-12-10
+Valid as Of: 2025-01-22
+Version: Cloud
+
+--- Record 1599 ---
+Component: Pricing Service
+Environment: Cloud Foundry
+Title: Pre-Production – Stateless Pricing – Return Calculation Status
+Description: The endpoint POST /statelesspricing has been enhanced with the new response fields calculationStatus and messages as known from document pricing. The new fields tell the caller if the price calculation could be executed as expected, with warnings, or with errors.  See API Definition and Development Guide for SAP Variant Configuration and Pricing.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-12-10
+Valid as Of: 2025-01-22
+Version: Cloud
+
+--- Record 1600 ---
+Component: Pricing Service
+Environment: Cloud Foundry
+Title: Pre-Production – Support Initial Variant Condition Keys
+Description: When the VARCOND key field in an access was flagged as Initial Value Allowed and a condition record with an empty variant condition key was maintained, the Pricing service used to return different results from the pricing in the back end. This issue has been corrected.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-12-10
+Valid as Of: 2025-01-22
+Version: Cloud
+

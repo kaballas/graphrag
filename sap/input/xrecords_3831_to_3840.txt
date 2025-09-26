@@ -1,0 +1,130 @@
+--- Record 3831 ---
+Component: SAP Health Data Services for FHIR
+Environment: Cloud Foundry
+Title: SAP Health Data Services for FHIR - New Service
+Description: A new SAP Health Data Services for FHIR service is now available to build interoperable applications that store, process, and exchange health data. See SAP Health Data Services for FHIR.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2023-11-24
+Version: Cloud
+
+--- Record 3832 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Release of the API Gateway module
+Description: After much anticipation, we proudly announce that the API Gateway module is released to production on November 23. The module provides functionalities that allow you to expose and secure APIs using resources such as Istio Service Mesh. It also helps you enforce authentication, authorization, and other security policies for your APIs. To better understand the module’s capabilities, read the documentation.  The API Gateway module is enabled by default in all new and existing clusters.  We encourage you to learn more about Kyma’s modular approach, test the API Gateway module, and share your feedback in the API Gateway GitHub repository.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-11-15
+Valid as Of: 2023-11-23
+Version: Cloud
+
+--- Record 3833 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Implicit Grant Type Not Enabled by Default
+Description: As announced 2023-08-16, with this change, new applications have the Implicit grant type disabled by default.  Action: Check if you require the Implicit grant type for new applications:      Yes: Ensure your processes for creating new applications include explicitly enabling the Implicit grant type.       For the administration console, see Configure OpenID Connect Application for Implicit Flow.      For the Identity service, see Reference Information for the Identity Service of SAP BTP.          No: Nothing to do.    
+Action: Required
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2023-11-22
+Valid as Of: 2023-11-22
+Version: Cloud
+
+--- Record 3834 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Refresh Token Flow of OIDC Protocol Restricted to Validity of Web Session
+Description: As announced 2023-08-16, with this change, the service couples the validity of refresh tokens to the session timeout. Refresh tokens expire with the user session, unless you add the offline_access scope.  Action: Check if you define a refresh token validity for your applications longer than 12 h:      Yes: Ensure that you decouple the refresh token from the user session with the offline_access scope.  For more information, see Token Policy Configuration for Applications.      No: Nothing to do.    
+Action: Required
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2023-11-22
+Valid as Of: 2023-11-22
+Version: Cloud
+
+--- Record 3835 ---
+Component: SAP Build Apps
+Environment: Cloud Foundry
+Title: Web & Mobile
+Description:   Removed the Delay flow function from the logic canvas of any new "Collection of records" and "Single record" type data variables.  
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2023-11-21
+Version: Cloud
+
+--- Record 3836 ---
+Component: Cloud Application Programming Model
+Environment: Cloud Foundry
+Title: November Release
+Description: The November release of the SAP Cloud Application Programming Model is now available.   Highlights:    New plugins and a new overview page for plugins  Annotating Draft Entities  Persistent Outbox as new default  JDK21 support  Typed Service Interfaces  Technical User Switch  … and much more.  See November 2023 release for the CAP framework.   Action: We recommend to adapt the new versions as soon as possible, see Managing Dependencies.
+Action: Recommended
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2023-11-20
+Version: Cloud
+
+--- Record 3837 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Telemetry module: Update to version 1.3.0
+Description: The new version brings the following improvements:  Logs:      Disabled the legacy Grafana-Loki output because the related legacy logging stack was removed (#461).      Traces:      Automatic enrichment of spans with the service.name attribute in case it's absent (#373).    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2023-10-06
+Valid as Of: 2023-11-20
+Version: Cloud
+
+--- Record 3838 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Kyma 2.20 - Observability
+Description: The Monitoring component, including the in-cluster Prometheus/Grafana stack, has been removed as announced in the Removal of Prometheus/Grafana-based monitoring in SAP BTP, Kyma runtime blog post. Related CRD resources are kept in existing clusters not to interfere with custom installations.
+Action: Info only
+Lifecycle: Deleted
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2023-11-10
+Valid as Of: 2023-11-19
+Version: Cloud
+
+--- Record 3839 ---
+Component: Continuous Integration & Delivery
+Environment: Cloud Foundry
+Title: Dynamic Setting of Transport Request ID in SAP Fiori for ABAP Platform Jobs
+Description: For SAP Fiori for ABAP Platform jobs, you now have the option to configure the transport request ID either in a file within your source repository or in the body of a Git HEAD commit message. See Configure an SAP Fiori for the ABAP Platform Job in the Job Editor.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-11-17
+Valid as Of: 2023-11-17
+Version: Cloud
+
+--- Record 3840 ---
+Component: Continuous Integration & Delivery
+Environment: Cloud Foundry
+Title: Pipeline Renaming
+Description: Our "SAP Cloud Application Programming Model" pipeline was renamed to "Cloud Foundry Environment". All existing jobs will continue to work without any adaptions.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2023-11-17
+Valid as Of: 2023-11-17
+Version: Cloud
+

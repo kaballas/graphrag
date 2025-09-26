@@ -1,0 +1,130 @@
+--- Record 261 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Application Interface Framework Enablement
+Description: You can build and manage your own application interfaces in ABAP development tools for Eclipse (ADT) with the SAP Application Interface Framework (AIF). Due to the lack of ADT for AIF, the development objects for asynchronous integrations (event consumption model and asynchronous SOAP services) currently generate their corresponding AIF interfaces with default monitoring settings automatically. With new AIF development capabilities in ADT, these AIF interfaces can be customized. Custom AIF interfaces can also be created, for monitoring the background processing framework (bgPF) in ABAP Cloud, for example.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-08-15
+Valid as Of: 2025-08-15
+Version: ABAP Environment 2508
+
+--- Record 262 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Background Processing Framework - Final Version
+Description: Background processing is very important for business applications. A lot of logic can be executed asynchronously to improve performance. In scenarios where changes of the current LUW are to be communicated remotely, the asynchronous execution is even mandatory to be compliant with the SAP LUW (due to implicit database commits).  We want to simplify and improve the background processing by covering all required qualities like: “exactly once”, “in order”, testability and an integration into the ADT cross trace for better supportability.  In the next step of bgPF the AIF integration and its monitoring capabilities are provided. In addition, "in order" capabilities are supported.  For more information, see Background Processing Framework.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-08-15
+Valid as Of: 2025-08-15
+Version: ABAP Environment 2508
+
+--- Record 263 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Business User Authentication: Option for Configuring Secondary Signing Certificates
+Description: Currently, only basic authentication is supported as authentication for SMTP outbound communication. With this feature, also the OAuth Client Credential Grant will be supported.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-08-15
+Valid as Of: 2025-08-15
+Version: ABAP Environment 2508
+
+--- Record 264 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: CDS Hierarchy Generation Wizard
+Description: Defining hierarchies for the use in a CDS view can become a complex task, with the need not only for the CDS hierarchy definition itself, but also for a directory, nodes, text views, and more. With the new hierarchy generation wizard, their creation becomes easier, quicker and less error-prone. The wizard will derive potential hierarchy nodes already from the start (on the master data view) and guide you through the creation process.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-08-15
+Valid as Of: 2025-08-15
+Version: ABAP Environment 2508
+
+--- Record 265 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Change Document Reuse UI
+Description: You can embed a reuse UI in your RAP OData V4 Fiori application.  For more information, see How to Use the Fiori Reuse Library.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-08-15
+Valid as Of: 2025-08-15
+Version: ABAP Environment 2508
+
+--- Record 266 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Code Snippet in SOAP Service Consumption Model Changed
+Description: The updated service consumption model improves the instantiation of consumer proxies and optimizes receiver determination through logical ports, enhancing SOAP service communication.  For more information, see Calling the SOAP Service.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-08-15
+Valid as Of: 2025-08-15
+Version: ABAP Environment 2508
+
+--- Record 267 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Collaborative Draft
+Description: You can now add collaborative capabilities to your business object. The collaborative draft allows multiple users to work concurrently on the same draft instance. See: Collaborative Draft Handling
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-08-15
+Valid as Of: 2025-08-15
+Version: ABAP Environment 2508
+
+--- Record 268 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Cross-BO Transactional Enablement
+Description: Cross-BO scenarios can now be transactionally enabled by defining a cross-BO context for the respective BDEFs. See:   RAP - Operations for Associations (ABAP Keyword Documentation)  RAP - with cross associations  RAP - AssocImplType
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-08-15
+Valid as Of: 2025-08-15
+Version: ABAP Environment 2508
+
+--- Record 269 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Deprecated CDS Views in Business Event Logging
+Description: The following CDS views have been deprecated:    C_BUSEVTLOGEVENTDEX_2 (Business Event Header Data (v2) ): Use the following successor: C_BUSEVTLOGEVENTDEX_3      C_BUEVLGEVTFULLPAYLOADJSONDEX (Business Event Data): Use the following successor: C_BUEVLGEVTFULLPYLDJSONDEX_2    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-08-15
+Valid as Of: 2025-08-15
+Version: ABAP Environment 2508
+
+--- Record 270 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Expose Extensibility Status in Open Resource Discovery Document for Business Events
+Description: The Open Resource Discovery document for business events now exposes the extensibility status.  For more information, see Outbound Event History.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-08-15
+Valid as Of: 2025-08-15
+Version: ABAP Environment 2508
+

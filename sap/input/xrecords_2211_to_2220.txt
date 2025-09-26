@@ -1,0 +1,130 @@
+--- Record 2211 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: SAP Ariba Central Invoice Management connector
+Description: Identity Provisioning supports the SAP Ariba Central Invoice Management connector. You can configure it as source, target, and proxy system for your provisioning scenarios. See:    SAP Ariba Central Invoice Management (Source)      SAP Ariba Central Invoice Management (Target)      SAP Ariba Central Invoice Management (Proxy)    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-09-25
+Valid as Of: 2024-09-25
+Version: 26701
+
+--- Record 2212 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: SAP Data Custodian - filter users by group display name
+Description: The default write transformation is changed to support provisioning of users that are members of groups matching the set dc.group.prefix. This is possible by including a condition for filtering the users by group display name of their assigned groups. If the dc.group.prefix is set, only users assigned to groups that contain in their display name the set specific prefix will be provisioned. In case the property is not set, all users are provisioned to SAP Data Custodian, regardless of the group display name of their assigned groups.  See: SAP Data Custodian
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-09-25
+Valid as Of: 2024-09-25
+Version: 26701
+
+--- Record 2213 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: SAP Datasphere connector
+Description: Identity Provisioning supports the SAP Datasphere connector. You can configure it as source, target, and proxy system for your provisioning scenarios. See:    SAP Datasphere (Source)      SAP Datasphere (Target)      SAP Datasphere (Proxy)    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-09-25
+Valid as Of: 2024-09-25
+Version: 26701
+
+--- Record 2214 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: SAP HANA Cloud, SAP HANA Database connector
+Description: Identity Provisioning supports the SAP HANA Cloud, SAP HANA Database connector. You can configure it as source, target, and proxy system for your provisioning scenarios. See:    SAP HANA Cloud, SAP HANA Database (Source)      SAP HANA Cloud, SAP HANA Database (Target)      SAP HANA Cloud, SAP HANA Database (Proxy)    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-09-25
+Valid as Of: 2024-09-25
+Version: 26701
+
+--- Record 2215 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Skip create and delete operations of groups - removed
+Description: Skipping the create and delete operations for groups has been removed from the write transformations of the SAP BTP XS Advanced UAA (Cloud Foundry) target system.  Previously, it was not possible to create or delete groups; it was expected that groups already exist in the target system, allowing Identity Provisioning to only update their members. Now, creating, updating, and deleting groups follow the standard processes.  See: SAP BTP XS Advanced UAA (Cloud Foundry)
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-09-25
+Valid as Of: 2024-09-25
+Version: 26701
+
+--- Record 2216 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Support for OAuth certificate authentication
+Description: SAP CPQ support OAuth certificate authentication.See: SAP CPQ
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-09-25
+Valid as Of: 2024-09-25
+Version: 26701
+
+--- Record 2217 ---
+Component: Decentralized Identity Verification
+Environment: Cloud Foundry
+Title: Create Additional Service Keys and Restrict Its Authorities
+Description: You can now create additional service keys with predefined authorizations defined by specific scopes.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2024-09-25
+Version: 3.2
+
+--- Record 2218 ---
+Component: Decentralized Identity Verification
+Environment: Cloud Foundry
+Title: Provisioning - Create and Delete Decentralized Identity Verification Tenants
+Description: You can create and delete a tenant using the Decentralized Identity Verification Provisioning API.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2024-09-25
+Version: 3.2
+
+--- Record 2219 ---
+Component: Identity Provisioning
+Environment: Neo
+Title: Condition and skip update - changed behavior
+Description: The behavior of target transformations that contain a combination of condition and skip operations for updates has been changed.  Previously, the skip operation was evaluated before the condition. If users or groups have been updated in the source system, they are marked as skipped in the logs, and Identity Provisioning does not proceed to evaluate the condition. As a result, users or groups that do not meet the condition are not deleted as they should be. After the change, the condition is evaluated first.  See: Transformation Expressions
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-09-25
+Valid as Of: 2024-09-25
+Version: Cloud
+
+--- Record 2220 ---
+Component: Identity Provisioning
+Environment: Neo
+Title: Reset of SAP Master Data Integration - changed behavior
+Description: Resetting the SAP Master Data Integration source system also resets the delta load marker.  Previously, the reset cleared the operational data without resetting the delta marker. This approach prevented the provisioning of old events in subsequent job runs. Now, the reset procedure for this system is consistent with that of the other supported source systems.  See: SAP Master Data Integration  
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-09-25
+Valid as Of: 2024-09-25
+Version: Cloud
+

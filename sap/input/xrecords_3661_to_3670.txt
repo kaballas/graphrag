@@ -1,0 +1,130 @@
+--- Record 3661 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Agent - Trace Filter
+Description: You can now filter traces according to upload date or end date. Go to Control Tower  Agents and choose an agent. In the Trace Reports tab, enter a date.  See Set Up Traces.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-13
+Valid as Of: 2024-01-13
+Version: Cloud
+
+--- Record 3662 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Monitoring - Automation Jobs
+Description: You can now use the new Simultaneous Quota Usage for Automations tile to check how many attended and unattended automation jobs you have running simultaneously in relation to the number permitted by the quota. See Simultaneous Quota Usage for Automations.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-13
+Valid as Of: 2024-01-13
+Version: Cloud
+
+--- Record 3663 ---
+Component: Java Server
+Environment: Neo
+Title: Java Web Tomcat 8 is deprecated
+Description: We have stopped the support of Java Web Tomcat 8 runtime following the official announcement of Apache Tomcat 8.5 end of life.   Required Action: If you have Java applications running on that runtime, migrate to Java Web Tomcat 9 immediately. See Migrating from Java Web Tomcat 8 to Java Web Tomcat 9.
+Action: Required
+Lifecycle: Deprecated
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-01-11
+Valid as Of: 2024-01-11
+Version: Cloud
+
+--- Record 3664 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Regional Availability
+Description: Canada (Toronto) data center (DC) is now decommissioned as of the high availability setup. The United States (Colorado) DC now handles the traffic from the decommissioned DC. The following IPs are no longer valid:  LB IPs - 130.214.238.92  NAT IPs - 130.214.238.32/27  First IP - Last IP - 130.214.238.32-130.214.238.63  See Regional Availability.
+Action: Info only
+Lifecycle: Deprecated
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-01-11
+Valid as Of: 2024-01-11
+Version: Cloud
+
+--- Record 3665 ---
+Component: Java Server
+Environment: Neo
+Title: Tomcat version for Java Web Tomcat 8
+Description: Java Web Tomcat 8 (runtime version 3.194) has been updated to Tomcat version 8.5.96. The new version contains security fixes.   See the Changelog.  Recommended action: Update your applications to the latest runtime version.
+Action: Recommended
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-01-11
+Valid as Of: 2024-01-11
+Version: Cloud
+
+--- Record 3666 ---
+Component: Java Server
+Environment: Neo
+Title: Tomcat version for Java Web Tomcat 9 and Java EE 7 Web Profile TomEE 7
+Description: Java Web Tomcat 9 (runtime version 4.67) and Java EE 7 Web Profile TomEE 7 (runtime version 1.165) have been updated to Tomcat version 9.0.83. The new version contains security fixes.  See the Changelog.  Recommended action: Update your applications to the latest runtime version.
+Action: Recommended
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-01-11
+Valid as Of: 2024-01-11
+Version: Cloud
+
+--- Record 3667 ---
+Component: Cloud Management Tools,SAP BTP Cockpit
+Environment: ABAP,Cloud Foundry,Kyma,Neo,Other
+Title: New Option to Export the Account Structure in SAP BTP Cockpit
+Description: We've added a new option to the Account Explorer page in SAP BTP cockpit, which allows you to export your account structure to Microsoft Excel format. The exported document lists all the subaccounts and directories in your account structure and includes important information about each entity.  For more information, see Manage the Account Explorer Hierarchy.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-11
+Valid as Of: 2024-01-11
+Version: Cloud
+
+--- Record 3668 ---
+Component: Cloud Portal Service
+Environment: Neo
+Title: Supported SAPUI5 Versions
+Description: SAPUI5 1.120 version will be the last SAPUI5 1.x version consumed by SAP Cloud Portal on Neo. It will become a long-term maintenance release. This is applicable to both site design time and site runtime.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-01-11
+Valid as Of: 2024-01-11
+Version: Cloud
+
+--- Record 3669 ---
+Component: Connectivity
+Environment: Cloud Foundry,Kyma
+Title: Transparent Proxy for Kubernetes - Changes
+Description: Transparent Proxy version 1.4.0 provides the following changes:      Enhanced performance on request processing for faster, more efficient target system consumption.      Enhanced request troubleshooting, providing detailed error information and source identification.      Improved summary of destination custom resources for Kubernetes administrators, providing detailed status without the need for descriptions.    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2024-01-11
+Version: Cloud
+
+--- Record 3670 ---
+Component: Connectivity
+Environment: Cloud Foundry,Kyma
+Title: Transparent Proxy for Kubernetes - New Features
+Description: A new version of the Transparent Proxy for Kubernetes (1.4.0) has been released.Transparent Proxy version 1.4.0 provides the following new features:  Multitenancy support for seamless consumption of target systems defined as TCP destinations in the different tenants and exposed locally on the level of TCP protocol. The actual communication protocol may be any TCP-based protocol, for example, ODBC/JDBC, SMTP, etc. For more information, see Multitenancy.  Simple arbitrary access to destinations. Dynamically access the target systems via a single destination custom resource, instead of creating such for every locally exposed destination.For more information, see Dynamic Lookup of Destinations.  Native integration with Istio. Easily, via single configuration, add the target systems or service endpoints exposed via Transparent Proxy to the Istio service mesh.For more information, see Configuration Guide.   Native integration with the Connectivity Proxy in multi-tenant trusted mode. You can now easily consume target systems without sending identity tokens to the Connectivity Proxy.  Automated update of service keys, in use by Transparent Proxy, upon Kubernetes secrets change.   The Transparent Proxy module in Kyma now auto-detects and loads all Destination service instance bindings within its namespace, reducing the need for manual configuration. For more information, see Transparent Proxy in the Kyma Environment.  The Transparent Proxy module in Kyma now, by default, creates a Destination service instance and binding upon enabling the module, significantly simplifying the initial setup.For more information, see Transparent Proxy in the Kyma Environment.  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2024-01-11
+Version: Cloud
+

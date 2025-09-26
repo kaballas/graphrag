@@ -1,0 +1,130 @@
+--- Record 3601 ---
+Component: SAP Build Apps
+Environment: Cloud Foundry
+Title: Backend
+Description:   Enabled Visual cloud functions user authorization feature.  Visual cloud functions are now available for consumption from applications deployed to SAP Build Workzone.  
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2024-01-26
+Version: Cloud
+
+--- Record 3602 ---
+Component: SAP BTP, Cloud Foundry Runtime
+Environment: Cloud Foundry
+Title: Deprecation of Weak Client Certificate Chains
+Description: This is a reminder that, as announced in May 2023 and on November 2, 2023, we plan to harden the security standards on certain properties for client certificates and their certificate chains in early 2024 to further strengthen platform security.   We are doing so by raising the OpenSSL security level to 2. This will result in weak certificates or certificate chains no longer being accepted by the platform. For more information and a full definition of security level 2, see https://www.openssl.org/docs/man3.0/man3/SSL_CTX_set_security_level.html#DEFAULT-CALLBACK-BEHAVIOUR  While the change has already been rolled out on the regions br10 and eu20 in November 2023, the remaining regions are scheduled to follow on February 22, 2024.  Note that this change only affects client certificates. If you do not use client certificates/mTLS to authenticate with the platform, you are not affected.  Action:  If you are using client certificates/mTLS, you can check your certificate chain using the following command: openssl verify -auth_level=2 -CAfile ./ca.pem -untrusted ./intermediate.pem ./cert.pem  For more details on the command, see 3333978 .  If your certificate fails the verification, please contact the issuer of the certificate with the command you executed and the output you got and request a certificate that passes the verification.
+Action: Required
+Lifecycle: Deprecated
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-01-25
+Valid as Of: 2024-01-25
+Version: Cloud
+
+--- Record 3603 ---
+Component: Cloud Management Tools,SAP BTP Cockpit
+Environment: ABAP,Cloud Foundry,Kyma,Neo,Other
+Title: New Quick Action for Global Account Administrators to Assign Themselves as Subaccount Administrators in the Account Explorer
+Description: If you're a global account administrator, you can now easily assign yourself as an administrator of any subaccount in your account structure. Go to the Account Explorer page in the SAP BTP cockpit and look for the new Add Me as Admin option in the    (Actions) context menu of the listed subaccounts.  This feature is especially useful if a previous subaccount administrator has left your organization. As a global account admin, you can quickly assign yourself and take over administrator duties, and add other subaccount members.  Action:  By default, this feature is available for all global accounts. If you want to disable it for your global account, send an opt-out request using the component BC-NEO-CIS-OPS and state your global account ID. See Getting Support for information about opening a case and getting technical assistance.
+Action: Required
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-11
+Valid as Of: 2024-01-25
+Version: Cloud
+
+--- Record 3604 ---
+Component: Authorization and Trust Management Service
+Environment: ABAP,Cloud Foundry,Kyma,Other
+Title: Management of API Credentials for Calling REST APIs of SAP Authorization and Trust Management Service
+Description: We’ve added a new way to manage technical credentials for REST APIs of the SAP Authorization and Trust Management service. It's no longer restricted to multi-environment subaccounts with a Cloud Foundry environment, but works independently from environments in any multi-environment subaccount, directory, and global account. Most importantly, you can now also provision global account and directory members using the SCIM API. See Accessing Administration Using APIs of the SAP Authorization and Trust Management Service.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-11
+Valid as Of: 2024-01-25
+Version: Cloud
+
+--- Record 3605 ---
+Component: Automation Pilot
+Environment: Cloud Foundry
+Title: Kubernetes Operators
+Description: SAP Automation Pilot is set to offer you an opportunity to create and execute Kubernetes operators, capitalizing on the same user-friendly low-code/no-code tools already available in the service for alternate environments. See Operator and Kubernetes Operator .
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-25
+Valid as Of: 2024-01-25
+Version: Cloud
+
+--- Record 3606 ---
+Component: Automation Pilot
+Environment: Cloud Foundry
+Title: Remote Work Processor
+Description: SAP Automation Pilot defined an additional permission called Remote Work Processor which allows you to create run configuration entities when managing Kubernetes operators. The permission helps to establish a successful connection between a remote work processor deployed on a customer environment and the SAP Automation Pilot backend. See Permissions and Roles.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-25
+Valid as Of: 2024-01-25
+Version: Cloud
+
+--- Record 3607 ---
+Component: Automation Pilot
+Environment: Cloud Foundry
+Title: Subscription Plan Update
+Description: You can now update your existing free subscription plan to a standard one. See Initial Setup.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-25
+Valid as Of: 2024-01-25
+Version: Cloud
+
+--- Record 3608 ---
+Component: Connectivity
+Environment: Cloud Foundry,Neo
+Title: Cloud Connector - Reindexing of Security Recommendations
+Description: In the SAP BTP Security Recommendations, the index name for the Cloud Connector has been changed from BTP-CLC-xxxx to BTP-SCC-xxxx to comply with current naming conventions.  No other changes were made to these recommendations.  For more information, see SAP BTP Security Recommendations.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2024-01-25
+Version: Cloud
+
+--- Record 3609 ---
+Component: Extensions
+Environment: Cloud Foundry,Kyma
+Title: Declaring System APIs and Events as Dependencies for Business Scenarios
+Description: For certain formation types, systems of type Other System Type that are part of the System Landscape page may need to describe their runtime dependencies so other systems can comply with these dependencies to be able to interact with these systems in a common scenario.  The integration dependency includes a list of requirements, which point out which API and event resources are involved. Each requirement describes one aspect and can be used to express alternatives using OR conditions for achieving the same outcome.  See Declaring System APIs and Events as Dependencies for Business Scenarios.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-01-25
+Valid as Of: 2024-01-25
+Version: Cloud
+
+--- Record 3610 ---
+Component: Foundational Services
+Environment: ABAP,Cloud Foundry,Kyma,Other
+Title: Provisioning of global accounts and directory members (SCIM API)
+Description: In addition to subaccount members, you can now also provision members of global accounts and directories by using the SAP Cloud Identity - Identity Provisioning service and other identity provisioning systems that use the standard SCIM API. See Provision Users to SAP BTP for more information.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-25
+Valid as Of: 2024-01-25
+Version: Cloud
+

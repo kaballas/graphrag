@@ -1,0 +1,130 @@
+--- Record 2691 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: End of Maintenance - Desktop Agent 2
+Description: End of mainstream maintenance: On June 30 2024, mainstream maintenance ends for desktop agent 2 on SAP Build Process Automation. See Best Practices when Migrating from Desktop Agent 2 to Desktop Agent 3 and 3440715 .
+Action: Required
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-06-25
+Valid as Of: 2024-06-25
+Version: Cloud
+
+--- Record 2692 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Off-Cycle Upgrade
+Description: Cloud Identity Services have been upgraded.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-06-25
+Valid as Of: 2024-06-25
+Version: 26281
+
+--- Record 2693 ---
+Component: Document Management Service
+Environment: Cloud Foundry
+Title: Introducing the New Version of the SAP Document Management Mobile App With Enhanced UI and Simplified Onboarding Experience
+Description: Discover the convenience of managing documents efficiently with our newly released SAP Document Management mobile app, now available on both the App Store and Google Play Store.   This release offers an enhanced user interface and a streamlined onboarding process, simplifying your journey from the start. With offline capabilities, the app empowers you to access important files anytime, anywhere, independent of internet connectivity.  See Mobile Applications.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-06-25
+Valid as Of: 2024-06-25
+Version: Cloud
+
+--- Record 2694 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Sort Variables List for Environment
+Description: In the Variables screen for environments, under Control Tower  Environments, you can sort the list of variables for your environment by Name, Type, or Project&Version. You can sort your variables in the Public environment and in your shared environments.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-06-25
+Valid as Of: 2024-06-25
+Version: Cloud
+
+--- Record 2695 ---
+Component: Continuous Integration & Delivery
+Environment: Cloud Foundry
+Title: Deprecation of SAP Fiori in the Cloud Foundry Environment Pipeline and Migration of Associated Jobs
+Description:  The SAP Fiori in the Cloud Foundry Environment pipeline type has been deprecated and removed from the job editor. Therefore, we’ve migrated all existing SAP Fiori in the Cloud Foundry Environment jobs to the Cloud Foundry Environment pipeline type. They will continue to work as before.  If you want to create a new job for the SAP Fiori use case with deployment to the Cloud Foundry environment, please use the Cloud Foundry Environment pipeline type.
+Action: Info only
+Lifecycle: Deleted
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-06-24
+Valid as Of: 2024-06-24
+Version: Cloud
+
+--- Record 2696 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: Identifier API
+Description: The Identifier API (Decommissioned) and its endpoints are now deprecated and scheduled for decommissioning in September 2025. Following that date, the Identifier API and the following endpoints will no longer be available:    Create Identifier (Decommissioned)      Get Identifier (Decommissioned)      Delete Identifier (Decommissioned)      Please use the Schema API to process paymentAdvice documents in Excel format.
+Action: Recommended
+Lifecycle: Deprecated
+Type: Changed
+Line of Business: Intelligent Technologies
+Latest Revision: 2024-06-24
+Valid as Of: 2024-06-24
+Version: Cloud
+
+--- Record 2697 ---
+Component: SAP HANA Cloud
+Environment: Cloud Foundry,Kyma,Other
+Title: New component version available
+Description: A new component version is available for the following SAP HANA Cloud components:   2024.14 (QRC 2/2024) for SAP HANA Cloud, SAP HANA database  2024.2.4386 (QRC 2/2024) for SAP HANA Cloud, data lake      See What's New in SAP HANA Cloud.  Action: To use the new component version, you must upgrade your instance. See Managing SAP HANA Cloud Instances.
+Action: Recommended
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-06-25
+Valid as Of: 2024-06-24
+Version: Cloud
+
+--- Record 2698 ---
+Component: Data Attribute Recommendation
+Environment: Cloud Foundry
+Title: Usability and Stability Improvements
+Description: The following usability and stability improvements are now available:    Some issues with the support of UTF-8 Byte Order Mark (BOM) encoding type have now been resolved.      AI API executions that remain in UNKNOWN status for more than 3 hours are now abandoned.      AI API deployments that remain in UNKNOWN status for more than 6 hours are now abandoned.    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-06-24
+Valid as Of: 2024-06-24
+Version: Cloud
+
+--- Record 2699 ---
+Component: Joule
+Environment: Cloud Foundry
+Title: New Document Grounding Capability
+Description: The document grounding capability is now available in the SAP SuccessFactors HCM Suite. You can now add context to Joule using information gathered from documents you upload to the service. See Set Up Document Grounding.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-06-24
+Valid as Of: 2024-06-24
+Version: Cloud
+
+--- Record 2700 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Serverless module: Update to version 1.5.0
+Description: Following the deprecation note published on 30th of October, 2023, we are removing support for namespace-scoped custom Docker registry configurations.  In addition, the new version introduces changes in the management of Function resources. We have changed the default preset for the requested resources for Function builds. Now, it demands less CPU time by default. Related to that, we have exposed the resource-related configuration in Kyma Dashboard.  We have also added support to ESM syntax in the Node.js Functions. This allows you to pick whether to include the dependencies using the import/export or require (...) statement. Follow Sample Functions to learn how to toggle between EMS and CommonJS.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-06-19
+Valid as Of: 2024-06-24
+Version: Cloud
+

@@ -1,0 +1,130 @@
+--- Record 961 ---
+Component: Cloud Transport Management
+Environment: Cloud Foundry
+Title: Enhancements to the Create Node dialog.
+Description: When you create or edit a transport node, the destination selection box now displays both the name and description of each destination. The description makes it easier to choose the appropriate destination.  See:   Create Transport Nodes  
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Application Development and Integration
+Latest Revision: 2025-05-06
+Valid as Of: 2025-05-06
+Version: 2504a
+
+--- Record 962 ---
+Component: Cloud Transport Management
+Environment: Cloud Foundry
+Title: New function in the import queue: Immediately start imports of transport requests as soon as they enter an import queue.
+Description: This function enhances automation, and simplifies the import process.  See:   Enable Automatic Import  
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Application Development and Integration
+Latest Revision: 2025-05-06
+Valid as Of: 2025-05-06
+Version: 2504a
+
+--- Record 963 ---
+Component: Cloud Transport Management
+Environment: Cloud Foundry
+Title: Revamp of the Landscape Action Logs
+Description: The landscape action logs are now displayed in a more flexible table layout with extensive filter options, detail display, and links to the affected objects.   See:   Landscape Action Logs  
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Application Development and Integration
+Latest Revision: 2025-05-06
+Valid as Of: 2025-05-06
+Version: 2504a
+
+--- Record 964 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: API Gateway module: APIRule v2 upgrade and deletion of v1beta1 are postponed
+Description:     After careful consideration, we have decided to postpone the release of API Gateway 3.0.0, which contains the APIRule v2 upgrade, to May 5, 2025.  Additionally, the planned deletion of v1beta1 for the end of May will also be postponed. A new target date will be announced in the future.  Required action: Migrate all your APIRule custom resources (CRs) to version v2.      To migrate your APIRule CRs from version v2alpha1 to version v2, you must update the version in APIRule CRs’ metadata.  To migrate your APIRule CRs from version v1beta1 to v2, follow the procedure described in the blog posts:   APIRule migration - noAuth and jwt handlers  APIRule migration - Ory Oathkeeper based OAuth2 handlers    For more information, see Changes Introduced in APIRule v2alpha1 and v2. Since the APIRule CRD v2alpha1 is identical to v2, the migration procedure from version v1beta1 to version v2 is the same as from version v1beta1 to version v2alpha1.
+Action: Required
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-04-16
+Valid as Of: 2025-05-05
+Version: Cloud
+
+--- Record 965 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: API Gateway module: Update to version 3.0.2
+Description: This version of the API Gateway module introduces APIRule CR in the stable version v2.   The new CRD allows you to expose your workloads using one of the three supported access strategies: jwt, noAuth, and extAuth. The noAuth access strategy provides a simple configuration for exposing workloads over the specified HTTP methods. The jwt access strategy allows you to secure your workload by defining Istio JWT configuration and the extAuth access strategy allows for providing custom authentication and authorization logic. For more information, see APIRule Custom Resource.  Additionally, version 3.0.2 contains the following fixes:  We've fixed the behavior of in-cluster connectivity when using JWT handler in APIRule. Now, in-cluster connectivity is blocked.  Now, when you create an APIRule with the noAuth access strategy, it is validated if the target workload has an Istio sidecar proxy injected.  
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-05-05
+Valid as Of: 2025-05-05
+Version: Cloud
+
+--- Record 966 ---
+Component: Data Space Integration
+Environment: Cloud Foundry
+Title: Assignees Column Available in Company Policies
+Description: In the list of company policies (Configure  Data Spaces), the column Assignees now shows you how many clients are already assigned to the company policy.  See Create and Edit Company Policies.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-05-04
+Valid as Of: 2025-05-04
+Version: 2503
+
+--- Record 967 ---
+Component: Data Space Integration
+Environment: Cloud Foundry
+Title: Software Version Update
+Description: The following are the latest versions in Data Space Integration:      Data Space Integration: 1.8.*      Increment: 2503      Tractus-X Eclipse Dataspace Connector: 0.7.6      FOSS Eclipse Dataspace Components: 0.7.2      See also the Release Notes of Catena-X. 
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-05-04
+Valid as Of: 2025-05-04
+Version: 2503
+
+--- Record 968 ---
+Component: Integration Advisor
+Environment: Cloud Foundry,Neo
+Title: Mass Validate XSLT Snippets
+Description: You can now mass validate all your XSLT snippets inside your mapping guideline (MAG). See Working with a Mapping Guideline (MAG).  As Cloud Integration (standalone) customer, see Working with a Mapping Guideline (MAG).
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-05-04
+Valid as Of: 2025-05-04
+Version: 2503
+
+--- Record 969 ---
+Component: Integration Advisor
+Environment: Cloud Foundry,Neo
+Title: Software Version Update
+Description:   SAP Integration Advisor: 1.99.*    Increment: 2503    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-05-04
+Valid as Of: 2025-05-04
+Version: 2503
+
+--- Record 970 ---
+Component: Integration Advisor
+Environment: Cloud Foundry,Neo
+Title: Use Full or Reduced Message XSD File
+Description: In your message implementation guideline (MIG) for EDI type systems, you can now choose if you want to use the full or a reduced message XSD file. The message XSD file is used in the EDI flow steps. For new MIGs, the default is the full XSD file, whereas existing MIGs continue to use reduced XSD files for compatibility reasons. See Exporting Runtime Artifacts.  As Cloud Integration (standalone) customer, see Exporting Runtime Artifacts. 
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-05-04
+Valid as Of: 2025-05-04
+Version: 2503
+

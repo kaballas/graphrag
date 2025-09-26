@@ -1,0 +1,130 @@
+--- Record 3271 ---
+Component: Migration Assessment
+Environment: Cloud Foundry
+Title: Custom Extraction of Integration Scenarios
+Description: You can now extract a custom selection of integration scenarios from your SAP Process Orchestration System. When creating a new extraction, choose Custom Extraction and select only the integration scenarios you want to extract. This function is especially useful when you want to exclude specific integration scenarios or restrict the extraction to a small number of scenarios.  See Create a Data Extraction Request.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-03-18
+Valid as Of: 2024-03-18
+Version: 2401
+
+--- Record 3272 ---
+Component: Migration Assessment
+Environment: Cloud Foundry
+Title: New Rules Added
+Description: The following rules have been added for Migration Assessment:      ICOOperationCount: Count the number of operations within a service interface.      SenderRESTPolling: Determine if REST polling is used.    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-03-18
+Valid as Of: 2024-03-18
+Version: 2401
+
+--- Record 3273 ---
+Component: Migration Assessment
+Environment: Cloud Foundry
+Title: Software Version Update
+Description:     Migration Assessment: 1.25.*      Increment: 2401    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-03-18
+Valid as Of: 2024-03-18
+Version: 2401
+
+--- Record 3274 ---
+Component: SAP BTP Best Practices
+Environment: ABAP,Cloud Foundry,Kyma,Neo,Other
+Title: Best Practices Guide - Major Update
+Description: The guide Best Practices for SAP BTP has seen a major update in the guidance for setting up your Account Model and your Security and Compliance Model. Furthermore, we have added recommendations for SAP BTP, Kyma runtime across the whole guide. Various minor improvements have been made based on customer feedback.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-03-18
+Valid as Of: 2024-03-18
+Version: Cloud
+
+--- Record 3275 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Attributes for Forms and Approval Forms
+Description: There's a new Attributes tab in the side panel for forms and approval forms. You use it to define attributes that can later be used in other services to filter the entries, for example in the My Inbox expert view.  See Configure Forms and Approval Forms.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-03-18
+Valid as Of: 2024-03-18
+Version: Cloud
+
+--- Record 3276 ---
+Component: SAP Advanced Financial Closing
+Environment: Cloud Foundry
+Title: Start Immediately Indicator Replaced
+Description: The settings to automate job processing have been enhanced. The Start Immediately indicator is deprecated. Automated job processing is now defined by a start mode you select on task level.  The Start Immediately setting is still available as read-only information in some places, such as columns, but it will be removed in a future release.  More information:  How to Create Tasks  Automation of Tasks    Apps affected:  Manage Closing Task Lists  Process Closing Tasks    Action: If you have views in which you've added the Start Immediately information, update the views to reflect the start mode of tasks instead.
+Action: Recommended
+Lifecycle: Deprecated
+Type: Changed
+Line of Business: Finance
+Latest Revision: 2024-03-01
+Valid as Of: 2024-03-17
+Version: Cloud
+
+--- Record 3277 ---
+Component: SAP Advanced Financial Closing
+Environment: Cloud Foundry
+Title: Adjust Planned Duration of Several Tasks in the Same Task Sequence
+Description: You can now perform a mass change of the planned duration for several tasks at the same time even if the tasks are part of the same task sequence.  More information:  How to Perform Mass and Single Quick Actions on Tasks  App affected:  Manage Closing Task Lists
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Finance
+Latest Revision: 2024-03-01
+Valid as Of: 2024-03-17
+Version: Cloud
+
+--- Record 3278 ---
+Component: SAP Advanced Financial Closing
+Environment: Cloud Foundry
+Title: Automated Job Processing Enhanced
+Description: The settings to automate job processing have been enhanced. The Start Immediately indicator has been replaced by a Start Mode setting. Three start modes are available, allowing you to define that a task is started manually, automatically at the planned start time, or automatically even before the planned start is reached. Of course, predecessor tasks still have to be completed as well as approved if approval is required.  You can freely update the start mode selection for your tasks, but, for now, the selections for Start Immediately have been adjusted to the new values as follows to ensure that the scheduling behavior is consistent with the behavior before the release:    Start Immediately Value  Start Mode        Yes  Automatically When Due      No  Manually      More information:  How to Create Tasks  Automation of Tasks    Apps affected:  Manage Closing Task Lists  Process Closing Tasks  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Finance
+Latest Revision: 2024-03-01
+Valid as Of: 2024-03-17
+Version: Cloud
+
+--- Record 3279 ---
+Component: SAP Advanced Financial Closing
+Environment: Cloud Foundry
+Title: Business Feature Validation
+Description: If tasks in an on-premise communication system are assigned to a business feature (switch) in the communication system, the state of this business feature is now also checked when you perform the following actions:  Create a task from a model  Copy a folder  Assign a task list model  Update a task list model in a template    If the current business feature state renders a task invalid for the specific use case, you aren't able to perform the corresponding action for this task.  App affected:  Manage Closing Task Lists  
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Finance
+Latest Revision: 2024-03-01
+Valid as Of: 2024-03-17
+Version: Cloud
+
+--- Record 3280 ---
+Component: SAP Advanced Financial Closing
+Environment: Cloud Foundry
+Title: Closing Structure Table Toolbars Adjusted
+Description: To enable assignments to be updated faster on folder level, the following user assignments can now also be changed using quick actions directly in the table toolbar of the Closing Structure tables:  User Responsible and Responsible User Group can be changed using the Change Users Responsible quick action.  Processing User and Processing User Group can be changed using the Change Processing Users quick action.    Additionally, these user assignments can still be changed in the Change Attributes dialog that can also be accessed via the table toolbar.  More information:  How to Perform Mass and Single Quick Actions on Folders  App affected:  Manage Closing Task Lists
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Finance
+Latest Revision: 2024-03-01
+Valid as Of: 2024-03-17
+Version: Cloud
+

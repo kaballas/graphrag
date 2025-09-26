@@ -1,0 +1,130 @@
+--- Record 3411 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: UI Improvements - Automation SDK
+Description: The Options tab for the Automation SDK has been removed from the UI and is no longer supported.
+Action: Info only
+Lifecycle: Deprecated
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-02-19
+Valid as Of: 2024-02-19
+Version: Cloud
+
+--- Record 3412 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Inbound Communication: Transport Layer Security (TLS 1.3)
+Description: ABAP Cloud support transport layer security 1.3 for inbound HTTP and WebSocket RFC connections. TLS 1.3 is supported in addition to TLS 1.2
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-02-18
+Valid as Of: 2024-02-19
+Version: ABAP Environment 2402
+
+--- Record 3413 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: Inbound Communication: Transport Layer Security (TLS 1.3)
+Description: ABAP Cloud support transport layer security 1.3 for inbound HTTP and WebSocket RFC connections. TLS 1.3 is supported in addition to TLS 1.2
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-02-18
+Valid as Of: 2024-02-19
+Version: Cloud
+
+--- Record 3414 ---
+Component: Continuous Integration & Delivery
+Environment: Cloud Foundry
+Title: Open Documentation Initiative
+Description: You can now provide feedback and contribute content to our documentation by using the Create issue and Edit page buttons in the new Feedback drop-down list on each of our documentation pages.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-02-19
+Valid as Of: 2024-02-19
+Version: Cloud
+
+--- Record 3415 ---
+Component: Continuous Integration & Delivery
+Environment: Cloud Foundry
+Title: Sorting, Grouping and Live-Searching for Credentials
+Description: You can now use filters and sorting in the Credentials overview table. Additionally, when you type something into the search field, all columns are taken into account and filtered immediately.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-02-19
+Valid as Of: 2024-02-19
+Version: Cloud
+
+--- Record 3416 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Switzerland (Zurich) Azure EU Access
+Description: Switzerland (Zurich) Azure EU Access (cf-ch20) is available as a new region running on Azure for use with enterprise accounts.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-02-19
+Valid as Of: 2024-02-19
+Version: Cloud
+
+--- Record 3417 ---
+Component: SAP Advanced Financial Closing
+Environment: Cloud Foundry
+Title: Closing Structure Table Changed
+Description: A second tab has been added to the Closing Structure table. While the Hierarchy tab displays the closing structure as a hierarchy - that is, the way you already know it - the new List tab shows the folders in a list.  This change affects the personalized views (formerly known as view variants) that you have created for the Closing Structure table. The existing views have been removed with this release and need to be recreated as required.  Note  Views are managed separately on both tabs. This means that you can create views specific to one of the tabs without the view appearing in your view management on the other tab.  App affected:  Manage Closing Task Lists  Action: Recreate and save the views as required. To do this, go to the Closing Structure table in the Manage Closing Task Lists app, adjust the view as needed, and save it.
+Action: Required
+Lifecycle: General Availability
+Type: New
+Line of Business: Finance
+Latest Revision: 2024-02-02
+Valid as Of: 2024-02-18
+Version: Cloud
+
+--- Record 3418 ---
+Component: SAP Advanced Financial Closing
+Environment: Cloud Foundry
+Title: Deletion of Task Lists
+Description: The prerequisites for deleting task list templates and task lists have been enhanced. Production task lists can still only be deleted if they have the status Not Released. Non-production task lists, on the other hand, can be deleted irrespective of their status. With this change, a new authorization for user roles has been introduced to allow authorization for different delete actions.  More information:  How to Delete Task List Templates and Task Lists  App affected:  Manage Closing Task Lists  Action: Users managing user access need to assign the new Delete authorization to users that need to delete task lists irrespective of the task list status.
+Action: Required
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Finance
+Latest Revision: 2024-02-02
+Valid as Of: 2024-02-18
+Version: Cloud
+
+--- Record 3419 ---
+Component: SAP Advanced Financial Closing
+Environment: Cloud Foundry
+Title: Important SAP Note for On-Premise Communication Systems Released
+Description: The SAP Note 3336977  has been released and provides an important fix for use of SAP Advanced Financial Closing with communication systems that have been upgraded from a previous version to one of the following system types:    SAP S/4HANA  2023  SAP S/4HANA  2022    More information:  Important SAP Notes for Connected Communication Systems  Action:  If you've upgraded a system you're using as a communication system for SAP Advanced Financial Closing from a previous version to SAP S/4HANA  2023 or SAP S/4HANA  2022, implement this Note.
+Action: Required
+Lifecycle: General Availability
+Type: New
+Line of Business: Finance
+Latest Revision: 2024-02-02
+Valid as Of: 2024-02-18
+Version: Cloud
+
+--- Record 3420 ---
+Component: SAP Advanced Financial Closing
+Environment: Cloud Foundry
+Title: New App for Company Code Groups
+Description: To support your reporting activities in the new reporting apps with organizational unit view, the new Manage Company Code Groups app has been released. In this app, you create and manage company code groups within different grouping characteristics. This allows you to perform your reporting activities based on company code groups, independently of country/region assignments.  More information:  Manage Company Code Groups  How to Manage Company Code Groups  Company Code Groups  In-app help  Explanatory video integrated into the documentation and in-app help    App affected:  Manage Company Code Groups  Action: Familiarize yourself with the information available for this new app and, if required, create company code groups within the different grouping characteristics as described in these materials.
+Action: Required
+Lifecycle: General Availability
+Type: New
+Line of Business: Finance
+Latest Revision: 2024-02-02
+Valid as Of: 2024-02-18
+Version: Cloud
+

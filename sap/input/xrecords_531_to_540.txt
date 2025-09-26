@@ -1,0 +1,130 @@
+--- Record 531 ---
+Component: Cloud Integration
+Environment: Cloud Foundry,Neo
+Title: Advanced Timer in Scheduler for SFTP and FTP Adapters
+Description: You can now use advanced timer in Scheduler for SFTP and FTP adapters version 1.20 and 1.4 and above respectively.See SFTP Adapter and FTP Adapter.SAP Cloud Integration customers, see SFTP Adapter and FTP Adapter.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-07-03
+Valid as Of: 2025-07-03
+Version: 2505
+
+--- Record 532 ---
+Component: Cloud Integration
+Environment: Cloud Foundry
+Title: Migration Tooling - Pipeline Approach
+Description:   You can now enable idempotent process at receiver side for Content-Based Routing and Recipient List Asynchronous patterns as well.See Pipeline Approach.  Extended Receiver Determination type (Dynamic Receiver) is now supported.  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-07-03
+Valid as Of: 2025-07-03
+Version: 2505
+
+--- Record 533 ---
+Component: Cloud Integration
+Environment: Cloud Foundry,Neo
+Title: Read Lock Check Interval for SFTP Sender Adapter
+Description: You can now set read lock interval for SFTP adapters to pause between attempts to acquire a read lock.See SFTP AdapterSAP Cloud Integration customers, see SFTP Adapter.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-07-03
+Valid as Of: 2025-07-03
+Version: 2505
+
+--- Record 534 ---
+Component: Cloud Integration
+Environment: Cloud Foundry,Neo
+Title: Regex Filtering in File Name for SFTP Sender Adapter used with the Poll Enrich step
+Description: You can now use regex filtering to evaluate the entered filename as a real expression or a simple expression in Source for SFTP Sender Adapter used with the Poll Enrich step version 1.8 and above.See SFTP Adapter and SAP Cloud Integration customers, see SFTP Adapter.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-07-03
+Valid as Of: 2025-07-03
+Version: 2505
+
+--- Record 535 ---
+Component: Cloud Integration
+Environment: Cloud Foundry
+Title: Software Version Update
+Description:   SAP Cloud Integration: 8.31.*    Increment: 2505    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-07-03
+Valid as Of: 2025-07-03
+Version: 2505
+
+--- Record 536 ---
+Component: Cloud Integration
+Environment: Cloud Foundry
+Title: Software Version Update
+Description:   SAP Cloud Integration: 6.67.*    Increment: 2505    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-07-03
+Valid as Of: 2025-07-03
+Version: 2505
+
+--- Record 537 ---
+Component: Cloud Integration
+Environment: Neo
+Title: Software Version Update
+Description:   SAP Cloud Integration: 5.75.*    Adapter Development Kit for SAP Cloud Integration: 2.53.*      Increment: 2505    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-07-03
+Valid as Of: 2025-07-03
+Version: 2505
+
+--- Record 538 ---
+Component: Cloud Integration
+Environment: Neo
+Title: Software Version Update
+Description:   SAP Cloud Integration: 7.40.*    Adapter Development Kit for SAP Cloud Integration: 2.53.*      Increment: 2505      The software version 7.40.* is being rolled out in a phased approach. All tenants running on software version 5.75.* would be automatically moved to 7.40.* or a higher version available at that point of time, in the near future.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-07-03
+Valid as Of: 2025-07-03
+Version: 2505
+
+--- Record 539 ---
+Component: Cloud Integration
+Environment: Cloud Foundry,Neo
+Title: Update Version of Integration Flow Components
+Description:   The button previously labeled Migrate is now renamed to Update Version.  You can now also update the version of integration adapters and flow steps.    See Update Version of Integration Flow Component  SAP Cloud Integration customers, see Update Version of Integration Flow Component.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-07-03
+Valid as Of: 2025-07-03
+Version: 2505
+
+--- Record 540 ---
+Component: Cloud Transport Management
+Environment: Cloud Foundry
+Title: Integration of Joule Studio with SAP Cloud Transport Management
+Description: You can now use SAP Cloud Transport Management to transport Joule Studio projects.  See:   Supported Content Types  Integrating SAP Cloud Transport Management with Other SAP Cloud Solutions  
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Application Development and Integration
+Latest Revision: 2025-07-23
+Valid as Of: 2025-07-02
+Version: Cloud
+

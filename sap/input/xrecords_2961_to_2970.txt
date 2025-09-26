@@ -1,0 +1,130 @@
+--- Record 2961 ---
+Component: Edge Integration Cell
+Environment: Cloud Foundry
+Title: Global References for API Artifact
+Description: In addition to including local resources within your API artifact, such as database connections or configuration files, you can also make use of reusable message mappings, which allow you to define standardized mappings between different message formats. Script collections, on the other hand, provide a library of pre-built scripts that can be easily reused across multiple API endpoints. Message type libraries and function libraries offer a centralized repository of message types and functions that can be shared and utilized throughout your API development process.  See: Manage Resources
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-05-13
+Valid as Of: 2024-05-13
+Version: 2403
+
+--- Record 2962 ---
+Component: Edge Integration Cell
+Environment: Cloud Foundry
+Title: Message Service (Solace Broker) alerts
+Description: You can now subscribe for Message Service (Solace Broker) alerts.  See: Alerting
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-05-13
+Valid as Of: 2024-05-13
+Version: 2403
+
+--- Record 2963 ---
+Component: Edge Integration Cell
+Environment: Cloud Foundry
+Title: Rollback
+Description: You can now rollback the deployment of the Edge Integration Cell solution to its last successful version if an upgrade or configuration modification operation fails.  See: Rollback Edge Integration Cell Solution
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-05-13
+Valid as Of: 2024-05-13
+Version: 2403
+
+--- Record 2964 ---
+Component: Edge Integration Cell
+Environment: Cloud Foundry
+Title: Software Version Update
+Description:     Edge Integration Cell: 8.16.*      Increment: 2403    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-05-13
+Valid as Of: 2024-05-13
+Version: 2403
+
+--- Record 2965 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: Better Extraction of rawValue for Standard Document Types and Fields
+Description: The extraction of the rawValue response field has been improved for the standard document types and fields.  See Get Result.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Intelligent Technologies
+Latest Revision: 2024-05-13
+Valid as Of: 2024-05-13
+Version: Cloud
+
+--- Record 2966 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: Better Models for the Extraction of Standard Document Types
+Description: The machine learning models for the extraction of invoice, paymentAdvice, and purchaseOrder documents have been improved.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Intelligent Technologies
+Latest Revision: 2024-05-13
+Valid as Of: 2024-05-13
+Version: Cloud
+
+--- Record 2967 ---
+Component: Document Management Service
+Environment: Cloud Foundry
+Title: UI5 Version Upgrade for Reuse UI
+Description: The UI5 version for the Reuse UI component is now updated to 1.120.12  See Reuse UI.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-05-10
+Valid as Of: 2024-05-10
+Version: Cloud
+
+--- Record 2968 ---
+Component: Integration Assessment
+Environment: Cloud Foundry
+Title: Software Version Update
+Description:     Integration Assessment: 1.27.*      Increment: 2403    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-05-10
+Valid as Of: 2024-05-10
+Version: 2403
+
+--- Record 2969 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Istio module: Update to version 1.6.1
+Description: The release 1.6.1 of the Istio module includes the following changes:        We’ve updated Istio to version 1.21.1. For more information, see Istio 1.21.1 Release Announcement and Change Notes.    Now, you can configure externalTrafficPolicy for Istio Ingress Gateway and use the X-Forwarded-For (XFF) header in all cloud service providers. See Forward the Client IP in the XFF Header.    We’ve fixed cluster provider discovery by implementing node-based discovery.      
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-05-10
+Valid as Of: 2024-05-10
+Version: Cloud
+
+--- Record 2970 ---
+Component: Migration Assessment
+Environment: Cloud Foundry
+Title: Software Version Update
+Description:     Migration Assessment: 1.27.*      Increment: 2403    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-05-10
+Valid as Of: 2024-05-10
+Version: 2403
+

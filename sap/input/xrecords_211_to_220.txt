@@ -1,0 +1,130 @@
+--- Record 211 ---
+Component: Business Data Orchestration
+Environment: Cloud Foundry
+Title: Deprecation of Configure Context and Configure Object ID Behavior applications
+Description: As of the end of this year, the applications Configure Context and Configure Object ID Behavior will be deprecated. There will be no direct replacement for these applications, as they are no longer needed for the continued distribution of master data between SAP S/4 HANA and other components.  However, please note the following:   The applications will remain available for the time being, including the option to access them via SAP S/4 HANA in Business Data Orchestration.   Roles that were previously created will continue to function as before.   Newly created roles will no longer include these entries.  
+Action: Info only
+Lifecycle: Deprecated
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2025-08-21
+Valid as Of: 2025-08-21
+Version: Cloud
+
+--- Record 212 ---
+Component: Automation Pilot
+Environment: Cloud Foundry
+Title: AI-Assisted Dynamic Expression Generation
+Description: The Expression Playground of SAP Automation Pilot is enhanced with generative AI capabilities that allow you to generate dynamic expressions by providing a simple prompt. To use this feature, you need to enable the Content Generation Assistant of SAP Automation Pilot.  See Dynamic Expression Playground and Generative AI in SAP Automation Pilot.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-08-21
+Valid as Of: 2025-08-21
+Version: Cloud
+
+--- Record 213 ---
+Component: Automation Pilot
+Environment: Cloud Foundry
+Title: Commercial Information in the SAP Automation Pilot Guide
+Description: You can now refer to the new “Service Plans and Metering” page in the SAP Automation Pilot documentation. It contains important commercial information, including an overview of the available service plans, and an explanation of how quotas (API calls) are calculated for core and high-level commands. This information will help you understand how the service is billed.   See Service Plans and Metering.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-08-21
+Valid as Of: 2025-08-21
+Version: Cloud
+
+--- Record 214 ---
+Component: Automation Pilot
+Environment: Cloud Foundry
+Title: Function 'reduce' Now Supported in Dynamic Expressions
+Description: The reduce function is now supported and you can use it in your dynamic expressions.  See Supported Expression Elements. 
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-08-21
+Valid as Of: 2025-08-21
+Version: Cloud
+
+--- Record 215 ---
+Component: Automation Pilot
+Environment: Cloud Foundry
+Title: New Tags for Execution Status Change Events
+Description: The following new tags are added to the Execution Status Change event that can be matched by SAP Alert Notification service for SAP BTP:  autopi:lastReportedStatus - the execution status which was reported by the previous Execution Status Change event  autopi:executorPath - the executor path to the exact step at which the execution failed    See Execution Status Change and Enabling Automation Pilot Events.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-08-21
+Valid as Of: 2025-08-21
+Version: Cloud
+
+--- Record 216 ---
+Component: Automation Pilot
+Environment: Cloud Foundry
+Title: Updated Prerequisites for Cloud Connector Integration
+Description: The prerequisite list for integrating SAP Automation Pilot with SAP Cloud Connector has been updated to include the requirement for outbound network access to the SAP Automation Pilot Connectivity Proxy endpoints. Information about the endpoints is now included in Service Availability.  See Integrating the Service with SAP Cloud Connector. 
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-08-21
+Valid as Of: 2025-08-21
+Version: Cloud
+
+--- Record 217 ---
+Component: Data Quality Services
+Environment: Cloud Foundry,Neo
+Title: Enhancements
+Description: Improvements were made to validate addresses in Germany. The reference data now includes a finer list of house numbers.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2025-08-21
+Version: Cloud
+
+--- Record 218 ---
+Component: Feature Flags Service
+Environment: Cloud Foundry,Kyma
+Title: Additional properties
+Description: You can now define special properties for a particular feature flag, according to your business scenario.  For more information, see: Concepts → Additional Properties  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-08-07
+Valid as Of: 2025-08-21
+Version: Cloud
+
+--- Record 219 ---
+Component: Feature Flags Service
+Environment: Cloud Foundry,Kyma
+Title: Flag dependencies
+Description: In some business cases, a delivery of a feature might depend on the availability or evaluation of other feature flags in the system. You can now add such dependency flags.  For more information, see: Concepts → Dependencies  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-08-07
+Valid as Of: 2025-08-21
+Version: Cloud
+
+--- Record 220 ---
+Component: Job Scheduling Service
+Environment: Cloud Foundry,Kyma
+Title: Belize Themes Removed from the Dashboard UI
+Description: The Belize themes are removed from the user interface of the Job Scheduling service dashboard.  You can choose from the following themes:    Morning Horizon (Default)      Evening Horizon      Horizon High Contrast Black      Horizon High Contrast White  If you've been using one of the Belize themes, the system automatically switches to Horizon.       Note  Belize is deprecated as of SAPUI5 1.120. SAP recommends switching to the current Horizon theme. See Deprecated Themes and Libraries.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-08-18
+Valid as Of: 2025-08-21
+Version: Cloud
+

@@ -1,0 +1,130 @@
+--- Record 4051 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Deletion of APIRule in version v1alpha1
+Description: APIRule in version v1alpha1 has been deprecated since Kyma 2.5, and its end of life is planned for Kyma 2.19. Migrate your APIRules to v1beta1.   To do that, you must change the apiVersion field of your existing APIRule custom resources to gateway.kyma-project.io/v1beta1. Read the APIRule CR documentation to learn more about the specification of each version.
+Action: Required
+Lifecycle: Deleted
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2023-09-05
+Valid as Of: 2023-10-14
+Version: Cloud
+
+--- Record 4052 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Deletion of the Cluster Users component
+Description: The Cluster Users component has been deprecated since Kyma 2.7 and will be removed with Kyma 2.19. The component includes predefined Kubernetes ClusterRoles such as kyma-admin, kyma-namespace-admin, kyma-edit, kyma-developer, kyma-view, and kyma-essentials. These Roles specify permissions for accessing Kyma resources that you can assign to users. For example, if you bind a user to the kyma-admin ClusterRole, it grants them full admin access to the entire cluster, and if you bind a user to the kyma-view ClusterRole, they are only allowed to view and list the resources within the cluster. Once the component is removed, these Roles will no longer be available for newly created clusters. This means that you won’t be able to use these predefined sets of rights and will be required to specify yourself which users or groups should have access to which of your resources. However, for clusters created before the release of Kyma 2.19, the already-defined Roles will not be deleted.  Action: Learn how to Assign Roles in the Kyma Environment. After the deletion of the Kyma 2.19 release, you will be required to model access rights to Kyma resources yourself instead of using the predefined permissions provided by the Cluster Users component. 
+Action: Required
+Lifecycle: Deleted
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2023-09-05
+Valid as Of: 2023-10-14
+Version: Cloud
+
+--- Record 4053 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Deletion of the Ory Hydra component
+Description: The Ory Hydra component has been deprecated since Kyma 2.2 and is scheduled to be removed with Kyma 2.19. The release of Kyma 2.19 is planned for October 14-15, 2023. Follow the procedure outlined in this blog post to migrate from ORY Hydra to other providers. For more information on the ongoing changes, read about SAP BTP, Kyma Runtime API Gateway future architecture based on Istio.
+Action: Required
+Lifecycle: Deleted
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2023-09-05
+Valid as Of: 2023-10-14
+Version: Cloud
+
+--- Record 4054 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Deletion of cipher suites
+Description: As a part of security hardening and Kyma security team recommendations, ECDHE-RSA-AES256-SHA and ECDHE-RSA-AES128-SHA cipher suites used in default Kyma Gateway have been deprecated since the 2.15 Kyma version. Although we initially planned to remove these cipher suites with Kyma 2.18, we have decided to delay their removal until version 2.19. After the Kyma 2.19 release, clients dependent on the mentioned cipher suites won't be accepted.
+Action: Info only
+Lifecycle: Deleted
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2023-09-05
+Valid as Of: 2023-10-14
+Version: Cloud
+
+--- Record 4055 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Kyma 2.19 - API Gateway
+Description: We have removed the Ory Hydra component and APIRule in version v1alpha1. Follow the previous links to learn about the migration procedures.
+Action: Info only
+Lifecycle: Deleted
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2023-10-05
+Valid as Of: 2023-10-14
+Version: Cloud
+
+--- Record 4056 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Kyma 2.19 - Security
+Description: We have removed the Cluster Users component as well as the  ECDHE-RSA-AES256-SHA and ECDHE-RSA-AES128-SHA cipher suites. To understand the implications of these changes, follow the previous links.
+Action: Info only
+Lifecycle: Deleted
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2023-10-05
+Valid as Of: 2023-10-14
+Version: Cloud
+
+--- Record 4057 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Kyma 2.19 - Application Connectivity
+Description: Additional logging options have been added to Central Application Gateway.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-10-05
+Valid as Of: 2023-10-14
+Version: Cloud
+
+--- Record 4058 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Kyma 2.19 - Observability
+Description: We have updated kube-state-nabmetrics to version 2.10.0.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2023-10-05
+Valid as Of: 2023-10-14
+Version: Cloud
+
+--- Record 4059 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Kyma 2.19 - Service Mesh
+Description: With Kyma 2.19, we have updated the Istio component to version 1.1.0. This update includes Istio in version 1.19.0 and enables Horizontal Pod Autoscaling capability for a smaller cluster installation.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2023-10-05
+Valid as Of: 2023-10-14
+Version: Cloud
+
+--- Record 4060 ---
+Component: SAP HANA Cloud
+Environment: Cloud Foundry
+Title: New component version available
+Description: A new component version (QRC 3/2023) is now available for the following SAP HANA Cloud component:   2023.3.3265 (QRC 3/2023) for SAP HANA Cloud, data lake      See What's New in SAP HANA Cloud.  Action: To use the new component version, you must upgrade your instance. See Managing SAP HANA Cloud Instances.
+Action: Recommended
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-10-13
+Valid as Of: 2023-10-13
+Version: Cloud
+

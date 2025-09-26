@@ -1,0 +1,130 @@
+--- Record 1061 ---
+Component: Data Space Integration
+Environment: Cloud Foundry
+Title: New Operator "Exists" for Company Policies
+Description: When you create rules for company policies, you can now use the operator exists in combination with the attribute contract reference. Create a new rule, select the attribute contract reference, then select exists. The value of the rule is left empty on purpose to define that the company policy should check if any contract reference exists in the provider's offer.  See Create and Edit Company Policies.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-04-10
+Valid as Of: 2025-04-10
+Version: 2502
+
+--- Record 1062 ---
+Component: Data Space Integration
+Environment: Cloud Foundry
+Title: Software Version Update
+Description: The following are the latest versions in Data Space Integration:      Data Space Integration: 1.7.*      Increment: 2502      Tractus-X Eclipse Dataspace Connector: 0.7.6      FOSS Eclipse Dataspace Components: 0.7.2      See also the Release Notes of Catena-X. 
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-04-10
+Valid as Of: 2025-04-10
+Version: 2502
+
+--- Record 1063 ---
+Component: Mobile Services
+Environment: Cloud Foundry
+Title: Access: BTP Cockpit & Dev Space Manager
+Description: (Version 2503) To simplify navigation to your SAP BTP Cockpit and Dev Space Manager, we have added direct links in the Mobile Services cockpit.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-04-10
+Valid as Of: 2025-04-10
+Version: Cloud
+
+--- Record 1064 ---
+Component: Mobile Services
+Environment: Cloud Foundry
+Title: Full Initial Download from Offline Service
+Description: (Version 2503) We've introduced a new feature labeled as Trigger Initial Download, this feature lets you initiate the full download of app data from the offline service and cancel the full initial download if needed. You can trigger this download from application level also registration level.For more information, see Managing App Users and Device Registrations and Defining Offline Settings for Applications.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-04-10
+Valid as Of: 2025-04-10
+Version: Cloud
+
+--- Record 1065 ---
+Component: Mobile Services
+Environment: Cloud Foundry
+Title: Include Predefined Annotations
+Description: (Version 2503) We've introduced a new checkbox to enable predefined annotations for sample OData for testing.  For more information, see Using the Sample ODATA ESPM
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-04-10
+Valid as Of: 2025-04-10
+Version: Cloud
+
+--- Record 1066 ---
+Component: Mobile Services
+Environment: Cloud Foundry
+Title: Update: Logout Service
+Description: (Version 2503) When the Logout API is called, it removes registrations for registered users and devices related with the push feature from the server.  For more information, see DELETE User Logout Request and POST User Logout Request.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-04-10
+Valid as Of: 2025-04-10
+Version: Cloud
+
+--- Record 1067 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: API Gateway module: Update to version 2.11.3
+Description: We have implemented a watch mechanism to ensure that DNSEntry is up to date with the IP and host of the istio-ingressgateway service. Additionally, we've decreased the default reconciliation time to safeguard against possible scheduling errors.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-04-09
+Valid as Of: 2025-04-09
+Version: Cloud
+
+--- Record 1068 ---
+Component: SAP Task Center
+Environment: Cloud Foundry
+Title: Feedback Option for Documentation
+Description: You can now provide feedback on the SAP Task Center documentation using the Feedback  Comments function on the SAP Help Portal, without the need to use GitHub. You just need to log in to the SAP Help Portal with your email.   For more information, see Creating Better Documentation Together: SAP Help Portal’s new approach to Collaboration and Feedback.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2025-04-09
+Valid as Of: 2025-04-09
+Version: Cloud
+
+--- Record 1069 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Identity Authentication (using SCIM API version 2) - changed behavior
+Description: Similar to the Local Identity Directory, you can now use Identity Authentication (SCIM API version 2) for reading and writing application-specific groups. Depending on the configured pair of provisioning systems, to ensure successful provisioning, you might need to manually define value mappings for the attribute applicationId in the source or the target system transformations.  For more information, see:    Identity Authentication (Source)  Identity Authentication (Target)  List of Properties→ips.application.id  
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-04-08
+Valid as Of: 2025-04-08
+Version: 27709
+
+--- Record 1070 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Machine Translation
+Description: On-the-fly machine translation is now available in 39 languages for the Cloud Identity Services documentation. This means that you can generate translation of content instantly by selecting the respective language from the dropdown list.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-04-08
+Valid as Of: 2025-04-08
+Version: 27709
+

@@ -1,0 +1,130 @@
+--- Record 911 ---
+Component: Edge Integration Cell
+Environment: Cloud Foundry
+Title: New Diagnostic Task
+Description: You can now diagnose issues during adapter processing in the integration flow with the Adapter task.See: Diagnostics
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-05-11
+Valid as Of: 2025-05-11
+Version: 2503
+
+--- Record 912 ---
+Component: Edge Integration Cell
+Environment: Cloud Foundry
+Title: New RFC Adapter card in the Operations cockpit
+Description: You can now monitor the underlying JCo entities of the integration flows deployed with the RFC adapter.See:RFC Adapter Monitor  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-05-11
+Valid as Of: 2025-05-11
+Version: 2503
+
+--- Record 913 ---
+Component: Edge Integration Cell
+Environment: Cloud Foundry
+Title: RFC Sender Adapter
+Description: The RFC Sender adapter is now available on the Edge Integration Cell runtime.See: RFC Sender Adapter  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-05-11
+Valid as Of: 2025-05-11
+Version: 2503
+
+--- Record 914 ---
+Component: Edge Integration Cell
+Environment: Cloud Foundry
+Title: Software Version Update
+Description:     Edge Integration Cell: 8.29.*    Increment: 2503  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-05-11
+Valid as Of: 2025-05-11
+Version: 2503
+
+--- Record 915 ---
+Component: Integration Assessment
+Environment: Cloud Foundry
+Title: Software Version Update
+Description:     Integration Assessment: 1.39.*      Increment: 2503    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-05-11
+Valid as Of: 2025-05-11
+Version: 2503
+
+--- Record 916 ---
+Component: Integration Assessment
+Environment: Cloud Foundry
+Title: Standard Content Update
+Description: Version 1.4 of SAP provided standard content is now available.  It provides updated technology recommendations for process integration scenarios, introducing new capabilities of SAP Integration Suite, e.g. Edge Integration Cell for on-premise to on-premise and Event Mesh for event driven integrations.  For more details on how to update the standard content to the newest version, visit Update Content Maintained by SAP. Note that only an Enterprise Architect or an Administrator can perform this task.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-05-11
+Valid as Of: 2025-05-11
+Version: 2503
+
+--- Record 917 ---
+Component: Migration Assessment
+Environment: Cloud Foundry
+Title: Software Version Update
+Description:     Migration Assessment: 1.39.*      Increment: 2503    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-05-11
+Valid as Of: 2025-05-11
+Version: 2503
+
+--- Record 918 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Application Authorizations
+Description: Tenant administrator now can create a restriction policy using the applications.CREATE_APPLICATIONS and applications.MANAGE_APPLICATIONS parameters. See Configure Application Authorizations
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-05-08
+Valid as Of: 2025-05-08
+Version: 27806
+
+--- Record 919 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Application Protocol Type
+Description: The protocol type of the Administration Console for Cloud Identity Services is now changed to the hybrid type SAML 2.0 & OpenID Connect from the SAML 2.0 type. See Applications.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-05-08
+Valid as Of: 2025-05-08
+Version: 27806
+
+--- Record 920 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Client Certificates
+Description: You can specify a unique DN pattern for single user authentication when configuring an X.509 client certificate. See Configure X.509 Client Certificates for User Authentication.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-05-08
+Valid as Of: 2025-05-08
+Version: 27806
+

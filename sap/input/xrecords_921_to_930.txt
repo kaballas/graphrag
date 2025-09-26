@@ -1,0 +1,130 @@
+--- Record 921 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Download all deleted entities for a provisioning job
+Description: You can now download and view the details of all deleted entities by a provisioning job. To enable this, set the property ips.trace.deleted.entity to true.  For more information, see Manage Provisioning Job Logs and List of Properties.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-05-08
+Valid as Of: 2025-05-08
+Version: 27806
+
+--- Record 922 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Manage Corporate Identity Providers
+Description: Tenant administrator can manage corporate identity providers in Identity Authentication via API. It offers endpoints for CRUD operations (GET, POST, PATCH, DELETE) over the corporate identity providers. See SAP Cloud Identity Services Corporate Identity Providers Directory.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-05-08
+Valid as Of: 2025-05-08
+Version: 27806
+
+--- Record 923 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Privacy Policy and Terms of Use
+Description: The Identity Directory API of SAP Cloud Identity Services now returns the termsOfUse and privacyPolicy parameters. See Identity Directory API.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-05-08
+Valid as Of: 2025-05-08
+Version: 27806
+
+--- Record 924 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Regular Upgrade
+Description: Cloud Identity Services have been upgraded.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-05-08
+Valid as Of: 2025-05-08
+Version: 27806
+
+--- Record 925 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: REST API
+Description: The Identity Directory API now supports new attribute externalName located in the group extension schema urn:ietf:params:scim:schemas:extension:sap:2.0:Group. The externalName attribute is unique within the application. See Identity Directory API.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-05-08
+Valid as Of: 2025-05-08
+Version: 27806
+
+--- Record 926 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: SAP Build Work Zone, standard edition - schema support
+Description: The default transformations of SAP Build Work Zone, standard edition are extended to support the urn:ietf:params:scim:schemas:extension:sap:2.0:User and urn:ietf:params:scim:schemas:extension:2.0:mapping schema.  See SAP Build Work Zone, standard edition.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-05-08
+Valid as Of: 2025-05-08
+Version: 27806
+
+--- Record 927 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: SAP ODM User Schema Support
+Description: The default read and proxy read transformations in Identity Authentication and the Local Identity Directory support the urn:ietf:params:scim:schemas:extension:sap.odm:2.0:User schema. This custom SCIM schema extension is defined by SAP’s Organizational Data Model (ODM) and is used to enrich the standard SCIM User resource with SAP-specific attributes such as workAssignment, jobDetails, plant, and others.  See    Identity Authentication      Local Identity Directory    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-05-08
+Valid as Of: 2025-05-08
+Version: 27806
+
+--- Record 928 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: SAP Sales Cloud and SAP Service Cloud - new version
+Description: A new connector version for SAP Sales Cloud and SAP Service Cloud  is introduced. It is applicable for SAP Sales Cloud Version 2 and SAP Service Cloud Version 2 and supports certificate-based authentication, patch operations, delta read of entities, cursor-based pagination and more.  See      SAP Sales Cloud and SAP Service Cloud (Source)      SAP Sales Cloud and SAP Service Cloud (Target)      SAP Sales Cloud and SAP Service Cloud (Proxy)    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-05-08
+Valid as Of: 2025-05-08
+Version: 27806
+
+--- Record 929 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Support for SAP extension schema for groups
+Description: The default transformations of the following connectors support attributes from the SAP extension schema for groups, including application ID, type, and supported operations.  See:      SAP Central Business Configuration      SAP Build Work Zone, advanced edition      SAP BTP ABAP environment      SAP Commerce Cloud      SAP Advanced Financial Closing    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-05-08
+Valid as Of: 2025-05-08
+Version: 27806
+
+--- Record 930 ---
+Component: Identity Provisioning
+Environment: Neo
+Title: SAP Build Work Zone, standard edition - schema support
+Description: The default transformations of SAP Build Work Zone, standard edition are extended to support the urn:ietf:params:scim:schemas:extension:sap:2.0:User and urn:ietf:params:scim:schemas:extension:2.0:mapping schema.  For more information, see SAP Build Work Zone, standard edition.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-05-08
+Valid as Of: 2025-05-08
+Version: Cloud
+

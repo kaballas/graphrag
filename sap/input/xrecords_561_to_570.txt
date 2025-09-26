@@ -1,0 +1,130 @@
+--- Record 561 ---
+Component: Java Server
+Environment: Neo
+Title: Tomcat version for Java Web Tomcat 9 and Java EE 7 Web Profile TomEE 7
+Description: Java Web Tomcat 9 (runtime version 4.105) and Java EE 7 Web Profile TomEE 7 (runtime version 1.203) have been updated to Tomcat version 9.0.105.  See the Changelog and Security Fixes.  Recommended action: Update your applications to the latest runtime version. See Keeping Your Application Runtimes Up-to-date.
+Action: Recommended
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-06-26
+Valid as Of: 2025-06-26
+Version: Cloud
+
+--- Record 562 ---
+Component: Authorization and Trust Management Service
+Environment: ABAP,Cloud Foundry,Kyma,Neo,Other
+Title: Existing Custom Trusts for Platform Users Changed to Token-Based Authentication
+Description: With this release, existing OpenID Connect (OIDC) trust configurations between your SAP BTP accounts and custom identity providers for platform users are configured to use token-based authentication instead of password-based. We've taken this step to improve security and compliance with the OIDC standard. We don't expect any impact for our customers. For more information, see Establish Trust and Federation of Custom Identity Providers for Platform Users.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-06-26
+Valid as Of: 2025-06-26
+Version: 2506a
+
+--- Record 563 ---
+Component: Automation Pilot
+Environment: Cloud Foundry
+Title: "Use for Generative AI Assistant" Additional Feature
+Description: This feature enables commands and inputs to be utilized for generation of scheduled executions by the Content Generation Assistant of SAP Automation Pilot. See Additional Features.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-06-26
+Valid as Of: 2025-06-26
+Version: Cloud
+
+--- Record 564 ---
+Component: Automation Pilot
+Environment: Cloud Foundry
+Title: Monitoring with SAP Cloud ALM
+Description: With the Configuration and Security Analysis app of SAP Cloud ALM, you can now check if your SAP Automation Pilot tenant is configured in alignment with the security recommendations. See Monitoring with SAP Cloud ALM.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-06-26
+Valid as Of: 2025-06-26
+Version: Cloud
+
+--- Record 565 ---
+Component: Automation Pilot
+Environment: Cloud Foundry
+Title: New Documentation for Standalone Operator
+Description: You can now find information on how to use the Standalone Operator to trigger commands remotely in a local or on-premise environment. See Standalone Operator.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-06-26
+Valid as Of: 2025-06-26
+Version: Cloud
+
+--- Record 566 ---
+Component: Availability Service
+Environment: Cloud Foundry
+Title: Deprecation of Explore View
+Description: To improve your experience, we’re retiring the Explore view. Please switch to the unified view, which offers the same functionality and more.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-06-26
+Valid as Of: 2025-06-26
+Version: Cloud
+
+--- Record 567 ---
+Component: Connectivity
+Environment: Cloud Foundry,Kyma
+Title: Transparent Proxy for Kubernetes - Bug Fixes
+Description: Transparent Proxy version 1.8.0 provides the following bug fixes:    Fixed an issue where the status of Destination custom resources was not updated correctly after an update.  Fixed an issue where removing the Transparent Proxy from the Istio mesh in Kyma did not fully detach it from the mesh. The Transparent Proxy now properly leaves the mesh after the update.  Fixed an issue where deleting old tenants for non-HTTP destinations did not remove all tenant-related resources.  Fixed an issue where reconciliation did not work for the provider tenant when the Transparent Proxy was running in shared tenant mode.  
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-06-26
+Valid as Of: 2025-06-26
+Version: Cloud
+
+--- Record 568 ---
+Component: Connectivity
+Environment: Cloud Foundry,Kyma
+Title: Transparent Proxy for Kubernetes - Enhancements
+Description: Transparent Proxy version 1.8.0 provides the following enhancements:    Destination Custom Resources (CRs) are now namespace-scoped. This enhancement allows the creation of Destination CRs with the same name in different namespaces without conflict, enabling more flexible deployments.For more information, see Destination Custom Resource.  Enhanced logging now provides better tracing and troubleshooting capabilities for non-HTTP destinations.  The base image for the HTTP proxy has been updated to improve startup speed and ensure compatibility with the arm64 architecture.  
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-06-26
+Valid as Of: 2025-06-26
+Version: Cloud
+
+--- Record 569 ---
+Component: Connectivity
+Environment: Cloud Foundry,Kyma
+Title: Transparent Proxy for Kubernetes - New Features
+Description: Transparent Proxy version 1.8.0 provides the following new features:    The Transparent Proxy now supports the use of customer-signed SAML assertions to obtain OAuth tokens for destinations configured with the OAuth2SAMLBearerAssertion authentication flow.For more information, see IAS-Signed SAML Bearer Assertion.  The Transparent Proxy now allows users to specify whether a fragment is optional. If set to true and the fragment does not exist, the Transparent Proxy will manage the connection based solely on the destination.For more information, see Destination Custom Resource and Destination Gateway (Dynamic Lookup of Destinations).  In the Kyma environment, enhanced configuration now allows the Telemetry module to automatically scrape Prometheus metrics from Transparent Proxy.For more information, see Configuration Guide.  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-06-26
+Valid as Of: 2025-06-26
+Version: Cloud
+
+--- Record 570 ---
+Component: Java Applications
+Environment: Neo
+Title: Visibility of Used Subaccount Size Quota
+Description: You can now view what percent of the total subaccount size quota is used for Java applications. This information is available in SAP BTP cockpit or via the Java ALM REST API. See Deploy on the Cloud with the Cockpit and List Subaccount Applications.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-06-26
+Valid as Of: 2025-06-26
+Version: Cloud
+

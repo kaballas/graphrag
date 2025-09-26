@@ -1,0 +1,130 @@
+--- Record 831 ---
+Component: SAP Advanced Financial Closing
+Environment: Cloud Foundry
+Title: Table Columns for Number of Notes
+Description: In the Tasks table of a task list, you can now find two new columns that provide information about the number of notes a task has. One column provides the number of notes added during the planning stage of a task list, meaning that these notes have been uploaded in the Manage Closing Task Lists app. The second column provides the number of notes added during the processing of a task, meaning that those notes have been uploaded in the Process Closing Tasks app.  App affected:  Process Closing Tasks
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Finance
+Latest Revision: 2025-05-05
+Valid as Of: 2025-05-18
+Version: Cloud
+
+--- Record 832 ---
+Component: SAP Health Data Services for FHIR
+Environment: Cloud Foundry
+Title: Signature Verification for FHIR packages
+Description: When a FHIR package is published, a checksum hash is generated and sent to the server along with the package for integrity verification  Additionally, SAP Health Data Services for FHIR CLI verifies the integrity of the downloaded FHIR packages using the checksum hash provided along with the package.  Refer to Publish a FHIR Package Using the CLI and Download a FHIR Package Using the CLI for more information. 
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2025-05-18
+Version: Cloud
+
+--- Record 833 ---
+Component: SAP Data Intelligence
+Environment: Cloud Foundry
+Title: Upcoming Outbound IP Addresses Changes in Azure Data Centers Require Customer Action
+Description: The outbound IP addresses of SAP Data Intelligence Cloud in Azure data centers are planned to change in a near future release. The access from SAP Data Intelligence to your external data sources that are protected by a network access tool such as a firewall will fail if the new outbound IP addresses are not maintained. As part of the SAP Data Intelligence 2025.08 release, both the current and preserved outbound IP addresses will be available in the INFO_NAT_GATEWAY_IP connection information within the Connection Management application. Please add the preserved outbound IP addresses for SAP Data Intelligence Cloud to the allow-list of your external data sources. SAP recommends completing this action by August 1, 2025 as the outbound IP addresses will be switched afterward.  For more information, see SAP Note 3588293 .
+Action: Recommended
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2022-01-01
+Valid as Of: 2025-05-17
+Version: Cloud
+
+--- Record 834 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: ABAP Development Tools for Eclipse: ABAP SQL Consumption Model
+Description: You can now use the ABAP SQL Consumption Model Generator to generate corresponding CDS external entities for each entity that is exposed in a SQL service. Furthermore, you can use it for each entity that has no SQL service in the imported CSN(s) of the remote system. This also includes the generation of any potential simple types that the entity may contain.  See ABAP SQL Consumption Model.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: nan
+Latest Revision: 2025-05-16
+Valid as Of: 2025-05-16
+Version: ABAP Environment 2505
+
+--- Record 835 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: ABAP Development Tools for Eclipse: ADT Links in IDE Action HTML Results
+Description: ADT Links can now be incorporated in the HTML result of an IDE action, allowing users to navigate to development objects in ABAP development tools for Eclipse.  See Implementing a "Focused Objects Display Action with an HTML Result and Working with IDE Actions .
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: nan
+Latest Revision: 2025-05-16
+Valid as Of: 2025-05-16
+Version: ABAP Environment 2505
+
+--- Record 836 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: ABAP Development Tools for Eclipse: Creating and Editing CDS Table Entities
+Description: You can now create and edit CDS table entities (in short, table entities) in the source-based editor of data definitions.  See Creating a Data Definition.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-05-16
+Valid as Of: 2025-05-16
+Version: ABAP Environment 2505
+
+--- Record 837 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: ABAP Development Tools for Eclipse: Creating and Editing Electronic Document Consistency Scenarios
+Description: Customers and partners can now create consistency scenarios in their ABAP projects. This feature lets them check the consistency of their business documents across systems. To set up these scenarios, users create and configure representation types, comparison types, checks, events, and inconsistency categories.  See Working with Electronic Document Consistency Scenarios.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: nan
+Latest Revision: 2025-05-16
+Valid as Of: 2025-05-16
+Version: ABAP Environment 2505
+
+--- Record 838 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: ABAP Development Tools for Eclipse: Creating Launchpad App Descriptor Items
+Description: Customers and partners can now create and maintain launchpad app descriptor items in ABAP development tools for Eclipse. A launchpad app descriptor item describes how an application is started and is required to bring newly developed apps into the SAP Fiori launchpad.   See Creating Launchpad App Descriptor Items.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: nan
+Latest Revision: 2025-05-16
+Valid as Of: 2025-05-16
+Version: ABAP Environment 2505
+
+--- Record 839 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: ABAP Development Tools for Eclipse: Creating SAP Fiori App Using Quick Fiori Application Generator
+Description: You can now create a List Report-based Fiori application from service binding using the Quick Fiori Application generator.  See Creating SAP Fiori App Using Quick Fiori Application Generator.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: nan
+Latest Revision: 2025-05-16
+Valid as Of: 2025-05-16
+Version: ABAP Environment 2505
+
+--- Record 840 ---
+Component: ABAP Environment
+Environment: ABAP
+Title: ABAP Development Tools for Eclipse: Improvements in the ABAP Coverage View
+Description: You can now use the following new features within the ABAP Coverage view:  Changing the coverage scope: You can modify the coverage scope of development objects or packages to evaluate their coverage numbers in detail.  Exclude from coverage: By excluding selected objects from your coverage result, you can change the aggregated coverage measurement result.    See Evaluating ABAP Unit Code Coverage Results and ABAP Coverage View.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: nan
+Latest Revision: 2025-05-16
+Valid as Of: 2025-05-16
+Version: ABAP Environment 2505
+

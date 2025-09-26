@@ -1,0 +1,130 @@
+--- Record 3851 ---
+Component: SAP Java Buildpack
+Environment: Cloud Foundry
+Title: Version 1.80.0
+Description: SAP Java Buildpack has been updated from version 1.79.0 to 1.80.0      org.apache.logging.log4j is updated from version 2.20.0 to 2.21.1        commons-io is updated from version 2.14.0 to 2.15.0        com.sap.xs.onpremise.runtime is updated from version 1.1.4 to 1.1.5      SAP JVM (sapjvm.version) is updated from 81.95.95 to 81.96.96    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2023-11-06
+Valid as Of: 2023-11-16
+Version: Cloud
+
+--- Record 3852 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Release of the Eventing module
+Description: We are proud to announce the release of the Eventing module, which replaces Kyma's classic Eventing component.  It is enabled by default in all the existing clusters with the NATS module added or with the Eventing component configured to use SAP Event Mesh. In clusters without such prior configuration and in new ones, you must enable the Eventing module manually. For details, see Enable and Disable a Kyma Module.  Kyma's Eventing module manages the lifecycle of Eventing resources - it observes the state of Eventing resources and reconciles them according to the desired state.  If you want to use NATS as eventing backend, enable our NATS module as well.  We invite you to learn more about Eventing in Kyma and appreciate your feedback or contribution in our GitHub project.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-11-15
+Valid as Of: 2023-11-15
+Version: Cloud
+
+--- Record 3853 ---
+Component: Mobile Services
+Environment: Cloud Foundry
+Title: Supported versions for Cloud Build Service
+Description: We've updated the supported versions for the Cloud Build service:    November 2023 - Mobile Development Kit SDK version, Android and iOS versions, and notes      October 2023 - Mobile Development Kit SDK version, Android and iOS versions, and notes      September 2023 - Mobile Development Kit SDK version, Android and iOS versions, and notes      See Supported Build Types, Client Types, Packaging Details, and Build Options  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2023-11-15
+Version: Cloud
+
+--- Record 3854 ---
+Component: Mobile Services
+Environment: Neo
+Title: Supported versions for Cloud Build Service
+Description: We've updated the supported versions for the Cloud Build service:    November 2023 (2305 PL08) Mobile Development Kit SDK version and notes      October 2023 (2305 PL06)    Fiori Packaged UI5 version and iOS version      Custom Fiori Client iOS version      Mobile Development Kit SDK version, iOS versions and notes          September 2023 (2305 PL05)    Fiori Packaged SDK version and iOS version      Custom Fiori Client SDK version and iOS version      Mobile Development Kit SDK version and notes          See Supported Build Types, Client Types, Packaging Details, and Build Options  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2023-11-15
+Version: Cloud
+
+--- Record 3855 ---
+Component: SAP Datasphere
+Environment: Cloud Foundry
+Title: Features for Version 2023.24
+Description: New and changed features are available for administration, data cataloging, data integration, and data modeling.  For more information, see What's New in SAP Datasphere 2023.24. 
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-11-15
+Valid as Of: 2023-11-15
+Version: Cloud
+
+--- Record 3856 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Event Triggers
+Description: Introduced implementation that supports the listing of business events in the new Acquired Events tile. See Manage Event Triggers.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-11-13
+Valid as Of: 2023-11-13
+Version: Cloud
+
+--- Record 3857 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Start Projects When Desktop Agent 3 is Disconnected
+Description: You can now start a job when desktop agent 3 in attended mode has lost connection with the cloud.  See Start Jobs With a Disconnected Agent.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2023-11-13
+Valid as Of: 2023-11-13
+Version: Cloud
+
+--- Record 3858 ---
+Component: SAP Advanced Financial Closing
+Environment: Cloud Foundry
+Title: Behavior When Displaying Task Description Improved
+Description: The default value displayed for task descriptions is now the description available for the respective logon language. If no translation of a task description is available in that language, the default description for that task is displayed.    App affected:  Manage Closing Task Lists
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Finance
+Latest Revision: 2023-10-27
+Valid as Of: 2023-11-12
+Version: Cloud
+
+--- Record 3859 ---
+Component: SAP Advanced Financial Closing
+Environment: Cloud Foundry
+Title: Default Value Changed for Mass Changes of User Assignments
+Description: When you perform a mass change to user assignments and you change the value for the fields Responsible User Type or Processor Type, the default values for the following corresponding fields are also set to <Replace Field Value>:  User Responsible or User Group Responsible respectively  Processing User or Processing User Group respectively      More information:      App affected:  Manage Closing Task Lists
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Finance
+Latest Revision: 2023-10-27
+Valid as Of: 2023-11-12
+Version: Cloud
+
+--- Record 3860 ---
+Component: SAP Advanced Financial Closing
+Environment: Cloud Foundry
+Title: Information About ITS Settings
+Description: You can now find the ITS settings of your on-premise system displayed in the new section SAP Internet Transaction Server in the system details. Additionally, you can check the settings using the Check ITS Settings button in this section.  The information in this section is read-only. If you need to make any adjustment to the ITS settings, make them in the corresponding communication system as described in the Advanced Financial Closing Local Settings Guide.    More information:  How to Check the System Information  How to Set Up ITS Navigation for Use with a Proxy Server (Advanced Financial Closing Local Settings Guide)      Apps affected:  Specify Communication Systems  Monitor Communication Systems    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Finance
+Latest Revision: 2023-10-27
+Valid as Of: 2023-11-12
+Version: Cloud
+

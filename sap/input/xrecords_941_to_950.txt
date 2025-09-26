@@ -1,0 +1,130 @@
+--- Record 941 ---
+Component: Cloud Integration for Data Services
+Environment: Neo
+Title: Documentation update only: Adjusting Thread Pool Capacity
+Description: The topic Adjusting the Capacity of the Thread Pool has been added to the Data Services Agent Guide.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Database and Data Management
+Latest Revision: 2025-05-07
+Valid as Of: 2025-05-07
+Version: 1.0.11.56
+
+--- Record 942 ---
+Component: Data Attribute Recommendation
+Environment: Cloud Foundry
+Title: Calibration Improvements
+Description: The calibration of classification models has been further enhanced and improved.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-05-07
+Valid as Of: 2025-05-07
+Version: Cloud
+
+--- Record 943 ---
+Component: Data Attribute Recommendation
+Environment: Cloud Foundry
+Title: Data Validation Improvements
+Description: We’ve fixed an issue related to data validation. Hyphens aren't supported in feature and label names. Before, unsupported names resulted in errors during model training. Now, the problem is raised at an earlier stage, during data validation, improving the overall user experience.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-05-07
+Valid as Of: 2025-05-07
+Version: Cloud
+
+--- Record 944 ---
+Component: Data Attribute Recommendation
+Environment: Cloud Foundry
+Title: Service Onboarding Improvements
+Description: Service onboarding issues are now correctly detected and reported.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-05-07
+Valid as Of: 2025-05-07
+Version: Cloud
+
+--- Record 945 ---
+Component: Pricing Service
+Environment: Cloud Foundry
+Title: Pre-Production – Condition Determination – Return Used Pricing Attribute Values
+Description: Enhancement of stateless pricing and document pricing endpoints: In the pricing results, the new response structure successfulAccess will return for an item condition with values of which pricing attributes were used to find the condition record.  See  API Definition and Development Guide for SAP Variant Configuration and Pricing - Pre-Production.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-04-16
+Valid as Of: 2025-05-07
+Version: Cloud
+
+--- Record 946 ---
+Component: Pricing Service
+Environment: Cloud Foundry
+Title: Pre-Production – Currency Conversion – Convert a Currency
+Description: There is a new endpoint called POST /currencyConversion/currencies/{fromCurrencyUnit}/convert/{toCurrencyUnit} to receive the exchange rate that is needed to convert a source currency to a target currency. With that, the calling application can convert currencies analogously to how the Pricing service does it during price calculation. The new endpoint also returns an output value converted into the target currency if an input value was given.   See  API Definition and Development Guide for SAP Variant Configuration and Pricing - Pre-Production.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-04-16
+Valid as Of: 2025-05-07
+Version: Cloud
+
+--- Record 947 ---
+Component: Pricing Service
+Environment: Cloud Foundry
+Title: Pre-Production – Currency Conversion – Read Currency Settings
+Description: There is a new endpoint called GET /currencyConversion/currencies to read settings of currency codes, like ISO code, SAP-internal code, language-dependent description, number of decimals, etc.  See  API Definition and Development Guide for SAP Variant Configuration and Pricing - Pre-Production.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-04-16
+Valid as Of: 2025-05-07
+Version: Cloud
+
+--- Record 948 ---
+Component: Pricing Service
+Environment: Cloud Foundry
+Title: Pre-Production – Extensions Concept – WHERE LIKE Database Access
+Description: There is a new API called sap.db() to read table content from Local Extensions. It will support wildcards with LIKE operator in WHERE clauses of SELECT statements.   See Extension Guide for SAP Variant Configuration and Pricing - Pre-Production.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-04-16
+Valid as Of: 2025-05-07
+Version: Cloud
+
+--- Record 949 ---
+Component: Pricing Service
+Environment: Cloud Foundry
+Title: Pre-Production- Document Pricing – Lock Against Changes
+Description: There is a new endpoint called PATCH /pricing/documents/{documentId}/lock to flag a pricing document as locked or not locked. The default setting is not locked. If a pricing document is locked, it cannot be deleted and cannot be changed. For example, adding or removing an item or adding or removing a manual condition is not possible.  The existing endpoint GET /pricing/documents/{documentId} will be enhanced to return the locked flag for a document.   The existing endpoint GET /pricing/documents will be enhanced to allow searching for locked documents.   See  API Definition and Development Guide for SAP Variant Configuration and Pricing - Pre-Production.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-04-16
+Valid as Of: 2025-05-07
+Version: Cloud
+
+--- Record 950 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: My Processes Application
+Description: You can now use the My Processes application to view and track instances across processes based on your access rights. You can also configure the application to view the requests you have raised.See Use My Processes Application.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-05-07
+Valid as Of: 2025-05-07
+Version: Cloud
+

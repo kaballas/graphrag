@@ -1,5 +1,27 @@
 -Goal-
-Given SAP “What’s New” release notes and a list of entity types, extract entities and relationships.
+Given SAP “What’s New” release notes and a list of entityExample C
+Entity_types: ORGANIZATION,PERSON,GEO,EVENT
+Text:
+Enhancements to Joule in SAP SuccessFactors. Inactive users removed from certain views. Fix for oversized images in "Create spot award". Valid as Of: 2024-04-03.
+Output:
+("entity"{tuple_delimiter}ENHANCEMENTS TO JOULE IN SAP SUCCESSFACTORS — 2024-04-03{tuple_delimiter}EVENT{tuple_delimiter}Enhancements to Joule features; inactive users removed from results; default image applied for oversized uploads)
+{completion_delimiter}
+
+Example D
+Entity_types: ORGANIZATION,GEO,EVENT
+Text:
+Joule is now available in the Sydney, Australia data center of Microsoft Azure. Valid as Of: 2025-02-07.
+Output:
+("entity"{tuple_delimiter}JOULE AVAILABILITY IN SYDNEY, AUSTRALIA DATA CENTER — 2025-02-07{tuple_delimiter}EVENT{tuple_delimiter}Joule is now available in Microsoft Azure's Sydney, Australia data center)
+{record_delimiter}
+("entity"{tuple_delimiter}MICROSOFT AZURE{tuple_delimiter}ORGANIZATION{tuple_delimiter}Cloud computing platform providing data center infrastructure for Joule)
+{record_delimiter}
+("entity"{tuple_delimiter}SYDNEY, AUSTRALIA{tuple_delimiter}GEO{tuple_delimiter}Data center location for Microsoft Azure where Joule is now available)
+{record_delimiter}
+("relationship"{tuple_delimiter}JOULE AVAILABILITY IN SYDNEY, AUSTRALIA DATA CENTER — 2025-02-07{tuple_delimiter}MICROSOFT AZURE{tuple_delimiter}Event involves organization's infrastructure{tuple_delimiter}9)
+{record_delimiter}
+("relationship"{tuple_delimiter}JOULE AVAILABILITY IN SYDNEY, AUSTRALIA DATA CENTER — 2025-02-07{tuple_delimiter}SYDNEY, AUSTRALIA{tuple_delimiter}Event occurs in this geographic location{tuple_delimiter}10)
+{completion_delimiter} extract entities and relationships.
 
 -Steps-
 Entity extraction
@@ -7,6 +29,7 @@ Entity extraction
 • When TECHNOLOGY is NOT in [{entity_types}], do NOT emit products/services/environments as entities; represent such changes as EVENT entities.
 • PERSON must be a named individual. Do NOT output roles or groups.
 • GEO must be a real-world geography.
+• ORGANIZATION must be a company, institution, or service provider explicitly mentioned (e.g., AWS, Microsoft Azure, SAP BTP).
 • Construct EVENT entities whenever a record describes a release, upgrade, deprecation, migration, fix, enablement, or new capability.
   – Name pattern: <SHORT TITLE> — <ISO DATE if present> (prefer “Valid as Of”; else “Latest Revision”).
 • For each entity output:
@@ -19,6 +42,7 @@ Entity extraction
 Relationship extraction
 • Use only entities emitted in step 1.
 • Emit a relationship only if the text states a clear dependency/impact between two emitted entities.
+• Valid relationships include: events occurring in locations, events involving organizations, organizations providing infrastructure.
 • relationship_description ≤20 words; relationship_strength ∈ {{1..10}}.
 • Format:
 ("relationship"{tuple_delimiter}<source_entity>{tuple_delimiter}<target_entity>{tuple_delimiter}<relationship_description>{tuple_delimiter}<relationship_strength>)

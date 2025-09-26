@@ -1,0 +1,130 @@
+--- Record 3631 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Vertical Layout in the Process Editor
+Description: The vertical layout is now generally available.  These are some of the advantages that the new layout offers you:      To move process steps that have already been connected to the process, you simply select the step and drag and drop it.      You can access embedded help using the question mark button (?). In the Help Panel, you can navigate between the help for UI elements, the embedded What's New, and the Guided Tours.      If, for example, the outcome of an approval step in your process is “reject”, you can insert a go-to step and send users back to a previous step asking them to rework their entries.  See Use Cases for Custom Variables.      The side panel is wider and easier to work with. You can close it to save space. To display process information again, use the toggle button in the side panel.      You can select the next step to insert in your process from the smart menu.  See step 6 in Create a Business Process.      Steps with more than one flow are visualized as a group. You can collapse groups to get a better overview of the whole process.      The process is always valid, there are no more dangling ends. If you add a new step, for example, an approval form, all output paths are connected. You do not have to connect, for example, the Reject outcome to the process anymore.      See Create and Configure Forms in a Vertical Layout Process Editor.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2023-01-22
+Valid as Of: 2024-01-21
+Version: Cloud
+
+--- Record 3632 ---
+Component: Integration Advisor
+Environment: Cloud Foundry,Neo
+Title: Administrative Data in the Documentation Template
+Description: You can now select whether you want to display the administrative data of your MIG and MAG in the documentation template.  See: MIGs and MAGs
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-01-20
+Valid as Of: 2024-01-20
+Version: 2312
+
+--- Record 3633 ---
+Component: Integration Advisor
+Environment: Cloud Foundry,Neo
+Title: Display xsd:nillable value in a MIG
+Description: You can now view if an element/node in a MIG allows nil values through the Nillable field.  See: Working with a Node
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-01-20
+Valid as Of: 2024-01-20
+Version: 2312
+
+--- Record 3634 ---
+Component: Integration Advisor
+Environment: Cloud Foundry,Neo
+Title: Software Version Update
+Description:   SAP Integration Advisor: 1.82.*    Increment: 2312    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-01-20
+Valid as Of: 2024-01-20
+Version: 2312
+
+--- Record 3635 ---
+Component: Integration Advisor
+Environment: Cloud Foundry,Neo
+Title: Support of xsd:nillable in Custom Messages
+Description: Custom Messages now support xsd:nillable.  See: Custom Type Systems
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-01-20
+Valid as Of: 2024-01-20
+Version: 2312
+
+--- Record 3636 ---
+Component: Integration Assessment
+Environment: Cloud Foundry
+Title: Software Version Update
+Description:     Integration Assessment: 1.23.*    Increment: 2312  
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-01-20
+Valid as Of: 2024-01-20
+Version: 2312
+
+--- Record 3637 ---
+Component: Migration Assessment
+Environment: Cloud Foundry
+Title: Add System Version for SAP Process Orchestration Systems
+Description: When adding a new SAP Process Orchestration System, you can now select the system version, or have the application auto-detect it.  See Add an SAP Process Orchestration System.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-20
+Valid as Of: 2024-01-20
+Version: 2312
+
+--- Record 3638 ---
+Component: Migration Assessment
+Environment: Cloud Foundry
+Title: New Rules Added
+Description: The following rules have been added for Migration Assessment:      SenderMailPostprocessing: Evaluate the postprocessing steps (Delete, Mark as Read, Archive) of the mail sender adapter.      SenderMailTransportProtocol: Evaluate the mail protocol.      SenderRESTErrorHandling: Evaluate the error handling of the sender REST adapter.    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-20
+Valid as Of: 2024-01-20
+Version: 2312
+
+--- Record 3639 ---
+Component: Migration Assessment
+Environment: Cloud Foundry
+Title: Software Version Update
+Description:     Migration Assessment: 1.23.*      Increment: 2312    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-20
+Valid as Of: 2024-01-20
+Version: 2312
+
+--- Record 3640 ---
+Component: Trading Partner Management
+Environment: Cloud Foundry
+Title: Create an Agreement
+Description: With alias based configuration of agreement templates, you can now choose to copy or reference the B2B Scenarios while creating an agreement.  See: Trading Partner Agreement  
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-01-20
+Valid as Of: 2024-01-20
+Version: 2312
+

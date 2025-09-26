@@ -1,0 +1,130 @@
+--- Record 2271 ---
+Component: SAP Java Buildpack
+Environment: Cloud Foundry
+Title: Version 1.103.0
+Description: SAP Java Buildpack 1 has been updated from version 1.102.0 to 1.103.0. Updated components:      DSR is removed from SAP Java Buildpack 1      PostgreSQL JDBC Driver (postgresql.version) is updated from 42.7.3 to 42.7.4      commons-compress is updated from version 1.26.3 to 1.27.1      com.sap.xs.onpremise.runtime is updated from version 1.2.4 to 1.2.5    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-09-03
+Valid as Of: 2024-09-19
+Version: Cloud
+
+--- Record 2272 ---
+Component: SAP Java Buildpack
+Environment: Cloud Foundry
+Title: Version 2.17.0
+Description: SAP Java Buildpack 2 has been updated from version 2.16.0 to 2.17.0. Updated components:      DSR is removed from SAP Java Buildpack 2      The SLF4J component (org.slf4j) is updated from version 2.0.13 to 2.0.16      PostgreSQL JDBC Driver (postgresql.version) is updated from 42.7.3 to 42.7.4      logback is updated from version 1.5.6 to 1.5.7      logback-access is updated from version 2.0.2 to 2.0.3      commons-compress is updated from version 1.26.2 to 1.27.1      com.sap.cloud.security.xsuaa is updated from version 3.5.2 to 3.5.3      com.sap.xs.onpremise.runtime is updated from version 1.2.4 to 1.2.5    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-09-03
+Valid as Of: 2024-09-19
+Version: Cloud
+
+--- Record 2273 ---
+Component: SAP Start
+Environment: Cloud Foundry
+Title: Products Section
+Description: The Products section, added below the banner, provides quick access to the home pages of the integrated business solutions.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-09-19
+Valid as Of: 2024-09-19
+Version: Cloud
+
+--- Record 2274 ---
+Component: Continuous Integration & Delivery
+Environment: Cloud Foundry
+Title: Change of Backend Region
+Description: On September 16, 2024, our job execution backend will be switched from the Microsoft Azure - US West (WA) region to the Amazon Web Services - US East (VA) region. The service’s user interface will still be operated in the Microsoft Azure - US West (WA) region.  This change won’t not affect the functionality or performance of SAP Continuous Integration and Delivery. All your data will continue to be encrypted and the entire service will work as before.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-09-16
+Valid as Of: 2024-09-16
+Version: Cloud
+
+--- Record 2275 ---
+Component: SAP AI Core
+Environment: Cloud Foundry
+Title: Generative AI hub
+Description: When creating a deployment for orchestration, you can restrict the choice of models using an allow or disallow list. You can use this to implement internal standards, for example where only certain LLMs are approved for use.  For more information, see Create a Deployment for Orchestration.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-09-16
+Valid as Of: 2024-09-16
+Version: Cloud
+
+--- Record 2276 ---
+Component: SAP AI Core
+Environment: Cloud Foundry
+Title: Generative AI hub
+Description: Additional module added to orchestration.  The data masking module anonymizes or pseudonymizes personally identifiable information from input.   For more information, see Orchestration Workflow V1 (Deprecated).
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-09-16
+Valid as Of: 2024-09-16
+Version: Cloud
+
+--- Record 2277 ---
+Component: SAP AI Core
+Environment: Cloud Foundry
+Title: Generative AI hub
+Description: Additional selected models from Meta are supported.For more information, see SAP Note 3437766 .
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-09-16
+Valid as Of: 2024-09-16
+Version: Cloud
+
+--- Record 2278 ---
+Component: SAP AI Launchpad
+Environment: Cloud Foundry
+Title: Generative AI hub
+Description: Additional selected models from Meta are supported.  For more information, see Models and Scenarios in the Generative AI Hub.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-09-16
+Valid as Of: 2024-09-16
+Version: Cloud
+
+--- Record 2279 ---
+Component: SAP AI Launchpad
+Environment: Cloud Foundry
+Title: Superdomain URL for SAP AI Launchpad
+Description: SAP AI Launchpad has moved to new superdomain URL.SAP is migrating its products to a common cloud.sap superdomain to address browser isolation and privacy issues caused by current domain-specific URLs. This change aims to improve integration scenarios using iFrames or cross-origin requests, which are affected by modern browser security features For existing customers with domain specific URLs, both the original URL and the new superDomain URL will be supported for all clusters.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-09-16
+Valid as Of: 2024-09-16
+Version: Cloud
+
+--- Record 2280 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: Availability in Microsoft Azure Regions
+Description: SAP Document AI is now available in the following Microsoft Azure regions:    eu20 - Europe (Netherlands)      us21 - US East (VA)    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Intelligent Technologies
+Latest Revision: 2024-09-16
+Valid as Of: 2024-09-16
+Version: Cloud
+

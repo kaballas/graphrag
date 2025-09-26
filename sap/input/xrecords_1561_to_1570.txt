@@ -1,0 +1,130 @@
+--- Record 1561 ---
+Component: Extensions
+Environment: Cloud Foundry,Kyma
+Title: Use a New Formation of Type Integration with SAP Master Data Integration
+Description: You can automatically set up an integration between systems of type SAP Master Data Integration and other systems or applications, for example SAP S/4HANA Cloud using the formation of type Integration with SAP Master Data Integration.  See Enabling Integration with SAP Master Data Integration.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2025-01-23
+Valid as Of: 2025-01-23
+Version: Cloud
+
+--- Record 1562 ---
+Component: Extensions
+Environment: Cloud Foundry,Kyma
+Title: Use a New Formation of Type Integration with SAP Subscription Billing
+Description: You can configure the connectivity between an SAP S/4HANA Cloud system and an SAP Subscription Billing system using the new formation type Integration with SAP Subscription Billing.  See Automating Integrations with SAP Subscription Billing.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2025-01-23
+Valid as Of: 2025-01-23
+Version: Cloud
+
+--- Record 1563 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Istio module: Update to version 1.13.1
+Description: We've updated Istio to version 1.24.2. For more information, see the Istio 1.24.2 release announcement.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-01-23
+Valid as Of: 2025-01-23
+Version: Cloud
+
+--- Record 1564 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Serverless module: Documentation
+Description: We're excited to announce that the Serverless module documentation is now live on Help Portal. To learn more on how to build, run, and manage Serverless Functions, see Serverless Module.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-01-22
+Valid as Of: 2025-01-23
+Version: Cloud
+
+--- Record 1565 ---
+Component: SAP BTP, Cloud Foundry Runtime
+Environment: Cloud Foundry
+Title: Version 46.1.0
+Description: Cloud Foundry has been updated from 45.0.0 to 46.1.0.      https://github.com/cloudfoundry/cf-deployment/releases/tag/v46.1.0  https://github.com/cloudfoundry/cf-deployment/releases/tag/v46.0.0  https://github.com/cloudfoundry/cf-deployment/releases/tag/v45.1.0    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-01-23
+Valid as Of: 2025-01-23
+Version: Cloud
+
+--- Record 1566 ---
+Component: SAP Build Work Zone, advanced edition
+Environment: Cloud Foundry
+Title: Multiple Subscriptions to SAP Build Work Zone Editions
+Description: It's no longer possible to subscribe to multiple SAP Build Work Zone editions in parallel in a given SAP BTP subaccount. Trying to subscribe to multiple editions, for example both to standard and advanced editions in the same subaccount, will result in an error.   Note that existing subscriptions are not impacted by this restriction and continue to work as before.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-01-23
+Valid as Of: 2025-01-23
+Version: 2413B
+
+--- Record 1567 ---
+Component: SAP Build Work Zone, advanced edition
+Environment: Cloud Foundry
+Title: SAP SuccessFactors
+Description: SAP SuccessFactors has been removed from the list of supported content providers in SAP Help Portal, as it was added accidentally.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-01-23
+Valid as Of: 2025-01-23
+Version: 2413B
+
+--- Record 1568 ---
+Component: SAP Build Work Zone, advanced edition
+Environment: Cloud Foundry
+Title: Tracking Imports in the Transport Manager
+Description: A new screen has been added to the Site Manager – the Transport Manager.   Administrators can use the Transport Manager, accessed from the side panel, to track the progress of an import process. As a result, this process no longer takes control of the Site Manager, allowing administrators to continue working during the import.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-01-16
+Valid as Of: 2025-01-23
+Version: 2413B
+
+--- Record 1569 ---
+Component: SAP Build Work Zone, standard edition
+Environment: Cloud Foundry
+Title: Multiple Subscriptions to SAP Build Work Zone Editions
+Description: It's no longer possible to subscribe to multiple SAP Build Work Zone editions in parallel in a given SAP BTP subaccount. Trying to subscribe to multiple editions, for example both to standard and advanced editions in the same subaccount, will result in an error.   Note   Existing subscriptions are not impacted by this restriction and continue to work as before.  If you're interested in upgrading from the foundation service plan to the standard service plan, you can use the Updatesubscription option in the SAP BTP cockpit.  Note that the Updateoption is only available if the subaccount has entitlements to both the foundation and standard service plans.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-01-23
+Valid as Of: 2025-01-23
+Version: 2413B
+
+--- Record 1570 ---
+Component: SAP Build Work Zone, standard edition
+Environment: Cloud Foundry
+Title: SAP SuccessFactors
+Description: SAP SuccessFactors has been removed from the list of supported content providers in SAP Help Portal, as it was added accidentally.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-01-23
+Valid as Of: 2025-01-23
+Version: 2413B
+

@@ -1,0 +1,130 @@
+--- Record 3091 ---
+Component: Automation Pilot
+Environment: Cloud Foundry
+Title: Commenting Functionality for Executions
+Description: You can now add additional troubleshooting information to each execution by choosing the Comment button in the SAP Automation Pilot UI. See Managing Executions.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-04-18
+Valid as Of: 2024-04-18
+Version: Cloud
+
+--- Record 3092 ---
+Component: Automation Pilot
+Environment: Cloud Foundry
+Title: Dry Run for a Command
+Description: You can now test any command by triggering a dry run. See Managing Commands.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-04-18
+Valid as Of: 2024-04-18
+Version: Cloud
+
+--- Record 3093 ---
+Component: Automation Pilot
+Environment: Cloud Foundry
+Title: Executor Descriptions
+Description: You can now add a description to an executor. See Executor.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-04-18
+Valid as Of: 2024-04-18
+Version: Cloud
+
+--- Record 3094 ---
+Component: Cloud Logging
+Environment: Cloud Foundry
+Title: Update OpenSearch
+Description: OpenSearch and OpenSearch Dashboards have been updated to 1.3.15.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-04-18
+Valid as Of: 2024-04-18
+Version: Cloud
+
+--- Record 3095 ---
+Component: Cloud Management Tools,SAP BTP Cockpit
+Environment: ABAP,Cloud Foundry,Kyma,Neo,Other
+Title: Enhancements to the Costs and Usage page in SAP BTP Cockpit
+Description: In the Costs and Usage page in SAP BTP cockpit, we've added the following enhancements:    When you drill down into the details of a service plan in the Billing tab (under the View by Service perspective) and the Usage tab, you can now see the subaccounts to which the plan is assigned in the context of your account hierarchy (under their respective directories). Until now, we listed the subaccounts in a flat list without directories.   You can now quickly expand and collapse the entire account hierarchy in both the main table and the details views.    See Monitoring Usage and Consumption Costs in Your Global Account.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-04-18
+Valid as Of: 2024-04-18
+Version: Cloud
+
+--- Record 3096 ---
+Component: Cloud Portal Service
+Environment: Cloud Foundry
+Title: Content Manager UI Enhancements
+Description: The Content Manager UI was enhanced, including changing the Assignments UI in the editors from a panel to a dedicated tab.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-04-18
+Valid as Of: 2024-04-18
+Version: Cloud
+
+--- Record 3097 ---
+Component: Cloud Portal Service
+Environment: Cloud Foundry
+Title: CSRF Protection for Dynamic Destinations
+Description: Today our approuters do not provide CSRF protection for dynamic destinations. It’s assumed that backends behind the destinations, handle CSRF protection on their own.   New security measures have been introduced to enable CSRF protection by the approuter. This is done by setting the CEP.EnableCsrfProtection property to true for all dynamic destinations where their respective backend doesn’t handle CSRF protection.  If your backend is already protected, there’s no need to add this property. 
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-04-18
+Valid as Of: 2024-04-18
+Version: Cloud
+
+--- Record 3098 ---
+Component: Connectivity
+Environment: Cloud Foundry,Kyma
+Title: Transparent Proxy for Kubernetes - Bug Fixes
+Description: Transparent Proxy version 1.5.0 provides the following bug fixes:    Fixed multiple OS vulnerabilities by removing or upgrading packages on the image.  Fixed multiple Golang vulnerabilities by upgrading dependencies to a newer version.  
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2024-04-18
+Version: Cloud
+
+--- Record 3099 ---
+Component: Connectivity
+Environment: Cloud Foundry,Kyma
+Title: Transparent Proxy for Kubernetes - Enhancements
+Description: Transparent Proxy version 1.5.0 provides the following enhancements:      Enhanced Integration with Connectivity Proxy in Kubernetes Clusters. This update allows for simpler integration with the Connectivity Proxy outside of the Kyma environment. Users can now link the two components by simply pointing to the Connectivity Proxy service name.   For more information, see Connectivity Proxy Integration.      Optimized reconciliation process in Transparent Proxy. This optimization allows for quicker synchronization with the SAP Destination service.    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2024-04-18
+Version: Cloud
+
+--- Record 3100 ---
+Component: Connectivity
+Environment: Cloud Foundry,Kyma
+Title: Transparent Proxy for Kubernetes - New Features
+Description: Transparent Proxy version 1.5.0 provides the following new features:      The Transparent Proxy module in Kyma now automatically detects and integrates with the Connectivity Proxy module, reducing the need for manual configuration.   For more information, see Transparent Proxy in the Kyma Environment.      Transparent Proxy supports the Destination Fragment feature, allowing for the extension of a destination with a fragment. The destination fragments themselves enable more flexible technical connection configuration management for the solution administrators. Now, using the Transparent Proxy, you can easily consume target systems defined as destination-fragment pairs.   For more information, see Extending Destinations with Fragments and Destination Fragments.      Transparent Proxy now supports a new integration with Connectivity Proxy in the so-called multi-region setup. This allows you to link the multi-region related configuration between the two components, resulting in simplified consumption at runtime.   For more information, see Connectivity Proxy Integration.    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2024-04-18
+Version: Cloud
+

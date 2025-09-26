@@ -1,0 +1,130 @@
+--- Record 321 ---
+Component: Cloud Identity Services
+Environment: Cloud Foundry,Kyma,Neo
+Title: Regular Upgrade
+Description: Cloud Identity Services have been upgraded.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-08-12
+Valid as Of: 2025-08-12
+Version: 28165
+
+--- Record 322 ---
+Component: Decentralized Identity Verification
+Environment: Cloud Foundry
+Title: Automated Matching of Credentials
+Description: An automated job is now implemented to continuously monitors incoming requests and matches them with verifiable credentials. When a request can be fulfilled, the job delivers the verifiable credentials directly to the holder.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2025-08-12
+Version: 3.12
+
+--- Record 323 ---
+Component: Decentralized Identity Verification
+Environment: Cloud Foundry
+Title: Improvement of the Company Identity Status Check
+Description: For Decentralized Identity Verification-hosted identities, the company identity status can be updated immediately.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2025-08-12
+Version: 3.12
+
+--- Record 324 ---
+Component: Decentralized Identity Verification
+Environment: Cloud Foundry
+Title: Retrieval of Shared Verifiable Presentation using Access Token
+Description: Verifiers can now retry the retrieval of a shared verifiable presentation using a valid access token multiple times until the token expires, rather than a single retrieval attempt as before.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2025-08-12
+Version: 3.12
+
+--- Record 325 ---
+Component: Identity Provisioning
+Environment: Neo
+Title: Mandatory email for job subscribers
+Description: A message in the UI now ensures that all subscribers for job notifications provide an email address.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-08-12
+Valid as Of: 2025-08-12
+Version: Cloud
+
+--- Record 326 ---
+Component: Graph
+Environment: Cloud Foundry
+Title: Try out GraphQL Queries in the Graph Navigator on the Developer Hub
+Description: You can try out GraphQL queries in the Graph Navigator on the Developer Hub. For more information, see Graph Navigator on Developer Hub.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Intelligent Technologies
+Latest Revision: 2025-08-11
+Valid as Of: 2025-08-11
+Version: Cloud
+
+--- Record 327 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Istio module: Update to version 1.20.2
+Description: Version 1.20.2 introduces the following improvements:      The Istio module now supports the use of Istio sidecars as Kubernetes init containers. In addition to the default Istio containers, the module also restarts native sidecar init containers. However, configuring native sidecars directly from the Istio Custom Resource (CR) is not supported. For more information, see issue #1426.Caution  If your cluster's Istio service mesh includes workloads with initContainer sidecars, the Istio module will restart these workloads for the first time. See Restart of Workloads with Enabled Istio Sidecar Injection, Istio sidecar documentation, and Kubernetes Native Sidecars in Istio.    We've updated the Istio version to 1.26.2. For more information, read the Istio 1.26.2 release announcement and Istio 1.26.0 release announcement.  We've fixed a bug where the proxy-protocol EnvoyFilter applied by the Istio module on AWS clusters with ELB load balancers was incorrectly detected as a user resource. This resulted in the Istio custom resource being set to the Warning state. See issue #1491.  We've fixed a bug where labels of the Istio managed resources were not correctly reconciled.  We've fixed a bug where the app.kubernetes.io/version label was not set to the proper version in the managed resources.  
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-07-22
+Valid as Of: 2025-08-11
+Version: Cloud
+
+--- Record 328 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: Integration of SAP Document AI (Embedded Edition) with SAP Mobile Start
+Description: You can now integrate SAP Document AI with SAP Mobile Start. The integration lets you use your mobile device to upload documents or scan printed documents and then upload the resulting images for automatic information extraction.  See Integrating SAP Document AI With Your SAP Solution (Embedded Edition and Premium Edition).
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Intelligent Technologies
+Latest Revision: 2025-09-04
+Valid as Of: 2025-08-11
+Version: Cloud
+
+--- Record 329 ---
+Component: Cloud Integration
+Environment: Cloud Foundry,Neo
+Title: ELSTER Adapter Supports New ERiC Version
+Description: A new version 42.2.2.0 of the Elster Rich Client (ERiC) library is available for the ELSTER adapter.   This update includes enhanced data type versions in the ElsterLager2 procedure to improve data processing capabilities and revised interfaces as part of ongoing improvements in data exchange protocols. 
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-08-10
+Valid as Of: 2025-08-10
+Version: 2506
+
+--- Record 330 ---
+Component: Cloud Integration
+Environment: Cloud Foundry
+Title: Monitor Message Status Overview Time Filter
+Description: For technical reasons, the collected data in Monitor Message Status Overview can be slightly incomplete and might not cover the entire period specified by the user.See: Monitor Message Status Overview
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-08-10
+Valid as Of: 2025-08-10
+Version: 2506
+

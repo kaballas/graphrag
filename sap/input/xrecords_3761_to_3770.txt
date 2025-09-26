@@ -1,0 +1,130 @@
+--- Record 3761 ---
+Component: SAP Intelligent Robotic Process Automation
+Environment: Cloud Foundry
+Title: Manage Traces - More Information
+Description: You can now view the ongoing trace by choosing History and then Reports. See: More Information.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-12-12
+Valid as Of: 2023-12-12
+Version: Cloud
+
+--- Record 3762 ---
+Component: SAP Intelligent Robotic Process Automation
+Environment: Cloud Foundry
+Title: Microsoft 365 Cloud SDK
+Description: Various activities are added to enhance the Microsoft 365 SDK.  You can now use the Send Email (On behalf of) activity to a recipient on behalf of another person, the Search Sites activity to search for the requested site, the Select Site activity to select the site, the Enumerate Lists activity to retrieve all the lists available on the selected site, the Create Lists activity to create a list on the selected site, the Select List activity to select the list on the current site, the List Columns activity to list all the columns of the current site, the Add Items activity to add multiple items to a single cell within the existing list of the current site, the Search Items to search for the items on the current list, the Delete Column activity to delete a column from the current list, the Update Item activity to updates an item on the current list, the Delete Item activity to delete an item on the current list.  See: More Information.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-12-12
+Valid as Of: 2023-12-12
+Version: Cloud
+
+--- Record 3763 ---
+Component: SAP Intelligent Robotic Process Automation
+Environment: Cloud Foundry
+Title: Record Web and Windows Applications with the Enhanced Recorder
+Description: The recorder with enhanced user experience is now available in Agent 3. The features of this recorder remain the same as those of the Agent 2 recorder. See: Record Web and Windows Applications with the Enhanced Recorder.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-12-12
+Valid as Of: 2023-12-12
+Version: Cloud
+
+--- Record 3764 ---
+Component: Mobile Services
+Environment: Cloud Foundry
+Title: Supported versions for Cloud Build Service
+Description: We've updated the supported versions for the Cloud Build service:    December 2023    Mobile Development Kit SDK version, Android and iOS versions, and notes      SAP Asset Manager SDK version, Android and iOS versions, and notes          November 2023 - Mobile Development Kit SDK version, Android and iOS versions, and notes      October 2023 - Mobile Development Kit SDK version, Android and iOS versions, and notes      See Supported Build Types, Client Types, Packaging Details, and Build Options  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2023-12-11
+Version: Cloud
+
+--- Record 3765 ---
+Component: Mobile Services
+Environment: Neo
+Title: Supported versions for Cloud Build Service
+Description: We've updated the supported versions for the Cloud Build service:    December 2023 (2305 PL09)    Fiori Packaged SDK version, UI5 version, Android and iOS versions, and notes      Custom Fiori Client SDK version, Android and iOS versions, and notes      Mobile Development Kit SDK version, Android and iOS versions, and notes      SAP Asset Manager SDK version, Android and iOS versions, and notes          November 2023 (2305 PL08) Mobile Development Kit SDK version and notes      October 2023 (2305 PL06)    Fiori Packaged UI5 version and iOS version      Custom Fiori Client iOS version      Mobile Development Kit SDK version, iOS versions and notes          See Supported Build Types, Client Types, Packaging Details, and Build Options  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2023-12-11
+Version: Cloud
+
+--- Record 3766 ---
+Component: SAP Advanced Financial Closing
+Environment: Cloud Foundry
+Title: Feature Release Date Changed
+Description: The planned release date of some upcoming features has been changed from December 10 to December 17.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Finance
+Latest Revision: 2023-12-11
+Valid as Of: 2023-12-11
+Version: Cloud
+
+--- Record 3767 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: Auditing and Logging Information
+Description: New client related events have been created.  See Auditing and Logging Information.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-12-11
+Valid as Of: 2023-12-11
+Version: Cloud
+
+--- Record 3768 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: Prefilled Setup Types for Schema Fields
+Description: When you add data fields to schemas, the service now prefills the Setup Type field with default values.   Depending on whether you use the service plan premium edition or base edition, the default values are as follows:    Premium edition:      Schemas for standard and custom document types: auto          Base edition:      Schemas for standard document types: auto      Schemas for custom document types: manual          See Setup Types.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-12-11
+Valid as Of: 2023-12-11
+Version: Cloud
+
+--- Record 3769 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: SAP Document AI Basic UI
+Description: There have been several security improvements on the SAP Document AI basic UI.  See Using the SAP Document AI Basic UI (Base Edition and Premium Edition).
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2023-12-11
+Valid as Of: 2023-12-11
+Version: Cloud
+
+--- Record 3770 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: Support for X.509 Authentication
+Description: The SAP Document AI APIs now support X.509 authentication.  See Enable X.509 Authentication.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-12-11
+Valid as Of: 2023-12-11
+Version: Cloud
+

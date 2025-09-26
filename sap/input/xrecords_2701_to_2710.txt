@@ -1,0 +1,130 @@
+--- Record 2701 ---
+Component: Responsibility Management Service
+Environment: Cloud Foundry
+Title: New Role for Restricting Access to Teams
+Description: In the Manage Teams and Responsibilities app, the list of teams that users can access can now be restricted using a new role. For more information, see Defining and Bundling Roles.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-06-07
+Valid as Of: 2024-06-24
+Version: Cloud
+
+--- Record 2702 ---
+Component: SAP AI Core
+Environment: Cloud Foundry
+Title: Generative AI hub
+Description: Additional selected models from OpenAI are supported via Azure.For more information, see SAP Note 3437766 .
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-06-24
+Valid as Of: 2024-06-24
+Version: Cloud
+
+--- Record 2703 ---
+Component: SAP AI Core
+Environment: Cloud Foundry
+Title: Resource limits per tenant
+Description: The maximum number of applications, git repository secrets, docker registry secrets, workflow templates and deployment templates is limited at tenant level to 50 per resource. If you reach this limit, you will receive an error message. You can free up space by deleting resources.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-06-24
+Valid as Of: 2024-06-24
+Version: Cloud
+
+--- Record 2704 ---
+Component: SAP AI Launchpad
+Environment: Cloud Foundry
+Title: Generative AI hub
+Description: Additional selected models from OpenAI are supported via Azure.  For more information, see Models and Scenarios in the Generative AI Hub.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-06-24
+Valid as Of: 2024-06-24
+Version: Cloud
+
+--- Record 2705 ---
+Component: SAP Alert Notification Service
+Environment: Cloud Foundry
+Title: New SAP HANA Cloud Service Database Event
+Description: You can now use the newly supported HDB User Group Connect Restriction event.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-03-19
+Valid as Of: 2024-06-24
+Version: Cloud
+
+--- Record 2706 ---
+Component: SAP Build
+Environment: Cloud Foundry
+Title: Lobby - Terminology Update
+Description: The term Promote has been replaced with the term Transport. The terminology has been updated throughout the documentation and on the user interface. This change pertains only to terminology and has no impact on feature functionality.  See Transport a Project.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-06-24
+Valid as Of: 2024-06-24
+Version: Cloud
+
+--- Record 2707 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Lobby: Terminology Update
+Description: The term Promote has been replaced with the term Transport. The terminology has been updated throughout the documentation and on the user interface. This change pertains only to terminology and has no impact on feature functionality.   See Transport a Project.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-06-24
+Valid as Of: 2024-06-24
+Version: Cloud
+
+--- Record 2708 ---
+Component: SAP Digital Payments Add-On
+Environment: Cloud Foundry
+Title: Weighting of digital payment types available in payment page configuration
+Description: When configuring a payment page you can now assign weightings to the individual digital payment types. The values assigned will determine the order in which the digital payment types are displayed on the payment page.  For more information, see Setting Up the Payment Page.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Finance
+Latest Revision: 2024-01-01
+Valid as Of: 2024-06-24
+Version: Cloud
+
+--- Record 2709 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: Extraction Using Template
+Description: We’ve fixed an issue with extracting information using templates.   Adding multiple documents to a template and annotating different fields across these documents no longer prevents SAP Document AI from extracting information using that template.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Intelligent Technologies
+Latest Revision: 2024-06-24
+Valid as Of: 2024-06-24
+Version: Cloud
+
+--- Record 2710 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: Line-Item Matching in Templates
+Description: We’ve improved line-item matching in templates by lowering a threshold for the overlap between bounding boxes and content.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Intelligent Technologies
+Latest Revision: 2024-06-24
+Valid as Of: 2024-06-24
+Version: Cloud
+

@@ -1,0 +1,130 @@
+--- Record 4101 ---
+Component: Java Server
+Environment: Neo
+Title: Tomcat version for Java Web Tomcat 9 and Java EE 7 Web Profile TomEE 7
+Description: Java Web Tomcat 9 (runtime version 4.63) and Java EE 7 Web Profile TomEE 7 (runtime version 1.161) have been updated to Tomcat version 9.0.82. The new version contains security fixes.   See the Changelog.  Recommended action: Update your applications to the latet runtime version.
+Action: Recommended
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2023-10-05
+Valid as Of: 2023-10-05
+Version: Cloud
+
+--- Record 4102 ---
+Component: Cloud Portal Service
+Environment: Cloud Foundry
+Title: App to App Navigation is Supported
+Description: You can enable an application to consume the APIs of another application.   For more information, see Configure Integration Between Applications.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-10-05
+Valid as Of: 2023-10-05
+Version: Cloud
+
+--- Record 4103 ---
+Component: Connectivity
+Environment: Cloud Foundry,Kyma
+Title: Transparent Proxy for Kubernetes - Kyma Environment
+Description: The Transparent Proxy is now part of the Kyma environment as a module. You can benefit from the SAP managed product lifecycle and enhanced support for the Transparent Proxy in your Kyma runtime.For more information, see Transparent Proxy in the Kyma Environment.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2023-10-05
+Version: Cloud
+
+--- Record 4104 ---
+Component: Java Server
+Environment: Neo
+Title: Tomcat version for Java Web Tomcat 9 and Java EE 7 Web Profile TomEE 7
+Description: Java Web Tomcat 9 (runtime version 4.61) and Java EE 7 Web Profile TomEE 7 (runtime version 1.159) have been updated to Tomcat version 9.0.80.  See the Changelog.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2023-10-05
+Valid as Of: 2023-10-05
+Version: Cloud
+
+--- Record 4105 ---
+Component: SAP Build Work Zone, advanced edition
+Environment: Cloud Foundry
+Title: App to App Navigation Supported
+Description: You can enable an application to consume the APIs of another application.   For more information, see Configure Integration Between Applications.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-10-05
+Valid as Of: 2023-10-05
+Version: Cloud
+
+--- Record 4106 ---
+Component: SAP Build Work Zone, standard edition
+Environment: Cloud Foundry
+Title: App to App Navigation Supported
+Description: You can enable an application to consume the APIs of another application.   For more information, see Configure Integration Between Applications.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-10-05
+Valid as Of: 2023-10-05
+Version: Cloud
+
+--- Record 4107 ---
+Component: SAP Private Link
+Environment: Cloud Foundry
+Title: Additional Azure services available on SAP BTP Cloud Foundry regions
+Description: The SAP Private Link service now also supports Azure Cosmos DB for PostgreSQL on SAP BTP Cloud Foundry regions running on Azure.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-10-05
+Valid as Of: 2023-10-05
+Version: Cloud
+
+--- Record 4108 ---
+Component: SAP S/⁠4HANA Cloud for Credit Integration
+Environment: Cloud Foundry
+Title: For SAP S/4HANA: New BC Set for credit agency Coface
+Description: For the credit agency Coface a new BC set is now available:   3381988 : SAP S/4HANA Cloud for credit integration - Coface (New BC Set)  More information: Configure Rating Procedures
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Finance
+Latest Revision: 2023-10-05
+Valid as Of: 2023-10-05
+Version: Cloud
+
+--- Record 4109 ---
+Component: SAPUI5
+Environment: ABAP,Cloud Foundry,Kyma,Neo,Other
+Title: SAPUI5 Distribution 1.119
+Description: SAPUI5 version 1.119 has been released for UI development and can now be consumed by SAP BTP services. It’s up to the services to determine when they start using the new version. Example: SAP Build Work Zone, standard edition, plans to consume the new SAPUI5 version as of October 19, 2023.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2023-10-05
+Valid as Of: 2023-10-05
+Version: Cloud
+
+--- Record 4110 ---
+Component: UI5 Flexibility for Key Users
+Environment: Cloud Foundry
+Title: Publishing UI Changes
+Description: You can publish UI changes and then transport them to another subaccount using the SAP Content Agent service.  See Publishing UI Changes.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2023-10-05
+Valid as Of: 2023-10-05
+Version: Cloud
+

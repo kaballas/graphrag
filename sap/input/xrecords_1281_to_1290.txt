@@ -1,0 +1,130 @@
+--- Record 1281 ---
+Component: Cloud Logging
+Environment: Cloud Foundry
+Title: OpenSearch and OpenSearch Dashboards is updated to 1.3.20
+Description: We have updated the OpenSearch and OpenSearch Dashboards to 1.3.20
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2025-02-20
+Valid as Of: 2025-03-06
+Version: Cloud
+
+--- Record 1282 ---
+Component: Cloud Logging
+Environment: Cloud Foundry
+Title: Update: "CF Requests and Logs" dashboard shows trace_id and span_id columns
+Description: We have updated the CF Requests and Logs dashboard to show trace_id and span_id columns.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-02-06
+Valid as Of: 2025-03-06
+Version: Cloud
+
+--- Record 1283 ---
+Component: Connectivity
+Environment: Cloud Foundry,Neo
+Title: Cloud Connector 2.18.0 - Bug Fixes
+Description: Release of Cloud Connector version 2.18.0 provides the following bug fixes:    Custom roles are no longer overwritten on the shadow instance, when connecting to the master instance.  When upgrading an instance with a separate high availability (HA) port on Windows, the HA port is no longer adjusted to be the same like the UI port.  Adjusted the determination of memory consumption on Linux to avoid false impression of a too high overall memory consumption.  
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-03-06
+Valid as Of: 2025-03-06
+Version: Cloud
+
+--- Record 1284 ---
+Component: Connectivity
+Environment: Cloud Foundry,Neo
+Title: Cloud Connector 2.18.0 - Enhancements
+Description: Release of Cloud Connector version 2.18.0 provides the following enhancements:    The Cloud Connector supports now Windows Server 2025 as additional OS version, and as announced previously, some OS versions will be no longer supported with 2.18. For more information, see Product Availability Matrix.  The Cloud Connector now supports automatic renewal of the subaccount certificate. Restriction  This feature is not supported for Neo regions.Restriction  Multi-cloud regions will not be enabled all at once.Once a region has been enabled, the Cloud Connector view in the SAP BTP cockpit will show a button to allow the automatic renewal for the current subaccount.For more information, see Renew the Certificate for a Subaccount.  The theme for the administration UI has been switched to Morning Horizon by default. In addition, you can configure your favorite theme of the Horizon suite. For more information, see Theming.  You can now manage the trust store for E-mails and LDAP servers within the Cloud Connector instead of using the JDK trust store. For more information, see LDAP Trust and E-Mail Trust.  A Troubleshooting section has been introduced that suggests solutions for problems detected within the Cloud Connector. In particular, business data tunnel failures will be reported with potential root causes. For more information, see Troubleshooting.  A cross-subaccount performance monitor has been introduced, combining the performance monitors of all subaccounts with traffic. For more information, see Performance Monitor.  You can now configure the file size of scc_core traces within the administration UI. For more information, see Log and Trace Settings.  Information about the last usage for each subject pattern rule now lets you identify whether a rule is still used regularly. For more information, see Configure Subject Patterns for Principal Propagation.  You can now configure a fadeout time for service channels in high availability (HA) setups. Thus, connections are not terminated immediately when switching roles intentionally, allowing a smoother transition to the new master instance. For more information, see Take-Over Settings.  Certificate-based authentication to the administration UI and REST APIs can now be configured to fallback to user/password authentication if a certificate is not available. For more information, see Additional administration REST APIs have been added for trace configuration, audit log configuration, and a v2 API to also allow the configuration of more than a single LDAP system. For more information, see Certificate-based authentication to the administration UI and REST APIs can now be configured to fallback to user/password authentication if a certificate is not available. For more information, see Additional administration REST APIs have been added for trace configuration, audit log configuration, and a v2 API to also allow the configuration of more than a single LDAP system. For more information, see Log and Trace Configuration and Authentication API v2.  Certificate-based authentication to the administration UI and REST APIs can now be configured to fallback to user/password authentication if a certificate is not available. For more information, see Additional administration REST APIs have been added for trace configuration, audit log configuration, and a v2 API to also allow the configuration of more than a single LDAP system. For more information, see Certificate-based authentication to the administration UI and REST APIs can now be configured to fallback to user/password authentication if a certificate is not available. For more information, see Additional administration REST APIs have been added for trace configuration, audit log configuration, and a v2 API to also allow the configuration of more than a single LDAP system. For more information, see Logon to the Cloud Connector via Client Certificate.  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-03-06
+Valid as Of: 2025-03-06
+Version: Cloud
+
+--- Record 1285 ---
+Component: Connectivity
+Environment: Cloud Foundry
+Title: Destination Service - Destination Chaining
+Description: The Destination service now provides a new feature that lets you invoke multiple destinations with a single Find a Destination request, where each targeted destination is used to produce the input for the invocation of the next one. The feature is called Destination Chaining.   With the initial release, this feature can only be used as a predefined destination chain to generate and consume IAS (Identity Authentication service)-signed SAML assertions.  For more information, see Destination Chaining.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-03-06
+Valid as Of: 2025-03-06
+Version: Cloud
+
+--- Record 1286 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: New compute-optimized machine types for additional worker node pools
+Description: In addition to our currently available virtual machine types, we now offer a new set of compute-optimized machine types. These are only available for use in additional worker node pools.  For more information, see Provisioning and Updating Parameters in the Kyma Environment.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-03-07
+Valid as Of: 2025-03-06
+Version: Cloud
+
+--- Record 1287 ---
+Component: PostgreSQL, Hyperscaler Option
+Environment: Cloud Foundry,Kyma
+Title: On-demand backups (AWS)
+Description: Release of a new extension API for create, list and delete on-demand backups  For more information, see On-demand Backups.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-03-06
+Valid as Of: 2025-03-06
+Version: Cloud
+
+--- Record 1288 ---
+Component: SAP BTP, Cloud Foundry Runtime
+Environment: Cloud Foundry
+Title: Version 48.0.0
+Description: Cloud Foundry has been updated from 47.0.0 to 48.0.0.      https://github.com/cloudfoundry/cf-deployment/releases/tag/v48.0.0  https://github.com/cloudfoundry/cf-deployment/releases/tag/v47.1.0    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-03-06
+Valid as Of: 2025-03-06
+Version: Cloud
+
+--- Record 1289 ---
+Component: SAP Java Buildpack
+Environment: Cloud Foundry
+Title: Version 2.25.0
+Description: SAP Java Buildpack 2 has been updated from version 2.24.0 to 2.25.0. Updated components:      Tomcat 10 is updated from version 10.1.34 to 10.1.35      otel-agent is updated from version 2.11.0 to 2.12.0      otel-agent-ext-java is updated from version 1.5.22 to 1.5.23      org.apache.httpcomponents.client5.httpclient5 is updated from version 5.4.1 to 5.4.2      com.sap.cloud.security.xsuaa is updated from version 3.5.7 to 3.5.8      When calculating the class_count memory size option, a constant 42,215 is now added to the number of class names. The total result is then multiplied by 0.35. To learn more, see: Memory Calculator V2    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-02-25
+Valid as Of: 2025-03-06
+Version: Cloud
+
+--- Record 1290 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Telemetry module: Update to version 1.34.0
+Description: The new version brings the following improvements:  Consistent labeling of all Kubernetes resources managed by and belonging to the Telemetry module (#646).  Metrics: Metric agents are removed if no MetricPipeline input requires them (#336).  
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-02-18
+Valid as Of: 2025-03-05
+Version: Cloud
+

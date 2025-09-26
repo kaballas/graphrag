@@ -1,0 +1,130 @@
+--- Record 641 ---
+Component: Content Agent Service
+Environment: Cloud Foundry
+Title: Automatic destination creation
+Description: You can now enable content types and SAP Cloud Transport Management, allowing you to transport content. To do this, create destinations directly in the Content Agent UI. Currently, you can create destinations targeted to SAP Cloud Integration, SAP API Management, XSUAA, and Cloud Transport Management. See Content Types and Integration with Transport Management
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-06-24
+Valid as Of: 2025-06-16
+Version: Cloud
+
+--- Record 642 ---
+Component: SAP Build Process Automation
+Environment: Cloud Foundry
+Title: Add a Notification Step
+Description: You can create a notification as a step to your process using templates defined in the notification template editor. See Add a Notification Step.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-06-16
+Valid as Of: 2025-06-16
+Version: Cloud
+
+--- Record 643 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: Overall Improvements
+Description: There have been several code and stability improvements.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Intelligent Technologies
+Latest Revision: 2025-06-27
+Valid as Of: 2025-06-16
+Version: Cloud
+
+--- Record 644 ---
+Component: SAP Dynamic Forms
+Environment: Cloud Foundry
+Title: Release 2505
+Description:     SAP Dynamic Forms setup on Preview environment: If you want to try out upcoming changes to the application before they go live in the standard environment, we have added SAP Dynamic Forms, Preview to the SAP Business Technology Platform Service Marketplace as an additional option. For more information on how to set up a subscription to this new service, see OPTIONAL: Set up SAP Dynamic Forms, Preview on SAP Business Technology Platform.    Note  SAP suggests that customers use Preview for their development and QA landscapes in order to validate each SAP Dynamic Forms release prior to the production roll-out.        Separation of Form Builder, Form Runner, and Form Administrator Roles: Previously, you could only set up Roles and Role Collections by granting users access to the Form Builder, Form Administrator, and Form Runner features simultaneously. Going forward, by creating separate Roles, you can assign access to Form Builder, Form Runner, and Form Administrator individually. For more information, see:    Setting Up Roles and Role Collections for SAP Dynamic Forms Users      End-User Roles and Role Collections          Sending Emails with SAP Dynamic Forms Information: You can send emails to individuals and general inboxes to alert your employees about Dynamic Forms. This is an event that is part of the SAP Dynamic Forms event processing. You can include data from SAP Dynamic Forms (Forms, Business Objects, etc) in the email message. For more information, see Sending Emails with Dynamic Form Information.      Form Builder list view improvements: Similar to Form Runner, now you can also see the following information about Form Instances, on the Form Builder list page:    Created By      Last Changed By      Latest Published Version      Last Published date          Bulk delete of Form Instances: On the Forms Admin page, you can now delete all Form Instances for an Application, Form, or Version. The deletion action is no longer limited to the list of selected Form Instances displayed on a single page.      Support Form Definition permissions: In Form Builder you can now set up permissions for Form Definitions as well:    Read: Required for users to view a Form Definition.      Update: Required for users to update and save a Form Definition.      Publishing Form Definitions requires Admin role.          Bug fixes:    Measurement Point Custom Control upper and lower limits do not account for European numerical syntax.      Creating a Form Template with duplicate name incorrectly returns 500 error.      Form Instances created in SAP Service and Asset Manager must run the initial value formulas.      Support email address lengths longer than 50 characters.      SAP Service and Asset Manager client is not prompted to save changes if the cursor focus remains on the only changed control.      Remove Clear button from the Form Runner and the mobile form engine.      Limit log message length.      PDF generation on device may fail for some Forms with the Measurement Point Custom Control feature.        
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-06-03
+Valid as Of: 2025-06-16
+Version: Cloud
+
+--- Record 645 ---
+Component: API Management
+Environment: Cloud Foundry
+Title: Client SDK version 2.0.0
+Description: The outdated libraries in the Client SDK have been upgraded to the latest version. For more information, see API Services.   SAP API Management customers choose: API Services
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-06-15
+Valid as Of: 2025-06-15
+Version: 2504
+
+--- Record 646 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Upcoming upgrade to Kubernetes 1.32
+Description: The Kyma environment is planned to be upgraded to the Kubernetes 1.32 release in the June 13-15th general maintenance windows.  This is the schedule per cloud provider region:    Asia Pacific & Japan (APJ) regions: 2025-06-14 14:00 - 17:00 UTC  Europe regions: 2025-06-14 21:00 - 24:00 UTC  Americas regions: 2025-06-15 06:00 - 09:00 UTC  Middle East regions: 2025-06-13 17:00 - 21:00 UTC    For more information on the upcoming release, see the feature highlights, deprecations, and removals in the blog post and the Kubernetes release notes.  Note: There are no urgent upgrade notes for the 1.32 release.  Action: There is one API removal in Kubernetes v1.32. The flowcontrol.apiserver.k8s.io/v1beta3 API version of FlowSchema and PriorityLevelConfiguration has been removed. To prepare for this, you must edit your existing manifests and rewrite client software to use the flowcontrol.apiserver.k8s.io/v1 API version, available since v1.29. All existing persisted objects are accessible via the new API. Notable changes in flowcontrol.apiserver.k8s.io/v1beta3 include that the PriorityLevelConfiguration spec.limited.nominalConcurrencyShares field only defaults to 30 when unspecified, and an explicit value of 0 is not changed to 30.
+Action: Required
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2025-05-08
+Valid as Of: 2025-06-13
+Version: Cloud
+
+--- Record 647 ---
+Component: SAP Cloud Application Event Hub
+Environment: Other
+Title: SAP Cloud ALM Health Monitoring for SAP S/4HANA Cloud
+Description: Use SAP Cloud ALM Health Monitoring when working with an SAP S/4HANA Cloud system in a Formation. See Event Monitoring.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-06-13
+Valid as Of: 2025-06-13
+Version: Cloud
+
+--- Record 648 ---
+Component: SAP Alert Notification Service
+Environment: Cloud Foundry
+Title: New SAP Cloud Management Service event
+Description: You can now use the newly supported SAP Cloud Management Service event - Budget Threshold Exceedance (Beta).
+Action: Info only
+Lifecycle: Beta
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-06-12
+Valid as Of: 2025-06-12
+Version: Cloud
+
+--- Record 649 ---
+Component: Multitarget Applications for Cloud Foundry
+Environment: Cloud Foundry
+Title: REMINDER: Removal of SAP Java Buildpack 1
+Description: SAP Java Buildpack 1 has been deprecated and will be removed from SAP BTP, Cloud Foundry environment on June 30, 2025. As a consequence, deployments of MTAs containing modules of type java, java.tomcat, and java.tomee might start to fail, as the buildpack used by default is SAP Java Buildpack 1.   To ensure compliance with this change, starting from the beginning of July, the MTA deployment will switch the default value for the buildpack parameter from sap_java_buildpack (SAP Java Buildpack 1) to sap_java_buildpack_jakarta (SAP Java Buildpack 2).  Action:  Plan and migrate your applications to SAP Java Buildpack 2 ahead of the scheduled change. In your deployment descriptors, you need to explicitly set one of the parameters buildpack or buildpacks of the java, java.tomcat, and java.tomee modules to sap_java_buildpack_jakarta. Note that this transition involves more than just configuration updates and may require code modifications.  See:  Migrate your Applications to SAP Java Buildpack 2  SAP Java Buildpack 2: Jakarta-Based, Fresh and New!  TomEE 10 has landed in SAP Java Buildpack 2!  
+Action: Required
+Lifecycle: Deprecated
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-06-12
+Valid as Of: 2025-06-12
+Version: Cloud
+
+--- Record 650 ---
+Component: Cloud Logging
+Environment: Cloud Foundry
+Title: Upcoming OpenSearch Stack Update
+Description: Heads-Up: Cloud Logging will upgrade its underlying OpenSearch stack from OpenSearch 1.3 to OpenSearch 2.19. The upgrade will be done in a phased approach allowing for an extensive preview/exploration phase before the eventual forced upgrade.  Action Required: For most instances, there should be no changes. However, you might be affected if you are using anything of the following:      mapping types in your custom indices  Destination API to manage destinations  Wildcard queries against text fields with the option case_insensitive:false      For detailed guidance on how to address these cases and the timelines for the phased rollout, see SAP Note 3617458 .  In case you build dashboards on your own: we noticed a few minor UI glitches (such as text wrapping, sizing, alignment difference). We will publish guidance on how to adapt the dashboards in early Q3, 2025.
+Action: Required
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2025-06-12
+Valid as Of: 2025-06-12
+Version: Cloud
+

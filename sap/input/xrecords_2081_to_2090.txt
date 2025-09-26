@@ -1,0 +1,130 @@
+--- Record 2081 ---
+Component: SAP Datasphere
+Environment: Cloud Foundry
+Title: Features for Version 2024.22
+Description: New and changed features are available for administration, data integration, and data privacy and protection.  For more information, see What's New in SAP Datasphere 2024.22. 
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-10-22
+Valid as Of: 2024-10-22
+Version: Cloud
+
+--- Record 2082 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: Extracted Line Items
+Description: You can now extract the line item globalTradeItemNumber from purchaseOrder documents.  See Extracted Line Items (Base Edition and Premium Edition).
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Intelligent Technologies
+Latest Revision: 2024-10-22
+Valid as Of: 2024-10-22
+Version: Cloud
+
+--- Record 2083 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: New Improved ML Models for Invoice, Purchase Order, and Payment Advice
+Description: We’ve improved the machine learning models for the document types invoice, purchase order, and payment advice.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Intelligent Technologies
+Latest Revision: 2024-10-22
+Valid as Of: 2024-10-22
+Version: Cloud
+
+--- Record 2084 ---
+Component: SAP Document AI
+Environment: Cloud Foundry
+Title: New Schema API Endpoint - Update Schema Version
+Description: You can now update the descriptions of schema versions using the new Schema API endpoint Update Schema Version.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Intelligent Technologies
+Latest Revision: 2024-10-22
+Valid as Of: 2024-10-22
+Version: Cloud
+
+--- Record 2085 ---
+Component: Java Server
+Environment: Neo
+Title: New runtime for Java applications
+Description: The Java Web Tomcat 10 (Beta) runtime for Java applications in the Neo environment is available as a Beta feature. It leverages Apache Tomcat 10.1 Web Container without modifications and adds the already established set of SAP BTP services client APIs. It supports a subset of the Jakarta EE 10 APIs.  See Java Web Tomcat 10.
+Action: Info only
+Lifecycle: Beta
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-10-21
+Valid as Of: 2024-10-21
+Version: Cloud
+
+--- Record 2086 ---
+Component: SAP Build Apps
+Environment: Cloud Foundry
+Title: Web & Mobile
+Description:     You now have an easier way to integrate BTP destinations created in the SAP BTP Cockpit and enabled for SAP Build Apps. For more information, see the Integration with SAP Systems article.      You can now discover, integrate, and use any preconfigured action that is published in the SAP Build Library. To learn more, see Actions article.      In the History tab, you can now see all previously saved states of the app. Using the Restore button, you can restore the application to the respective saved state.    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-10-21
+Valid as Of: 2024-10-21
+Version: Cloud
+
+--- Record 2087 ---
+Component: SAP Build Work Zone, advanced edition
+Environment: Cloud Foundry
+Title: Deprecation of the Integration with SAP Mobile Cards App
+Description: The integration with the SAP Mobile Cards app has been deprecated.  Customers using this app can switch to the SAP Build Work Zone Advanced mobile app instead.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-10-14
+Valid as Of: 2024-10-21
+Version: 2410A
+
+--- Record 2088 ---
+Component: SAP S/⁠4HANA Cloud for Credit Integration
+Environment: Cloud Foundry
+Title: Deprecation of integration using SAP Event Mesh
+Description:     Information for SAP S/4HANA Releases 2022 and 2023:  The use of SAP Event Mesh is deprecated for new customers integrating with SAP S/⁠4HANA Cloud for credit integration. If you want to use the mass import for new credit information, you can establish communication between SAP systems using OAuth 2.0.  More information: Create SAP Event Mesh Instance (Deprecated)  (Log on with your SAP ID to access this document.)      Information for SAP S/4HANA Cloud:  The use of SAP Event Mesh is deprecated for new customers integrating with SAP S/⁠4HANA Cloud for credit integration. If you want to use the mass import for new credit information, open a support ticket for the following component for more information: FIN-FSCM-CAI  More information: Create SAP Event Mesh Instance (Deprecated)  (Log on with your SAP ID to access this document.)    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Finance
+Latest Revision: 2024-10-21
+Valid as Of: 2024-10-21
+Version: Cloud
+
+--- Record 2089 ---
+Component: Workflow Capability
+Environment: Cloud Foundry
+Title: Transition to SAP Build Process Automation
+Description: Due to the deprecation of instance-secrets on service instances, the transitioning guide to SAP Build Process Automation has been updated.  For more information, see Adapt the bpmworkflowruntimeoauth Destination.
+Action: Required
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-10-18
+Valid as Of: 2024-10-18
+Version: Cloud
+
+--- Record 2090 ---
+Component: Continuous Integration & Delivery
+Environment: Cloud Foundry
+Title: Security Update
+Description: We have improved our security for our backend ingresses, which now exclusively allows TLS 1.3. This will impact customers who have configured the Cloud Connector for, for example, on-premises source code management systems or Sonar Server. Cloud Connectors running on older Java versions will not be able to connect anymore.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-10-18
+Valid as Of: 2024-10-18
+Version: Cloud
+

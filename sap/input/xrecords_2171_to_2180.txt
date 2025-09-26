@@ -1,0 +1,130 @@
+--- Record 2171 ---
+Component: HTML5 Applications
+Environment: Neo
+Title: Support of the OpenID Connect (OIDC) authentication method
+Description: You can protect your HTML5 applications using OpenID Connect (OIDC) authentication, which authenticates the user against the configured Identity Authentication service (IAS). See Application Descriptor File > Authentication.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-10-03
+Valid as Of: 2024-10-03
+Version: Cloud
+
+--- Record 2172 ---
+Component: Joule
+Environment: Cloud Foundry
+Title: Data Center Availability
+Description: Joule is now available in the Japan (Tokyo) data center of AWS. See Data Centers Supported by Joule
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-10-03
+Valid as Of: 2024-10-03
+Version: Cloud
+
+--- Record 2173 ---
+Component: Multitarget Applications for Cloud Foundry
+Environment: Cloud Foundry
+Title: Introduced application-specific timeouts
+Description: You can now specify application-specific timeouts for different phases of the application lifecycle. The phases include upload, stage, start, and task execution. Timeouts can be set when the cf deploy command is triggered or inside the MTA descriptors. For more information about the new parameters, see Applications.  Note  With this improvement, a legacy undocumented behavior is changed. When startTimeout is set, it will no longer be valid for other phases such as app tasks execution timeout.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-10-03
+Valid as Of: 2024-10-03
+Version: Cloud
+
+--- Record 2174 ---
+Component: SAP BTP Cockpit,SAP SaaS Provisioning Service
+Environment: ABAP,Cloud Foundry,Kyma,Neo,Other
+Title: SAP Cloud Management - Displaying Who Created and Last Modified Environment Instances and Subscriptions in the SAP BTP Cockpit
+Description: We've added Created By and Modified By fields to the  Instances and Subscriptions page in the SAP BTP cockpit to show who created and modified environment instances and subscriptions.  Note that the feature is currently available for environment instances and subscriptions.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-09-27
+Valid as Of: 2024-10-03
+Version: Cloud
+
+--- Record 2175 ---
+Component: SAP BTP, Cloud Foundry Runtime
+Environment: Cloud Foundry
+Title: Version 43.3.0
+Description: Cloud Foundry has been updated from 42.2.0 to 43.3.0.    https://github.com/cloudfoundry/cf-deployment/releases/tag/v43.3.0  https://github.com/cloudfoundry/cf-deployment/releases/tag/v43.2.0  https://github.com/cloudfoundry/cf-deployment/releases/tag/v43.1.0  https://github.com/cloudfoundry/cf-deployment/releases/tag/v43.0.0  https://github.com/cloudfoundry/cf-deployment/releases/tag/v42.6.0  https://github.com/cloudfoundry/cf-deployment/releases/tag/v42.5.0  https://github.com/cloudfoundry/cf-deployment/releases/tag/v42.4.0  https://github.com/cloudfoundry/cf-deployment/releases/tag/v42.3.0  
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-10-03
+Valid as Of: 2024-10-03
+Version: Cloud
+
+--- Record 2176 ---
+Component: SAP Java Buildpack
+Environment: Cloud Foundry
+Title: Version 1.104.0
+Description: SAP Java Buildpack 1 has been updated from version 1.103.0 to 1.104.0. Updated components:      Apache Tomcat 9 is updated from version 9.0.91 to 9.0.94      SnakeYAML is updated from version 2.2 to 2.3      org.apache.logging.log4j is updated from version 2.23.1 to 2.24.0      com.sap.xs.onpremise.runtime is updated from version 1.2.5 to 1.2.6      org.apache.httpcomponents.core5.httpcore5 is updated from version 5.2.5 to 5.3      org.apache.httpcomponents.core5.httpcore5-h2 is updated from version 5.2.5 to 5.3    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-09-17
+Valid as Of: 2024-10-03
+Version: Cloud
+
+--- Record 2177 ---
+Component: SAP Java Buildpack
+Environment: Cloud Foundry
+Title: Version 2.18.0
+Description: SAP Java Buildpack 2 has been updated from version 2.17.0 to 2.18.0. Updated components:      Apache Tomcat 10 is updated from version 10.1.26 to 10.1.29      SnakeYAML is updated from version 2.2 to 2.3      org.apache.logging.log4j is updated from version 2.23.1 to 2.24.0      com.sap.xs.onpremise.runtime is updated from version 1.2.5 to 1.2.6    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-09-17
+Valid as Of: 2024-10-03
+Version: Cloud
+
+--- Record 2178 ---
+Component: SAPUI5
+Environment: ABAP,Cloud Foundry,Kyma,Neo,Other
+Title: SAPUI5 Distribution 1.129
+Description: SAPUI5 version 1.129 has been released for UI development and can now be consumed by SAP BTP services. It’s up to the services to determine when they start using the new version.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2024-10-02
+Valid as Of: 2024-10-03
+Version: Cloud
+
+--- Record 2179 ---
+Component: Continuous Integration & Delivery
+Environment: Cloud Foundry
+Title: Deprecation of the Container-Based Applications Pipeline
+Description: The Container-Based Applications pipeline has been deprecated and is no longer available for new jobs. Existing jobs will continue to work until December 31st, 2024.  We recommend to use the Kyma Runtime pipeline, instead.
+Action: Info only
+Lifecycle: Deprecated
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-10-02
+Valid as Of: 2024-10-02
+Version: Cloud
+
+--- Record 2180 ---
+Component: Continuous Integration & Delivery
+Environment: Cloud Foundry
+Title: Deprecation of the SAP Fiori for the Neo Environment Pipeline
+Description:  Due to the legacy Neo environment sunset on December 31, 2028, the SAP Fiori in the Neo Environment pipeline has been deprecated and is no longer available for new jobs. See Farewell, Neo! SAP BTP, multi-cloud environment – the deployment environment of choice.  Existing jobs will continue to work until December 31st, 2024.
+Action: Info only
+Lifecycle: Deprecated
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-10-02
+Valid as Of: 2024-10-02
+Version: Cloud
+

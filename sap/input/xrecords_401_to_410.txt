@@ -1,0 +1,130 @@
+--- Record 401 ---
+Component: Availability Service
+Environment: Cloud Foundry
+Title: Major performance improvement for Expservpush tester
+Description: In our efforts to improve the reliability and performance of the expservpush tester, we made significant improvement in the scheduling module of the service.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-07-24
+Valid as Of: 2025-07-24
+Version: Cloud
+
+--- Record 402 ---
+Component: Cloud Logging
+Environment: Cloud Foundry,Kyma,Other
+Title: Cloud Logging service now supports ingestion and visualization of SAP BTP, Cloud Foundry Runtime Container metrics.
+Description: Receive SAP BTP, Cloud Foundry runtime resource metrics (CPU, memory, ...) on NEW bindings or REBINDS.   To receive the metrics with user-provided services append ?drain-data=all to the syslog drain URL.  The new metrics can be investigated in "Container Metrics" dashboard under the "Four Golden Signals" in the navigation. The metrics are stored in OpenTelemetry compatible format and can be access via the metrics-otel-v1-* index pattern.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-07-24
+Valid as Of: 2025-07-24
+Version: Cloud
+
+--- Record 403 ---
+Component: Connectivity
+Environment: Cloud Foundry
+Title: Destination Service - Destinations Editor
+Description: The Destinations editor, which is the administrative UI of the Destination service, will be replaced with a new set of UIs for destination management by end of October 2025.  For more information, see Replacement of the Old Destinations Editor with a New Set of UIs.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2025-07-24
+Valid as Of: 2025-07-24
+Version: Cloud
+
+--- Record 404 ---
+Component: Job Scheduling Service
+Environment: Cloud Foundry,Kyma
+Title: New Resource Tags for Job Execution and Task Execution Service Events
+Description: The following new resource tags and their respective values are added to the list of event properties that can be matched by SAP Alert Notification service for SAP BTP:    runStatus      runState      scheduleDescription      See:    SAP Job Scheduling Service Job Execution      SAP Job Scheduling Service Task Execution    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-07-24
+Valid as Of: 2025-07-24
+Version: Cloud
+
+--- Record 405 ---
+Component: Joule
+Environment: Cloud Foundry
+Title: Document Grounding Capability - Pipeline Content Update
+Description: You can now send a POST request to the endpoint <url>/pipeline/api/v1/pipeline/trigger to manually trigger a pipeline to start the content update process for the document grounding capability.  See Set Up Content Ingestion.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-07-24
+Valid as Of: 2025-07-24
+Version: Cloud
+
+--- Record 406 ---
+Component: Joule
+Environment: Cloud Foundry
+Title: New Transactional Use Case Available in SAP SuccessFactors
+Description: The use case View time off instructions has been converted from Navigational to Transactional, and is now available in mobile apps.  For more information, refer to New Transactional Use Case Available in Joule - July 2025.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-07-20
+Valid as Of: 2025-07-24
+Version: Cloud
+
+--- Record 407 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Istio module: Update to version 1.19.3
+Description: Version 1.19.3 introduces the following improvements:    We've fixed a bug where labels of the Istio managed resources were not correctly reconciled.  We've fixed a bug where the app.kubernetes.io/version label was not set to the proper version in the managed resources.    Version 1.19.2 introduces the following improvements:    We've updated the Istio version to 1.26.2. For more information, read the Istio 1.26.2 release announcement and Istio 1.26.0 release announcement.  We've fixed a bug where the proxy-protocol EnvoyFilter applied by the Istio module on AWS clusters with ELB load balancers was incorrectly detected as a user resource. This resulted in the Istio custom resource being set to the Warning state. See issue #1491.    Version 1.19.1 introduces the following improvement:    We've fixed an issue where defining multiple external authorizers in the Istio CR resulted in only the last one being configured in the Istio installation configuration.    Version 1.19.0 introduces the following improvements:      We've updated Istio to version 1.26.1 (#1463). Read the Istio 1.26.1 release announcement and Istio 1.26.0 release announcement.      EnvoyFilters not created by the API Gateway module's RateLimit are now detected. When the module detects such an EnvoyFilter, it sets the Istio custom resource (CR) to the Warning state.    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-07-22
+Valid as Of: 2025-07-24
+Version: Cloud
+
+--- Record 408 ---
+Component: Monitoring Service
+Environment: Neo
+Title: REST APIs
+Description: The monitoring REST APIs now include a rate limit for the number of requests per subaccount as status code 429 is returned when the limit is reached. Previously, the request rate was limited only per user. See Monitoring Service REST APIs.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-07-21
+Valid as Of: 2025-07-24
+Version: Cloud
+
+--- Record 409 ---
+Component: Multitarget Applications for Cloud Foundry
+Environment: Cloud Foundry
+Title: New Module-Specific Parameter
+Description: You can skip the deployment of specified modules by using the skip-deploy parameter.  See Module-Specific Parameters.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-07-24
+Valid as Of: 2025-07-24
+Version: Cloud
+
+--- Record 410 ---
+Component: SAP BTP Cockpit
+Environment: Cloud Foundry
+Title: Events Page at Space Level: Improvements
+Description: The updated Events page at the space level in the cockpit provides the following improvements:      Events page renamed to Space Events for improved clarity      Actee column renamed to Target      Searching by actor or target      More Details button in the Description column in case of long event descriptions      Faster page loading      Note  Not all search results are loaded immediately. To add more results to your search, choose Load More. Each Load More action adds up to 200 space events to your search.
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-07-21
+Valid as Of: 2025-07-24
+Version: Cloud
+

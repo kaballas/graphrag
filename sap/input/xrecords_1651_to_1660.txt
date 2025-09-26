@@ -1,0 +1,130 @@
+--- Record 1651 ---
+Component: Integration Suite General Features
+Environment: Cloud Foundry
+Title: SAP Integration Suite Documentation Survey
+Description: Help us improve the SAP Integration Suite documentation by sharing your experience. Please take a moment to complete this short survey.  We'd love to hear from you!
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-01-11
+Valid as Of: 2025-01-11
+Version: 2412
+
+--- Record 1652 ---
+Component: Migration Assessment
+Environment: Cloud Foundry
+Title: Effort Estimation Data in Scenario Evaluation Reports
+Description: You can now access effort estimation data in your scenario evaluation spreadsheet exports.  For information on creating scenario evaluation reports, check Create a Scenario Evaluation Request .
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-01-11
+Valid as Of: 2025-01-11
+Version: 2412
+
+--- Record 1653 ---
+Component: Migration Assessment
+Environment: Cloud Foundry
+Title: Performance Data for Integration Scenarios
+Description: Performance details, such as message sizes and processing times, are now available for each scenario in the scenario evaluation spreadsheet export.Note  To access these details in your data extraction, ensure performance data collection is enabled on your PO System and perform a new data extraction. For more information, visit Add an SAP Process Orchestration System and Create a Data Extraction Request.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-01-11
+Valid as Of: 2025-01-11
+Version: 2412
+
+--- Record 1654 ---
+Component: Migration Assessment
+Environment: Cloud Foundry
+Title: Software Version Update
+Description:     Migration Assessment: 1.35.*      Increment: 2412    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2025-01-11
+Valid as Of: 2025-01-11
+Version: 2412
+
+--- Record 1655 ---
+Component: Trading Partner Management
+Environment: Cloud Foundry
+Title: Archive Sender/Receiver Interchange Payloads
+Description: You can now configure the archive settings for the sender/receiver interchange payloads across multiple agreements at once.  See: Update Payload Archive Settings
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-01-11
+Valid as Of: 2025-01-11
+Version: 2412
+
+--- Record 1656 ---
+Component: Trading Partner Management
+Environment: Cloud Foundry
+Title: Software Version Update
+Description:   SAP Cloud Integration: 6.61.*  Increment: 2412  
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-01-11
+Valid as Of: 2025-01-11
+Version: 2412
+
+--- Record 1657 ---
+Component: Trading Partner Management
+Environment: Cloud Foundry
+Title: Support for CMIS Search Attributes
+Description: To support searching archived B2B payloads in CMIS, the B2B Archiving feature has made the standard search fields in the B2B monitor and custom search attributes searchable.  See: Archiving Payload Data
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-01-11
+Valid as Of: 2025-01-11
+Version: 2412
+
+--- Record 1658 ---
+Component: Continuous Integration & Delivery
+Environment: Cloud Foundry
+Title: CI/CD Overview Page on the SAP Help Portal
+Description: The Continuous Integration and Delivery by SAP overview page has been removed from the SAP Help Portal. You can now find all relevant information about CI/CD by SAP on the product page of SAP Continuous Integration and Delivery. See SAP Continuous Integration and Delivery.
+Action: Info only
+Lifecycle: Deleted
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-01-10
+Valid as Of: 2025-01-10
+Version: Cloud
+
+--- Record 1659 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: API Gateway module: Update to version 1.10.2
+Description: The new version brings the following improvements:  We've implemented a faster requeue when the error object has been modified occurs.  We've added full support for special characters in asterisk paths.   
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2025-01-09
+Valid as Of: 2025-01-10
+Version: Cloud
+
+--- Record 1660 ---
+Component: Availability Service
+Environment: Cloud Foundry
+Title: Option to Deactivate/Activate monitors
+Description: AvS offers the option to temporarily deactivate and (re-)activate the execution of measurements on the tester services. On a monitor level you can do it in the monitor details menu. For API usage, use the endpoint /v2/evaluationmetadata/{evaluationId}/lifecycle with the lifecycle options INACTIVE and ACTIVE respectively.
+Action: Info only
+Lifecycle: General Availability
+Type: Announcement
+Line of Business: Technology
+Latest Revision: 2025-01-09
+Valid as Of: 2025-01-09
+Version: Cloud
+

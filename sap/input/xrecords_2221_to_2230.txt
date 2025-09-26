@@ -1,0 +1,130 @@
+--- Record 2221 ---
+Component: Identity Provisioning
+Environment: Neo
+Title: SAP Ariba Central Invoice Management connector
+Description: Identity Provisioning supports the SAP Ariba Central Invoice Management connector. You can configure it as source, target, and proxy system for your provisioning scenarios. See:      SAP Ariba Central Invoice Management (Source)      SAP Ariba Central Invoice Management (Target)      SAP Ariba Central Invoice Management (Proxy)    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-09-25
+Valid as Of: 2024-09-25
+Version: Cloud
+
+--- Record 2222 ---
+Component: Identity Provisioning
+Environment: Neo
+Title: SAP Data Custodian - filter users by group display name
+Description: The default write transformation is changed to support provisioning of users that are members of groups matching the set dc.group.prefix. This is possible by including a condition for filtering the users by group display name of their assigned groups. If the dc.group.prefix is set, only users assigned to groups that contain in their display name the set specific prefix will be provisioned. In case the property is not set, all users are provisioned to SAP Data Custodian, regardless of the group display name of their assigned groups.  For more information, see SAP Data Custodian (Target). 
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-09-25
+Valid as Of: 2024-09-25
+Version: Cloud
+
+--- Record 2223 ---
+Component: Identity Provisioning
+Environment: Neo
+Title: SAP Datasphere connector
+Description: Identity Provisioning supports the SAP Datasphere connector. You can configure it as source, target and proxy system for your provisioning scenarios. See:      SAP Datasphere (Source)      SAP Datasphere (Target)      SAP Datasphere (Proxy)    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-09-25
+Valid as Of: 2024-09-25
+Version: Cloud
+
+--- Record 2224 ---
+Component: Identity Provisioning
+Environment: Neo
+Title: SAP HANA Cloud, SAP HANA Database connector
+Description: Identity Provisioning supports the SAP HANA Cloud, SAP HANA Database connector. You can configure it as source, target, and proxy system for your provisioning scenarios. See:      SAP HANA Cloud, SAP HANA Database (Source)      SAP HANA Cloud, SAP HANA Database (Target)      SAP HANA Cloud, SAP HANA Database (Proxy)    
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-09-25
+Valid as Of: 2024-09-25
+Version: Cloud
+
+--- Record 2225 ---
+Component: Identity Provisioning
+Environment: Neo
+Title: Skip create and delete operations of groups - removed
+Description: Skipping the create and delete operations for groups has been removed from the write transformations of the SAP BTP XS Advanced UAA (Cloud Foundry) target system.  Previously, it was not possible to create or delete groups; it was expected that groups already exist in the target system, allowing Identity Provisioning to only update their members. Now, creating, updating, and deleting groups follow the standard processes.  See: SAP BTP XS Advanced UAA (Cloud Foundry)
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-09-25
+Valid as Of: 2024-09-25
+Version: Cloud
+
+--- Record 2226 ---
+Component: Identity Provisioning
+Environment: Neo
+Title: Support for OAuth certificate authentication
+Description: SAP CPQ supports OAuth certificate authentication.  See: SAP CPQ
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-09-25
+Valid as Of: 2024-09-25
+Version: Cloud
+
+--- Record 2227 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Telemetry module: Update to version 1.23.0
+Description: The new version brings the following improvements:      Logs, Metrics, and Traces: Additional validation of URLs in outputs (#1106).      Logs: Prevent that the deletion of a Logpipeline could lead to an agent crashloop (#1425).      Logs: Improved the rules indicating the LogPipeline status “NoLogsDelivered” status (#1358).      Traces and Metrics: Update to OTel Collector 0.108.0 (#1426).    
+Action: Info only
+Lifecycle: General Availability
+Type: Changed
+Line of Business: Technology
+Latest Revision: 2024-09-11
+Valid as Of: 2024-09-25
+Version: Cloud
+
+--- Record 2228 ---
+Component: Kyma Runtime
+Environment: Kyma
+Title: Regions: Brazil (São Paulo) and Australia (Sydney)
+Description: Brazil (São Paulo) (cf-br20) running on Microsoft Azure is now available as a new region for use with enterprise accounts and Partner Test, Demo, and Development accounts (azure_lite).  Brazil (São Paulo) (cf-br30) and Australia (Sydney) (cf-ap30) running on Google Cloud are now available as new regions for use with enterprise accounts.  See Regions for the Kyma Environment and Provisioning and Updating Parameters in the Kyma Environment.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-09-24
+Valid as Of: 2024-09-24
+Version: Cloud
+
+--- Record 2229 ---
+Component: SAP Datasphere
+Environment: Cloud Foundry
+Title: Features for Version 2024.20
+Description: New and changed features are available for administration, data cataloging, data integration, and data modeling.  For more information, see What's New in SAP Datasphere 2024.20. 
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-09-24
+Valid as Of: 2024-09-24
+Version: Cloud
+
+--- Record 2230 ---
+Component: UI Theme Designer
+Environment: Cloud Foundry
+Title: Parameter Explorer
+Description: Browse the theming base content parameters with the parameter explorer of the GitHub theming-base-content repository.
+Action: Info only
+Lifecycle: General Availability
+Type: New
+Line of Business: Technology
+Latest Revision: 2024-01-01
+Valid as Of: 2024-09-24
+Version: Cloud
+
