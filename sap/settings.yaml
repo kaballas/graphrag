@@ -8,13 +8,13 @@
 models:
   default_chat_model:
     type: openai_chat # or azure_openai_chat
-    api_base: https://powered-presentations-halifax-addressing.trycloudflare.com/v1
+    api_base: https://kaballas-doe-work.hf.space/api/v1/openai/
     # api_version: 2024-05-01-preview
     auth_type: api_key # or azure_managed_identity
     api_key: ${API} # set this in the generated .env file
     # audience: "https://cognitiveservices.azure.com/.default"
     # organization: <organization_id>
-    model: Qwen/Qwen3-14B
+    model: gpt-4o
     # deployment_name: <azure_model_deployment_name>
     # encoding_model: cl100k_base # automatically set by tiktoken if left undefined
     model_supports_json: true # recommended if this is available for your model.

@@ -1,100 +1,73 @@
-
 -Goal-
-
 Given SAP “What’s New” release notes and a list of entity types, extract entities and relationships.
 
-Steps
-
+-Steps-
 Entity extraction
-
-Identify relevant entities such as:
-
-SAP products, services, or components (e.g., Authorization and Trust Management Service, Neo).
-
-Technical objects (e.g., Root Certificate, instance-secret credential type).
-
-Organizations (e.g., DigiCert).
-
-Geographies, dates, or other provided entity types [{entity_types}].
-
-For each entity, output:
-
-entity_name: Uppercased.
-
-entity_type: One of [{entity_types}].
-
-entity_description: ≤25 words, focusing on SAP context and lifecycle impact.
-
-Format:
+• Emit entities only if their type ∈ [{entity_types}] after normalization to UPPERCASE.
+• When TECHNOLOGY is NOT in [{entity_types}], do NOT emit products/services/environments as entities; represent such changes as EVENT entities.
+• PERSON must be a named individual. Do NOT output roles or groups.
+• GEO must be a real-world geography.
+• Construct EVENT entities whenever a record describes a release, upgrade, deprecation, migration, fix, enablement, or new capability.
+  – Name pattern: <SHORT TITLE> — <ISO DATE if present> (prefer “Valid as Of”; else “Latest Revision”).
+• For each entity output:
+  – entity_name: UPPERCASED
+  – entity_type: One of [{entity_types}] (UPPERCASED)
+  – entity_description: ≤25 words, factual, tied to the source text
+• Format:
 ("entity"{tuple_delimiter}<entity_name>{tuple_delimiter}<entity_type>{tuple_delimiter}<entity_description>)
 
 Relationship extraction
-
-From identified entities, extract pairs where the text shows a clear dependency, lifecycle change, or impact.
-
-For each relationship, output:
-
-source_entity
-
-target_entity
-
-relationship_description: ≤20 words, focusing on SAP impact.
-
-relationship_strength: Integer 1–10 (1 = weak, 10 = strong).
-
-Format:
+• Use only entities emitted in step 1.
+• Emit a relationship only if the text states a clear dependency/impact between two emitted entities.
+• relationship_description ≤20 words; relationship_strength ∈ {{1..10}}.
+• Format:
 ("relationship"{tuple_delimiter}<source_entity>{tuple_delimiter}<target_entity>{tuple_delimiter}<relationship_description>{tuple_delimiter}<relationship_strength>)
 
-Output rules
+-Output rules-
+• Return all entities and then relationships in a single flat list.
+• Separate items with {record_delimiter}.
+• End with {completion_delimiter}.
+• If no relationships qualify, emit none.
+• If at least one record exists and TECHNOLOGY is not allowed, emit at least one EVENT per qualifying record.
 
-Return all entities and relationships in a single list.
+-Validation (drop offending item)-
+• No internal reasoning markers (e.g., <think>, analysis).
+• entity_type not in [{entity_types}] → drop.
+• GEO not a real place → drop.
+• PERSON not a named individual → drop.
+• Products/services/environments emitted when TECHNOLOGY not allowed → drop.
+• Descriptions exceeding limits → truncate without changing meaning.
+• Case: entity_name and entity_type must be UPPERCASE.
 
-Separate items with {record_delimiter}.
-
-End with {completion_delimiter}.
-
-Constraints
-
-Do not fabricate SAP changes.
-
-Always tie entities and relationships back to the actual lifecycle, component, or action described.
-
-Minimal Examples
-
-Example 1
-Entity_types: ORGANIZATION, TECHNOLOGY
-
+-Minimal Examples-
+Example A
+Entity_types: ORGANIZATION,EVENT
 Text:
 SAP BTP Neo will switch to DigiCert Global Root G3 for all platform domains by April 2026.
-
 Output:
+("entity"{tuple_delimiter}DIGICERT GLOBAL ROOT G3{tuple_delimiter}ORGANIZATION{tuple_delimiter}Certificate authority replacing DigiCert Global Root G2)
+{record_delimiter}
+("entity"{tuple_delimiter}ROOT CERTIFICATE REPLACEMENT — 2026-04-01{tuple_delimiter}EVENT{tuple_delimiter}Neo platform domains will use certificates signed by DigiCert Global Root G3)
+{record_delimiter}
+("relationship"{tuple_delimiter}ROOT CERTIFICATE REPLACEMENT — 2026-04-01{tuple_delimiter}DIGICERT GLOBAL ROOT G3{tuple_delimiter}Event uses certificates signed by this CA{tuple_delimiter}9)
+{completion_delimiter}
 
-("entity"{tuple_delimiter}SAP BTP NEO{tuple_delimiter}TECHNOLOGY{tuple_delimiter}SAP environment subject to root certificate replacement)  
-{record_delimiter}  
-("entity"{tuple_delimiter}DIGICERT GLOBAL ROOT G3{tuple_delimiter}ORGANIZATION{tuple_delimiter}Root certificate authority replacing DigiCert Global Root G2)  
-{record_delimiter}  
-("relationship"{tuple_delimiter}SAP BTP NEO{tuple_delimiter}DIGICERT GLOBAL ROOT G3{tuple_delimiter}Neo environment certificates will be signed by DigiCert Global Root G3{tuple_delimiter}9)  
-{completion_delimiter}  
-
-
-Example 2
-Entity_types: TECHNOLOGY
-
+Example B
+Entity_types: EVENT
 Text:
-The credential type instance-secret has reached end-of-life. Applications must use binding-secret or x509 instead.
-
+The credential type instance-secret has reached end-of-life. Use binding-secret or x509 instead.
 Output:
+("entity"{tuple_delimiter}INSTANCE-SECRET END-OF-LIFE — 2024-11-12{tuple_delimiter}EVENT{tuple_delimiter}Deprecated credential; replacements are binding-secret or x509 per guidance)
+{completion_delimiter}
 
-("entity"{tuple_delimiter}INSTANCE-SECRET{tuple_delimiter}TECHNOLOGY{tuple_delimiter}Deprecated credential type in SAP BTP)  
-{record_delimiter}  
-("entity"{tuple_delimiter}BINDING-SECRET{tuple_delimiter}TECHNOLOGY{tuple_delimiter}Replacement credential type for SAP BTP services)  
-{record_delimiter}  
-("entity"{tuple_delimiter}X509{tuple_delimiter}TECHNOLOGY{tuple_delimiter}Alternative credential type supporting mTLS access)  
-{record_delimiter}  
-("relationship"{tuple_delimiter}INSTANCE-SECRET{tuple_delimiter}BINDING-SECRET{tuple_delimiter}Instance-secret is replaced by binding-secret for service instances{tuple_delimiter}8)  
-{record_delimiter}  
-("relationship"{tuple_delimiter}INSTANCE-SECRET{tuple_delimiter}X509{tuple_delimiter}Instance-secret can also be replaced with x509 for access tokens{tuple_delimiter}6)  
-{completion_delimiter}  
+Example C
+Entity_types: ORGANIZATION,PERSON,GEO,EVENT
+Text:
+Enhancements to Joule in SAP SuccessFactors. Inactive users removed from certain views. Fix for oversized images in “Create spot award”. Valid as Of: 2024-04-03.
+Output:
+("entity"{tuple_delimiter}ENHANCEMENTS TO JOULE IN SAP SUCCESSFACTORS — 2024-04-03{tuple_delimiter}EVENT{tuple_delimiter}Enhancements to Joule features; inactive users removed from results; default image applied for oversized uploads)
+{completion_delimiter}
+
 
 ######################
 -Real Data-
