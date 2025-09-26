@@ -20,6 +20,7 @@ def num_tokens_from_string(
     """Return the number of tokens in a text string."""
     if model is not None:
         try:
+            model = "gpt-4o"
             encoding = tiktoken.encoding_for_model(model)
         except KeyError:
             msg = f"Failed to get encoding for {model} when getting num_tokens_from_string. Fall back to default encoding {DEFAULT_ENCODING_NAME}"
@@ -35,6 +36,7 @@ def string_from_tokens(
 ) -> str:
     """Return a text string from a list of tokens."""
     if model is not None:
+        model = "gpt-4o"
         encoding = tiktoken.encoding_for_model(model)
     elif encoding_name is not None:
         encoding = tiktoken.get_encoding(encoding_name)

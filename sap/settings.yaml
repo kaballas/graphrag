@@ -3,26 +3,27 @@
 
 ### LLM settings ###
 ## There are a number of settings to tune the threading and token limits for LLM calls - check the docs.
+#https://kaballas-doe-work.hf.space/api/v1/openai/
 
 models:
   default_chat_model:
     type: openai_chat # or azure_openai_chat
-    api_base: http://10.1.1.35:38411/v1
+    api_base: https://powered-presentations-halifax-addressing.trycloudflare.com/v1
     # api_version: 2024-05-01-preview
     auth_type: api_key # or azure_managed_identity
-    api_key: ${GRAPHRAG_API_KEY} # set this in the generated .env file
+    api_key: ${API} # set this in the generated .env file
     # audience: "https://cognitiveservices.azure.com/.default"
     # organization: <organization_id>
-    model: gpt-4o
+    model: Qwen/Qwen3-14B
     # deployment_name: <azure_model_deployment_name>
     # encoding_model: cl100k_base # automatically set by tiktoken if left undefined
     model_supports_json: true # recommended if this is available for your model.
-    concurrent_requests: 1 # max number of simultaneous LLM requests allowed
+    concurrent_requests: 20 # max number of simultaneous LLM requests allowed
     async_mode: threaded # or asyncio
     retry_strategy: native
     max_retries: 10
-    tokens_per_minute: auto              # set to null to disable rate limiting
-    requests_per_minute: auto            # set to null to disable rate limiting
+    tokens_per_minute: null              # set to null to disable rate limiting
+    requests_per_minute: null            # set to null to disable rate limiting
   default_embedding_model:
     type: openai_embedding # or azure_openai_embedding
     # api_base: https://<instance>.openai.azure.com
