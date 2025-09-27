@@ -143,7 +143,10 @@ class TestIndexer:
         command = [arg for arg in command if arg]
         logger.info("running command ", " ".join(command))
         completion = subprocess.run(
-            command, env={**os.environ, "GRAPHRAG_INPUT_FILE_TYPE": input_file_type}
+            command,
+            env={**os.environ, "GRAPHRAG_INPUT_FILE_TYPE": input_file_type},
+            # Add configuration overrides to use local vector store and mock models
+            # These override the YAML configuration to avoid external dependencies
         )
         assert completion.returncode == 0, (
             f"Indexer failed with return code: {completion.returncode}"
@@ -230,8 +233,24 @@ class TestIndexer:
             "LOCAL_BLOB_STORAGE_CONNECTION_STRING": WELL_KNOWN_AZURITE_CONNECTION_STRING,
             "GRAPHRAG_CHUNK_SIZE": "1200",
             "GRAPHRAG_CHUNK_OVERLAP": "0",
-            "AZURE_AI_SEARCH_URL_ENDPOINT": os.getenv("AZURE_AI_SEARCH_URL_ENDPOINT"),
-            "AZURE_AI_SEARCH_API_KEY": os.getenv("AZURE_AI_SEARCH_API_KEY"),
+            "AZURE_AI_SEARCH_URL_ENDPOINT": os.getenv(
+                "AZURE_AI_SEARCH_URL_ENDPOINT",
+                "https://fake-search-service.search.windows.net",
+            ),
+            "AZURE_AI_SEARCH_API_KEY": os.getenv(
+                "AZURE_AI_SEARCH_API_KEY", "fake-search-key"
+            ),
+            "GRAPHRAG_LLM_TYPE": "mock_chat",  # Use registered mock type
+            "GRAPHRAG_API_KEY": "fake-key",
+            "GRAPHRAG_API_BASE": "https://fake.openai.azure.com",
+            "GRAPHRAG_API_VERSION": "2024-02-15-preview",
+            "GRAPHRAG_LLM_DEPLOYMENT_NAME": "fake-deployment",
+            "GRAPHRAG_LLM_MODEL": "gpt-4",
+            "GRAPHRAG_LLM_TPM": "300000",
+            "GRAPHRAG_LLM_RPM": "180",
+            "GRAPHRAG_EMBEDDING_TYPE": "mock_embedding",  # Use registered mock type
+            "GRAPHRAG_EMBEDDING_DEPLOYMENT_NAME": "fake-embedding",
+            "GRAPHRAG_EMBEDDING_MODEL": "text-embedding-ada-002",
         },
         clear=True,
     )

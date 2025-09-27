@@ -1,31 +1,44 @@
+# Copyright (c) 2024 Microsoft Corporation.
+# Licensed under the MIT License
+
 """Runtime patches for fnllm provider integrations."""
 
 from __future__ import annotations
 
-import logging
 import json
-from collections.abc import Iterator
-from typing import Any, Optional, cast
-
-from openai.types.chat import ChatCompletion
-from openai.types.chat.chat_completion_message_param import (
-    ChatCompletionMessageParam,
-)
+import logging
+from typing import TYPE_CHECKING, Any, cast
 
 from fnllm.openai.llm.openai_text_chat_llm import (
-    OpenAITextChatLLMImpl,
     OpenAINoChoicesAvailableError,
+    OpenAITextChatLLMImpl,
 )
-from fnllm.openai.types.chat.io import (
-    OpenAIChatCompletionInput,
-    OpenAIChatHistoryEntry,
-    OpenAIChatOutput,
-)
-from fnllm.openai.types.chat.parameters import OpenAIChatParameters
+from fnllm.openai.types.chat.io import OpenAIChatOutput
 from fnllm.openai.utils import build_chat_messages
-from fnllm.types.generics import TJsonModel
-from fnllm.types.io import LLMInput
 from fnllm.types.metrics import LLMUsageMetrics
+from openai.types.chat import ChatCompletion
+
+if TYPE_CHECKING:
+    from collections.abc import Iterator
+
+    from fnllm.openai.types.chat.io import (
+        OpenAIChatCompletionInput,
+        OpenAIChatHistoryEntry,
+    )
+    from fnllm.openai.types.chat.parameters import OpenAIChatParameters
+    from fnllm.types.generics import TJsonModel
+    from fnllm.types.io import LLMInput
+    from openai.types.chat.chat_completion_message_param import (
+        ChatCompletionMessageParam,
+    )
+else:  # pragma: no cover - type aliases for runtime
+    OpenAIChatCompletionInput = Any
+    OpenAIChatHistoryEntry = Any
+    OpenAIChatParameters = Any
+    TJsonModel = Any
+    Iterator = Any
+    LLMInput = dict[str, Any]
+    ChatCompletionMessageParam = Any
 
 logger = logging.getLogger(__name__)
 
@@ -34,13 +47,18 @@ _PATCH_APPLIED = False
 
 def _extract_response_body(raw_response: Any) -> str:
     """Return the raw HTTP response body if available."""
+    http_response = getattr(raw_response, "http_response", None)
+    if http_response is None:
+        return "<no http response>"
     try:
-        return raw_response.http_response.text
-    except Exception as exc:  # pragma: no cover - defensive
+        return http_response.text
+    except (AttributeError, TypeError) as exc:  # pragma: no cover - defensive
         return f"<failed to read response body: {exc}>"
 
 
-def _build_response_details(raw_response: Any, parsed: Optional[Any] = None) -> dict[str, Any]:
+def _build_response_details(
+    raw_response: Any, parsed: Any | None = None
+) -> dict[str, Any]:
     """Collect HTTP response metadata for logging."""
     http_response = getattr(raw_response, "http_response", None)
     request = getattr(http_response, "request", None)
@@ -59,9 +77,7 @@ def _format_detail_message(details: dict[str, Any]) -> str:
     url = details.get("url")
     body = details.get("response_body")
     parsed = details.get("parsed_type")
-    return (
-        f"status={status} url={url} parsed={parsed} body={body}"
-    )
+    return f"status={status} url={url} parsed={parsed} body={body}"
 
 
 def _normalize_completion(completion: Any, raw_response: Any) -> Any:
@@ -81,10 +97,10 @@ def _normalize_completion(completion: Any, raw_response: Any) -> Any:
     return completion
 
 
-def _coalesce_stream_chunks(text: str) -> Optional[Any]:
+def _coalesce_stream_chunks(text: str) -> dict[str, Any] | None:
     """Attempt to turn an SSE streaming payload into a completion-like object."""
     chunks = []
-    last_payload: Optional[dict[str, Any]] = None
+    last_payload: dict[str, Any] | None = None
     for raw_line in text.splitlines():
         line = raw_line.strip()
         if not line.startswith("data:"):
@@ -147,18 +163,17 @@ async def _execute_llm_with_logging(
     parameters = self._build_completion_parameters(local_model_parameters)
 
     raw_response = await self._client.chat.completions.with_raw_response.create(
-        messages=cast(Iterator[ChatCompletionMessageParam], messages),
+        messages=cast("Iterator[ChatCompletionMessageParam]", messages),
         **parameters,
     )
 
     try:
         completion = raw_response.parse()
-    except Exception as exc:
+    except Exception:
         details = _build_response_details(raw_response)
-        logger.error(
+        logger.exception(
             "Failed to parse response from LLM; %s",
             _format_detail_message(details),
-            exc_info=exc,
             extra={"details": details},
         )
         raise
@@ -171,7 +186,7 @@ async def _execute_llm_with_logging(
         choices = completion.choices  # type: ignore[attr-defined]
     except AttributeError:
         details = _build_response_details(raw_response, completion)
-        logger.error(
+        logger.exception(
             "LLM response missing 'choices' field; %s",
             _format_detail_message(details),
             extra={"details": details},
@@ -210,7 +225,7 @@ def apply_patches() -> None:
     global _PATCH_APPLIED
     if _PATCH_APPLIED:
         return
-    OpenAITextChatLLMImpl._execute_llm = _execute_llm_with_logging  # type: ignore[assignment]
+    OpenAITextChatLLMImpl._execute_llm = _execute_llm_with_logging  # type: ignore[assignment]  # noqa: SLF001
     _PATCH_APPLIED = True
 
 

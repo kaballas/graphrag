@@ -143,12 +143,26 @@ class GraphExtractor:
     async def _process_document(
         self, text: str, prompt_variables: dict[str, str]
     ) -> str:
-        response = await self._model.achat(
-            self._extraction_prompt.format(**{
-                **prompt_variables,
-                self._input_text_key: text,
-            }),
-        )
+        safe_text = text
+        if "{" in safe_text or "}" in safe_text:
+            safe_text = safe_text.replace("{", "<<GRAPHRAG_LBRACE>>").replace(
+                "}", "<<GRAPHRAG_RBRACE>>"
+            )
+
+        formatted_prompt = self._extraction_prompt.format(**{
+            **prompt_variables,
+            self._input_text_key: safe_text,
+        })
+
+        if (
+            "<<GRAPHRAG_LBRACE>>" in formatted_prompt
+            or "<<GRAPHRAG_RBRACE>>" in formatted_prompt
+        ):
+            formatted_prompt = formatted_prompt.replace(
+                "<<GRAPHRAG_LBRACE>>", "{"
+            ).replace("<<GRAPHRAG_RBRACE>>", "}")
+
+        response = await self._model.achat(formatted_prompt)
         results = response.output.content or ""
 
         # if gleanings are specified, enter a loop to extract more entities

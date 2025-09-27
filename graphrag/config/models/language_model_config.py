@@ -5,7 +5,6 @@
 
 from typing import Literal
 
-import tiktoken
 from pydantic import BaseModel, Field, model_validator
 
 from graphrag.config.defaults import language_model_defaults
@@ -149,7 +148,6 @@ class LanguageModelConfig(BaseModel):
             and self.encoding_model.strip() == ""
         ):
             self.encoding_model = "cl100k_base"
-            #self.encoding_model = tiktoken.encoding_name_for_model(self.model)
 
     api_base: str | None = Field(
         description="The base URL for the LLM API.",

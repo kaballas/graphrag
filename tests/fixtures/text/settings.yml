@@ -27,9 +27,8 @@ models:
 
 vector_store:
   default_vector_store:
-    type: "azure_ai_search"
-    url: ${AZURE_AI_SEARCH_URL_ENDPOINT}
-    api_key: ${AZURE_AI_SEARCH_API_KEY}
+    type: "lancedb"
+    db_uri: "./tests/fixtures/text/lancedb"
     container_name: "simple_text_ci"
 
 extract_claims:

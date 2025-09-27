@@ -1,4 +1,7 @@
 #!/usr/bin/env python
+# Copyright (c) 2024 Microsoft Corporation.
+# Licensed under the MIT License
+
 """Quick utility for sanity-checking an OpenAI-compatible chat endpoint."""
 
 from __future__ import annotations
@@ -7,7 +10,6 @@ import argparse
 import json
 import os
 import sys
-from typing import Optional
 
 import httpx
 
@@ -44,6 +46,7 @@ def _request(
 
 
 def main() -> int:
+    """Execute the CLI helper and return an appropriate exit status."""
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument(
         "prompt",
@@ -102,34 +105,34 @@ def main() -> int:
             stream=args.stream,
             timeout=args.timeout,
         )
-    except Exception as exc:  # pragma: no cover - interactive utility
-        print(f"Request failed: {exc}", file=sys.stderr)
+    except httpx.HTTPError as exc:  # pragma: no cover - interactive utility
+        sys.stderr.write(f"Request failed: {exc}\n")
         return 1
 
-    print(f"HTTP {response.status_code} {response.reason_phrase}")
-    print("-- response headers --")
+    sys.stdout.write(f"HTTP {response.status_code} {response.reason_phrase}\n")
+    sys.stdout.write("-- response headers --\n")
     for key, value in response.headers.items():
-        print(f"{key}: {value}")
+        sys.stdout.write(f"{key}: {value}\n")
 
-    print("\n-- response body --")
-    body: Optional[str] = None
+    sys.stdout.write("\n-- response body --\n")
+    body: str | None = None
     try:
         body = response.text
-    except Exception as exc:  # pragma: no cover - defensive
-        print(f"<failed to read body: {exc}>")
+    except UnicodeDecodeError as exc:  # pragma: no cover - defensive
+        sys.stdout.write(f"<failed to read body: {exc}>\n")
 
     if body is None:
-        print("<no body>")
+        sys.stdout.write("<no body>\n")
     else:
         if not args.stream:
             try:
                 parsed = json.loads(body)
             except json.JSONDecodeError:
-                print(body)
+                sys.stdout.write(f"{body}\n")
             else:
-                print(json.dumps(parsed, indent=2))
+                sys.stdout.write(f"{json.dumps(parsed, indent=2)}\n")
         else:
-            print(body)
+            sys.stdout.write(f"{body}\n")
 
     if response.is_error:
         return 2
