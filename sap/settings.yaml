@@ -8,7 +8,7 @@
 models:
   default_chat_model:
     type: openai_chat # or azure_openai_chat
-    api_base: https://online-producing-unix-responded.trycloudflare.com/v1
+    api_base: https://compatible-struggle-needs-reading.trycloudflare.com/v1
     # api_version: 2024-05-01-preview
     auth_type: api_key # or azure_managed_identity
     api_key: ${API} # set this in the generated .env file
